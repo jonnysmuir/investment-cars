@@ -343,13 +343,33 @@
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
     });
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
       e.preventDefault();
       const btn = e.target.querySelector('button');
-      btn.textContent = 'Message Sent!';
-      btn.style.opacity = '0.7';
+      const data = Object.fromEntries(new FormData(e.target));
+
+      btn.textContent = 'Sending...';
       btn.disabled = true;
-      e.target.reset();
+
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json();
+
+        if (res.ok) {
+          btn.textContent = 'Message Sent!';
+          e.target.reset();
+        } else {
+          btn.textContent = json.error || 'Something went wrong';
+        }
+      } catch {
+        btn.textContent = 'Network error';
+      }
+
+      btn.style.opacity = '0.7';
       setTimeout(() => {
         btn.textContent = 'Send Message';
         btn.style.opacity = '1';

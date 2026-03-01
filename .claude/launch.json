@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "site",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8080"],
-      "port": 8080
+      "runtimeExecutable": "/tmp/node-v22.14.0-darwin-arm64/bin/node",
+      "runtimeArgs": ["server.js"],
+      "port": 3000
     }
   ]
 }
