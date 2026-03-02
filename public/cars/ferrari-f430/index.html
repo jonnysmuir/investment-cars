@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari F430 Listings — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--color-accent); }
+    .nav-active { color: var(--color-accent) !important; }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
+
+    /* Smooth theme transition */
+    body, nav, footer {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Page header */
+    .page-header {
+      padding: 8rem 3rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .page-description {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    .listing-count {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    /* Card grid */
+    .listings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      padding: 1.5rem 3rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Card */
+    .listing-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .listing-card:hover {
+      border-color: var(--color-accent);
+      transform: translateY(-2px);
+    }
+
+    .listing-card.featured {
+      border-color: var(--color-accent);
+    }
+
+    .card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      background: var(--color-border);
+    }
+
+    .card-image-placeholder {
+      width: 100%;
+      height: 200px;
+      background: var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .card-body {
+      padding: 1.25rem;
+    }
+
+    .card-featured-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      border: 1px solid var(--color-accent);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.35;
+    }
+
+    .card-specs {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .card-specs span {
+      background: var(--color-bg);
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+    }
+
+    .card-price {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.25rem;
+    }
+
+    .card-source {
+      font-size: 0.72rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .card-link {
+      display: inline-block;
+      padding: 0.55rem 1.2rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .card-link:hover { opacity: 0.85; }
+
+    /* Loading & error */
+    .loading, .error-state {
+      text-align: center;
+      padding: 3rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .error-state { color: #c44; }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.5rem; }
+      .page-header { padding: 6rem 1.5rem 1.5rem; }
+      .listings-grid { grid-template-columns: 1fr; padding: 1rem 1.5rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/cars/ferrari-f430" class="nav-active">Ferrari F430</a>
+      <a href="/#contact">Get in Touch</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <p class="section-label">Curated Listings</p>
+    <h1 class="section-title">Ferrari F430</h1>
+    <p class="page-description" id="pageDescription"></p>
+    <span class="listing-count" id="listingCount"></span>
+  </header>
+
+  <main class="listings-grid" id="listingsGrid"></main>
+
+  <div class="loading" id="loadingState">Loading listings…</div>
+  <div class="error-state" id="errorState" style="display: none;"></div>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // Fetch and render listings
+    const grid = document.getElementById('listingsGrid');
+    const loadingEl = document.getElementById('loadingState');
+    const errorEl = document.getElementById('errorState');
+    const descriptionEl = document.getElementById('pageDescription');
+    const countEl = document.getElementById('listingCount');
+
+    async function loadListings() {
+      try {
+        const res = await fetch('/api/listings/ferrari-f430');
+        if (!res.ok) throw new Error('Failed to load');
+
+        const data = await res.json();
+
+        if (descriptionEl && data.description) {
+          descriptionEl.textContent = data.description;
+        }
+
+        loadingEl.style.display = 'none';
+
+        if (!data.listings || data.listings.length === 0) {
+          errorEl.textContent = 'No listings available at the moment. Check back soon.';
+          errorEl.style.display = 'block';
+          return;
+        }
+
+        countEl.textContent = `${data.listings.length} listing${data.listings.length === 1 ? '' : 's'} found`;
+
+        // Sort: featured first, then by dateAdded descending
+        data.listings.sort((a, b) => {
+          if (a.featured && !b.featured) return -1;
+          if (!a.featured && b.featured) return 1;
+          return new Date(b.dateAdded) - new Date(a.dateAdded);
+        });
+
+        grid.innerHTML = data.listings.map(l => `
+          <article class="listing-card${l.featured ? ' featured' : ''}">
+            ${l.image
+              ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
+              : `<div class="card-image-placeholder">No Image</div>`
+            }
+            <div class="card-body">
+              ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
+              <h2 class="card-title">${l.title}</h2>
+              <div class="card-specs">
+                ${l.year ? `<span>${l.year}</span>` : ''}
+                ${l.mileage ? `<span>${l.mileage}</span>` : ''}
+                ${l.transmission ? `<span>${l.transmission}</span>` : ''}
+              </div>
+              ${l.price ? `<div class="card-price">${l.price}</div>` : ''}
+              <div class="card-footer">
+                ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
+                <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link">View Listing</a>
+              </div>
+            </div>
+          </article>
+        `).join('');
+
+      } catch {
+        loadingEl.style.display = 'none';
+        errorEl.textContent = 'Unable to load listings. Please try again later.';
+        errorEl.style.display = 'block';
+      }
+    }
+
+    loadListings();
+  </script>
+
+</body>
+</html>

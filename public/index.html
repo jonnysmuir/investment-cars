@@ -58,7 +58,10 @@
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--color-accent);
+      text-decoration: none;
     }
+
+    .logo:hover { opacity: 0.85; }
 
     nav a {
       color: var(--color-text-muted);
@@ -276,8 +279,9 @@
 <body>
 
   <nav>
-    <div class="logo">Collectorly</div>
+    <a href="/" class="logo">Collectorly</a>
     <div class="nav-right">
+      <a href="/cars/ferrari-f430">Ferrari F430</a>
       <a href="#contact">Get in Touch</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
