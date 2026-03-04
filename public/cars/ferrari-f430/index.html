@@ -462,6 +462,118 @@
       line-height: 1.6;
     }
 
+    /* Filter & sort controls */
+    .filter-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .sort-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      min-width: 52px;
+      flex-shrink: 0;
+    }
+
+    .filter-pill {
+      display: inline-block;
+      padding: 0.3rem 0.7rem;
+      background: var(--color-bg);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border);
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-family: inherit;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .filter-pill:hover {
+      border-color: var(--color-accent);
+      color: var(--color-text);
+    }
+
+    .filter-pill.active {
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-color: var(--color-accent);
+    }
+
+    .sort-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+    }
+
+    .sort-select {
+      background: var(--color-surface);
+      color: var(--color-text);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      font-size: 0.78rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .sort-select:hover,
+    .sort-select:focus {
+      border-color: var(--color-accent);
+      outline: none;
+    }
+
+    .price-range {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .price-input {
+      width: 80px;
+      background: var(--color-surface);
+      color: var(--color-text);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.75rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+
+    .price-input:hover,
+    .price-input:focus {
+      border-color: var(--color-accent);
+      outline: none;
+    }
+
+    .price-sep {
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+    }
+
     /* Responsive */
     @media (max-width: 640px) {
       nav { padding: 1rem 1.5rem; }
@@ -495,6 +607,63 @@
   <header class="page-header">
     <p class="section-label">Classified Listings</p>
     <p class="page-description" id="pageDescription"></p>
+
+    <div class="filter-controls" id="filterControls" style="display: none;">
+      <div class="sort-row">
+        <span class="sort-label">Sort</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="featured">Featured</option>
+          <option value="price-asc">Price: Low–High</option>
+          <option value="price-desc">Price: High–Low</option>
+          <option value="year-desc">Year: Newest</option>
+          <option value="year-asc">Year: Oldest</option>
+          <option value="mileage-asc">Mileage: Lowest</option>
+          <option value="date-desc">Recently Added</option>
+        </select>
+      </div>
+
+      <div class="filter-row" data-filter="year">
+        <span class="filter-label">Year</span>
+        <button class="filter-pill active" data-value="">All</button>
+        <button class="filter-pill" data-value="2005">2005</button>
+        <button class="filter-pill" data-value="2006">2006</button>
+        <button class="filter-pill" data-value="2007">2007</button>
+        <button class="filter-pill" data-value="2008">2008</button>
+        <button class="filter-pill" data-value="2009">2009</button>
+      </div>
+
+      <div class="filter-row" data-filter="body">
+        <span class="filter-label">Body</span>
+        <button class="filter-pill active" data-value="">All</button>
+        <button class="filter-pill" data-value="coupe">Coupe</button>
+        <button class="filter-pill" data-value="spider">Spider</button>
+      </div>
+
+      <div class="filter-row" data-filter="transmission">
+        <span class="filter-label">Gearbox</span>
+        <button class="filter-pill active" data-value="">All</button>
+        <button class="filter-pill" data-value="f1">F1</button>
+        <button class="filter-pill" data-value="manual">Manual</button>
+      </div>
+
+      <div class="filter-row" data-filter="source">
+        <span class="filter-label">Source</span>
+        <button class="filter-pill active" data-value="">All</button>
+        <button class="filter-pill" data-value="PistonHeads">PistonHeads</button>
+        <button class="filter-pill" data-value="AutoTrader">AutoTrader</button>
+        <button class="filter-pill" data-value="Cars & Classic">Cars &amp; Classic</button>
+      </div>
+
+      <div class="filter-row" data-filter="price">
+        <span class="filter-label">Price</span>
+        <div class="price-range">
+          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="1000">
+          <span class="price-sep">–</span>
+          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="1000">
+        </div>
+      </div>
+    </div>
+
     <span class="listing-count" id="listingCount"></span>
   </header>
 
@@ -543,13 +712,17 @@
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
     });
 
-    // Fetch and render listings
+    // DOM refs
     const grid = document.getElementById('listingsGrid');
     const loadingEl = document.getElementById('loadingState');
     const errorEl = document.getElementById('errorState');
     const descriptionEl = document.getElementById('pageDescription');
     const countEl = document.getElementById('listingCount');
     const heroImg = document.getElementById('heroImage');
+    const filterControls = document.getElementById('filterControls');
+    const sortSelect = document.getElementById('sortSelect');
+    const priceMinInput = document.getElementById('priceMin');
+    const priceMaxInput = document.getElementById('priceMax');
     const auctionSection = document.getElementById('auctionSection');
     const auctionGrid = document.getElementById('auctionGrid');
     const auctionCount = document.getElementById('auctionCount');
@@ -558,18 +731,48 @@
     const soldGrid = document.getElementById('soldGrid');
     const soldCount = document.getElementById('soldCount');
 
+    // --- Helpers ---
+
     function formatSoldDate(dateStr) {
       const d = new Date(dateStr + 'T00:00:00');
       return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
     }
 
-    // Get primary source (first in sources array, or fall back to legacy source/url)
+    function parsePrice(str) {
+      if (!str) return null;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : null;
+    }
+
+    function parseMileage(str) {
+      if (!str) return Infinity;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : Infinity;
+    }
+
+    function getBody(title) {
+      if (/spider/i.test(title)) return 'spider';
+      return 'coupe';
+    }
+
+    function getTransmissionGroup(str) {
+      if (!str) return 'f1';
+      if (/^\d-Speed Manual$|^Manual$/i.test(str.trim())) return 'manual';
+      return 'f1';
+    }
+
+    function matchesSource(listing, sourceName) {
+      const sources = listing.sources || [];
+      return sources.some(s => s.name === sourceName);
+    }
+
     function getPrimary(l) {
       if (l.sources && l.sources.length > 0) return l.sources[0];
       return { name: l.source || '', url: l.url || '#' };
     }
 
-    // Render source links for card footer
+    // --- Render functions ---
+
     function renderSourceLinks(l, linkClass) {
       const sources = l.sources || [{ name: l.source, url: l.url }];
       const cls = linkClass ? ` ${linkClass}` : '';
@@ -634,6 +837,138 @@
         </article>`;
     }
 
+    // --- Filter & sort state ---
+
+    let allClassified = [];
+    const filters = {
+      year: null,
+      body: null,
+      transmission: null,
+      source: null,
+      priceMin: null,
+      priceMax: null
+    };
+    let sortBy = 'featured';
+
+    function applyFiltersAndSort() {
+      let results = allClassified.slice();
+
+      // Apply filters
+      if (filters.year) {
+        results = results.filter(l => l.year === filters.year);
+      }
+      if (filters.body) {
+        results = results.filter(l => getBody(l.title) === filters.body);
+      }
+      if (filters.transmission) {
+        results = results.filter(l => getTransmissionGroup(l.transmission) === filters.transmission);
+      }
+      if (filters.source) {
+        results = results.filter(l => matchesSource(l, filters.source));
+      }
+      if (filters.priceMin !== null) {
+        results = results.filter(l => {
+          const p = parsePrice(l.price);
+          return p !== null && p >= filters.priceMin;
+        });
+      }
+      if (filters.priceMax !== null) {
+        results = results.filter(l => {
+          const p = parsePrice(l.price);
+          return p !== null && p <= filters.priceMax;
+        });
+      }
+
+      // Apply sort
+      switch (sortBy) {
+        case 'price-asc':
+          results.sort((a, b) => (parsePrice(a.price) || 0) - (parsePrice(b.price) || 0));
+          break;
+        case 'price-desc':
+          results.sort((a, b) => (parsePrice(b.price) || 0) - (parsePrice(a.price) || 0));
+          break;
+        case 'year-desc':
+          results.sort((a, b) => (b.year || 0) - (a.year || 0));
+          break;
+        case 'year-asc':
+          results.sort((a, b) => (a.year || 0) - (b.year || 0));
+          break;
+        case 'mileage-asc':
+          results.sort((a, b) => parseMileage(a.mileage) - parseMileage(b.mileage));
+          break;
+        case 'date-desc':
+          results.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+          break;
+        default: // 'featured'
+          results.sort((a, b) => {
+            if (a.featured && !b.featured) return -1;
+            if (!a.featured && b.featured) return 1;
+            return new Date(b.dateAdded) - new Date(a.dateAdded);
+          });
+      }
+
+      // Update count
+      const isFiltered = filters.year || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      if (isFiltered) {
+        countEl.textContent = `${results.length} of ${allClassified.length} listings`;
+      } else {
+        countEl.textContent = `${allClassified.length} listing${allClassified.length === 1 ? '' : 's'}`;
+      }
+
+      // Render
+      grid.innerHTML = results.length > 0
+        ? results.map(renderActiveCard).join('')
+        : '<div class="error-state">No listings match your filters.</div>';
+    }
+
+    // --- Event listeners for filters ---
+
+    // Pill buttons
+    document.querySelectorAll('.filter-row[data-filter]').forEach(row => {
+      const filterName = row.dataset.filter;
+      if (filterName === 'price') return; // price uses inputs
+
+      row.querySelectorAll('.filter-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+          // Update active state
+          row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+
+          // Update filter
+          const val = pill.dataset.value;
+          if (filterName === 'year') {
+            filters.year = val ? parseInt(val) : null;
+          } else {
+            filters[filterName] = val || null;
+          }
+          applyFiltersAndSort();
+        });
+      });
+    });
+
+    // Sort select
+    sortSelect.addEventListener('change', () => {
+      sortBy = sortSelect.value;
+      applyFiltersAndSort();
+    });
+
+    // Price inputs (debounced)
+    let priceTimeout;
+    function onPriceChange() {
+      clearTimeout(priceTimeout);
+      priceTimeout = setTimeout(() => {
+        const min = priceMinInput.value ? parseInt(priceMinInput.value) : null;
+        const max = priceMaxInput.value ? parseInt(priceMaxInput.value) : null;
+        filters.priceMin = min;
+        filters.priceMax = max;
+        applyFiltersAndSort();
+      }, 400);
+    }
+    priceMinInput.addEventListener('input', onPriceChange);
+    priceMaxInput.addEventListener('input', onPriceChange);
+
+    // --- Load listings ---
+
     async function loadListings() {
       try {
         const res = await fetch('/api/listings/ferrari-f430');
@@ -666,29 +1001,19 @@
         }
 
         // Split by status
-        const classified = data.listings.filter(l => l.status === 'active');
+        allClassified = data.listings.filter(l => l.status === 'active');
         const auction = data.listings.filter(l => l.status === 'auction');
         const sold = data.listings.filter(l => l.status === 'sold');
 
-        // Sort classified: featured first, then dateAdded desc
-        classified.sort((a, b) => {
-          if (a.featured && !b.featured) return -1;
-          if (!a.featured && b.featured) return 1;
-          return new Date(b.dateAdded) - new Date(a.dateAdded);
-        });
+        // Show filter controls
+        filterControls.style.display = 'flex';
 
-        // Sort auction: end date soonest first
-        auction.sort((a, b) => new Date(a.auctionEnd || 0) - new Date(b.auctionEnd || 0));
-
-        // Sort sold: most recently sold first
-        sold.sort((a, b) => new Date(b.soldDate) - new Date(a.soldDate));
-
-        // Render classified listings
-        countEl.textContent = `${classified.length} listing${classified.length === 1 ? '' : 's'}`;
-        grid.innerHTML = classified.map(renderActiveCard).join('');
+        // Render classified via filter/sort
+        applyFiltersAndSort();
 
         // Render auction listings
         if (auction.length > 0) {
+          auction.sort((a, b) => new Date(a.auctionEnd || 0) - new Date(b.auctionEnd || 0));
           auctionEmpty.style.display = 'none';
           auctionCount.textContent = `${auction.length} live auction${auction.length === 1 ? '' : 's'}`;
           auctionGrid.innerHTML = auction.map(renderActiveCard).join('');
@@ -696,6 +1021,7 @@
 
         // Render sold listings
         if (sold.length > 0) {
+          sold.sort((a, b) => new Date(b.soldDate) - new Date(a.soldDate));
           soldSection.style.display = 'block';
           soldCount.textContent = `${sold.length} result${sold.length === 1 ? '' : 's'}`;
           soldGrid.innerHTML = sold.map(renderSoldCard).join('');
