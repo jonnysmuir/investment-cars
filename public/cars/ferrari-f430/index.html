@@ -115,9 +115,61 @@
       transition: background 0.3s, color 0.3s, border-color 0.3s;
     }
 
+    /* Hero banner */
+    .hero-banner {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      margin-top: 62px;
+      overflow: hidden;
+      background: var(--color-border);
+    }
+
+    .hero-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.4s;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 3rem 3rem 2rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    }
+
+    .hero-model-name {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .hero-model-years {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+    }
+
+    .hero-credit {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 1rem;
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.05em;
+    }
+
     /* Page header */
     .page-header {
-      padding: 8rem 3rem 2rem;
+      padding: 2rem 3rem 2rem;
       max-width: 900px;
       margin: 0 auto;
     }
@@ -286,10 +338,65 @@
 
     .error-state { color: #c44; }
 
+    /* Sold section */
+    .sold-section {
+      border-top: 1px solid var(--color-border);
+      margin-top: 1rem;
+    }
+
+    .sold-header {
+      padding-top: 3rem;
+    }
+
+    .listing-card.sold {
+      opacity: 0.7;
+      border-color: var(--color-border);
+    }
+
+    .listing-card.sold:hover {
+      opacity: 0.85;
+      border-color: var(--color-text-muted);
+      transform: translateY(-1px);
+    }
+
+    .card-sold-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-text-muted);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-sold-price {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .card-sold-date {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .card-link.sold-link {
+      background: var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    .card-link.sold-link:hover { opacity: 0.85; }
+
     /* Responsive */
     @media (max-width: 640px) {
       nav { padding: 1rem 1.5rem; }
-      .page-header { padding: 6rem 1.5rem 1.5rem; }
+      .hero-banner { height: 280px; }
+      .hero-overlay { padding: 2rem 1.5rem 1.5rem; }
+      .page-header { padding: 1.5rem 1.5rem 1.5rem; }
       .listings-grid { grid-template-columns: 1fr; padding: 1rem 1.5rem 3rem; }
     }
   </style>
@@ -305,9 +412,17 @@
     </div>
   </nav>
 
+  <section class="hero-banner" id="heroBanner">
+    <img id="heroImage" src="" alt="Ferrari F430" style="opacity: 0;">
+    <div class="hero-overlay">
+      <h1 class="hero-model-name">Ferrari F430</h1>
+      <p class="hero-model-years">2004 — 2009 &middot; 4.3L V8 &middot; 483 BHP</p>
+    </div>
+    <span class="hero-credit" id="heroCredit"></span>
+  </section>
+
   <header class="page-header">
-    <p class="section-label">Curated Listings</p>
-    <h1 class="section-title">Ferrari F430</h1>
+    <p class="section-label">Listings For Sale</p>
     <p class="page-description" id="pageDescription"></p>
     <span class="listing-count" id="listingCount"></span>
   </header>
@@ -316,6 +431,15 @@
 
   <div class="loading" id="loadingState">Loading listings…</div>
   <div class="error-state" id="errorState" style="display: none;"></div>
+
+  <section class="sold-section" id="soldSection" style="display: none;">
+    <header class="page-header sold-header">
+      <p class="section-label">Recently Sold</p>
+      <p class="section-title">Auction Results</p>
+      <span class="listing-count" id="soldCount"></span>
+    </header>
+    <div class="listings-grid sold-grid" id="soldGrid"></div>
+  </section>
 
   <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
 
@@ -342,6 +466,64 @@
     const errorEl = document.getElementById('errorState');
     const descriptionEl = document.getElementById('pageDescription');
     const countEl = document.getElementById('listingCount');
+    const heroImg = document.getElementById('heroImage');
+    const soldSection = document.getElementById('soldSection');
+    const soldGrid = document.getElementById('soldGrid');
+    const soldCount = document.getElementById('soldCount');
+
+    function formatSoldDate(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    function renderActiveCard(l) {
+      return `
+        <article class="listing-card${l.featured ? ' featured' : ''}">
+          ${l.image
+            ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
+            : `<div class="card-image-placeholder">See photos on ${l.source || 'listing'}</div>`
+          }
+          <div class="card-body">
+            ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
+            <h2 class="card-title">${l.title}</h2>
+            <div class="card-specs">
+              ${l.year ? `<span>${l.year}</span>` : ''}
+              ${l.mileage ? `<span>${l.mileage}</span>` : ''}
+              ${l.transmission ? `<span>${l.transmission}</span>` : ''}
+            </div>
+            ${l.price ? `<div class="card-price">${l.price}</div>` : ''}
+            <div class="card-footer">
+              ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link">View Listing</a>
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function renderSoldCard(l) {
+      return `
+        <article class="listing-card sold">
+          ${l.image
+            ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
+            : `<div class="card-image-placeholder">See photos on ${l.source || 'listing'}</div>`
+          }
+          <div class="card-body">
+            <span class="card-sold-badge">Sold</span>
+            <h2 class="card-title">${l.title}</h2>
+            <div class="card-specs">
+              ${l.year ? `<span>${l.year}</span>` : ''}
+              ${l.mileage ? `<span>${l.mileage}</span>` : ''}
+              ${l.transmission ? `<span>${l.transmission}</span>` : ''}
+            </div>
+            ${l.soldPrice ? `<div class="card-sold-price">Hammer Price: ${l.soldPrice}</div>` : ''}
+            ${l.soldDate ? `<div class="card-sold-date">Sold ${formatSoldDate(l.soldDate)}</div>` : ''}
+            <div class="card-footer">
+              ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link sold-link">View Results</a>
+            </div>
+          </div>
+        </article>`;
+    }
 
     async function loadListings() {
       try {
@@ -354,6 +536,18 @@
           descriptionEl.textContent = data.description;
         }
 
+        // Load hero image
+        if (heroImg && data.heroImage) {
+          heroImg.src = data.heroImage;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+        }
+
+        // Hero credit
+        const creditEl = document.getElementById('heroCredit');
+        if (creditEl && data.heroCredit) {
+          creditEl.textContent = 'Image: ' + data.heroCredit;
+        }
+
         loadingEl.style.display = 'none';
 
         if (!data.listings || data.listings.length === 0) {
@@ -362,37 +556,30 @@
           return;
         }
 
-        countEl.textContent = `${data.listings.length} listing${data.listings.length === 1 ? '' : 's'} found`;
+        // Split by status
+        const active = data.listings.filter(l => l.status !== 'sold');
+        const sold = data.listings.filter(l => l.status === 'sold');
 
-        // Sort: featured first, then by dateAdded descending
-        data.listings.sort((a, b) => {
+        // Sort active: featured first, then dateAdded desc
+        active.sort((a, b) => {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
           return new Date(b.dateAdded) - new Date(a.dateAdded);
         });
 
-        grid.innerHTML = data.listings.map(l => `
-          <article class="listing-card${l.featured ? ' featured' : ''}">
-            ${l.image
-              ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
-              : `<div class="card-image-placeholder">No Image</div>`
-            }
-            <div class="card-body">
-              ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
-              <h2 class="card-title">${l.title}</h2>
-              <div class="card-specs">
-                ${l.year ? `<span>${l.year}</span>` : ''}
-                ${l.mileage ? `<span>${l.mileage}</span>` : ''}
-                ${l.transmission ? `<span>${l.transmission}</span>` : ''}
-              </div>
-              ${l.price ? `<div class="card-price">${l.price}</div>` : ''}
-              <div class="card-footer">
-                ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
-                <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link">View Listing</a>
-              </div>
-            </div>
-          </article>
-        `).join('');
+        // Sort sold: most recently sold first
+        sold.sort((a, b) => new Date(b.soldDate) - new Date(a.soldDate));
+
+        // Render active listings
+        countEl.textContent = `${active.length} listing${active.length === 1 ? '' : 's'} for sale`;
+        grid.innerHTML = active.map(renderActiveCard).join('');
+
+        // Render sold listings
+        if (sold.length > 0) {
+          soldSection.style.display = 'block';
+          soldCount.textContent = `${sold.length} result${sold.length === 1 ? '' : 's'}`;
+          soldGrid.innerHTML = sold.map(renderSoldCard).join('');
+        }
 
       } catch {
         loadingEl.style.display = 'none';
