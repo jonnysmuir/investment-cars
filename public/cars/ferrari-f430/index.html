@@ -391,6 +391,72 @@
 
     .card-link.sold-link:hover { opacity: 0.85; }
 
+    /* Multi-source footer */
+    .card-sources {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.25rem;
+    }
+
+    .card-sources-label {
+      font-size: 0.68rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-right: 0.15rem;
+    }
+
+    .card-source-link {
+      display: inline-block;
+      padding: 0.4rem 0.75rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-radius: 5px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .card-source-link:hover { opacity: 0.85; }
+
+    .card-source-link.sold-link {
+      background: var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    /* Auction section */
+    .auction-section {
+      border-top: 1px solid var(--color-border);
+      margin-top: 1rem;
+    }
+
+    .auction-header {
+      padding-top: 3rem;
+    }
+
+    .auction-empty {
+      text-align: center;
+      padding: 2.5rem 3rem 4rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .auction-empty-icon {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      opacity: 0.4;
+    }
+
+    .auction-empty-text {
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
     /* Responsive */
     @media (max-width: 640px) {
       nav { padding: 1rem 1.5rem; }
@@ -422,7 +488,7 @@
   </section>
 
   <header class="page-header">
-    <p class="section-label">Listings For Sale</p>
+    <p class="section-label">Classified</p>
     <p class="page-description" id="pageDescription"></p>
     <span class="listing-count" id="listingCount"></span>
   </header>
@@ -431,6 +497,18 @@
 
   <div class="loading" id="loadingState">Loading listings…</div>
   <div class="error-state" id="errorState" style="display: none;"></div>
+
+  <section class="auction-section" id="auctionSection">
+    <header class="page-header auction-header">
+      <p class="section-label">Upcoming Auctions</p>
+      <span class="listing-count" id="auctionCount"></span>
+    </header>
+    <div class="listings-grid" id="auctionGrid"></div>
+    <div class="auction-empty" id="auctionEmpty">
+      <div class="auction-empty-icon">&#9881;</div>
+      <p class="auction-empty-text">No Ferrari F430 auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
+    </div>
+  </section>
 
   <section class="sold-section" id="soldSection" style="display: none;">
     <header class="page-header sold-header">
@@ -467,6 +545,10 @@
     const descriptionEl = document.getElementById('pageDescription');
     const countEl = document.getElementById('listingCount');
     const heroImg = document.getElementById('heroImage');
+    const auctionSection = document.getElementById('auctionSection');
+    const auctionGrid = document.getElementById('auctionGrid');
+    const auctionCount = document.getElementById('auctionCount');
+    const auctionEmpty = document.getElementById('auctionEmpty');
     const soldSection = document.getElementById('soldSection');
     const soldGrid = document.getElementById('soldGrid');
     const soldCount = document.getElementById('soldCount');
@@ -476,12 +558,39 @@
       return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
     }
 
+    // Get primary source (first in sources array, or fall back to legacy source/url)
+    function getPrimary(l) {
+      if (l.sources && l.sources.length > 0) return l.sources[0];
+      return { name: l.source || '', url: l.url || '#' };
+    }
+
+    // Render source links for card footer
+    function renderSourceLinks(l, linkClass) {
+      const sources = l.sources || [{ name: l.source, url: l.url }];
+      const cls = linkClass ? ` ${linkClass}` : '';
+      if (sources.length === 1) {
+        return `
+          <div class="card-footer">
+            <span class="card-source">via ${sources[0].name}</span>
+            <a href="${sources[0].url}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
+          </div>`;
+      }
+      return `
+        <div class="card-sources">
+          <span class="card-sources-label">View on</span>
+          ${sources.map(s =>
+            `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
+          ).join('')}
+        </div>`;
+    }
+
     function renderActiveCard(l) {
+      const primary = getPrimary(l);
       return `
         <article class="listing-card${l.featured ? ' featured' : ''}">
           ${l.image
             ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">See photos on ${l.source || 'listing'}</div>`
+            : `<div class="card-image-placeholder">See photos on ${primary.name}</div>`
           }
           <div class="card-body">
             ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
@@ -492,20 +601,18 @@
               ${l.transmission ? `<span>${l.transmission}</span>` : ''}
             </div>
             ${l.price ? `<div class="card-price">${l.price}</div>` : ''}
-            <div class="card-footer">
-              ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
-              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link">View Listing</a>
-            </div>
+            ${renderSourceLinks(l, '')}
           </div>
         </article>`;
     }
 
     function renderSoldCard(l) {
+      const primary = getPrimary(l);
       return `
         <article class="listing-card sold">
           ${l.image
             ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">See photos on ${l.source || 'listing'}</div>`
+            : `<div class="card-image-placeholder">See photos on ${primary.name}</div>`
           }
           <div class="card-body">
             <span class="card-sold-badge">Sold</span>
@@ -517,10 +624,7 @@
             </div>
             ${l.soldPrice ? `<div class="card-sold-price">Hammer Price: ${l.soldPrice}</div>` : ''}
             ${l.soldDate ? `<div class="card-sold-date">Sold ${formatSoldDate(l.soldDate)}</div>` : ''}
-            <div class="card-footer">
-              ${l.source ? `<span class="card-source">via ${l.source}</span>` : ''}
-              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card-link sold-link">View Results</a>
-            </div>
+            ${renderSourceLinks(l, 'sold-link')}
           </div>
         </article>`;
     }
@@ -557,22 +661,33 @@
         }
 
         // Split by status
-        const active = data.listings.filter(l => l.status !== 'sold');
+        const classified = data.listings.filter(l => l.status === 'active');
+        const auction = data.listings.filter(l => l.status === 'auction');
         const sold = data.listings.filter(l => l.status === 'sold');
 
-        // Sort active: featured first, then dateAdded desc
-        active.sort((a, b) => {
+        // Sort classified: featured first, then dateAdded desc
+        classified.sort((a, b) => {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
           return new Date(b.dateAdded) - new Date(a.dateAdded);
         });
 
+        // Sort auction: end date soonest first
+        auction.sort((a, b) => new Date(a.auctionEnd || 0) - new Date(b.auctionEnd || 0));
+
         // Sort sold: most recently sold first
         sold.sort((a, b) => new Date(b.soldDate) - new Date(a.soldDate));
 
-        // Render active listings
-        countEl.textContent = `${active.length} listing${active.length === 1 ? '' : 's'} for sale`;
-        grid.innerHTML = active.map(renderActiveCard).join('');
+        // Render classified listings
+        countEl.textContent = `${classified.length} listing${classified.length === 1 ? '' : 's'}`;
+        grid.innerHTML = classified.map(renderActiveCard).join('');
+
+        // Render auction listings
+        if (auction.length > 0) {
+          auctionEmpty.style.display = 'none';
+          auctionCount.textContent = `${auction.length} live auction${auction.length === 1 ? '' : 's'}`;
+          auctionGrid.innerHTML = auction.map(renderActiveCard).join('');
+        }
 
         // Render sold listings
         if (sold.length > 0) {
