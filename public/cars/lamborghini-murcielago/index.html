@@ -947,7 +947,7 @@
     let heroImageUrl = '';
     let allClassified = [];
     const filters = {
-      year: null,
+      year: [],
       body: null,
       transmission: null,
       source: null,
@@ -964,7 +964,7 @@
 
     function updateFilterCount() {
       let count = 0;
-      if (filters.year) count++;
+      if (filters.year.length > 0) count++;
       if (filters.body) count++;
       if (filters.transmission) count++;
       if (filters.source) count++;
@@ -983,8 +983,8 @@
       let results = allClassified.slice();
 
       // Apply filters
-      if (filters.year) {
-        results = results.filter(l => l.year === filters.year);
+      if (filters.year.length > 0) {
+        results = results.filter(l => filters.year.includes(l.year));
       }
       if (filters.body) {
         results = results.filter(l => getBody(l.title) === filters.body);
@@ -1037,7 +1037,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.year.length > 0 || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1061,15 +1061,40 @@
 
       row.querySelectorAll('.filter-pill').forEach(pill => {
         pill.addEventListener('click', () => {
-          // Update active state
-          row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
-          pill.classList.add('active');
-
-          // Update filter
           const val = pill.dataset.value;
+
           if (filterName === 'year') {
-            filters.year = val ? parseInt(val) : null;
+            // Multi-select for year
+            if (!val) {
+              // "All" clicked — clear selection
+              filters.year = [];
+              row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+              pill.classList.add('active');
+            } else {
+              const yearVal = parseInt(val);
+              const idx = filters.year.indexOf(yearVal);
+              if (idx > -1) {
+                // Deselect this year
+                filters.year.splice(idx, 1);
+                pill.classList.remove('active');
+              } else {
+                // Select this year
+                filters.year.push(yearVal);
+                pill.classList.add('active');
+              }
+              // Remove "All" active state
+              const allPill = row.querySelector('.filter-pill[data-value=""]');
+              if (filters.year.length > 0) {
+                allPill.classList.remove('active');
+              } else {
+                // Nothing selected — reactivate "All"
+                allPill.classList.add('active');
+              }
+            }
           } else {
+            // Single-select for other filters
+            row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
             filters[filterName] = val || null;
           }
           applyFiltersAndSort();
