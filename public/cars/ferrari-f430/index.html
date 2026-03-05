@@ -241,16 +241,48 @@
     }
 
     .card-image-placeholder {
+      position: relative;
       width: 100%;
       height: 200px;
-      background: var(--color-border);
+      overflow: hidden;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: var(--color-text-muted);
-      font-size: 0.75rem;
+      gap: 0.25rem;
+      background: var(--color-border);
+    }
+
+    .card-image-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: -20px;
+      background-image: inherit;
+      background-size: cover;
+      background-position: center;
+      filter: blur(18px) brightness(0.4);
+      z-index: 0;
+    }
+
+    .placeholder-text {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 0 1rem;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .placeholder-subtext {
+      position: relative;
+      z-index: 1;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.7rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
     }
 
     .card-body {
@@ -871,7 +903,7 @@
         <article class="listing-card${l.featured ? ' featured' : ''}">
           ${l.image
             ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">See photos on ${primary.name}</div>`
+            : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
           }
           <div class="card-body">
             ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
@@ -893,7 +925,7 @@
         <article class="listing-card sold">
           ${l.image
             ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">See photos on ${primary.name}</div>`
+            : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
           }
           <div class="card-body">
             <span class="card-sold-badge">Sold</span>
@@ -912,6 +944,7 @@
 
     // --- Filter & sort state ---
 
+    let heroImageUrl = '';
     let allClassified = [];
     const filters = {
       year: null,
@@ -1080,6 +1113,7 @@
 
         // Load hero image
         if (heroImg && data.heroImage) {
+          heroImageUrl = data.heroImage;
           heroImg.src = data.heroImage;
           heroImg.onload = () => { heroImg.style.opacity = '1'; };
         }
