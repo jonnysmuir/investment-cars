@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listings | Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    .logo:hover { opacity: 0.85; }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    nav a {
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--color-accent); }
+    nav a.nav-active { color: var(--color-accent); }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Page content */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 6rem 2rem 4rem;
+    }
+
+    .search-container {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .page-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .page-subtitle {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Dropdowns */
+    .field-group {
+      margin-bottom: 1.5rem;
+      text-align: left;
+    }
+
+    .field-group label {
+      display: block;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .field-group select {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      color: var(--color-text);
+      font-size: 0.95rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.2s;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23888' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+    }
+
+    .field-group select:hover:not(:disabled) {
+      border-color: var(--color-accent);
+    }
+
+    .field-group select:focus {
+      outline: none;
+      border-color: var(--color-accent);
+    }
+
+    .field-group select:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .field-group select option {
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    /* View button */
+    .view-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.85rem 2.4rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .view-btn:hover {
+      opacity: 0.85;
+      transform: translateY(-1px);
+    }
+
+    .view-btn.hidden { display: none; }
+
+    /* Footer */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      background: var(--color-bg);
+    }
+
+    /* Smooth theme transition */
+    body, nav, .field-group select, footer {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-right { gap: 0.75rem; }
+      nav a { font-size: 0.75rem; }
+      .page { padding: 5rem 1.5rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings" class="nav-active">Listings</a>
+      <a href="#" id="contactLink">Get in Touch</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="page">
+    <div class="search-container">
+      <p class="section-label">Search</p>
+      <h1 class="page-title">Find Your Car</h1>
+      <p class="page-subtitle">Select a make and model to browse current listings.</p>
+
+      <div class="field-group">
+        <label for="make">Make</label>
+        <select id="make">
+          <option value="">Select make...</option>
+          <option value="ferrari">Ferrari</option>
+          <option value="lamborghini">Lamborghini</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <label for="model">Model</label>
+        <select id="model" disabled>
+          <option value="">Select model...</option>
+        </select>
+      </div>
+
+      <a href="#" class="view-btn hidden" id="viewBtn">View Listings</a>
+    </div>
+  </div>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // Contact link → homepage
+    document.getElementById('contactLink').addEventListener('click', (e) => {
+      e.preventDefault();
+      window.location.href = '/#contact';
+    });
+
+    // Models per make
+    const models = {
+      ferrari: [
+        { label: 'F430', slug: 'ferrari-f430' }
+      ],
+      lamborghini: [
+        { label: 'Murci\u00e9lago', slug: 'lamborghini-murcielago' }
+      ]
+    };
+
+    const makeSelect = document.getElementById('make');
+    const modelSelect = document.getElementById('model');
+    const viewBtn = document.getElementById('viewBtn');
+
+    makeSelect.addEventListener('change', () => {
+      const make = makeSelect.value;
+
+      // Reset model
+      modelSelect.innerHTML = '<option value="">Select model...</option>';
+      viewBtn.classList.add('hidden');
+      viewBtn.href = '#';
+
+      if (make && models[make]) {
+        models[make].forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m.slug;
+          opt.textContent = m.label;
+          modelSelect.appendChild(opt);
+        });
+        modelSelect.disabled = false;
+      } else {
+        modelSelect.disabled = true;
+      }
+    });
+
+    modelSelect.addEventListener('change', () => {
+      const slug = modelSelect.value;
+      if (slug) {
+        viewBtn.href = `/cars/${slug}`;
+        viewBtn.classList.remove('hidden');
+      } else {
+        viewBtn.classList.add('hidden');
+        viewBtn.href = '#';
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "models": [
+    {
+      "slug": "ferrari-f430",
+      "make": "Ferrari",
+      "model": "F430",
+      "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/64a82caff7499d0024699156-attachment_136001?width=1400&height=600",
+      "heroCredit": "Ferrari S.p.A.",
+      "description": "The Ferrari F430, produced from 2004 to 2009, features a naturally aspirated 4.3-litre V8 producing 483 bhp. Widely regarded as one of the finest mid-engine V8 Ferraris, well-maintained examples continue to hold strong value. Manual gearbox cars command a significant premium over F1 automated variants.",
+      "sources": {
+        "pistonheads": {
+          "searchUrl": "https://www.pistonheads.com/buy/ferrari/430-coupe",
+          "alternateUrls": [
+            "https://www.pistonheads.com/buy/ferrari/430-spider"
+          ]
+        },
+        "autotrader": {
+          "searchUrl": "https://www.autotrader.co.uk/cars/used/ferrari/f430"
+        },
+        "carsandclassic": {
+          "makeId": 20,
+          "model": "f430"
+        },
+        "collectingcars": {
+          "searchUrl": "https://www.collectingcars.com/search?make=Ferrari&model=F430"
+        }
+      }
+    },
+    {
+      "slug": "lamborghini-murcielago",
+      "make": "Lamborghini",
+      "model": "Murci\u00e9lago",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lamborghini_Murci%C3%A9lago_LP-640_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2840%29.jpg/1920px-Lamborghini_Murci%C3%A9lago_LP-640_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2840%29.jpg",
+      "heroCredit": "Alexandre Pr\u00e9vot / CC BY-SA 2.0",
+      "description": "The Lamborghini Murci\u00e9lago, produced from 2001 to 2010, is powered by a naturally aspirated V12 displacing 6.2 to 6.5 litres and producing 572 to 661 bhp. As the last Lamborghini flagship to offer a gated manual gearbox, well-maintained examples \u2014 particularly the LP640 and LP670-4 SV variants \u2014 are increasingly sought after by collectors. Manual gearbox cars command a significant premium over E-Gear automated variants.",
+      "sources": {
+        "pistonheads": {
+          "searchUrl": "https://www.pistonheads.com/buy/lamborghini/murcielago"
+        },
+        "autotrader": {
+          "searchUrl": "https://www.autotrader.co.uk/cars/used/lamborghini/murcielago"
+        },
+        "carsandclassic": {
+          "makeId": 26,
+          "model": "murcielago"
+        },
+        "collectingcars": {
+          "searchUrl": "https://www.collectingcars.com/search?make=Lamborghini&model=Murcielago"
+        }
+      }
+    }
+  ]
+}

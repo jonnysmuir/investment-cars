@@ -1,0 +1,149 @@
+/**
+ * Cars & Classic scraper.
+ *
+ * Strategy:
+ *  - Fetch browse page: https://www.carandclassic.com/list/{makeId}/{model}/
+ *  - Extract Inertia.js JSON from <script data-page="app" type="application/json">
+ *  - Parse props.classifieds.listings.data + props.auctions.listings.data
+ *  - Prices are in pence (divide by 100)
+ *  - Images on assets.carandclassic.com CDN with signed query params
+ *  - URL format: /l/CXXXXXX is canonical
+ */
+
+const cheerio = require('cheerio');
+const { fetchWithRetry, extractYear, normaliseTransmission, today } = require('./base');
+
+const SOURCE_NAME = 'Cars & Classic';
+
+/**
+ * Scrape Cars & Classic listings for a given model config.
+ * @param {object} sourceConfig - { makeId, model }
+ * @param {object} modelConfig  - { make, model, slug }
+ * @returns {Array} Array of listing objects
+ */
+async function scrape(sourceConfig, modelConfig) {
+  const browseUrl = `https://www.carandclassic.com/list/${sourceConfig.makeId}/${sourceConfig.model}/`;
+  console.log(`  [Cars & Classic] Fetching: ${browseUrl}`);
+
+  let html;
+  try {
+    html = await fetchWithRetry(browseUrl);
+  } catch (err) {
+    console.warn(`  [Cars & Classic] Failed to fetch browse page: ${err.message}`);
+    return [];
+  }
+
+  const $ = cheerio.load(html);
+
+  // Extract Inertia.js JSON data
+  const scriptEl = $('script[data-page="app"]');
+  if (!scriptEl.length) {
+    console.warn('  [Cars & Classic] No Inertia.js data found');
+    return [];
+  }
+
+  let pageData;
+  try {
+    pageData = JSON.parse(scriptEl.html());
+  } catch (err) {
+    console.warn(`  [Cars & Classic] Failed to parse Inertia.js JSON: ${err.message}`);
+    return [];
+  }
+
+  const props = pageData.props || {};
+  const listings = [];
+
+  // Process classified (buy-now) listings
+  const classifiedData = props.classifieds?.listings?.data || [];
+  for (const item of classifiedData) {
+    const listing = parseItem(item, 'active', modelConfig);
+    if (listing) listings.push(listing);
+  }
+
+  // Process auction listings
+  const auctionData = props.auctions?.listings?.data || [];
+  for (const item of auctionData) {
+    const listing = parseItem(item, 'auction', modelConfig);
+    if (listing) listings.push(listing);
+  }
+
+  console.log(`  [Cars & Classic] Successfully scraped ${listings.length} listings`);
+  return listings;
+}
+
+function parseItem(item, status, modelConfig) {
+  try {
+    const id = item.id || item.reference;
+    const reference = item.reference || `C${id}`;
+
+    // Title
+    let title = item.title || item.name || '';
+    const year = item.year || extractYear(title);
+
+    // Price: C&C stores prices in pence
+    let price = 'POA';
+    const rawPrice = item.price || item.currentPrice || item.askingPrice;
+    if (rawPrice && typeof rawPrice === 'number' && rawPrice > 0) {
+      const pounds = Math.round(rawPrice / 100);
+      price = `£${pounds.toLocaleString('en-GB')}`;
+    } else if (rawPrice && typeof rawPrice === 'string') {
+      const priceMatch = rawPrice.match(/[\d,]+/);
+      if (priceMatch) price = `£${priceMatch[0]}`;
+    }
+
+    // Mileage
+    let mileage = 'N/A';
+    if (item.mileage != null && item.mileage > 0) {
+      mileage = `${item.mileage.toLocaleString('en-GB')} miles`;
+    } else if (item.odometer) {
+      mileage = `${parseInt(item.odometer).toLocaleString('en-GB')} miles`;
+    }
+
+    // Transmission
+    let transmission = 'Unknown';
+    if (item.transmission) {
+      transmission = normaliseTransmission(item.transmission);
+    } else if (item.gearbox) {
+      transmission = normaliseTransmission(item.gearbox);
+    }
+
+    // Image
+    let image = '';
+    if (item.image?.url) {
+      image = item.image.url;
+    } else if (item.images?.length > 0) {
+      image = item.images[0].url || item.images[0];
+    } else if (item.mainImage) {
+      image = typeof item.mainImage === 'string' ? item.mainImage : item.mainImage.url || '';
+    }
+    // Ensure CDN URL has decent sizing
+    if (image && image.includes('assets.carandclassic.com') && !image.includes('?')) {
+      image += '?fit=fillmax&h=800&w=800&q=85';
+    }
+
+    // Source URL
+    const sourceUrl = `https://www.carandclassic.com/l/${reference}`;
+
+    // Clean title
+    if (year && !title.startsWith(String(year))) {
+      title = `${year} ${title}`;
+    }
+
+    return {
+      title: title.trim(),
+      price,
+      year,
+      mileage,
+      transmission,
+      image,
+      sourceUrl,
+      sourceName: SOURCE_NAME,
+      scrapedAt: today(),
+    };
+  } catch (err) {
+    console.warn(`  [Cars & Classic] Failed to parse item: ${err.message}`);
+    return null;
+  }
+}
+
+module.exports = { scrape, SOURCE_NAME };

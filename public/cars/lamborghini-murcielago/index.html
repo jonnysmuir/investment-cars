@@ -297,6 +297,39 @@
       margin-bottom: 0.6rem;
     }
 
+    .card-new-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #2ecc71;
+      border: 1px solid #2ecc71;
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+      margin-left: 0.4rem;
+    }
+
+    .card-price-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-left: 0.5rem;
+    }
+
+    .card-price-badge.reduced {
+      color: #2ecc71;
+      border: 1px solid #2ecc71;
+    }
+
+    .card-price-badge.increased {
+      color: #e74c3c;
+      border: 1px solid #e74c3c;
+    }
+
     .card-title {
       font-size: 1rem;
       font-weight: 600;
@@ -681,8 +714,7 @@
   <nav>
     <a href="/" class="logo">Collectorly</a>
     <div class="nav-right">
-      <a href="/cars/ferrari-f430">Ferrari F430</a>
-      <a href="/cars/lamborghini-murcielago" class="nav-active">Lamborghini Murci&eacute;lago</a>
+      <a href="/listings">Listings</a>
       <a href="/#contact">Get in Touch</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
@@ -839,6 +871,32 @@
       return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
     }
 
+    function getNewBadge(l) {
+      if (!l.dateAdded) return '';
+      const added = new Date(l.dateAdded + 'T00:00:00');
+      const now = new Date();
+      const diffDays = Math.floor((now - added) / (1000 * 60 * 60 * 24));
+      if (diffDays <= 1) return '<span class="card-new-badge">New</span>';
+      if (diffDays <= 7) return '<span class="card-new-badge">New this week</span>';
+      return '';
+    }
+
+    function getPriceBadge(l) {
+      if (!l.priceHistory || l.priceHistory.length === 0) return '';
+      const lastEntry = l.priceHistory[l.priceHistory.length - 1];
+      const oldNum = parsePriceNum(lastEntry.price);
+      const newNum = parsePriceNum(l.price);
+      if (!oldNum || !newNum || oldNum === newNum) return '';
+      if (newNum < oldNum) return '<span class="card-price-badge reduced">Price reduced</span>';
+      return '<span class="card-price-badge increased">Price increased</span>';
+    }
+
+    function parsePriceNum(str) {
+      if (!str) return null;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : null;
+    }
+
     function parsePrice(str) {
       if (!str || str === 'POA') return null;
       const m = str.replace(/,/g, '').match(/(\d+)/);
@@ -902,14 +960,14 @@
             : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
           }
           <div class="card-body">
-            ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}
+            ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}${getNewBadge(l)}
             <h2 class="card-title">${l.title}</h2>
             <div class="card-specs">
               ${l.year ? `<span>${l.year}</span>` : ''}
               ${l.mileage ? `<span>${l.mileage}</span>` : ''}
               ${l.transmission ? `<span>${l.transmission}</span>` : ''}
             </div>
-            ${l.price ? `<div class="card-price">${l.price}</div>` : ''}
+            ${l.price ? `<div class="card-price">${l.price}${getPriceBadge(l)}</div>` : ''}
             ${renderSourceLinks(l, '')}
           </div>
         </article>`;

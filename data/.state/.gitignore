@@ -1,0 +1,3 @@
+# State files are tracked in git so the refresh workflow can detect
+# listings that have been missing across multiple runs.
+# This .gitignore is intentionally empty — we WANT to commit state files.
