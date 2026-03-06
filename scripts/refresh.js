@@ -87,9 +87,14 @@ async function main() {
     }
   }
 
-  // Clean up Playwright browser
+  // Clean up Playwright browsers
   try {
     await autotrader.closeBrowser();
+  } catch {
+    // Ignore
+  }
+  try {
+    await collectingcars.closeBrowser();
   } catch {
     // Ignore
   }
@@ -178,6 +183,17 @@ async function processModel(modelConfig) {
   }
 
   console.log(`  Total scraped: ${scrapedListings.length} listings from all sources`);
+
+  // ── Scrape Collecting Cars sold results ────────────────────────────────
+  if (sources.collectingcars) {
+    try {
+      const soldResults = await collectingcars.scrapeSold(sources.collectingcars, modelConfig);
+      mergeSoldResults(soldResults, existingData, result);
+    } catch (err) {
+      console.error(`  [Collecting Cars Sold] Error: ${err.message}`);
+      result.errors.push({ source: 'Collecting Cars (sold)', error: err.message });
+    }
+  }
 
   // Build a map of existing listings by source URL
   const existingBySourceUrl = new Map();
@@ -317,6 +333,66 @@ async function processModel(modelConfig) {
 
   console.log(`  Results: ${result.newCount} new, ${result.updatedCount} updated, ${result.unlistedCount} unlisted, ${result.errors.length} errors`);
   return result;
+}
+
+// ── Sold Results Merge ───────────────────────────────────────────────────
+/**
+ * Merge scraped sold results into existing data.
+ * Matches by source URL; adds new sold listings, backfills images on existing.
+ */
+function mergeSoldResults(soldListings, existingData, result) {
+  // Build lookup of existing listings by source URL
+  const existingByUrl = new Map();
+  for (const listing of existingData.listings) {
+    for (const src of (listing.sources || [])) {
+      existingByUrl.set(src.url, listing);
+    }
+  }
+
+  for (const sold of soldListings) {
+    const existing = existingByUrl.get(sold.sourceUrl);
+
+    if (existing) {
+      // Update image if missing
+      if (!existing.image && sold.image) {
+        existing.image = sold.image;
+      }
+      // Update soldPrice/soldDate if missing
+      if (!existing.soldPrice && sold.soldPrice) {
+        existing.soldPrice = sold.soldPrice;
+      }
+      if (!existing.soldDate && sold.soldDate) {
+        existing.soldDate = sold.soldDate;
+      }
+      // Ensure status and price field are set
+      if (existing.status !== 'sold') {
+        existing.status = 'sold';
+      }
+      if (!existing.price || existing.price === 'POA') {
+        existing.price = 'Sold';
+      }
+    } else {
+      // New sold listing
+      const newId = String(getNextId(existingData.listings));
+      existingData.listings.push({
+        id: newId,
+        title: sold.title,
+        price: 'Sold',
+        year: sold.year,
+        mileage: sold.mileage || 'N/A',
+        transmission: sold.transmission || 'Unknown',
+        image: sold.image || '',
+        featured: false,
+        dateAdded: today(),
+        status: 'sold',
+        soldPrice: sold.soldPrice || '',
+        soldDate: sold.soldDate || '',
+        sources: [{ name: sold.sourceName, url: sold.sourceUrl }],
+      });
+      result.newCount++;
+      result.newListings.push({ title: sold.title, source: 'Collecting Cars (sold)' });
+    }
+  }
 }
 
 // ── Deduplication ─────────────────────────────────────────────────────────
