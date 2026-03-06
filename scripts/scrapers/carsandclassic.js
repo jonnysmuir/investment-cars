@@ -73,8 +73,8 @@ async function scrape(sourceConfig, modelConfig) {
 
 function parseItem(item, status, modelConfig) {
   try {
-    const id = item.id || item.reference;
-    const reference = item.reference || `C${id}`;
+    const id = item.id;
+    const slug = item.slug || `C${id}`;
 
     // Title
     let title = item.title || item.name || '';
@@ -121,8 +121,10 @@ function parseItem(item, status, modelConfig) {
       image += '?fit=fillmax&h=800&w=800&q=85';
     }
 
-    // Source URL
-    const sourceUrl = `https://www.carandclassic.com/l/${reference}`;
+    // Source URL — use item.url (e.g. /car/C2021811) or build from slug
+    const sourceUrl = item.url
+      ? `https://www.carandclassic.com${item.url}`
+      : `https://www.carandclassic.com/car/${slug}`;
 
     // Clean title
     if (year && !title.startsWith(String(year))) {
