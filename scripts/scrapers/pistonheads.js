@@ -80,12 +80,14 @@ async function scrapeListing(url, modelConfig) {
     const ogImage = $('meta[property="og:image"]').attr('content') || '';
 
     // Quick sanity check: does the title relate to the model?
+    // Normalize accents (e.g. "Murciélago" → "murcielago") for comparison
+    const stripAccents = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     const makeModel = `${modelConfig.make} ${modelConfig.model}`.toLowerCase();
-    const titleLower = title.toLowerCase();
-    // Allow partial matches (e.g. "430" for "F430", "murcielago" for "Murciélago")
-    const modelLower = modelConfig.model.toLowerCase();
+    const titleNorm = stripAccents(title);
+    const modelNorm = stripAccents(modelConfig.model);
+    // Allow partial matches (e.g. "430" for "F430")
     const modelShort = modelConfig.model.replace(/^[A-Z]-?/i, '').toLowerCase();
-    if (!titleLower.includes(modelLower) && !titleLower.includes(modelShort)) {
+    if (!titleNorm.includes(modelNorm) && !titleNorm.includes(modelShort)) {
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;
     }

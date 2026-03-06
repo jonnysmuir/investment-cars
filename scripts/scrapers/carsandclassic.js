@@ -80,10 +80,15 @@ function parseItem(item, status, modelConfig) {
     let title = item.title || item.name || '';
     const year = item.year || extractYear(title);
 
-    // Price: C&C stores prices in pence
+    // Price: C&C stores prices in pence, either as a number or as { value, currency }
     let price = 'POA';
     const rawPrice = item.price || item.currentPrice || item.askingPrice;
-    if (rawPrice && typeof rawPrice === 'number' && rawPrice > 0) {
+    if (rawPrice && typeof rawPrice === 'object' && rawPrice.value > 0) {
+      // Object format: { value: 11995000, currency: { name: "GBP", symbol: "£" } }
+      const pounds = Math.round(rawPrice.value / 100);
+      const symbol = rawPrice.currency?.symbol || '£';
+      price = `${symbol}${pounds.toLocaleString('en-GB')}`;
+    } else if (rawPrice && typeof rawPrice === 'number' && rawPrice > 0) {
       const pounds = Math.round(rawPrice / 100);
       price = `£${pounds.toLocaleString('en-GB')}`;
     } else if (rawPrice && typeof rawPrice === 'string') {
