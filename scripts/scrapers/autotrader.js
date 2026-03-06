@@ -3,9 +3,10 @@
  *
  * Strategy:
  *  - Navigate to the friendly URL: /cars/used/{make}/{model}
- *  - Extract structured JSON from <script> tags containing listing data
- *  - Map listing IDs to image hashes
- *  - Image URLs: m.atcdn.co.uk/a/media/w640/HASH.jpg
+ *  - Extract listing IDs from DOM cards ([data-testid="atds-vehicle-card"])
+ *  - Read rich listing data (title, year, price, mileage, images) from
+ *    window.AT_APOLLO_STATE — AutoTrader's Apollo GraphQL cache
+ *  - Fall back to DOM scraping if Apollo data is unavailable
  *
  * IMPORTANT: Individual /car-details/ID pages are fully JS-rendered (Apollo/React)
  * and return no useful data via fetch. Must use the search/friendly URL.
@@ -56,122 +57,153 @@ async function scrape(sourceConfig, modelConfig) {
     await page.goto(sourceConfig.searchUrl, { waitUntil: 'networkidle', timeout: 60000 });
     await sleep(2000);
 
-    // Extract all page HTML to find structured listing data in <script> tags
-    const pageContent = await page.content();
-
-    // Method 1: Try to find listing data in structured JSON within script tags
     const listings = [];
 
-    // Extract listing cards from the rendered DOM
-    const cardData = await page.evaluate(() => {
-      const cards = [];
-      // AutoTrader renders listing cards with various selectors
-      const articleEls = document.querySelectorAll('article[data-standout-type], section[data-testid="trader-seller-listing"]');
+    // Step 1: Get listing IDs from DOM cards
+    const cardIds = await page.evaluate(() => {
+      const cards = document.querySelectorAll('[data-testid="atds-vehicle-card"]');
+      return [...cards].map(c => {
+        const link = c.querySelector('a[href*="/car-details/"]');
+        const href = link?.href || '';
+        const match = href.match(/car-details\/(\d+)/);
+        return match ? match[1] : null;
+      }).filter(Boolean);
+    });
 
-      articleEls.forEach(el => {
-        try {
-          const titleEl = el.querySelector('h3 a, a[href*="/car-details/"]');
-          const priceEl = el.querySelector('[data-testid="search-listing-price"], .product-card-pricing__price');
-          const imgEl = el.querySelector('img[src*="atcdn"], img[data-src*="atcdn"]');
-          const linkEl = el.querySelector('a[href*="/car-details/"]');
+    console.log(`  [AutoTrader] Found ${cardIds.length} listing cards in DOM`);
+    if (cardIds.length === 0) return [];
 
-          const title = titleEl?.textContent?.trim() || '';
-          const price = priceEl?.textContent?.trim() || '';
-          const image = imgEl?.src || imgEl?.dataset?.src || '';
-          const href = linkEl?.href || '';
+    // Step 2: Extract rich data from Apollo GraphQL cache (window.AT_APOLLO_STATE)
+    const apolloAdverts = await page.evaluate(() => {
+      const state = window.AT_APOLLO_STATE;
+      if (!state || !state.ROOT_QUERY) return null;
 
-          // Extract specs
-          const specEls = el.querySelectorAll('li, [data-testid*="spec"]');
-          const specs = [...specEls].map(s => s.textContent.trim()).join(' | ');
+      const root = state.ROOT_QUERY;
+      const searchData = root.search;
+      if (!searchData) return null;
 
-          if (title && href) {
-            cards.push({ title, price, image, href, specs });
+      // Recursively find all advert objects in the Apollo cache
+      const adverts = [];
+      const seen = new Set();
+
+      function findAdverts(obj) {
+        if (!obj || typeof obj !== 'object') return;
+        if (Array.isArray(obj)) {
+          for (const item of obj) findAdverts(item);
+          return;
+        }
+        // An advert has id, title, year, and price
+        if (obj.id && obj.title && obj.year != null && obj.price != null) {
+          if (!seen.has(obj.id)) {
+            seen.add(obj.id);
+            adverts.push({
+              id: String(obj.id),
+              title: obj.title,
+              year: obj.year,
+              price: obj.price,
+              mileage: obj.mileage?.mileage || null,
+              image: obj.imageList?.images?.[0]?.url || null,
+            });
           }
-        } catch {
-          // Skip malformed cards
         }
-      });
-
-      return cards;
-    });
-
-    console.log(`  [AutoTrader] Found ${cardData.length} listing cards in DOM`);
-
-    // Also try extracting from script tags (more reliable for image data)
-    const scriptData = await page.evaluate(() => {
-      const scripts = [...document.querySelectorAll('script')];
-      for (const s of scripts) {
-        const text = s.textContent;
-        if (text.includes('"stockResponse"') || text.includes('"searchResults"') || text.includes('"results"')) {
-          return text;
+        for (const [key, val] of Object.entries(obj)) {
+          if (key === '__typename') continue;
+          findAdverts(val);
         }
       }
-      return null;
+
+      findAdverts(searchData);
+      return adverts;
     });
 
-    // Parse structured data if available
-    const imageMap = new Map(); // listingId → imageUrl
-    if (scriptData) {
-      // Extract id-to-image mappings
-      const idImageRegex = /"id"\s*:\s*"(\d+)"[\s\S]*?"images"\s*:\s*\[([\s\S]*?)\]/g;
-      let match;
-      while ((match = idImageRegex.exec(scriptData)) !== null) {
-        const id = match[1];
-        const imagesBlock = match[2];
-        const hashMatch = imagesBlock.match(/"([a-f0-9]{32})"/);
-        if (hashMatch) {
-          imageMap.set(id, `https://m.atcdn.co.uk/a/media/w640/${hashMatch[1]}.jpg`);
-        }
+    // Build a map of id → apollo data for quick lookup
+    const apolloMap = new Map();
+    if (apolloAdverts) {
+      for (const a of apolloAdverts) {
+        apolloMap.set(a.id, a);
       }
+      console.log(`  [AutoTrader] Found ${apolloMap.size} listings in Apollo cache`);
     }
 
-    // Process DOM cards into listings
-    for (const card of cardData) {
-      const listingIdMatch = card.href.match(/car-details\/(\d+)/);
-      const listingId = listingIdMatch ? listingIdMatch[1] : null;
+    // Step 3: For each DOM card, build listing from Apollo data (or fall back to DOM)
+    const seenIds = new Set();
+    for (const id of cardIds) {
+      if (seenIds.has(id)) continue;
+      seenIds.add(id);
 
-      // Get best image URL
-      let image = card.image;
-      if (listingId && imageMap.has(listingId)) {
-        image = imageMap.get(listingId);
+      const sourceUrl = `https://www.autotrader.co.uk/car-details/${id}`;
+      const apollo = apolloMap.get(id);
+
+      if (apollo) {
+        // Rich data from Apollo cache
+        let image = apollo.image || '';
+        if (image) image = image.replace(/\{resize\}/g, 'w640');
+
+        const price = apollo.price > 0
+          ? `£${apollo.price.toLocaleString('en-GB')}`
+          : 'POA';
+
+        const mileage = apollo.mileage
+          ? `${apollo.mileage.toLocaleString('en-GB')} miles`
+          : 'N/A';
+
+        const transmission = normaliseTransmission(apollo.title);
+
+        listings.push({
+          title: cleanTitle(apollo.title, apollo.year),
+          price,
+          year: apollo.year,
+          mileage,
+          transmission,
+          image,
+          sourceUrl,
+          sourceName: SOURCE_NAME,
+          scrapedAt: today(),
+        });
+      } else {
+        // Fallback: scrape from DOM card directly
+        const fallback = await page.evaluate((listingId) => {
+          const cards = document.querySelectorAll('[data-testid="atds-vehicle-card"]');
+          for (const c of cards) {
+            const link = c.querySelector('a[href*="/car-details/"]');
+            if (!link || !link.href.includes(listingId)) continue;
+
+            // Build title from h3 + p to avoid concatenation issue
+            const h3 = link.querySelector('h3');
+            const p = link.querySelector('p');
+            const title = [h3?.textContent?.trim(), p?.textContent?.trim()].filter(Boolean).join(' ');
+
+            const cardText = c.textContent || '';
+            const priceMatch = cardText.match(/£[\d,]+/);
+            const imgEl = c.querySelector('img[src*="atcdn"], img[data-src*="atcdn"]');
+
+            return {
+              title,
+              price: priceMatch ? priceMatch[0] : '',
+              image: imgEl?.src || imgEl?.dataset?.src || '',
+            };
+          }
+          return null;
+        }, id);
+
+        if (fallback) {
+          const year = extractYear(fallback.title);
+          let image = fallback.image;
+          if (image) image = image.replace(/\{resize\}/g, 'w640');
+
+          listings.push({
+            title: cleanTitle(fallback.title, year),
+            price: fallback.price || 'POA',
+            year,
+            mileage: 'N/A',
+            transmission: normaliseTransmission(fallback.title),
+            image: image || '',
+            sourceUrl,
+            sourceName: SOURCE_NAME,
+            scrapedAt: today(),
+          });
+        }
       }
-      // Clean up image URL: replace {resize} placeholder
-      if (image) {
-        image = image.replace(/\{resize\}/g, 'w640');
-      }
-
-      // Parse price
-      let price = 'POA';
-      const priceMatch = card.price.match(/£[\d,]+/);
-      if (priceMatch) price = priceMatch[0];
-
-      const year = extractYear(card.title);
-
-      // Mileage from specs
-      let mileage = 'N/A';
-      const mileageMatch = card.specs.match(/([\d,]+)\s*miles/i);
-      if (mileageMatch) mileage = `${mileageMatch[1]} miles`;
-
-      // Transmission from specs or title
-      let transmission = 'Unknown';
-      const allText = card.title + ' ' + card.specs;
-      transmission = normaliseTransmission(allText);
-
-      const sourceUrl = listingId
-        ? `https://www.autotrader.co.uk/car-details/${listingId}`
-        : card.href;
-
-      listings.push({
-        title: cleanTitle(card.title, year),
-        price,
-        year,
-        mileage,
-        transmission,
-        image: image || '',
-        sourceUrl,
-        sourceName: SOURCE_NAME,
-        scrapedAt: today(),
-      });
     }
 
     console.log(`  [AutoTrader] Successfully scraped ${listings.length} listings`);

@@ -119,7 +119,7 @@ function normaliseTransmission(raw) {
   if (/e[\s-]?gear/i.test(lower)) return 'E-Gear';
   if (/f1|automated|semi[\s-]?auto|paddle|dct/i.test(lower)) return 'F1 Automated Manual';
   if (/auto/i.test(lower)) return 'Automatic';
-  return raw.trim();
+  return 'Unknown';
 }
 
 /**

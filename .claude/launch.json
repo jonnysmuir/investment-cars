@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "site",
-      "runtimeExecutable": "/tmp/node-v22.14.0-darwin-arm64/bin/node",
+      "runtimeExecutable": "/Users/jonnymuir/bin/node",
       "runtimeArgs": ["server.js"],
       "port": 3000
     }

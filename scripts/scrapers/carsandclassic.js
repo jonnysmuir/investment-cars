@@ -53,9 +53,14 @@ async function scrape(sourceConfig, modelConfig) {
   const props = pageData.props || {};
   const listings = [];
 
+  // Country filter — default to GB only
+  const allowedCountries = sourceConfig.countries || ['GB'];
+
   // Process classified (buy-now) listings
   const classifiedData = props.classifieds?.listings?.data || [];
   for (const item of classifiedData) {
+    const country = item.location?.countryCode;
+    if (country && !allowedCountries.includes(country)) continue;
     const listing = parseItem(item, 'active', modelConfig);
     if (listing) listings.push(listing);
   }
@@ -63,6 +68,8 @@ async function scrape(sourceConfig, modelConfig) {
   // Process auction listings
   const auctionData = props.auctions?.listings?.data || [];
   for (const item of auctionData) {
+    const country = item.location?.countryCode;
+    if (country && !allowedCountries.includes(country)) continue;
     const listing = parseItem(item, 'auction', modelConfig);
     if (listing) listings.push(listing);
   }
