@@ -83,9 +83,9 @@ async function scrapeListing(url, modelConfig) {
     const makeModel = `${modelConfig.make} ${modelConfig.model}`.toLowerCase();
     const titleLower = title.toLowerCase();
     // Allow partial matches (e.g. "430" for "F430", "murcielago" for "Murciélago")
+    const modelLower = modelConfig.model.toLowerCase();
     const modelShort = modelConfig.model.replace(/^[A-Z]-?/i, '').toLowerCase();
-    if (!titleLower.includes(modelConfig.make.toLowerCase()) &&
-        !titleLower.includes(modelShort)) {
+    if (!titleLower.includes(modelLower) && !titleLower.includes(modelShort)) {
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;
     }

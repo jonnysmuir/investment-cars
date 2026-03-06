@@ -139,15 +139,15 @@ async function processModel(modelConfig) {
     existingData = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
   } catch {
     console.log(`  No existing data for ${slug}, starting fresh`);
-    existingData = {
-      model: `${modelConfig.make} ${modelConfig.model}`,
-      slug,
-      heroImage: modelConfig.heroImage,
-      heroCredit: modelConfig.heroCredit,
-      description: modelConfig.description,
-      listings: [],
-    };
+    existingData = { listings: [] };
   }
+
+  // Always ensure metadata is up-to-date from models.json
+  existingData.model = `${modelConfig.make} ${modelConfig.model}`;
+  existingData.slug = slug;
+  existingData.heroImage = modelConfig.heroImage;
+  existingData.heroCredit = modelConfig.heroCredit;
+  existingData.description = modelConfig.description;
 
   // Load state (tracks missing-since counters)
   const stateFile = path.join(STATE_DIR, `${slug}.json`);
