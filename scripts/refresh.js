@@ -331,15 +331,19 @@ function findDuplicate(scraped, existingListings) {
   for (const existing of existingListings) {
     if (existing.status === 'sold') continue;
 
+    // Never merge with a listing that already has a source from the same site.
+    // If Cars & Classic has 5 listings, they are 5 different cars, not duplicates.
+    // Duplicates are the *same* car appearing on *different* sites.
+    if (existing.sources.some(s => s.name === scraped.sourceName)) continue;
+
     // Year must match
     if (existing.year !== scrapedYear) continue;
 
-    // Price must be within 5%
+    // Price must be within 5% — both must have a real price
     const existingPrice = parsePrice(existing.price);
-    if (scrapedPrice && existingPrice) {
-      const ratio = scrapedPrice / existingPrice;
-      if (ratio < 0.95 || ratio > 1.05) continue;
-    }
+    if (!scrapedPrice || !existingPrice) continue;
+    const ratio = scrapedPrice / existingPrice;
+    if (ratio < 0.95 || ratio > 1.05) continue;
 
     // Title similarity: check if key words overlap
     const scrapedWords = titleWords(scraped.title);
