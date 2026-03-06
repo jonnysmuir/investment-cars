@@ -755,36 +755,22 @@
 
       <div class="filter-row" data-filter="year">
         <span class="filter-label">Year</span>
-        <button class="filter-pill active" data-value="">All</button>
-        <button class="filter-pill" data-value="2006">2006</button>
-        <button class="filter-pill" data-value="2007">2007</button>
-        <button class="filter-pill" data-value="2008">2008</button>
-        <button class="filter-pill" data-value="2009">2009</button>
-        <button class="filter-pill" data-value="2010">2010</button>
-        <button class="filter-pill" data-value="2011">2011</button>
-        <button class="filter-pill" data-value="2012">2012</button>
       </div>
 
-      <div class="filter-row" data-filter="body">
+      <div class="filter-row" data-filter="body" style="display: none;">
         <span class="filter-label">Body</span>
-        <button class="filter-pill active" data-value="">All</button>
-        <button class="filter-pill" data-value="gtb">GTB</button>
-        <button class="filter-pill" data-value="gto">GTO</button>
+      </div>
+
+      <div class="filter-row" data-filter="variant">
+        <span class="filter-label">Variant</span>
       </div>
 
       <div class="filter-row" data-filter="transmission">
         <span class="filter-label">Gearbox</span>
-        <button class="filter-pill active" data-value="">All</button>
-        <button class="filter-pill" data-value="f1">F1</button>
-        <button class="filter-pill" data-value="manual">Manual</button>
       </div>
 
       <div class="filter-row" data-filter="source">
         <span class="filter-label">Source</span>
-        <button class="filter-pill active" data-value="">All</button>
-        <button class="filter-pill" data-value="PistonHeads">PistonHeads</button>
-        <button class="filter-pill" data-value="AutoTrader">AutoTrader</button>
-        <button class="filter-pill" data-value="Cars & Classic">Cars &amp; Classic</button>
       </div>
 
       <div class="filter-row" data-filter="price">
@@ -912,7 +898,13 @@
     }
 
     function getBody(title) {
-      if (/gto/i.test(title)) return 'gto';
+      if (/aperta|spider|convertible|open/i.test(title)) return 'open';
+      return 'coupe';
+    }
+
+    function getVariant(title) {
+      if (/gto/i.test(title) && !/upgrades/i.test(title)) return 'gto';
+      if (/sa aperta|aperta/i.test(title)) return 'sa-aperta';
       return 'gtb';
     }
 
@@ -1005,6 +997,7 @@
     const filters = {
       year: [],
       body: null,
+      variant: null,
       transmission: null,
       source: null,
       priceMin: null,
@@ -1018,10 +1011,75 @@
       filterToggle.classList.toggle('open', isOpen);
     });
 
+    // --- Dynamic filter pill config ---
+
+    const FILTER_CONFIG = {
+      year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
+      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', open: 'Open Top' }, sortOrder: ['coupe','open'], mode: 'single', minDistinct: 2 },
+      variant:      { detect: l => getVariant(l.title), labels: { gtb: 'GTB', gto: 'GTO', 'sa-aperta': 'SA Aperta' }, sortOrder: ['gtb','gto','sa-aperta'], mode: 'single' },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { f1: 'F1', manual: 'Manual' }, sortOrder: ['f1','manual'], mode: 'single' },
+      source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
+    };
+
+    function buildFilterPills(listings) {
+      for (const [filterName, config] of Object.entries(FILTER_CONFIG)) {
+        const row = document.querySelector(`.filter-row[data-filter="${filterName}"]`);
+        if (!row) continue;
+
+        // Collect distinct values
+        const valuesSet = new Set();
+        for (const l of listings) {
+          const val = config.detect(l);
+          if (config.isMultiValue && Array.isArray(val)) {
+            val.forEach(v => { if (v) valuesSet.add(v); });
+          } else if (val) {
+            valuesSet.add(val);
+          }
+        }
+
+        // Hide row if minDistinct threshold not met
+        if (config.minDistinct && valuesSet.size < config.minDistinct) {
+          row.style.display = 'none';
+          continue;
+        }
+        row.style.display = '';
+
+        // Sort values
+        let sorted = [...valuesSet];
+        if (config.sortOrder === null) {
+          // Numeric sort (for years)
+          sorted.sort((a, b) => Number(a) - Number(b));
+        } else {
+          sorted.sort((a, b) => {
+            const ia = config.sortOrder.indexOf(a);
+            const ib = config.sortOrder.indexOf(b);
+            if (ia === -1 && ib === -1) return a.localeCompare(b);
+            if (ia === -1) return 1;
+            if (ib === -1) return -1;
+            return ia - ib;
+          });
+        }
+
+        // Build pill HTML
+        const label = row.querySelector('.filter-label');
+        const labelHTML = label ? label.outerHTML : '';
+        let html = labelHTML;
+        html += '<button class="filter-pill active" data-value="">All</button>';
+        for (const val of sorted) {
+          const display = config.labels[val] || val;
+          const escaped = val.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+          const displayEscaped = String(display).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+          html += `<button class="filter-pill" data-value="${escaped}">${displayEscaped}</button>`;
+        }
+        row.innerHTML = html;
+      }
+    }
+
     function updateFilterCount() {
       let count = 0;
       if (filters.year.length > 0) count++;
       if (filters.body) count++;
+      if (filters.variant) count++;
       if (filters.transmission) count++;
       if (filters.source) count++;
       if (filters.priceMin !== null) count++;
@@ -1044,6 +1102,9 @@
       }
       if (filters.body) {
         results = results.filter(l => getBody(l.title) === filters.body);
+      }
+      if (filters.variant) {
+        results = results.filter(l => getVariant(l.title) === filters.variant);
       }
       if (filters.transmission) {
         results = results.filter(l => getTransmissionGroup(l.transmission) === filters.transmission);
@@ -1093,7 +1154,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1108,53 +1169,45 @@
       updateFilterCount();
     }
 
-    // --- Event listeners for filters ---
+    // --- Event listeners for filters (event delegation) ---
 
-    // Pill buttons
     document.querySelectorAll('.filter-row[data-filter]').forEach(row => {
       const filterName = row.dataset.filter;
-      if (filterName === 'price') return; // price uses inputs
+      if (filterName === 'price') return;
 
-      row.querySelectorAll('.filter-pill').forEach(pill => {
-        pill.addEventListener('click', () => {
-          const val = pill.dataset.value;
+      row.addEventListener('click', (e) => {
+        const pill = e.target.closest('.filter-pill');
+        if (!pill) return;
+        const val = pill.dataset.value;
 
-          if (filterName === 'year') {
-            // Multi-select for year
-            if (!val) {
-              // "All" clicked — clear selection
-              filters.year = [];
-              row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
-              pill.classList.add('active');
-            } else {
-              const yearVal = parseInt(val);
-              const idx = filters.year.indexOf(yearVal);
-              if (idx > -1) {
-                // Deselect this year
-                filters.year.splice(idx, 1);
-                pill.classList.remove('active');
-              } else {
-                // Select this year
-                filters.year.push(yearVal);
-                pill.classList.add('active');
-              }
-              // Remove "All" active state
-              const allPill = row.querySelector('.filter-pill[data-value=""]');
-              if (filters.year.length > 0) {
-                allPill.classList.remove('active');
-              } else {
-                // Nothing selected — reactivate "All"
-                allPill.classList.add('active');
-              }
-            }
-          } else {
-            // Single-select for other filters
+        if (filterName === 'year') {
+          if (!val) {
+            filters.year = [];
             row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
-            filters[filterName] = val || null;
+          } else {
+            const yearVal = parseInt(val);
+            const idx = filters.year.indexOf(yearVal);
+            if (idx > -1) {
+              filters.year.splice(idx, 1);
+              pill.classList.remove('active');
+            } else {
+              filters.year.push(yearVal);
+              pill.classList.add('active');
+            }
+            const allPill = row.querySelector('.filter-pill[data-value=""]');
+            if (filters.year.length > 0) {
+              allPill.classList.remove('active');
+            } else {
+              allPill.classList.add('active');
+            }
           }
-          applyFiltersAndSort();
-        });
+        } else {
+          row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          filters[filterName] = val || null;
+        }
+        applyFiltersAndSort();
       });
     });
 
@@ -1220,6 +1273,9 @@
 
         // Show filter toggle button
         filterToggle.style.display = 'flex';
+
+        // Build dynamic filter pills from listing data
+        buildFilterPills(allClassified);
 
         // Render classified via filter/sort
         applyFiltersAndSort();
