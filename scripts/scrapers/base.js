@@ -100,6 +100,18 @@ function formatPrice(num) {
 }
 
 /**
+ * Parse a mileage string like "22,000 miles" or "16,000 km" → number (in miles), or null.
+ */
+function parseMileage(str) {
+  if (!str || /n\/a|low mileage/i.test(str)) return null;
+  const cleaned = str.replace(/[^0-9.]/g, '');
+  const num = parseFloat(cleaned);
+  if (isNaN(num) || num === 0) return null;
+  if (/km/i.test(str)) return Math.round(num * 0.621371);
+  return num;
+}
+
+/**
  * Extract year from a title string like "2007 Ferrari F430..."
  */
 function extractYear(title) {
@@ -185,6 +197,7 @@ module.exports = {
   sleep,
   fetchWithRetry,
   parsePrice,
+  parseMileage,
   formatPrice,
   extractYear,
   normaliseTransmission,

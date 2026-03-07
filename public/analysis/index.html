@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Analysis — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--color-accent); }
+    .nav-active { color: var(--color-accent) !important; }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
+
+    /* Smooth theme transition */
+    body, nav, footer {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Page header */
+    .page-header {
+      padding: 5rem 3rem 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .page-description {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    /* Model cards grid */
+    .models-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem 3rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .model-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .model-card:hover {
+      border-color: var(--color-accent);
+      transform: translateY(-2px);
+    }
+
+    .card-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      background: var(--color-border);
+    }
+
+    .card-body {
+      padding: 1.25rem;
+    }
+
+    .card-make {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.2rem;
+    }
+
+    .card-model {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-stats {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .card-stat-value {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+
+    .card-stat-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      margin-top: 0.1rem;
+    }
+
+    .card-coming-soon {
+      font-size: 0.82rem;
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+
+    /* Loading state */
+    .card-stats-loading {
+      height: 38px;
+      display: flex;
+      align-items: center;
+      color: var(--color-text-muted);
+      font-size: 0.8rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.25rem; }
+      .page-header { padding: 5rem 1.25rem 1rem; }
+      .models-grid { padding: 1.5rem 1.25rem 3rem; }
+      footer { padding: 1.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis" class="nav-active">Analysis</a>
+      <a href="/#contact">Get in Touch</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <p class="section-label">Market Analysis</p>
+    <h1 class="section-title">Market Overview</h1>
+    <p class="page-description">
+      Daily price tracking and market intelligence across the UK collector car market. Select a model to explore detailed trends and distributions.
+    </p>
+  </header>
+
+  <div class="models-grid" id="modelsGrid"></div>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    // ── Theme toggle ──────────────────────────────────────────────────────
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // ── Models ────────────────────────────────────────────────────────────
+    const models = [
+      { slug: 'ferrari-f430', make: 'Ferrari', model: 'F430' },
+      { slug: 'ferrari-599', make: 'Ferrari', model: '599' },
+      { slug: 'ferrari-458', make: 'Ferrari', model: '458' },
+      { slug: 'ferrari-488', make: 'Ferrari', model: '488' },
+      { slug: 'ferrari-f12', make: 'Ferrari', model: 'F12' },
+      { slug: 'ferrari-360', make: 'Ferrari', model: '360' },
+      { slug: 'lamborghini-murcielago', make: 'Lamborghini', model: 'Murci\u00e9lago' },
+      { slug: 'lexus-lfa', make: 'Lexus', model: 'LFA' },
+      { slug: 'bmw-m3', make: 'BMW', model: 'M3' },
+      { slug: 'bmw-m8', make: 'BMW', model: 'M8' },
+    ];
+
+    function formatGBP(num) {
+      if (num == null) return '\u2014';
+      return '\u00a3' + num.toLocaleString('en-GB');
+    }
+
+    const grid = document.getElementById('modelsGrid');
+
+    // Render cards immediately with loading state, then fill in data
+    models.forEach(m => {
+      const card = document.createElement('a');
+      card.href = `/analysis/${m.slug}/`;
+      card.className = 'model-card';
+      card.innerHTML = `
+        <img class="card-image" src="" alt="${m.make} ${m.model}" style="opacity: 0; transition: opacity 0.4s;">
+        <div class="card-body">
+          <div class="card-make">${m.make}</div>
+          <div class="card-model">${m.make} ${m.model}</div>
+          <div class="card-stats-loading" data-stats="${m.slug}">Loading...</div>
+        </div>
+      `;
+      grid.appendChild(card);
+
+      // Fetch hero image from listings API
+      fetch(`/api/listings/${m.slug}`)
+        .then(r => r.json())
+        .then(data => {
+          if (data.heroImage) {
+            const img = card.querySelector('.card-image');
+            img.src = data.heroImage;
+            img.onload = () => { img.style.opacity = '1'; };
+          }
+        })
+        .catch(() => {});
+
+      // Fetch analysis stats from history API
+      fetch(`/api/history/${m.slug}`)
+        .then(r => r.json())
+        .then(data => {
+          const container = card.querySelector(`[data-stats="${m.slug}"]`);
+          const hasTrend = data.trend && data.trend.some(d => d.count > 0);
+
+          if (hasTrend) {
+            const latest = data.trend.filter(d => d.count > 0).pop();
+            container.className = 'card-stats';
+            container.innerHTML = `
+              <div>
+                <div class="card-stat-value">${formatGBP(latest.median)}</div>
+                <div class="card-stat-label">Median</div>
+              </div>
+              <div>
+                <div class="card-stat-value">${latest.count}</div>
+                <div class="card-stat-label">Listings</div>
+              </div>
+              <div>
+                <div class="card-stat-value">${formatGBP(latest.min)}</div>
+                <div class="card-stat-label">From</div>
+              </div>
+            `;
+          } else {
+            container.className = '';
+            container.innerHTML = '<span class="card-coming-soon">Awaiting data...</span>';
+          }
+        })
+        .catch(() => {
+          const container = card.querySelector(`[data-stats="${m.slug}"]`);
+          container.className = '';
+          container.innerHTML = '<span class="card-coming-soon">Awaiting data...</span>';
+        });
+    });
+  </script>
+
+</body>
+</html>

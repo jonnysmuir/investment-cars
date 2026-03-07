@@ -13,7 +13,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { parsePrice, formatPrice, sourceUrlToId, today } = require('./scrapers/base');
+const { parsePrice, parseMileage, formatPrice, sourceUrlToId, today } = require('./scrapers/base');
 
 // ── Scrapers ──────────────────────────────────────────────────────────────
 const pistonheads = require('./scrapers/pistonheads');
@@ -32,6 +32,7 @@ const SCRAPERS = {
 const ROOT = path.join(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const STATE_DIR = path.join(DATA_DIR, '.state');
+const HISTORY_DIR = path.join(DATA_DIR, 'history');
 const MODELS_FILE = path.join(DATA_DIR, 'models.json');
 const SUMMARY_FILE = path.join(__dirname, 'summary.md');
 
@@ -335,8 +336,57 @@ async function processModel(modelConfig) {
   fs.writeFileSync(dataFile, JSON.stringify(existingData, null, 2) + '\n', 'utf8');
   fs.writeFileSync(stateFile, JSON.stringify(state, null, 2) + '\n', 'utf8');
 
+  // ── Save daily price snapshot for analysis ──────────────────────────
+  saveSnapshot(slug, existingData);
+
   console.log(`  Results: ${result.newCount} new, ${result.updatedCount} updated, ${result.unlistedCount} unlisted, ${result.errors.length} errors`);
   return result;
+}
+
+// ── Daily Price Snapshot ─────────────────────────────────────────────────
+/**
+ * Save a daily price snapshot for this model.
+ * Records every active listing's price data for aggregate analysis.
+ */
+function saveSnapshot(slug, existingData) {
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+
+  const historyFile = path.join(HISTORY_DIR, `${slug}.json`);
+
+  let history;
+  try {
+    history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+  } catch {
+    history = [];
+  }
+
+  const dateStr = today();
+
+  // Build snapshot from active listings only
+  const activeListings = (existingData.listings || []).filter(l => l.status === 'active');
+
+  const snapshot = {
+    date: dateStr,
+    listings: activeListings.map(l => ({
+      id: l.id,
+      price: parsePrice(l.price),
+      year: l.year || null,
+      mileage: parseMileage(l.mileage),
+      transmission: l.transmission || 'Unknown',
+      status: 'active',
+    })).filter(l => l.price !== null),
+  };
+
+  // Idempotent: replace today's entry if re-run, otherwise append
+  const existingIndex = history.findIndex(s => s.date === dateStr);
+  if (existingIndex >= 0) {
+    history[existingIndex] = snapshot;
+  } else {
+    history.push(snapshot);
+  }
+
+  fs.writeFileSync(historyFile, JSON.stringify(history, null, 2) + '\n', 'utf8');
+  console.log(`  Snapshot: ${snapshot.listings.length} active listings recorded for ${dateStr}`);
 }
 
 // ── Sold Results Merge ───────────────────────────────────────────────────

@@ -249,6 +249,7 @@
     <a href="/" class="logo">Collectorly</a>
     <div class="nav-right">
       <a href="/listings" class="nav-active">Listings</a>
+      <a href="/analysis">Analysis</a>
       <a href="#" id="contactLink">Get in Touch</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
@@ -278,7 +279,10 @@
         </select>
       </div>
 
-      <a href="#" class="view-btn hidden" id="viewBtn">View Listings</a>
+      <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#" class="view-btn hidden" id="viewBtn">View Listings</a>
+        <a href="#" class="view-btn hidden" id="analysisBtn" style="background: transparent; color: var(--color-accent); border: 1px solid var(--color-accent);">Market Analysis</a>
+      </div>
     </div>
   </div>
 
@@ -332,6 +336,7 @@
     const makeSelect = document.getElementById('make');
     const modelSelect = document.getElementById('model');
     const viewBtn = document.getElementById('viewBtn');
+    const analysisBtn = document.getElementById('analysisBtn');
 
     makeSelect.addEventListener('change', () => {
       const make = makeSelect.value;
@@ -339,7 +344,9 @@
       // Reset model
       modelSelect.innerHTML = '<option value="">Select model...</option>';
       viewBtn.classList.add('hidden');
+      analysisBtn.classList.add('hidden');
       viewBtn.href = '#';
+      analysisBtn.href = '#';
 
       if (make && models[make]) {
         models[make].forEach(m => {
@@ -358,10 +365,14 @@
       const slug = modelSelect.value;
       if (slug) {
         viewBtn.href = `/cars/${slug}`;
+        analysisBtn.href = `/analysis/${slug}`;
         viewBtn.classList.remove('hidden');
+        analysisBtn.classList.remove('hidden');
       } else {
         viewBtn.classList.add('hidden');
+        analysisBtn.classList.add('hidden');
         viewBtn.href = '#';
+        analysisBtn.href = '#';
       }
     });
   </script>
