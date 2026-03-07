@@ -103,17 +103,24 @@ function parseItem(item, status, modelConfig) {
       if (priceMatch) price = `£${priceMatch[0]}`;
     }
 
-    // Mileage
+    // Mileage — primary source is item.attributes.mileage (Inertia.js format)
     let mileage = 'N/A';
-    if (item.mileage != null && item.mileage > 0) {
+    const attrMileage = item.attributes?.mileage;
+    if (attrMileage?.value != null && attrMileage.value > 0) {
+      const val = Number(attrMileage.value).toLocaleString('en-GB');
+      mileage = attrMileage.unit === 'km' ? `${val} km` : `${val} miles`;
+    } else if (item.mileage != null && item.mileage > 0) {
       mileage = `${item.mileage.toLocaleString('en-GB')} miles`;
     } else if (item.odometer) {
       mileage = `${parseInt(item.odometer).toLocaleString('en-GB')} miles`;
     }
 
-    // Transmission
+    // Transmission — primary source is item.attributes.transmissionType
     let transmission = 'Unknown';
-    if (item.transmission) {
+    const attrTrans = item.attributes?.transmissionType;
+    if (attrTrans) {
+      transmission = normaliseTransmission(attrTrans);
+    } else if (item.transmission) {
       transmission = normaliseTransmission(item.transmission);
     } else if (item.gearbox) {
       transmission = normaliseTransmission(item.gearbox);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lamborghini Murciélago Listings — Collectorly</title>
+  <title>Ferrari 360 Listings — Collectorly</title>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -721,10 +721,10 @@
   </nav>
 
   <section class="hero-banner" id="heroBanner">
-    <img id="heroImage" src="" alt="Lamborghini Murciélago" style="opacity: 0;">
+    <img id="heroImage" src="" alt="Ferrari 360" style="opacity: 0;">
     <div class="hero-overlay">
-      <h1 class="hero-model-name">Lamborghini Murci&eacute;lago</h1>
-      <p class="hero-model-years">2001 — 2010 &middot; 6.2–6.5L V12 &middot; 572–661 BHP</p>
+      <h1 class="hero-model-name">Ferrari 360</h1>
+      <p class="hero-model-years">1999 — 2005 &middot; 3.6L V8 &middot; 394 BHP</p>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -757,7 +757,7 @@
         <span class="filter-label">Year</span>
       </div>
 
-      <div class="filter-row" data-filter="body">
+      <div class="filter-row" data-filter="body" style="display: none;">
         <span class="filter-label">Body</span>
       </div>
 
@@ -776,9 +776,9 @@
       <div class="filter-row" data-filter="price">
         <span class="filter-label">Price</span>
         <div class="price-range">
-          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="10000">
+          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="1000">
           <span class="price-sep">–</span>
-          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="10000">
+          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="1000">
         </div>
       </div>
     </div>
@@ -799,7 +799,7 @@
     <div class="listings-grid" id="auctionGrid"></div>
     <div class="auction-empty" id="auctionEmpty">
       <div class="auction-empty-icon">&#9881;</div>
-      <p class="auction-empty-text">No Lamborghini Murci&eacute;lago auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
+      <p class="auction-empty-text">No Ferrari 360 auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
     </div>
   </section>
 
@@ -886,32 +886,32 @@
     }
 
     function parsePrice(str) {
-      if (!str || str === 'POA') return null;
+      if (!str) return null;
       const m = str.replace(/,/g, '').match(/(\d+)/);
       return m ? parseInt(m[1]) : null;
     }
 
     function parseMileage(str) {
-      if (!str || str === 'N/A') return Infinity;
+      if (!str) return Infinity;
       const m = str.replace(/,/g, '').match(/(\d+)/);
       return m ? parseInt(m[1]) : Infinity;
     }
 
     function getBody(title) {
-      if (/roadster/i.test(title)) return 'roadster';
+      if (/spider|convertible|open/i.test(title)) return 'open';
       return 'coupe';
     }
 
     function getVariant(title) {
-      if (/670|sv/i.test(title)) return 'lp-670-4-sv';
-      if (/640/i.test(title)) return 'lp-640';
-      return 'murcielago';
+      if (/challenge stradale|stradale/i.test(title)) return 'challenge-stradale';
+      if (/spider/i.test(title)) return 'spider';
+      return 'modena';
     }
 
     function getTransmissionGroup(str) {
-      if (!str) return 'e-gear';
-      if (/manual/i.test(str.trim()) && !/e-gear/i.test(str.trim())) return 'manual';
-      return 'e-gear';
+      if (!str) return 'f1';
+      if (/manual/i.test(str.trim())) return 'manual';
+      return 'f1';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1015,9 +1015,9 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', roadster: 'Roadster' }, sortOrder: ['coupe','roadster'], mode: 'single' },
-      variant:      { detect: l => getVariant(l.title), labels: { murcielago: 'Murci\u00e9lago', 'lp-640': 'LP 640', 'lp-670-4-sv': 'LP 670-4 SV' }, sortOrder: ['murcielago','lp-640','lp-670-4-sv'], mode: 'single' },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { 'e-gear': 'E-Gear', manual: 'Manual' }, sortOrder: ['e-gear','manual'], mode: 'single' },
+      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', open: 'Open Top' }, sortOrder: ['coupe','open'], mode: 'single', minDistinct: 2 },
+      variant:      { detect: l => getVariant(l.title), labels: { modena: 'Modena', spider: 'Spider', 'challenge-stradale': 'Challenge Stradale' }, sortOrder: ['modena','spider','challenge-stradale'], mode: 'single' },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { f1: 'F1', manual: 'Manual' }, sortOrder: ['manual','f1'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
 
@@ -1026,6 +1026,7 @@
         const row = document.querySelector(`.filter-row[data-filter="${filterName}"]`);
         if (!row) continue;
 
+        // Collect distinct values
         const valuesSet = new Set();
         for (const l of listings) {
           const val = config.detect(l);
@@ -1036,14 +1037,17 @@
           }
         }
 
+        // Hide row if minDistinct threshold not met
         if (config.minDistinct && valuesSet.size < config.minDistinct) {
           row.style.display = 'none';
           continue;
         }
         row.style.display = '';
 
+        // Sort values
         let sorted = [...valuesSet];
         if (config.sortOrder === null) {
+          // Numeric sort (for years)
           sorted.sort((a, b) => Number(a) - Number(b));
         } else {
           sorted.sort((a, b) => {
@@ -1056,6 +1060,7 @@
           });
         }
 
+        // Build pill HTML
         const label = row.querySelector('.filter-label');
         const labelHTML = label ? label.outerHTML : '';
         let html = labelHTML;
@@ -1231,7 +1236,7 @@
 
     async function loadListings() {
       try {
-        const res = await fetch('/api/listings/lamborghini-murcielago');
+        const res = await fetch('/api/listings/ferrari-360');
         if (!res.ok) throw new Error('Failed to load');
 
         const data = await res.json();

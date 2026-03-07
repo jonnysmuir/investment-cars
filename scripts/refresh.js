@@ -267,6 +267,10 @@ async function processModel(modelConfig) {
             url: scraped.sourceUrl,
           });
         }
+        // Backfill image if missing
+        if (!duplicate.image && scraped.image) {
+          duplicate.image = scraped.image;
+        }
         // Clear missing-since
         delete state.missingSince[scraped.sourceUrl];
       } else {

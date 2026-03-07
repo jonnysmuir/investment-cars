@@ -264,8 +264,10 @@
         <label for="make">Make</label>
         <select id="make">
           <option value="">Select make...</option>
+          <option value="bmw">BMW</option>
           <option value="ferrari">Ferrari</option>
           <option value="lamborghini">Lamborghini</option>
+          <option value="lexus">Lexus</option>
         </select>
       </div>
 
@@ -307,12 +309,23 @@
 
     // Models per make
     const models = {
+      bmw: [
+        { label: 'M3', slug: 'bmw-m3' },
+        { label: 'M8', slug: 'bmw-m8' }
+      ],
       ferrari: [
+        { label: '360', slug: 'ferrari-360' },
+        { label: '458', slug: 'ferrari-458' },
+        { label: '488', slug: 'ferrari-488' },
         { label: '599', slug: 'ferrari-599' },
+        { label: 'F12', slug: 'ferrari-f12' },
         { label: 'F430', slug: 'ferrari-f430' }
       ],
       lamborghini: [
         { label: 'Murci\u00e9lago', slug: 'lamborghini-murcielago' }
+      ],
+      lexus: [
+        { label: 'LFA', slug: 'lexus-lfa' }
       ]
     };
 
