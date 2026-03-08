@@ -209,6 +209,18 @@ async function processModel(modelConfig) {
 
   // ── Merge Logic ──────────────────────────────────────────────────────
 
+  // Pick the more descriptive title (longer, with variant/trim info)
+  function betterTitle(existingTitle, scrapedTitle) {
+    if (!scrapedTitle) return existingTitle;
+    if (!existingTitle) return scrapedTitle;
+    // Strip filler words for comparison
+    const clean = t => t.replace(/\b(used|for sale)\b/gi, '').replace(/\s+/g, ' ').trim();
+    const a = clean(existingTitle);
+    const b = clean(scrapedTitle);
+    // Prefer the longer, more descriptive title
+    return b.length > a.length ? scrapedTitle : existingTitle;
+  }
+
   // Track which existing listings got matched
   const matchedExistingIds = new Set();
 
@@ -220,9 +232,9 @@ async function processModel(modelConfig) {
       matchedExistingIds.add(existingListing.id);
 
       // Price change detection
-      const oldPrice = parsePrice(existingListing.price);
-      const newPrice = parsePrice(scraped.price);
-      if (oldPrice && newPrice && oldPrice !== newPrice) {
+      const oldPriceNum = parsePrice(existingListing.price);
+      const newPriceNum = parsePrice(scraped.price);
+      if (oldPriceNum && newPriceNum && oldPriceNum !== newPriceNum) {
         // Log price history
         if (!existingListing.priceHistory) {
           existingListing.priceHistory = [];
@@ -231,14 +243,26 @@ async function processModel(modelConfig) {
           price: existingListing.price,
           date: today(),
         });
+        const oldPriceStr = existingListing.price;
         existingListing.price = scraped.price;
         result.updatedCount++;
         result.priceChanges.push({
           title: existingListing.title,
-          oldPrice: existingListing.price,
+          oldPrice: oldPriceStr,
           newPrice: scraped.price,
-          direction: newPrice < oldPrice ? 'reduced' : 'increased',
+          direction: newPriceNum < oldPriceNum ? 'reduced' : 'increased',
         });
+      }
+
+      // Update title if scraped version is more descriptive
+      existingListing.title = betterTitle(existingListing.title, scraped.title);
+
+      // Update mileage/transmission if currently missing
+      if ((!existingListing.mileage || existingListing.mileage === 'N/A') && scraped.mileage && scraped.mileage !== 'N/A') {
+        existingListing.mileage = scraped.mileage;
+      }
+      if ((!existingListing.transmission || existingListing.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
+        existingListing.transmission = scraped.transmission;
       }
 
       // Update image if the existing one is empty
@@ -268,9 +292,18 @@ async function processModel(modelConfig) {
             url: scraped.sourceUrl,
           });
         }
+        // Update title if scraped version is more descriptive
+        duplicate.title = betterTitle(duplicate.title, scraped.title);
         // Backfill image if missing
         if (!duplicate.image && scraped.image) {
           duplicate.image = scraped.image;
+        }
+        // Backfill mileage/transmission if missing
+        if ((!duplicate.mileage || duplicate.mileage === 'N/A') && scraped.mileage && scraped.mileage !== 'N/A') {
+          duplicate.mileage = scraped.mileage;
+        }
+        if ((!duplicate.transmission || duplicate.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
+          duplicate.transmission = scraped.transmission;
         }
         // Clear missing-since
         delete state.missingSince[scraped.sourceUrl];

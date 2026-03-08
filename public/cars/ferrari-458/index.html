@@ -905,6 +905,7 @@
     }
 
     function getVariant(title) {
+      if (/speciale\s*a(perta)?(\s|spider|$)/i.test(title)) return 'speciale-aperta';
       if (/speciale/i.test(title)) return 'speciale';
       if (/spider/i.test(title)) return 'spider';
       return 'italia';
@@ -1018,7 +1019,7 @@
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
       body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', open: 'Open Top' }, sortOrder: ['coupe','open'], mode: 'single', minDistinct: 2 },
-      variant:      { detect: l => getVariant(l.title), labels: { italia: 'Italia', speciale: 'Speciale', spider: 'Spider' }, sortOrder: ['italia','speciale','spider'], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: { italia: 'Italia', speciale: 'Speciale', 'speciale-aperta': 'Speciale Aperta', spider: 'Spider' }, sortOrder: ['italia','speciale','speciale-aperta','spider'], mode: 'single' },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { dct: 'DCT', manual: 'Manual' }, sortOrder: ['dct','manual'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };

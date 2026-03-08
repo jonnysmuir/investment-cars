@@ -14,6 +14,18 @@ const cheerio = require('cheerio');
 const { fetchWithRetry, extractYear, normaliseTransmission, today } = require('./base');
 
 const SOURCE_NAME = 'PistonHeads';
+const MAX_PAGES = 10;
+
+/**
+ * Build a paginated URL from a base search URL.
+ */
+function buildPageUrl(baseUrl, pageNum) {
+  const url = new URL(baseUrl);
+  if (pageNum > 1) {
+    url.searchParams.set('page', String(pageNum));
+  }
+  return url.toString();
+}
 
 /**
  * Scrape PistonHeads listings for a given model config.
@@ -25,23 +37,44 @@ async function scrape(sourceConfig, modelConfig) {
   const urls = [sourceConfig.searchUrl, ...(sourceConfig.alternateUrls || [])];
   const allListingUrls = new Set();
 
-  // Step 1: Gather listing URLs from search pages
+  // Step 1: Gather listing URLs from search pages (with pagination)
   for (const searchUrl of urls) {
-    try {
-      console.log(`  [PistonHeads] Fetching search: ${searchUrl}`);
-      const html = await fetchWithRetry(searchUrl);
-      const $ = cheerio.load(html);
+    for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+      try {
+        const pageUrl = buildPageUrl(searchUrl, pageNum);
+        console.log(`  [PistonHeads] Fetching search: ${pageUrl}`);
+        const html = await fetchWithRetry(pageUrl);
+        const $ = cheerio.load(html);
 
-      // Extract listing links — they follow the pattern /buy/listing/XXXXXXXX
-      $('a[href*="/buy/listing/"]').each((_, el) => {
-        const href = $(el).attr('href');
-        const match = href.match(/\/buy\/listing\/(\d+)/);
-        if (match) {
-          allListingUrls.add(`https://www.pistonheads.com/buy/listing/${match[1]}`);
+        // Extract listing links — they follow the pattern /buy/listing/XXXXXXXX
+        const beforeCount = allListingUrls.size;
+        $('a[href*="/buy/listing/"]').each((_, el) => {
+          const href = $(el).attr('href');
+          const match = href.match(/\/buy\/listing\/(\d+)/);
+          if (match) {
+            allListingUrls.add(`https://www.pistonheads.com/buy/listing/${match[1]}`);
+          }
+        });
+
+        const newCount = allListingUrls.size - beforeCount;
+        if (pageNum > 1) {
+          console.log(`  [PistonHeads] Page ${pageNum}: ${newCount} new listings`);
         }
-      });
-    } catch (err) {
-      console.warn(`  [PistonHeads] Failed to fetch search page ${searchUrl}: ${err.message}`);
+
+        // Stop if no new listings found on this page
+        if (newCount === 0) break;
+
+        // Check for a next page link
+        const hasNext = $('a[href*="page="]').filter((_, el) => {
+          const href = $(el).attr('href') || '';
+          return href.includes(`page=${pageNum + 1}`);
+        }).length > 0;
+
+        if (!hasNext) break;
+      } catch (err) {
+        console.warn(`  [PistonHeads] Failed to fetch search page ${searchUrl} (page ${pageNum}): ${err.message}`);
+        break;
+      }
     }
   }
 
