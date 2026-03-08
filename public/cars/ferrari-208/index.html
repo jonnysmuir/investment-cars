@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari 208 Listings — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--color-accent); }
+    .nav-active { color: var(--color-accent) !important; }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
+
+    /* Smooth theme transition */
+    body, nav, footer {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Hero banner */
+    .hero-banner {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      margin-top: 62px;
+      overflow: hidden;
+      background: var(--color-border);
+    }
+
+    .hero-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.4s;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 3rem 3rem 2rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    }
+
+    .hero-model-name {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .hero-model-years {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+    }
+
+    .hero-credit {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 1rem;
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.05em;
+    }
+
+    /* Page header */
+    .page-header {
+      padding: 2rem 3rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .page-description {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    .listing-count {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    /* Card grid */
+    .listings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      padding: 1.5rem 3rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Card */
+    .listing-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .listing-card:hover {
+      border-color: var(--color-accent);
+      transform: translateY(-2px);
+    }
+
+    .card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      background: var(--color-border);
+    }
+
+    .card-image-placeholder {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem;
+      background: var(--color-border);
+    }
+
+    .card-image-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: -20px;
+      background-image: inherit;
+      background-size: cover;
+      background-position: center;
+      filter: blur(18px) brightness(0.4);
+      z-index: 0;
+    }
+
+    .placeholder-text {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 0 1rem;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .placeholder-subtext {
+      position: relative;
+      z-index: 1;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .card-body {
+      padding: 1.25rem;
+    }
+
+    .card-featured-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      border: 1px solid var(--color-accent);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-new-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #2ecc71;
+      border: 1px solid #2ecc71;
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+      margin-left: 0.4rem;
+    }
+
+    .card-price-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-left: 0.5rem;
+    }
+
+    .card-price-badge.reduced {
+      color: #2ecc71;
+      border: 1px solid #2ecc71;
+    }
+
+    .card-price-badge.increased {
+      color: #e74c3c;
+      border: 1px solid #e74c3c;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.35;
+    }
+
+    .card-specs {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .card-specs span {
+      background: var(--color-bg);
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+    }
+
+    .card-price {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.25rem;
+    }
+
+    .card-source {
+      font-size: 0.72rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .card-link {
+      display: inline-block;
+      padding: 0.55rem 1.2rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .card-link:hover { opacity: 0.85; }
+
+    /* Loading & error */
+    .loading, .error-state {
+      text-align: center;
+      padding: 3rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .error-state { color: #c44; }
+
+    /* Sold section */
+    .sold-section {
+      border-top: 1px solid var(--color-border);
+      margin-top: 1rem;
+    }
+
+    .sold-header {
+      padding-top: 3rem;
+    }
+
+    .listing-card.sold {
+      opacity: 0.7;
+      border-color: var(--color-border);
+    }
+
+    .listing-card.sold:hover {
+      opacity: 0.85;
+      border-color: var(--color-text-muted);
+      transform: translateY(-1px);
+    }
+
+    .card-sold-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-text-muted);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-sold-price {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .card-sold-date {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .card-link.sold-link {
+      background: var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    .card-link.sold-link:hover { opacity: 0.85; }
+
+    /* Multi-source footer */
+    .card-sources {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.25rem;
+    }
+
+    .card-sources-label {
+      font-size: 0.68rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-right: 0.15rem;
+    }
+
+    .card-source-link {
+      display: inline-block;
+      padding: 0.4rem 0.75rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-radius: 5px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .card-source-link:hover { opacity: 0.85; }
+
+    .card-source-link.sold-link {
+      background: var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    /* Auction section */
+    .auction-section {
+      border-top: 1px solid var(--color-border);
+      margin-top: 1rem;
+    }
+
+    .auction-header {
+      padding-top: 2rem;
+      padding-bottom: 0;
+    }
+
+    #auctionGrid:empty {
+      padding: 0;
+    }
+
+    .auction-empty {
+      text-align: center;
+      padding: 1rem 3rem 2rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .auction-empty-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem;
+      opacity: 0.4;
+    }
+
+    .auction-empty-text {
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* Filter toggle button */
+    .filter-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      padding: 0.55rem 1rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      color: var(--color-text-muted);
+      font-size: 0.78rem;
+      font-family: inherit;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      width: fit-content;
+    }
+
+    .filter-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-text);
+    }
+
+    .filter-toggle-count {
+      display: none;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      font-size: 0.65rem;
+      font-weight: 700;
+      min-width: 18px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center;
+      border-radius: 9px;
+      padding: 0 5px;
+    }
+
+    .filter-toggle-count.visible {
+      display: inline-block;
+    }
+
+    .filter-toggle-chevron {
+      font-size: 0.6rem;
+      transition: transform 0.3s ease;
+    }
+
+    .filter-toggle.open .filter-toggle-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Filter & sort controls */
+    .filter-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+      transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.35s ease, padding-top 0.35s ease;
+    }
+
+    .filter-controls.expanded {
+      max-height: 500px;
+      opacity: 1;
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .sort-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      min-width: 52px;
+      flex-shrink: 0;
+    }
+
+    .filter-pill {
+      display: inline-block;
+      padding: 0.3rem 0.7rem;
+      background: var(--color-bg);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border);
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-family: inherit;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .filter-pill:hover {
+      border-color: var(--color-accent);
+      color: var(--color-text);
+    }
+
+    .filter-pill.active {
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-color: var(--color-accent);
+    }
+
+    .sort-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+    }
+
+    .sort-select {
+      background: var(--color-surface);
+      color: var(--color-text);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      font-size: 0.78rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .sort-select:hover,
+    .sort-select:focus {
+      border-color: var(--color-accent);
+      outline: none;
+    }
+
+    .price-range {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .price-input {
+      width: 80px;
+      background: var(--color-surface);
+      color: var(--color-text);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.75rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+
+    .price-input:hover,
+    .price-input:focus {
+      border-color: var(--color-accent);
+      outline: none;
+    }
+
+    .price-sep {
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.5rem; }
+      .hero-banner { height: 280px; }
+      .hero-overlay { padding: 2rem 1.5rem 1.5rem; }
+      .page-header { padding: 1.5rem 1.5rem 1.5rem; }
+      .listings-grid { grid-template-columns: 1fr; padding: 1rem 1.5rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis">Analysis</a>
+      <a href="/#contact">Get in Touch</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <section class="hero-banner" id="heroBanner">
+    <img id="heroImage" src="" alt="Ferrari 208" style="opacity: 0;">
+    <div class="hero-overlay">
+      <h1 class="hero-model-name">Ferrari 208</h1>
+      <p class="hero-model-years">1980 — 1989 &middot; 2.0L V8 &middot; 155 — 254 BHP</p>
+    </div>
+    <span class="hero-credit" id="heroCredit"></span>
+  </section>
+
+  <header class="page-header">
+    <p class="section-label">Classified Listings</p>
+    <p class="page-description" id="pageDescription"></p>
+    <a href="/analysis/ferrari-208" style="display: inline-block; margin-top: 0.75rem; font-size: 0.8rem; color: var(--color-accent); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">▲ View Market Analysis</a>
+
+    <button class="filter-toggle" id="filterToggle" style="display: none;">
+      <span class="filter-toggle-text">Filter &amp; Sort</span>
+      <span class="filter-toggle-count" id="filterActiveCount"></span>
+      <span class="filter-toggle-chevron">&#9660;</span>
+    </button>
+
+    <div class="filter-controls" id="filterControls">
+      <div class="sort-row">
+        <span class="sort-label">Sort</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="featured">Featured</option>
+          <option value="price-asc">Price: Low–High</option>
+          <option value="price-desc">Price: High–Low</option>
+          <option value="year-desc">Year: Newest</option>
+          <option value="year-asc">Year: Oldest</option>
+          <option value="mileage-asc">Mileage: Lowest</option>
+          <option value="date-desc">Recently Added</option>
+        </select>
+      </div>
+
+      <div class="filter-row" data-filter="year">
+        <span class="filter-label">Year</span>
+      </div>
+
+      <div class="filter-row" data-filter="body" style="display: none;">
+        <span class="filter-label">Body</span>
+      </div>
+
+      <div class="filter-row" data-filter="variant">
+        <span class="filter-label">Variant</span>
+      </div>
+
+      <div class="filter-row" data-filter="transmission">
+        <span class="filter-label">Gearbox</span>
+      </div>
+
+      <div class="filter-row" data-filter="source">
+        <span class="filter-label">Source</span>
+      </div>
+
+      <div class="filter-row" data-filter="price">
+        <span class="filter-label">Price</span>
+        <div class="price-range">
+          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="1000">
+          <span class="price-sep">–</span>
+          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="1000">
+        </div>
+      </div>
+    </div>
+
+    <span class="listing-count" id="listingCount"></span>
+  </header>
+
+  <main class="listings-grid" id="listingsGrid"></main>
+
+  <div class="loading" id="loadingState">Loading listings…</div>
+  <div class="error-state" id="errorState" style="display: none;"></div>
+
+  <section class="auction-section" id="auctionSection">
+    <header class="page-header auction-header">
+      <p class="section-label">Upcoming Auctions</p>
+      <span class="listing-count" id="auctionCount"></span>
+    </header>
+    <div class="listings-grid" id="auctionGrid"></div>
+    <div class="auction-empty" id="auctionEmpty">
+      <div class="auction-empty-icon">&#9881;</div>
+      <p class="auction-empty-text">No Ferrari 208 auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
+    </div>
+  </section>
+
+  <section class="sold-section" id="soldSection" style="display: none;">
+    <header class="page-header sold-header">
+      <p class="section-label">Recently Sold</p>
+      <p class="section-title">Auction Results</p>
+      <span class="listing-count" id="soldCount"></span>
+    </header>
+    <div class="listings-grid sold-grid" id="soldGrid"></div>
+  </section>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // DOM refs
+    const grid = document.getElementById('listingsGrid');
+    const loadingEl = document.getElementById('loadingState');
+    const errorEl = document.getElementById('errorState');
+    const descriptionEl = document.getElementById('pageDescription');
+    const countEl = document.getElementById('listingCount');
+    const heroImg = document.getElementById('heroImage');
+    const filterControls = document.getElementById('filterControls');
+    const filterToggle = document.getElementById('filterToggle');
+    const filterActiveCountEl = document.getElementById('filterActiveCount');
+    const sortSelect = document.getElementById('sortSelect');
+    const priceMinInput = document.getElementById('priceMin');
+    const priceMaxInput = document.getElementById('priceMax');
+    const auctionSection = document.getElementById('auctionSection');
+    const auctionGrid = document.getElementById('auctionGrid');
+    const auctionCount = document.getElementById('auctionCount');
+    const auctionEmpty = document.getElementById('auctionEmpty');
+    const soldSection = document.getElementById('soldSection');
+    const soldGrid = document.getElementById('soldGrid');
+    const soldCount = document.getElementById('soldCount');
+
+    // --- Helpers ---
+
+    function formatSoldDate(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    function getNewBadge(l) {
+      if (!l.dateAdded) return '';
+      const added = new Date(l.dateAdded + 'T00:00:00');
+      const now = new Date();
+      const diffDays = Math.floor((now - added) / (1000 * 60 * 60 * 24));
+      if (diffDays <= 1) return '<span class="card-new-badge">New</span>';
+      if (diffDays <= 7) return '<span class="card-new-badge">New this week</span>';
+      return '';
+    }
+
+    function getPriceBadge(l) {
+      if (!l.priceHistory || l.priceHistory.length === 0) return '';
+      const lastEntry = l.priceHistory[l.priceHistory.length - 1];
+      const oldNum = parsePriceNum(lastEntry.price);
+      const newNum = parsePriceNum(l.price);
+      if (!oldNum || !newNum || oldNum === newNum) return '';
+      if (newNum < oldNum) return '<span class="card-price-badge reduced">Price reduced</span>';
+      return '<span class="card-price-badge increased">Price increased</span>';
+    }
+
+    function parsePriceNum(str) {
+      if (!str) return null;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : null;
+    }
+
+    function parsePrice(str) {
+      if (!str) return null;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : null;
+    }
+
+    function parseMileage(str) {
+      if (!str) return Infinity;
+      const m = str.replace(/,/g, '').match(/(\d+)/);
+      return m ? parseInt(m[1]) : Infinity;
+    }
+
+    function getBody(title) {
+      if (/gts|targa|spider/i.test(title)) return 'convertible';
+      return 'coupe';
+    }
+
+    function getVariant(title) {
+      if (/gts\s*turbo/i.test(title)) return 'gts-turbo';
+      if (/gtb\s*turbo/i.test(title)) return 'gtb-turbo';
+      if (/gts/i.test(title)) return 'gts';
+      return 'gtb';
+    }
+
+    function getTransmissionGroup(str) {
+      if (!str) return 'manual';
+      return 'manual';
+    }
+
+    function matchesSource(listing, sourceName) {
+      const sources = listing.sources || [];
+      return sources.some(s => s.name === sourceName);
+    }
+
+    function getPrimary(l) {
+      if (l.sources && l.sources.length > 0) return l.sources[0];
+      return { name: l.source || '', url: l.url || '#' };
+    }
+
+    // --- Render functions ---
+
+    function renderSourceLinks(l, linkClass) {
+      const sources = l.sources || [{ name: l.source, url: l.url }];
+      const cls = linkClass ? ` ${linkClass}` : '';
+      if (sources.length === 1) {
+        return `
+          <div class="card-footer">
+            <span class="card-source">via ${sources[0].name}</span>
+            <a href="${sources[0].url}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
+          </div>`;
+      }
+      return `
+        <div class="card-sources">
+          <span class="card-sources-label">View on</span>
+          ${sources.map(s =>
+            `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
+          ).join('')}
+        </div>`;
+    }
+
+    function renderActiveCard(l) {
+      const primary = getPrimary(l);
+      return `
+        <article class="listing-card${l.featured ? ' featured' : ''}">
+          ${l.image
+            ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
+            : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
+          }
+          <div class="card-body">
+            ${l.featured ? '<span class="card-featured-badge">Featured</span>' : ''}${getNewBadge(l)}
+            <h2 class="card-title">${l.title}</h2>
+            <div class="card-specs">
+              ${l.year ? `<span>${l.year}</span>` : ''}
+              ${l.mileage ? `<span>${l.mileage}</span>` : ''}
+              ${l.transmission ? `<span>${l.transmission}</span>` : ''}
+            </div>
+            ${l.price ? `<div class="card-price">${l.price}${getPriceBadge(l)}</div>` : ''}
+            ${renderSourceLinks(l, '')}
+          </div>
+        </article>`;
+    }
+
+    function renderSoldCard(l) {
+      const primary = getPrimary(l);
+      return `
+        <article class="listing-card sold">
+          ${l.image
+            ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
+            : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
+          }
+          <div class="card-body">
+            <span class="card-sold-badge">Sold</span>
+            <h2 class="card-title">${l.title}</h2>
+            <div class="card-specs">
+              ${l.year ? `<span>${l.year}</span>` : ''}
+              ${l.mileage ? `<span>${l.mileage}</span>` : ''}
+              ${l.transmission ? `<span>${l.transmission}</span>` : ''}
+            </div>
+            ${l.soldPrice ? `<div class="card-sold-price">Hammer Price: ${l.soldPrice}</div>` : ''}
+            ${l.soldDate ? `<div class="card-sold-date">Sold ${formatSoldDate(l.soldDate)}</div>` : ''}
+            ${renderSourceLinks(l, 'sold-link')}
+          </div>
+        </article>`;
+    }
+
+    // --- Filter & sort state ---
+
+    let heroImageUrl = '';
+    let allClassified = [];
+    const filters = {
+      year: [],
+      body: null,
+      variant: null,
+      transmission: null,
+      source: null,
+      priceMin: null,
+      priceMax: null
+    };
+    let sortBy = 'featured';
+
+    // Toggle filter panel
+    filterToggle.addEventListener('click', () => {
+      const isOpen = filterControls.classList.toggle('expanded');
+      filterToggle.classList.toggle('open', isOpen);
+    });
+
+    // --- Dynamic filter pill config ---
+
+    const FILTER_CONFIG = {
+      year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
+      body:         { detect: l => getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible"}, sortOrder: ["coupe","convertible"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"gtb":"GTB","gts":"GTS","gtb-turbo":"GTB Turbo","gts-turbo":"GTS Turbo"}, sortOrder: ["gtb","gts","gtb-turbo","gts-turbo"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual"}, sortOrder: ["manual"], mode: 'single' },
+      source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
+    };
+
+    function buildFilterPills(listings) {
+      for (const [filterName, config] of Object.entries(FILTER_CONFIG)) {
+        const row = document.querySelector(`.filter-row[data-filter="${filterName}"]`);
+        if (!row) continue;
+
+        // Collect distinct values
+        const valuesSet = new Set();
+        for (const l of listings) {
+          const val = config.detect(l);
+          if (config.isMultiValue && Array.isArray(val)) {
+            val.forEach(v => { if (v) valuesSet.add(v); });
+          } else if (val) {
+            valuesSet.add(val);
+          }
+        }
+
+        // Hide row if minDistinct threshold not met
+        if (config.minDistinct && valuesSet.size < config.minDistinct) {
+          row.style.display = 'none';
+          continue;
+        }
+        row.style.display = '';
+
+        // Sort values
+        let sorted = [...valuesSet];
+        if (config.sortOrder === null) {
+          // Numeric sort (for years)
+          sorted.sort((a, b) => Number(a) - Number(b));
+        } else {
+          sorted.sort((a, b) => {
+            const ia = config.sortOrder.indexOf(a);
+            const ib = config.sortOrder.indexOf(b);
+            if (ia === -1 && ib === -1) return a.localeCompare(b);
+            if (ia === -1) return 1;
+            if (ib === -1) return -1;
+            return ia - ib;
+          });
+        }
+
+        // Build pill HTML
+        const label = row.querySelector('.filter-label');
+        const labelHTML = label ? label.outerHTML : '';
+        let html = labelHTML;
+        html += '<button class="filter-pill active" data-value="">All</button>';
+        for (const val of sorted) {
+          const display = config.labels[val] || val;
+          const escaped = val.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+          const displayEscaped = String(display).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+          html += `<button class="filter-pill" data-value="${escaped}">${displayEscaped}</button>`;
+        }
+        row.innerHTML = html;
+      }
+    }
+
+    function updateFilterCount() {
+      let count = 0;
+      if (filters.year.length > 0) count++;
+      if (filters.body) count++;
+      if (filters.variant) count++;
+      if (filters.transmission) count++;
+      if (filters.source) count++;
+      if (filters.priceMin !== null) count++;
+      if (filters.priceMax !== null) count++;
+      if (sortBy !== 'featured') count++;
+      if (count > 0) {
+        filterActiveCountEl.textContent = count;
+        filterActiveCountEl.classList.add('visible');
+      } else {
+        filterActiveCountEl.classList.remove('visible');
+      }
+    }
+
+    function applyFiltersAndSort() {
+      let results = allClassified.slice();
+
+      // Apply filters
+      if (filters.year.length > 0) {
+        results = results.filter(l => filters.year.includes(l.year));
+      }
+      if (filters.body) {
+        results = results.filter(l => getBody(l.title) === filters.body);
+      }
+      if (filters.variant) {
+        results = results.filter(l => getVariant(l.title) === filters.variant);
+      }
+      if (filters.transmission) {
+        results = results.filter(l => getTransmissionGroup(l.transmission) === filters.transmission);
+      }
+      if (filters.source) {
+        results = results.filter(l => matchesSource(l, filters.source));
+      }
+      if (filters.priceMin !== null) {
+        results = results.filter(l => {
+          const p = parsePrice(l.price);
+          return p !== null && p >= filters.priceMin;
+        });
+      }
+      if (filters.priceMax !== null) {
+        results = results.filter(l => {
+          const p = parsePrice(l.price);
+          return p !== null && p <= filters.priceMax;
+        });
+      }
+
+      // Apply sort
+      switch (sortBy) {
+        case 'price-asc':
+          results.sort((a, b) => (parsePrice(a.price) || 0) - (parsePrice(b.price) || 0));
+          break;
+        case 'price-desc':
+          results.sort((a, b) => (parsePrice(b.price) || 0) - (parsePrice(a.price) || 0));
+          break;
+        case 'year-desc':
+          results.sort((a, b) => (b.year || 0) - (a.year || 0));
+          break;
+        case 'year-asc':
+          results.sort((a, b) => (a.year || 0) - (b.year || 0));
+          break;
+        case 'mileage-asc':
+          results.sort((a, b) => parseMileage(a.mileage) - parseMileage(b.mileage));
+          break;
+        case 'date-desc':
+          results.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+          break;
+        default: // 'featured'
+          results.sort((a, b) => {
+            if (a.featured && !b.featured) return -1;
+            if (!a.featured && b.featured) return 1;
+            return new Date(b.dateAdded) - new Date(a.dateAdded);
+          });
+      }
+
+      // Update count
+      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      if (isFiltered) {
+        countEl.textContent = `${results.length} of ${allClassified.length} listings`;
+      } else {
+        countEl.textContent = `${allClassified.length} listing${allClassified.length === 1 ? '' : 's'}`;
+      }
+
+      // Render
+      grid.innerHTML = results.length > 0
+        ? results.map(renderActiveCard).join('')
+        : '<div class="error-state">No listings match your filters.</div>';
+
+      updateFilterCount();
+    }
+
+    // --- Event listeners for filters (event delegation) ---
+
+    document.querySelectorAll('.filter-row[data-filter]').forEach(row => {
+      const filterName = row.dataset.filter;
+      if (filterName === 'price') return;
+
+      row.addEventListener('click', (e) => {
+        const pill = e.target.closest('.filter-pill');
+        if (!pill) return;
+        const val = pill.dataset.value;
+
+        if (filterName === 'year') {
+          if (!val) {
+            filters.year = [];
+            row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+          } else {
+            const yearVal = parseInt(val);
+            const idx = filters.year.indexOf(yearVal);
+            if (idx > -1) {
+              filters.year.splice(idx, 1);
+              pill.classList.remove('active');
+            } else {
+              filters.year.push(yearVal);
+              pill.classList.add('active');
+            }
+            const allPill = row.querySelector('.filter-pill[data-value=""]');
+            if (filters.year.length > 0) {
+              allPill.classList.remove('active');
+            } else {
+              allPill.classList.add('active');
+            }
+          }
+        } else {
+          row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          filters[filterName] = val || null;
+        }
+        applyFiltersAndSort();
+      });
+    });
+
+    // Sort select
+    sortSelect.addEventListener('change', () => {
+      sortBy = sortSelect.value;
+      applyFiltersAndSort();
+    });
+
+    // Price inputs (debounced)
+    let priceTimeout;
+    function onPriceChange() {
+      clearTimeout(priceTimeout);
+      priceTimeout = setTimeout(() => {
+        const min = priceMinInput.value ? parseInt(priceMinInput.value) : null;
+        const max = priceMaxInput.value ? parseInt(priceMaxInput.value) : null;
+        filters.priceMin = min;
+        filters.priceMax = max;
+        applyFiltersAndSort();
+      }, 400);
+    }
+    priceMinInput.addEventListener('input', onPriceChange);
+    priceMaxInput.addEventListener('input', onPriceChange);
+
+    // --- Load listings ---
+
+    async function loadListings() {
+      try {
+        const res = await fetch('/api/listings/ferrari-208');
+        if (!res.ok) throw new Error('Failed to load');
+
+        const data = await res.json();
+
+        if (descriptionEl && data.description) {
+          descriptionEl.textContent = data.description;
+        }
+
+        // Load hero image
+        if (heroImg && data.heroImage) {
+          heroImageUrl = data.heroImage;
+          heroImg.src = data.heroImage;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+        }
+
+        // Hero credit
+        const creditEl = document.getElementById('heroCredit');
+        if (creditEl && data.heroCredit) {
+          creditEl.textContent = 'Image: ' + data.heroCredit;
+        }
+
+        loadingEl.style.display = 'none';
+
+        if (!data.listings || data.listings.length === 0) {
+          errorEl.textContent = "Garage is empty\u2026 for now. We're out hunting for the good stuff.";
+          errorEl.style.display = 'block';
+          return;
+        }
+
+        // Split by status
+        allClassified = data.listings.filter(l => l.status === 'active');
+        const auction = data.listings.filter(l => l.status === 'auction');
+        const sold = data.listings.filter(l => l.status === 'sold');
+
+        // Show filter toggle button
+        filterToggle.style.display = 'flex';
+
+        // Build dynamic filter pills from listing data
+        buildFilterPills(allClassified);
+
+        // Render classified via filter/sort
+        applyFiltersAndSort();
+
+        // Render auction listings
+        if (auction.length > 0) {
+          auction.sort((a, b) => new Date(a.auctionEnd || 0) - new Date(b.auctionEnd || 0));
+          auctionEmpty.style.display = 'none';
+          auctionCount.textContent = `${auction.length} live auction${auction.length === 1 ? '' : 's'}`;
+          auctionGrid.innerHTML = auction.map(renderActiveCard).join('');
+        }
+
+        // Render sold listings
+        if (sold.length > 0) {
+          sold.sort((a, b) => new Date(b.soldDate) - new Date(a.soldDate));
+          soldSection.style.display = 'block';
+          soldCount.textContent = `${sold.length} result${sold.length === 1 ? '' : 's'}`;
+          soldGrid.innerHTML = sold.map(renderSoldCard).join('');
+        }
+
+      } catch {
+        loadingEl.style.display = 'none';
+        errorEl.textContent = 'Unable to load listings. Please try again later.';
+        errorEl.style.display = 'block';
+      }
+    }
+
+    loadListings();
+  </script>
+
+</body>
+</html>

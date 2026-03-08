@@ -265,10 +265,6 @@
         <label for="make">Make</label>
         <select id="make">
           <option value="">Select make...</option>
-          <option value="bmw">BMW</option>
-          <option value="ferrari">Ferrari</option>
-          <option value="lamborghini">Lamborghini</option>
-          <option value="lexus">Lexus</option>
         </select>
       </div>
 
@@ -311,32 +307,41 @@
       window.location.href = '/#contact';
     });
 
-    // Models per make
-    const models = {
-      bmw: [
-        { label: 'M3', slug: 'bmw-m3' },
-        { label: 'M8', slug: 'bmw-m8' }
-      ],
-      ferrari: [
-        { label: '360', slug: 'ferrari-360' },
-        { label: '458', slug: 'ferrari-458' },
-        { label: '488', slug: 'ferrari-488' },
-        { label: '599', slug: 'ferrari-599' },
-        { label: 'F12', slug: 'ferrari-f12' },
-        { label: 'F430', slug: 'ferrari-f430' }
-      ],
-      lamborghini: [
-        { label: 'Murci\u00e9lago', slug: 'lamborghini-murcielago' }
-      ],
-      lexus: [
-        { label: 'LFA', slug: 'lexus-lfa' }
-      ]
-    };
+    // Models per make (loaded dynamically from API)
+    let models = {};
 
     const makeSelect = document.getElementById('make');
     const modelSelect = document.getElementById('model');
     const viewBtn = document.getElementById('viewBtn');
     const analysisBtn = document.getElementById('analysisBtn');
+
+    // Display names for makes (preserves original casing like "BMW")
+    let makeDisplay = {};
+
+    // Fetch models from API and populate makes
+    async function loadModels() {
+      try {
+        const res = await fetch('/api/models');
+        if (!res.ok) throw new Error('Failed to load');
+        const data = await res.json();
+        models = data.models;
+        makeDisplay = data.makes;
+
+        // Clear and rebuild make options
+        makeSelect.innerHTML = '<option value="">Select make...</option>';
+        const makes = Object.keys(models).sort();
+        for (const make of makes) {
+          const opt = document.createElement('option');
+          opt.value = make;
+          opt.textContent = makeDisplay[make] || make;
+          makeSelect.appendChild(opt);
+        }
+      } catch {
+        // Fallback: keep the existing static options
+      }
+    }
+
+    loadModels();
 
     makeSelect.addEventListener('change', () => {
       const make = makeSelect.value;

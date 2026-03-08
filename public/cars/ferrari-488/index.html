@@ -900,7 +900,7 @@
     }
 
     function getBody(title) {
-      if (/spider|convertible|open/i.test(title)) return 'open';
+      if (/spider|convertible|open/i.test(title)) return 'convertible';
       return 'coupe';
     }
 
@@ -1015,7 +1015,7 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', open: 'Open Top' }, sortOrder: ['coupe','open'], mode: 'single', minDistinct: 2 },
+      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single', minDistinct: 2 },
       variant:      { detect: l => getVariant(l.title), labels: { gtb: 'GTB', pista: 'Pista', spider: 'Spider' }, sortOrder: ['gtb','pista','spider'], mode: 'single' },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { dct: 'DCT' }, sortOrder: ['dct'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },

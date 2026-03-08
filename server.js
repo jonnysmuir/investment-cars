@@ -20,6 +20,36 @@ app.post('/api/contact', (req, res) => {
   res.json({ success: true, message: 'Thanks for reaching out! We\'ll be in touch.' });
 });
 
+app.get('/api/models', (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'models.json');
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      return res.status(500).json({ error: 'Failed to load models.' });
+    }
+
+    try {
+      const { models } = JSON.parse(data);
+      // Group by make, return label + slug for each
+      const grouped = {};
+      const makeDisplay = {}; // preserve original casing e.g. "BMW" not "Bmw"
+      for (const m of models) {
+        const key = m.make.toLowerCase();
+        if (!grouped[key]) grouped[key] = [];
+        grouped[key].push({ label: m.model, slug: m.slug });
+        if (!makeDisplay[key]) makeDisplay[key] = m.make;
+      }
+      // Sort models within each make alphabetically
+      for (const key of Object.keys(grouped)) {
+        grouped[key].sort((a, b) => a.label.localeCompare(b.label));
+      }
+      res.json({ makes: makeDisplay, models: grouped });
+    } catch {
+      res.status(500).json({ error: 'Invalid models data.' });
+    }
+  });
+});
+
 app.get('/api/listings/:slug', (req, res) => {
   const { slug } = req.params;
 

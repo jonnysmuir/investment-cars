@@ -900,7 +900,7 @@
     }
 
     function getBody(title) {
-      if (/roadster/i.test(title)) return 'roadster';
+      if (/roadster|spider|convertible|open/i.test(title)) return 'convertible';
       return 'coupe';
     }
 
@@ -1017,7 +1017,7 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', roadster: 'Roadster' }, sortOrder: ['coupe','roadster'], mode: 'single' },
+      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single' },
       variant:      { detect: l => getVariant(l.title), labels: { murcielago: 'Murci\u00e9lago', 'lp-640': 'LP 640', 'lp-670-4-sv': 'LP 670-4 SV' }, sortOrder: ['murcielago','lp-640','lp-670-4-sv'], mode: 'single' },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { 'e-gear': 'E-Gear', manual: 'Manual' }, sortOrder: ['e-gear','manual'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
