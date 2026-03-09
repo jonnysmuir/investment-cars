@@ -73,8 +73,15 @@ async function main() {
     hasChanges: false,
   };
 
-  // Process each model
+  // Process each model (skip models with no scraper sources configured)
+  let skippedCount = 0;
   for (const modelConfig of models) {
+    const sources = modelConfig.sources || {};
+    if (Object.keys(sources).length === 0) {
+      skippedCount++;
+      continue;
+    }
+
     console.log(`\n── ${modelConfig.make} ${modelConfig.model} ──`);
 
     const modelSummary = await processModel(modelConfig);
@@ -86,6 +93,10 @@ async function main() {
     if (modelSummary.newCount > 0 || modelSummary.updatedCount > 0 || modelSummary.unlistedCount > 0) {
       summary.hasChanges = true;
     }
+  }
+
+  if (skippedCount > 0) {
+    console.log(`\nSkipped ${skippedCount} models with no scraper sources configured.`);
   }
 
   // Clean up Playwright browsers
