@@ -14,8 +14,9 @@ Before generating or committing any new listing pages, confirm **every** item:
 - [ ] **Each source config matches the scraper's expected format** (see reference below)
 - [ ] **Scraper slugs/IDs have been verified** against the actual platform URLs
 - [ ] **Era-appropriate scrapers are assigned** (vintage cars won't appear on AutoTrader)
-- [ ] **The GitHub Actions timeout (30 mins) can accommodate the new models** (especially if adding many AutoTrader/Playwright sources)
-- [ ] **Test at least 2-3 models locally** with `node scripts/refresh.js` before pushing
+- [ ] **Hero images sourced from Wikimedia Commons** (or another CC-licensed source) for each model
+- [ ] **The GitHub Actions timeout (90 mins) can accommodate the new models** (especially if adding many AutoTrader/Playwright sources)
+- [ ] **Test at least 2-3 models locally** with `node scripts/refresh.js --slug {slug}` before pushing
 
 ---
 
@@ -118,7 +119,7 @@ so results will still be found. However, getting the friendly URL right improves
 - F8 Tributo is `f8-tributo`
 - 575M is `575m-maranello`
 - 296 is `296-gtb`
-- 12 Cilindri is `12-cilindri`
+- 12 Cilindri is `12cilindri` (no hyphen — `12-cilindri` silently falls back to generic Ferrari page)
 
 **How to find the right values:** Search on `autotrader.co.uk` and copy the browse URL.
 
@@ -166,9 +167,37 @@ monitor the first refresh run and increase the timeout if needed.
 **What happens:** Bad URLs, wrong slugs, or config typos go undetected until the next daily run.
 Always test a few models locally first:
 ```bash
-# Test a single model
-/Users/jonnymuir/bin/node scripts/refresh.js --model ferrari-testarossa
+# Test a single model (note: the flag is --slug, NOT --model)
+/Users/jonnymuir/bin/node scripts/refresh.js --slug ferrari-testarossa
 ```
+
+### 7. Forgetting hero images
+**What happens:** The listing page loads with a blank/black hero banner — looks broken and unprofessional.
+
+---
+
+## Hero Images
+
+Every listing page needs a `heroImage` URL and `heroCredit` string, set in both `models.json` and the
+corresponding `data/{slug}.json` file. The image is loaded dynamically by the page JavaScript.
+
+### Where to source images
+
+1. **Wikimedia Commons** (preferred) — search `commons.wikimedia.org` for the car model.
+   Use the thumbnail URL format: `https://upload.wikimedia.org/wikipedia/commons/thumb/{hash}/{filename}/1920px-{filename}`
+   Credit format: `Wikimedia Commons / CC BY-SA 4.0` (adjust licence as appropriate).
+
+2. **Manufacturer CDN** — Ferrari models use `cdn.ferrari.com` URLs. Check if the manufacturer
+   provides press images. Credit the manufacturer (e.g. `Ferrari S.p.A.`).
+
+### Tips
+
+- Use the **Wikimedia API** to get the correct thumbnail URL if guessing the hash path:
+  `https://en.wikipedia.org/w/api.php?action=query&titles=File:{filename}&prop=imageinfo&iiprop=url&iiurlwidth=1920&format=json`
+- Prefer **exterior shots** showing the full car (not interiors, details, or engine bays).
+- Use **1920px width** thumbnails for consistency.
+- If no image exists on Wikimedia Commons (e.g. very rare variants like the McLaren 625C),
+  leave `heroImage` empty — the page will still work, just without a hero banner.
 
 ---
 
@@ -213,7 +242,7 @@ When adding a batch of models:
 | Porsche | 42 |
 | BMW | 7 |
 | Aston Martin | 5 |
-| McLaren | 31 |
+| McLaren | 2180 |
 | Mercedes-Benz | 32 |
 | Jaguar | 24 |
 
