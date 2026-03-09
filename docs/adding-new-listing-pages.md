@@ -15,6 +15,7 @@ Before generating or committing any new listing pages, confirm **every** item:
 - [ ] **Scraper slugs/IDs have been verified** against the actual platform URLs
 - [ ] **Era-appropriate scrapers are assigned** (vintage cars won't appear on AutoTrader)
 - [ ] **Hero images sourced from Wikimedia Commons** (or another CC-licensed source) for each model
+- [ ] **Market analysis page created** at `public/analysis/{slug}/index.html` (copy from any existing analysis page and replace the 4 model-specific strings: page title, h1, API URL, listings link)
 - [ ] **The GitHub Actions timeout (90 mins) can accommodate the new models** (especially if adding many AutoTrader/Playwright sources)
 - [ ] **Test at least 2-3 models locally** with `node scripts/refresh.js --slug {slug}` before pushing
 
