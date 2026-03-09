@@ -4,5 +4,42 @@
   "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/6198d2ed2ce9303ca1976d00-lineup-desktop-ferrari-daytona-sp3?width=1200&height=675",
   "heroCredit": "Ferrari S.p.A.",
   "description": "The Ferrari Daytona SP3, produced from 2022, is part of Ferrari's Icona series paying homage to legendary racing prototypes. With a 6.5-litre V12 producing 829 bhp — the most powerful Ferrari internal combustion engine ever — and open-top targa bodywork, only 599 will be made.",
-  "listings": []
+  "listings": [
+    {
+      "id": "1",
+      "title": "2021 Ferrari SF90 Stradale",
+      "price": "£289,850",
+      "year": "2021",
+      "mileage": "6,456 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/new/28064789/2021-ferrari-sf90-stradale-699653a2badda.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd7af8750fd1fb412b04d6fdd3f2e4a2",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2017199"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2026 Ferrari Daytona SP3",
+      "price": "£5,999,995",
+      "year": "2026",
+      "mileage": "20 km",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/new/27642199/2026-ferrari-daytona-sp3-69828cb746e15.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c898c2506e442cf8e78581a8e2c8cb94",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2008855"
+        }
+      ]
+    }
+  ]
 }

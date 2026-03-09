@@ -1,6 +1,31 @@
 [
   {
     "date": "2026-03-09",
-    "listings": []
+    "listings": [
+      {
+        "id": "16",
+        "price": 249995,
+        "year": "1986",
+        "mileage": 19085,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "17",
+        "price": 174950,
+        "year": "1988",
+        "mileage": 6850,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "19",
+        "price": 149995,
+        "year": "1984",
+        "mileage": 16000,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      }
+    ]
   }
 ]

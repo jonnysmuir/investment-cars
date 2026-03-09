@@ -1,6 +1,31 @@
 [
   {
     "date": "2026-03-09",
-    "listings": []
+    "listings": [
+      {
+        "id": "9",
+        "price": 479000,
+        "year": 2006,
+        "mileage": 770,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "11",
+        "price": 225000,
+        "year": "2006",
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "12",
+        "price": 299000,
+        "year": "1975",
+        "mileage": 37254,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      }
+    ]
   }
 ]

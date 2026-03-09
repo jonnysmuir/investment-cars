@@ -4,5 +4,62 @@
   "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dc59df837497e4ff8d30e51-ferrari-enzo-2002-thumb?width=1200&height=675",
   "heroCredit": "Ferrari S.p.A.",
   "description": "The Ferrari Enzo, produced from 2002 to 2004, was named after the company's founder and represented the pinnacle of Ferrari road car technology. With a 6.0-litre V12 producing 651 bhp, Formula One-derived aerodynamics, and only 400 built, the Enzo remains one of the most celebrated supercars ever made.",
-  "listings": []
+  "listings": [
+    {
+      "id": "1",
+      "title": "2004 FERRARI ENZO",
+      "price": "Sold",
+      "year": 2004,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://collectingcars.imgix.net/015652/40.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "sold",
+      "soldPrice": "£2,510,500",
+      "soldDate": "2022-11-07",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2004-ferrari-enzo-1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2004 Ferrari Enzo - UK Supplied - Classiche Certification",
+      "price": "POA",
+      "year": "2004",
+      "mileage": "15,275 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2018975/2004-ferrari-enzo-699c277b515bf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3d91fe7eea435af87284d926638f7987",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2018975"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "2002 Ferrari Enzo",
+      "price": "POA",
+      "year": "2002",
+      "mileage": "5,000 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2014092/2002-ferrari-enzo-698dc431d5292.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b45567eacb5bfea63061ddf6bf5423eb",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2014092"
+        }
+      ]
+    }
+  ]
 }

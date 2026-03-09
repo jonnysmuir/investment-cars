@@ -4,5 +4,42 @@
   "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dc3da3195e21208efa329e5-ferrari-500-superfast-1964-thumb?width=1200&height=675",
   "heroCredit": "Ferrari S.p.A.",
   "description": "The Ferrari 500 Superfast, produced from 1964 to 1966, was the most expensive and exclusive Ferrari of its era. With a 5.0-litre Colombo V12 producing 400 bhp, only 37 were built. It was the ultimate luxury Ferrari grand tourer.",
-  "listings": []
+  "listings": [
+    {
+      "id": "1",
+      "title": "1967 Ferrari 330 GTC",
+      "price": "POA",
+      "year": "1967",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1954621/1967-ferrari-330-68e5566f3829c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc2cd0301453aa1263cb31765404a188",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1954621"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "1968 Ferrari 365 2x2",
+      "price": "POA",
+      "year": "1968",
+      "mileage": "19,000 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2015237/1968-ferrari-365-6990e38d67976.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7facae51aa35b2a17010945a7daa7574",
+      "featured": false,
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2015237"
+        }
+      ]
+    }
+  ]
 }
