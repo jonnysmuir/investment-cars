@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari Dino 308 GT4 Market Analysis — Collectorly</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--color-accent); }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
+
+    /* Smooth theme transition */
+    body, nav, footer {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Analysis page layout */
+    .analysis-page {
+      padding: 5rem 3rem 4rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .page-description {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    /* Stats grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .stat-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+
+    .stat-value {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--color-accent);
+    }
+
+    .stat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* Chart containers */
+    .chart-container {
+      position: relative;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: border-color 0.2s;
+    }
+
+    .chart-container canvas {
+      width: 100% !important;
+      max-height: 360px;
+    }
+
+    .chart-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      color: var(--color-text);
+    }
+
+    /* CTA button */
+    .listings-link {
+      display: inline-block;
+      padding: 0.85rem 2.4rem;
+      background: var(--color-accent);
+      color: var(--btn-text);
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .listings-link:hover { opacity: 0.85; }
+
+    /* No data state */
+    .no-data {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Loading spinner */
+    .loading {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.25rem; }
+      .analysis-page { padding: 5rem 1.25rem 3rem; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      footer { padding: 1.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis" class="nav-active">Analysis</a>
+      <a href="/#contact">Get in Touch</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="analysis-page">
+    <p class="section-label">Market Analysis</p>
+    <h1 class="section-title">Ferrari Dino 308 GT4</h1>
+    <p class="page-description">
+      Aggregate price trends and market distribution based on daily UK listing snapshots.
+    </p>
+
+    <!-- Loading state -->
+    <div class="loading" id="loading">Loading analysis data...</div>
+
+    <!-- Summary stats -->
+    <div class="stats-grid" id="statsGrid" style="display: none;">
+      <div class="stat-card">
+        <div class="stat-value" id="statMedian">&mdash;</div>
+        <div class="stat-label">Median Price</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statMean">&mdash;</div>
+        <div class="stat-label">Mean Price</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statMin">&mdash;</div>
+        <div class="stat-label">Lowest</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statMax">&mdash;</div>
+        <div class="stat-label">Highest</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statCount">&mdash;</div>
+        <div class="stat-label">Active Listings</div>
+      </div>
+    </div>
+
+    <!-- Chart 1: Price trend over time -->
+    <div class="chart-container" id="trendContainer" style="display: none;">
+      <h2 class="chart-title">Median Price Over Time</h2>
+      <canvas id="trendChart"></canvas>
+    </div>
+
+    <!-- Chart 2: Current price distribution -->
+    <div class="chart-container" id="distContainer" style="display: none;">
+      <h2 class="chart-title">Current Price Distribution</h2>
+      <canvas id="distChart"></canvas>
+    </div>
+
+    <!-- No data fallback -->
+    <div class="no-data" id="noData" style="display: none;">
+      Not enough data yet. Price snapshots are captured daily &mdash; check back soon.
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cars/ferrari-dino-308-gt4" class="listings-link">View Current Listings</a>
+    </div>
+  </div>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    // ── Theme toggle ──────────────────────────────────────────────────────
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      updateChartTheme();
+    });
+
+    // ── Chart helpers ─────────────────────────────────────────────────────
+    function getChartColors() {
+      const isLight = root.classList.contains('light');
+      return {
+        accent: isLight ? '#b8942e' : '#c9a84c',
+        text: isLight ? '#1a1a1a' : '#e8e8e8',
+        muted: isLight ? '#666' : '#888',
+        grid: isLight ? 'rgba(0,0,0,0.06)' : 'rgba(255,255,255,0.06)',
+      };
+    }
+
+    function formatGBP(num) {
+      if (num == null) return '\u2014';
+      return '\u00a3' + num.toLocaleString('en-GB');
+    }
+
+    function formatDateLabel(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+    }
+
+    let trendChart = null;
+    let distChart = null;
+
+    function updateChartTheme() {
+      const c = getChartColors();
+      [trendChart, distChart].forEach(chart => {
+        if (!chart) return;
+        chart.options.scales.x.ticks.color = c.muted;
+        chart.options.scales.x.grid.color = c.grid;
+        chart.options.scales.y.ticks.color = c.muted;
+        chart.options.scales.y.grid.color = c.grid;
+        chart.update('none');
+      });
+    }
+
+    // ── Histogram binning ─────────────────────────────────────────────────
+    function buildHistogramBins(prices) {
+      const min = prices[0];
+      const max = prices[prices.length - 1];
+      const range = max - min;
+
+      // Choose a nice bin size
+      let binSize;
+      if (range <= 20000) binSize = 2500;
+      else if (range <= 50000) binSize = 5000;
+      else if (range <= 100000) binSize = 10000;
+      else if (range <= 250000) binSize = 25000;
+      else binSize = 50000;
+
+      const binStart = Math.floor(min / binSize) * binSize;
+      const binEnd = Math.ceil(max / binSize) * binSize;
+
+      const bins = [];
+      for (let s = binStart; s < binEnd; s += binSize) {
+        bins.push({ min: s, max: s + binSize, count: 0 });
+      }
+
+      for (const p of prices) {
+        const idx = Math.min(Math.floor((p - binStart) / binSize), bins.length - 1);
+        bins[idx].count++;
+      }
+
+      return {
+        labels: bins.map(b => formatGBP(b.min) + ' \u2013 ' + formatGBP(b.max)),
+        counts: bins.map(b => b.count),
+      };
+    }
+
+    // ── Load and render ───────────────────────────────────────────────────
+    async function loadAnalysis() {
+      const loadingEl = document.getElementById('loading');
+      const noDataEl = document.getElementById('noData');
+
+      try {
+        const res = await fetch('/api/history/ferrari-dino-308-gt4');
+        if (!res.ok) throw new Error('Failed to load');
+        const data = await res.json();
+
+        loadingEl.style.display = 'none';
+
+        const hasTrend = data.trend && data.trend.some(d => d.count > 0);
+        const hasDist = data.distribution && data.distribution.length > 0;
+
+        if (!hasTrend && !hasDist) {
+          noDataEl.style.display = 'block';
+          return;
+        }
+
+        const colors = getChartColors();
+        const latest = data.trend[data.trend.length - 1];
+
+        // ── Stats ───────────────────────────────────────────────────────
+        if (latest && latest.count > 0) {
+          document.getElementById('statsGrid').style.display = 'grid';
+          document.getElementById('statMedian').textContent = formatGBP(latest.median);
+          document.getElementById('statMean').textContent = formatGBP(latest.mean);
+          document.getElementById('statMin').textContent = formatGBP(latest.min);
+          document.getElementById('statMax').textContent = formatGBP(latest.max);
+          document.getElementById('statCount').textContent = latest.count;
+        }
+
+        // ── Trend chart ─────────────────────────────────────────────────
+        if (hasTrend && data.trend.filter(d => d.count > 0).length >= 2) {
+          document.getElementById('trendContainer').style.display = 'block';
+          const ctx = document.getElementById('trendChart').getContext('2d');
+
+          trendChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: data.trend.map(d => formatDateLabel(d.date)),
+              datasets: [{
+                label: 'Median Price',
+                data: data.trend.map(d => d.median),
+                borderColor: colors.accent,
+                backgroundColor: colors.accent + '18',
+                fill: true,
+                tension: 0.35,
+                pointRadius: data.trend.length > 60 ? 0 : 3,
+                pointHoverRadius: 6,
+                borderWidth: 2,
+              }],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              interaction: { intersect: false, mode: 'index' },
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: ctx => 'Median: ' + formatGBP(ctx.parsed.y),
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  ticks: { color: colors.muted, maxTicksLimit: 12 },
+                  grid: { color: colors.grid },
+                },
+                y: {
+                  ticks: {
+                    color: colors.muted,
+                    callback: v => formatGBP(v),
+                  },
+                  grid: { color: colors.grid },
+                },
+              },
+            },
+          });
+        }
+
+        // ── Distribution chart ──────────────────────────────────────────
+        if (hasDist) {
+          document.getElementById('distContainer').style.display = 'block';
+          const bins = buildHistogramBins(data.distribution);
+          const ctx = document.getElementById('distChart').getContext('2d');
+
+          distChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: bins.labels,
+              datasets: [{
+                label: 'Listings',
+                data: bins.counts,
+                backgroundColor: colors.accent + '66',
+                borderColor: colors.accent,
+                borderWidth: 1,
+                borderRadius: 3,
+              }],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: ctx => ctx.parsed.y + (ctx.parsed.y === 1 ? ' listing' : ' listings'),
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  ticks: { color: colors.muted, maxRotation: 45 },
+                  grid: { color: colors.grid },
+                },
+                y: {
+                  ticks: {
+                    color: colors.muted,
+                    stepSize: 1,
+                  },
+                  grid: { color: colors.grid },
+                  beginAtZero: true,
+                },
+              },
+            },
+          });
+        }
+
+      } catch (err) {
+        loadingEl.style.display = 'none';
+        noDataEl.style.display = 'block';
+        noDataEl.textContent = 'Unable to load analysis data.';
+      }
+    }
+
+    loadAnalysis();
+  </script>
+
+</body>
+</html>
