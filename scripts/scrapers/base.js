@@ -14,6 +14,7 @@ const DOMAIN_DELAYS = {
   'www.carandclassic.com': 2000,
   'www.collectingcars.com': 2000,
   'archive.org': 1500,
+  'www.glenmarch.com': 3000,
   default: 1500,
 };
 
