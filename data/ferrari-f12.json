@@ -523,7 +523,7 @@
     {
       "id": "27",
       "title": "2016 Ferrari F12 Berlinetta 2dr Auto Petrol Coupe 6.3",
-      "price": "£172,995",
+      "price": "£174,950",
       "year": 2016,
       "mileage": "24,736 miles",
       "transmission": "Automatic",
@@ -545,6 +545,10 @@
         {
           "price": "£174,950",
           "date": "2026-03-09"
+        },
+        {
+          "price": "£172,995",
+          "date": "2026-03-10"
         }
       ]
     },
@@ -568,10 +572,10 @@
     },
     {
       "id": "29",
-      "title": "2013 Used  FERRARI F12BERLINETTA AB S-A",
+      "title": "2013 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
       "price": "£164,995",
       "year": 2013,
-      "mileage": "N/A",
+      "mileage": "16,830 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f12/ab/ferrari-f12-ab-S4939869-1.jpg",
       "featured": false,
@@ -581,6 +585,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20010227"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601249388879"
         }
       ]
     },
@@ -655,6 +663,14 @@
         {
           "price": "£179,000",
           "date": "2026-03-09"
+        },
+        {
+          "price": "£175,150",
+          "date": "2026-03-10"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-03-10"
         }
       ]
     },
@@ -723,6 +739,14 @@
         {
           "price": "£159,995",
           "date": "2026-03-09"
+        },
+        {
+          "price": "£164,995",
+          "date": "2026-03-10"
+        },
+        {
+          "price": "£159,995",
+          "date": "2026-03-10"
         }
       ]
     },
@@ -921,6 +945,42 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1889622"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "2016 Ferrari F12 Berlinetta 6.3 2dr",
+      "price": "£174,950",
+      "year": 2016,
+      "mileage": "12,500 miles",
+      "transmission": "F1 Automated Manual",
+      "image": "https://m.atcdn.co.uk/a/media/w640/80ac991587a14014b990865533fb8c72.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602240180082"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "2022 Ferrari F12 BERLINETTA 6.3 2dr",
+      "price": "£169,999",
+      "year": 2022,
+      "mileage": "4,100 miles",
+      "transmission": "F1 Automated Manual",
+      "image": "https://m.atcdn.co.uk/a/media/w640/acbd7631c0444a89bac56fef557bc517.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202303215481127"
         }
       ]
     }

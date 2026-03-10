@@ -43,5 +43,50 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-03-10",
+    "listings": [
+      {
+        "id": "2",
+        "price": 1000000,
+        "year": "1963",
+        "mileage": null,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "3",
+        "price": 80000,
+        "year": "1960",
+        "mileage": 250,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "5",
+        "price": 375000,
+        "year": "1967",
+        "mileage": null,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "6",
+        "price": 1499990,
+        "year": "1963",
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "10",
+        "price": 375000,
+        "year": "2024",
+        "mileage": 984,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]

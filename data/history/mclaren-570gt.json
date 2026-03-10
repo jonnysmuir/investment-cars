@@ -35,5 +35,42 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-03-10",
+    "listings": [
+      {
+        "id": "5",
+        "price": 89995,
+        "year": 2020,
+        "mileage": null,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "6",
+        "price": 75995,
+        "year": "2016",
+        "mileage": 32000,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "7",
+        "price": 89995,
+        "year": "2020",
+        "mileage": 21346,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "8",
+        "price": 72995,
+        "year": "2017",
+        "mileage": 58079,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]
