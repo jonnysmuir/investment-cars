@@ -2,8 +2,8 @@ name: Refresh Listings
 
 on:
   schedule:
-    # Run daily at 6am UTC
-    - cron: '0 6 * * *'
+    # Run daily at 5am UTC
+    - cron: '0 5 * * *'
   workflow_dispatch: {}  # Allow manual trigger
 
 permissions:
