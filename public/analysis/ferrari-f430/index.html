@@ -257,7 +257,6 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 0.4rem;
-      margin-top: 0.6rem;
     }
 
     .var-btn {
@@ -331,6 +330,9 @@
     <!-- Loading state -->
     <div class="loading" id="loading">Loading analysis data...</div>
 
+    <!-- Variant filter (above all charts) -->
+    <div class="variant-btns" id="variantBtns" style="display: none; margin-bottom: 1.5rem;"></div>
+
     <!-- Summary stats -->
     <div class="stats-grid" id="statsGrid" style="display: none;">
       <div class="stat-card">
@@ -368,7 +370,6 @@
         <button class="tl-btn" data-range="5">5Y</button>
         <button class="tl-btn active" data-range="all">All</button>
       </div>
-      <div class="variant-btns" id="variantBtns"></div>
     </div>
 
     <!-- Chart 2: Current price distribution -->
@@ -546,16 +547,112 @@
         }
 
         const colors = getChartColors();
-        const latest = data.trend[data.trend.length - 1];
 
-        // ── Stats ───────────────────────────────────────────────────────
-        if (latest && latest.count > 0) {
+        // ── Build all price points for trend chart ──────────────────────
+        const allPoints = [];
+        if (hasAuction) {
+          for (const a of data.auctionHistory) {
+            allPoints.push({
+              x: a.date, y: a.price,
+              variant: a.variant || null,
+              meta: { variant: a.variant, year: a.year, sold: a.sold, source: a.source },
+            });
+          }
+        }
+        if (hasListingPrices) {
+          for (const lp of data.listingPrices) {
+            allPoints.push({
+              x: lp.date, y: lp.price,
+              variant: lp.variant || null,
+              meta: { variant: lp.variant, source: 'Active Listing' },
+            });
+          }
+        }
+        allPoints.sort((a, b) => a.x.localeCompare(b.x));
+
+        // ── Variant filter buttons (dynamic, page-level) ────────────────
+        const variantCounts = {};
+        allPoints.forEach(p => {
+          const v = p.variant || 'Other';
+          variantCounts[v] = (variantCounts[v] || 0) + 1;
+        });
+        const variantOrder = ['Coupe', 'Spider', 'Scuderia', 'Scuderia 16M', 'Challenge', 'Other'];
+        const variants = variantOrder.filter(v => variantCounts[v]);
+
+        const varBtnsEl = document.getElementById('variantBtns');
+        if (variants.length > 1) {
+          varBtnsEl.style.display = 'flex';
+          const allBtn = document.createElement('button');
+          allBtn.className = 'var-btn active';
+          allBtn.dataset.variant = 'all';
+          allBtn.textContent = 'All';
+          varBtnsEl.appendChild(allBtn);
+          for (const v of variants) {
+            const btn = document.createElement('button');
+            btn.className = 'var-btn';
+            btn.dataset.variant = v;
+            btn.textContent = v;
+            varBtnsEl.appendChild(btn);
+          }
+        }
+
+        // ── Shared filter state ─────────────────────────────────────────
+        let activeRange = 'all';
+        let activeVariant = 'all';
+
+        // ── Stats helper ────────────────────────────────────────────────
+        function updateStats(variantFilter) {
+          if (!data.distribution || data.distribution.length === 0) return;
+          let prices = data.distribution;
+          if (variantFilter !== 'all') {
+            prices = prices.filter(d => (d.variant || 'Other') === variantFilter);
+          }
+          const sorted = prices.map(d => d.price).sort((a, b) => a - b);
+          const count = sorted.length;
+          if (count === 0) {
+            document.getElementById('statMedian').textContent = '\u2014';
+            document.getElementById('statMean').textContent = '\u2014';
+            document.getElementById('statMin').textContent = '\u2014';
+            document.getElementById('statMax').textContent = '\u2014';
+            document.getElementById('statCount').textContent = '0';
+            return;
+          }
+          const sum = sorted.reduce((a, b) => a + b, 0);
+          const mean = Math.round(sum / count);
+          const median = count % 2 === 0
+            ? Math.round((sorted[count / 2 - 1] + sorted[count / 2]) / 2)
+            : sorted[Math.floor(count / 2)];
+          document.getElementById('statMedian').textContent = formatGBP(median);
+          document.getElementById('statMean').textContent = formatGBP(mean);
+          document.getElementById('statMin').textContent = formatGBP(sorted[0]);
+          document.getElementById('statMax').textContent = formatGBP(sorted[count - 1]);
+          document.getElementById('statCount').textContent = count;
+        }
+
+        // ── Distribution helper ─────────────────────────────────────────
+        function updateDistribution(variantFilter) {
+          if (!data.distribution || data.distribution.length === 0) return;
+          let prices = data.distribution;
+          if (variantFilter !== 'all') {
+            prices = prices.filter(d => (d.variant || 'Other') === variantFilter);
+          }
+          const sorted = prices.map(d => d.price).sort((a, b) => a - b);
+          if (sorted.length === 0) {
+            distChart.data.labels = [];
+            distChart.data.datasets[0].data = [];
+            distChart.update();
+            return;
+          }
+          const bins = buildHistogramBins(sorted);
+          distChart.data.labels = bins.labels;
+          distChart.data.datasets[0].data = bins.counts;
+          distChart.update();
+        }
+
+        // ── Initial stats ───────────────────────────────────────────────
+        if (data.distribution && data.distribution.length > 0) {
           document.getElementById('statsGrid').style.display = 'grid';
-          document.getElementById('statMedian').textContent = formatGBP(latest.median);
-          document.getElementById('statMean').textContent = formatGBP(latest.mean);
-          document.getElementById('statMin').textContent = formatGBP(latest.min);
-          document.getElementById('statMax').textContent = formatGBP(latest.max);
-          document.getElementById('statCount').textContent = latest.count;
+          updateStats('all');
         }
 
         // ── Trend chart ───────────────────────────────────────────────
@@ -563,34 +660,7 @@
           document.getElementById('trendContainer').style.display = 'block';
           const ctx = document.getElementById('trendChart').getContext('2d');
 
-          // Combine all price data into one set of points
-          const allPoints = [];
-
-          if (hasAuction) {
-            for (const a of data.auctionHistory) {
-              allPoints.push({
-                x: a.date, y: a.price,
-                variant: a.variant || null,
-                meta: { variant: a.variant, year: a.year, sold: a.sold, source: a.source },
-              });
-            }
-          }
-
-          if (hasListingPrices) {
-            for (const lp of data.listingPrices) {
-              allPoints.push({
-                x: lp.date, y: lp.price,
-                variant: lp.variant || null,
-                meta: { variant: lp.variant, source: 'Active Listing' },
-              });
-            }
-          }
-
-          allPoints.sort((a, b) => a.x.localeCompare(b.x));
-
           const datasets = [];
-
-          // Single scatter dataset — all prices
           datasets.push({
             type: 'scatter',
             label: 'Prices',
@@ -604,7 +674,6 @@
             _pointMeta: allPoints.map(p => p.meta),
           });
 
-          // Trend line (kernel-smoothed)
           const trendLine = computeTrendLine(allPoints);
           if (trendLine.length > 0) {
             datasets.push({
@@ -620,74 +689,6 @@
               fill: false,
               order: 0,
             });
-          }
-
-          // Store for filtering
-          const allPointsRef = allPoints;
-
-          // ── Variant filter buttons (dynamic) ──────────────────────────
-          const variantCounts = {};
-          allPoints.forEach(p => {
-            const v = p.variant || 'Other';
-            variantCounts[v] = (variantCounts[v] || 0) + 1;
-          });
-          const variantOrder = ['Coupe', 'Spider', 'Scuderia', 'Scuderia 16M', 'Challenge', 'Other'];
-          const variants = variantOrder.filter(v => variantCounts[v]);
-
-          const varBtnsEl = document.getElementById('variantBtns');
-          if (variants.length > 1) {
-            const allBtn = document.createElement('button');
-            allBtn.className = 'var-btn active';
-            allBtn.dataset.variant = 'all';
-            allBtn.textContent = 'All';
-            varBtnsEl.appendChild(allBtn);
-            for (const v of variants) {
-              const btn = document.createElement('button');
-              btn.className = 'var-btn';
-              btn.dataset.variant = v;
-              btn.textContent = v;
-              varBtnsEl.appendChild(btn);
-            }
-          }
-
-          // ── Active filters state ──────────────────────────────────────
-          let activeRange = 'all';
-          let activeVariant = 'all';
-
-          function applyFilters() {
-            let filtered = allPointsRef;
-            let displayMin, displayMax;
-
-            // Time filter
-            if (activeRange !== 'all') {
-              const cutoff = new Date();
-              if (activeRange.endsWith('m')) {
-                cutoff.setMonth(cutoff.getMonth() - parseInt(activeRange));
-              } else {
-                cutoff.setFullYear(cutoff.getFullYear() - parseInt(activeRange));
-              }
-              displayMin = cutoff.toISOString().split('T')[0];
-              displayMax = new Date().toISOString().split('T')[0];
-              filtered = filtered.filter(p => p.x >= displayMin);
-            }
-
-            // Variant filter
-            if (activeVariant !== 'all') {
-              filtered = filtered.filter(p => (p.variant || 'Other') === activeVariant);
-            }
-
-            // Update x-axis
-            const tu = timeUnits[activeRange] || timeUnits['all'];
-            trendChart.options.scales.x.time.unit = tu.unit;
-            trendChart.options.scales.x.time.displayFormats = tu.displayFormats;
-            if (displayMin) {
-              trendChart.options.scales.x.min = displayMin;
-            } else {
-              delete trendChart.options.scales.x.min;
-            }
-
-            trendChart.data.datasets = buildChartData(filtered, displayMin, displayMax);
-            trendChart.update();
           }
 
           function buildChartData(points, displayMin, displayMax) {
@@ -754,11 +755,11 @@
                       if (ds._pointMeta) {
                         const m = ds._pointMeta[ctx.dataIndex];
                         if (m.source === 'Active Listing') {
-                          const vLabel = m.variant ? m.variant + ' — ' : '';
-                          return `Active Listing: ${vLabel}${formatGBP(ctx.parsed.y)}`;
+                          const vLabel = m.variant ? m.variant + ' \u2014 ' : '';
+                          return 'Active Listing: ' + vLabel + formatGBP(ctx.parsed.y);
                         }
                         const status = m.sold ? 'Sold' : 'Unsold';
-                        return `${m.variant} (${m.year}) — ${formatGBP(ctx.parsed.y)} [${status}, ${m.source}]`;
+                        return m.variant + ' (' + m.year + ') \u2014 ' + formatGBP(ctx.parsed.y) + ' [' + status + ', ' + m.source + ']';
                       }
                       return 'Trend: ' + formatGBP(ctx.parsed.y);
                     },
@@ -798,6 +799,47 @@
             'all': { unit: 'month', displayFormats: { month: 'MMM yy' } },
           };
 
+          // ── Unified filter apply ──────────────────────────────────────
+          function applyFilters() {
+            let filtered = allPoints;
+            let displayMin, displayMax;
+
+            // Time filter
+            if (activeRange !== 'all') {
+              const cutoff = new Date();
+              if (activeRange.endsWith('m')) {
+                cutoff.setMonth(cutoff.getMonth() - parseInt(activeRange));
+              } else {
+                cutoff.setFullYear(cutoff.getFullYear() - parseInt(activeRange));
+              }
+              displayMin = cutoff.toISOString().split('T')[0];
+              displayMax = new Date().toISOString().split('T')[0];
+              filtered = filtered.filter(p => p.x >= displayMin);
+            }
+
+            // Variant filter
+            if (activeVariant !== 'all') {
+              filtered = filtered.filter(p => (p.variant || 'Other') === activeVariant);
+            }
+
+            // Update trend chart x-axis
+            const tu = timeUnits[activeRange] || timeUnits['all'];
+            trendChart.options.scales.x.time.unit = tu.unit;
+            trendChart.options.scales.x.time.displayFormats = tu.displayFormats;
+            if (displayMin) {
+              trendChart.options.scales.x.min = displayMin;
+            } else {
+              delete trendChart.options.scales.x.min;
+            }
+
+            trendChart.data.datasets = buildChartData(filtered, displayMin, displayMax);
+            trendChart.update();
+
+            // Update stats and distribution for variant
+            updateStats(activeVariant);
+            if (distChart) updateDistribution(activeVariant);
+          }
+
           document.getElementById('timelineBtns').addEventListener('click', (e) => {
             const btn = e.target.closest('.tl-btn');
             if (!btn) return;
@@ -820,7 +862,8 @@
         // ── Distribution chart ──────────────────────────────────────────
         if (hasDist) {
           document.getElementById('distContainer').style.display = 'block';
-          const bins = buildHistogramBins(data.distribution);
+          const allPrices = data.distribution.map(d => d.price).sort((a, b) => a - b);
+          const bins = buildHistogramBins(allPrices);
           const ctx = document.getElementById('distChart').getContext('2d');
 
           distChart = new Chart(ctx, {

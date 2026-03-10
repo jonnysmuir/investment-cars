@@ -134,10 +134,12 @@ app.get('/api/history/:slug', (req, res) => {
         return { date: snapshot.date, count, median, mean, min: prices[0], max: prices[count - 1] };
       });
 
-      // Latest snapshot distribution (just sorted prices, no listing details)
+      // Latest snapshot distribution with variant info
       const latestSnapshot = history[history.length - 1];
       const distribution = (latestSnapshot && latestSnapshot.listings.length > 0)
-        ? latestSnapshot.listings.map(l => l.price).sort((a, b) => a - b)
+        ? latestSnapshot.listings
+            .map(l => ({ price: l.price, variant: normaliseVariant(listingTitles[l.id]) }))
+            .sort((a, b) => a.price - b.price)
         : null;
 
       // Smart listing prices: first appearance, last appearance (before
