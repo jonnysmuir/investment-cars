@@ -207,7 +207,28 @@ app.get('/api/history/:slug', (req, res) => {
         a.variant = normaliseVariant(a.variant) || a.variant;
       }
 
-      res.json({ trend, distribution, listingPrices, auctionHistory });
+      // Price vs mileage data (current listings with numeric mileage)
+      const mileageData = (latestSnapshot && latestSnapshot.listings.length > 0)
+        ? latestSnapshot.listings
+            .filter(l => l.mileage && l.mileage > 0)
+            .map(l => ({
+              price: l.price,
+              mileage: l.mileage,
+              variant: normaliseVariant(listingTitles[l.id]),
+            }))
+        : [];
+
+      // Supply trend: listing count per day with variant breakdown
+      const supplyTrend = history.map(snapshot => {
+        const byVariant = {};
+        for (const l of snapshot.listings) {
+          const v = normaliseVariant(listingTitles[l.id]) || 'Other';
+          byVariant[v] = (byVariant[v] || 0) + 1;
+        }
+        return { date: snapshot.date, total: snapshot.listings.length, byVariant };
+      });
+
+      res.json({ trend, distribution, listingPrices, auctionHistory, mileageData, supplyTrend });
     } catch {
       res.status(500).json({ error: 'Invalid history data.' });
     }

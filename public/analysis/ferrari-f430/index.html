@@ -283,6 +283,10 @@
       color: var(--btn-text);
     }
 
+    /* Appreciation stat colours */
+    .stat-value.positive { color: #4caf50; }
+    .stat-value.negative { color: #e57373; }
+
     /* No data state */
     .no-data {
       text-align: center;
@@ -355,6 +359,10 @@
         <div class="stat-value" id="statCount">&mdash;</div>
         <div class="stat-label">Active Listings</div>
       </div>
+      <div class="stat-card" id="statApprecCard" style="display: none;">
+        <div class="stat-value" id="statApprec">&mdash;</div>
+        <div class="stat-label" id="statApprecLabel">1Y Change</div>
+      </div>
     </div>
 
     <!-- Chart 1: Price trend over time -->
@@ -372,7 +380,19 @@
       </div>
     </div>
 
-    <!-- Chart 2: Current price distribution -->
+    <!-- Chart 2: Price vs Mileage -->
+    <div class="chart-container" id="mileageContainer" style="display: none;">
+      <h2 class="chart-title">Price vs Mileage</h2>
+      <canvas id="mileageChart"></canvas>
+    </div>
+
+    <!-- Chart 3: Active Listing Count -->
+    <div class="chart-container" id="supplyContainer" style="display: none;">
+      <h2 class="chart-title">Active Listings Over Time</h2>
+      <canvas id="supplyChart"></canvas>
+    </div>
+
+    <!-- Chart 4: Current price distribution -->
     <div class="chart-container" id="distContainer" style="display: none;">
       <h2 class="chart-title">Current Price Distribution</h2>
       <canvas id="distChart"></canvas>
@@ -431,10 +451,12 @@
 
     let trendChart = null;
     let distChart = null;
+    let mileageChart = null;
+    let supplyChart = null;
 
     function updateChartTheme() {
       const c = getChartColors();
-      [trendChart, distChart].forEach(chart => {
+      [trendChart, distChart, mileageChart, supplyChart].forEach(chart => {
         if (!chart) return;
         chart.options.scales.x.ticks.color = c.muted;
         chart.options.scales.x.grid.color = c.grid;
@@ -540,6 +562,8 @@
         const hasDist = data.distribution && data.distribution.length > 0;
         const hasAuction = data.auctionHistory && data.auctionHistory.length > 0;
         const hasListingPrices = data.listingPrices && data.listingPrices.length > 0;
+        const hasMileage = data.mileageData && data.mileageData.length > 0;
+        const hasSupply = data.supplyTrend && data.supplyTrend.length > 1;
 
         if (!hasTrend && !hasDist && !hasAuction && !hasListingPrices) {
           noDataEl.style.display = 'block';
@@ -838,6 +862,9 @@
             // Update stats and distribution for variant
             updateStats(activeVariant);
             if (distChart) updateDistribution(activeVariant);
+            if (mileageChart) updateMileage(activeVariant);
+            if (supplyChart) updateSupply(activeVariant);
+            updateAppreciation(filtered);
           }
 
           document.getElementById('timelineBtns').addEventListener('click', (e) => {
@@ -857,6 +884,82 @@
             activeVariant = btn.dataset.variant;
             applyFilters();
           });
+        }
+
+        // ── Mileage helper ─────────────────────────────────────────────
+        function updateMileage(variantFilter) {
+          if (!hasMileage) return;
+          let pts = data.mileageData;
+          if (variantFilter !== 'all') {
+            pts = pts.filter(d => (d.variant || 'Other') === variantFilter);
+          }
+          mileageChart.data.datasets[0].data = pts.map(d => ({ x: d.mileage, y: d.price }));
+          mileageChart.update();
+        }
+
+        // ── Supply helper ─────────────────────────────────────────────
+        function updateSupply(variantFilter) {
+          if (!hasSupply) return;
+          if (variantFilter === 'all') {
+            supplyChart.data.datasets[0].data = data.supplyTrend.map(d => ({ x: d.date, y: d.total }));
+          } else {
+            supplyChart.data.datasets[0].data = data.supplyTrend.map(d => ({
+              x: d.date,
+              y: d.byVariant[variantFilter] || 0,
+            }));
+          }
+          supplyChart.update();
+        }
+
+        // ── Appreciation helper ───────────────────────────────────────
+        function updateAppreciation(filteredPoints) {
+          const card = document.getElementById('statApprecCard');
+          const valEl = document.getElementById('statApprec');
+          const labelEl = document.getElementById('statApprecLabel');
+
+          // Need auction data spanning at least 6 months for a meaningful stat
+          if (!filteredPoints || filteredPoints.length < 5) {
+            card.style.display = 'none';
+            return;
+          }
+
+          const sorted = [...filteredPoints].sort((a, b) => a.x.localeCompare(b.x));
+          const earliest = new Date(sorted[0].x);
+          const latest = new Date(sorted[sorted.length - 1].x);
+          const spanMs = latest - earliest;
+          const spanYears = spanMs / (365.25 * 24 * 3600000);
+
+          if (spanYears < 0.5) {
+            card.style.display = 'none';
+            return;
+          }
+
+          // Compute trend line and compare endpoints
+          const tl = computeTrendLine(sorted, 60);
+          if (tl.length < 2) {
+            card.style.display = 'none';
+            return;
+          }
+
+          const startVal = tl[0].y;
+          const endVal = tl[tl.length - 1].y;
+          const totalChange = ((endVal - startVal) / startVal) * 100;
+
+          // Annualise if span > 1 year
+          let displayChange, label;
+          if (spanYears >= 1.5) {
+            const annualised = (Math.pow(endVal / startVal, 1 / spanYears) - 1) * 100;
+            displayChange = annualised;
+            label = 'Annual Change';
+          } else {
+            displayChange = totalChange;
+            label = spanYears >= 1 ? '1Y Change' : Math.round(spanYears * 12) + 'M Change';
+          }
+
+          card.style.display = '';
+          valEl.textContent = (displayChange >= 0 ? '+' : '') + displayChange.toFixed(1) + '%';
+          valEl.className = 'stat-value ' + (displayChange >= 0 ? 'positive' : 'negative');
+          labelEl.textContent = label;
         }
 
         // ── Distribution chart ──────────────────────────────────────────
@@ -907,6 +1010,134 @@
             },
           });
         }
+
+        // ── Price vs Mileage chart ───────────────────────────────────────
+        if (hasMileage) {
+          document.getElementById('mileageContainer').style.display = 'block';
+          const ctx = document.getElementById('mileageChart').getContext('2d');
+
+          mileageChart = new Chart(ctx, {
+            type: 'scatter',
+            data: {
+              datasets: [{
+                label: 'Price vs Mileage',
+                data: data.mileageData.map(d => ({ x: d.mileage, y: d.price })),
+                backgroundColor: 'rgba(74, 158, 218, 0.5)',
+                borderColor: 'rgba(74, 158, 218, 0.7)',
+                borderWidth: 1,
+                pointRadius: 5,
+                pointHoverRadius: 8,
+              }],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: function(ctx) {
+                      return formatGBP(ctx.parsed.y) + ' \u2014 ' + ctx.parsed.x.toLocaleString() + ' miles';
+                    },
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  title: {
+                    display: true,
+                    text: 'Mileage',
+                    color: colors.muted,
+                    font: { size: 11, weight: '600' },
+                  },
+                  ticks: {
+                    color: colors.muted,
+                    callback: v => v >= 1000 ? (v / 1000) + 'k' : v,
+                  },
+                  grid: { color: colors.grid },
+                },
+                y: {
+                  title: {
+                    display: true,
+                    text: 'Price',
+                    color: colors.muted,
+                    font: { size: 11, weight: '600' },
+                  },
+                  ticks: {
+                    color: colors.muted,
+                    callback: v => formatGBP(v),
+                  },
+                  grid: { color: colors.grid },
+                },
+              },
+            },
+          });
+        }
+
+        // ── Active Listings Over Time chart ──────────────────────────────
+        if (hasSupply) {
+          document.getElementById('supplyContainer').style.display = 'block';
+          const ctx = document.getElementById('supplyChart').getContext('2d');
+
+          supplyChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+              datasets: [{
+                label: 'Active Listings',
+                data: data.supplyTrend.map(d => ({ x: d.date, y: d.total })),
+                borderColor: colors.accent,
+                backgroundColor: colors.accent + '1a',
+                borderWidth: 2,
+                pointRadius: 3,
+                pointHoverRadius: 6,
+                pointBackgroundColor: colors.accent,
+                fill: true,
+                tension: 0.3,
+              }],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    title: function(items) {
+                      if (!items.length) return '';
+                      const d = new Date(items[0].parsed.x);
+                      return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                    },
+                    label: function(ctx) {
+                      return ctx.parsed.y + ' listing' + (ctx.parsed.y !== 1 ? 's' : '');
+                    },
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  type: 'time',
+                  time: {
+                    unit: 'day',
+                    displayFormats: { day: 'd MMM' },
+                  },
+                  ticks: { color: colors.muted },
+                  grid: { color: colors.grid },
+                },
+                y: {
+                  ticks: {
+                    color: colors.muted,
+                    stepSize: 1,
+                  },
+                  grid: { color: colors.grid },
+                  beginAtZero: true,
+                },
+              },
+            },
+          });
+        }
+
+        // ── Initial appreciation stat ────────────────────────────────────
+        updateAppreciation(allPoints);
 
       } catch (err) {
         loadingEl.style.display = 'none';
