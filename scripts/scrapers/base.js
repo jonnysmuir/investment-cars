@@ -193,6 +193,77 @@ function today() {
   return new Date().toISOString().split('T')[0];
 }
 
+/**
+ * Check whether a listing title plausibly matches a target model.
+ *
+ * Cars & Classic (and sometimes other sources) return loosely related listings
+ * that don't actually match the model being searched.  This function verifies
+ * that all tokens from the model name appear in the title.
+ *
+ * Uses modelConfig.matchModel (if set) instead of modelConfig.model for matching.
+ * This allows display names like "575M Maranello" while matching on just "575M".
+ *
+ * Matching rules:
+ *  1. Quick pass — if the full model name (spaces removed) appears as a contiguous
+ *     substring, it's a match (handles "F12BERLINETTA", "328GTS", "F430Spider" etc.)
+ *  2. Token-based check — every token must appear in the title:
+ *     - Tokens containing digits: left word-boundary, allow optional leading letter
+ *       and trailing alpha chars.  "400" matches "400i", "F430" matches "430".
+ *       Also tries digits-only extraction for ≥3-digit cores ("575m" → "575").
+ *     - Pure-alpha tokens: strict word-boundary, but allow a trailing "i"
+ *       (common Italian injection/variant suffix). "BB" matches "BBi", "GT" ≠ "GTO".
+ */
+function titleMatchesModel(title, modelConfig) {
+  if (!title || !modelConfig?.model) return false;
+
+  const stripAccents = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const titleNorm = stripAccents(title).toLowerCase();
+  const modelName = stripAccents(modelConfig.matchModel || modelConfig.model).toLowerCase();
+
+  // 1. Quick contiguous check (spaces stripped)
+  const modelCompact = modelName.replace(/\s+/g, '');
+  if (titleNorm.replace(/\s+/g, '').includes(modelCompact)) return true;
+
+  // 2. Tokenise — all tokens are required
+  const filler = new Set(['the', 'and', 'di', 'del', 'by']);
+  const tokens = modelName.split(/[\s/]+/).filter(t => t.length > 0 && !filler.has(t));
+  if (tokens.length === 0) return false;
+
+  function tokenMatches(token) {
+    const hasDigit = /\d/.test(token);
+
+    if (hasDigit) {
+      // Allow optional leading single letter + trailing alpha chars.
+      // e.g. "f430" matches "F430", "430", "430Spider", "F430Spider"
+      const escaped = esc(token);
+      if (new RegExp(`\\b${escaped}[a-z]*\\b`, 'i').test(titleNorm)) return true;
+      // Also try without leading single letter (F430 → 430, F12 → 12)
+      const stripped = token.replace(/^[a-z]/i, '');
+      if (stripped !== token && stripped.length > 0) {
+        if (new RegExp(`\\b[a-z]?${esc(stripped)}[a-z]*\\b`, 'i').test(titleNorm)) return true;
+      }
+      // Also try digits-only core for ≥3 digits (e.g. "575m" → "575")
+      const digitsOnly = token.replace(/[^0-9]/g, '');
+      if (digitsOnly.length >= 3 && digitsOnly !== token && digitsOnly !== stripped) {
+        if (new RegExp(`\\b[a-z]?${esc(digitsOnly)}[a-z]*\\b`, 'i').test(titleNorm)) return true;
+      }
+      return false;
+    }
+
+    // Pure-alpha token: strict word boundary, but allow trailing "i" (injection suffix)
+    // "BB" matches "BB", "BBi" but NOT "BBS". "GT" matches "GT", "GTi" but NOT "GTO"/"GTB".
+    const escaped = esc(token);
+    return new RegExp(`\\b${escaped}i?\\b`, 'i').test(titleNorm);
+  }
+
+  for (const token of tokens) {
+    if (!tokenMatches(token)) return false;
+  }
+
+  return true;
+}
+
 module.exports = {
   rateLimit,
   sleep,
@@ -204,6 +275,7 @@ module.exports = {
   normaliseTransmission,
   sourceUrlToId,
   isImageValid,
+  titleMatchesModel,
   today,
   DEFAULT_UA,
 };

@@ -16,7 +16,7 @@
  * and return no useful data via fetch. Must use the search/friendly URL.
  */
 
-const { extractYear, normaliseTransmission, today, sleep } = require('./base');
+const { extractYear, normaliseTransmission, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'AutoTrader';
 const MAX_PAGES = 10;
@@ -248,6 +248,12 @@ async function scrape(sourceConfig, modelConfig) {
 
       if (apollo) {
         // Rich data from Apollo cache
+        const title = cleanTitle(apollo.title, apollo.year);
+        if (!titleMatchesModel(title, modelConfig)) {
+          console.warn(`  [AutoTrader] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
+          continue;
+        }
+
         let image = apollo.image || '';
         if (image) image = image.replace(/\{resize\}/g, 'w640');
 
@@ -260,7 +266,7 @@ async function scrape(sourceConfig, modelConfig) {
           : 'N/A';
 
         listings.push({
-          title: cleanTitle(apollo.title, apollo.year),
+          title,
           price,
           year: apollo.year,
           mileage,
@@ -272,13 +278,18 @@ async function scrape(sourceConfig, modelConfig) {
         });
       } else if (search) {
         // Basic data from search page DOM
+        const year = search.year || extractYear(search.title);
+        const title = cleanTitle(search.title, year);
+        if (!titleMatchesModel(title, modelConfig)) {
+          console.warn(`  [AutoTrader] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
+          continue;
+        }
+
         let image = search.image || '';
         if (image) image = image.replace(/\{resize\}/g, 'w640');
 
-        const year = search.year || extractYear(search.title);
-
         listings.push({
-          title: cleanTitle(search.title, year),
+          title,
           price: search.price || 'POA',
           year,
           mileage: search.mileage || 'N/A',

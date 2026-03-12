@@ -11,7 +11,7 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, today } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, titleMatchesModel, today } = require('./base');
 
 const SOURCE_NAME = 'Cars & Classic';
 const MAX_PAGES = 10;
@@ -109,6 +109,13 @@ function parseItem(item, status, modelConfig) {
     // Title
     let title = item.title || item.name || '';
     const year = item.year || extractYear(title);
+
+    // Relevance check: title must contain all significant tokens from the model name.
+    // C&C search can return loosely-related models (e.g. "328 GTS" for "166 Inter").
+    if (!titleMatchesModel(title, modelConfig)) {
+      console.warn(`  [Cars & Classic] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
+      return null;
+    }
 
     // Price: C&C stores prices in pence, either as a number or as { value, currency }
     let price = 'POA';
