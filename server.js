@@ -301,7 +301,14 @@ app.get('/api/history/:slug', (req, res) => {
       // Return generations list so frontend can build filter buttons
       const generationNames = generations ? generations.map(g => g.name) : null;
 
-      res.json({ trend, distribution, listingPrices, auctionHistory, mileageData, supplyTrend, generations: generationNames });
+      // Hero image (and per-generation images if available)
+      const heroImage = modelInfo?.heroImage || '';
+      const heroCredit = modelInfo?.heroCredit || '';
+      const generationImages = generations
+        ? Object.fromEntries(generations.filter(g => g.image).map(g => [g.name, { image: g.image, credit: g.credit || '' }]))
+        : null;
+
+      res.json({ trend, distribution, listingPrices, auctionHistory, mileageData, supplyTrend, generations: generationNames, heroImage, heroCredit, generationImages });
     } catch {
       res.status(500).json({ error: 'Invalid history data.' });
     }
@@ -318,7 +325,7 @@ function getModelsMap() {
     const { models } = JSON.parse(raw);
     _modelsCache = {};
     for (const m of models) {
-      _modelsCache[m.slug] = { make: m.make, model: m.model, generations: m.generations || null };
+      _modelsCache[m.slug] = { make: m.make, model: m.model, generations: m.generations || null, heroImage: m.heroImage || '', heroCredit: m.heroCredit || '' };
     }
     return _modelsCache;
   } catch {
@@ -448,6 +455,199 @@ function loadAuctionHistory(slug) {
   return [...glenmarchResults, ...ccResults, ...cacResults]
     .sort((a, b) => a.date.localeCompare(b.date));
 }
+
+// ── Homepage aggregate data ──────────────────────────────────────────────────
+let _homepageCache = null;
+let _homepageCacheTime = 0;
+const HOMEPAGE_CACHE_TTL = 60000; // 1 minute
+
+app.get('/api/homepage', (req, res) => {
+  const now = Date.now();
+  if (_homepageCache && (now - _homepageCacheTime) < HOMEPAGE_CACHE_TTL) {
+    return res.json(_homepageCache);
+  }
+
+  try {
+    const modelsRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'models.json'), 'utf8'));
+    const models = modelsRaw.models;
+
+    // Count by make
+    const makeCounts = {};
+    const makeDisplay = {};
+    for (const m of models) {
+      const key = m.make.toLowerCase();
+      makeCounts[key] = (makeCounts[key] || 0) + 1;
+      if (!makeDisplay[key]) makeDisplay[key] = m.make;
+    }
+
+    // Gather per-model stats
+    let totalListings = 0;
+    let totalAuction = 0;
+    const modelStats = [];
+
+    for (const m of models) {
+      // Current listings
+      let listingCount = 0;
+      let heroImage = m.heroImage || '';
+      let heroCredit = m.heroCredit || '';
+      let description = m.description || '';
+      try {
+        const d = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', `${m.slug}.json`), 'utf8'));
+        const active = (d.listings || []).filter(l => l.status === 'active');
+        listingCount = active.length;
+        if (d.heroImage) heroImage = d.heroImage;
+        if (d.heroCredit) heroCredit = d.heroCredit;
+        if (d.description) description = d.description;
+      } catch {}
+      totalListings += listingCount;
+
+      // Price history for trend calculation
+      let median = null, mean = null, lowest = null, highest = null;
+      let annualChange = null;
+      let recentListings = [];
+      try {
+        const hist = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'history', `${m.slug}.json`), 'utf8'));
+        if (hist.length > 0) {
+          const latest = hist[hist.length - 1];
+          const prices = latest.listings.map(l => l.price).filter(p => p > 0).sort((a, b) => a - b);
+          if (prices.length > 0) {
+            const sum = prices.reduce((a, b) => a + b, 0);
+            mean = Math.round(sum / prices.length);
+            median = prices.length % 2 === 0
+              ? Math.round((prices[prices.length / 2 - 1] + prices[prices.length / 2]) / 2)
+              : prices[Math.floor(prices.length / 2)];
+            lowest = prices[0];
+            highest = prices[prices.length - 1];
+          }
+
+          // Annual change: compare latest median to ~365 days ago
+          if (hist.length > 30) {
+            const latestDate = new Date(latest.date);
+            const yearAgo = new Date(latestDate);
+            yearAgo.setFullYear(yearAgo.getFullYear() - 1);
+            const yearAgoStr = yearAgo.toISOString().split('T')[0];
+            // Find closest snapshot to a year ago
+            let closest = null;
+            let closestDiff = Infinity;
+            for (const snap of hist) {
+              const diff = Math.abs(new Date(snap.date) - yearAgo);
+              if (diff < closestDiff) { closestDiff = diff; closest = snap; }
+            }
+            if (closest && closestDiff < 90 * 24 * 60 * 60 * 1000) {
+              const oldPrices = closest.listings.map(l => l.price).filter(p => p > 0).sort((a, b) => a - b);
+              if (oldPrices.length > 0) {
+                const oldMedian = oldPrices.length % 2 === 0
+                  ? Math.round((oldPrices[oldPrices.length / 2 - 1] + oldPrices[oldPrices.length / 2]) / 2)
+                  : oldPrices[Math.floor(oldPrices.length / 2)];
+                if (oldMedian > 0) {
+                  annualChange = Math.round(((median - oldMedian) / oldMedian) * 1000) / 10;
+                }
+              }
+            }
+          }
+        }
+      } catch {}
+
+      // Count auction results
+      let auctionCount = 0;
+      const auctionData = loadAuctionHistory(m.slug);
+      auctionCount = auctionData.length;
+      totalAuction += auctionCount;
+
+      // Recent sold auctions (last 5)
+      const recentAuctions = auctionData
+        .filter(a => a.sold)
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, 3);
+
+      modelStats.push({
+        slug: m.slug,
+        make: m.make,
+        model: m.model,
+        displayName: `${m.make} ${m.model}`,
+        heroImage,
+        heroCredit,
+        description,
+        listingCount,
+        auctionCount,
+        median,
+        mean,
+        lowest,
+        highest,
+        annualChange,
+        recentAuctions,
+      });
+    }
+
+    // Top movers (by annual change, only models with data)
+    const movers = modelStats
+      .filter(m => m.annualChange !== null && m.listingCount >= 2)
+      .sort((a, b) => b.annualChange - a.annualChange);
+    const topAppreciating = movers.slice(0, 8);
+    const topDepreciating = movers.filter(m => m.annualChange < 0).sort((a, b) => a.annualChange - b.annualChange).slice(0, 5);
+
+    // Most active (by listing count)
+    const mostActive = modelStats
+      .filter(m => m.listingCount > 0)
+      .sort((a, b) => b.listingCount - a.listingCount)
+      .slice(0, 8);
+
+    // Recently added listings (across all models)
+    const recentListings = [];
+    for (const m of models) {
+      try {
+        const d = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', `${m.slug}.json`), 'utf8'));
+        for (const l of (d.listings || [])) {
+          if (l.status === 'active' && l.dateAdded) {
+            recentListings.push({
+              ...l,
+              modelSlug: m.slug,
+              modelName: `${m.make} ${m.model}`,
+              heroImage: d.heroImage || m.heroImage || '',
+            });
+          }
+        }
+      } catch {}
+    }
+    recentListings.sort((a, b) => b.dateAdded.localeCompare(a.dateAdded));
+    const latestListings = recentListings.slice(0, 12);
+
+    // Latest auction results
+    const allRecentAuctions = modelStats
+      .flatMap(m => m.recentAuctions.map(a => ({ ...a, modelSlug: m.slug, modelName: m.displayName, heroImage: m.heroImage })))
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 10);
+
+    const result = {
+      totalModels: models.length,
+      totalListings,
+      totalAuction,
+      makes: Object.entries(makeDisplay).map(([key, display]) => ({
+        key,
+        name: display,
+        count: makeCounts[key],
+        // Use first model's hero as make representative
+        heroImage: models.find(m => m.make.toLowerCase() === key)?.heroImage || '',
+      })),
+      topAppreciating,
+      topDepreciating,
+      mostActive,
+      latestListings,
+      allRecentAuctions,
+      allModels: modelStats.map(m => ({
+        slug: m.slug, make: m.make, model: m.model, displayName: m.displayName,
+        heroImage: m.heroImage, listingCount: m.listingCount, median: m.median, annualChange: m.annualChange,
+      })),
+    };
+
+    _homepageCache = result;
+    _homepageCacheTime = now;
+    res.json(result);
+  } catch (err) {
+    console.error('Homepage API error:', err);
+    res.status(500).json({ error: 'Failed to load homepage data.' });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);

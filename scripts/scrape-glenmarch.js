@@ -208,30 +208,40 @@ function getLastPage(html) {
 // ── Main ─────────────────────────────────────────────────────────────────
 
 async function scrapeMake(make) {
-  const url = `${BASE_URL}/${encodeURIComponent(make)}?limit=${PER_PAGE}&unsold=1&page=1`;
+  const allResults = [];
+  let page = 1;
+  let emptyStreak = 0;
+
   console.log(`\n══ ${make} ══`);
-  console.log(`  Fetching page 1...`);
 
-  await rateLimit(url);
-  const firstPage = await fetchWithRetry(url);
-  const totalPages = Math.min(getLastPage(firstPage), pageLimit);
-  const allResults = parseResultsPage(firstPage, make);
-
-  console.log(`  Page 1: ${allResults.length} results (${totalPages} pages total)`);
-
-  for (let page = 2; page <= totalPages; page++) {
+  while (page <= pageLimit) {
     const pageUrl = `${BASE_URL}/${encodeURIComponent(make)}?limit=${PER_PAGE}&unsold=1&page=${page}`;
-    console.log(`  Fetching page ${page}/${totalPages}...`);
+    console.log(`  Fetching page ${page}...`);
 
     await rateLimit(pageUrl);
     try {
       const html = await fetchWithRetry(pageUrl);
       const results = parseResultsPage(html, make);
+
+      if (results.length === 0) {
+        emptyStreak++;
+        console.log(`  Page ${page}: empty (streak ${emptyStreak}/3)`);
+        if (emptyStreak >= 3) {
+          console.log(`  Stopping: 3 consecutive empty pages`);
+          break;
+        }
+        page++;
+        continue;
+      }
+
+      emptyStreak = 0;
       allResults.push(...results);
       console.log(`  Page ${page}: +${results.length} (${allResults.length} total)`);
     } catch (err) {
       console.error(`  Page ${page}: ERROR - ${err.message}`);
     }
+
+    page++;
   }
 
   // Save incrementally per make

@@ -116,9 +116,61 @@
       transition: background 0.3s, color 0.3s, border-color 0.3s;
     }
 
+    /* Hero banner */
+    .hero-banner {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      margin-top: 62px;
+      overflow: hidden;
+      background: var(--color-border);
+    }
+
+    .hero-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.4s;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 3rem 3rem 2rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    }
+
+    .hero-model-name {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .hero-subtitle {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+    }
+
+    .hero-credit {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 1rem;
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.05em;
+    }
+
     /* Analysis page layout */
     .analysis-page {
-      padding: 5rem 3rem 4rem;
+      padding: 2rem 3rem 4rem;
       max-width: 900px;
       margin: 0 auto;
     }
@@ -314,7 +366,9 @@
     /* Responsive */
     @media (max-width: 640px) {
       nav { padding: 1rem 1.25rem; }
-      .analysis-page { padding: 5rem 1.25rem 3rem; }
+      .hero-banner { height: 280px; }
+      .hero-overlay { padding: 2rem 1.5rem 1.5rem; }
+      .analysis-page { padding: 1.5rem 1.25rem 3rem; }
       .stats-grid { grid-template-columns: repeat(2, 1fr); }
       footer { padding: 1.5rem 1.25rem; }
     }
@@ -325,6 +379,10 @@
   <nav>
     <a href="/" class="logo">Collectorly</a>
     <div class="nav-right">
+      <a href="/home-1">Home 1</a>
+      <a href="/home-2">Home 2</a>
+      <a href="/home-3">Home 3</a>
+      <a href="/home-4">Home 4</a>
       <a href="/listings">Listings</a>
       <a href="/analysis" class="nav-active">Analysis</a>
       <a href="/#contact">Get in Touch</a>
@@ -332,11 +390,19 @@
     </div>
   </nav>
 
+  <section class="hero-banner" id="heroBanner">
+    <img id="heroImage" src="" alt="Lamborghini Murciélago" style="opacity: 0;">
+    <div class="hero-overlay">
+      <h1 class="hero-model-name">Lamborghini Murciélago</h1>
+      <p class="hero-subtitle">Market Analysis</p>
+    </div>
+    <span class="hero-credit" id="heroCredit"></span>
+  </section>
+
   <div class="analysis-page">
-    <p class="section-label">Market Analysis</p>
-    <h1 class="section-title">Lamborghini Murciélago</h1>
     <p class="page-description">
       Aggregate price trends and market distribution based on daily UK listing snapshots.
+      <a href="/cars/lamborghini-murcielago" style="display: inline-block; margin-left: 0.5rem; font-size: 0.8rem; color: var(--color-accent); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">View Listings &rarr;</a>
     </p>
 
     <!-- Loading state -->
@@ -615,6 +681,21 @@
         const res = await fetch('/api/history/lamborghini-murcielago');
         if (!res.ok) throw new Error('Failed to load');
         const data = await res.json();
+
+        // Load hero image
+        const heroImg = document.getElementById('heroImage');
+        const heroCredit = document.getElementById('heroCredit');
+        let generationImages = data.generationImages || null;
+        let defaultHeroImage = data.heroImage || '';
+        let defaultHeroCredit = data.heroCredit || '';
+
+        function setHeroImage(url, credit) {
+          if (!url) return;
+          heroImg.src = url;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+          heroCredit.textContent = credit ? 'Image: ' + credit : '';
+        }
+        setHeroImage(defaultHeroImage, defaultHeroCredit);
 
         loadingEl.style.display = 'none';
 
@@ -997,6 +1078,15 @@
               genBtnsEl.querySelectorAll('.var-btn').forEach(b => b.classList.remove('active'));
               btn.classList.add('active');
               activeGeneration = btn.dataset.generation;
+              // Swap hero image if generation-specific image available
+              if (activeGeneration !== 'all' && generationImages && generationImages[activeGeneration]) {
+                const gi = generationImages[activeGeneration];
+                heroImg.style.opacity = '0';
+                setTimeout(() => setHeroImage(gi.image, gi.credit), 200);
+              } else {
+                heroImg.style.opacity = '0';
+                setTimeout(() => setHeroImage(defaultHeroImage, defaultHeroCredit), 200);
+              }
               // Reset variant to 'all' when switching generation, rebuild variant buttons
               activeVariant = 'all';
               rebuildVariantButtons();

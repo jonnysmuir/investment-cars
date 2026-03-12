@@ -192,12 +192,81 @@
       "heroCredit": "BMW AG",
       "description": "The BMW M3, produced in various generations since 1986, is BMW's iconic high-performance compact sports car. From the E30's motorsport-bred four-cylinder to the E46's legendary inline-six, the E90/E92's screaming V8, and the F80/G80's twin-turbo six, each generation has defined its era. The E46 CSL, E92 GTS, and manual-gearbox examples are the most collectible variants.",
       "generations": [
-        { "name": "E30", "years": [1986, 1991], "patterns": ["E30"] },
-        { "name": "E36", "years": [1992, 1999], "patterns": ["E36"] },
-        { "name": "E46", "years": [2000, 2006], "patterns": ["E46"] },
-        { "name": "E9x", "years": [2007, 2013], "patterns": ["E90", "E92", "E93"] },
-        { "name": "F80", "years": [2014, 2018], "patterns": ["F80"] },
-        { "name": "G80", "years": [2021, 2026], "patterns": ["G80", "G81"] }
+        {
+          "name": "E30",
+          "years": [
+            1986,
+            1991
+          ],
+          "patterns": [
+            "E30"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BMW_M3_%28E30%29_IMG_4388.jpg/1920px-BMW_M3_%28E30%29_IMG_4388.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "E36",
+          "years": [
+            1992,
+            1999
+          ],
+          "patterns": [
+            "E36"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1995-1999_BMW_M3_%28E36%29_coupe_02.jpg/1920px-1995-1999_BMW_M3_%28E36%29_coupe_02.jpg",
+          "credit": "OSX / Public Domain"
+        },
+        {
+          "name": "E46",
+          "years": [
+            2000,
+            2006
+          ],
+          "patterns": [
+            "E46"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BMW_M3_CSL_%28E46%29.jpg/1920px-BMW_M3_CSL_%28E46%29.jpg",
+          "credit": "Jake Thomas / CC BY-SA 4.0"
+        },
+        {
+          "name": "E9x",
+          "years": [
+            2007,
+            2013
+          ],
+          "patterns": [
+            "E90",
+            "E92",
+            "E93"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BMW_M3_E92_-_Flickr_-_Alexandre_Pr%C3%A9vot_%284%29_%28cropped%29.jpg/1920px-BMW_M3_E92_-_Flickr_-_Alexandre_Pr%C3%A9vot_%284%29_%28cropped%29.jpg",
+          "credit": "Alexandre Prévot / CC BY-SA 2.0"
+        },
+        {
+          "name": "F80",
+          "years": [
+            2014,
+            2018
+          ],
+          "patterns": [
+            "F80"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2017_BMW_M3_%28F80%29_sedan_%282018-08-31%29_01.jpg/1920px-2017_BMW_M3_%28F80%29_sedan_%282018-08-31%29_01.jpg",
+          "credit": "EurovisionNim / CC BY-SA 4.0"
+        },
+        {
+          "name": "G80",
+          "years": [
+            2021,
+            2026
+          ],
+          "patterns": [
+            "G80",
+            "G81"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BMW_M3_COMPETITION_%28G80%29_China.jpg/1920px-BMW_M3_COMPETITION_%28G80%29_China.jpg",
+          "credit": "Dinkun Chen / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "autotrader": {
@@ -1881,6 +1950,153 @@
         },
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=McLaren&model=GTS"
+        }
+      }
+    },
+    {
+      "slug": "porsche-911",
+      "make": "Porsche",
+      "model": "911",
+      "heroImage": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/press-kits/911-s-t/911_60.jpg/jcr:content/911_60.jpg",
+      "heroCredit": "Porsche AG",
+      "description": "The Porsche 911, produced since 1963, is the definitive rear-engined sports car and one of the most iconic nameplates in automotive history. From the air-cooled 930 Turbo through to the modern 992, the 911 has evolved across ten generations while retaining its unmistakable silhouette and flat-six engine. Early air-cooled models — particularly the 930, 964 RS, and 993 — are among the most sought-after collector cars in the world.",
+      "generations": [
+        {
+          "name": "930",
+          "years": [
+            1975,
+            1989
+          ],
+          "patterns": [
+            "930"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg/1920px-1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg",
+          "credit": "Mr.choppers / CC BY-SA 3.0"
+        },
+        {
+          "name": "935",
+          "years": [
+            1976,
+            1981
+          ],
+          "patterns": [
+            "935"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg/1920px-Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg",
+          "credit": "nakhon100 / CC BY 2.0"
+        },
+        {
+          "name": "964",
+          "years": [
+            1989,
+            1994
+          ],
+          "patterns": [
+            "964"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg/1920px-1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg",
+          "credit": "Mr.choppers / CC BY-SA 3.0"
+        },
+        {
+          "name": "965",
+          "years": [
+            1986,
+            1989
+          ],
+          "patterns": [
+            "965",
+            "959"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg/1920px-Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg",
+          "credit": "M 93 / CC BY-SA 3.0 de"
+        },
+        {
+          "name": "993",
+          "years": [
+            1994,
+            1998
+          ],
+          "patterns": [
+            "993"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg/1920px-Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "996",
+          "years": [
+            1998,
+            2004
+          ],
+          "patterns": [
+            "996"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg/1920px-2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg",
+          "credit": "MercurySable99 / CC BY-SA 4.0"
+        },
+        {
+          "name": "997",
+          "years": [
+            2004,
+            2012
+          ],
+          "patterns": [
+            "997"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg/1920px-Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg",
+          "credit": "Alexandre Prévot / CC BY-SA 2.0"
+        },
+        {
+          "name": "991.1",
+          "years": [
+            2012,
+            2016
+          ],
+          "patterns": [
+            "991.1",
+            "991"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2012_Porsche_911_Carrera_S_2.jpg/1920px-2012_Porsche_911_Carrera_S_2.jpg",
+          "credit": "Calreyn88 / CC BY-SA 4.0"
+        },
+        {
+          "name": "991.2",
+          "years": [
+            2017,
+            2019
+          ],
+          "patterns": [
+            "991.2"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg/1920px-Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg",
+          "credit": "Alexandre Prévot / CC BY-SA 2.0"
+        },
+        {
+          "name": "992",
+          "years": [
+            2019,
+            2026
+          ],
+          "patterns": [
+            "992"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/1920px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
+      ],
+      "sources": {
+        "pistonheads": {
+          "searchUrl": "https://www.pistonheads.com/buy/porsche/911"
+        },
+        "autotrader": {
+          "searchUrl": "https://www.autotrader.co.uk/cars/used/porsche/911"
+        },
+        "carsandclassic": {
+          "makeId": 38,
+          "model": "911"
+        },
+        "collectingcars": {
+          "searchUrl": "https://www.collectingcars.com/search?make=Porsche&model=911"
         }
       }
     }

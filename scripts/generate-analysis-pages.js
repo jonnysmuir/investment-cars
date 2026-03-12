@@ -59,15 +59,21 @@ for (const m of models) {
     `<title>${displayName} Market Analysis \u2014 Collectorly</title>`,
   );
 
-  // 2. Page heading
+  // 2. Hero banner model name
   html = html.replace(
-    /<h1 class="section-title">Ferrari F430<\/h1>/,
-    `<h1 class="section-title">${displayName}</h1>`,
+    /<h1 class="hero-model-name">Ferrari F430<\/h1>/,
+    `<h1 class="hero-model-name">${displayName}</h1>`,
+  );
+
+  // 2b. Hero image alt text
+  html = html.replace(
+    /alt="Ferrari F430"/,
+    `alt="${displayName}"`,
   );
 
   // 3. CTA link to listings page
   html = html.replace(
-    /href="\/cars\/ferrari-f430"/,
+    /href="\/cars\/ferrari-f430"/g,
     `href="/cars/${m.slug}"`,
   );
 
