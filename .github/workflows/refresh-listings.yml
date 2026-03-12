@@ -2,8 +2,8 @@ name: Refresh Listings
 
 on:
   schedule:
-    # Run daily at 5am UTC
-    - cron: '0 5 * * *'
+    # Run daily at 3am UTC
+    - cron: '0 3 * * *'
   workflow_dispatch: {}  # Allow manual trigger
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
@@ -43,6 +43,7 @@ jobs:
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+          echo "date=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check.outputs.has_changes == 'true'
@@ -50,16 +51,16 @@ jobs:
           git config user.name "Collectorly Bot"
           git config user.email "bot@collectorly.com"
           git add data/
-          git commit -m "Daily refresh: $(date +%Y-%m-%d)
+          git commit -m "Daily refresh: ${{ steps.check.outputs.date }}
 
           $(head -20 scripts/summary.md)"
           git push
 
       - name: Create GitHub Issue with summary
         if: steps.check.outputs.has_changes == 'true'
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v4
         with:
-          title: "Listings refresh: ${{ github.event.repository.name }} — $(date +%Y-%m-%d)"
+          title: "Listings refresh — ${{ steps.check.outputs.date }}"
           content-filepath: scripts/summary.md
           labels: automated-refresh
 
@@ -76,4 +77,5 @@ jobs:
         with:
           name: refresh-summary
           path: scripts/summary.md
+          retention-days: 30
           retention-days: 30
