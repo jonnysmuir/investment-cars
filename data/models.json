@@ -191,6 +191,14 @@
       "heroImage": "https://hips.hearstapps.com/hmg-prod/images/bmw-m-party-web-1633453475.jpg?resize=2048:*",
       "heroCredit": "BMW AG",
       "description": "The BMW M3, produced in various generations since 1986, is BMW's iconic high-performance compact sports car. From the E30's motorsport-bred four-cylinder to the E46's legendary inline-six, the E90/E92's screaming V8, and the F80/G80's twin-turbo six, each generation has defined its era. The E46 CSL, E92 GTS, and manual-gearbox examples are the most collectible variants.",
+      "generations": [
+        { "name": "E30", "years": [1986, 1991], "patterns": ["E30"] },
+        { "name": "E36", "years": [1992, 1999], "patterns": ["E36"] },
+        { "name": "E46", "years": [2000, 2006], "patterns": ["E46"] },
+        { "name": "E9x", "years": [2007, 2013], "patterns": ["E90", "E92", "E93"] },
+        { "name": "F80", "years": [2014, 2018], "patterns": ["F80"] },
+        { "name": "G80", "years": [2021, 2026], "patterns": ["G80", "G81"] }
+      ],
       "sources": {
         "autotrader": {
           "searchUrl": "https://www.autotrader.co.uk/cars/used/bmw/m3"

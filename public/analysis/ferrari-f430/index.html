@@ -202,6 +202,14 @@
       color: var(--color-text);
     }
 
+    .chart-disclaimer {
+      font-size: 0.75rem;
+      color: var(--color-muted);
+      margin-top: 0.75rem;
+      line-height: 1.5;
+      font-style: italic;
+    }
+
     /* CTA button */
     .listings-link {
       display: inline-block;
@@ -334,6 +342,9 @@
     <!-- Loading state -->
     <div class="loading" id="loading">Loading analysis data...</div>
 
+    <!-- Generation filter (for multi-generation models like BMW M3) -->
+    <div class="variant-btns" id="generationBtns" style="display: none; margin-bottom: 0.75rem;"></div>
+
     <!-- Variant filter (above all charts) -->
     <div class="variant-btns" id="variantBtns" style="display: none; margin-bottom: 1.5rem;"></div>
 
@@ -378,6 +389,7 @@
         <button class="tl-btn" data-range="5">5Y</button>
         <button class="tl-btn active" data-range="all">All</button>
       </div>
+      <p class="chart-disclaimer">The concentration of data points in recent days reflects the start of our daily listing tracking. Historic data is sourced from auction records, which are naturally sparser. As we continue to track listings daily, the depth and accuracy of the trend line will improve over time.</p>
     </div>
 
     <!-- Chart 2: Price vs Mileage -->
@@ -432,7 +444,9 @@
     function getChartColors() {
       const isLight = root.classList.contains('light');
       return {
+        isLight,
         accent: isLight ? '#b8942e' : '#c9a84c',
+        bandFill: isLight ? 'rgba(184, 148, 46, 0.12)' : 'rgba(201, 168, 76, 0.12)',
         text: isLight ? '#1a1a1a' : '#e8e8e8',
         muted: isLight ? '#666' : '#888',
         grid: isLight ? 'rgba(0,0,0,0.06)' : 'rgba(255,255,255,0.06)',
@@ -460,16 +474,21 @@
         if (!chart) return;
         chart.options.scales.x.ticks.color = c.muted;
         chart.options.scales.x.grid.color = c.grid;
+        if (chart.options.scales.x.title) chart.options.scales.x.title.color = c.muted;
         chart.options.scales.y.ticks.color = c.muted;
         chart.options.scales.y.grid.color = c.grid;
+        if (chart.options.scales.y.title) chart.options.scales.y.title.color = c.muted;
         // Update legend color
         if (chart.options.plugins.legend && chart.options.plugins.legend.labels) {
           chart.options.plugins.legend.labels.color = c.muted;
         }
-        // Update trend line color
+        // Update trend line + band colors
         chart.data.datasets.forEach(ds => {
           if (ds.label === 'Trend') {
             ds.borderColor = c.accent;
+          }
+          if (ds.label === '_lower') {
+            ds.backgroundColor = c.bandFill;
           }
         });
         chart.update('none');
@@ -511,12 +530,12 @@
 
     // ── Kernel-smoothed trend line ────────────────────────────────────────
     function computeTrendLine(points, numOutput = 60, displayMin, displayMax) {
-      if (points.length < 5) return [];
+      if (points.length < 5) return { trend: [], upper: [], lower: [] };
 
       const t0 = displayMin ? new Date(displayMin).getTime() : new Date(points[0].x).getTime();
       const tN = displayMax ? new Date(displayMax).getTime() : new Date(points[points.length - 1].x).getTime();
       const range = tN - t0;
-      if (range === 0) return [];
+      if (range === 0) return { trend: [], upper: [], lower: [] };
 
       const numeric = points.map(p => ({
         t: (new Date(p.x).getTime() - t0) / range,
@@ -527,23 +546,64 @@
       const oneYearFrac = 365 * 24 * 3600000 / range;
       const bandwidth = Math.min(oneYearFrac, 0.3);
 
-      const output = [];
+      const trend = [], upper = [], lower = [];
       for (let i = 0; i < numOutput; i++) {
         const tTarget = i / (numOutput - 1);
-        let sumW = 0, sumWY = 0;
+        let sumW = 0, sumWY = 0, sumWY2 = 0;
         for (const p of numeric) {
           const u = (p.t - tTarget) / bandwidth;
           const w = Math.exp(-0.5 * u * u);
           sumW += w;
           sumWY += w * p.y;
+          sumWY2 += w * p.y * p.y;
         }
         if (sumW === 0) continue;
+        const mean = sumWY / sumW;
+        const variance = Math.max(0, sumWY2 / sumW - mean * mean);
+        const sd = Math.sqrt(variance);
+
         const ms = t0 + tTarget * range;
         const d = new Date(ms);
         const dateStr = d.toISOString().split('T')[0];
-        output.push({ x: dateStr, y: Math.round(sumWY / sumW) });
+        trend.push({ x: dateStr, y: Math.round(mean) });
+        upper.push({ x: dateStr, y: Math.round(mean + sd) });
+        lower.push({ x: dateStr, y: Math.max(0, Math.round(mean - sd)) });
       }
-      return output;
+      return { trend, upper, lower };
+    }
+
+    // ── Kernel-smoothed trend for scatter (numeric X/Y) ──────────────────
+    function computeScatterTrend(points, numOutput = 60) {
+      if (points.length < 5) return { trend: [], upper: [], lower: [] };
+      const xs = points.map(p => p.x), ys = points.map(p => p.y);
+      const xMin = Math.min(...xs), xMax = Math.max(...xs);
+      const range = xMax - xMin;
+      if (range === 0) return { trend: [], upper: [], lower: [] };
+
+      const numeric = points.map(p => ({ t: (p.x - xMin) / range, y: p.y }));
+      const bandwidth = Math.max(0.08, 1 / Math.sqrt(points.length));
+
+      const trend = [], upper = [], lower = [];
+      for (let i = 0; i < numOutput; i++) {
+        const tTarget = i / (numOutput - 1);
+        let sumW = 0, sumWY = 0, sumWY2 = 0;
+        for (const p of numeric) {
+          const u = (p.t - tTarget) / bandwidth;
+          const w = Math.exp(-0.5 * u * u);
+          sumW += w;
+          sumWY += w * p.y;
+          sumWY2 += w * p.y * p.y;
+        }
+        if (sumW === 0) continue;
+        const mean = sumWY / sumW;
+        const variance = Math.max(0, sumWY2 / sumW - mean * mean);
+        const sd = Math.sqrt(variance);
+        const xVal = Math.round(xMin + tTarget * range);
+        trend.push({ x: xVal, y: Math.round(mean) });
+        upper.push({ x: xVal, y: Math.round(mean + sd) });
+        lower.push({ x: xVal, y: Math.max(0, Math.round(mean - sd)) });
+      }
+      return { trend, upper, lower };
     }
 
     // ── Load and render ───────────────────────────────────────────────────
@@ -579,6 +639,7 @@
             allPoints.push({
               x: a.date, y: a.price,
               variant: a.variant || null,
+              generation: a.generation || null,
               meta: { variant: a.variant, year: a.year, sold: a.sold, source: a.source },
             });
           }
@@ -588,46 +649,91 @@
             allPoints.push({
               x: lp.date, y: lp.price,
               variant: lp.variant || null,
+              generation: lp.generation || null,
               meta: { variant: lp.variant, source: 'Active Listing' },
             });
           }
         }
         allPoints.sort((a, b) => a.x.localeCompare(b.x));
 
-        // ── Variant filter buttons (dynamic, page-level) ────────────────
-        const variantCounts = {};
-        allPoints.forEach(p => {
-          const v = p.variant || 'Other';
-          variantCounts[v] = (variantCounts[v] || 0) + 1;
-        });
-        const variantOrder = ['Coupe', 'Spider', 'Scuderia', 'Scuderia 16M', 'Challenge', 'Other'];
-        const variants = variantOrder.filter(v => variantCounts[v]);
-
-        const varBtnsEl = document.getElementById('variantBtns');
-        if (variants.length > 1) {
-          varBtnsEl.style.display = 'flex';
-          const allBtn = document.createElement('button');
-          allBtn.className = 'var-btn active';
-          allBtn.dataset.variant = 'all';
-          allBtn.textContent = 'All';
-          varBtnsEl.appendChild(allBtn);
-          for (const v of variants) {
-            const btn = document.createElement('button');
-            btn.className = 'var-btn';
-            btn.dataset.variant = v;
-            btn.textContent = v;
-            varBtnsEl.appendChild(btn);
-          }
-        }
-
         // ── Shared filter state ─────────────────────────────────────────
         let activeRange = 'all';
         let activeVariant = 'all';
+        let activeGeneration = 'all';
+
+        // ── Generation filter buttons (for multi-generation models) ────
+        const hasGenerations = data.generations && data.generations.length > 0;
+        const genBtnsEl = document.getElementById('generationBtns');
+        if (hasGenerations) {
+          genBtnsEl.style.display = 'flex';
+          const allGenBtn = document.createElement('button');
+          allGenBtn.className = 'var-btn active';
+          allGenBtn.dataset.generation = 'all';
+          allGenBtn.textContent = 'All Generations';
+          genBtnsEl.appendChild(allGenBtn);
+          for (const g of data.generations) {
+            const btn = document.createElement('button');
+            btn.className = 'var-btn';
+            btn.dataset.generation = g;
+            btn.textContent = g;
+            genBtnsEl.appendChild(btn);
+          }
+        }
+
+        // ── Variant filter buttons (dynamic, page-level) ────────────────
+        const varBtnsEl = document.getElementById('variantBtns');
+        function rebuildVariantButtons() {
+          varBtnsEl.innerHTML = '';
+          varBtnsEl.style.display = 'none';
+
+          // Count variants, respecting current generation filter
+          const variantCounts = {};
+          allPoints.forEach(p => {
+            if (activeGeneration !== 'all' && p.generation !== activeGeneration) return;
+            const v = p.variant || 'Other';
+            variantCounts[v] = (variantCounts[v] || 0) + 1;
+          });
+          const variantOrder = ['Coupe', 'Spider', 'Scuderia', 'Scuderia 16M', 'Challenge', 'Other'];
+          const variants = variantOrder.filter(v => variantCounts[v]);
+          // Include any variants not in the order list
+          Object.keys(variantCounts).forEach(v => {
+            if (!variants.includes(v)) variants.push(v);
+          });
+
+          if (variants.length > 1) {
+            varBtnsEl.style.display = 'flex';
+            const allBtn = document.createElement('button');
+            allBtn.className = 'var-btn' + (activeVariant === 'all' ? ' active' : '');
+            allBtn.dataset.variant = 'all';
+            allBtn.textContent = 'All';
+            varBtnsEl.appendChild(allBtn);
+            for (const v of variants) {
+              const btn = document.createElement('button');
+              btn.className = 'var-btn' + (activeVariant === v ? ' active' : '');
+              btn.dataset.variant = v;
+              btn.textContent = v;
+              varBtnsEl.appendChild(btn);
+            }
+          }
+        }
+        // Build initial variant buttons + attach click handler once (delegates to children)
+        rebuildVariantButtons();
+        varBtnsEl.addEventListener('click', e => {
+          const btn = e.target.closest('[data-variant]');
+          if (!btn) return;
+          varBtnsEl.querySelectorAll('.var-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeVariant = btn.dataset.variant;
+          applyFilters();
+        });
 
         // ── Stats helper ────────────────────────────────────────────────
-        function updateStats(variantFilter) {
+        function updateStats(variantFilter, genFilter) {
           if (!data.distribution || data.distribution.length === 0) return;
           let prices = data.distribution;
+          if (genFilter && genFilter !== 'all') {
+            prices = prices.filter(d => d.generation === genFilter);
+          }
           if (variantFilter !== 'all') {
             prices = prices.filter(d => (d.variant || 'Other') === variantFilter);
           }
@@ -654,9 +760,12 @@
         }
 
         // ── Distribution helper ─────────────────────────────────────────
-        function updateDistribution(variantFilter) {
+        function updateDistribution(variantFilter, genFilter) {
           if (!data.distribution || data.distribution.length === 0) return;
           let prices = data.distribution;
+          if (genFilter && genFilter !== 'all') {
+            prices = prices.filter(d => d.generation === genFilter);
+          }
           if (variantFilter !== 'all') {
             prices = prices.filter(d => (d.variant || 'Other') === variantFilter);
           }
@@ -684,37 +793,6 @@
           document.getElementById('trendContainer').style.display = 'block';
           const ctx = document.getElementById('trendChart').getContext('2d');
 
-          const datasets = [];
-          datasets.push({
-            type: 'scatter',
-            label: 'Prices',
-            data: allPoints.map(p => ({ x: p.x, y: p.y })),
-            backgroundColor: 'rgba(74, 158, 218, 0.45)',
-            borderColor: 'rgba(74, 158, 218, 0.7)',
-            borderWidth: 1,
-            pointRadius: 4,
-            pointHoverRadius: 7,
-            order: 1,
-            _pointMeta: allPoints.map(p => p.meta),
-          });
-
-          const trendLine = computeTrendLine(allPoints);
-          if (trendLine.length > 0) {
-            datasets.push({
-              type: 'line',
-              label: 'Trend',
-              data: trendLine,
-              borderColor: colors.accent,
-              borderWidth: 2.5,
-              pointRadius: 0,
-              pointHoverRadius: 5,
-              pointHoverBackgroundColor: colors.accent,
-              tension: 0.3,
-              fill: false,
-              order: 0,
-            });
-          }
-
           function buildChartData(points, displayMin, displayMax) {
             const c = getChartColors();
             const ds = [];
@@ -727,11 +805,39 @@
               borderWidth: 1,
               pointRadius: 4,
               pointHoverRadius: 7,
-              order: 1,
+              order: 2,
               _pointMeta: points.map(p => p.meta),
             });
-            const tl = computeTrendLine(points, 60, displayMin, displayMax);
+            const { trend: tl, upper, lower } = computeTrendLine(points, 60, displayMin, displayMax);
             if (tl.length > 0) {
+              // Upper bound (invisible line, used as fill boundary)
+              ds.push({
+                type: 'line',
+                label: '_upper',
+                data: upper,
+                borderColor: 'transparent',
+                borderWidth: 0,
+                pointRadius: 0,
+                pointHoverRadius: 0,
+                tension: 0.3,
+                fill: false,
+                order: 1,
+              });
+              // Lower bound with fill up to upper
+              ds.push({
+                type: 'line',
+                label: '_lower',
+                data: lower,
+                borderColor: 'transparent',
+                borderWidth: 0,
+                pointRadius: 0,
+                pointHoverRadius: 0,
+                tension: 0.3,
+                fill: '-1',
+                backgroundColor: c.bandFill,
+                order: 1,
+              });
+              // Trend line on top
               ds.push({
                 type: 'line',
                 label: 'Trend',
@@ -751,7 +857,7 @@
 
           trendChart = new Chart(ctx, {
             type: 'scatter',
-            data: { datasets },
+            data: { datasets: buildChartData(allPoints) },
             options: {
               responsive: true,
               maintainAspectRatio: false,
@@ -765,9 +871,11 @@
                     pointStyle: 'circle',
                     padding: 16,
                     font: { size: 11 },
+                    filter: item => !item.text.startsWith('_'),
                   },
                 },
                 tooltip: {
+                  filter: item => !item.dataset.label?.startsWith('_'),
                   callbacks: {
                     title: function(items) {
                       if (!items.length) return '';
@@ -828,6 +936,11 @@
             let filtered = allPoints;
             let displayMin, displayMax;
 
+            // Generation filter
+            if (activeGeneration !== 'all') {
+              filtered = filtered.filter(p => p.generation === activeGeneration);
+            }
+
             // Time filter
             if (activeRange !== 'all') {
               const cutoff = new Date();
@@ -859,11 +972,11 @@
             trendChart.data.datasets = buildChartData(filtered, displayMin, displayMax);
             trendChart.update();
 
-            // Update stats and distribution for variant
-            updateStats(activeVariant);
-            if (distChart) updateDistribution(activeVariant);
-            if (mileageChart) updateMileage(activeVariant);
-            if (supplyChart) updateSupply(activeVariant);
+            // Update stats and distribution for variant + generation
+            updateStats(activeVariant, activeGeneration);
+            if (distChart) updateDistribution(activeVariant, activeGeneration);
+            if (mileageChart) updateMileage(activeVariant, activeGeneration);
+            if (supplyChart) updateSupply(activeVariant, activeGeneration);
             updateAppreciation(filtered);
           }
 
@@ -876,38 +989,93 @@
             applyFilters();
           });
 
-          varBtnsEl.addEventListener('click', (e) => {
-            const btn = e.target.closest('.var-btn');
-            if (!btn) return;
-            varBtnsEl.querySelectorAll('.var-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            activeVariant = btn.dataset.variant;
-            applyFilters();
-          });
+          // Generation button clicks
+          if (hasGenerations) {
+            genBtnsEl.addEventListener('click', (e) => {
+              const btn = e.target.closest('[data-generation]');
+              if (!btn) return;
+              genBtnsEl.querySelectorAll('.var-btn').forEach(b => b.classList.remove('active'));
+              btn.classList.add('active');
+              activeGeneration = btn.dataset.generation;
+              // Reset variant to 'all' when switching generation, rebuild variant buttons
+              activeVariant = 'all';
+              rebuildVariantButtons();
+              applyFilters();
+            });
+          }
         }
 
         // ── Mileage helper ─────────────────────────────────────────────
-        function updateMileage(variantFilter) {
+        function buildMileageDatasets(pts) {
+          const c = getChartColors();
+          const active = pts.filter(d => d.active !== false);
+          const inactive = pts.filter(d => d.active === false);
+          const allScatter = pts.map(d => ({ x: d.mileage, y: d.price }));
+          const ds = [];
+          if (inactive.length > 0) {
+            ds.push({
+              label: 'No Longer Listed',
+              data: inactive.map(d => ({ x: d.mileage, y: d.price })),
+              backgroundColor: c.isLight ? 'rgba(160, 160, 160, 0.35)' : 'rgba(160, 160, 160, 0.3)',
+              borderColor: c.isLight ? 'rgba(140, 140, 140, 0.5)' : 'rgba(160, 160, 160, 0.45)',
+              borderWidth: 1,
+              pointRadius: 4,
+              pointHoverRadius: 7,
+              order: 3,
+            });
+          }
+          ds.push({
+            label: 'Active Listings',
+            data: active.map(d => ({ x: d.mileage, y: d.price })),
+            backgroundColor: 'rgba(74, 158, 218, 0.5)',
+            borderColor: 'rgba(74, 158, 218, 0.7)',
+            borderWidth: 1,
+            pointRadius: 5,
+            pointHoverRadius: 8,
+            order: 2,
+          });
+          const { trend: tl, upper, lower } = computeScatterTrend(allScatter, 60);
+          if (tl.length > 0) {
+            ds.push({ type: 'line', label: '_upper', data: upper, borderColor: 'transparent', borderWidth: 0, pointRadius: 0, tension: 0.3, fill: false, order: 1 });
+            ds.push({ type: 'line', label: '_lower', data: lower, borderColor: 'transparent', borderWidth: 0, pointRadius: 0, tension: 0.3, fill: '-1', backgroundColor: c.bandFill, order: 1 });
+            ds.push({ type: 'line', label: 'Trend', data: tl, borderColor: c.accent, borderWidth: 2.5, pointRadius: 0, tension: 0.3, fill: false, order: 0 });
+          }
+          return ds;
+        }
+
+        function updateMileage(variantFilter, genFilter) {
           if (!hasMileage) return;
           let pts = data.mileageData;
+          if (genFilter && genFilter !== 'all') {
+            pts = pts.filter(d => d.generation === genFilter);
+          }
           if (variantFilter !== 'all') {
             pts = pts.filter(d => (d.variant || 'Other') === variantFilter);
           }
-          mileageChart.data.datasets[0].data = pts.map(d => ({ x: d.mileage, y: d.price }));
+          mileageChart.data.datasets = buildMileageDatasets(pts);
           mileageChart.update();
         }
 
         // ── Supply helper ─────────────────────────────────────────────
-        function updateSupply(variantFilter) {
+        function updateSupply(variantFilter, genFilter) {
           if (!hasSupply) return;
-          if (variantFilter === 'all') {
-            supplyChart.data.datasets[0].data = data.supplyTrend.map(d => ({ x: d.date, y: d.total }));
-          } else {
-            supplyChart.data.datasets[0].data = data.supplyTrend.map(d => ({
+          // Determine count per day based on active filters
+          let supplyData;
+          if (genFilter && genFilter !== 'all') {
+            // Generation filter takes priority for supply count
+            supplyData = data.supplyTrend.map(d => {
+              let count = (d.byGeneration && d.byGeneration[genFilter]) || 0;
+              return { x: d.date, y: count };
+            });
+          } else if (variantFilter !== 'all') {
+            supplyData = data.supplyTrend.map(d => ({
               x: d.date,
               y: d.byVariant[variantFilter] || 0,
             }));
+          } else {
+            supplyData = data.supplyTrend.map(d => ({ x: d.date, y: d.total }));
           }
+          supplyChart.data.datasets[0].data = supplyData;
           supplyChart.update();
         }
 
@@ -935,7 +1103,7 @@
           }
 
           // Compute trend line and compare endpoints
-          const tl = computeTrendLine(sorted, 60);
+          const { trend: tl } = computeTrendLine(sorted, 60);
           if (tl.length < 2) {
             card.style.display = 'none';
             return;
@@ -1019,22 +1187,22 @@
           mileageChart = new Chart(ctx, {
             type: 'scatter',
             data: {
-              datasets: [{
-                label: 'Price vs Mileage',
-                data: data.mileageData.map(d => ({ x: d.mileage, y: d.price })),
-                backgroundColor: 'rgba(74, 158, 218, 0.5)',
-                borderColor: 'rgba(74, 158, 218, 0.7)',
-                borderWidth: 1,
-                pointRadius: 5,
-                pointHoverRadius: 8,
-              }],
+              datasets: buildMileageDatasets(data.mileageData),
             },
             options: {
               responsive: true,
               maintainAspectRatio: false,
               plugins: {
-                legend: { display: false },
+                legend: {
+                  labels: {
+                    color: colors.muted,
+                    usePointStyle: true,
+                    pointStyle: 'circle',
+                    filter: item => !item.text.startsWith('_'),
+                  },
+                },
                 tooltip: {
+                  filter: item => !item.dataset.label?.startsWith('_'),
                   callbacks: {
                     label: function(ctx) {
                       return formatGBP(ctx.parsed.y) + ' \u2014 ' + ctx.parsed.x.toLocaleString() + ' miles';

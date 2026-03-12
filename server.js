@@ -80,13 +80,54 @@ app.get('/api/listings/:slug', (req, res) => {
 function normaliseVariant(text) {
   if (!text) return null;
   const t = text.toLowerCase();
+
+  // Specific named variants (check before generic body types)
   if (/scuderia\s*16m/i.test(t)) return 'Scuderia 16M';
-  if (/scuderia|gtc/i.test(t)) return 'Scuderia';
-  if (/challenge|gt3/i.test(t)) return 'Challenge';
-  if (/spider|spyder|cabriolet/i.test(t)) return 'Spider';
+  if (/scuderia/i.test(t)) return 'Scuderia';
+  if (/challenge\b/i.test(t)) return 'Challenge';
+  if (/speciale/i.test(t)) return 'Speciale';
+  if (/pista/i.test(t)) return 'Pista';
+  if (/performante/i.test(t)) return 'Performante';
+  if (/super\s*veloce|\bsv\b|\bsvj\b/i.test(t)) return 'SV';
+  if (/competizione/i.test(t)) return 'Competizione';
+  if (/\bgto\b/i.test(t)) return 'GTO';
+  if (/\bgts\b/i.test(t)) return 'GTS';
+  if (/\bgt\b/i.test(t) && !/spider|spyder|gran turismo/i.test(t)) return 'GT';
+  if (/\blt\b|longtail/i.test(t)) return 'LT';
+
+  // Generic body types
+  if (/spider|spyder/i.test(t)) return 'Spider';
+  if (/roadster/i.test(t)) return 'Roadster';
+  if (/cabrio|convertible|drop\s*head|aperta/i.test(t)) return 'Convertible';
+  if (/berlinetta/i.test(t)) return 'Berlinetta';
   if (/coup[eé]|coupe/i.test(t)) return 'Coupe';
-  // If no explicit body type, default to Coupe for F430-like names
-  if (/f\s?430/i.test(t) && !/(spider|spyder)/i.test(t)) return 'Coupe';
+
+  return null;
+}
+
+// Resolve generation for multi-generation models (e.g. BMW M3 E30/E36/E46/E9x/F80/G80).
+// Tries title pattern match first, then falls back to year-range.
+// Returns generation name or null.
+function resolveGeneration(text, year, generations) {
+  if (!generations || generations.length === 0) return null;
+
+  // 1. Try title pattern match (e.g. "(E46)" or "E46" in text)
+  if (text) {
+    for (const gen of generations) {
+      for (const pat of gen.patterns) {
+        const re = new RegExp(`\\b${pat}\\b`, 'i');
+        if (re.test(text)) return gen.name;
+      }
+    }
+  }
+
+  // 2. Fall back to year range
+  if (year) {
+    for (const gen of generations) {
+      if (year >= gen.years[0] && year <= gen.years[1]) return gen.name;
+    }
+  }
+
   return null;
 }
 
@@ -99,12 +140,19 @@ app.get('/api/history/:slug', (req, res) => {
 
   const filePath = path.join(__dirname, 'data', 'history', `${slug}.json`);
 
-  // Load main listings file for title-based variant lookup
+  // Load model config for generations (if any)
+  const modelsMap = getModelsMap();
+  const modelInfo = modelsMap[slug];
+  const generations = modelInfo?.generations || null;
+
+  // Load main listings file for title-based variant/generation lookup
   let listingTitles = {};
+  let listingYears = {};
   try {
     const mainData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', `${slug}.json`), 'utf8'));
     for (const l of mainData.listings || []) {
       listingTitles[l.id] = l.title || '';
+      listingYears[l.id] = l.year || null;
     }
   } catch { /* no main data file */ }
 
@@ -134,11 +182,15 @@ app.get('/api/history/:slug', (req, res) => {
         return { date: snapshot.date, count, median, mean, min: prices[0], max: prices[count - 1] };
       });
 
-      // Latest snapshot distribution with variant info
+      // Latest snapshot distribution with variant + generation info
       const latestSnapshot = history[history.length - 1];
       const distribution = (latestSnapshot && latestSnapshot.listings.length > 0)
         ? latestSnapshot.listings
-            .map(l => ({ price: l.price, variant: normaliseVariant(listingTitles[l.id]) }))
+            .map(l => ({
+              price: l.price,
+              variant: normaliseVariant(listingTitles[l.id]),
+              generation: resolveGeneration(listingTitles[l.id], l.year || listingYears[l.id], generations),
+            }))
             .sort((a, b) => a.price - b.price)
         : null;
 
@@ -157,11 +209,13 @@ app.get('/api/history/:slug', (req, res) => {
             idsInSnapshot.add(l.id);
             if (!tracker.has(l.id)) {
               const variant = normaliseVariant(listingTitles[l.id]);
+              const generation = resolveGeneration(listingTitles[l.id], l.year || listingYears[l.id], generations);
               tracker.set(l.id, {
                 firstDate: snapshot.date,
                 lastDate: snapshot.date,
                 lastPrice: l.price,
                 variant,
+                generation,
                 points: [{ date: snapshot.date, price: l.price }],
               });
             } else {
@@ -185,16 +239,17 @@ app.get('/api/history/:slug', (req, res) => {
         const lastSnapshotDate = snapshotDates[snapshotDates.length - 1];
         for (const t of tracker.values()) {
           const v = t.variant;
+          const g = t.generation;
           // Always emit first-seen point
-          listingPrices.push({ ...t.points[0], variant: v });
+          listingPrices.push({ ...t.points[0], variant: v, generation: g });
           // Emit any mid-range price changes (skip first, already added)
           for (let i = 1; i < t.points.length; i++) {
-            listingPrices.push({ ...t.points[i], variant: v });
+            listingPrices.push({ ...t.points[i], variant: v, generation: g });
           }
           // Emit last-seen point if it differs from the last recorded point
           const lastRecorded = t.points[t.points.length - 1];
           if (t.lastDate !== lastRecorded.date) {
-            listingPrices.push({ date: t.lastDate, price: t.lastPrice, variant: v });
+            listingPrices.push({ date: t.lastDate, price: t.lastPrice, variant: v, generation: g });
           }
         }
       }
@@ -202,33 +257,51 @@ app.get('/api/history/:slug', (req, res) => {
       // ── Glenmarch auction history ──────────────────────────────────────
       const auctionHistory = loadAuctionHistory(slug);
 
-      // Normalise auction history variants
+      // Normalise auction history variants and resolve generations
       for (const a of auctionHistory) {
-        a.variant = normaliseVariant(a.variant) || a.variant;
+        a.generation = resolveGeneration(a.variant, a.year, generations);
+        a.variant = normaliseVariant(a.variant) || null;
       }
 
-      // Price vs mileage data (current listings with numeric mileage)
-      const mileageData = (latestSnapshot && latestSnapshot.listings.length > 0)
-        ? latestSnapshot.listings
-            .filter(l => l.mileage && l.mileage > 0)
-            .map(l => ({
+      // Price vs mileage data — collect from ALL snapshots (de-duped by listing id, latest price wins)
+      const mileageMap = new Map();
+      const currentIds = latestSnapshot ? new Set(latestSnapshot.listings.map(l => l.id)) : new Set();
+      for (const snapshot of history) {
+        for (const l of snapshot.listings) {
+          if (l.mileage && l.mileage > 0) {
+            mileageMap.set(l.id, {
               price: l.price,
               mileage: l.mileage,
               variant: normaliseVariant(listingTitles[l.id]),
-            }))
-        : [];
+              generation: resolveGeneration(listingTitles[l.id], l.year || listingYears[l.id], generations),
+              active: currentIds.has(l.id),
+            });
+          }
+        }
+      }
+      const mileageData = Array.from(mileageMap.values());
 
-      // Supply trend: listing count per day with variant breakdown
+      // Supply trend: listing count per day with variant + generation breakdown
       const supplyTrend = history.map(snapshot => {
         const byVariant = {};
+        const byGeneration = {};
         for (const l of snapshot.listings) {
           const v = normaliseVariant(listingTitles[l.id]) || 'Other';
           byVariant[v] = (byVariant[v] || 0) + 1;
+          if (generations) {
+            const g = resolveGeneration(listingTitles[l.id], l.year || listingYears[l.id], generations) || 'Other';
+            byGeneration[g] = (byGeneration[g] || 0) + 1;
+          }
         }
-        return { date: snapshot.date, total: snapshot.listings.length, byVariant };
+        const entry = { date: snapshot.date, total: snapshot.listings.length, byVariant };
+        if (generations) entry.byGeneration = byGeneration;
+        return entry;
       });
 
-      res.json({ trend, distribution, listingPrices, auctionHistory, mileageData, supplyTrend });
+      // Return generations list so frontend can build filter buttons
+      const generationNames = generations ? generations.map(g => g.name) : null;
+
+      res.json({ trend, distribution, listingPrices, auctionHistory, mileageData, supplyTrend, generations: generationNames });
     } catch {
       res.status(500).json({ error: 'Invalid history data.' });
     }
@@ -245,7 +318,7 @@ function getModelsMap() {
     const { models } = JSON.parse(raw);
     _modelsCache = {};
     for (const m of models) {
-      _modelsCache[m.slug] = { make: m.make, model: m.model };
+      _modelsCache[m.slug] = { make: m.make, model: m.model, generations: m.generations || null };
     }
     return _modelsCache;
   } catch {
@@ -299,10 +372,28 @@ function loadAuctionHistory(slug) {
     }));
 
   // 3. Also load Collecting Cars sold data if available
-  const ccFile = path.join(__dirname, 'data', 'collecting-cars-sold', `${slug}.json`);
   let ccResults = [];
   try {
-    const ccData = JSON.parse(fs.readFileSync(ccFile, 'utf8'));
+    // Prefer model-specific file, fall back to make-level file with model matching
+    const ccModelFile = path.join(__dirname, 'data', 'collecting-cars-sold', `${slug}.json`);
+    const ccMakeFile = path.join(__dirname, 'data', 'collecting-cars-sold', `${modelInfo.make.toLowerCase()}.json`);
+    let ccData;
+    try {
+      ccData = JSON.parse(fs.readFileSync(ccModelFile, 'utf8'));
+    } catch {
+      const allCC = JSON.parse(fs.readFileSync(ccMakeFile, 'utf8'));
+      const modelName = modelInfo.model.toLowerCase();
+      const numericPart = modelName.replace(/[^0-9]/g, '');
+      ccData = allCC.filter(r => {
+        const rm = (r.model || '').toLowerCase();
+        if (rm.includes(modelName) || modelName.includes(rm)) return true;
+        if (numericPart && numericPart.length >= 3) {
+          const rmNum = rm.replace(/[^0-9]/g, '');
+          if (rmNum === numericPart) return true;
+        }
+        return false;
+      });
+    }
     ccResults = ccData
       .filter(r => r.date && r.price && r.currency === 'GBP')
       .map(r => ({
@@ -318,10 +409,27 @@ function loadAuctionHistory(slug) {
   }
 
   // 4. Also load Car & Classic sold data if available
-  const cacFile = path.join(__dirname, 'data', 'car-and-classic-sold', `${slug}.json`);
   let cacResults = [];
   try {
-    const cacData = JSON.parse(fs.readFileSync(cacFile, 'utf8'));
+    const cacModelFile = path.join(__dirname, 'data', 'car-and-classic-sold', `${slug}.json`);
+    const cacMakeFile = path.join(__dirname, 'data', 'car-and-classic-sold', `${modelInfo.make.toLowerCase()}.json`);
+    let cacData;
+    try {
+      cacData = JSON.parse(fs.readFileSync(cacModelFile, 'utf8'));
+    } catch {
+      const allCAC = JSON.parse(fs.readFileSync(cacMakeFile, 'utf8'));
+      const modelName = modelInfo.model.toLowerCase();
+      const numericPart = modelName.replace(/[^0-9]/g, '');
+      cacData = allCAC.filter(r => {
+        const rm = (r.model || '').toLowerCase();
+        if (rm.includes(modelName) || modelName.includes(rm)) return true;
+        if (numericPart && numericPart.length >= 3) {
+          const rmNum = rm.replace(/[^0-9]/g, '');
+          if (rmNum === numericPart) return true;
+        }
+        return false;
+      });
+    }
     cacResults = cacData
       .filter(r => r.date && r.price && r.currency === 'GBP')
       .map(r => ({
