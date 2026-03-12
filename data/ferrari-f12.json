@@ -840,13 +840,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/41a18caeb0ec40d9a5236fd5a8235f8d.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508015056001"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-12"
     },
     {
       "id": "41",
@@ -858,13 +859,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/af4d6677105d4a59845b2e1f801b6d54.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202405280161469"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-12"
     },
     {
       "id": "42",
@@ -1009,6 +1011,24 @@
         {
           "name": "Collecting Cars",
           "url": "https://collectingcars.com/for-sale/2013-ferrari-f12-berlinetta-28"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2013 Used  FERRARI F12BERLINETTA AB S-A",
+      "price": "£146,900",
+      "year": 2013,
+      "mileage": "36,532 miles",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f12berlinetta/6-3-v12/ferrari-f12berlinetta-6-3-v12-1412794227-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20048861"
         }
       ]
     }

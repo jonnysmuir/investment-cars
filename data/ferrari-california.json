@@ -1057,13 +1057,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1982854/2014-ferrari-california-69301d804e460.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd7d5aaaad61bfb8bd20cfbb256f577a",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1982854"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-12"
     },
     {
       "id": "56",
@@ -1250,6 +1251,42 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1905805"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "2009 Used  FERRARI CALIFORNIA",
+      "price": "£54,950",
+      "year": 2009,
+      "mileage": "2,324 miles",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4935062-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19859041"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2017 Ferrari California T",
+      "price": "£79,995",
+      "year": "2017",
+      "mileage": "25,000 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/new/28657317/2017-ferrari-california-69b275592fc7b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=7e267ff72d22e9aaa09602d684861fa9",
+      "featured": false,
+      "dateAdded": "2026-03-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2028624"
         }
       ]
     }
