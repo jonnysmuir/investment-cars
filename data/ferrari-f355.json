@@ -606,7 +606,7 @@
     {
       "id": "32",
       "title": "1995 Used  FERRARI F355",
-      "price": "£160,000",
+      "price": "£156,000",
       "year": 1995,
       "mileage": "27,000 miles",
       "transmission": "Unknown",
@@ -618,6 +618,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19917909"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£160,000",
+          "date": "2026-03-13"
         }
       ]
     },
@@ -660,7 +666,7 @@
     {
       "id": "35",
       "title": "1995 Ferrari F355 Berlinetta Manual 1995 Sport Seats UK RHD",
-      "price": "£160,000",
+      "price": "£156,000",
       "year": "1995",
       "mileage": "27,000 miles",
       "transmission": "6-Speed Manual",
@@ -672,6 +678,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017794"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£160,000",
+          "date": "2026-03-13"
         }
       ]
     },
@@ -703,13 +715,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26791982/1996-ferrari-f355-spider-manual-694496f3b73ae.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b0b51e96adf3b02df860962b34cb0331",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1989949"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-13"
     },
     {
       "id": "38",
@@ -775,13 +788,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1891990/1997-ferrari-f355-683ec41f240c9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ccce52c42fdac344e461c7e40f448354",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1891990"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-13"
     },
     {
       "id": "42",
@@ -847,13 +861,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1985287/1999-ferrari-f355-6936a3ef88e52.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=43d6cd4bff8e3beca6172b01ded5e174",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1985287"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-13"
     },
     {
       "id": "46",
@@ -888,6 +903,42 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1952130"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "1999 Used  FERRARI F355",
+      "price": "£84,995",
+      "year": 1999,
+      "mileage": "17,400 miles",
+      "transmission": "F1 Automated Manual",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/355-f1/ferrari-355-f1-1311518731-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18386461"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "1998 Used  FERRARI F355",
+      "price": "£84,995",
+      "year": 1998,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4894333-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/14945697"
         }
       ]
     }

@@ -439,7 +439,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m8/m8-competition-2dr-dct/bmw-m8-m8-competition-2dr-dct-1403128377-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -449,7 +449,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601089004874"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-13"
     },
     {
       "id": "23",
@@ -641,18 +642,19 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/8-series/4-4-m8-competition-edition-auto-4wd-2dr/bmw-8-series-4-4-m8-competition-edition-auto-4wd-2dr-1403476953-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19890199"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-13"
     },
     {
       "id": "33",
       "title": "2024 Used  BMW M8 COMPETITION AUTO",
-      "price": "£67,099",
+      "price": "£71,999",
       "year": 2024,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -664,6 +666,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20039773"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£67,099",
+          "date": "2026-03-13"
         }
       ]
     },
@@ -718,6 +726,42 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19690519"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "2021 Used  BMW M8 COMPETITION AUTO",
+      "price": "£63,499",
+      "year": 2021,
+      "mileage": "19250 miles",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m8/4-4i-v8-competition-steptronic-4wd-euro-6-s-s-2dr/bmw-m8-4-4i-v8-competition-steptronic-4wd-euro-6-s-s-2dr-1400859368-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19870871"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "2025 Used  BMW M8 COMPETITION AUTO",
+      "price": "£78,990",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/8-series/m8-competition/bmw-8-series-m8-competition-1413088488-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20054416"
         }
       ]
     }
