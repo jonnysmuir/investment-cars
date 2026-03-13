@@ -90,7 +90,7 @@ async function main() {
     summary.totalUpdated += modelSummary.updatedCount;
     summary.totalUnlisted += modelSummary.unlistedCount;
     summary.totalErrors += modelSummary.errors.length;
-    if (modelSummary.newCount > 0 || modelSummary.updatedCount > 0 || modelSummary.unlistedCount > 0) {
+    if (modelSummary.newCount > 0 || modelSummary.updatedCount > 0 || modelSummary.unlistedCount > 0 || (modelSummary.notices && modelSummary.notices.length > 0)) {
       summary.hasChanges = true;
     }
   }
@@ -147,6 +147,7 @@ async function processModel(modelConfig) {
     newListings: [],
     priceChanges: [],
     unlistedListings: [],
+    notices: [],
   };
 
   // Load existing data
@@ -344,6 +345,32 @@ async function processModel(modelConfig) {
     }
   }
 
+  // ── Scraper failure detection ─────────────────────────────────────────
+  // If a scraper returned 0 results but we have many active listings from
+  // that source, it's likely a scraper failure — skip unlisting for those.
+  const activeBySource = {};
+  for (const listing of existingData.listings) {
+    if (listing.status !== 'active') continue;
+    for (const src of listing.sources || []) {
+      activeBySource[src.name] = (activeBySource[src.name] || 0) + 1;
+    }
+  }
+  const scrapedBySource = {};
+  for (const s of scrapedListings) {
+    scrapedBySource[s.sourceName] = (scrapedBySource[s.sourceName] || 0) + 1;
+  }
+  const failedSources = new Set();
+  const MIN_LISTINGS_FOR_CHECK = 10;
+  for (const [sourceName, activeCount] of Object.entries(activeBySource)) {
+    const scrapedCount = scrapedBySource[sourceName] || 0;
+    if (activeCount >= MIN_LISTINGS_FOR_CHECK && scrapedCount === 0) {
+      failedSources.add(sourceName);
+      const msg = `${sourceName} returned 0 results but had ${activeCount} active listings — scraper failure suspected, skipping unlisting for this source`;
+      console.warn(`  ⚠ ${msg}`);
+      result.notices.push(msg);
+    }
+  }
+
   // ── Detect unlisted listings ──────────────────────────────────────────
   for (const listing of existingData.listings) {
     if (listing.status !== 'active') continue;
@@ -352,6 +379,10 @@ async function processModel(modelConfig) {
     const allSourcesMissing = listing.sources.every(src => !foundSourceUrls.has(src.url));
 
     if (allSourcesMissing && listing.sources.length > 0) {
+      // If any of this listing's sources are in the failed set, skip unlisting
+      const hasFailedSource = listing.sources.some(src => failedSources.has(src.name));
+      if (hasFailedSource) continue;
+
       // Use the first source URL as the key
       const key = listing.sources[0].url;
 
@@ -553,7 +584,22 @@ function generateSummaryMarkdown(summary) {
   const lines = [];
   lines.push(`## Listings Refresh — ${summary.date}\n`);
 
-  if (!summary.hasChanges) {
+  // Collect all notices across models
+  const allNotices = [];
+  for (const m of summary.models) {
+    for (const notice of (m.notices || [])) {
+      allNotices.push(`**${m.make} ${m.model}:** ${notice}`);
+    }
+  }
+  if (allNotices.length > 0) {
+    lines.push('### ⚠️ Notices\n');
+    for (const n of allNotices) {
+      lines.push(`- ${n}`);
+    }
+    lines.push('');
+  }
+
+  if (!summary.hasChanges && allNotices.length === 0) {
     lines.push('No changes detected.\n');
     return lines.join('\n');
   }
