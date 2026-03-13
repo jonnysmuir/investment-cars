@@ -37,44 +37,50 @@ async function scrape(sourceConfig, modelConfig) {
   const urls = [sourceConfig.searchUrl, ...(sourceConfig.alternateUrls || [])];
   const allListingUrls = new Set();
 
-  // Step 1: Gather listing URLs from search pages (with pagination)
+  // Step 1: Gather listing URLs from search pages
+  // Note: PistonHeads is a Next.js app — pagination via ?page= returns identical results.
+  // Instead we rely on multiple alternate URLs to cover different model variants.
   for (const searchUrl of urls) {
-    for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
-      try {
-        const pageUrl = buildPageUrl(searchUrl, pageNum);
-        console.log(`  [PistonHeads] Fetching search: ${pageUrl}`);
-        const html = await fetchWithRetry(pageUrl);
-        const $ = cheerio.load(html);
+    try {
+      console.log(`  [PistonHeads] Fetching search: ${searchUrl}`);
+      const html = await fetchWithRetry(searchUrl);
+      const $ = cheerio.load(html);
 
-        // Extract listing links — they follow the pattern /buy/listing/XXXXXXXX
-        const beforeCount = allListingUrls.size;
-        $('a[href*="/buy/listing/"]').each((_, el) => {
-          const href = $(el).attr('href');
-          const match = href.match(/\/buy\/listing\/(\d+)/);
-          if (match) {
-            allListingUrls.add(`https://www.pistonheads.com/buy/listing/${match[1]}`);
-          }
-        });
+      const beforeCount = allListingUrls.size;
 
-        const newCount = allListingUrls.size - beforeCount;
-        if (pageNum > 1) {
-          console.log(`  [PistonHeads] Page ${pageNum}: ${newCount} new listings`);
+      // Method 1: Traditional HTML links
+      $('a[href*="/buy/listing/"]').each((_, el) => {
+        const href = $(el).attr('href');
+        const match = href.match(/\/buy\/listing\/(\d+)/);
+        if (match) {
+          allListingUrls.add(`https://www.pistonheads.com/buy/listing/${match[1]}`);
         }
+      });
 
-        // Stop if no new listings found on this page
-        if (newCount === 0) break;
-
-        // Check for a next page link
-        const hasNext = $('a[href*="page="]').filter((_, el) => {
-          const href = $(el).attr('href') || '';
-          return href.includes(`page=${pageNum + 1}`);
-        }).length > 0;
-
-        if (!hasNext) break;
-      } catch (err) {
-        console.warn(`  [PistonHeads] Failed to fetch search page ${searchUrl} (page ${pageNum}): ${err.message}`);
-        break;
+      // Method 2: Next.js Apollo state (PistonHeads is a React/Next.js app)
+      try {
+        const nextDataEl = $('#__NEXT_DATA__').html();
+        if (nextDataEl) {
+          const nextData = JSON.parse(nextDataEl);
+          const apollo = nextData?.props?.pageProps?.__APOLLO_STATE__ || {};
+          for (const key of Object.keys(apollo)) {
+            if (key.startsWith('Advert:') || key.startsWith('FeaturedAdvert:')) {
+              const advert = apollo[key];
+              const id = advert.id || key.split(':')[1];
+              if (id) {
+                allListingUrls.add(`https://www.pistonheads.com/buy/listing/${id}`);
+              }
+            }
+          }
+        }
+      } catch (parseErr) {
+        // Ignore JSON parse errors, fall back to HTML-only extraction
       }
+
+      const newCount = allListingUrls.size - beforeCount;
+      console.log(`  [PistonHeads] ${searchUrl.split('/').pop()}: ${newCount} new listings`);
+    } catch (err) {
+      console.warn(`  [PistonHeads] Failed to fetch search page ${searchUrl}: ${err.message}`);
     }
   }
 
@@ -123,10 +129,17 @@ async function scrapeListing(url, modelConfig) {
     // Also accept generation pattern names (e.g. "930", "964", "993" for Porsche 911)
     const genPatterns = (modelConfig.generations || []).flatMap(g => g.patterns || []).map(p => p.toLowerCase());
     const matchesModel = titleNorm.includes(modelNorm) || titleNorm.includes(modelShort);
-    const matchesGeneration = genPatterns.some(p => titleNorm.includes(p));
+    const matchesGeneration = genPatterns.some(p => {
+      // For numeric patterns like "911", "930", "964" etc, use word boundary matching
+      // to avoid false positives (e.g. "911" matching in phone numbers)
+      const re = new RegExp(`\\b${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+      return re.test(titleNorm);
+    });
     // For make check, ensure the title at least mentions the make
     const matchesMake = titleNorm.includes(modelConfig.make.toLowerCase());
-    if (!matchesModel && !(matchesGeneration && matchesMake)) {
+    // Accept if: title mentions the model, OR title mentions a generation pattern
+    // (generation match alone is sufficient since we're fetching from model-specific PH pages)
+    if (!matchesModel && !matchesGeneration) {
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;
     }
