@@ -914,7 +914,8 @@
       if (/\btarga\b/i.test(title)) return 'targa';
       if (/\bcabrio(?:let)?\b|\bconvertible\b|\bcab\b/i.test(title)) return 'convertible';
       if (/\bspeedster\b/i.test(title)) return 'speedster';
-      return 'coupe';
+      if (/\bcoupe\b|\bcoupé\b/i.test(title)) return 'coupe';
+      return null;
     }
 
     function detectGeneration(listing) {
@@ -1027,6 +1028,7 @@
     const filters = {
       year: [],
       generation: null,
+      body: null,
       transmission: null,
       source: null,
       priceMin: null,
@@ -1241,6 +1243,9 @@
       if (filters.generation) {
         results = results.filter(l => detectGeneration(l) === filters.generation);
       }
+      if (filters.body) {
+        results = results.filter(l => getBody(l.title) === filters.body);
+      }
       if (filters.transmission) {
         results = results.filter(l => getTransmissionGroup(l.transmission) === filters.transmission);
       }
@@ -1289,7 +1294,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.generation || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.year.length > 0 || filters.generation || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
