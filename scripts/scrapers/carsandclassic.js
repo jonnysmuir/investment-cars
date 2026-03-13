@@ -30,11 +30,19 @@ async function fetchPage(url) {
   const pageData = JSON.parse(scriptEl.html());
   const props = pageData.props || {};
 
+  // C&C has two formats:
+  // 1. Legacy /list/ pages: props.classifieds.listings.data + props.auctions.listings.data
+  // 2. New /search pages: props.searchResults.data (mixed classifieds + auctions)
+  const classifieds = props.classifieds?.listings?.data || props.classifieds?.data || [];
+  const auctions = props.auctions?.listings?.data || props.auctions?.data || [];
+  const searchResults = props.searchResults?.data || [];
+
   return {
-    classifieds: props.classifieds?.listings?.data || [],
-    auctions: props.auctions?.listings?.data || [],
-    lastPage: props.classifieds?.listings?.last_page || props.classifieds?.listings?.meta?.last_page || 1,
-    currentPage: props.classifieds?.listings?.current_page || props.classifieds?.listings?.meta?.current_page || 1,
+    classifieds,
+    auctions,
+    searchResults,
+    lastPage: props.classifieds?.listings?.last_page || props.searchResults?.last_page || props.searchResults?.meta?.last_page || 1,
+    currentPage: props.classifieds?.listings?.current_page || props.searchResults?.current_page || props.searchResults?.meta?.current_page || 1,
   };
 }
 
@@ -45,56 +53,68 @@ async function fetchPage(url) {
  * @returns {Array} Array of listing objects
  */
 async function scrape(sourceConfig, modelConfig) {
-  const baseUrl = `https://www.carandclassic.com/list/${sourceConfig.makeId}/${sourceConfig.model}/`;
+  // Try both the legacy /list/ URL and the new /search URL
+  const legacyUrl = `https://www.carandclassic.com/list/${sourceConfig.makeId}/${sourceConfig.model}/`;
+  const searchUrl = `https://www.carandclassic.com/search?make=${encodeURIComponent(modelConfig.make.toLowerCase())}&model=${encodeURIComponent(sourceConfig.model)}`;
   const listings = [];
   const allowedCountries = sourceConfig.countries || ['GB'];
   const seenIds = new Set();
 
-  for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
-    const pageUrl = pageNum > 1 ? `${baseUrl}?page=${pageNum}` : baseUrl;
-    console.log(`  [Cars & Classic] Fetching: ${pageUrl}`);
-
-    let pageResult;
-    try {
-      pageResult = await fetchPage(pageUrl);
-    } catch (err) {
-      console.warn(`  [Cars & Classic] Failed to fetch page ${pageNum}: ${err.message}`);
-      break;
-    }
-
-    if (!pageResult) {
-      console.warn('  [Cars & Classic] No Inertia.js data found');
-      break;
-    }
-
-    let newCount = 0;
-
-    // Process classified (buy-now) listings
-    for (const item of pageResult.classifieds) {
+  // Helper to process items from any source
+  function processItems(items, status) {
+    let count = 0;
+    for (const item of items) {
       if (item.id && seenIds.has(item.id)) continue;
       if (item.id) seenIds.add(item.id);
       const country = item.location?.countryCode;
       if (country && !allowedCountries.includes(country)) continue;
-      const listing = parseItem(item, 'active', modelConfig);
-      if (listing) { listings.push(listing); newCount++; }
+      // For search results, determine status from item type
+      const itemStatus = item.type === 'auction' ? 'auction' : status;
+      const listing = parseItem(item, itemStatus, modelConfig);
+      if (listing) { listings.push(listing); count++; }
+    }
+    return count;
+  }
+
+  // Try legacy URL first, fall back to search URL
+  const urlsToTry = [legacyUrl, searchUrl];
+
+  for (const baseUrl of urlsToTry) {
+    const isSearch = baseUrl.includes('/search?');
+    for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+      const pageUrl = pageNum > 1
+        ? (isSearch ? `${baseUrl}&page=${pageNum}` : `${baseUrl}?page=${pageNum}`)
+        : baseUrl;
+      console.log(`  [Cars & Classic] Fetching: ${pageUrl}`);
+
+      let pageResult;
+      try {
+        pageResult = await fetchPage(pageUrl);
+      } catch (err) {
+        console.warn(`  [Cars & Classic] Failed to fetch page ${pageNum}: ${err.message}`);
+        break;
+      }
+
+      if (!pageResult) {
+        console.warn('  [Cars & Classic] No Inertia.js data found');
+        break;
+      }
+
+      let newCount = 0;
+      newCount += processItems(pageResult.classifieds, 'active');
+      newCount += processItems(pageResult.auctions, 'auction');
+      newCount += processItems(pageResult.searchResults, 'active');
+
+      if (pageNum > 1) {
+        console.log(`  [Cars & Classic] Page ${pageNum}: ${newCount} new listings`);
+      }
+
+      // Stop if no new listings or reached the last page
+      if (newCount === 0 || pageNum >= pageResult.lastPage) break;
     }
 
-    // Process auction listings (typically only on first page)
-    for (const item of pageResult.auctions) {
-      if (item.id && seenIds.has(item.id)) continue;
-      if (item.id) seenIds.add(item.id);
-      const country = item.location?.countryCode;
-      if (country && !allowedCountries.includes(country)) continue;
-      const listing = parseItem(item, 'auction', modelConfig);
-      if (listing) { listings.push(listing); newCount++; }
-    }
-
-    if (pageNum > 1) {
-      console.log(`  [Cars & Classic] Page ${pageNum}: ${newCount} new listings`);
-    }
-
-    // Stop if no new listings or reached the last page
-    if (newCount === 0 || pageNum >= pageResult.lastPage) break;
+    // If we found listings from the first URL, skip the fallback
+    if (listings.length > 0) break;
   }
 
   console.log(`  [Cars & Classic] Successfully scraped ${listings.length} listings`);
