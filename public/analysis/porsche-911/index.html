@@ -774,7 +774,7 @@
             const v = p.variant || 'Other';
             variantCounts[v] = (variantCounts[v] || 0) + 1;
           });
-          const variantOrder = ["Coupe","Targa","Cabriolet","Convertible","Speedster","Berlinetta","Spider","Roadster","GT","GTS","GTO","GTR","Speciale","Pista","Scuderia","Scuderia 16M","Challenge","Competizione","Performante","SV","LT","Other"];
+          const variantOrder = ["Coupe","Targa","Convertible","Speedster","Berlinetta","Spider","Roadster","GT","GTS","GTO","GTR","Speciale","Pista","Scuderia","Scuderia 16M","Challenge","Competizione","Performante","SV","LT","Other"];
           const variants = variantOrder.filter(v => variantCounts[v]);
           // Include any variants not in the order list
           Object.keys(variantCounts).forEach(v => {
