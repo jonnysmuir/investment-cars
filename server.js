@@ -96,9 +96,11 @@ function normaliseVariant(text) {
   if (/\blt\b|longtail/i.test(t)) return 'LT';
 
   // Generic body types
+  if (/\btarga\b/i.test(t)) return 'Targa';
+  if (/\bspeedster\b/i.test(t)) return 'Speedster';
   if (/spider|spyder/i.test(t)) return 'Spider';
   if (/roadster/i.test(t)) return 'Roadster';
-  if (/cabrio|convertible|drop\s*head|aperta/i.test(t)) return 'Convertible';
+  if (/cabrio|cabriolet|convertible|drop\s*head|aperta/i.test(t)) return 'Convertible';
   if (/berlinetta/i.test(t)) return 'Berlinetta';
   if (/coup[eé]|coupe/i.test(t)) return 'Coupe';
 

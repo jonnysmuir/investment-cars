@@ -763,6 +763,10 @@
         <span class="filter-label">Generation</span>
       </div>
 
+      <div class="filter-row" data-filter="body">
+        <span class="filter-label">Body</span>
+      </div>
+
       <div class="filter-row" data-filter="transmission">
         <span class="filter-label">Gearbox</span>
       </div>
@@ -906,6 +910,13 @@
       return 'auto';
     }
 
+    function getBody(title) {
+      if (/\btarga\b/i.test(title)) return 'targa';
+      if (/\bcabrio(?:let)?\b|\bconvertible\b|\bcab\b/i.test(title)) return 'cabriolet';
+      if (/\bspeedster\b/i.test(title)) return 'speedster';
+      return 'coupe';
+    }
+
     function detectGeneration(listing) {
       const title = (listing.title || '');
       // Check title for specific generation codes (most specific first)
@@ -1034,6 +1045,7 @@
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
       generation:   { detect: l => detectGeneration(l), labels: {}, sortOrder: ['930','935','964','965','993','996','997','991.1','991.2','992'], mode: 'single' },
+      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', cabriolet: 'Cabriolet', targa: 'Targa', speedster: 'Speedster' }, sortOrder: ['coupe','cabriolet','targa','speedster'], mode: 'single', minDistinct: 2 },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { manual: 'Manual', pdk: 'PDK', tiptronic: 'Tiptronic', auto: 'Auto' }, sortOrder: ['manual','pdk','tiptronic','auto'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
