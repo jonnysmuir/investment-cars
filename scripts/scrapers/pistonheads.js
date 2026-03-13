@@ -120,7 +120,13 @@ async function scrapeListing(url, modelConfig) {
     const modelNorm = stripAccents(modelConfig.model);
     // Allow partial matches (e.g. "430" for "F430")
     const modelShort = modelConfig.model.replace(/^[A-Z]-?/i, '').toLowerCase();
-    if (!titleNorm.includes(modelNorm) && !titleNorm.includes(modelShort)) {
+    // Also accept generation pattern names (e.g. "930", "964", "993" for Porsche 911)
+    const genPatterns = (modelConfig.generations || []).flatMap(g => g.patterns || []).map(p => p.toLowerCase());
+    const matchesModel = titleNorm.includes(modelNorm) || titleNorm.includes(modelShort);
+    const matchesGeneration = genPatterns.some(p => titleNorm.includes(p));
+    // For make check, ensure the title at least mentions the make
+    const matchesMake = titleNorm.includes(modelConfig.make.toLowerCase());
+    if (!matchesModel && !(matchesGeneration && matchesMake)) {
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;
     }
