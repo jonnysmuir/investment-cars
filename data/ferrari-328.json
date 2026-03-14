@@ -579,7 +579,7 @@
     {
       "id": "30",
       "title": "1988 Used  FERRARI 328",
-      "price": "£74,995",
+      "price": "£72,995",
       "year": 1988,
       "mileage": "48,223 miles",
       "transmission": "6-Speed Manual",
@@ -591,6 +591,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18978404"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£74,995",
+          "date": "2026-03-14"
         }
       ]
     },
@@ -766,13 +772,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/23833780/1988-ferrari-328-68a90a4318afc.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9393900c7ddc895a3e001344858325ef",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1929885"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-14"
     },
     {
       "id": "41",
@@ -789,6 +796,24 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20032291"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "1987 Ferrari 328 GTS (LHD)",
+      "price": "POA",
+      "year": "1987",
+      "mileage": "20,000 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2029644/1987-ferrari-328-69b48c2ea02fa.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=165b3241947984c53ce9a23f88ca087a",
+      "featured": false,
+      "dateAdded": "2026-03-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2029644"
         }
       ]
     }

@@ -209,13 +209,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2001865/2023-ferrari-296-696f74b0922fa.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3599c34843a425c8cab2627f6956dee7",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2001865"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-14"
     },
     {
       "id": "12",
@@ -263,13 +264,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1986590/2023-ferrari-296-693966e2508c2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=f02967a8b0b47a85abc5389980aebf18",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1986590"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-14"
     },
     {
       "id": "15",
@@ -310,7 +312,7 @@
     {
       "id": "17",
       "title": "2025 Ferrari 296 GTB",
-      "price": "£244,995",
+      "price": "£239,995",
       "year": "2025",
       "mileage": "150 miles",
       "transmission": "Automatic",
@@ -322,6 +324,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1897348"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£244,995",
+          "date": "2026-03-14"
         }
       ]
     },
@@ -371,13 +379,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/ferrari-296-1389251279-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19688738"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-14"
     },
     {
       "id": "21",
@@ -389,11 +398,30 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gtb/gtb/ferrari-296-gtb-gtb-S4932059-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18674253"
+        }
+      ],
+      "unlistedDate": "2026-03-14"
+    },
+    {
+      "id": "22",
+      "title": "2023 Used  FERRARI 296 GTB S-A",
+      "price": "£204,995",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gtb/gtb/ferrari-296-gtb-gtb-S4933753-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19224051"
         }
       ]
     }

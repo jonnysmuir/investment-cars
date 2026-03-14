@@ -545,7 +545,7 @@
     },
     {
       "id": "28",
-      "title": "1988 Used  FERRARI TESTAROSSA",
+      "title": "1988 Ferrari Testarossa 4.9 2dr",
       "price": "£174,950",
       "year": 1988,
       "mileage": "7,000 miles",
@@ -558,6 +558,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19526035"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511288205992"
         }
       ]
     },
@@ -571,20 +575,21 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/testarossa/ferrari-testarossa-S4897162-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18858912"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-14"
     },
     {
       "id": "30",
-      "title": "1989 Used  FERRARI TESTAROSSA",
+      "title": "1989 Ferrari Testarossa 4.9 2dr",
       "price": "£174,995",
       "year": 1989,
-      "mileage": "N/A",
+      "mileage": "9,532 miles",
       "transmission": "Unknown",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/testarossa/ferrari-testarossa-1406422991-1.jpg",
       "featured": false,
@@ -594,15 +599,19 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19886601"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601229344915"
         }
       ]
     },
     {
       "id": "31",
-      "title": "1991 Used  FERRARI TESTAROSSA",
+      "title": "1991 Ferrari Testarossa 4.9 Coupe 2dr Petrol Manual (390 bhp)",
       "price": "£139,995",
       "year": 1991,
-      "mileage": "N/A",
+      "mileage": "23,843 miles",
       "transmission": "6-Speed Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/testarossa/ferrari-testarossa-S4922783-1.jpg",
       "featured": false,
@@ -612,6 +621,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19290731"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510117074788"
         }
       ]
     },
@@ -738,6 +751,42 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2026765"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "2015 Ferrari Testarossa 4.9 Coupe 2dr Petrol Manual (390 bhp) FULL FERRARI SERVICE HISTORY + LHD",
+      "price": "£99,995",
+      "year": 2015,
+      "mileage": "81,000 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://m.atcdn.co.uk/a/media/w640/da6a3d843a5e43c5acf5662a4c3a729a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601239374350"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "1985 Ferrari Testarossa 4.9 Coupe 2dr Petrol Manual (390 bhp)",
+      "price": "£224,500",
+      "year": 1985,
+      "mileage": "41,000 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b04bb09599e94be6a4be8692f2d4be0d.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202503049733529"
         }
       ]
     }
