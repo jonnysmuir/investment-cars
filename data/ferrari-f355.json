@@ -791,14 +791,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1891990/1997-ferrari-f355-683ec41f240c9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ccce52c42fdac344e461c7e40f448354",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1891990"
         }
-      ],
-      "unlistedDate": "2026-03-13"
+      ]
     },
     {
       "id": "42",
@@ -810,13 +809,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1923358/1998-ferrari-f355-6895c795da46f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=23b6cfb6f9a87b7a4bea1c3c1750ef0d",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1923358"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-15"
     },
     {
       "id": "43",
@@ -846,14 +846,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1966915/1998-ferrari-f355-6903d99733bdf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b375ce9e457eaefb8322175f7ad46152",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1966915"
         }
-      ],
-      "unlistedDate": "2026-03-14"
+      ]
     },
     {
       "id": "45",
@@ -902,13 +901,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1952130/1997-ferrari-f355-6947feb81f5fb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1f2a2846df524054326cfee63ac7ae6a",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1952130"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-15"
     },
     {
       "id": "48",
@@ -943,6 +943,24 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/14945697"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "1999 Ferrari 355 F1 Spider",
+      "price": "£84,995",
+      "year": "1999",
+      "mileage": "17,400 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
+      "featured": false,
+      "dateAdded": "2026-03-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1867563"
         }
       ]
     }

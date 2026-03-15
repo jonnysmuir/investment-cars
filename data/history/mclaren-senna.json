@@ -292,5 +292,42 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-03-15",
+    "listings": [
+      {
+        "id": "8",
+        "price": 999995,
+        "year": 2018,
+        "mileage": 572,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "9",
+        "price": 785995,
+        "year": 2019,
+        "mileage": 1603,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "10",
+        "price": 794900,
+        "year": 2018,
+        "mileage": 300,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "12",
+        "price": 794990,
+        "year": "2018",
+        "mileage": 300,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]
