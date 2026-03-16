@@ -284,7 +284,7 @@
     {
       "id": "15",
       "title": "2022 Used  FERRARI SF90 SPIDER S-A",
-      "price": "£357,830",
+      "price": "£354,830",
       "year": 2022,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -296,6 +296,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19851668"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£357,830",
+          "date": "2026-03-16"
         }
       ]
     },
@@ -734,13 +740,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/25699573/2022-ferrari-sf90-spider-6902d502b7015.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc50e25f91d8ce1b6907283be39f7210",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1966232"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "40",
@@ -811,6 +818,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2030246"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "2023 Used  FERRARI SF90 SPIDER ASSETTO FIORANO SA",
+      "price": "£395,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider-2dr-auto/ferrari-sf90-spider-2dr-auto-1413984651-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20054742"
         }
       ]
     }

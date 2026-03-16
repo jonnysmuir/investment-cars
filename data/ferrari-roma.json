@@ -815,13 +815,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28195349/2023-ferrari-roma-699cfbb85c4d0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2048604a54cee62535952825b89b62f4",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2019406"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "35",
@@ -833,13 +834,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28479560/2022-ferrari-roma-69aa2a524dfe2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d8ad145170577831cb7698b429d7a8e6",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025212"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "36",
@@ -869,13 +871,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/22492836/2021-ferrari-roma-6863cd12ebaca.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2f343946c8362a96956ba5deb514f762",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1905451"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "38",
@@ -1122,7 +1125,7 @@
     {
       "id": "47",
       "title": "2023 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£146,995",
+      "price": "£144,995",
       "year": 2023,
       "mileage": "5,383 miles",
       "transmission": "F1 Automated Manual",
@@ -1148,6 +1151,10 @@
         {
           "price": "£141,950",
           "date": "2026-03-14"
+        },
+        {
+          "price": "£146,995",
+          "date": "2026-03-16"
         }
       ]
     },
@@ -1500,7 +1507,7 @@
     {
       "id": "65",
       "title": "2023 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£146,995",
+      "price": "£143,000",
       "year": 2023,
       "mileage": "9,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1516,6 +1523,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19701719"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£146,995",
+          "date": "2026-03-16"
         }
       ]
     },
@@ -1630,7 +1643,7 @@
     {
       "id": "72",
       "title": "2023 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£143,000",
+      "price": "£141,950",
       "year": 2023,
       "mileage": "11,303 miles",
       "transmission": "F1 Automated Manual",
@@ -1646,6 +1659,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19705317"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£143,000",
+          "date": "2026-03-16"
         }
       ]
     },
@@ -1790,6 +1809,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601199248136"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19458606"
         }
       ],
       "priceHistory": [
@@ -1814,13 +1837,17 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180025570"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19707337"
         }
       ]
     },
     {
       "id": "82",
       "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£189,830",
+      "price": "£185,000",
       "year": 2024,
       "mileage": "527 miles",
       "transmission": "F1 Automated Manual",
@@ -1836,6 +1863,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20060367"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£189,830",
+          "date": "2026-03-16"
         }
       ]
     },

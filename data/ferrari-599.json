@@ -1193,13 +1193,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2028956/2006-ferrari-599-69b2e8213c8b8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=eac7646e5abf3641dd6681d7c90770ce",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2028956"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "62",
@@ -1216,6 +1217,24 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120637632"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "2007 Ferrari 599 Coupe 6.0 Petrol",
+      "price": "£139,950",
+      "year": 2007,
+      "mileage": "43,000 miles",
+      "transmission": "Unknown",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3533e3a937784b6a82306b1fcd7c40e6.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603150717439"
         }
       ]
     }

@@ -195,13 +195,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/ferrari-purosangue-1392730821-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19756442"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "11",
@@ -475,13 +476,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26940846/2023-ferrari-purosangue-695408c4b3442.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e9f8c8fc209b3a0a764c58ae712bc612",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1992972"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "26",
@@ -565,13 +567,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/27394148/2024-ferrari-purosangue-6973ac36e4b9e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=af822a4dc13b6d5d93a135ab86219f24",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003390"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "31",
@@ -601,14 +604,13 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/6-5-v12-f1-dct-4wd-euro-6-s-s-4dr/ferrari-purosangue-6-5-v12-f1-dct-4wd-euro-6-s-s-4dr-1404568191-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17561308"
         }
-      ],
-      "unlistedDate": "2026-03-14"
+      ]
     },
     {
       "id": "33",
@@ -697,6 +699,44 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19864645"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "2024 Ferrari Purosangue",
+      "price": "Sold",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://images.collectingcars.com/085460/03-03-26-JJBB-09.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "sold",
+      "soldPrice": "£308,000",
+      "soldDate": "2026-03-15",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2024-ferrari-purosangue-10"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "2024 Used  FERRARI PUROSANGUE S-A",
+      "price": "£329,000",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/ferrari-purosangue-1401574347-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19881892"
         }
       ]
     }

@@ -496,14 +496,14 @@
     {
       "id": "24",
       "title": "2019 Ferrari Portofino 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£132,500",
+      "price": "£129,000",
       "year": 2019,
       "mileage": "14,994 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/gt-2dr-auto/ferrari-portofino-gt-2dr-auto-1388989121-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -514,7 +514,12 @@
           "url": "https://www.autotrader.co.uk/car-details/202601139110580"
         }
       ],
-      "unlistedDate": "2026-03-14"
+      "priceHistory": [
+        {
+          "price": "£132,500",
+          "date": "2026-03-16"
+        }
+      ]
     },
     {
       "id": "25",
@@ -805,6 +810,24 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601249402250"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "2023 Used  FERRARI PORTOFINO M S-A",
+      "price": "£165,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/m-3-9-v8/ferrari-portofino-m-3-9-v8-1388989574-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19707344"
         }
       ]
     }

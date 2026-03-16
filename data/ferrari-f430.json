@@ -71,14 +71,14 @@
     {
       "id": "8",
       "title": "2007 Ferrari F430 4.3 Spider — Ultra Low Mileage",
-      "price": "£99,950",
+      "price": "£94,995",
       "year": 2007,
       "mileage": "3,906 miles",
       "transmission": "F1 DCT",
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2019411/2007-ferrari-f430-69a02fbb26a8a.jpg?fit=fillmax&h=800&ixlib=php-4.1.0&q=85&w=800&s=19107bb6c87aea8e332bce4ce260526f",
       "featured": true,
       "dateAdded": "2026-02-25",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -89,7 +89,12 @@
           "url": "https://www.pistonheads.com/buy/listing/17516718"
         }
       ],
-      "unlistedDate": "2026-03-06"
+      "priceHistory": [
+        {
+          "price": "£99,950",
+          "date": "2026-03-16"
+        }
+      ]
     },
     {
       "id": "10",
@@ -368,7 +373,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f430/spider-manual-rhd/ferrari-f430-spider-manual-rhd-1350311107-1.jpg",
       "featured": true,
       "dateAdded": "2026-03-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -378,7 +383,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1930120"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "26",
@@ -612,13 +618,14 @@
       ],
       "featured": false,
       "dateAdded": "2026-03-04",
-      "status": "active",
+      "status": "unlisted",
       "priceHistory": [
         {
           "price": "£130,000",
           "date": "2026-03-06"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-16"
     },
     {
       "id": "38",
@@ -2000,6 +2007,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029423"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "title": "2007 Used  FERRARI F430",
+      "price": "£109,990",
+      "year": 2007,
+      "mileage": "13,500 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f430/4-3-spider-2dr-petrol-f1-dct-420-g-km-490-bhp/ferrari-f430-4-3-spider-2dr-petrol-f1-dct-420-g-km-490-bhp-1414201959-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20070567"
         }
       ]
     }
