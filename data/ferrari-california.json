@@ -1124,13 +1124,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1982854/2014-ferrari-california-69301d804e460.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd7d5aaaad61bfb8bd20cfbb256f577a",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1982854"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "55",
@@ -1652,6 +1653,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601169182003"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19717464"
         }
       ]
     },
@@ -2120,6 +2125,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510237364251"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20077610"
         }
       ]
     },
@@ -2174,6 +2183,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1832945"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "title": "2009 Ferrari California - 11,762 Miles",
+      "price": "Sold",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://images.collectingcars.com/085309/19-02-26-JJBB-06.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "sold",
+      "soldPrice": "£62,750",
+      "soldDate": "2026-03-16",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2009-ferrari-california-16"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2013 Ferrari F1 California 30 2+2 UK RHD Only 30800 Mls HPI Clear",
+      "price": "£69,950",
+      "year": "2013",
+      "mileage": "30,800 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1624446/2013-ferrari-california-2-plus-2-s-a-64e0cce2abec3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=66890e8c9c08bc84c9ecf7ec1c84e73e",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1624446"
         }
       ]
     }

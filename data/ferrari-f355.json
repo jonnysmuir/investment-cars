@@ -657,13 +657,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4889521-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17368620"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "35",
@@ -736,14 +737,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
-      ],
-      "unlistedDate": "2026-03-14"
+      ]
     },
     {
       "id": "39",
@@ -961,6 +961,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "1998 355 Spider F1 Low Mileage",
+      "price": "£79,995",
+      "year": "1998",
+      "mileage": "22,900 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1875674/1998-ferrari-f355-6815c5f558251.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4240217ea8f5b14425e3fa0cf841c4c8",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1875674"
         }
       ]
     }

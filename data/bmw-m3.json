@@ -3109,7 +3109,7 @@
       "price": "£76,332",
       "year": 2025,
       "mileage": "2,950 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/f9e60ab418214f6f988198b7efcfc8a0.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -3118,6 +3118,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602179989315"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20079450"
         }
       ]
     },
@@ -3569,7 +3573,7 @@
       "price": "£72,995",
       "year": 2023,
       "mileage": "10,900 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/9fd67113d42f420ab9587839f430736b.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -3578,6 +3582,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601299512191"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20079711"
         }
       ]
     },
@@ -5080,13 +5088,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2028099/2008-bmw-m3-69b0ae6484071.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=25ef74e167e77e880b88446deffaf315",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2028099"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "266",
@@ -5098,14 +5107,13 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto-petrol-hatchback/bmw-1-series-m135i-xdrive-5dr-step-auto-petrol-hatchback-1411729673-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20031793"
         }
-      ],
-      "unlistedDate": "2026-03-16"
+      ]
     },
     {
       "id": "267",
@@ -5155,13 +5163,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/2-series/m235i-xdrive-4dr-step-auto-pro-pack/bmw-2-series-m235i-xdrive-4dr-step-auto-pro-pack-1401475887-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19866212"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "270",
@@ -6298,13 +6307,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto/bmw-1-series-m135i-xdrive-5dr-step-auto-1401667568-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19837175"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "333",
@@ -6316,13 +6326,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-hatchback-5dr-petrol-auto-xdrive-euro-6-s-s--306-ps/bmw-1-series-2-0-m135i-hatchback-5dr-petrol-auto-xdrive-euro-6-s-s--306-ps-1413692194-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20061711"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "334",
@@ -6334,13 +6345,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/g80-m3-post-21/m3-competition-m-xdrive/bmw-g80-m3-post-21-m3-competition-m-xdrive-S4941555-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20062588"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "335",
@@ -6352,13 +6364,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1413695790-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20061771"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "336",
@@ -6370,13 +6383,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto-petrol-hatchback/bmw-1-series-m135i-xdrive-5dr-step-auto-petrol-hatchback-1413725407-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20062169"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "337",
@@ -6388,13 +6402,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto-petrol-hatchback/bmw-1-series-m135i-xdrive-5dr-step-auto-petrol-hatchback-1413658676-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20061137"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "338",
@@ -6406,13 +6421,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto-petrol-hatchback/bmw-1-series-m135i-xdrive-5dr-step-auto-petrol-hatchback-1413658863-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20061345"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-17"
     },
     {
       "id": "339",
@@ -6789,6 +6805,114 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015045"
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "title": "2020 Used  BMW M135I XDRIVE AUTO",
+      "price": "£22,475",
+      "year": 2020,
+      "mileage": "32,899 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-auto-xdrive-euro-6-s-s-5dr/bmw-1-series-2-0-m135i-auto-xdrive-euro-6-s-s-5dr-1382122092-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19518805"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "title": "2021 Used  BMW X3 XDRIVE30E M SPORT AUTO",
+      "price": "£24,300",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1414962373-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20082252"
+        }
+      ]
+    },
+    {
+      "id": "362",
+      "title": "2022 Used  BMW X3 XDRIVE30E M SPORT AUTO",
+      "price": "£31,000",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1414962512-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20082357"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "title": "2021 Used  BMW M135I XDRIVE AUTO",
+      "price": "£22,450",
+      "year": 2021,
+      "mileage": "62 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-auto-xdrive-euro-6-s-s-5dr/bmw-1-series-2-0-m135i-auto-xdrive-euro-6-s-s-5dr-1414969006-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20082626"
+        }
+      ]
+    },
+    {
+      "id": "364",
+      "title": "2019 Used  BMW X3 M COMPETITION AUTO",
+      "price": "£44,099",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/x3-m/xdrive-competition-5dr-step-auto/bmw-x3-m-xdrive-competition-5dr-step-auto-1414832207-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20079392"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "title": "2011 Used  BMW M3",
+      "price": "£21,499",
+      "year": 2011,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m3/m3-2dr/bmw-m3-m3-2dr-1414832274-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20079399"
         }
       ]
     }
