@@ -997,7 +997,7 @@
     {
       "id": "48",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6",
-      "price": "£72,948",
+      "price": "£73,948",
       "year": "2015",
       "mileage": "33,000 miles",
       "transmission": "Automatic",
@@ -1015,6 +1015,10 @@
         {
           "price": "£74,948",
           "date": "2026-03-10"
+        },
+        {
+          "price": "£72,948",
+          "date": "2026-03-18"
         }
       ]
     },
@@ -1641,7 +1645,7 @@
     {
       "id": "79",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
-      "price": "£76,480",
+      "price": "£79,991",
       "year": 2015,
       "mileage": "33,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1657,6 +1661,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19717464"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£76,480",
+          "date": "2026-03-18"
         }
       ]
     },
@@ -1999,6 +2009,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601199248016"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20087590"
         }
       ]
     },
@@ -2113,7 +2127,7 @@
     {
       "id": "105",
       "title": "2013 Ferrari California 4.3 V8 30 F1 DCT Euro 5 2dr",
-      "price": "£69,990",
+      "price": "£69,950",
       "year": 2013,
       "mileage": "35,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2129,6 +2143,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20077610"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£69,990",
+          "date": "2026-03-18"
         }
       ]
     },
@@ -2221,6 +2241,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1624446"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2016 Ferrari California T",
+      "price": "£89,950",
+      "year": "2016",
+      "mileage": "8,600 miles",
+      "transmission": "Unknown",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2032407/2016-ferrari-california-69ba1e2fcff49.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=be271d85447ae14cfee06853278a7070",
+      "featured": false,
+      "dateAdded": "2026-03-18",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2032407"
         }
       ]
     }
