@@ -1377,7 +1377,7 @@
     {
       "id": "66",
       "title": "2017 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£77,995",
+      "price": "£74,995",
       "year": 2017,
       "mileage": "28,278 miles",
       "transmission": "F1 Automated Manual",
@@ -1399,6 +1399,10 @@
         {
           "price": "£79,995",
           "date": "2026-03-16"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-03-19"
         }
       ]
     },
@@ -1997,7 +2001,7 @@
     {
       "id": "98",
       "title": "2016 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£87,898",
+      "price": "£89,950",
       "year": 2016,
       "mileage": "13,933 miles",
       "transmission": "F1 Automated Manual",
@@ -2013,6 +2017,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20087590"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£87,898",
+          "date": "2026-03-19"
         }
       ]
     },
@@ -2259,6 +2269,42 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032407"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2012 Used  FERRARI CALIFORNIA",
+      "price": "£69,950",
+      "year": 2012,
+      "mileage": "14,916 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4942509-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20092778"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2012 Ferrari California",
+      "price": "£69,950",
+      "year": "2012",
+      "mileage": "14,916 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2032721/2012-ferrari-california-69bac91808f40.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c9658c8df2ea08e73e64fb841bf71bfb",
+      "featured": false,
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2032721"
         }
       ]
     }

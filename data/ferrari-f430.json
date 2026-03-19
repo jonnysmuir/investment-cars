@@ -205,7 +205,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a11e081d1bbb4311ab9eba58a05a7507.jpg",
       "featured": false,
       "dateAdded": "2026-03-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -215,7 +215,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18379702"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-19"
     },
     {
       "id": "16",
@@ -324,7 +325,7 @@
     {
       "id": "22",
       "title": "2009 Ferrari F430 F1 Coupe — 13x Ferrari Services",
-      "price": "£98,985",
+      "price": "£97,985",
       "year": 2009,
       "mileage": "15,000 miles",
       "transmission": "F1 Automated Manual",
@@ -342,6 +343,10 @@
         {
           "price": "£99,485",
           "date": "2026-03-12"
+        },
+        {
+          "price": "£98,985",
+          "date": "2026-03-19"
         }
       ]
     },
@@ -2063,6 +2068,24 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20083990"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "2009 Ferrari F430  Scuderia Coupe",
+      "price": "£295,950",
+      "year": "2009",
+      "mileage": "26,684 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2032652/2009-ferrari-f430-69ba9596bba70.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=a4d88dd8d8b15cf334f4bf757a06a644",
+      "featured": false,
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2032652"
         }
       ]
     }

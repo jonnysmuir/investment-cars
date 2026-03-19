@@ -780,13 +780,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/24472580/1998-ferrari-f355-68c96e6b7b072.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=94eb20cbed8c9f1ff3fb24e8997fa49d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1942812"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-19"
     },
     {
       "id": "41",
@@ -835,13 +836,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/23824812/1997-ferrari-f355-68a87e04b8b08.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6901e8e8d9006ed384d62e58551765ce",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1929693"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-19"
     },
     {
       "id": "44",
@@ -908,14 +910,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1952130/1997-ferrari-f355-6947feb81f5fb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1f2a2846df524054326cfee63ac7ae6a",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1952130"
         }
-      ],
-      "unlistedDate": "2026-03-15"
+      ]
     },
     {
       "id": "48",
@@ -987,6 +988,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1875674"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "1998 Beautiful 355 F1 with a fantastic service history, condition",
+      "price": "£79,995",
+      "year": "1998",
+      "mileage": "44,000 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1588488/1998-ferrari-f355-v8-6470ab1cb867c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc82b241aaaf14b78a186a09795f9cc9",
+      "featured": false,
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1588488"
         }
       ]
     }
