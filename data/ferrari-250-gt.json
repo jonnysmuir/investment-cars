@@ -95,13 +95,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1501134/1963-ferrari-250-63245f879a650.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a148e0257c80ad45240ab4ffa1fdd57c",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1501134"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "6",
@@ -113,14 +114,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1979389/1963-ferrari-250-6926e7e373eb9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=55a5e046646720273a33883b17be2d46",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1979389"
         }
-      ],
-      "unlistedDate": "2026-03-16"
+      ]
     },
     {
       "id": "7",
@@ -178,7 +178,7 @@
     },
     {
       "id": "10",
-      "title": "1963 Ferrari 250 GTE 2+2",
+      "title": "1963 Ferrari 250 GTE 2+2 (LHD)",
       "price": "POA",
       "year": "1963",
       "mileage": "41,750 miles",

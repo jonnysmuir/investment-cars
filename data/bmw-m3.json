@@ -1360,13 +1360,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28502838/2008-bmw-m3-69aae16375bbb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ea4725756d7a35ffa8d33732777246a7",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025613"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "71",
@@ -1884,7 +1885,7 @@
       "price": "£54,990",
       "year": 2022,
       "mileage": "19,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/82b426ff10204cdca22b4cd503fa25cd.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -1893,6 +1894,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069717218"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20101188"
         }
       ],
       "priceHistory": [
@@ -5205,13 +5210,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i-xdrive-5dr-step-auto-petrol-hatchback/bmw-1-series-m135i-xdrive-5dr-step-auto-petrol-hatchback-1411729673-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20031793"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "267",
@@ -6985,13 +6991,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-auto-xdrive-euro-6-s-s-5dr/bmw-1-series-2-0-m135i-auto-xdrive-euro-6-s-s-5dr-1382122092-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19518805"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "361",
@@ -7003,13 +7010,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1414962373-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20082252"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "362",
@@ -7021,13 +7029,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1414962512-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20082357"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "363",
@@ -7039,13 +7048,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-auto-xdrive-euro-6-s-s-5dr/bmw-1-series-2-0-m135i-auto-xdrive-euro-6-s-s-5dr-1414969006-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20082626"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "364",
@@ -7057,13 +7067,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/x3-m/xdrive-competition-5dr-step-auto/bmw-x3-m-xdrive-competition-5dr-step-auto-1414832207-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20079392"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "365",
@@ -8139,7 +8150,7 @@
     },
     {
       "id": "424",
-      "title": "2019 BMW M3 CS F80",
+      "title": "2019 BMW M3 3.0 BiTurbo CS Saloon 4dr Petrol DCT Euro 6 (s/s",
       "price": "£56,995",
       "year": "2019",
       "mileage": "18,500 miles",
@@ -8152,6 +8163,114 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032447"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "2023 Used  BMW M135I XDRIVE AUTO",
+      "price": "£28,989",
+      "year": 2023,
+      "mileage": "12500 miles",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/2-0-m135i-auto-xdrive-euro-6-s-s-5dr/bmw-1-series-2-0-m135i-auto-xdrive-euro-6-s-s-5dr-1406928366-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19953118"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "2022 Used  BMW M235I XDRIVE AUTO",
+      "price": "£26,499",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/2-series/m235i-xdrive-4dr-step-auto/bmw-2-series-m235i-xdrive-4dr-step-auto-1416124668-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20103713"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "2023 Used  BMW IX XDRIVE50 M SPORT EDITION",
+      "price": "£37,495",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/ix/50-111-5kwh-m-sport-edition-suv-5dr-electric-auto-xdrive-523-ps/bmw-ix-50-111-5kwh-m-sport-edition-suv-5dr-electric-auto-xdrive-523-ps-1415924492-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20101103"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "2003 Used  BMW M3",
+      "price": "£34,495",
+      "year": 2003,
+      "mileage": "600 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/e46-m3-00-06/m3-smg/bmw-e46-m3-00-06-m3-smg-S4942765-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20101056"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "1999 Used  BMW Z3",
+      "price": "£26,999",
+      "year": 1999,
+      "mileage": "120,600 miles",
+      "transmission": "Unknown",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/z3m-coupe/m-coupe/bmw-z3m-coupe-m-coupe-S4942819-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20101058"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "2003 BMW M3 GTR E46",
+      "price": "£24,990",
+      "year": "2003",
+      "mileage": "69,000 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/new/28889547/2003-bmw-m3-69bca4bebbc27.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a261d334ac45c407a0f4da9d4aab8abb",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2033506"
         }
       ]
     }

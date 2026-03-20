@@ -919,7 +919,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/base/ferrari-360-base-1365758542-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -929,7 +929,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601189236472"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "47",
@@ -1592,6 +1593,60 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2032414"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2000 Ferrari 360 Modena",
+      "price": "£66,950",
+      "year": "2000",
+      "mileage": "38,000 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/new/28888854/2000-ferrari-360-69bca3aed4e19.jpeg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3aebdc0882e6011c9e7ad010635071f2",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2033494"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "1999 Ferrari 360 Modena",
+      "price": "£64,950",
+      "year": "1999",
+      "mileage": "39,327 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/new/28900863/1999-ferrari-360-modena-69bcb8b5bd208.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ffa01385ec16d879deef1b844ef428ae",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2033784"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "2000 Ferrari 360 Modena",
+      "price": "£67,950",
+      "year": "2000",
+      "mileage": "30,912 miles",
+      "transmission": "Automatic",
+      "image": "https://assets.carandclassic.com/uploads/new/28900789/2000-ferrari-360-69bcb8a9115da.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4c2b8c3fb16c84cb84598b9bcaa0e7df",
+      "featured": false,
+      "dateAdded": "2026-03-20",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2033783"
         }
       ]
     }

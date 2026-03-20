@@ -305,13 +305,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/base/ferrari-purosangue-base-S4935343-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19845143"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "17",
@@ -514,13 +515,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2011001/2024-ferrari-purosangue-698b6e5b2fc3d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=369e0c76ae1b9039fefe811e38453230",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2011001"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     },
     {
       "id": "28",
@@ -780,7 +782,7 @@
     {
       "id": "42",
       "title": "2023 Used  FERRARI PUROSANGUE S-A",
-      "price": "£399,990",
+      "price": "£344,990",
       "year": 2023,
       "mileage": "9,283 miles",
       "transmission": "F1 Automated Manual",
@@ -792,6 +794,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20083949"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£399,990",
+          "date": "2026-03-20"
         }
       ]
     }

@@ -599,7 +599,7 @@
     {
       "id": "29",
       "title": "2022 Used  FERRARI PORTOFINO M S-A",
-      "price": "£144,980",
+      "price": "£143,980",
       "year": 2022,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -611,6 +611,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20024212"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£144,980",
+          "date": "2026-03-20"
         }
       ]
     },
@@ -822,13 +828,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/m-3-9-v8/ferrari-portofino-m-3-9-v8-1388989574-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19707344"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-20"
     }
   ]
 }
