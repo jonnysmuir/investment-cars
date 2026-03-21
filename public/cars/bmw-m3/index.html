@@ -907,9 +907,19 @@
     }
 
     function getBody(title) {
-      if (/convertible|cabriolet|cabrio/i.test(title)) return 'convertible';
-      if (/saloon|sedan/i.test(title)) return 'saloon';
-      return 'coupe';
+      if (/\bconvertible\b|\bcabrio(?:let)?\b|\bcab\b/i.test(title)) return 'convertible';
+      if (/\bestate\b|\btouring\b|\bwagon\b/i.test(title)) return 'estate';
+      if (/\bsaloon\b|\bsedan\b/i.test(title)) return 'saloon';
+      if (/\bcoupe\b|\bcoupé\b/i.test(title)) return 'coupe';
+      // Infer from door count: 2dr = coupe, 4dr = saloon
+      if (/\b2\s*dr\b/i.test(title)) return 'coupe';
+      if (/\b4\s*dr\b|\b5\s*dr\b/i.test(title)) return 'saloon';
+      // Infer from BMW generation/body codes
+      if (/\bE30\b|\bE36\b|\bE46\b|\bE92\b/i.test(title)) return 'coupe';
+      if (/\bE93\b/i.test(title)) return 'convertible';
+      if (/\bE90\b|\bF80\b|\bG80\b/i.test(title)) return 'saloon';
+      if (/\bE91\b|\bF81\b|\bG81\b/i.test(title)) return 'estate';
+      return null;
     }
 
     function getVariant(title) {
@@ -947,6 +957,17 @@
 
     // --- Render functions ---
 
+    function trackUrl(sourceUrl, sourceName, listing) {
+      const params = new URLSearchParams({
+        url: sourceUrl,
+        platform: sourceName,
+        year: listing.year || '',
+        price: listing.price || '',
+        page: window.location.pathname,
+      });
+      return '/go?' + params.toString();
+    }
+
     function renderSourceLinks(l, linkClass) {
       const sources = l.sources || [{ name: l.source, url: l.url }];
       const cls = linkClass ? ` ${linkClass}` : '';
@@ -954,14 +975,14 @@
         return `
           <div class="card-footer">
             <span class="card-source">via ${sources[0].name}</span>
-            <a href="${sources[0].url}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
+            <a href="${trackUrl(sources[0].url, sources[0].name, l)}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
           </div>`;
       }
       return `
         <div class="card-sources">
           <span class="card-sources-label">View on</span>
           ${sources.map(s =>
-            `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
+            `<a href="${trackUrl(s.url, s.name, l)}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
           ).join('')}
         </div>`;
     }
@@ -1039,7 +1060,7 @@
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
       generation:   { detect: l => generationFromYear(l.year), labels: {}, sortOrder: ['E30','E36','E46','E90/E92','F80','G80'], mode: 'single' },
-      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', saloon: 'Saloon', convertible: 'Convertible' }, sortOrder: ['coupe','saloon','convertible'], mode: 'single', minDistinct: 2 },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', saloon: 'Saloon', convertible: 'Convertible', estate: 'Estate' }, sortOrder: ['coupe','saloon','convertible','estate'], mode: 'single', minDistinct: 2 },
       variant:      { detect: l => getVariant(l.title), labels: { standard: 'Standard', competition: 'Competition', cs: 'CS' }, sortOrder: ['standard','competition','cs'], mode: 'single', minDistinct: 2 },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { manual: 'Manual', dct: 'DCT', auto: 'Auto' }, sortOrder: ['manual','dct','auto'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
@@ -1207,7 +1228,7 @@
         results = results.filter(l => generationFromYear(l.year) === filters.generation);
       }
       if (filters.body) {
-        results = results.filter(l => getBody(l.title) === filters.body);
+        results = results.filter(l => ((l.bodyType || '').toLowerCase() || getBody(l.title)) === filters.body);
       }
       if (filters.variant) {
         results = results.filter(l => getVariant(l.title) === filters.variant);

@@ -901,7 +901,7 @@
 
     function getBody(title) {
       if (/spider|convertible|open/i.test(title)) return 'convertible';
-      return 'coupe';
+      return null;
     }
 
     function getVariant(title) {
@@ -926,6 +926,17 @@
 
     // --- Render functions ---
 
+    function trackUrl(sourceUrl, sourceName, listing) {
+      const params = new URLSearchParams({
+        url: sourceUrl,
+        platform: sourceName,
+        year: listing.year || '',
+        price: listing.price || '',
+        page: window.location.pathname,
+      });
+      return '/go?' + params.toString();
+    }
+
     function renderSourceLinks(l, linkClass) {
       const sources = l.sources || [{ name: l.source, url: l.url }];
       const cls = linkClass ? ` ${linkClass}` : '';
@@ -933,14 +944,14 @@
         return `
           <div class="card-footer">
             <span class="card-source">via ${sources[0].name}</span>
-            <a href="${sources[0].url}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
+            <a href="${trackUrl(sources[0].url, sources[0].name, l)}" target="_blank" rel="noopener noreferrer" class="card-link${cls}">View Listing</a>
           </div>`;
       }
       return `
         <div class="card-sources">
           <span class="card-sources-label">View on</span>
           ${sources.map(s =>
-            `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
+            `<a href="${trackUrl(s.url, s.name, l)}" target="_blank" rel="noopener noreferrer" class="card-source-link${cls}">${s.name}</a>`
           ).join('')}
         </div>`;
     }
@@ -1015,7 +1026,7 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single', minDistinct: 2 },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single', minDistinct: 2 },
       variant:      { detect: l => getVariant(l.title), labels: { gtb: 'GTB', pista: 'Pista', spider: 'Spider' }, sortOrder: ['gtb','pista','spider'], mode: 'single' },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { dct: 'DCT' }, sortOrder: ['dct'], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
@@ -1101,7 +1112,7 @@
         results = results.filter(l => filters.year.includes(l.year));
       }
       if (filters.body) {
-        results = results.filter(l => getBody(l.title) === filters.body);
+        results = results.filter(l => ((l.bodyType || '').toLowerCase() || getBody(l.title)) === filters.body);
       }
       if (filters.variant) {
         results = results.filter(l => getVariant(l.title) === filters.variant);

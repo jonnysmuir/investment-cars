@@ -1,11 +1,22 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const cookieParser = require('cookie-parser');
+
+const trackingRoutes = require('./routes/tracking');
+const adminRoutes = require('./routes/admin');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(cookieParser());
+
+// Click-tracking redirect and admin dashboard
+app.use(trackingRoutes);
+app.use('/admin', adminRoutes);
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/contact', (req, res) => {
