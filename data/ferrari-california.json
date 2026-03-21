@@ -1167,13 +1167,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1895435/2010-ferrari-california-684723535dbc4.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=39b431933912f4b746404d6831bf4acc",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1895435"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-21"
     },
     {
       "id": "57",
@@ -1322,13 +1323,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1905805/2010-ferrari-california-69160b2bb3385.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5cbe6edde293414ca830328cb409404c",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1905805"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-21"
     },
     {
       "id": "64",
@@ -1355,7 +1357,7 @@
     {
       "id": "65",
       "title": "2017 Ferrari California T",
-      "price": "£74,995",
+      "price": "£84,995",
       "year": "2017",
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -1377,6 +1379,10 @@
         {
           "price": "£77,995",
           "date": "2026-03-20"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1687,7 +1693,7 @@
     {
       "id": "80",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
-      "price": "£69,999",
+      "price": "£69,995",
       "year": 2015,
       "mileage": "27,880 miles",
       "transmission": "F1 Automated Manual",
@@ -1703,6 +1709,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19624008"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£69,999",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1781,7 +1793,7 @@
     {
       "id": "85",
       "title": "2009 Ferrari California 4.3 F1 DCT Euro 5 2dr",
-      "price": "£65,795",
+      "price": "£65,000",
       "year": 2009,
       "mileage": "19,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1797,6 +1809,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20103740"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£65,795",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1941,6 +1959,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602210111314"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20113836"
         }
       ]
     },
@@ -2378,6 +2400,24 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033786"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "title": "2012 Used  FERRARI CALIFORNIA",
+      "price": "£79,995",
+      "year": 2012,
+      "mileage": "4500 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4943052-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20110292"
         }
       ]
     }

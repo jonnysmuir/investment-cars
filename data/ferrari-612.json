@@ -728,7 +728,7 @@
     {
       "id": "37",
       "title": "2005 Ferrari 612 5.7 Scaglietti FI 2dr",
-      "price": "£59,995",
+      "price": "£62,500",
       "year": 2005,
       "mileage": "22,155 miles",
       "transmission": "F1 Automated Manual",
@@ -744,6 +744,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069725905"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£59,995",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1079,19 +1085,18 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2023499/2007-ferrari-612-69a70e2b227c6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=629c24804d798227faadc50957be2ad8",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023499"
         }
-      ],
-      "unlistedDate": "2026-03-19"
+      ]
     },
     {
       "id": "56",
       "title": "2005 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
-      "price": "£41,000",
+      "price": "£39,900",
       "year": 2005,
       "mileage": "56,000 miles",
       "transmission": "Automatic",
@@ -1103,6 +1108,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602109831024"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£41,000",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1199,7 +1210,7 @@
     {
       "id": "62",
       "title": "2004 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
-      "price": "£49,995",
+      "price": "£64,995",
       "year": 2004,
       "mileage": "54,497 miles",
       "transmission": "Automatic",
@@ -1211,6 +1222,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202408193065525"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£49,995",
+          "date": "2026-03-21"
         }
       ]
     },
@@ -1247,6 +1264,24 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309031498291"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2005 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
+      "price": "£72,000",
+      "year": 2005,
+      "mileage": "31,000 miles",
+      "transmission": "Automatic",
+      "image": "",
+      "featured": false,
+      "dateAdded": "2026-03-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202306279020557"
         }
       ]
     }
