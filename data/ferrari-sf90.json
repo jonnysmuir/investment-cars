@@ -526,13 +526,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1911745/2023-ferrari-sf90-stradale-spider-6874ed340ee6d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e13a603f9375c765a3b780a5048b0d85",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1911745"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-22"
     },
     {
       "id": "28",
@@ -797,13 +798,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider/ferrari-sf90-spider-S4924332-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18827107"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-22"
     },
     {
       "id": "43",
@@ -940,6 +942,24 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200880669"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2021 Used  FERRARI SF90 STRADALE S-A",
+      "price": "£274,995",
+      "year": 2021,
+      "mileage": "5,000 miles",
+      "transmission": "Automatic",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/stradale/ferrari-sf90-stradale-S4942432-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19915001"
         }
       ]
     }

@@ -947,7 +947,7 @@
     {
       "id": "46",
       "title": "2015 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (560 ps)",
-      "price": "£75,980",
+      "price": "£75,480",
       "year": 2015,
       "mileage": "18,150 miles",
       "transmission": "Automatic",
@@ -973,6 +973,10 @@
         {
           "price": "£76,480",
           "date": "2026-03-16"
+        },
+        {
+          "price": "£75,980",
+          "date": "2026-03-22"
         }
       ]
     },
@@ -1149,13 +1153,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1989229/2015-ferrari-california-6942917f175b9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ace8d04473c4a0db6498103366f119b",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1989229"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-22"
     },
     {
       "id": "56",
@@ -1221,14 +1226,14 @@
     {
       "id": "59",
       "title": "2014 Ferrari California 4.3 V8 30 F1 DCT Euro 5 2dr",
-      "price": "£64,489",
+      "price": "£69,989",
       "year": 2014,
       "mileage": "36,000 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/4-3-v8-30-f1-dct-euro-5-2dr/ferrari-california-4-3-v8-30-f1-dct-euro-5-2dr-1363141812-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1239,7 +1244,12 @@
           "url": "https://www.autotrader.co.uk/car-details/202510117074870"
         }
       ],
-      "unlistedDate": "2026-03-13"
+      "priceHistory": [
+        {
+          "price": "£64,489",
+          "date": "2026-03-22"
+        }
+      ]
     },
     {
       "id": "60",
@@ -1454,13 +1464,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1763304/2009-ferrari-california-66b2764f8b428.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=aa72ccace46cddeb8cb8281d4a6c92da",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1763304"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-22"
     },
     {
       "id": "69",
@@ -1851,6 +1862,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512028293601"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19742276"
         }
       ]
     },
@@ -2287,13 +2302,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1624446/2013-ferrari-california-2-plus-2-s-a-64e0cce2abec3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=66890e8c9c08bc84c9ecf7ec1c84e73e",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1624446"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-22"
     },
     {
       "id": "111",
