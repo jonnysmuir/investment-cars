@@ -645,8 +645,8 @@ function generatePage(model) {
 
   // F. getBody(), getVariant(), getTransmissionGroup() functions
   html = html.replace(
-    /function getBody\(title\) \{[^}]+\}/,
-    `function getBody(title) {\n      ${model.getBody}\n    }`
+    /function getBody\(title\) \{[\s\S]*?\n    \}\n/,
+    `function getBody(title) {\n      ${model.getBody}\n    }\n`
   );
 
   html = html.replace(
@@ -672,7 +672,7 @@ function generatePage(model) {
 
   const newFilterConfig = `const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: ${bodyLabelsStr}, sortOrder: ${bodyOrderStr}, mode: 'single'${bodyMinDistinct} },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: ${bodyLabelsStr}, sortOrder: ${bodyOrderStr}, mode: 'single'${bodyMinDistinct} },
       variant:      { detect: l => getVariant(l.title), labels: ${variantLabelsStr}, sortOrder: ${variantOrderStr}, mode: 'single', minDistinct: 2 },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: ${transLabelsStr}, sortOrder: ${transOrderStr}, mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
@@ -710,8 +710,8 @@ for (const model of MODELS) {
   const pagePath = path.join(pageDir, 'index.html');
   const dataPath = path.join(ROOT, 'data', `${slug}.json`);
 
-  // Skip if page already exists
-  if (fs.existsSync(pagePath)) {
+  // Skip if page already exists (use --force to overwrite)
+  if (fs.existsSync(pagePath) && !process.argv.includes('--force')) {
     console.log(`  SKIP  ${slug} (page already exists)`);
     continue;
   }

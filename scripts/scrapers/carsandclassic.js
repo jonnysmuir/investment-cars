@@ -11,7 +11,7 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, titleMatchesModel, today } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today } = require('./base');
 
 const SOURCE_NAME = 'Cars & Classic';
 const MAX_PAGES = 10;
@@ -176,6 +176,9 @@ function parseItem(item, status, modelConfig) {
       transmission = normaliseTransmission(item.gearbox);
     }
 
+    // Body type — try structured attributes first, fall back to title
+    const bodyType = normaliseBodyType(item.attributes?.bodyType || item.bodyType || item.type || title);
+
     // Image
     let image = '';
     if (item.image?.url) {
@@ -206,6 +209,7 @@ function parseItem(item, status, modelConfig) {
       year,
       mileage,
       transmission,
+      bodyType,
       image,
       sourceUrl,
       sourceName: SOURCE_NAME,

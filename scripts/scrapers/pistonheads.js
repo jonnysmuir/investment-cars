@@ -11,7 +11,7 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, today } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today } = require('./base');
 
 const SOURCE_NAME = 'PistonHeads';
 const MAX_PAGES = 10;
@@ -119,27 +119,17 @@ async function scrapeListing(url, modelConfig) {
     const ogImage = $('meta[property="og:image"]').attr('content') || '';
 
     // Quick sanity check: does the title relate to the model?
-    // Normalize accents (e.g. "Murciélago" → "murcielago") for comparison
-    const stripAccents = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-    const makeModel = `${modelConfig.make} ${modelConfig.model}`.toLowerCase();
-    const titleNorm = stripAccents(title);
-    const modelNorm = stripAccents(modelConfig.model);
-    // Allow partial matches (e.g. "430" for "F430")
-    const modelShort = modelConfig.model.replace(/^[A-Z]-?/i, '').toLowerCase();
+    // Use the shared titleMatchesModel for consistent matching across all scrapers.
     // Also accept generation pattern names (e.g. "930", "964", "993" for Porsche 911)
+    const stripAccents = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const titleNorm = stripAccents(title);
     const genPatterns = (modelConfig.generations || []).flatMap(g => g.patterns || []).map(p => p.toLowerCase());
-    const matchesModel = titleNorm.includes(modelNorm) || titleNorm.includes(modelShort);
     const matchesGeneration = genPatterns.some(p => {
-      // For numeric patterns like "911", "930", "964" etc, use word boundary matching
-      // to avoid false positives (e.g. "911" matching in phone numbers)
       const re = new RegExp(`\\b${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
       return re.test(titleNorm);
     });
-    // For make check, ensure the title at least mentions the make
-    const matchesMake = titleNorm.includes(modelConfig.make.toLowerCase());
-    // Accept if: title mentions the model, OR title mentions a generation pattern
-    // (generation match alone is sufficient since we're fetching from model-specific PH pages)
-    if (!matchesModel && !matchesGeneration) {
+    if (!titleMatchesModel(title, modelConfig) && !matchesGeneration) {
+      const makeModel = `${modelConfig.make} ${modelConfig.model}`.toLowerCase();
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;
     }
@@ -158,6 +148,10 @@ async function scrapeListing(url, modelConfig) {
     let mileage = 'N/A';
     const mileageMatch = specText.match(/([\d,]+)\s*miles/i);
     if (mileageMatch) mileage = `${mileageMatch[1]} miles`;
+
+    // Body type — try spec text, fall back to title
+    const bodyTypeMatch = specText.match(/(?:body\s*(?:type|style))[:\s]*([\w\s-]+?)(?:\n|,|<)/i);
+    const bodyType = normaliseBodyType(bodyTypeMatch ? bodyTypeMatch[1] : title);
 
     // Transmission
     let transmission = 'Unknown';
@@ -178,6 +172,7 @@ async function scrapeListing(url, modelConfig) {
       year: yearVal,
       mileage,
       transmission,
+      bodyType,
       image: ogImage,
       sourceUrl: url,
       sourceName: SOURCE_NAME,

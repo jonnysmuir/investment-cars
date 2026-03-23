@@ -136,6 +136,23 @@ function normaliseTransmission(raw) {
 }
 
 /**
+ * Normalise body type strings to consistent values.
+ * Per CLAUDE.md: all convertible-roof cars → "Convertible", except Targa and Speedster.
+ */
+function normaliseBodyType(raw) {
+  if (!raw) return null;
+  const s = raw.toLowerCase();
+  if (/\btarga\b/.test(s)) return 'Targa';
+  if (/\bspeedster\b/.test(s)) return 'Speedster';
+  if (/convertible|cabrio(?:let)?|\broadster\b|\bspider\b|\bspyder\b|drop\s*top|open.top|\bvolante\b|\baperta\b|\bbarchetta\b|\bcab\b/i.test(s)) return 'Convertible';
+  if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b/i.test(s)) return 'Coupe';
+  if (/\bsaloon\b|\bsedan\b/i.test(s)) return 'Saloon';
+  if (/\bestate\b|\bwagon\b|\bshooting.brake\b/i.test(s)) return 'Estate';
+  if (/\bsuv\b|\bcrossover\b/i.test(s)) return 'SUV';
+  return null;
+}
+
+/**
  * Generate a stable ID from a source URL so we can track listings across runs.
  */
 function sourceUrlToId(sourceUrl) {
@@ -239,8 +256,10 @@ function titleMatchesModel(title, modelConfig) {
       const escaped = esc(token);
       if (new RegExp(`\\b${escaped}[a-z]*\\b`, 'i').test(titleNorm)) return true;
       // Also try without leading single letter (F430 → 430, F12 → 12)
+      // But only if the stripped result is long enough to be meaningful (≥2 chars).
+      // "M3" → "3" is too short and would false-positive on engine sizes like "3.0".
       const stripped = token.replace(/^[a-z]/i, '');
-      if (stripped !== token && stripped.length > 0) {
+      if (stripped !== token && stripped.length >= 2) {
         if (new RegExp(`\\b[a-z]?${esc(stripped)}[a-z]*\\b`, 'i').test(titleNorm)) return true;
       }
       // Also try digits-only core for ≥3 digits (e.g. "575m" → "575")
@@ -273,6 +292,7 @@ module.exports = {
   formatPrice,
   extractYear,
   normaliseTransmission,
+  normaliseBodyType,
   sourceUrlToId,
   isImageValid,
   titleMatchesModel,

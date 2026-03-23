@@ -276,6 +276,9 @@ async function processModel(modelConfig) {
       if ((!existingListing.transmission || existingListing.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
         existingListing.transmission = scraped.transmission;
       }
+      if (!existingListing.bodyType && scraped.bodyType) {
+        existingListing.bodyType = scraped.bodyType;
+      }
 
       // Update image if the existing one is empty
       if (!existingListing.image && scraped.image) {
@@ -317,6 +320,9 @@ async function processModel(modelConfig) {
         if ((!duplicate.transmission || duplicate.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
           duplicate.transmission = scraped.transmission;
         }
+        if (!duplicate.bodyType && scraped.bodyType) {
+          duplicate.bodyType = scraped.bodyType;
+        }
         // Clear missing-since
         delete state.missingSince[scraped.sourceUrl];
       } else {
@@ -329,6 +335,7 @@ async function processModel(modelConfig) {
           year: scraped.year,
           mileage: scraped.mileage,
           transmission: scraped.transmission,
+          bodyType: scraped.bodyType || null,
           image: scraped.image,
           featured: false,
           dateAdded: today(),
@@ -510,6 +517,7 @@ function mergeSoldResults(soldListings, existingData, result) {
         year: sold.year,
         mileage: sold.mileage || 'N/A',
         transmission: sold.transmission || 'Unknown',
+        bodyType: sold.bodyType || null,
         image: sold.image || '',
         featured: false,
         dateAdded: today(),

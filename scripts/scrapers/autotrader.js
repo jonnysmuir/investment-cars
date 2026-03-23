@@ -16,7 +16,7 @@
  * and return no useful data via fetch. Must use the search/friendly URL.
  */
 
-const { extractYear, normaliseTransmission, titleMatchesModel, today, sleep } = require('./base');
+const { extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'AutoTrader';
 const MAX_PAGES = 10;
@@ -70,6 +70,7 @@ async function extractApolloAdverts(page) {
             price: obj.price,
             mileage: obj.mileage?.mileage || null,
             image: obj.imageList?.images?.[0]?.url || null,
+            bodyType: obj.bodyType || obj.vehicleType || null,
           });
         }
       }
@@ -197,8 +198,11 @@ async function scrape(sourceConfig, modelConfig) {
     const searchMap = new Map();  // id → DOM-scraped data (basic)
 
     // ── Phase 1: Friendly URL for Apollo cache data ──
-    await page.goto(sourceConfig.searchUrl, { waitUntil: 'networkidle', timeout: 60000 });
-    await sleep(2000);
+    await page.goto(sourceConfig.searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    // Wait for Apollo state to be injected by client-side JS
+    await page.waitForFunction(() => !!window.AT_APOLLO_STATE, { timeout: 15000 }).catch(() => {
+      console.warn('  [AutoTrader] Apollo state not found within timeout, continuing with search pages');
+    });
 
     const apolloAdverts = await extractApolloAdverts(page);
     if (apolloAdverts) {
@@ -215,8 +219,14 @@ async function scrape(sourceConfig, modelConfig) {
       const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
       console.log(`  [AutoTrader] Fetching search page ${pageNum}`);
 
-      await page.goto(pageUrl, { waitUntil: 'networkidle', timeout: 60000 });
-      await sleep(2000);
+      try {
+        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        // Wait for listing links to appear in the DOM
+        await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
+      } catch (navErr) {
+        console.warn(`  [AutoTrader] Navigation failed for page ${pageNum}: ${navErr.message}`);
+        break;
+      }
 
       const pageListings = await extractSearchPageListings(page, modelConfig.make);
 
@@ -271,6 +281,7 @@ async function scrape(sourceConfig, modelConfig) {
           year: apollo.year,
           mileage,
           transmission: normaliseTransmission(apollo.title),
+          bodyType: normaliseBodyType(apollo.bodyType || title),
           image,
           sourceUrl,
           sourceName: SOURCE_NAME,
@@ -294,6 +305,7 @@ async function scrape(sourceConfig, modelConfig) {
           year,
           mileage: search.mileage || 'N/A',
           transmission: normaliseTransmission(search.title),
+          bodyType: normaliseBodyType(title),
           image,
           sourceUrl,
           sourceName: SOURCE_NAME,
@@ -305,7 +317,7 @@ async function scrape(sourceConfig, modelConfig) {
     console.log(`  [AutoTrader] Successfully scraped ${listings.length} listings`);
     return listings;
   } catch (err) {
-    console.warn(`  [AutoTrader] Failed: ${err.message}`);
+    console.error(`  [AutoTrader] SCRAPER FAILURE: ${err.message}`);
     return [];
   } finally {
     await context.close();

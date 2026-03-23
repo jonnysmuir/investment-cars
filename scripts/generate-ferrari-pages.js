@@ -218,7 +218,7 @@ const MODELS = [
     heroEngine: '3.0L V12',
     heroBhp: '240 — 280 BHP',
     description: 'The Ferrari 250 GT, produced in many forms from 1954 to 1964, is the defining Ferrari grand tourer. Powered by the legendary Colombo 3.0-litre V12, variants include the Berlinetta, Cabriolet, California, passo corto (SWB), 2+2, and the exquisite Berlinetta Lusso.',
-    getBody: `if (/cabrio|spider|california/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/cabrio|spider|california/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/lusso/i.test(title)) return 'lusso';
       if (/passo\\s*corto|swb|short/i.test(title)) return 'passo-corto';
       if (/2\\+2|2\\s*plus\\s*2/i.test(title)) return '2-plus-2';
@@ -297,7 +297,7 @@ const MODELS = [
     heroEngine: '4.0L V12',
     heroBhp: '340 BHP',
     description: 'The Ferrari 400 Superamerica, produced from 1960 to 1964, succeeded the 410 SA with a Colombo-derived 4.0-litre V12. Available in both coupe and cabriolet forms with various coachbuilder bodies, only 47 were made.',
-    getBody: `if (/cabrio|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/cabrio|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `return 'superamerica';`,
     getTransmission: `return 'manual';`,
     variantLabels: { superamerica: 'Superamerica' },
@@ -352,7 +352,7 @@ const MODELS = [
     heroEngine: '4.0L V12',
     heroBhp: '300 BHP',
     description: 'The Ferrari 330, produced from 1963 to 1968, was available as the GT 2+2, GTC coupe, and GTS spider. Powered by a 4.0-litre Colombo V12, the 330 family represented Ferrari\'s refined grand touring range of the mid-1960s.',
-    getBody: `if (/gts|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/gts|spider/i.test(title)) return 'gts';
       if (/gtc/i.test(title)) return 'gtc';
       return '2-plus-2';`,
@@ -390,7 +390,7 @@ const MODELS = [
     heroEngine: '4.4L V12',
     heroBhp: '320 — 380 BHP',
     description: 'The Ferrari 365 family, produced from 1966 to 1976, encompasses some of the most iconic Ferraris ever made. From the California spider to the legendary GTB/4 Daytona, the GT4 BB, and the comfortable GT4 2+2, the 365 range defined an era of Ferrari excellence.',
-    getBody: `if (/spider|california|gts|cabriolet/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider|california|gts|cabriolet/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/gt4\\s*bb|berlinetta\\s*boxer/i.test(title)) return 'gt4-bb';
       if (/gt4\\s*2\\+2|gt4\\s*2\\s*plus|365\\s*gt4(?!\\s*bb)/i.test(title)) return 'gt4-2-plus-2';
       if (/gtc\\s*4|gtc4/i.test(title)) return 'gtc4';
@@ -435,7 +435,7 @@ const MODELS = [
     heroEngine: '2.4L V6',
     heroBhp: '195 BHP',
     description: 'The Ferrari Dino 246, produced from 1969 to 1974, succeeded the 206 GT with a larger 2.4-litre V6 and steel body. Available as the GT coupe and GTS targa, the 246 is one of the most beautiful Ferraris ever made and highly sought after by collectors.',
-    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/gts/i.test(title)) return 'gts';\n      return 'gt';`,
     getTransmission: `return 'manual';`,
     variantLabels: { gt: 'GT', gts: 'GTS' },
@@ -489,7 +489,7 @@ const MODELS = [
     heroEngine: '3.0L V8',
     heroBhp: '205 — 255 BHP',
     description: 'The Ferrari 308, produced from 1975 to 1985, is one of the most recognisable Ferraris ever made. Available as GTB (coupe) and GTS (targa), later variants included fuel-injected GTBi/GTSi models and the Quattrovalvole four-valve versions.',
-    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/quattrovalvole|qv/i.test(title) && /gts/i.test(title)) return 'gts-qv';
       if (/quattrovalvole|qv/i.test(title)) return 'gtb-qv';
       if (/gtsi/i.test(title)) return 'gtsi';
@@ -512,7 +512,7 @@ const MODELS = [
     heroEngine: '2.0L V8',
     heroBhp: '155 — 254 BHP',
     description: 'The Ferrari 208, produced from 1980 to 1989, was an Italian-market model with a 2.0-litre V8 to comply with tax regulations. Available as GTB and GTS, with later turbocharged variants offering significantly more power than the naturally aspirated versions.',
-    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/gts\\s*turbo/i.test(title)) return 'gts-turbo';
       if (/gtb\\s*turbo/i.test(title)) return 'gtb-turbo';
       if (/gts/i.test(title)) return 'gts';
@@ -574,7 +574,7 @@ const MODELS = [
     heroEngine: '3.0 — 3.4L V8',
     heroBhp: '214 — 300 BHP',
     description: 'The Ferrari Mondial, produced from 1980 to 1993, was Ferrari\'s mid-engined 2+2. Evolving through Mondial 8, Quattrovalvole, 3.2, Cabriolet, and T versions, it offered four-seat practicality in a mid-engine package.',
-    getBody: `if (/cabrio|spider|convertible/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/cabrio|spider|convertible/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/\\bt\\b/i.test(title) && !/turbo/i.test(title)) return 't';
       if (/3\\.2|3,2/i.test(title)) return '3-2';
       if (/cabrio/i.test(title)) return 'cabriolet';
@@ -634,7 +634,7 @@ const MODELS = [
     heroEngine: '3.2L V8',
     heroBhp: '270 BHP',
     description: 'The Ferrari 328, produced from 1985 to 1989, succeeded the 308 with a larger 3.2-litre V8 and refined styling. Available as GTB (coupe) and GTS (targa), it is widely regarded as one of the most reliable and accessible classic Ferraris.',
-    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|targa|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/gts/i.test(title)) return 'gts';\n      return 'gtb';`,
     getTransmission: `return 'manual';`,
     variantLabels: { gtb: 'GTB', gts: 'GTS' },
@@ -688,7 +688,7 @@ const MODELS = [
     heroEngine: '3.4L V8',
     heroBhp: '296 — 320 BHP',
     description: 'The Ferrari 348, produced from 1989 to 1995, succeeded the 328 with a longitudinally-mounted 3.4-litre V8. Available as TB/TS (testa-mounted belt), later updated to GTB/GTS and Spider variants with improved handling and refinement.',
-    getBody: `if (/ts\\b|gts|spider|convertible/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/ts\\b|gts|spider|convertible/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/spider/i.test(title)) return 'spider';
       if (/gts/i.test(title)) return 'gts';
       if (/gtb/i.test(title)) return 'gtb';
@@ -731,7 +731,7 @@ const MODELS = [
     heroEngine: '3.5L V8',
     heroBhp: '380 BHP',
     description: 'The Ferrari F355, produced from 1994 to 1999, is widely considered one of the finest mid-engine V8 Ferraris. Available as Berlinetta (coupe), GTS (targa), and Spider, the F355 combined a 3.5-litre V8 with sublime handling. Manual gearbox cars are particularly sought after.',
-    getBody: `if (/spider|gts|targa/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider|gts|targa/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/spider/i.test(title)) return 'spider';
       if (/gts/i.test(title)) return 'gts';
       return 'berlinetta';`,
@@ -769,7 +769,7 @@ const MODELS = [
     heroEngine: '5.5L V12',
     heroBhp: '485 BHP',
     description: 'The Ferrari 550 Maranello, produced from 1996 to 2001, marked Ferrari\'s return to a front-mounted V12 berlinetta. Its 5.5-litre V12 and perfectly balanced chassis made it an instant classic. The limited Barchetta Pininfarina open-top variant is exceptionally collectible.',
-    getBody: `if (/barchetta|spider|open/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/barchetta|spider|open/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/barchetta/i.test(title)) return 'barchetta';\n      return 'maranello';`,
     getTransmission: `return 'manual';`,
     variantLabels: { maranello: 'Maranello', barchetta: 'Barchetta Pininfarina' },
@@ -915,7 +915,7 @@ const MODELS = [
     heroEngine: '6.3L V12 Hybrid',
     heroBhp: '950 BHP',
     description: 'The Ferrari LaFerrari, produced from 2013 to 2018, was Ferrari\'s first hybrid hypercar. Combining a 6.3-litre V12 with an electric motor for a combined 950 bhp, only 500 coupes and 210 Aperta open-top versions were made.',
-    getBody: `if (/aperta|spider|open/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/aperta|spider|open/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/aperta/i.test(title)) return 'aperta';\n      return 'laferrari';`,
     getTransmission: `return 'dct';`,
     variantLabels: { laferrari: 'LaFerrari', aperta: 'Aperta' },
@@ -951,7 +951,7 @@ const MODELS = [
     heroEngine: '6.5L V12',
     heroBhp: '789 — 819 BHP',
     description: 'The Ferrari 812 Superfast, produced from 2017 to 2022, featured the most powerful naturally aspirated production V12 in history. Available as Superfast, GTS (retractable hard top), and the limited Competizione and Competizione Aperta track-focused variants.',
-    getBody: `if (/gts|aperta|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|aperta|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/competizione\\s*a(perta)?/i.test(title)) return 'competizione-aperta';
       if (/competizione/i.test(title)) return 'competizione';
       if (/gts/i.test(title)) return 'gts';
@@ -990,7 +990,7 @@ const MODELS = [
     heroEngine: '3.9L Twin-Turbo V8',
     heroBhp: '710 — 720 BHP',
     description: 'The Ferrari F8, produced from 2019 to 2022, was the final evolution of Ferrari\'s mid-engine twin-turbo V8 sports car lineage that began with the 488. Available as Tributo (coupe) and Spider, it delivered 710 bhp from its award-winning 3.9-litre V8.',
-    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/spider/i.test(title)) return 'spider';\n      return 'tributo';`,
     getTransmission: `return 'dct';`,
     variantLabels: { tributo: 'Tributo', spider: 'Spider' },
@@ -1008,7 +1008,7 @@ const MODELS = [
     heroEngine: '3.9L Twin-Turbo V8',
     heroBhp: '612 BHP',
     description: 'The Ferrari Roma, produced from 2020, is a front-engined V8 grand tourer inspired by the carefree lifestyle of 1960s Rome. With elegant Pininfarina-influenced styling and a 3.9-litre twin-turbo V8, the Roma blends classic beauty with modern performance.',
-    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `return 'roma';`,
     getTransmission: `return 'dct';`,
     variantLabels: { roma: 'Roma' },
@@ -1026,7 +1026,7 @@ const MODELS = [
     heroEngine: '4.0L V8 Hybrid',
     heroBhp: '986 — 1,016 BHP',
     description: 'The Ferrari SF90 Stradale, produced from 2020, is Ferrari\'s plug-in hybrid supercar. Combining a 4.0-litre twin-turbo V8 with three electric motors for a combined 986 bhp, it is the most powerful series-production Ferrari. Available as Stradale and Spider variants, plus the extreme XX versions.',
-    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/xx.*spider/i.test(title)) return 'xx-spider';
       if (/xx/i.test(title)) return 'xx-stradale';
       if (/spider/i.test(title)) return 'spider';
@@ -1083,7 +1083,7 @@ const MODELS = [
     heroEngine: '3.0L V6 Hybrid',
     heroBhp: '819 — 830 BHP',
     description: 'The Ferrari 296, produced from 2022, marks the return of a mid-rear-engined V6 to Ferrari\'s road car range. Its 3.0-litre twin-turbo V6 hybrid produces up to 830 bhp. Available as GTB, GTS, and the track-focused Speciale variants.',
-    getBody: `if (/gts|spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/gts|spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/speciale\\s*a(perta)?/i.test(title)) return 'speciale-aperta';
       if (/speciale/i.test(title)) return 'speciale';
       if (/gts/i.test(title)) return 'gts';
@@ -1122,7 +1122,7 @@ const MODELS = [
     heroEngine: '6.5L V12',
     heroBhp: '819 BHP',
     description: 'The Ferrari 12Cilindri, produced from 2024, is Ferrari\'s front-engined V12 grand tourer succeeding the 812. With a naturally aspirated 6.5-litre V12 producing 819 bhp, it is available as a coupe and Spider.',
-    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/spider/i.test(title)) return 'spider';\n      return '12cilindri';`,
     getTransmission: `return 'dct';`,
     variantLabels: { '12cilindri': '12Cilindri', spider: 'Spider' },
@@ -1194,7 +1194,7 @@ const MODELS = [
     heroEngine: 'V12',
     heroBhp: 'TBC',
     description: 'The Ferrari 849 Testarossa pays homage to the legendary Testarossa lineage. Available as a coupe and spider, it continues Ferrari\'s tradition of iconic mid-engined grand tourers.',
-    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return 'coupe';`,
+    getBody: `if (/spider/i.test(title)) return 'convertible';\n      return null;`,
     getVariant: `if (/spider/i.test(title)) return 'spider';\n      return '849-testarossa';`,
     getTransmission: `return 'dct';`,
     variantLabels: { '849-testarossa': '849 Testarossa', spider: 'Spider' },
@@ -1273,8 +1273,8 @@ function generatePage(model) {
 
   // F. getBody(), getVariant(), getTransmissionGroup() functions
   html = html.replace(
-    /function getBody\(title\) \{[^}]+\}/,
-    `function getBody(title) {\n      ${model.getBody}\n    }`
+    /function getBody\(title\) \{[\s\S]*?\n    \}\n/,
+    `function getBody(title) {\n      ${model.getBody}\n    }\n`
   );
 
   html = html.replace(
@@ -1300,7 +1300,7 @@ function generatePage(model) {
 
   const newFilterConfig = `const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => getBody(l.title), labels: ${bodyLabelsStr}, sortOrder: ${bodyOrderStr}, mode: 'single'${bodyMinDistinct} },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: ${bodyLabelsStr}, sortOrder: ${bodyOrderStr}, mode: 'single'${bodyMinDistinct} },
       variant:      { detect: l => getVariant(l.title), labels: ${variantLabelsStr}, sortOrder: ${variantOrderStr}, mode: 'single', minDistinct: 2 },
       transmission: { detect: l => getTransmissionGroup(l.transmission), labels: ${transLabelsStr}, sortOrder: ${transOrderStr}, mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
@@ -1338,8 +1338,8 @@ for (const model of MODELS) {
   const pagePath = path.join(pageDir, 'index.html');
   const dataPath = path.join(ROOT, 'data', `${slug}.json`);
 
-  // Skip if page already exists
-  if (fs.existsSync(pagePath)) {
+  // Skip if page already exists (use --force to overwrite)
+  if (fs.existsSync(pagePath) && !process.argv.includes('--force')) {
     console.log(`  SKIP  ${slug} (page already exists)`);
     continue;
   }

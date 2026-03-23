@@ -15,7 +15,7 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, today, sleep } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'Collecting Cars';
 
@@ -145,6 +145,7 @@ async function scrape(sourceConfig, modelConfig) {
         year,
         mileage,
         transmission,
+        bodyType: normaliseBodyType(title),
         image,
         sourceUrl: originalUrl,
         sourceName: SOURCE_NAME,
@@ -288,6 +289,7 @@ async function scrapeSold(sourceConfig, modelConfig) {
         year,
         mileage: 'N/A',
         transmission: normaliseTransmission(raw.title),
+        bodyType: normaliseBodyType(raw.title),
         image,
         sourceUrl: raw.href,
         sourceName: SOURCE_NAME,
