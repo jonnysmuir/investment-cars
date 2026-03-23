@@ -691,7 +691,7 @@
     {
       "id": "35",
       "title": "1999 Ferrari 550 5.5 Maranello Coupe 2dr Petrol Manual (558 g/km, 485 bhp)",
-      "price": "£109,850",
+      "price": "£114,950",
       "year": 1999,
       "mileage": "26,000 miles",
       "transmission": "6-Speed Manual",
@@ -707,6 +707,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210885566"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£109,850",
+          "date": "2026-03-23"
         }
       ]
     },
@@ -902,13 +908,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1987501/2001-ferrari-550-maranello-693c215e78e06.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=31a684076d98239e17a12c8220f6624c",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1987501"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-23"
     },
     {
       "id": "47",
@@ -1055,6 +1062,24 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20116566"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "title": "1999 Used  FERRARI 550",
+      "price": "£114,950",
+      "year": 1999,
+      "mileage": "3,465 miles",
+      "transmission": "6-Speed Manual",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/550/5-5-maranello-coupe-2dr-petrol-manual-558-g-km-485-bhp/ferrari-550-5-5-maranello-coupe-2dr-petrol-manual-558-g-km-485-bhp-1417237567-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-23",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20121310"
         }
       ]
     }
