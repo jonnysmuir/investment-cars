@@ -514,13 +514,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1928445/1975-ferrari-365-68a58f4ebecbb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=116ae01c1c9154556bf0bd3b06184edc",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1928445"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-24"
     },
     {
       "id": "28",
@@ -600,6 +601,44 @@
         }
       ],
       "unlistedDate": "2026-03-22"
+    },
+    {
+      "id": "32",
+      "title": "1974 Ferrari 365 GT/4 Berlinetta Boxer",
+      "price": "POA",
+      "year": "1974",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28981889/1974-ferrari-365-gt4-bb-69c1d5191f7cc.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=154594e39437c70b2d79516e67c54be4",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2035584"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "1972 Ferrari 365 GTB/4 Daytona",
+      "price": "POA",
+      "year": "1972",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28981853/1972-ferrari-365-gtb4-daytona-berlinetta-69c1d5085c771.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=76c7b80100801f0514cb32324f4a7a45",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2035581"
+        }
+      ]
     }
   ]
 }

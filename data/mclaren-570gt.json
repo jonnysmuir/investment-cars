@@ -111,7 +111,8 @@
           "price": "£89,995",
           "date": "2026-03-11"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "6",
@@ -209,7 +210,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510247407441"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "11",
@@ -244,6 +246,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508185544422"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19208884"
         }
       ]
     },
@@ -309,7 +315,7 @@
       "price": "£84,950",
       "year": 2018,
       "mileage": "11,800 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w640/20034303b0024a2f8a7fe115ac4475ba.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -318,6 +324,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601169200302"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19904213"
         }
       ]
     },
@@ -336,6 +346,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511107797268"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19227405"
         }
       ]
     },
@@ -354,8 +368,13 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510076956688"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19261139"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "19",
@@ -409,7 +428,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506123453945"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "22",
@@ -463,6 +483,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507224720408"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "2019 Used  MCLAREN 570",
+      "price": "£74,995",
+      "year": 2019,
+      "mileage": "39,700 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mclaren/570gt/v8-ssg/mclaren-570gt-v8-ssg-S4941486-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20061872"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "2019 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
+      "price": "£79,000",
+      "year": 2019,
+      "mileage": "21,150 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d0d65867ee6541b0a8e26cb15ea50e79.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230933790"
         }
       ]
     }

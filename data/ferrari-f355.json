@@ -770,13 +770,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/23824451/1998-ferrari-f355-68a87b43b64db.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a1bd1e18e29276cee813991320ea28ad",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1929683"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-24"
     },
     {
       "id": "40",
@@ -788,13 +789,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/24472580/1998-ferrari-f355-68c96e6b7b072.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=94eb20cbed8c9f1ff3fb24e8997fa49d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1942812"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-24"
     },
     {
       "id": "41",
@@ -974,14 +976,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
         }
-      ],
-      "unlistedDate": "2026-03-23"
+      ]
     },
     {
       "id": "51",
@@ -1112,6 +1113,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149933625"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "title": "1995 Used  FERRARI F355",
+      "price": "£149,950",
+      "year": 1995,
+      "mileage": "1,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/gts-manual-rhd/ferrari-f355-gts-manual-rhd-1416797654-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19623633"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "1997 Ferrari F355",
+      "price": "POA",
+      "year": "1997",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28982162/1997-ferrari-f355-spider-69c1d59a46433.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=438f39bde022771e347bb7ca5e046cb5",
+      "featured": false,
+      "dateAdded": "2026-03-24",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2035606"
         }
       ]
     }
