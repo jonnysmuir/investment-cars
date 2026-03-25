@@ -2296,7 +2296,7 @@
       "price": "£46,995",
       "year": 2021,
       "mileage": "53,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/c39d70e8d6c046ca8b2d340f3b68b3c3.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -2305,6 +2305,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602280302803"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20130982"
         }
       ],
       "priceHistory": [
@@ -3238,7 +3242,7 @@
       "price": "£67,000",
       "year": 2023,
       "mileage": "14,213 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/aaaf36f102304fc29ceb8293151c641f.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -3247,6 +3251,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030377596"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20131048"
         }
       ],
       "unlistedDate": "2026-03-12"
@@ -8485,13 +8493,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28889547/2003-bmw-m3-69bca4bebbc27.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a261d334ac45c407a0f4da9d4aab8abb",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033506"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "431",
@@ -8655,13 +8664,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/xm/5dr-auto-estate/bmw-xm-5dr-auto-estate-1416966052-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20118355"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "440",
@@ -8673,13 +8683,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i/bmw-1-series-m135i-1416987291-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20118476"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "441",
@@ -8691,13 +8702,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/x3/m-sport/bmw-x3-m-sport-1416842925-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20117012"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "442",
@@ -8709,13 +8721,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/1-series/m135i/bmw-1-series-m135i-1416814080-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20116812"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "443",
@@ -8727,13 +8740,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/2-series/m235i-xdrive-4dr-step-auto/bmw-2-series-m235i-xdrive-4dr-step-auto-1406419826-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19912345"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-25"
     },
     {
       "id": "444",
