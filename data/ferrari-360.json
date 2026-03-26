@@ -740,7 +740,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509186440879"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "38",
@@ -839,11 +840,12 @@
           "price": "£49,989",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "42",
-      "title": "2000 Used  FERRARI 360",
+      "title": "2000 Ferrari 360 COUPE 3.6 MODENA 2DR",
       "price": "£69,995",
       "year": 2000,
       "mileage": "1,000 miles",
@@ -856,8 +858,13 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17627452"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603150713678"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "43",
@@ -919,13 +926,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-S4906867-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18911564"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-26"
     },
     {
       "id": "46",
@@ -970,7 +978,7 @@
     {
       "id": "48",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£67,950",
+      "price": "£64,995",
       "year": 2000,
       "mileage": "01975 miles",
       "transmission": "F1 Automated Manual",
@@ -1004,8 +1012,13 @@
         {
           "price": "£64,995",
           "date": "2026-03-24"
+        },
+        {
+          "price": "£67,950",
+          "date": "2026-03-26"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "49",
@@ -1078,7 +1091,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509236551923"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "53",
@@ -1096,7 +1110,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202406090575263"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "54",
@@ -1128,7 +1143,8 @@
           "price": "£77,795",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "55",
@@ -1170,7 +1186,7 @@
     {
       "id": "57",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£61,970",
+      "price": "£59,950",
       "year": 2000,
       "mileage": "33,100 miles",
       "transmission": "F1 Automated Manual",
@@ -1208,8 +1224,13 @@
         {
           "price": "£59,950",
           "date": "2026-03-24"
+        },
+        {
+          "price": "£61,970",
+          "date": "2026-03-26"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "58",
@@ -1227,7 +1248,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511288208953"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "59",
@@ -1447,7 +1469,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306289030804"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "71",
@@ -1539,7 +1562,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/201705025025401"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "76",
@@ -1737,11 +1761,50 @@
       "image": "https://assets.carandclassic.com/uploads/new/28950025/1998-ferrari-f355-69bff74c71263.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=696606cc189d1cd67c9363cc214afe7d",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2034892"
+        }
+      ],
+      "unlistedDate": "2026-03-26"
+    },
+    {
+      "id": "87",
+      "title": "2005 Ferrari 360 3.6 Spider 2dr Petrol F1 DCT (440 g/km, 400 bhp)",
+      "price": "£74,995",
+      "year": 2005,
+      "mileage": "17,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/20ea1e62f9a3405595e097bc723cc8f0.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603200867980"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2000 Ferrari 360 3.6 Modena 2dr",
+      "price": "£69,995",
+      "year": 2000,
+      "mileage": "34,100 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/7162dc29587a4f7f833c14bcd7b625a7.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202410074929152"
         }
       ]
     }

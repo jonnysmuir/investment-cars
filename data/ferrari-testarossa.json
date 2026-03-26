@@ -710,13 +710,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28193957/1988-ferrari-testarossa-pininfarina-spider-699cee1a7ea98.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8db9d068976f72f80e00bf5029c657df",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2019385"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-26"
     },
     {
       "id": "37",
@@ -771,7 +772,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601239374350"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "40",
@@ -865,6 +867,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035595"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "1991 Ferrari Testarossa",
+      "price": "£139,995",
+      "year": 1991,
+      "mileage": "21,310 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/401d93091c484f5789afb6c0a06ecd37.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603251009427"
         }
       ]
     }

@@ -523,7 +523,7 @@
     },
     {
       "id": "27",
-      "title": "1986 Used  FERRARI 328",
+      "title": "1986 Ferrari 328 3.2 GTS 2dr",
       "price": "£87,500",
       "year": 1986,
       "mileage": "68,500 miles",
@@ -536,6 +536,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19645427"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512248787742"
         }
       ]
     },
@@ -560,10 +564,10 @@
     },
     {
       "id": "29",
-      "title": "1989 Used  FERRARI 328",
+      "title": "1989 Ferrari 328 3.2 GTS 2dr",
       "price": "£89,995",
       "year": 1989,
-      "mileage": "N/A",
+      "mileage": "17,198 miles",
       "transmission": "6-Speed Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/328/ferrari-328-S4920724-1.jpg",
       "featured": false,
@@ -573,12 +577,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19445949"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508205605259"
         }
       ]
     },
     {
       "id": "30",
-      "title": "1988 Used  FERRARI 328",
+      "title": "1988 Ferrari 328 3.2 GTS 2dr",
       "price": "£72,995",
       "year": 1988,
       "mileage": "48,223 miles",
@@ -591,6 +599,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18978404"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511218054362"
         }
       ],
       "priceHistory": [
@@ -602,10 +614,10 @@
     },
     {
       "id": "31",
-      "title": "1989 Used  FERRARI 328",
+      "title": "1989 Ferrari 328 3.2 GTS Convertible 2dr Petrol Manual (270 bhp)",
       "price": "£114,990",
       "year": 1989,
-      "mileage": "N/A",
+      "mileage": "20,068 miles",
       "transmission": "6-Speed Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/328/3-2-gts-convertible-2dr-petrol-manual-270-bhp/ferrari-328-3-2-gts-convertible-2dr-petrol-manual-270-bhp-1409917791-1.jpg",
       "featured": false,
@@ -615,8 +627,13 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19863813"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602099793134"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "32",
@@ -718,13 +735,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1991862/1986-ferrari-328-694be05d81887.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fcb6573257bce45fe7d9f95311500110",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1991862"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-26"
     },
     {
       "id": "38",
@@ -827,13 +845,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/328/ferrari-328-S4943309-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20122507"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-26"
     },
     {
       "id": "44",
@@ -850,6 +869,82 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20121277"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "1989 Ferrari 328 3.2 GTB 2dr",
+      "price": "£79,950",
+      "year": 1989,
+      "mileage": "50,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/f470bb3bd35a4d0188e337fe557dea2a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511278188519"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "1988 Ferrari 328 3.2 GTB 2dr",
+      "price": "£89,995",
+      "year": 1988,
+      "mileage": "43,669 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/d8c4601d26354af68c40718163fa8a57.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602039638787"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "1988 Ferrari 328 3.2 GTS 2dr",
+      "price": "£99,999",
+      "year": 1988,
+      "mileage": "44,606 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/d529a0bdebe0495d95c4b1222c895b94.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510277454558"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "1989 Ferrari 328 3.2 GTS Convertible 2dr Petrol Manual (270 bhp)",
+      "price": "£79,950",
+      "year": 1989,
+      "mileage": "34,250 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7106dc1bba8c46998a63ec61d3dffd9c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-26",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202407041435274"
         }
       ]
     }
