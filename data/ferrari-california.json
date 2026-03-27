@@ -976,14 +976,13 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/-2-f1-convertible/ferrari-california--2-f1-convertible-1406122222-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19940767"
         }
-      ],
-      "unlistedDate": "2026-03-13"
+      ]
     },
     {
       "id": "46",
@@ -1058,7 +1057,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2007879/2015-ferrari-california-69833c0712a23.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e8150e35b1aec2dc2413afd82d0bc71d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1074,7 +1073,8 @@
           "price": "£72,948",
           "date": "2026-03-18"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "49",
@@ -1452,7 +1452,7 @@
     {
       "id": "65",
       "title": "2017 Ferrari California T",
-      "price": "£84,995",
+      "price": "£79,995",
       "year": "2017",
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -1478,6 +1478,10 @@
         {
           "price": "£74,995",
           "date": "2026-03-21"
+        },
+        {
+          "price": "£84,995",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -2823,7 +2827,7 @@
     },
     {
       "id": "128",
-      "title": "2009 Ferrari California",
+      "title": "2009 FERRARI CALIFORNIA 4.3",
       "price": "£57,995",
       "year": "2009",
       "mileage": "38,600 miles",

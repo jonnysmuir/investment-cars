@@ -155,7 +155,7 @@
     {
       "id": "8",
       "title": "2019 McLaren 540C 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£75,500",
+      "price": "£70,975",
       "year": 2019,
       "mileage": "28,288 miles",
       "transmission": "Automatic",
@@ -185,6 +185,10 @@
         {
           "price": "£71,975",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£75,500",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -241,7 +245,7 @@
     {
       "id": "11",
       "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps)",
-      "price": "£69,989",
+      "price": "£71,995",
       "year": 2017,
       "mileage": "29,150 miles",
       "transmission": "Unknown",
@@ -264,6 +268,10 @@
         {
           "price": "£71,995",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£69,989",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -289,7 +297,7 @@
     {
       "id": "13",
       "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps) CARBON BONNET (SENNA STYLE)",
-      "price": "£71,995",
+      "price": "£69,989",
       "year": 2017,
       "mileage": "29,062 miles",
       "transmission": "Unknown",
@@ -312,6 +320,10 @@
         {
           "price": "£69,989",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -331,6 +343,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180800421"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "2015 Used  MCLAREN 540",
+      "price": "£74,900",
+      "year": 2015,
+      "mileage": "23,184 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mclaren/540c/3-8t-v8-coupe/mclaren-540c-3-8t-v8-coupe-1419067449-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20142261"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "2018 McLaren 540C 3.8T V8 Coupe 2dr",
+      "price": "£74,900",
+      "year": 2018,
+      "mileage": "23,184 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/37c1be23c64f4e8aa21ace7c97373892.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603251001555"
         }
       ]
     }

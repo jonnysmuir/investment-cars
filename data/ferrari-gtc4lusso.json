@@ -58,7 +58,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120629675"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "4",
@@ -112,7 +113,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511278170683"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "7",
@@ -222,13 +224,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/76f8b78919e442b48128bcdb86bf06e5.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170756152"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "13",
@@ -309,7 +312,7 @@
     {
       "id": "17",
       "title": "2018 Ferrari GTC4Lusso 6.3 V12 F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£175,000",
+      "price": "£169,000",
       "year": 2018,
       "mileage": "29,779 miles",
       "transmission": "F1 Automated Manual",
@@ -331,6 +334,10 @@
         {
           "price": "£169,000",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£175,000",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -354,7 +361,7 @@
     },
     {
       "id": "19",
-      "title": "2017 Ferrari GTC4Lusso 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "title": "2017 Ferrari GTC4Lusso 3.9T V8 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (610 ps)",
       "price": "£107,850",
       "year": 2017,
       "mileage": "37,375 miles",
@@ -368,7 +375,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250213622"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "20",
@@ -524,10 +532,10 @@
     },
     {
       "id": "28",
-      "title": "2020 Used  FERRARI GTC4 LUSSO V12",
+      "title": "2020 Ferrari GTC4Lusso 6.3 V12 F1 DCT 4WD Euro 6 (s/s) 2dr",
       "price": "£179,000",
       "year": 2020,
-      "mileage": "N/A",
+      "mileage": "13,752 miles",
       "transmission": "Automatic",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/ferrari/gtc4-lusso/2dr-auto/ferrari-gtc4-lusso-2dr-auto-1418308805-1.jpg",
@@ -538,6 +546,29 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20130808"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261028792"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "2020 Ferrari GTC4 LUSSO 2dr Auto 6.3",
+      "price": "£179,000",
+      "year": 2020,
+      "mileage": "20,687 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/34d7698f623343118bbc4023ac46a98a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240963718"
         }
       ]
     }

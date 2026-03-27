@@ -755,14 +755,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "39",
@@ -810,13 +809,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1891990/1997-ferrari-f355-683ec41f240c9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ccce52c42fdac344e461c7e40f448354",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1891990"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "42",
@@ -865,13 +865,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1966915/1998-ferrari-f355-6903d99733bdf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b375ce9e457eaefb8322175f7ad46152",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1966915"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "45",
@@ -978,13 +979,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "51",
@@ -1157,6 +1159,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035606"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "1995 Ferrari F355 GTS",
+      "price": "POA",
+      "year": "1995",
+      "mileage": "39,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29070792/1995-ferrari-f355-69c53d903fb49.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=19231ebe198714d15d9edd05c855d01d",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2037307"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "1997 Ferrari F355  TB Coupe",
+      "price": "£150,000",
+      "year": "1997",
+      "mileage": "355 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2037513/1997-ferrari-f355-69c597928195d.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=63e75f2c691e86b2879cfb36069f5b26",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2037513"
         }
       ]
     }

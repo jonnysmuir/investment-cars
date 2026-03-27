@@ -978,7 +978,7 @@
     {
       "id": "48",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£64,995",
+      "price": "£67,950",
       "year": 2000,
       "mileage": "01975 miles",
       "transmission": "F1 Automated Manual",
@@ -1016,6 +1016,10 @@
         {
           "price": "£67,950",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-03-27"
         }
       ],
       "bodyType": "Coupe"
@@ -1186,7 +1190,7 @@
     {
       "id": "57",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£59,950",
+      "price": "£61,970",
       "year": 2000,
       "mileage": "33,100 miles",
       "transmission": "F1 Automated Manual",
@@ -1228,6 +1232,10 @@
         {
           "price": "£61,970",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£59,950",
+          "date": "2026-03-27"
         }
       ],
       "bodyType": "Coupe"
@@ -1805,6 +1813,65 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202410074929152"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2000 Ferrari 360 Modena - Manual",
+      "price": "Sold",
+      "year": 2000,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/082166/AS-03-11-15.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "sold",
+      "soldPrice": "$60,750",
+      "soldDate": "2026-03-26",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2000-ferrari-360-modena-8"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2003 Ferrari 360 Modena",
+      "price": "£82,950",
+      "year": "2003",
+      "mileage": "31,750 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29070866/2003-ferrari-360-69c53dab9e773.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b0640905d4edf22e63e42da145c8759d",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2037311"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "title": "2001 Ferrari 360 Spider",
+      "price": "£72,950",
+      "year": "2001",
+      "mileage": "41,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29070842/2001-ferrari-360-69c53da61ee2a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=327ca66220e1c3753df2f13783c081c3",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2037310"
         }
       ]
     }

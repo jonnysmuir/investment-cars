@@ -149,21 +149,21 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5b57432d57694338ab17c0dadbdd8f72.jpg",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190835950"
         }
       ],
-      "unlistedDate": "2026-03-23"
+      "bodyType": "Coupe"
     },
     {
       "id": "9",
-      "title": "2015 Used  McLaren",
+      "title": "2015 McLaren P1 3.8T V8 4.7kWh SSG Euro 6 2dr",
       "price": "£1,750,000",
       "year": 2015,
-      "mileage": "N/A",
+      "mileage": "118 miles",
       "transmission": "Unknown",
       "image": "https://img.pistonheads.com/LargeSize/mclaren/p1/mclaren-p1-S4943034-1.jpg",
       "featured": false,
@@ -173,9 +173,32 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20107830"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603200869190"
         }
       ],
       "unlistedDate": "2026-03-26"
+    },
+    {
+      "id": "10",
+      "title": "2018 Used  MCLAREN P1",
+      "price": "£1,625,000",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mclaren/p1/3-8t-v8-4-7kwh-coupe-2dr-petrol-plug-in-hybrid-ssg-euro-6-916-ps/mclaren-p1-3-8t-v8-4-7kwh-coupe-2dr-petrol-plug-in-hybrid-ssg-euro-6-916-ps-1419202151-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20104425"
+        }
+      ]
     }
   ]
 }

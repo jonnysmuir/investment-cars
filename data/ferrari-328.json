@@ -772,13 +772,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1605752/1986-ferrari-328-690c82c59c3a1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=f4eb585d9087d1607db0ae24033f825e",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1605752"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "40",
@@ -945,6 +946,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202407041435274"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "1988 Ferrari 328  GTS",
+      "price": "£74,995",
+      "year": "1988",
+      "mileage": "50,424 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2037175/1988-ferrari-328-69c502bd1aa6a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=65a8853cf0ff274828ba696b881f821a",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2037175"
         }
       ]
     }

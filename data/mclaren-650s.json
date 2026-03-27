@@ -386,7 +386,7 @@
     {
       "id": "20",
       "title": "2016 McLaren 650S 3.8T V8 Spider SSG Euro 6 2dr",
-      "price": "£94,999",
+      "price": "£97,995",
       "year": 2016,
       "mileage": "40,000 miles",
       "transmission": "Automatic",
@@ -408,8 +408,13 @@
         {
           "price": "£97,995",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£94,999",
+          "date": "2026-03-27"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "21",
@@ -468,7 +473,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0c120326517a438a981c8d3bf8b9cee3.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -481,7 +486,7 @@
           "date": "2026-03-22"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Convertible"
     },
     {
       "id": "24",
@@ -512,14 +517,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/214d51297770471b832e885ae3c53286.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505011931940"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "26",
@@ -531,14 +535,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4ff991a377e847db953d4554de2dcf8f.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202412036959311"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "27",
@@ -601,14 +604,14 @@
     {
       "id": "30",
       "title": "2014 McLaren 650S 3.8T V8 SSG Euro 5 2dr",
-      "price": "£92,995",
+      "price": "£88,995",
       "year": 2014,
       "mileage": "15,500 miles",
       "transmission": "Unknown",
       "image": "https://m.atcdn.co.uk/a/media/w640/7522d9a9aa064f628a47a54fc4b98b25.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -619,9 +622,12 @@
         {
           "price": "£93,995",
           "date": "2026-03-23"
+        },
+        {
+          "price": "£92,995",
+          "date": "2026-03-27"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "31",
@@ -633,14 +639,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b0f6fbbd24c74bf1943c9ef9894b60cd.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110608989"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Convertible"
     },
     {
       "id": "32",
@@ -652,14 +658,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5148d68df94f4b3aa25cc91857522cd9.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180792567"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Convertible"
     },
     {
       "id": "33",
@@ -677,6 +683,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19674787"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "2015 McLaren 650S V8 Ssg 3.8 2dr Coupe Semi Auto Petrol",
+      "price": "£93,990",
+      "year": 2015,
+      "mileage": "16,600 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/26f67151fc0e41c883a9c0d7c8e39d59.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230921304"
         }
       ]
     }

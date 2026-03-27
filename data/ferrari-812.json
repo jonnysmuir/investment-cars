@@ -1146,13 +1146,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28403339/2018-ferrari-812-superfast-69a7826b616d5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e93f4a10df47f30ff1c554ed13af7a8e",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023734"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "54",
@@ -1526,6 +1527,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160747142"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20143650"
         }
       ]
     },
@@ -1622,6 +1627,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20121267"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "2018 Used  FERRARI 812 SUPERFAST S-A",
+      "price": "£229,995",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps/ferrari-812-superfast-6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps-1418967125-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20139648"
         }
       ]
     }

@@ -4040,7 +4040,7 @@
       "price": "£80,000",
       "year": 2025,
       "mileage": "4,003 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/715f74578fdf4d83b913caab7370d7e7.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -4049,6 +4049,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507114389084"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20145362"
         }
       ],
       "priceHistory": [
@@ -5403,7 +5407,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2028556/2015-bmw-m3-69b1df00475de.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=da38222e00711fe413a56960ac984c92",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -5415,7 +5419,8 @@
           "price": "£26,750",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "265",
@@ -10296,6 +10301,27 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035960"
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "title": "2001 BMW (E46) M3 Convertible - Manual",
+      "price": "Sold",
+      "year": 2001,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/085893/11-03-26-JJBB-06.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "sold",
+      "soldPrice": "€27,000",
+      "soldDate": "2026-03-26",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2001-bmw-e46-m3-convertible-4"
         }
       ]
     }
