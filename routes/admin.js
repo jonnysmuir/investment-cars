@@ -60,8 +60,29 @@ router.get('/stats', async (req, res) => {
       byDay,
     });
   } catch (err) {
-    console.error('Admin stats error:', err.message);
-    res.status(500).json({ error: 'Failed to load stats.' });
+    console.error('Admin stats error:', err);
+    res.status(500).json({
+      error: 'Failed to load stats.',
+      message: err.message,
+      code: err.code || null,
+      errno: err.errno || null,
+    });
+  }
+});
+
+// ── GET /admin/db-check — Database connectivity health check ─────────────────
+router.get('/db-check', async (req, res) => {
+  try {
+    await pool.execute('SELECT 1');
+    res.json({ status: 'connected' });
+  } catch (err) {
+    console.error('DB check error:', err);
+    res.status(500).json({
+      status: 'failed',
+      message: err.message,
+      code: err.code || null,
+      errno: err.errno || null,
+    });
   }
 });
 
