@@ -33,7 +33,7 @@ public/
   index.html                       # Homepage/dashboard
   listings/index.html              # Model listing page
   analysis/index.html              # Analysis/charting page
-  cars/{slug}/                     # 91 individual car model pages
+  cars/{slug}/                     # 111 individual car model pages
   home-1/ through home-4/          # Homepage design iterations
 scripts/
   refresh.js                       # Main orchestrator (dedup, price tracking, unlisted detection)
@@ -44,11 +44,12 @@ scripts/
   generate-analysis-pages.js       # Car model page generator
   generate-ferrari-pages.js        # Ferrari-specific page generator
   generate-mclaren-pages.js        # McLaren-specific page generator
+  generate-lotus-pages.js          # Lotus-specific page generator
   send-email.js                    # Email notification sender
 ```
 
 ## Car Coverage
-91 models across 6 makes: Ferrari (65), McLaren (21), BMW (2: M3, M8), Lamborghini (1: Murciélago), Lexus (1: LFA), Porsche (1: 911).
+111 models across 7 makes: Ferrari (65), McLaren (21), Lotus (20), BMW (2: M3, M8), Lamborghini (1: Murciélago), Lexus (1: LFA), Porsche (1: 911).
 
 ## Data Sources
 **Live Listings (4 scrapers):** PistonHeads, AutoTrader, Cars and Classic, Collecting Cars
@@ -104,12 +105,13 @@ All filtered to GBP/UK market only.
 
 ## Important Patterns
 - When adding a new car model: add entry to `data/models.json` with slug, make, model, hero image, description, and search URLs per source
+- When adding a new make (bulk models): create a `scripts/generate-{make}-pages.js` following the Lotus/McLaren pattern, then run it, then run `generate-analysis-pages.js`, then add entries to `public/analysis/index.html`
 - When adding a new scraper: follow the Playwright + Cheerio pattern used by existing scrapers, respect rate limiting
 - When modifying the frontend: maintain dark/light theme compatibility, use the gold accent for highlights
 - Page generators create static HTML pages per car model — re-run after adding new models
 
 ## Click Tracking System
-- **Outbound links go through `/go`** — all 91 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
+- **Outbound links go through `/go`** — all 111 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
 - **Query params, not path params** — listing IDs are not globally unique (sequential per-model), so the redirect uses query parameters (`url`, `platform`, `year`, `price`, `page`) instead of `/go/:listingId`
 - **Make/model derived server-side** — the `/go` route extracts the slug from the `page` query param and looks up make/model from `models.json` via `getModelsMap()`
 - **Domain allowlist** — `routes/tracking.js` has an `ALLOWED_DOMAINS` array to prevent open-redirect abuse; update it when adding new listing sources
@@ -119,6 +121,7 @@ All filtered to GBP/UK market only.
 - **Prices stored in pence** — `car_price` column is INT representing pence to avoid decimal issues
 - **Admin dashboard** — `/admin/dashboard` uses the same dark theme and gold accent as the main site
 - **DB setup** — run `node db/setup.js` once to create the `click_events` table; uses `CREATE TABLE IF NOT EXISTS`
+- **No debug endpoints in production** — temporary routes like `/admin/db-check` and verbose error details in `/admin/stats` were used during initial DB setup and have been removed. Keep error responses generic (no `err.message`/`err.code` in JSON) to avoid leaking database internals to the browser. Use server-side `console.error` for diagnostics instead.
 
 ## Node.js Environment
 - **Node path**: `~/bin/node` (v22.14.0)
@@ -129,4 +132,8 @@ All filtered to GBP/UK market only.
 - Always test scrapers against live sites as selectors change frequently
 - Keep `models.json` as the single source of truth for car definitions
 - When adding new listing source platforms, update the `ALLOWED_DOMAINS` array in `routes/tracking.js` and the `normalisePlatform()` mapping
-- Page generators (`generate-ferrari-pages.js`, `generate-mclaren-pages.js`) read the Ferrari 458 template — the `trackUrl()` and `renderSourceLinks()` functions are in that template, so changes to tracking link format only need to be made there before re-running generators
+- Page generators (`generate-ferrari-pages.js`, `generate-mclaren-pages.js`, `generate-lotus-pages.js`) read the Ferrari 458 template — the `trackUrl()` and `renderSourceLinks()` functions are in that template, so changes to tracking link format only need to be made there before re-running generators
+- **Hero images must be verified URLs** — when adding new models, do NOT guess Wikimedia Commons filenames. Search for the actual file page on Commons and verify the thumbnail URL returns HTTP 200 before using it. Guessed URLs will 404.
+- **Cars & Classic makeIds** — Ferrari: 20, Porsche: 26, Lamborghini: 497, BMW: 10, McLaren: 2180, Lotus: 29. Find new makeIds by searching `carandclassic.com/list/{makeId}/` or checking the URL when browsing by make.
+- **Analysis index page is manually maintained** — `public/analysis/index.html` has a hardcoded `models` array. New models must be added there manually after running the analysis page generator (`generate-analysis-pages.js`), which only creates individual model pages.
+- **Page generator creates history files** — the Lotus generator (`generate-lotus-pages.js`) creates `data/history/{slug}.json` files (empty arrays) alongside data files. The Ferrari/McLaren generators don't do this — if replicating the pattern for a new make, include history file creation in the generator.
