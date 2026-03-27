@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 /**
+ * @deprecated Use scripts/generate-pages.js instead — the universal page generator
+ * handles all makes from models.json without needing per-make scripts.
+ *
  * generate-lotus-pages.js
  *
  * Generates blank listing pages for 20 road-legal Lotus models by reading the

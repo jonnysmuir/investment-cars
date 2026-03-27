@@ -33,7 +33,7 @@ public/
   index.html                       # Homepage/dashboard
   listings/index.html              # Model listing page
   analysis/index.html              # Analysis/charting page
-  cars/{slug}/                     # 111 individual car model pages
+  cars/{slug}/                     # 169 individual car model pages
   home-1/ through home-4/          # Homepage design iterations
 scripts/
   refresh.js                       # Main orchestrator (dedup, price tracking, unlisted detection)
@@ -41,15 +41,16 @@ scripts/
   scrape-cc-sold.js                # Collecting Cars sold scraper
   scrape-cc-sold-bulk.js           # Collecting Cars bulk sold scraper
   scrape-cac-sold-bulk.js          # Car & Classic bulk sold scraper
-  generate-analysis-pages.js       # Car model page generator
-  generate-ferrari-pages.js        # Ferrari-specific page generator
-  generate-mclaren-pages.js        # McLaren-specific page generator
-  generate-lotus-pages.js          # Lotus-specific page generator
+  generate-pages.js                # Universal page generator (listing + analysis pages for all makes)
+  generate-analysis-pages.js       # Analysis page generator (superseded by generate-pages.js)
+  generate-ferrari-pages.js        # DEPRECATED — use generate-pages.js
+  generate-mclaren-pages.js        # DEPRECATED — use generate-pages.js
+  generate-lotus-pages.js          # DEPRECATED — use generate-pages.js
   send-email.js                    # Email notification sender
 ```
 
 ## Car Coverage
-111 models across 7 makes: Ferrari (65), McLaren (21), Lotus (20), BMW (2: M3, M8), Lamborghini (1: Murciélago), Lexus (1: LFA), Porsche (1: 911).
+169 models across 13 makes: Ferrari (65), McLaren (21), Lotus (20), Porsche (11), BMW (10), Aston Martin (12), Lamborghini (9), Audi (7), Mercedes-AMG (6), Maserati (5), Alpine (2), Lexus (1: LFA).
 
 ## Data Sources
 **Live Listings (4 scrapers):** PistonHeads, AutoTrader, Cars and Classic, Collecting Cars
@@ -111,12 +112,20 @@ All filtered to GBP/UK market only.
 - **When adding a new model with a short or ambiguous name**: always add `excludePatterns` to prevent false positives from related models. Check existing patterns on BMW M3, BMW M8, Porsche 911, McLaren GT/GTS/F1 for examples.
 - **Audit script**: `node scripts/audit-listings.js` scans all existing data files against the current matching logic and generates `scripts/audit-report.md` listing potential false positives.
 
+## Universal Page Generator
+- **`scripts/generate-pages.js`** is the single make-agnostic page generator. It replaces the old per-make generators (ferrari, mclaren, lotus) which are now deprecated.
+- **Usage**: `node scripts/generate-pages.js` (all new), `--slug porsche-boxster` (single), `--make Porsche` (by make), `--force` (overwrite existing)
+- **Generates both listing and analysis pages**, creates data/history files, and auto-updates `public/analysis/index.html` with the full model list.
+- **Default filter config** for new models: getBody returns null (relies on scraped bodyType), getVariant returns 'standard', getTransmission detects manual/DCT/automatic. Filters with only 1 option auto-hide via `minDistinct: 2`.
+- **models.json fields for page generation**: `heroYears`, `heroEngine`, `heroBhp` (hero subtitle), optional `pageConfig` for custom filter functions.
+
 ## Important Patterns
-- When adding a new car model: add entry to `data/models.json` with slug, make, model, hero image, description, and search URLs per source. If the model name is short or ambiguous, add `excludePatterns`.
-- When adding a new make (bulk models): create a `scripts/generate-{make}-pages.js` following the Lotus/McLaren pattern, then run it, then run `generate-analysis-pages.js`, then add entries to `public/analysis/index.html`
+- When adding a new car model: add entry to `data/models.json` with slug, make, model, heroImage, heroCredit, description, heroYears, heroEngine, heroBhp, sources, and excludePatterns if needed. Then run `node scripts/generate-pages.js --slug {slug}`.
+- When adding a new make: just add entries to `models.json` and run `generate-pages.js --make {Make}`. No new script needed.
 - When adding a new scraper: follow the Playwright + Cheerio pattern used by existing scrapers, respect rate limiting
 - When modifying the frontend: maintain dark/light theme compatibility, use the gold accent for highlights
 - Page generators create static HTML pages per car model — re-run after adding new models
+- **Analysis index is auto-updated** by `generate-pages.js` — no manual editing of `public/analysis/index.html` needed.
 
 ## Click Tracking System
 - **Outbound links go through `/go`** — all 111 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
@@ -140,8 +149,7 @@ All filtered to GBP/UK market only.
 - Always test scrapers against live sites as selectors change frequently
 - Keep `models.json` as the single source of truth for car definitions
 - When adding new listing source platforms, update the `ALLOWED_DOMAINS` array in `routes/tracking.js` and the `normalisePlatform()` mapping
-- Page generators (`generate-ferrari-pages.js`, `generate-mclaren-pages.js`, `generate-lotus-pages.js`) read the Ferrari 458 template — the `trackUrl()` and `renderSourceLinks()` functions are in that template, so changes to tracking link format only need to be made there before re-running generators
+- The universal generator (`generate-pages.js`) reads the Ferrari 458 listing template and F430 analysis template — the `trackUrl()` and `renderSourceLinks()` functions are in the 458 template, so changes to tracking link format only need to be made there before re-running the generator.
 - **Hero images must be verified URLs** — when adding new models, do NOT guess Wikimedia Commons filenames. Search for the actual file page on Commons and verify the thumbnail URL returns HTTP 200 before using it. Guessed URLs will 404.
-- **Cars & Classic makeIds** — Ferrari: 20, Porsche: 26, Lamborghini: 497, BMW: 10, McLaren: 2180, Lotus: 29. Find new makeIds by searching `carandclassic.com/list/{makeId}/` or checking the URL when browsing by make.
-- **Analysis index page is manually maintained** — `public/analysis/index.html` has a hardcoded `models` array. New models must be added there manually after running the analysis page generator (`generate-analysis-pages.js`), which only creates individual model pages.
-- **Page generator creates history files** — the Lotus generator (`generate-lotus-pages.js`) creates `data/history/{slug}.json` files (empty arrays) alongside data files. The Ferrari/McLaren generators don't do this — if replicating the pattern for a new make, include history file creation in the generator.
+- **Cars & Classic makeIds** — Aston Martin: 7, BMW: 10, Ferrari: 20, Lamborghini: 26, Lotus: 29, Maserati: 30, Mercedes: 31, Porsche: 35, Audi: 108, Lexus: 497, McLaren: 2180, Alpine: 2158. Find new makeIds by searching `carandclassic.com/list/{makeId}/` or checking the URL when browsing by make.
+- **Analysis index page is auto-updated** by `generate-pages.js` — the hardcoded `models` array in `public/analysis/index.html` is replaced with the full sorted model list from `models.json` every time the generator runs.

@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 /**
+ * @deprecated Use scripts/generate-pages.js instead — the universal page generator
+ * handles all makes from models.json without needing per-make scripts.
+ *
  * generate-ferrari-pages.js
  *
  * Generates blank listing pages for 59 Ferrari base models by reading the
