@@ -788,7 +788,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1882874e78784848b2fb48d90742b364.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -800,7 +800,8 @@
           "price": "£27,995",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "41",
@@ -966,13 +967,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/082d2e69f72740e5a39f7433c8cdc279.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169961311"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "50",
@@ -989,6 +991,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601249399684"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19776960"
         }
       ],
       "bodyType": "Saloon"
@@ -1957,6 +1963,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512188696088"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19514776"
         }
       ],
       "priceHistory": [
@@ -2101,7 +2111,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030375978"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "105",
@@ -2805,7 +2816,7 @@
     {
       "id": "139",
       "title": "2006 BMW M3 3.2i 2dr",
-      "price": "£19,989",
+      "price": "£18,989",
       "year": 2006,
       "mileage": "79,329 miles",
       "transmission": "Unknown",
@@ -2817,6 +2828,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511258124289"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£19,989",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -4086,7 +4103,7 @@
       "price": "£49,990",
       "year": 2021,
       "mileage": "42,802 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/a3180debc2c5497ca542ebc7df0e6db4.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -4313,7 +4330,7 @@
     {
       "id": "212",
       "title": "2018 BMW M3 3.0 BiTurbo Competition DCT Euro 6 (s/s) 4dr",
-      "price": "£29,895",
+      "price": "£30,995",
       "year": 2018,
       "mileage": "67,318 miles",
       "transmission": "F1 Automated Manual",
@@ -4325,6 +4342,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505062086206"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,895",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -4654,7 +4677,7 @@
     {
       "id": "229",
       "title": "2022 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
-      "price": "£65,995",
+      "price": "£65,495",
       "year": 2022,
       "mileage": "21,898 miles",
       "transmission": "Unknown",
@@ -4676,6 +4699,10 @@
         {
           "price": "£66,495",
           "date": "2026-03-19"
+        },
+        {
+          "price": "£65,995",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -4850,13 +4877,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e2c8f8e4261749ecbfd2f7eb6b26f4bf.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509126285849"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "239",
@@ -4933,14 +4961,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/751cf4e25ccd4caa890444fb8fc8a172.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602139898250"
         }
-      ],
-      "unlistedDate": "2026-03-12"
+      ]
     },
     {
       "id": "243",
@@ -5661,7 +5688,7 @@
     {
       "id": "277",
       "title": "2010 BMW M3 4.0 V8 DCT Euro 4 2dr",
-      "price": "£15,350",
+      "price": "£14,995",
       "year": 2010,
       "mileage": "85,950 miles",
       "transmission": "F1 Automated Manual",
@@ -5687,6 +5714,10 @@
         {
           "price": "£15,195",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£15,350",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -5907,13 +5938,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/27211fb83e9548d1a69637c19fa74e84.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200094958"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "289",
@@ -5948,7 +5980,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a7093c0d9484422aa6b30e10653472bb.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -5960,7 +5992,8 @@
           "price": "£69,000",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "291",
@@ -5991,13 +6024,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3cad4fefd80547c5a393d587ef409204.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603040415485"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "293",
@@ -6277,7 +6311,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8c92ca2606e8447495e3c8c00435a7a5.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6289,7 +6323,8 @@
           "price": "£63,990",
           "date": "2026-03-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "307",
@@ -6529,7 +6564,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5f1abf62a4f24d7091257cd9c3cc9d59.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6545,7 +6580,8 @@
           "price": "£59,950",
           "date": "2026-03-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "320",
@@ -6692,13 +6728,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3588e1d3f89842668cff64b83ecfbadf.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601319577500"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "328",
@@ -6728,7 +6765,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/82cd518a2494484d8acc6a0213cb55a6.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6740,7 +6777,8 @@
           "price": "£65,495",
           "date": "2026-03-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "330",
@@ -6752,14 +6790,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d267d409cc654a33914dec7774f8e2c5.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602019595920"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "331",
@@ -7846,7 +7883,7 @@
     },
     {
       "id": "385",
-      "title": "2023 BMW M3 Competition M xDrive Saloon 3.0 4dr",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
       "price": "£66,000",
       "year": 2023,
       "mileage": "18,275 miles",
@@ -7854,14 +7891,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b62210be49af49ff8ff8b616b3b879bd.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030366720"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "386",
@@ -7915,7 +7951,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130686185"
         }
-      ]
+      ],
+      "bodyType": "Saloon"
     },
     {
       "id": "389",
@@ -7938,7 +7975,7 @@
     {
       "id": "390",
       "title": "2012 BMW M3 4.0 iV8 DCT Euro 5 2dr",
-      "price": "£24,995",
+      "price": "£24,495",
       "year": 2012,
       "mileage": "56,000 miles",
       "transmission": "F1 Automated Manual",
@@ -7950,6 +7987,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090532025"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£24,995",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -8173,13 +8216,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fd0aa5a1adfc4e438c9d8c26eb0c2f08.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160746042"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "403",
@@ -8191,13 +8235,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cb649b5aa02e48aeb033f01fd9800c37.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160738630"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "404",
@@ -8227,13 +8272,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b31d07dc65fc48a38138f8f97614548f.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030358766"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "406",
@@ -8529,13 +8575,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cb1c2583965f43099205f4c72519998f.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511187963653"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "422",
@@ -8708,10 +8755,10 @@
     },
     {
       "id": "431",
-      "title": "2023 Used  BMW M4 COMPETITION AUTO",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
       "price": "£52,000",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "57,243 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m4/m4-competition-2dr-step-auto/bmw-m4-m4-competition-2dr-step-auto-1416576322-1.jpg",
       "featured": false,
@@ -8721,6 +8768,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20111013"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602049664275"
         }
       ],
       "unlistedDate": "2026-03-24"
@@ -8981,13 +9032,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7560ecb8424f4ea99fd3fc83636205ec.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210898051"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "446",
@@ -9028,7 +9080,7 @@
     {
       "id": "448",
       "title": "2009 BMW M3 4.0 V8 DCT Euro 4 2dr",
-      "price": "£12,999",
+      "price": "£12,500",
       "year": 2009,
       "mileage": "117,000 miles",
       "transmission": "F1 Automated Manual",
@@ -9040,6 +9092,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200882291"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£12,999",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -9107,13 +9165,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cdc5de1dacb04dff9e7f9fc0c095c816.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170781224"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "453",
@@ -9161,13 +9220,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6609ac3361724738bfeb204be972cc8b.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603010312819"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "456",
@@ -9179,13 +9239,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/18febbe6b11a43d79212845ffd798d6f.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160725312"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "457",
@@ -9197,13 +9258,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a82910ce801c4a80ae21411025478c47.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120639949"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "458",
@@ -9215,13 +9277,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d9be8cb456f64da29fc831f12e4cafe9.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511258129301"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "459",
@@ -9680,13 +9743,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2034899/2004-bmw-m3-69bffc59f41a9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=dbd9e18944f0c96189a201c426a520eb",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2034899"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "484",
@@ -9718,13 +9782,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28981949/1995-bmw-m3-gt-69c1d53ca575d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5a94eed0680953bcddcab702381fbbe4",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035589"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-27"
     },
     {
       "id": "486",
@@ -9752,7 +9817,7 @@
     {
       "id": "487",
       "title": "2024 BMW M3 3.0 BiTurbo Competition Touring Steptronic M xDrive Euro 6 (s/s) 5dr",
-      "price": "£74,990",
+      "price": "£76,999",
       "year": 2024,
       "mileage": "1247 miles",
       "transmission": "Unknown",
@@ -9769,6 +9834,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512248792694"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£74,990",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -10174,7 +10245,7 @@
     {
       "id": "509",
       "title": "2025 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
-      "price": "£71,990",
+      "price": "£71,712",
       "year": 2025,
       "mileage": "2,918 miles",
       "transmission": "Unknown",
@@ -10187,6 +10258,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512238779061"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£71,990",
+          "date": "2026-03-27"
         }
       ]
     },
@@ -10322,6 +10399,424 @@
         {
           "name": "Collecting Cars",
           "url": "https://collectingcars.com/for-sale/2001-bmw-e46-m3-convertible-4"
+        }
+      ]
+    },
+    {
+      "id": "517",
+      "title": "2025 Used  BMW M3 CS XDRIVE AUTO",
+      "price": "£134,995",
+      "year": 2025,
+      "mileage": "1,950 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/bmw/g80-m3-post-21/m3-cs/bmw-g80-m3-post-21-m3-cs-S4932699-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19776368"
+        }
+      ]
+    },
+    {
+      "id": "518",
+      "title": "2026 Used  BMW M3 COMPETITION M XDRIVE AUTO",
+      "price": "£74,950",
+      "year": 2026,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m3/m3-competition-m/bmw-m3-m3-competition-m-1407069565-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19947299"
+        }
+      ]
+    },
+    {
+      "id": "519",
+      "title": "2017 BMW 3.0 M3 Saloon Competition Package 4dr",
+      "price": "£33,999",
+      "year": 2017,
+      "mileage": "53,402 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/1e9dac98c06749d7a428f52951e83ceb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261022933"
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "title": "2010 BMW M3 4.0 iV8 DCT Euro 4 4dr",
+      "price": "£29,989",
+      "year": 2010,
+      "mileage": "74,750 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/56d083a866974df8bf1ec4fd1f75988e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230938099"
+        }
+      ]
+    },
+    {
+      "id": "521",
+      "title": "2003 BMW M3 3.2i Sequential 2dr",
+      "price": "£10,900",
+      "year": 2003,
+      "mileage": "96,200 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/038292d1c1a24dcfbdab6cf5b30ff92b.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261043093"
+        }
+      ]
+    },
+    {
+      "id": "522",
+      "title": "2025 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£73,475",
+      "year": 2025,
+      "mileage": "4,382 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a8e739b0cbb34bd3b795e5da3195717a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603050424889"
+        }
+      ]
+    },
+    {
+      "id": "523",
+      "title": "2004 BMW M3 3.2i Euro 4 2dr",
+      "price": "£16,999",
+      "year": 2004,
+      "mileage": "144,200 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/b0e102b9caa3459193346a874b3ae2a5.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261022155"
+        }
+      ]
+    },
+    {
+      "id": "524",
+      "title": "2008 BMW M3 4.0 iV8 Coupe 2dr Petrol Manual Euro 4 (420 ps)",
+      "price": "£34,980",
+      "year": 2008,
+      "mileage": "41,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/14153a02db254eb787f750935f27d028.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271056960"
+        }
+      ]
+    },
+    {
+      "id": "525",
+      "title": "BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£78,000",
+      "year": null,
+      "mileage": "Loughton (14 miles)",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/260efb4368a04279942dc30256a2f3e1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261020594"
+        }
+      ]
+    },
+    {
+      "id": "526",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£60,100",
+      "year": 2023,
+      "mileage": "36,900 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/bad7ef2a101245d1b87c8a64d5eb5628.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261042545"
+        }
+      ]
+    },
+    {
+      "id": "527",
+      "title": "2012 BMW M3 4.0 iV8 DCT Euro 5 2dr",
+      "price": "£25,995",
+      "year": 2012,
+      "mileage": "55,787 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/6814f33eec894485bf88178b5980d672.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271049063"
+        }
+      ]
+    },
+    {
+      "id": "528",
+      "title": "2021 BMW M3 3.0 BiTurbo Competition Steptronic Euro 6 (s/s) 4dr",
+      "price": "£47,245",
+      "year": 2021,
+      "mileage": "43,860 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a9cf07607af04af995c61c2e8c37584c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261036365"
+        }
+      ]
+    },
+    {
+      "id": "529",
+      "title": "BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£90,890",
+      "year": null,
+      "mileage": "Romford (17 miles)",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/16b76c631a2d4885b86c864efdaaff42.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240972422"
+        }
+      ]
+    },
+    {
+      "id": "530",
+      "title": "2014 BMW M3 3.0 BiTurbo DCT Euro 6 (s/s) 4dr",
+      "price": "£24,995",
+      "year": 2014,
+      "mileage": "39,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/123f323ba31244a0ad4ffa77f3222bfb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261048150"
+        }
+      ]
+    },
+    {
+      "id": "531",
+      "title": "2022 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£59,995",
+      "year": 2022,
+      "mileage": "18,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/81123e119bd24688a8cfb8c8334bf125.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603250980660"
+        }
+      ]
+    },
+    {
+      "id": "532",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£71,495",
+      "year": 2023,
+      "mileage": "10,400 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a4eb03236f6647379671368b1b9f0ed0.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261020884"
+        }
+      ]
+    },
+    {
+      "id": "533",
+      "title": "2019 BMW M3 3.0 BiTurbo CS DCT Euro 6 (s/s) 4dr",
+      "price": "£56,995",
+      "year": 2019,
+      "mileage": "18,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/6c522c42bd0e4985a54175dbc0075052.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512038332501"
+        }
+      ]
+    },
+    {
+      "id": "534",
+      "title": "BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£92,995",
+      "year": null,
+      "mileage": "Reading (37 miles)",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/166e01fc331145efbd50d1e697569db1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603170762875"
+        }
+      ]
+    },
+    {
+      "id": "535",
+      "title": "2024 BMW M3 3.0 BiTurbo Competition Touring Steptronic M xDrive Euro 6 (s/s) 5dr",
+      "price": "£70,471",
+      "year": 2024,
+      "mileage": "12,873 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4a096e67bb9444699afffc4d36c75d46.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602149927207"
+        }
+      ]
+    },
+    {
+      "id": "536",
+      "title": "2008 BMW M3 4.0 iV8 Euro 4 2dr",
+      "price": "£26,890",
+      "year": 2008,
+      "mileage": "74,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d475cc7df41940dfbd99443e1fed95c9.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603030379767"
+        }
+      ]
+    },
+    {
+      "id": "537",
+      "title": "BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
+      "price": "£79,990",
+      "year": null,
+      "mileage": "Enfield (11 miles)",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d65bb382918f47f99d8152d812d49aa2.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230939696"
+        }
+      ]
+    },
+    {
+      "id": "538",
+      "title": "2018 BMW M3 F80 Competition *ManualGearbox*",
+      "price": "£45,995",
+      "year": "2018",
+      "mileage": "15,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2037457/2018-bmw-m3-69c5923e48de7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=df684368cf2d66aee051f521a60ef078",
+      "featured": false,
+      "dateAdded": "2026-03-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2037457"
         }
       ]
     }

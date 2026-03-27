@@ -128,7 +128,9 @@ async function scrapeListing(url, modelConfig) {
       const re = new RegExp(`\\b${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
       return re.test(titleNorm);
     });
-    if (!titleMatchesModel(title, modelConfig) && !matchesGeneration) {
+    // Check exclusion patterns first — these override even generation matches
+    const excluded = (modelConfig.excludePatterns || []).some(p => new RegExp(p, 'i').test(title));
+    if (excluded || (!titleMatchesModel(title, modelConfig) && !matchesGeneration)) {
       const makeModel = `${modelConfig.make} ${modelConfig.model}`.toLowerCase();
       console.warn(`  [PistonHeads] Skipping non-matching listing: "${title}" for ${makeModel}`);
       return null;

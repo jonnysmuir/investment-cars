@@ -236,6 +236,14 @@ function titleMatchesModel(title, modelConfig) {
   const stripAccents = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const titleNorm = stripAccents(title).toLowerCase();
+
+  // 0. Exclusion patterns — reject before any positive matching
+  if (modelConfig.excludePatterns && modelConfig.excludePatterns.length > 0) {
+    for (const pattern of modelConfig.excludePatterns) {
+      if (new RegExp(pattern, 'i').test(title)) return false;
+    }
+  }
+
   const modelName = stripAccents(modelConfig.matchModel || modelConfig.model).toLowerCase();
 
   // 1. Quick contiguous check (spaces stripped)
@@ -251,6 +259,17 @@ function titleMatchesModel(title, modelConfig) {
     const hasDigit = /\d/.test(token);
 
     if (hasDigit) {
+      // For short alphanumeric tokens (e.g. "M3", "F8", "P1"), require exact word
+      // boundary match with NO trailing digits. "M3" must NOT match "M340i" or "M3.0"
+      // but SHOULD match "M3 Competition" or "M3".
+      if (token.length <= 3) {
+        const escaped = esc(token);
+        // Match token at word boundary, optionally followed by alpha (not digits)
+        // e.g. M3 → matches "M3", "M3 Comp", but not "M340", "M3.0"
+        if (new RegExp(`\\b${escaped}(?![0-9.])`, 'i').test(titleNorm)) return true;
+        return false;
+      }
+
       // Allow optional leading single letter + trailing alpha chars.
       // e.g. "f430" matches "F430", "430", "430Spider", "F430Spider"
       const escaped = esc(token);

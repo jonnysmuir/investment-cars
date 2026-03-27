@@ -103,8 +103,16 @@ All filtered to GBP/UK market only.
 - **"Estate" in the global normaliser** covers: "estate", "wagon", "shooting brake" (unambiguous terms only).
 - **BMW M3 body inference** uses door count ("2dr" → Coupe, "4dr" → Saloon) and generation codes (E30/E36/E46/E92 → Coupe, E93 → Convertible, E90/F80/G80 → Saloon, E91/F81/G81 → Estate).
 
+## Title Matching & Exclusion Patterns
+- **`titleMatchesModel()`** in `base.js` is the shared title relevance filter used by all 4 scrapers and the post-scrape validation pass in `refresh.js`.
+- **`excludePatterns`** — an optional array of regex strings in `models.json` per model. If any pattern matches the title, the listing is rejected before positive matching runs. Used for models with short/ambiguous names (M3, M8, 911, GT, F1, F8).
+- **Short token tightening** — alphanumeric tokens ≤3 chars (e.g. "M3", "F8", "P1") require exact word boundary with NO trailing digits. "M3" matches "M3 Competition" but not "M340i" or "M3.0".
+- **Post-scrape validation** in `refresh.js` re-validates all scraped listings as a safety net, tracks rejected/borderline listings, and flags high rejection rates (>30%) as a search URL issue in the summary.
+- **When adding a new model with a short or ambiguous name**: always add `excludePatterns` to prevent false positives from related models. Check existing patterns on BMW M3, BMW M8, Porsche 911, McLaren GT/GTS/F1 for examples.
+- **Audit script**: `node scripts/audit-listings.js` scans all existing data files against the current matching logic and generates `scripts/audit-report.md` listing potential false positives.
+
 ## Important Patterns
-- When adding a new car model: add entry to `data/models.json` with slug, make, model, hero image, description, and search URLs per source
+- When adding a new car model: add entry to `data/models.json` with slug, make, model, hero image, description, and search URLs per source. If the model name is short or ambiguous, add `excludePatterns`.
 - When adding a new make (bulk models): create a `scripts/generate-{make}-pages.js` following the Lotus/McLaren pattern, then run it, then run `generate-analysis-pages.js`, then add entries to `public/analysis/index.html`
 - When adding a new scraper: follow the Playwright + Cheerio pattern used by existing scrapers, respect rate limiting
 - When modifying the frontend: maintain dark/light theme compatibility, use the gold accent for highlights

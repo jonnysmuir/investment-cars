@@ -15,7 +15,7 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, today, sleep } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'Collecting Cars';
 
@@ -103,11 +103,11 @@ async function scrape(sourceConfig, modelConfig) {
 
       if (!title) return;
 
-      // Quick relevance check
-      const titleLower = title.toLowerCase();
-      const modelLower = modelConfig.model.toLowerCase();
-      const makeLower = modelConfig.make.toLowerCase();
-      if (!titleLower.includes(makeLower) && !titleLower.includes(modelLower)) return;
+      // Relevance check using shared title matching logic
+      if (!titleMatchesModel(title, modelConfig)) {
+        console.warn(`  [Collecting Cars] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
+        return;
+      }
 
       const year = extractYear(title);
 
@@ -250,10 +250,12 @@ async function scrapeSold(sourceConfig, modelConfig) {
     const listings = [];
 
     for (const raw of rawListings) {
-      // Relevance check — title or URL must contain make or model
-      const titleLower = raw.title.toLowerCase().replace(/é/g, 'e');
-      const hrefLower = raw.href.toLowerCase();
-      if (!titleLower.includes(modelLower) && !hrefLower.includes(modelLower.replace(/\s+/g, '-'))) continue;
+      // Relevance check using shared title matching logic
+      if (!titleMatchesModel(raw.title, modelConfig)) {
+        // Also check URL slug as fallback (some titles may not contain model name)
+        const hrefLower = raw.href.toLowerCase();
+        if (!hrefLower.includes(modelLower.replace(/\s+/g, '-'))) continue;
+      }
 
       // Skip non-car items (wheels, plates, memorabilia)
       if (/\b(set of\b.*\bwheels?|wheels?\b.*\bset\b|number plate|luggage set|brochure)\b/i.test(raw.title)) continue;

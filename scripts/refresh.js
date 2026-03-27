@@ -13,7 +13,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { parsePrice, parseMileage, formatPrice, sourceUrlToId, today } = require('./scrapers/base');
+const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, today } = require('./scrapers/base');
 
 // ── Scrapers ──────────────────────────────────────────────────────────────
 const pistonheads = require('./scrapers/pistonheads');
@@ -196,6 +196,84 @@ async function processModel(modelConfig) {
   }
 
   console.log(`  Total scraped: ${scrapedListings.length} listings from all sources`);
+
+  // ── Post-scrape validation ─────────────────────────────────────────────
+  // Re-validate all scraped listings through titleMatchesModel + excludePatterns.
+  // Scrapers already do this, but this is a safety net that also catches
+  // borderline cases and tracks rejection rates.
+  const preValidationCount = scrapedListings.length;
+  const rejected = [];
+  const borderline = [];
+  for (let i = scrapedListings.length - 1; i >= 0; i--) {
+    const listing = scrapedListings[i];
+    const title = listing.title || '';
+
+    // Check exclude patterns
+    const excluded = (modelConfig.excludePatterns || []).some(p => new RegExp(p, 'i').test(title));
+    if (excluded) {
+      rejected.push({ title, source: listing.sourceName, reason: 'excludePattern' });
+      scrapedListings.splice(i, 1);
+      continue;
+    }
+
+    // Check title matches model
+    if (!titleMatchesModel(title, modelConfig)) {
+      // Also allow generation pattern matches (same logic as PistonHeads)
+      const genPatterns = (modelConfig.generations || []).flatMap(g => g.patterns || []).map(p => p.toLowerCase());
+      const titleNorm = title.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      const matchesGen = genPatterns.some(p => {
+        const re = new RegExp(`\\b${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+        return re.test(titleNorm);
+      });
+      if (!matchesGen) {
+        rejected.push({ title, source: listing.sourceName, reason: 'titleMatchesModel' });
+        scrapedListings.splice(i, 1);
+        continue;
+      }
+    }
+
+    // Borderline check: title contains a different model from the same make
+    const makeLower = modelConfig.make.toLowerCase();
+    const modelLower = (modelConfig.matchModel || modelConfig.model).toLowerCase();
+    if (title.toLowerCase().includes(makeLower)) {
+      // Look for other model identifiers from the same make that aren't our model
+      const otherModelPattern = new RegExp(`\\b${makeLower}\\s+(\\S+)`, 'i');
+      const match = title.match(otherModelPattern);
+      if (match && match[1].toLowerCase() !== modelLower && !modelLower.includes(match[1].toLowerCase())) {
+        borderline.push({ title, source: listing.sourceName, detected: match[1] });
+      }
+    }
+  }
+
+  const rejectedCount = preValidationCount - scrapedListings.length;
+  if (rejectedCount > 0) {
+    console.log(`  Post-validation: rejected ${rejectedCount}/${preValidationCount} listings`);
+    for (const r of rejected) {
+      console.log(`    ✗ "${r.title}" (${r.source}) — ${r.reason}`);
+    }
+    result.notices.push(`Post-validation rejected ${rejectedCount}/${preValidationCount} scraped listings`);
+    result.rejectedListings = rejected;
+  }
+  if (borderline.length > 0) {
+    console.log(`  Borderline listings (${borderline.length}):`);
+    for (const b of borderline) {
+      console.log(`    ? "${b.title}" (${b.source}) — detected "${b.detected}"`);
+    }
+    result.borderlineListings = borderline;
+  }
+
+  // Flag high rejection rate as a potential search URL issue
+  if (preValidationCount > 0) {
+    const rejectionRate = rejectedCount / preValidationCount;
+    if (rejectionRate > 0.3) {
+      const pct = Math.round(rejectionRate * 100);
+      const msg = `High rejection rate: ${pct}% of scraped listings rejected — search URLs may need tightening`;
+      console.warn(`  ⚠ ${msg}`);
+      result.notices.push(msg);
+    }
+  }
+
+  console.log(`  Validated: ${scrapedListings.length} listings passed post-validation`);
 
   // ── Scrape Collecting Cars sold results ────────────────────────────────
   if (sources.collectingcars) {
@@ -622,9 +700,27 @@ function generateSummaryMarkdown(summary) {
 
   // Details
   for (const m of summary.models) {
-    if (m.newCount === 0 && m.updatedCount === 0 && m.unlistedCount === 0 && m.errors.length === 0) continue;
+    const hasRejected = m.rejectedListings && m.rejectedListings.length > 0;
+    const hasBorderline = m.borderlineListings && m.borderlineListings.length > 0;
+    if (m.newCount === 0 && m.updatedCount === 0 && m.unlistedCount === 0 && m.errors.length === 0 && !hasRejected && !hasBorderline) continue;
 
     lines.push(`### ${m.make} ${m.model}\n`);
+
+    if (hasRejected) {
+      lines.push('**Rejected listings (false positives filtered):**');
+      for (const r of m.rejectedListings) {
+        lines.push(`- ✗ ${r.title} (via ${r.source}) — ${r.reason}`);
+      }
+      lines.push('');
+    }
+
+    if (hasBorderline) {
+      lines.push('**Borderline listings (review recommended):**');
+      for (const b of m.borderlineListings) {
+        lines.push(`- ? ${b.title} (via ${b.source}) — detected "${b.detected}"`);
+      }
+      lines.push('');
+    }
 
     if (m.newListings.length > 0) {
       lines.push('**New listings:**');
