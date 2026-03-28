@@ -88,9 +88,10 @@ All filtered to GBP/UK market only.
 2. Installs Playwright Chromium
 3. Runs `scripts/refresh.js` across all models
 4. Commits data changes as "Collectorly Bot"
-5. Creates a GitHub Issue with refresh summary
+5. Creates a GitHub Issue with refresh summary (truncated to ~64K chars if needed; full summary always available as workflow artifact)
 6. Sends email notification via Gmail
 7. Safeguard against mass unlisting from scraper failures
+- **Summary optimisation**: The summary table only includes models with activity (new/updated/unlisted/errors). Zero-change models are counted but omitted to keep the issue body within GitHub's 65536 char limit.
 
 ## Body Type Conventions
 - **`bodyType` is a scraped field** stored on each listing (like mileage and transmission). All 4 scrapers extract it via `normaliseBodyType()` in `base.js`, with structured data preferred and title inference as fallback.

@@ -690,13 +690,24 @@ function generateSummaryMarkdown(summary) {
     return lines.join('\n');
   }
 
-  // Summary table
-  lines.push('| Model | New | Price Updates | No Longer Listed | Errors |');
-  lines.push('|-------|-----|-------------|-----------------|--------|');
-  for (const m of summary.models) {
-    lines.push(`| ${m.make} ${m.model} | ${m.newCount} | ${m.updatedCount} | ${m.unlistedCount} | ${m.errors.length} |`);
+  // Summary totals
+  lines.push(`**Totals:** ${summary.totalNew} new | ${summary.totalUpdated} price updates | ${summary.totalUnlisted} no longer listed | ${summary.totalErrors} errors\n`);
+
+  // Summary table — only models with activity
+  const activeModels = summary.models.filter(m => m.newCount > 0 || m.updatedCount > 0 || m.unlistedCount > 0 || m.errors.length > 0);
+  if (activeModels.length > 0) {
+    lines.push('| Model | New | Price Updates | No Longer Listed | Errors |');
+    lines.push('|-------|-----|-------------|-----------------|--------|');
+    for (const m of activeModels) {
+      lines.push(`| ${m.make} ${m.model} | ${m.newCount} | ${m.updatedCount} | ${m.unlistedCount} | ${m.errors.length} |`);
+    }
+    lines.push('');
   }
-  lines.push('');
+
+  const inactiveCount = summary.models.length - activeModels.length;
+  if (inactiveCount > 0) {
+    lines.push(`*${inactiveCount} models with no changes omitted.*\n`);
+  }
 
   // Details
   for (const m of summary.models) {
@@ -756,7 +767,15 @@ function generateSummaryMarkdown(summary) {
     }
   }
 
-  return lines.join('\n');
+  let result = lines.join('\n');
+
+  // GitHub Issues have a 65536 character body limit — truncate if needed
+  const MAX_ISSUE_CHARS = 64000; // leave headroom
+  if (result.length > MAX_ISSUE_CHARS) {
+    result = result.slice(0, MAX_ISSUE_CHARS) + '\n\n---\n*Summary truncated — full details in the workflow artifact.*\n';
+  }
+
+  return result;
 }
 
 // ── Email Summary (plain text for nodemailer) ─────────────────────────────
