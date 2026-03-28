@@ -167,7 +167,7 @@
         "price": 41989,
         "year": 2022,
         "mileage": 54550,
-        "transmission": "Unknown",
+        "transmission": "Automatic",
         "status": "active"
       },
       {
@@ -272,6 +272,30 @@
         "year": "2025",
         "mileage": 9000,
         "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "45",
+        "price": 42498,
+        "year": 2021,
+        "mileage": null,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "46",
+        "price": 47995,
+        "year": 2022,
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "47",
+        "price": 44700,
+        "year": 2021,
+        "mileage": null,
+        "transmission": "Unknown",
         "status": "active"
       }
     ]

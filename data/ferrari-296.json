@@ -803,13 +803,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f8fecd034813433abf5599178c75edda.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250206775"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-28"
     },
     {
       "id": "39",
@@ -827,7 +828,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510177231412"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "40",
@@ -878,18 +880,19 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts-spider/ferrari-296-gts-spider-1418316109-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-25",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20131172"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-28"
     },
     {
       "id": "43",
       "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh Coupe 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
-      "price": "£188,900",
+      "price": "£185,950",
       "year": 2023,
       "mileage": "2450 miles",
       "transmission": "Automatic",
@@ -906,6 +909,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230928804"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£188,900",
+          "date": "2026-03-28"
         }
       ]
     },
@@ -1020,6 +1029,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2037538"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "price": "£259,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts-spider/ferrari-296-gts-spider-1406828896-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19949978"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "2022 Ferrari 296 GTB 2dr Auto 3.0",
+      "price": "£189,000",
+      "year": 2022,
+      "mileage": "6,155 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/19563bf55c81410db220e171b27c06fc.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601159165513"
         }
       ]
     }

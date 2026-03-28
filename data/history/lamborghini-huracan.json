@@ -143,7 +143,7 @@
         "price": 149750,
         "year": 2018,
         "mileage": 4000,
-        "transmission": "Unknown",
+        "transmission": "6-Speed Manual",
         "status": "active"
       },
       {
@@ -151,7 +151,7 @@
         "price": 254995,
         "year": 2023,
         "mileage": 1600,
-        "transmission": "Unknown",
+        "transmission": "Automatic",
         "status": "active"
       },
       {
@@ -272,6 +272,30 @@
         "year": "2014",
         "mileage": 34700,
         "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "71",
+        "price": 119950,
+        "year": 2014,
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "72",
+        "price": 139995,
+        "year": 2017,
+        "mileage": 20900,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "73",
+        "price": 164995,
+        "year": 2016,
+        "mileage": null,
+        "transmission": "Unknown",
         "status": "active"
       }
     ]
