@@ -516,7 +516,7 @@
       "price": "£124,900",
       "year": 2023,
       "mileage": "8,852 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w640/7338afa83d5e4818a2346ffae2af6f58.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -596,7 +596,7 @@
     {
       "id": "24",
       "title": "2024 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps)",
-      "price": "£156,990",
+      "price": "£149,950",
       "year": 2024,
       "mileage": "2,019 miles",
       "transmission": "Unknown",
@@ -612,6 +612,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20139446"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£156,990",
+          "date": "2026-03-28"
         }
       ]
     },
@@ -937,6 +943,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2037575"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "2023 McLaren Artura",
+      "price": "£124,900",
+      "year": "2023",
+      "mileage": "15,878 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29116185/2023-mclaren-artura-69c720834be42.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1574e13561a4882b78dbc883d6ea57d7",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2038067"
         }
       ]
     }

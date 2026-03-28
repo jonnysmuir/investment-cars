@@ -686,12 +686,13 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509246588257"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "35",
       "title": "1999 Ferrari 550 5.5 Maranello Coupe 2dr Petrol Manual (558 g/km, 485 bhp)",
-      "price": "£109,850",
+      "price": "£114,950",
       "year": 1999,
       "mileage": "26,000 miles",
       "transmission": "6-Speed Manual",
@@ -717,8 +718,13 @@
         {
           "price": "£114,950",
           "date": "2026-03-24"
+        },
+        {
+          "price": "£109,850",
+          "date": "2026-03-28"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "36",
@@ -748,14 +754,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/cf49dc186c1a4b99a14ede5c6a742139.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512188692222"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "38",
@@ -767,14 +772,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/2fd593da9f0e4432b2fc396d98c0e305.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200089060"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "39",
@@ -1106,6 +1110,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035608"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "2000 Ferrari 550 5.5 Maranello Coupe 2dr Petrol Manual (558 g/km, 485 bhp)",
+      "price": "£145,000",
+      "year": 2000,
+      "mileage": "30,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5633627880884cdc94c15c97cd59461c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202402066299320"
         }
       ]
     }

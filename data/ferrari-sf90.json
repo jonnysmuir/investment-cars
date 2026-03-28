@@ -293,7 +293,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/ferrari-sf90-1399278732-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -306,7 +306,8 @@
           "date": "2026-03-16"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-03-28"
     },
     {
       "id": "16",
@@ -368,11 +369,11 @@
     },
     {
       "id": "19",
-      "title": "2021 Used  FERRARI SF90 - STRADALE",
+      "title": "2021 Ferrari SF90 Stradale 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
       "price": "£289,850",
       "year": 2021,
       "mileage": "6,500 miles",
-      "transmission": "Unknown",
+      "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/4-0t-v8-7-9kwh-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6-s-s--986-ps/ferrari-sf90-4-0t-v8-7-9kwh-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6-s-s--986-ps-1407399375-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -381,6 +382,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19962585"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603160745863"
         }
       ],
       "unlistedDate": "2026-03-25"
@@ -433,7 +438,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider/ferrari-sf90-spider-S4938434-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -446,7 +451,7 @@
           "date": "2026-03-13"
         }
       ],
-      "unlistedDate": "2026-03-19"
+      "bodyType": "Convertible"
     },
     {
       "id": "23",
@@ -801,13 +806,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/4-0t-v8-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6/ferrari-sf90-4-0t-v8-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6-1390282434-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18826112"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-28"
     },
     {
       "id": "42",
@@ -1103,6 +1109,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20128984"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "2025 Used  FERRARI SF90 XX STRADALE S-A",
+      "price": "£1,299,000",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/stradale-xx/ferrari-sf90-stradale-xx-1419621036-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20154355"
         }
       ]
     }

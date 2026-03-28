@@ -1243,7 +1243,7 @@
     {
       "id": "63",
       "title": "2006 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
-      "price": "£67,900",
+      "price": "£64,995",
       "year": 2006,
       "mileage": "55,480 miles",
       "transmission": "Automatic",
@@ -1261,7 +1261,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19111010"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£67,900",
+          "date": "2026-03-28"
+        }
+      ]
     },
     {
       "id": "64",
@@ -1319,6 +1325,63 @@
         }
       ],
       "unlistedDate": "2026-03-27"
+    },
+    {
+      "id": "67",
+      "title": "2005 Ferrari 612 5.7 Scaglietti Coupe 2dr Petrol Manual (475 g/km, 532 bhp)",
+      "price": "£129,990",
+      "year": 2005,
+      "mileage": "36,772 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/31b2f38d3f1c49dca8875ca4c3633196.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271073519"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "2006 Ferrari 612 Scaglietti F1 5.7 2dr",
+      "price": "£64,995",
+      "year": 2006,
+      "mileage": "31,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/d7e4d4c6f724441f838c9179808b978f.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603250998795"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2006 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
+      "price": "£67,900",
+      "year": 2006,
+      "mileage": "55,480 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d5a35cdd5548486892ceb706eeb38e14.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240958702"
+        }
+      ]
     }
   ]
 }

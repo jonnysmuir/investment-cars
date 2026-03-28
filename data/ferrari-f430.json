@@ -235,7 +235,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/430-coupe/f1/ferrari-430-coupe-f1-S4933281-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -245,7 +245,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1950983"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-28"
     },
     {
       "id": "17",
@@ -513,7 +514,7 @@
     {
       "id": "31",
       "title": "2008 Ferrari F430 Spider F1",
-      "price": "£119,950",
+      "price": "£99,950",
       "year": 2008,
       "mileage": "20,250 miles",
       "transmission": "F1 Automated Manual",
@@ -525,6 +526,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19398624"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£119,950",
+          "date": "2026-03-28"
         }
       ]
     },
@@ -2214,6 +2221,111 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20131666"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2009 Ferrari 430 Scuderia 16M - One Owner - HK Registered",
+      "price": "Sold",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/085778/Image-3-HERO.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2026-03-19",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2009-ferrari-430-scuderia-16m-7"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2008 Ferrari 430 Scuderia - HK Registered",
+      "price": "Sold",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/083229/AS-08-12-10.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2025-12-18",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2008-ferrari-430-scuderia-24"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2009 Ferrari 430 Scuderia 16M",
+      "price": "Sold",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/082461/IMG-8620-new.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2025-11-21",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2009-ferrari-430-scuderia-16m-6"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2007 Ferrari 430 Scuderia",
+      "price": "Sold",
+      "year": 2007,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/080781/25-09-25-JJBB-08.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2025-10-07",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2007-ferrari-430-scuderia"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2008 Ferrari 430 Scuderia",
+      "price": "Sold",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/064869/mainimage.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-28",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2024-06-25",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2008-ferrari-430-scuderia-20"
         }
       ]
     }
