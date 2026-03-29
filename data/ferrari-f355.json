@@ -433,13 +433,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/berlinetta-manual-rhd-11k/ferrari-f355-berlinetta-manual-rhd-11k-1350311105-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19301377"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-29"
     },
     {
       "id": "23",
@@ -756,13 +757,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-29"
     },
     {
       "id": "39",
@@ -869,14 +871,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1966915/1998-ferrari-f355-6903d99733bdf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b375ce9e457eaefb8322175f7ad46152",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1966915"
         }
-      ],
-      "unlistedDate": "2026-03-27"
+      ]
     },
     {
       "id": "45",
@@ -1450,6 +1451,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2037686"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "title": "1998 Ferrari F355",
+      "price": "£125,000",
+      "year": "1998",
+      "mileage": "10,300 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29136514/1998-ferrari-355-69c7fd41dad7e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8626f9b6ff4e38768f6ee86019174d85",
+      "featured": false,
+      "dateAdded": "2026-03-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2038468"
         }
       ]
     }

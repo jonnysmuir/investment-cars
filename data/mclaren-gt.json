@@ -682,13 +682,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/gts/mclaren-gts-1409918311-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19754010"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-29"
     },
     {
       "id": "21",
@@ -846,7 +847,7 @@
     {
       "id": "25",
       "title": "2023 McLaren GT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (6",
-      "price": "£118,490",
+      "price": "£117,990",
       "year": "2023",
       "mileage": "2,609 miles",
       "transmission": "Automatic",
@@ -868,13 +869,17 @@
         {
           "price": "£118,450",
           "date": "2026-03-14"
+        },
+        {
+          "price": "£118,490",
+          "date": "2026-03-29"
         }
       ]
     },
     {
       "id": "26",
       "title": "2025 McLaren GT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (6",
-      "price": "£148,500",
+      "price": "£147,990",
       "year": "2025",
       "mileage": "1,571 miles",
       "transmission": "Automatic",
@@ -892,6 +897,10 @@
         {
           "price": "£154,990",
           "date": "2026-03-10"
+        },
+        {
+          "price": "£148,500",
+          "date": "2026-03-29"
         }
       ]
     },

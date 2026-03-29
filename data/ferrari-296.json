@@ -319,7 +319,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1897348/2025-ferrari-296-684c493eb3594.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d2096e7adf4714e9c87675df68b4cdd3",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -331,7 +331,8 @@
           "price": "£244,995",
           "date": "2026-03-14"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-29"
     },
     {
       "id": "18",
@@ -1067,6 +1068,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601159165513"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "price": "£259,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts-spider/ferrari-296-gts-spider-1420074318-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20162800"
         }
       ]
     }
