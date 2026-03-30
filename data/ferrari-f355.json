@@ -462,7 +462,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507104365807"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "24",
@@ -530,7 +531,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4940298-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -541,7 +542,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202507144450975"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Convertible"
     },
     {
       "id": "28",
@@ -553,14 +554,13 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/challenge/ferrari-355-challenge-1332481920-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18616652"
         }
-      ],
-      "unlistedDate": "2026-03-26"
+      ]
     },
     {
       "id": "29",
@@ -572,14 +572,13 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4933063-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18470723"
         }
-      ],
-      "unlistedDate": "2026-03-25"
+      ]
     },
     {
       "id": "30",
@@ -918,7 +917,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508125352150"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "47",
@@ -985,14 +985,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
         }
-      ],
-      "unlistedDate": "2026-03-27"
+      ]
     },
     {
       "id": "51",
@@ -1052,7 +1051,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210895129"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "54",
@@ -1064,14 +1064,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/bae11c99262543bc9bd3e36fd51a21e2.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140705904"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Convertible"
     },
     {
       "id": "55",
@@ -1083,52 +1083,64 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7834176e9feb4a398350e473e1832057.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202304266694126"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": "Coupe"
     },
     {
       "id": "56",
       "title": "1999 Ferrari F355 3.5 Spider 2dr",
-      "price": "£108,995",
+      "price": "£104,995",
       "year": 1999,
       "mileage": "22,980 miles",
       "transmission": "Unknown",
       "image": "https://m.atcdn.co.uk/a/media/w640/f54ddace2d9e4441bada9509124ffb80.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180804891"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "priceHistory": [
+        {
+          "price": "£108,995",
+          "date": "2026-03-30"
+        }
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "57",
       "title": "2000 Ferrari F355 3.5 Berlinetta Coupe 2dr Petrol Manual (395 g/km, 375 bhp)",
-      "price": "£149,495",
+      "price": "£144,995",
       "year": 2000,
       "mileage": "40,900 miles",
       "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w640/52e323202ba944bfb07448b30c7d45d8.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149933625"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "priceHistory": [
+        {
+          "price": "£149,495",
+          "date": "2026-03-30"
+        }
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "58",
@@ -1418,12 +1430,12 @@
     },
     {
       "id": "72",
-      "title": "1996 Used  FERRARI F355",
+      "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
       "price": "£169,990",
       "year": 1996,
-      "mileage": "N/A",
+      "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/3-5-berlinetta-2dr/ferrari-f355-3-5-berlinetta-2dr-1419848339-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1432,6 +1444,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20151718"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603100585718"
         }
       ]
     },
@@ -1470,6 +1486,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038468"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "1997 Ferrari F355 3.5 GTS Convertible 2dr Petrol Manual (395 g/km, 375 bhp)",
+      "price": "£124,990",
+      "year": 1997,
+      "mileage": "50,625 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/652902cc948c44aabf3e5c380f048990.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261023418"
         }
       ]
     }

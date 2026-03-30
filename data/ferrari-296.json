@@ -746,13 +746,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b2f790ed5b1e4bd48da796b9e90bb3f1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020333312"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "36",
@@ -764,7 +765,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/8fe41f2edd7b44c98eb066f73862bb47.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -774,7 +775,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20130121"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "37",
@@ -930,13 +932,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gts/3-0t-v6-7-45kwh-spider-f1-dct-830-ps/ferrari-296-gts-3-0t-v6-7-45kwh-spider-f1-dct-830-ps-1416354651-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19996692"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "45",
@@ -949,13 +952,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts/ferrari-296-gts-1419287490-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20148530"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "46",
@@ -968,13 +972,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gtb/gtb/ferrari-296-gtb-gtb-S4944386-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20145246"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "47",
@@ -987,13 +992,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts/ferrari-296-gts-1419137058-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19811401"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "48",
@@ -1087,6 +1093,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20162800"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "price": "£289,990",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296/ferrari-296-1332527238-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19062184"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "price": "£249,995",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gts/gts/ferrari-296-gts-gts-S4938682-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19963437"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "title": "2025 Used  FERRARI 296 GTS S-A",
+      "price": "£329,995",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gts/3-0t-v6-spider-f1-dct-euro-6-s-s-2dr-7-45kwh/ferrari-296-gts-3-0t-v6-spider-f1-dct-euro-6-s-s-2dr-7-45kwh-1420726141-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18470633"
         }
       ]
     }
