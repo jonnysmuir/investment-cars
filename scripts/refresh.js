@@ -9,11 +9,12 @@
  * Usage:
  *   node scripts/refresh.js                    # refresh all models
  *   node scripts/refresh.js --slug ferrari-f430  # refresh one model
+ *   node scripts/refresh.js --make BMW           # refresh all models for a make
  */
 
 const fs = require('fs');
 const path = require('path');
-const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, today } = require('./scrapers/base');
+const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, today, sleep } = require('./scrapers/base');
 
 // ── Scrapers ──────────────────────────────────────────────────────────────
 const pistonheads = require('./scrapers/pistonheads');
@@ -47,6 +48,7 @@ async function main() {
   // Parse args
   const args = process.argv.slice(2);
   const slugFilter = args.includes('--slug') ? args[args.indexOf('--slug') + 1] : null;
+  const makeFilter = args.includes('--make') ? args[args.indexOf('--make') + 1] : null;
 
   // Load model registry
   const modelsData = JSON.parse(fs.readFileSync(MODELS_FILE, 'utf8'));
@@ -58,6 +60,13 @@ async function main() {
       console.error(`No model found with slug: ${slugFilter}`);
       process.exit(1);
     }
+  } else if (makeFilter) {
+    models = models.filter(m => m.make.toLowerCase() === makeFilter.toLowerCase());
+    if (models.length === 0) {
+      console.error(`No models found for make: ${makeFilter}`);
+      process.exit(1);
+    }
+    console.log(`Filtered to make: ${makeFilter} (${models.length} models)\n`);
   }
 
   // Ensure state directory exists
@@ -73,6 +82,58 @@ async function main() {
     hasChanges: false,
   };
 
+  // ── AutoTrader make-level batching ──────────────────────────────────────
+  // For full refreshes (no --slug), batch AutoTrader by make to reduce requests.
+  // Single-model refreshes use the per-model scrape path.
+  const isSingleModel = !!slugFilter;
+  let autotraderBatchResults = {};  // slug → listings
+
+  if (!isSingleModel) {
+    // Group models by make for AutoTrader batching
+    const makeGroups = {};
+    for (const mc of models) {
+      if (!mc.sources?.autotrader) continue;
+      const make = mc.make;
+      if (!makeGroups[make]) makeGroups[make] = [];
+      makeGroups[make].push(mc);
+    }
+
+    const makes = Object.keys(makeGroups);
+    // Randomise make order so scrape pattern differs each day
+    for (let i = makes.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [makes[i], makes[j]] = [makes[j], makes[i]];
+    }
+
+    console.log(`\n═══ AutoTrader Make-Level Batch Scrape ═══`);
+    console.log(`Processing ${makes.length} makes: ${makes.join(', ')}\n`);
+
+    for (const make of makes) {
+      const modelConfigs = makeGroups[make];
+      try {
+        const results = await autotrader.scrapeMake(make, modelConfigs);
+        Object.assign(autotraderBatchResults, results);
+      } catch (err) {
+        console.error(`  [AutoTrader Batch] Fatal error for ${make}: ${err.message}`);
+        // Initialise empty results for all models in this make
+        for (const mc of modelConfigs) {
+          if (!autotraderBatchResults[mc.slug]) {
+            autotraderBatchResults[mc.slug] = [];
+          }
+        }
+      }
+
+      // Randomised delay between makes (10-20 seconds)
+      if (makes.indexOf(make) < makes.length - 1) {
+        const delayMs = 10000 + Math.random() * 10000;
+        console.log(`  [AutoTrader Batch] Waiting ${Math.round(delayMs / 1000)}s before next make...\n`);
+        await sleep(delayMs);
+      }
+    }
+
+    console.log(`\n═══ Per-Model Scrape (non-AutoTrader sources) ═══\n`);
+  }
+
   // Process each model (skip models with no scraper sources configured)
   let skippedCount = 0;
   for (const modelConfig of models) {
@@ -84,7 +145,7 @@ async function main() {
 
     console.log(`\n── ${modelConfig.make} ${modelConfig.model} ──`);
 
-    const modelSummary = await processModel(modelConfig);
+    const modelSummary = await processModel(modelConfig, isSingleModel, autotraderBatchResults);
     summary.models.push(modelSummary);
     summary.totalNew += modelSummary.newCount;
     summary.totalUpdated += modelSummary.updatedCount;
@@ -133,7 +194,7 @@ async function main() {
 }
 
 // ── Process a Single Model ────────────────────────────────────────────────
-async function processModel(modelConfig) {
+async function processModel(modelConfig, isSingleModel, autotraderBatchResults) {
   const { slug, sources } = modelConfig;
 
   const result = {
@@ -176,14 +237,27 @@ async function processModel(modelConfig) {
     state = { missingSince: {} }; // sourceUrl → { count, firstMissed }
   }
 
-  // Run all configured scrapers for this model
+  // Run scrapers for this model
   const scrapedListings = [];
 
   for (const [sourceName, sourceConfig] of Object.entries(sources)) {
+    // For AutoTrader in batch mode, use pre-scraped results
+    if (sourceName === 'autotrader' && !isSingleModel && autotraderBatchResults[slug]) {
+      const batchListings = autotraderBatchResults[slug];
+      scrapedListings.push(...batchListings);
+      console.log(`  [AutoTrader] ${batchListings.length} listings (from make-level batch)`);
+      continue;
+    }
+
     const scraper = SCRAPERS[sourceName];
     if (!scraper) {
       console.warn(`  Unknown scraper: ${sourceName}`);
       continue;
+    }
+
+    // Add randomised delay between scraper calls for anti-detection
+    if (scrapedListings.length > 0) {
+      await sleep(2000 + Math.random() * 3000);
     }
 
     try {
@@ -623,8 +697,6 @@ function findDuplicate(scraped, existingListings) {
     if (existing.status === 'sold') continue;
 
     // Never merge with a listing that already has a source from the same site.
-    // If Cars & Classic has 5 listings, they are 5 different cars, not duplicates.
-    // Duplicates are the *same* car appearing on *different* sites.
     if (existing.sources.some(s => s.name === scraped.sourceName)) continue;
 
     // Year must match

@@ -11,10 +11,17 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'Cars & Classic';
 const MAX_PAGES = 10;
+
+/**
+ * Randomised delay for anti-detection.
+ */
+function randomDelay(minMs, maxMs) {
+  return sleep(minMs + Math.random() * (maxMs - minMs));
+}
 
 /**
  * Fetch and parse a single page of Cars & Classic listings.
@@ -82,6 +89,7 @@ async function scrape(sourceConfig, modelConfig) {
   for (const baseUrl of urlsToTry) {
     const isSearch = baseUrl.includes('/search?');
     for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+      if (pageNum > 1) await randomDelay(3000, 8000);
       const pageUrl = pageNum > 1
         ? (isSearch ? `${baseUrl}&page=${pageNum}` : `${baseUrl}?page=${pageNum}`)
         : baseUrl;

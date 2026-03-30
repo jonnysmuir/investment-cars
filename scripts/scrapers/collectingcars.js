@@ -29,6 +29,25 @@ async function getBrowser() {
   return browser;
 }
 
+/**
+ * Create a fresh browser context with realistic fingerprinting.
+ */
+async function createContext(b) {
+  return b.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    viewport: { width: 1366, height: 768 },
+    locale: 'en-GB',
+    timezoneId: 'Europe/London',
+  });
+}
+
+/**
+ * Randomised delay for anti-detection.
+ */
+function randomDelay(minMs, maxMs) {
+  return sleep(minMs + Math.random() * (maxMs - minMs));
+}
+
 async function closeBrowser() {
   if (browser) {
     await browser.close();
@@ -174,17 +193,14 @@ async function scrapeSold(sourceConfig, modelConfig) {
   console.log(`  [Collecting Cars Sold] Searching for: ${searchQuery}`);
 
   const b = await getBrowser();
-  const context = await b.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    locale: 'en-GB',
-  });
+  const context = await createContext(b);
   const page = await context.newPage();
 
   try {
     // Navigate to the sold results page
     const url = 'https://collectingcars.com/buy/?refinementList%5BlistingStage%5D%5B0%5D=sold';
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await sleep(5000);
+    await randomDelay(4000, 7000);
 
     // Type search query to filter by make+model
     const searchInput = await page.$('input[type="search"], input[placeholder*="Search"], input[class*="search"]');
@@ -193,13 +209,13 @@ async function scrapeSold(sourceConfig, modelConfig) {
       return [];
     }
     await searchInput.fill(searchQuery);
-    await sleep(4000);
+    await randomDelay(3000, 6000);
 
     // Scroll to load all results (handles lazy loading / infinite scroll)
     let prevCount = 0;
     for (let i = 0; i < 10; i++) {
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-      await sleep(2000);
+      await randomDelay(2000, 4000);
       const count = await page.evaluate(() =>
         new Set([...document.querySelectorAll('a[href*="/for-sale/"]')].map(a => a.href)).size
       );

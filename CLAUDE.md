@@ -120,6 +120,18 @@ All filtered to GBP/UK market only.
 - **Default filter config** for new models: getBody returns null (relies on scraped bodyType), getVariant returns 'standard', getTransmission detects manual/DCT/automatic. Filters with only 1 option auto-hide via `minDistinct: 2`.
 - **models.json fields for page generation**: `heroYears`, `heroEngine`, `heroBhp` (hero subtitle), optional `pageConfig` for custom filter functions.
 
+## AutoTrader Make-Level Batching
+- **Full refreshes use make-level batch scraping** for AutoTrader. Instead of 170+ per-model requests, `scrapeMake()` in `autotrader.js` does one broad search per make (~13 requests) and matches results to models via `titleMatchesModel`.
+- **Single-model refreshes** (`--slug`) still use the per-model `scrape()` path with Phase 1 (friendly URL / Apollo cache) and Phase 2 (search pagination).
+- **`--make` flag** in `refresh.js` allows refreshing all models for a single make: `node scripts/refresh.js --make BMW`.
+- **Anti-detection measures** across all scrapers:
+  - Fresh browser context per make/model with realistic viewport, locale, timezone
+  - Randomised delays between page loads (3-7s), between makes (10-20s), between batches (2-5s)
+  - Randomised make ordering so scrape pattern differs daily
+  - Updated user agent string
+- **Phase 2 URL fix**: `autotrader.js` now parses make/model slugs from `sourceConfig.searchUrl` instead of using `modelConfig.model` directly, fixing broken URLs for models with parentheses/accents.
+- **Fallback warning**: If a make-level search returns 0 results (likely blocked), a clear warning appears in the summary.
+
 ## Important Patterns
 - When adding a new car model: add entry to `data/models.json` with slug, make, model, heroImage, heroCredit, description, heroYears, heroEngine, heroBhp, sources, and excludePatterns if needed. Then run `node scripts/generate-pages.js --slug {slug}`.
 - When adding a new make: just add entries to `models.json` and run `generate-pages.js --make {Make}`. No new script needed.

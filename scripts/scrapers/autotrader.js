@@ -1,25 +1,27 @@
 /**
  * AutoTrader scraper — uses Playwright (headless Chromium).
  *
- * Strategy:
- *  Phase 1 — Friendly URL (/cars/used/{make}/{model})
- *   - Extract listings from Apollo GraphQL cache (rich data: title, year, price, mileage, images)
- *   - This typically yields ~12 results
+ * Two modes:
  *
- *  Phase 2 — Search URL (/car-search?...) with pagination
- *   - Build a search URL using make/model from the friendly URL
- *   - Paginate through ?page=1, ?page=2, etc.
- *   - Extract listing data from DOM text nodes (no Apollo cache on search pages)
- *   - Merge with Phase 1 results, preferring Apollo data when available
+ * 1. Per-model scrape (used for --slug single-model refreshes):
+ *    Phase 1 — Friendly URL (sourceConfig.searchUrl)
+ *     - Extract listings from Apollo GraphQL cache (rich data)
+ *    Phase 2 — Search URL (parsed from sourceConfig.searchUrl) with pagination
+ *     - Paginate through search pages, extract from DOM
+ *     - Merge with Phase 1 results, preferring Apollo data
  *
- * IMPORTANT: Individual /car-details/ID pages are fully JS-rendered (Apollo/React)
- * and return no useful data via fetch. Must use the search/friendly URL.
+ * 2. Make-level batch scrape (used for full refreshes):
+ *    - Single broad search per make (no model filter) with pagination
+ *    - Results matched to individual models via titleMatchesModel
+ *    - Drastically reduces total AutoTrader requests (13 make-level
+ *      searches vs 170+ per-model searches)
  */
 
 const { extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'AutoTrader';
 const MAX_PAGES = 10;
+const MAX_MAKE_PAGES = 25;   // Higher limit for make-level (covers many models)
 const DEFAULT_POSTCODE = 'SW1A1AA';
 const DEFAULT_RADIUS = 1500;
 
@@ -37,6 +39,25 @@ async function closeBrowser() {
     await browser.close();
     browser = null;
   }
+}
+
+/**
+ * Create a fresh browser context with realistic fingerprinting.
+ */
+async function createContext(b) {
+  return b.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    viewport: { width: 1366, height: 768 },
+    locale: 'en-GB',
+    timezoneId: 'Europe/London',
+  });
+}
+
+/**
+ * Randomised delay for anti-detection.
+ */
+function randomDelay(minMs, maxMs) {
+  return sleep(minMs + Math.random() * (maxMs - minMs));
 }
 
 /**
@@ -126,14 +147,11 @@ async function extractSearchPageListings(page, make) {
       }
 
       // Find the make+model line and variant/trim line
-      // Look for text containing the make name (e.g., "Ferrari 458")
-      // followed by the trim line (e.g., "4.5 Speciale A Spider F1 DCT Euro 5 2dr")
       let titleParts = [];
       for (let i = 0; i < texts.length; i++) {
         const t = texts[i];
         if (makePattern.test(t)) {
           titleParts.push(t);
-          // Check next text for variant/trim (starts with a digit like "4.5 ...")
           if (texts[i + 1] && !texts[i + 1].includes('£') && /^\d/.test(texts[i + 1])) {
             titleParts.push(texts[i + 1]);
           }
@@ -182,15 +200,38 @@ async function extractSearchPageListings(page, make) {
 }
 
 /**
- * Scrape AutoTrader listings for a given model config.
+ * Parse make and model slugs from a sourceConfig.searchUrl.
+ * e.g. "https://www.autotrader.co.uk/cars/used/bmw/m3/" → { make: "bmw", model: "m3" }
+ */
+function parseMakeModelFromUrl(searchUrl) {
+  try {
+    const url = new URL(searchUrl);
+    // Friendly URL format: /cars/used/{make}/{model}/
+    const pathParts = url.pathname.replace(/\/$/, '').split('/').filter(Boolean);
+    // Expected: ["cars", "used", "bmw", "m3"] or similar
+    const usedIdx = pathParts.indexOf('used');
+    if (usedIdx >= 0 && pathParts[usedIdx + 1] && pathParts[usedIdx + 2]) {
+      return { make: pathParts[usedIdx + 1], model: pathParts[usedIdx + 2] };
+    }
+    // Also try /car-search? URL params
+    const makeParam = url.searchParams.get('make');
+    const modelParam = url.searchParams.get('model');
+    if (makeParam && modelParam) {
+      return { make: makeParam, model: modelParam };
+    }
+  } catch { /* ignore */ }
+  return null;
+}
+
+/**
+ * Scrape AutoTrader listings for a single model (per-model mode).
+ * Used for --slug single-model refreshes.
  */
 async function scrape(sourceConfig, modelConfig) {
   console.log(`  [AutoTrader] Fetching: ${sourceConfig.searchUrl}`);
 
   const b = await getBrowser();
-  const context = await b.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  });
+  const context = await createContext(b);
   const page = await context.newPage();
 
   try {
@@ -199,7 +240,6 @@ async function scrape(sourceConfig, modelConfig) {
 
     // ── Phase 1: Friendly URL for Apollo cache data ──
     await page.goto(sourceConfig.searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    // Wait for Apollo state to be injected by client-side JS
     await page.waitForFunction(() => !!window.AT_APOLLO_STATE, { timeout: 15000 }).catch(() => {
       console.warn('  [AutoTrader] Apollo state not found within timeout, continuing with search pages');
     });
@@ -213,15 +253,24 @@ async function scrape(sourceConfig, modelConfig) {
     }
 
     // ── Phase 2: Search URL with pagination for complete results ──
-    const searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(modelConfig.make)}&model=${encodeURIComponent(modelConfig.model)}&advertising-location=at_cars`;
+    // Parse make/model from the known-good sourceConfig.searchUrl instead of using modelConfig.model
+    const parsed = parseMakeModelFromUrl(sourceConfig.searchUrl);
+    let searchBaseUrl;
+    if (parsed) {
+      searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(parsed.make)}&model=${encodeURIComponent(parsed.model)}&advertising-location=at_cars`;
+    } else {
+      // Fallback: use modelConfig directly (may not be perfect for all models)
+      searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(modelConfig.make)}&model=${encodeURIComponent(modelConfig.model)}&advertising-location=at_cars`;
+    }
 
     for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
       const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
       console.log(`  [AutoTrader] Fetching search page ${pageNum}`);
 
+      await randomDelay(3000, 7000);
+
       try {
         await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        // Wait for listing links to appear in the DOM
         await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
       } catch (navErr) {
         console.warn(`  [AutoTrader] Navigation failed for page ${pageNum}: ${navErr.message}`);
@@ -246,72 +295,13 @@ async function scrape(sourceConfig, modelConfig) {
     }
 
     // ── Merge results ──
-    // Collect all unique IDs, preferring Apollo data
     const allIds = new Set([...apolloMap.keys(), ...searchMap.keys()]);
     console.log(`  [AutoTrader] Total: ${allIds.size} unique listings (${apolloMap.size} with rich data)`);
 
     const listings = [];
     for (const id of allIds) {
-      const sourceUrl = `https://www.autotrader.co.uk/car-details/${id}`;
-      const apollo = apolloMap.get(id);
-      const search = searchMap.get(id);
-
-      if (apollo) {
-        // Rich data from Apollo cache
-        const title = cleanTitle(apollo.title, apollo.year);
-        if (!titleMatchesModel(title, modelConfig)) {
-          console.warn(`  [AutoTrader] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
-          continue;
-        }
-
-        let image = apollo.image || '';
-        if (image) image = image.replace(/\{resize\}/g, 'w640');
-
-        const price = apollo.price > 0
-          ? `£${apollo.price.toLocaleString('en-GB')}`
-          : 'POA';
-
-        const mileage = apollo.mileage
-          ? `${apollo.mileage.toLocaleString('en-GB')} miles`
-          : 'N/A';
-
-        listings.push({
-          title,
-          price,
-          year: apollo.year,
-          mileage,
-          transmission: normaliseTransmission(apollo.title),
-          bodyType: normaliseBodyType(apollo.bodyType || title),
-          image,
-          sourceUrl,
-          sourceName: SOURCE_NAME,
-          scrapedAt: today(),
-        });
-      } else if (search) {
-        // Basic data from search page DOM
-        const year = search.year || extractYear(search.title);
-        const title = cleanTitle(search.title, year);
-        if (!titleMatchesModel(title, modelConfig)) {
-          console.warn(`  [AutoTrader] Skipping non-matching listing: "${title}" for ${modelConfig.make} ${modelConfig.model}`);
-          continue;
-        }
-
-        let image = search.image || '';
-        if (image) image = image.replace(/\{resize\}/g, 'w640');
-
-        listings.push({
-          title,
-          price: search.price || 'POA',
-          year,
-          mileage: search.mileage || 'N/A',
-          transmission: normaliseTransmission(search.title),
-          bodyType: normaliseBodyType(title),
-          image,
-          sourceUrl,
-          sourceName: SOURCE_NAME,
-          scrapedAt: today(),
-        });
-      }
+      const listing = buildListing(id, apolloMap.get(id), searchMap.get(id), modelConfig);
+      if (listing) listings.push(listing);
     }
 
     console.log(`  [AutoTrader] Successfully scraped ${listings.length} listings`);
@@ -324,6 +314,210 @@ async function scrape(sourceConfig, modelConfig) {
   }
 }
 
+/**
+ * Make-level batch scrape: search AutoTrader for an entire make at once,
+ * then match results to individual models via titleMatchesModel.
+ *
+ * @param {string} make - Make name (e.g. "Ferrari", "BMW")
+ * @param {Array} modelConfigs - Array of modelConfig objects for this make
+ * @returns {Object} Map of slug → Array of listing objects
+ */
+async function scrapeMake(make, modelConfigs) {
+  console.log(`\n  [AutoTrader Batch] Scraping make: ${make} (${modelConfigs.length} models)`);
+
+  const b = await getBrowser();
+  const context = await createContext(b);
+  const page = await context.newPage();
+
+  // Result map: slug → listings
+  const resultsBySlug = {};
+  for (const mc of modelConfigs) {
+    resultsBySlug[mc.slug] = [];
+  }
+
+  try {
+    const allListings = new Map(); // id → { apollo?, search? }
+
+    // ── Phase 1: Friendly URL for each model's Apollo cache ──
+    // Only scrape a subset to get rich Apollo data without too many requests
+    // Pick up to 5 representative models per make
+    const modelsForApollo = modelConfigs
+      .filter(mc => mc.sources?.autotrader?.searchUrl)
+      .slice(0, 5);
+
+    for (const mc of modelsForApollo) {
+      const searchUrl = mc.sources.autotrader.searchUrl;
+      console.log(`  [AutoTrader Batch] Apollo pass: ${mc.model}`);
+
+      await randomDelay(3000, 7000);
+
+      try {
+        await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForFunction(() => !!window.AT_APOLLO_STATE, { timeout: 15000 }).catch(() => {});
+
+        const apolloAdverts = await extractApolloAdverts(page);
+        if (apolloAdverts) {
+          for (const a of apolloAdverts) {
+            if (!allListings.has(a.id)) {
+              allListings.set(a.id, { apollo: a });
+            }
+          }
+          console.log(`  [AutoTrader Batch] Apollo: ${apolloAdverts.length} listings for ${mc.model}`);
+        }
+      } catch (err) {
+        console.warn(`  [AutoTrader Batch] Apollo pass failed for ${mc.model}: ${err.message}`);
+      }
+    }
+
+    // ── Phase 2: Make-level search with pagination ──
+    const searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(make)}&advertising-location=at_cars`;
+
+    for (let pageNum = 1; pageNum <= MAX_MAKE_PAGES; pageNum++) {
+      const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
+      console.log(`  [AutoTrader Batch] Search page ${pageNum} for ${make}`);
+
+      await randomDelay(3000, 7000);
+
+      try {
+        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
+      } catch (navErr) {
+        console.warn(`  [AutoTrader Batch] Navigation failed for page ${pageNum}: ${navErr.message}`);
+        break;
+      }
+
+      const pageListings = await extractSearchPageListings(page, make);
+
+      let newCount = 0;
+      for (const listing of pageListings) {
+        if (!allListings.has(listing.id)) {
+          newCount++;
+          allListings.set(listing.id, { search: listing });
+        } else if (!allListings.get(listing.id).search) {
+          allListings.get(listing.id).search = listing;
+        }
+      }
+
+      console.log(`  [AutoTrader Batch] Page ${pageNum}: ${pageListings.length} listings (${newCount} new)`);
+
+      if (pageListings.length === 0 || newCount === 0) break;
+    }
+
+    console.log(`  [AutoTrader Batch] Total unique listings for ${make}: ${allListings.size}`);
+
+    // ── Match listings to models ──
+    let matched = 0;
+    let unmatched = 0;
+
+    for (const [id, data] of allListings) {
+      const apollo = data.apollo;
+      const search = data.search;
+
+      // Try each model config to find a match
+      let assignedToModel = false;
+      for (const mc of modelConfigs) {
+        if (!mc.sources?.autotrader) continue;
+
+        const listing = buildListing(id, apollo, search, mc);
+        if (listing) {
+          resultsBySlug[mc.slug].push(listing);
+          assignedToModel = true;
+          matched++;
+          break; // Assign to first matching model only
+        }
+      }
+
+      if (!assignedToModel) unmatched++;
+    }
+
+    console.log(`  [AutoTrader Batch] Matched: ${matched}, Unmatched: ${unmatched}`);
+
+    // Check for models that got 0 results
+    for (const mc of modelConfigs) {
+      if (!mc.sources?.autotrader) continue;
+      const count = resultsBySlug[mc.slug].length;
+      if (count === 0) {
+        console.warn(`  [AutoTrader Batch] ${mc.make} ${mc.model}: 0 listings matched`);
+      } else {
+        console.log(`  [AutoTrader Batch] ${mc.make} ${mc.model}: ${count} listings`);
+      }
+    }
+
+    // Check for total failure (0 listings found = likely blocked)
+    if (allListings.size === 0) {
+      console.error(`  [AutoTrader Batch] ⚠ AutoTrader appears to be blocking requests — make-level search for ${make} returned 0 results`);
+    }
+
+    return resultsBySlug;
+  } catch (err) {
+    console.error(`  [AutoTrader Batch] SCRAPER FAILURE for ${make}: ${err.message}`);
+    return resultsBySlug;
+  } finally {
+    await context.close();
+  }
+}
+
+/**
+ * Build a normalised listing object from Apollo and/or search data.
+ * Returns null if the listing doesn't match the model.
+ */
+function buildListing(id, apollo, search, modelConfig) {
+  const sourceUrl = `https://www.autotrader.co.uk/car-details/${id}`;
+
+  if (apollo) {
+    const title = cleanTitle(apollo.title, apollo.year);
+    if (!titleMatchesModel(title, modelConfig)) return null;
+
+    let image = apollo.image || '';
+    if (image) image = image.replace(/\{resize\}/g, 'w640');
+
+    const price = apollo.price > 0
+      ? `£${apollo.price.toLocaleString('en-GB')}`
+      : 'POA';
+
+    const mileage = apollo.mileage
+      ? `${apollo.mileage.toLocaleString('en-GB')} miles`
+      : 'N/A';
+
+    return {
+      title,
+      price,
+      year: apollo.year,
+      mileage,
+      transmission: normaliseTransmission(apollo.title),
+      bodyType: normaliseBodyType(apollo.bodyType || title),
+      image,
+      sourceUrl,
+      sourceName: SOURCE_NAME,
+      scrapedAt: today(),
+    };
+  }
+
+  if (search) {
+    const year = search.year || extractYear(search.title);
+    const title = cleanTitle(search.title, year);
+    if (!titleMatchesModel(title, modelConfig)) return null;
+
+    let image = search.image || '';
+    if (image) image = image.replace(/\{resize\}/g, 'w640');
+
+    return {
+      title,
+      price: search.price || 'POA',
+      year,
+      mileage: search.mileage || 'N/A',
+      transmission: normaliseTransmission(search.title),
+      bodyType: normaliseBodyType(title),
+      image,
+      sourceUrl,
+      sourceName: SOURCE_NAME,
+      scrapedAt: today(),
+    };
+  }
+
+  return null;
+}
+
 function cleanTitle(raw, year) {
   let title = raw.trim();
   if (year && !title.startsWith(String(year))) {
@@ -333,4 +527,4 @@ function cleanTitle(raw, year) {
   return title;
 }
 
-module.exports = { scrape, closeBrowser, SOURCE_NAME };
+module.exports = { scrape, scrapeMake, closeBrowser, SOURCE_NAME };

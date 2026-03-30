@@ -11,10 +11,17 @@
  */
 
 const cheerio = require('cheerio');
-const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today } = require('./base');
+const { fetchWithRetry, extractYear, normaliseTransmission, normaliseBodyType, titleMatchesModel, today, sleep } = require('./base');
 
 const SOURCE_NAME = 'PistonHeads';
 const MAX_PAGES = 10;
+
+/**
+ * Randomised delay for anti-detection.
+ */
+function randomDelay(minMs, maxMs) {
+  return sleep(minMs + Math.random() * (maxMs - minMs));
+}
 
 /**
  * Build a paginated URL from a base search URL.
@@ -91,8 +98,9 @@ async function scrape(sourceConfig, modelConfig) {
   const listings = [];
   const listingUrlArray = [...allListingUrls];
 
-  // Process in batches of 5
+  // Process in batches of 5 with randomised delays between batches
   for (let i = 0; i < listingUrlArray.length; i += 5) {
+    if (i > 0) await randomDelay(2000, 5000);
     const batch = listingUrlArray.slice(i, i + 5);
     const batchResults = await Promise.allSettled(
       batch.map(url => scrapeListing(url, modelConfig))
