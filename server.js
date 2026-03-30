@@ -6,16 +6,20 @@ const cookieParser = require('cookie-parser');
 
 const trackingRoutes = require('./routes/tracking');
 const adminRoutes = require('./routes/admin');
+const authRoutes = require('./routes/auth');
+const { attachUser } = require('./middleware/auth');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(cookieParser());
+app.use(attachUser);
 
 // Click-tracking redirect and admin dashboard
 app.use(trackingRoutes);
 app.use('/admin', adminRoutes);
+app.use('/api/auth', authRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

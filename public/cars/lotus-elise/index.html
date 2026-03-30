@@ -75,6 +75,21 @@
     nav a:hover { color: var(--color-accent); }
     .nav-active { color: var(--color-accent) !important; }
 
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+
     .nav-right {
       display: flex;
       align-items: center;
@@ -717,6 +732,7 @@
       <a href="/listings">Listings</a>
       <a href="/analysis">Analysis</a>
       <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
   </nav>
@@ -900,25 +916,20 @@
     }
 
     function getBody(title) {
-      return 'convertible';
+      return null;
     }
 
     function getVariant(title) {
-      if (/cup\s*250/i.test(title)) return 'cup-250';
-      if (/cup\s*220/i.test(title)) return 'cup-220';
-      if (/cup/i.test(title)) return 'cup';
-      if (/sport\s*220/i.test(title)) return 'sport-220';
-      if (/sport/i.test(title)) return 'sport';
-      if (/\b111[sr]\b/i.test(title)) return '111';
-      if (/\bs3\b|series\s*3/i.test(title)) return 's3';
-      if (/\bs2\b|series\s*2/i.test(title)) return 's2';
-      if (/\bs1\b|series\s*1/i.test(title)) return 's1';
-      return 'elise';
+      return 'standard';
     }
 
     function getTransmissionGroup(str) {
       if (!str) return 'manual';
-      return 'manual';
+      const s = str.toLowerCase();
+      if (/manual|6.speed.*man|gated/i.test(s) && !/auto|dct|sequential|paddle|f1|e.gear/i.test(s)) return 'manual';
+      if (/dct|dual.clutch|pdk|ssg|s.tronic|e.gear|f1|sequential|paddle/i.test(s)) return 'dct';
+      if (/auto|tiptronic|torque.converter/i.test(s)) return 'automatic';
+      return 'unknown';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1033,9 +1044,9 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"convertible":"Convertible"}, sortOrder: ["convertible"], mode: 'single', minDistinct: 2 },
-      variant:      { detect: l => getVariant(l.title), labels: {"111":"111S/R","elise":"Elise","s1":"S1","s2":"S2","s3":"S3","sport":"Sport","sport-220":"Sport 220","cup":"Cup","cup-220":"Cup 220","cup-250":"Cup 250"}, sortOrder: ["elise","s1","s2","s3","111","sport","sport-220","cup","cup-220","cup-250"], mode: 'single', minDistinct: 2 },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual"}, sortOrder: ["manual"], mode: 'single' },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible","saloon":"Saloon","estate":"Estate","targa":"Targa","speedster":"Speedster","suv":"SUV"}, sortOrder: ["coupe","convertible","saloon","estate","targa","speedster","suv"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"standard":"Standard"}, sortOrder: ["standard"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","dct":"DCT/Dual-Clutch","automatic":"Automatic","unknown":"Unknown"}, sortOrder: ["manual","dct","automatic","unknown"], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
 
@@ -1323,6 +1334,9 @@
 
     loadListings();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
 
 </body>
 </html>

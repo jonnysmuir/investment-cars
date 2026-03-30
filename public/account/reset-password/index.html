@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Password — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--color-accent); text-decoration: none;
+    }
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted); text-decoration: none; font-size: 0.85rem;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    nav a:hover { color: var(--color-accent); }
+
+    .nav-right { display: flex; align-items: center; gap: 1.25rem; }
+
+    .theme-toggle {
+      background: none; border: 1px solid var(--color-border); border-radius: 50%;
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: var(--color-text-muted); font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+    /* Auth card */
+    .auth-container {
+      flex: 1; display: flex; align-items: center; justify-content: center;
+      padding: 6rem 1.5rem 3rem;
+    }
+
+    .auth-card {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; padding: 2.5rem; width: 100%; max-width: 420px;
+    }
+
+    .auth-card h1 {
+      font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;
+    }
+
+    .auth-card .subtitle {
+      color: var(--color-text-muted); font-size: 0.9rem; text-align: center; margin-bottom: 2rem;
+    }
+
+    .form-group { margin-bottom: 1rem; }
+
+    .form-group label {
+      display: block; font-size: 0.85rem; color: var(--color-text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .form-group input {
+      width: 100%; padding: 0.7rem 0.9rem; border: 1px solid var(--color-border);
+      border-radius: 8px; background: var(--color-bg); color: var(--color-text);
+      font-size: 0.95rem; outline: none; transition: border-color 0.2s;
+    }
+    .form-group input:focus { border-color: var(--color-accent); }
+
+    .submit-btn {
+      width: 100%; padding: 0.8rem; border: none; border-radius: 8px;
+      background: var(--color-accent); color: var(--btn-text); font-size: 0.95rem;
+      font-weight: 600; cursor: pointer; margin-top: 0.5rem; transition: opacity 0.2s;
+    }
+    .submit-btn:hover { opacity: 0.9; }
+    .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .auth-links {
+      text-align: center; margin-top: 1.25rem; font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+    .auth-links a { color: var(--color-accent); text-decoration: none; }
+    .auth-links a:hover { text-decoration: underline; }
+
+    .error-msg {
+      background: rgba(220, 53, 69, 0.1); border: 1px solid rgba(220, 53, 69, 0.3);
+      color: #ff6b7a; padding: 0.7rem 1rem; border-radius: 8px; font-size: 0.85rem;
+      margin-bottom: 1rem; display: none;
+    }
+
+    .success-msg {
+      background: rgba(40, 167, 69, 0.1); border: 1px solid rgba(40, 167, 69, 0.3);
+      color: #5bda7f; padding: 0.7rem 1rem; border-radius: 8px; font-size: 0.85rem;
+      margin-bottom: 1rem; display: none;
+    }
+
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.25rem; }
+      .auth-card { padding: 2rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis">Analysis</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1>Reset Your Password</h1>
+      <p class="subtitle">Enter your new password below.</p>
+
+      <div class="error-msg" id="errorMsg"></div>
+      <div class="success-msg" id="successMsg"></div>
+
+      <form id="resetForm">
+        <div class="form-group">
+          <label for="newPassword">New Password</label>
+          <input type="password" id="newPassword" placeholder="Enter new password" required autocomplete="new-password">
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Confirm new password" required autocomplete="new-password">
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">Update Password</button>
+      </form>
+
+      <div class="auth-links">
+        <a href="/account/login">Back to Sign In</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      document.documentElement.classList.add('light');
+      themeToggle.innerHTML = '&#9728;';
+    }
+    themeToggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeToggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
+
+  <script>
+    const resetForm = document.getElementById('resetForm');
+    const errorMsg = document.getElementById('errorMsg');
+    const successMsg = document.getElementById('successMsg');
+    const submitBtn = document.getElementById('submitBtn');
+
+    function showError(msg) {
+      errorMsg.textContent = msg;
+      errorMsg.style.display = 'block';
+      successMsg.style.display = 'none';
+    }
+
+    function showSuccess(msg) {
+      successMsg.textContent = msg;
+      successMsg.style.display = 'block';
+      errorMsg.style.display = 'none';
+    }
+
+    resetForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const newPassword = document.getElementById('newPassword').value;
+      const confirmPwd = document.getElementById('confirmPassword').value;
+
+      if (newPassword !== confirmPwd) {
+        showError('Passwords do not match.');
+        return;
+      }
+
+      if (newPassword.length < 6) {
+        showError('Password must be at least 6 characters.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Updating...';
+
+      const result = await updatePassword(newPassword);
+
+      if (result.error) {
+        showError(result.error);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Update Password';
+        return;
+      }
+
+      showSuccess('Password updated successfully! Redirecting to sign in...');
+      setTimeout(() => {
+        window.location.href = '/account/login';
+      }, 2000);
+    });
+  </script>
+
+</body>
+</html>

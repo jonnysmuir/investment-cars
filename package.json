@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jonnysmuir/investment-cars#readme",
   "description": "",
   "dependencies": {
+    "@supabase/supabase-js": "^2.101.0",
     "cheerio": "^1.2.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.3.1",

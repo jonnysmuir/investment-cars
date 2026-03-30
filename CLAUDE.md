@@ -5,6 +5,7 @@ Collectorly is a Node.js web app that tracks collector/investment car listings a
 
 ## Tech Stack
 - **Backend**: Express.js v5 (`server.js`) — JSON API + static file serving
+- **Auth**: Supabase Auth (email/password + Google OAuth) — `@supabase/supabase-js`
 - **Database**: MySQL (Hostinger) via `mysql2/promise` connection pool (`db/connection.js`)
 - **Scraping**: Playwright + Cheerio (4 scraper modules)
 - **Email**: Nodemailer (Gmail) for daily refresh notifications
@@ -17,10 +18,13 @@ Collectorly is a Node.js web app that tracks collector/investment car listings a
 server.js                          # Express API server
 db/
   connection.js                    # MySQL connection pool (mysql2/promise)
-  setup.js                        # Run once to create click_events table
+  setup.js                        # Run once to create click_events + users tables
+middleware/
+  auth.js                         # Supabase token verification (attachUser + requireAuth)
 routes/
   tracking.js                     # GET /go — tracked redirect for outbound clicks
   admin.js                        # GET /admin/stats, GET /admin/dashboard
+  auth.js                         # Auth API (callback, logout, me, refresh, preferences)
 data/
   models.json                      # Master registry (slug, make, model, hero image, description, scraper configs)
   {slug}.json                      # Current listings per model
@@ -35,6 +39,10 @@ public/
   analysis/index.html              # Analysis/charting page
   cars/{slug}/                     # 169 individual car model pages
   home-1/ through home-4/          # Homepage design iterations
+  js/auth.js                       # Shared frontend auth client (Supabase init, nav updates)
+  account/login/index.html         # Login/register page
+  account/dashboard/index.html     # User dashboard (watchlist, favourites, preferences)
+  account/reset-password/index.html # Password reset form
 scripts/
   refresh.js                       # Main orchestrator (dedup, price tracking, unlisted detection)
   scrape-glenmarch.js              # Glenmarch auction scraper
@@ -169,6 +177,40 @@ All filtered to GBP/UK market only.
 ## Node.js Environment
 - **Node path**: `~/bin/node` (v22.14.0)
 - **npm is broken** — the `~/bin/npm` symlink points to a missing `../lib/cli.js`. Use `node ~/lib/node_modules/npm/bin/npm-cli.js` as a workaround to run npm commands.
+
+## User Authentication (Supabase)
+- **Provider**: Supabase Auth handles sign-up, login, OAuth (Google), password reset, and token management.
+- **Supabase project URL**: `https://trizhaljovbewffvwxpb.supabase.co`
+- **Frontend client**: Supabase JS loaded from CDN (`@supabase/supabase-js@2`), initialised in `public/js/auth.js` with the anon key.
+- **Server-side**: `@supabase/supabase-js` with the secret key (`SUPABASE_SECRET_KEY`) for token verification in `middleware/auth.js`.
+- **User data**: Stored in the `users` table in the existing MySQL database (not Supabase DB). Supabase user UUID is the primary key.
+- **Session flow**: Frontend authenticates with Supabase → receives tokens → `POST /api/auth/callback` sends tokens to server → server verifies with Supabase, upserts MySQL user, sets HTTP-only cookies → subsequent requests use cookies.
+- **Cookies**: `sb-access-token` (1h, HTTP-only, Secure, SameSite=Lax) and `sb-refresh-token` (7d, same flags).
+- **Middleware**: `attachUser` runs on every request (non-blocking); `requireAuth` returns 401 on protected routes.
+- **Auth API endpoints**:
+  - `POST /api/auth/callback` — Verify token, upsert user, set cookies
+  - `POST /api/auth/logout` — Clear auth cookies
+  - `GET /api/auth/me` — Return user profile (requires auth)
+  - `POST /api/auth/refresh` — Refresh access token
+  - `PUT /api/auth/preferences` — Update alert settings (requires auth)
+- **Nav integration**: Every page loads `auth.js` which checks `/api/auth/me` on load and updates the nav (shows "Sign In" or user dropdown).
+
+### Hostinger Environment Variables
+These must be set on Hostinger in addition to the existing DB credentials:
+- `SUPABASE_URL` — `https://trizhaljovbewffvwxpb.supabase.co`
+- `SUPABASE_ANON_KEY` — The anon/public key (safe for frontend)
+- `SUPABASE_SECRET_KEY` — The service role secret key (server-side only, never expose to frontend)
+
+### Supabase Dashboard Configuration Required
+- **Redirect URLs**: Add these to Supabase Auth → URL Configuration → Redirect URLs:
+  - `https://collectorly.io/account/login`
+  - `https://collectorly.io/account/reset-password`
+  - `http://localhost:3000/account/login` (for local dev)
+  - `http://localhost:3000/account/reset-password` (for local dev)
+- **Google OAuth**: Already configured in Supabase dashboard.
+
+### Privacy Policy
+- User auth stores email, display name, avatar URL, and auth provider in MySQL. A privacy policy update is needed to disclose this data collection to comply with GDPR.
 
 ## Common Pitfalls
 - Scraper failures can cause false "unlisted" detections — the 3-day rule in `.state/` files prevents this

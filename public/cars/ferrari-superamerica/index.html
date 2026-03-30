@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ferrari 575 Superamerica Listings — Collectorly</title>
+  <title>Ferrari Superamerica Listings — Collectorly</title>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -74,6 +74,21 @@
 
     nav a:hover { color: var(--color-accent); }
     .nav-active { color: var(--color-accent) !important; }
+
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
 
     .nav-right {
       display: flex;
@@ -717,14 +732,15 @@
       <a href="/listings">Listings</a>
       <a href="/analysis">Analysis</a>
       <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
   </nav>
 
   <section class="hero-banner" id="heroBanner">
-    <img id="heroImage" src="" alt="Ferrari 575 Superamerica" style="opacity: 0;">
+    <img id="heroImage" src="" alt="Ferrari Superamerica" style="opacity: 0;">
     <div class="hero-overlay">
-      <h1 class="hero-model-name">Ferrari 575 Superamerica</h1>
+      <h1 class="hero-model-name">Ferrari Superamerica</h1>
       <p class="hero-model-years">2005 — 2006 &middot; 5.7L V12 &middot; 533 BHP</p>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
@@ -801,7 +817,7 @@
     <div class="listings-grid" id="auctionGrid"></div>
     <div class="auction-empty" id="auctionEmpty">
       <div class="auction-empty-icon">&#9881;</div>
-      <p class="auction-empty-text">No Ferrari 575 Superamerica auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
+      <p class="auction-empty-text">No Ferrari Superamerica auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
     </div>
   </section>
 
@@ -900,17 +916,20 @@
     }
 
     function getBody(title) {
-      return 'convertible';
+      return null;
     }
 
     function getVariant(title) {
-      return 'superamerica';
+      return 'standard';
     }
 
     function getTransmissionGroup(str) {
       if (!str) return 'manual';
-      if (/f1|paddle|semi.?auto|automated/i.test(str)) return 'f1';
-      return 'manual';
+      const s = str.toLowerCase();
+      if (/manual|6.speed.*man|gated/i.test(s) && !/auto|dct|sequential|paddle|f1|e.gear/i.test(s)) return 'manual';
+      if (/dct|dual.clutch|pdk|ssg|s.tronic|e.gear|f1|sequential|paddle/i.test(s)) return 'dct';
+      if (/auto|tiptronic|torque.converter/i.test(s)) return 'automatic';
+      return 'unknown';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1025,9 +1044,9 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"convertible":"Convertible"}, sortOrder: ["convertible"], mode: 'single', minDistinct: 2 },
-      variant:      { detect: l => getVariant(l.title), labels: {"superamerica":"Superamerica"}, sortOrder: ["superamerica"], mode: 'single', minDistinct: 2 },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","f1":"F1"}, sortOrder: ["manual","f1"], mode: 'single' },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible","saloon":"Saloon","estate":"Estate","targa":"Targa","speedster":"Speedster","suv":"SUV"}, sortOrder: ["coupe","convertible","saloon","estate","targa","speedster","suv"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"standard":"Standard"}, sortOrder: ["standard"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","dct":"DCT/Dual-Clutch","automatic":"Automatic","unknown":"Unknown"}, sortOrder: ["manual","dct","automatic","unknown"], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
 
@@ -1315,6 +1334,9 @@
 
     loadListings();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
 
 </body>
 </html>

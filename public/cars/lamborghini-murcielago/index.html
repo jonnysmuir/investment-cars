@@ -75,6 +75,21 @@
     nav a:hover { color: var(--color-accent); }
     .nav-active { color: var(--color-accent) !important; }
 
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+
     .nav-right {
       display: flex;
       align-items: center;
@@ -717,6 +732,7 @@
       <a href="/listings">Listings</a>
       <a href="/analysis">Analysis</a>
       <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
   </nav>
@@ -724,8 +740,8 @@
   <section class="hero-banner" id="heroBanner">
     <img id="heroImage" src="" alt="Lamborghini Murciélago" style="opacity: 0;">
     <div class="hero-overlay">
-      <h1 class="hero-model-name">Lamborghini Murci&eacute;lago</h1>
-      <p class="hero-model-years">2001 — 2010 &middot; 6.2–6.5L V12 &middot; 572–661 BHP</p>
+      <h1 class="hero-model-name">Lamborghini Murciélago</h1>
+      <p class="hero-model-years"></p>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -759,7 +775,7 @@
         <span class="filter-label">Year</span>
       </div>
 
-      <div class="filter-row" data-filter="body">
+      <div class="filter-row" data-filter="body" style="display: none;">
         <span class="filter-label">Body</span>
       </div>
 
@@ -778,9 +794,9 @@
       <div class="filter-row" data-filter="price">
         <span class="filter-label">Price</span>
         <div class="price-range">
-          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="10000">
+          <input type="number" class="price-input" id="priceMin" placeholder="Min £" step="1000">
           <span class="price-sep">–</span>
-          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="10000">
+          <input type="number" class="price-input" id="priceMax" placeholder="Max £" step="1000">
         </div>
       </div>
     </div>
@@ -801,7 +817,7 @@
     <div class="listings-grid" id="auctionGrid"></div>
     <div class="auction-empty" id="auctionEmpty">
       <div class="auction-empty-icon">&#9881;</div>
-      <p class="auction-empty-text">No Lamborghini Murci&eacute;lago auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
+      <p class="auction-empty-text">No Lamborghini Murciélago auctions are currently scheduled. We monitor Cars &amp; Classic, Collecting Cars, and other major auction houses — check back soon.</p>
     </div>
   </section>
 
@@ -888,32 +904,32 @@
     }
 
     function parsePrice(str) {
-      if (!str || str === 'POA') return null;
+      if (!str) return null;
       const m = str.replace(/,/g, '').match(/(\d+)/);
       return m ? parseInt(m[1]) : null;
     }
 
     function parseMileage(str) {
-      if (!str || str === 'N/A') return Infinity;
+      if (!str) return Infinity;
       const m = str.replace(/,/g, '').match(/(\d+)/);
       return m ? parseInt(m[1]) : Infinity;
     }
 
     function getBody(title) {
-      if (/roadster|spider|convertible|open/i.test(title)) return 'convertible';
       return null;
     }
 
     function getVariant(title) {
-      if (/670|sv/i.test(title)) return 'lp-670-4-sv';
-      if (/640/i.test(title)) return 'lp-640';
-      return 'murcielago';
+      return 'standard';
     }
 
     function getTransmissionGroup(str) {
-      if (!str) return 'e-gear';
-      if (/manual/i.test(str.trim()) && !/e-gear/i.test(str.trim())) return 'manual';
-      return 'e-gear';
+      if (!str) return 'manual';
+      const s = str.toLowerCase();
+      if (/manual|6.speed.*man|gated/i.test(s) && !/auto|dct|sequential|paddle|f1|e.gear/i.test(s)) return 'manual';
+      if (/dct|dual.clutch|pdk|ssg|s.tronic|e.gear|f1|sequential|paddle/i.test(s)) return 'dct';
+      if (/auto|tiptronic|torque.converter/i.test(s)) return 'automatic';
+      return 'unknown';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1028,9 +1044,9 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single' },
-      variant:      { detect: l => getVariant(l.title), labels: { murcielago: 'Murci\u00e9lago', 'lp-640': 'LP 640', 'lp-670-4-sv': 'LP 670-4 SV' }, sortOrder: ['murcielago','lp-640','lp-670-4-sv'], mode: 'single' },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { 'e-gear': 'E-Gear', manual: 'Manual' }, sortOrder: ['e-gear','manual'], mode: 'single' },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible","saloon":"Saloon","estate":"Estate","targa":"Targa","speedster":"Speedster","suv":"SUV"}, sortOrder: ["coupe","convertible","saloon","estate","targa","speedster","suv"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"standard":"Standard"}, sortOrder: ["standard"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","dct":"DCT/Dual-Clutch","automatic":"Automatic","unknown":"Unknown"}, sortOrder: ["manual","dct","automatic","unknown"], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
 
@@ -1039,6 +1055,7 @@
         const row = document.querySelector(`.filter-row[data-filter="${filterName}"]`);
         if (!row) continue;
 
+        // Collect distinct values
         const valuesSet = new Set();
         for (const l of listings) {
           const val = config.detect(l);
@@ -1049,14 +1066,17 @@
           }
         }
 
+        // Hide row if minDistinct threshold not met
         if (config.minDistinct && valuesSet.size < config.minDistinct) {
           row.style.display = 'none';
           continue;
         }
         row.style.display = '';
 
+        // Sort values
         let sorted = [...valuesSet];
         if (config.sortOrder === null) {
+          // Numeric sort (for years)
           sorted.sort((a, b) => Number(a) - Number(b));
         } else {
           sorted.sort((a, b) => {
@@ -1069,6 +1089,7 @@
           });
         }
 
+        // Build pill HTML
         const label = row.querySelector('.filter-label');
         const labelHTML = label ? label.outerHTML : '';
         let html = labelHTML;
@@ -1313,6 +1334,9 @@
 
     loadListings();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
 
 </body>
 </html>

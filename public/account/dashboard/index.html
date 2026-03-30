@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dashboard — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--color-accent); text-decoration: none;
+    }
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted); text-decoration: none; font-size: 0.85rem;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    nav a:hover { color: var(--color-accent); }
+
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+
+    .nav-right { display: flex; align-items: center; gap: 1.25rem; }
+
+    .theme-toggle {
+      background: none; border: 1px solid var(--color-border); border-radius: 50%;
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: var(--color-text-muted); font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+    /* Dashboard */
+    .dashboard {
+      max-width: 900px; margin: 0 auto; padding: 7rem 2rem 4rem;
+    }
+
+    .welcome {
+      font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem;
+    }
+
+    .welcome-sub {
+      color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 2.5rem;
+    }
+
+    .section {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; padding: 1.75rem; margin-bottom: 1.5rem;
+    }
+
+    .section h2 {
+      font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem;
+    }
+
+    .section .section-desc {
+      color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 1rem;
+    }
+
+    .section .empty-state {
+      color: var(--color-text-muted); font-size: 0.9rem; padding: 1rem 0;
+    }
+
+    .section .empty-state a {
+      color: var(--color-accent); text-decoration: none;
+    }
+    .section .empty-state a:hover { text-decoration: underline; }
+
+    /* Preferences */
+    .pref-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.75rem 0; border-bottom: 1px solid var(--color-border);
+    }
+    .pref-row:last-child { border-bottom: none; }
+
+    .pref-label { font-size: 0.95rem; }
+    .pref-label span { color: var(--color-text-muted); font-size: 0.8rem; display: block; }
+
+    /* Toggle switch */
+    .toggle {
+      position: relative; width: 44px; height: 24px; cursor: pointer;
+    }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle .slider {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--color-border); border-radius: 24px; transition: background 0.2s;
+    }
+    .toggle .slider::before {
+      content: ''; position: absolute; width: 18px; height: 18px;
+      left: 3px; bottom: 3px; background: var(--color-text);
+      border-radius: 50%; transition: transform 0.2s;
+    }
+    .toggle input:checked + .slider { background: var(--color-accent); }
+    .toggle input:checked + .slider::before { transform: translateX(20px); }
+
+    /* Select */
+    .pref-select {
+      padding: 0.5rem 0.75rem; border: 1px solid var(--color-border);
+      border-radius: 8px; background: var(--color-bg); color: var(--color-text);
+      font-size: 0.9rem; outline: none; cursor: pointer;
+    }
+    .pref-select:focus { border-color: var(--color-accent); }
+
+    .save-status {
+      font-size: 0.8rem; color: var(--color-accent); opacity: 0;
+      transition: opacity 0.3s; margin-left: 0.5rem;
+    }
+
+    /* Sign out button */
+    .signout-btn {
+      padding: 0.7rem 1.5rem; border: 1px solid var(--color-border);
+      border-radius: 8px; background: transparent; color: var(--color-text-muted);
+      font-size: 0.9rem; cursor: pointer; transition: border-color 0.2s, color 0.2s;
+    }
+    .signout-btn:hover { border-color: #dc3545; color: #ff6b7a; }
+
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-right { gap: 0.75rem; }
+      .dashboard { padding: 6rem 1.25rem 3rem; }
+      .welcome { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis">Analysis</a>
+      <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="dashboard">
+    <h1 class="welcome" id="welcomeMsg">Welcome back</h1>
+    <p class="welcome-sub">Manage your watchlist, favourites, and alert preferences.</p>
+
+    <div class="section">
+      <h2>My Watchlist</h2>
+      <p class="empty-state">You're not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>
+    </div>
+
+    <div class="section">
+      <h2>My Favourites</h2>
+      <p class="empty-state">You haven't saved any listings yet.</p>
+    </div>
+
+    <div class="section">
+      <h2>My Portfolio</h2>
+      <p class="empty-state">Track the cars you own. Coming soon.</p>
+    </div>
+
+    <div class="section">
+      <h2>Alert Preferences</h2>
+      <p class="section-desc">Control how you receive notifications about price changes and new listings.</p>
+
+      <div class="pref-row">
+        <div class="pref-label">
+          Alerts Enabled
+          <span>Receive notifications about your watched models</span>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="alertsEnabled" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="pref-row">
+        <div class="pref-label">
+          Frequency
+          <span>How often you receive alert digests</span>
+        </div>
+        <div>
+          <select class="pref-select" id="alertFrequency">
+            <option value="instant">Instant</option>
+            <option value="daily" selected>Daily</option>
+            <option value="weekly">Weekly</option>
+          </select>
+          <span class="save-status" id="saveStatus">Saved</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <button class="signout-btn" id="signOutBtn">Sign Out</button>
+    </div>
+  </div>
+
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      document.documentElement.classList.add('light');
+      themeToggle.innerHTML = '&#9728;';
+    }
+    themeToggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeToggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
+
+  <script>
+    const welcomeMsg = document.getElementById('welcomeMsg');
+    const alertsEnabled = document.getElementById('alertsEnabled');
+    const alertFrequency = document.getElementById('alertFrequency');
+    const saveStatus = document.getElementById('saveStatus');
+    const signOutBtn = document.getElementById('signOutBtn');
+
+    let currentUser = null;
+
+    // Load user profile
+    (async () => {
+      currentUser = await getCurrentUser();
+      if (!currentUser) {
+        window.location.href = '/account/login';
+        return;
+      }
+
+      const name = currentUser.display_name || currentUser.email.split('@')[0];
+      welcomeMsg.textContent = `Welcome back, ${name}`;
+
+      // Set preference values
+      alertsEnabled.checked = currentUser.alerts_enabled;
+      alertFrequency.value = currentUser.alert_frequency || 'daily';
+    })();
+
+    // Save preferences
+    async function savePreferences() {
+      try {
+        await fetch('/api/auth/preferences', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            alerts_enabled: alertsEnabled.checked,
+            alert_frequency: alertFrequency.value,
+          }),
+        });
+        saveStatus.style.opacity = '1';
+        setTimeout(() => { saveStatus.style.opacity = '0'; }, 2000);
+      } catch (err) {
+        console.error('Failed to save preferences:', err);
+      }
+    }
+
+    alertsEnabled.addEventListener('change', savePreferences);
+    alertFrequency.addEventListener('change', savePreferences);
+
+    // Sign out
+    signOutBtn.addEventListener('click', () => {
+      signOut();
+    });
+  </script>
+
+</body>
+</html>

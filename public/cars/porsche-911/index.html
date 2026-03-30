@@ -75,6 +75,21 @@
     nav a:hover { color: var(--color-accent); }
     .nav-active { color: var(--color-accent) !important; }
 
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+
     .nav-right {
       display: flex;
       align-items: center;
@@ -717,6 +732,7 @@
       <a href="/listings">Listings</a>
       <a href="/analysis">Analysis</a>
       <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
   </nav>
@@ -725,7 +741,7 @@
     <img id="heroImage" src="" alt="Porsche 911" style="opacity: 0;">
     <div class="hero-overlay">
       <h1 class="hero-model-name">Porsche 911</h1>
-      <p class="hero-model-years">1963 — Present &middot; 2.0–3.8L Flat-6 &middot; 130–640 BHP</p>
+      <p class="hero-model-years"></p>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -733,7 +749,7 @@
   <header class="page-header">
     <p class="section-label">Classified Listings</p>
     <p class="page-description" id="pageDescription"></p>
-    <a href="/analysis/porsche-911" style="display: inline-block; margin-top: 0.75rem; font-size: 0.8rem; color: var(--color-accent); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">&#9650; View Market Analysis</a>
+    <a href="/analysis/porsche-911" style="display: inline-block; margin-top: 0.75rem; font-size: 0.8rem; color: var(--color-accent); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">▲ View Market Analysis</a>
 
     <button class="filter-toggle" id="filterToggle" style="display: none;">
       <span class="filter-toggle-text">Filter &amp; Sort</span>
@@ -759,12 +775,12 @@
         <span class="filter-label">Year</span>
       </div>
 
-      <div class="filter-row" data-filter="generation">
-        <span class="filter-label">Generation</span>
+      <div class="filter-row" data-filter="body" style="display: none;">
+        <span class="filter-label">Body</span>
       </div>
 
-      <div class="filter-row" data-filter="body">
-        <span class="filter-label">Body</span>
+      <div class="filter-row" data-filter="variant">
+        <span class="filter-label">Variant</span>
       </div>
 
       <div class="filter-row" data-filter="transmission">
@@ -840,9 +856,6 @@
     const descriptionEl = document.getElementById('pageDescription');
     const countEl = document.getElementById('listingCount');
     const heroImg = document.getElementById('heroImage');
-    const heroNameEl = document.querySelector('.hero-model-name');
-    const heroYearsEl = document.querySelector('.hero-model-years');
-    const heroCreditEl = document.getElementById('heroCredit');
     const filterControls = document.getElementById('filterControls');
     const filterToggle = document.getElementById('filterToggle');
     const filterActiveCountEl = document.getElementById('filterActiveCount');
@@ -902,46 +915,21 @@
       return m ? parseInt(m[1]) : Infinity;
     }
 
-    function getTransmissionGroup(str) {
-      if (!str) return 'auto';
-      if (/manual/i.test(str.trim())) return 'manual';
-      if (/pdk|dct|dual.?clutch/i.test(str.trim())) return 'pdk';
-      if (/tiptronic/i.test(str.trim())) return 'tiptronic';
-      return 'auto';
-    }
-
     function getBody(title) {
-      if (/\btarga\b/i.test(title)) return 'targa';
-      if (/\bcabrio(?:let)?\b|\bconvertible\b|\bcab\b/i.test(title)) return 'convertible';
-      if (/\bspeedster\b/i.test(title)) return 'speedster';
-      if (/\bcoupe\b|\bcoupé\b/i.test(title)) return 'coupe';
       return null;
     }
 
-    function detectGeneration(listing) {
-      const title = (listing.title || '');
-      // Check title for specific generation codes (most specific first)
-      if (/\b935\b/i.test(title)) return '935';
-      if (/\b965\b|\b959\b/i.test(title)) return '965';
-      if (/\b930\b/i.test(title)) return '930';
-      if (/\b992\b/i.test(title)) return '992';
-      if (/\b991\.2\b/i.test(title)) return '991.2';
-      if (/\b991\b/i.test(title)) return '991.1';
-      if (/\b997\b/i.test(title)) return '997';
-      if (/\b996\b/i.test(title)) return '996';
-      if (/\b993\b/i.test(title)) return '993';
-      if (/\b964\b/i.test(title)) return '964';
-      // Fallback to year-based detection
-      const year = listing.year;
-      if (!year) return null;
-      if (year <= 1989) return '930';
-      if (year <= 1994) return '964';
-      if (year <= 1998) return '993';
-      if (year <= 2004) return '996';
-      if (year <= 2012) return '997';
-      if (year <= 2016) return '991.1';
-      if (year <= 2019) return '991.2';
-      return '992';
+    function getVariant(title) {
+      return 'standard';
+    }
+
+    function getTransmissionGroup(str) {
+      if (!str) return 'manual';
+      const s = str.toLowerCase();
+      if (/manual|6.speed.*man|gated/i.test(s) && !/auto|dct|sequential|paddle|f1|e.gear/i.test(s)) return 'manual';
+      if (/dct|dual.clutch|pdk|ssg|s.tronic|e.gear|f1|sequential|paddle/i.test(s)) return 'dct';
+      if (/auto|tiptronic|torque.converter/i.test(s)) return 'automatic';
+      return 'unknown';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1034,12 +1022,11 @@
     // --- Filter & sort state ---
 
     let heroImageUrl = '';
-    let defaultHero = null;
     let allClassified = [];
     const filters = {
       year: [],
-      generation: null,
       body: null,
+      variant: null,
       transmission: null,
       source: null,
       priceMin: null,
@@ -1057,121 +1044,11 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      generation:   { detect: l => detectGeneration(l), labels: {}, sortOrder: ['930','935','964','965','993','996','997','991.1','991.2','992'], mode: 'single' },
-      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible', targa: 'Targa', speedster: 'Speedster' }, sortOrder: ['coupe','convertible','targa','speedster'], mode: 'single', minDistinct: 2 },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { manual: 'Manual', pdk: 'PDK', tiptronic: 'Tiptronic', auto: 'Auto' }, sortOrder: ['manual','pdk','tiptronic','auto'], mode: 'single' },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible","saloon":"Saloon","estate":"Estate","targa":"Targa","speedster":"Speedster","suv":"SUV"}, sortOrder: ["coupe","convertible","saloon","estate","targa","speedster","suv"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"standard":"Standard"}, sortOrder: ["standard"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","dct":"DCT/Dual-Clutch","automatic":"Automatic","unknown":"Unknown"}, sortOrder: ["manual","dct","automatic","unknown"], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
-
-    const GENERATION_DATA = {
-      '930': {
-        name: 'Porsche 911 930',
-        years: '1975 — 1989',
-        specs: '3.0–3.3L Flat-6 Turbo · 260–330 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg/1920px-1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg',
-        credit: 'Mr.choppers / CC BY-SA 3.0',
-        description: 'The Porsche 930, produced from 1975 to 1989, was the first turbocharged 911. Its 3.0-litre (later 3.3-litre) turbocharged flat-six delivered ferocious performance and earned the Turbo a fearsome reputation. The iconic whale tail and wide rear arches make it one of the most recognisable sports cars ever built.'
-      },
-      '935': {
-        name: 'Porsche 935',
-        years: '1976 — 1981',
-        specs: '2.9–3.2L Flat-6 Twin-Turbo · 590–845 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg/1920px-Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg',
-        credit: 'nakhon100 / CC BY 2.0',
-        description: 'The Porsche 935, produced from 1976 to 1981, is a Group 5 racing car derived from the 930 Turbo. Dominating endurance racing worldwide, the 935 scored victories at Le Mans, Daytona, and countless other circuits. The Kremer K3 variant is among the most famous and collectible Porsche competition cars.'
-      },
-      '964': {
-        name: 'Porsche 911 964',
-        years: '1989 — 1994',
-        specs: '3.6L Flat-6 · 247–260 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg/1920px-1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg',
-        credit: 'Mr.choppers / CC BY-SA 3.0',
-        description: 'The Porsche 964, produced from 1989 to 1994, was the first 911 to feature coil-spring suspension and all-wheel drive. Powered by a 3.6-litre air-cooled flat-six, the 964 modernised the 911 while retaining its character. The lightweight Carrera RS and RS 3.8 are the most collectible variants.'
-      },
-      '965': {
-        name: 'Porsche 959/965',
-        years: '1986 — 1989',
-        specs: '2.85L Flat-6 Twin-Turbo · 444 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg/1920px-Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg',
-        credit: 'M 93 / CC BY-SA 3.0 de',
-        description: 'The Porsche 959, developed under project code 965, was produced from 1986 to 1989 as the ultimate 911-derived supercar. Its twin-turbocharged 2.85-litre flat-six and advanced all-wheel-drive system made it the fastest road car of its era. Limited to 337 units, the 959 is one of the most valuable Porsches ever made.'
-      },
-      '993': {
-        name: 'Porsche 911 993',
-        years: '1994 — 1998',
-        specs: '3.6L Flat-6 · 272–450 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg/1920px-Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg',
-        credit: 'Alexander Migl / CC BY-SA 4.0',
-        description: 'The Porsche 993, produced from 1994 to 1998, is the last air-cooled 911 and widely considered the most beautiful. Its refined multi-link rear suspension transformed the handling, while the 3.6-litre flat-six delivers between 272 and 450 bhp depending on variant. The GT2, Turbo S, and Carrera RS are exceptionally collectible.'
-      },
-      '996': {
-        name: 'Porsche 911 996',
-        years: '1998 — 2004',
-        specs: '3.4–3.6L Flat-6 · 296–483 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg/1920px-2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg',
-        credit: 'MercurySable99 / CC BY-SA 4.0',
-        description: 'The Porsche 996, produced from 1998 to 2004, was the first water-cooled 911. Its 3.4-litre (later 3.6-litre) flat-six represented a major engineering shift. While the base models offer exceptional value, the GT3 and GT2 variants are highly sought-after and have appreciated significantly.'
-      },
-      '997': {
-        name: 'Porsche 911 997',
-        years: '2004 — 2012',
-        specs: '3.6–3.8L Flat-6 · 321–620 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg/1920px-Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg',
-        credit: 'Alexandre Pr\u00e9vot / CC BY-SA 2.0',
-        description: 'The Porsche 997, produced from 2004 to 2012, refined the water-cooled formula with a return to classic round headlamps and improved dynamics. Available with naturally aspirated and turbocharged flat-sixes producing up to 620 bhp in GT2 RS form, the 997 generation offers tremendous variety. The GT3 RS 4.0 is the most collectible.'
-      },
-      '991.1': {
-        name: 'Porsche 911 991.1',
-        years: '2012 — 2016',
-        specs: '3.4–3.8L Flat-6 · 350–560 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2012_Porsche_911_Carrera_S_2.jpg/1920px-2012_Porsche_911_Carrera_S_2.jpg',
-        credit: 'Calreyn88 / CC BY-SA 4.0',
-        description: 'The Porsche 991.1, produced from 2012 to 2016, was a significant evolution featuring a longer wheelbase, lighter weight aluminium-steel construction, and a range of naturally aspirated flat-six engines producing 350 to 560 bhp. The GT3 and GT3 RS returned to naturally aspirated power, and the limited R variant is highly prized.'
-      },
-      '991.2': {
-        name: 'Porsche 911 991.2',
-        years: '2017 — 2019',
-        specs: '3.0–4.0L Flat-6 · 370–700 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg/1920px-Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg',
-        credit: 'Alexandre Pr\u00e9vot / CC BY-SA 2.0',
-        description: 'The Porsche 991.2, produced from 2017 to 2019, introduced turbocharged engines across the Carrera range for the first time. The 3.0-litre twin-turbo flat-six produces 370 to 450 bhp in standard models. The naturally aspirated GT3 and GT3 RS (with 4.0-litre engines up to 520 bhp) and the 700 bhp GT2 RS are the ultimate expressions.'
-      },
-      '992': {
-        name: 'Porsche 911 992',
-        years: '2019 — Present',
-        specs: '3.0–3.8L Flat-6 · 379–700 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/1920px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg',
-        credit: 'Alexander Migl / CC BY-SA 4.0',
-        description: 'The Porsche 992, produced from 2019, is the current generation 911 featuring wider bodywork, a digital cockpit, and turbocharged flat-six engines producing 379 to 700 bhp. PDK and manual gearboxes remain available. The GT3, GT3 RS, and GT2 RS continue the tradition of track-focused naturally aspirated and forced-induction variants.'
-      }
-    };
-
-    function updateHeroForGeneration(gen) {
-      if (gen && GENERATION_DATA[gen]) {
-        const gd = GENERATION_DATA[gen];
-        heroImg.style.opacity = '0';
-        setTimeout(() => {
-          heroImg.src = gd.image;
-          heroImageUrl = gd.image;
-          heroImg.onload = () => { heroImg.style.opacity = '1'; };
-        }, 300);
-        heroNameEl.textContent = gd.name;
-        heroYearsEl.innerHTML = gd.years + ' &middot; ' + gd.specs;
-        if (heroCreditEl) heroCreditEl.textContent = 'Image: ' + gd.credit;
-        if (descriptionEl) descriptionEl.textContent = gd.description;
-      } else if (defaultHero) {
-        heroImg.style.opacity = '0';
-        setTimeout(() => {
-          heroImg.src = defaultHero.image;
-          heroImageUrl = defaultHero.image;
-          heroImg.onload = () => { heroImg.style.opacity = '1'; };
-        }, 300);
-        heroNameEl.textContent = defaultHero.name;
-        heroYearsEl.innerHTML = defaultHero.years;
-        if (heroCreditEl) heroCreditEl.textContent = 'Image: ' + defaultHero.credit;
-        if (descriptionEl) descriptionEl.textContent = defaultHero.description;
-      }
-    }
 
     function buildFilterPills(listings) {
       for (const [filterName, config] of Object.entries(FILTER_CONFIG)) {
@@ -1230,7 +1107,8 @@
     function updateFilterCount() {
       let count = 0;
       if (filters.year.length > 0) count++;
-      if (filters.generation) count++;
+      if (filters.body) count++;
+      if (filters.variant) count++;
       if (filters.transmission) count++;
       if (filters.source) count++;
       if (filters.priceMin !== null) count++;
@@ -1251,11 +1129,11 @@
       if (filters.year.length > 0) {
         results = results.filter(l => filters.year.includes(l.year));
       }
-      if (filters.generation) {
-        results = results.filter(l => detectGeneration(l) === filters.generation);
-      }
       if (filters.body) {
         results = results.filter(l => ((l.bodyType || '').toLowerCase() || getBody(l.title)) === filters.body);
+      }
+      if (filters.variant) {
+        results = results.filter(l => getVariant(l.title) === filters.variant);
       }
       if (filters.transmission) {
         results = results.filter(l => getTransmissionGroup(l.transmission) === filters.transmission);
@@ -1305,7 +1183,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.generation || filters.body || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1333,21 +1211,21 @@
 
         if (filterName === 'year') {
           if (!val) {
-            filters[filterName] = [];
+            filters.year = [];
             row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
           } else {
-            const filterVal = parseInt(val);
-            const idx = filters[filterName].indexOf(filterVal);
+            const yearVal = parseInt(val);
+            const idx = filters.year.indexOf(yearVal);
             if (idx > -1) {
-              filters[filterName].splice(idx, 1);
+              filters.year.splice(idx, 1);
               pill.classList.remove('active');
             } else {
-              filters[filterName].push(filterVal);
+              filters.year.push(yearVal);
               pill.classList.add('active');
             }
             const allPill = row.querySelector('.filter-pill[data-value=""]');
-            if (filters[filterName].length > 0) {
+            if (filters.year.length > 0) {
               allPill.classList.remove('active');
             } else {
               allPill.classList.add('active');
@@ -1357,9 +1235,6 @@
           row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
           pill.classList.add('active');
           filters[filterName] = val || null;
-          if (filterName === 'generation') {
-            updateHeroForGeneration(filters.generation);
-          }
         }
         applyFiltersAndSort();
       });
@@ -1407,21 +1282,10 @@
         }
 
         // Hero credit
-        if (heroCreditEl && data.heroCredit) {
-          heroCreditEl.textContent = 'Image: ' + data.heroCredit;
+        const creditEl = document.getElementById('heroCredit');
+        if (creditEl && data.heroCredit) {
+          creditEl.textContent = 'Image: ' + data.heroCredit;
         }
-
-        // Store defaults for hero restoration when generation deselected
-        defaultHero = {
-          name: 'Porsche 911',
-          years: '1963 — Present &middot; 2.0–3.8L Flat-6 &middot; 130–640 BHP',
-          image: data.heroImage,
-          credit: data.heroCredit,
-          description: data.description
-        };
-
-        // Preload generation images so swaps feel instant
-        Object.values(GENERATION_DATA).forEach(gd => { new Image().src = gd.image; });
 
         loadingEl.style.display = 'none';
 
@@ -1470,6 +1334,9 @@
 
     loadListings();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
 
 </body>
 </html>

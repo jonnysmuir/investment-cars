@@ -75,6 +75,21 @@
     nav a:hover { color: var(--color-accent); }
     .nav-active { color: var(--color-accent) !important; }
 
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+
     .nav-right {
       display: flex;
       align-items: center;
@@ -717,6 +732,7 @@
       <a href="/listings">Listings</a>
       <a href="/analysis">Analysis</a>
       <a href="/#contact">Get in Touch</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
   </nav>
@@ -725,7 +741,7 @@
     <img id="heroImage" src="" alt="BMW M3" style="opacity: 0;">
     <div class="hero-overlay">
       <h1 class="hero-model-name">BMW M3</h1>
-      <p class="hero-model-years">1986 — Present &middot; 2.3–4.0L I4/I6/V8 &middot; 197–503 BHP</p>
+      <p class="hero-model-years"></p>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -757,10 +773,6 @@
 
       <div class="filter-row" data-filter="year">
         <span class="filter-label">Year</span>
-      </div>
-
-      <div class="filter-row" data-filter="generation">
-        <span class="filter-label">Generation</span>
       </div>
 
       <div class="filter-row" data-filter="body" style="display: none;">
@@ -844,9 +856,6 @@
     const descriptionEl = document.getElementById('pageDescription');
     const countEl = document.getElementById('listingCount');
     const heroImg = document.getElementById('heroImage');
-    const heroNameEl = document.querySelector('.hero-model-name');
-    const heroYearsEl = document.querySelector('.hero-model-years');
-    const heroCreditEl = document.getElementById('heroCredit');
     const filterControls = document.getElementById('filterControls');
     const filterToggle = document.getElementById('filterToggle');
     const filterActiveCountEl = document.getElementById('filterActiveCount');
@@ -907,42 +916,20 @@
     }
 
     function getBody(title) {
-      if (/\bconvertible\b|\bcabrio(?:let)?\b|\bcab\b/i.test(title)) return 'convertible';
-      if (/\bestate\b|\btouring\b|\bwagon\b/i.test(title)) return 'estate';
-      if (/\bsaloon\b|\bsedan\b/i.test(title)) return 'saloon';
-      if (/\bcoupe\b|\bcoupé\b/i.test(title)) return 'coupe';
-      // Infer from door count: 2dr = coupe, 4dr = saloon
-      if (/\b2\s*dr\b/i.test(title)) return 'coupe';
-      if (/\b4\s*dr\b|\b5\s*dr\b/i.test(title)) return 'saloon';
-      // Infer from BMW generation/body codes
-      if (/\bE30\b|\bE36\b|\bE46\b|\bE92\b/i.test(title)) return 'coupe';
-      if (/\bE93\b/i.test(title)) return 'convertible';
-      if (/\bE90\b|\bF80\b|\bG80\b/i.test(title)) return 'saloon';
-      if (/\bE91\b|\bF81\b|\bG81\b/i.test(title)) return 'estate';
       return null;
     }
 
     function getVariant(title) {
-      if (/\bCS\b/.test(title)) return 'cs';
-      if (/competition/i.test(title)) return 'competition';
       return 'standard';
     }
 
     function getTransmissionGroup(str) {
-      if (!str) return 'auto';
-      if (/manual/i.test(str.trim())) return 'manual';
-      if (/dct|dual.?clutch|dkg/i.test(str.trim())) return 'dct';
-      return 'auto';
-    }
-
-    function generationFromYear(year) {
-      if (!year) return null;
-      if (year <= 1991) return 'E30';
-      if (year <= 1999) return 'E36';
-      if (year <= 2006) return 'E46';
-      if (year <= 2013) return 'E90/E92';
-      if (year <= 2020) return 'F80';
-      return 'G80';
+      if (!str) return 'manual';
+      const s = str.toLowerCase();
+      if (/manual|6.speed.*man|gated/i.test(s) && !/auto|dct|sequential|paddle|f1|e.gear/i.test(s)) return 'manual';
+      if (/dct|dual.clutch|pdk|ssg|s.tronic|e.gear|f1|sequential|paddle/i.test(s)) return 'dct';
+      if (/auto|tiptronic|torque.converter/i.test(s)) return 'automatic';
+      return 'unknown';
     }
 
     function matchesSource(listing, sourceName) {
@@ -1035,11 +1022,9 @@
     // --- Filter & sort state ---
 
     let heroImageUrl = '';
-    let defaultHero = null;
     let allClassified = [];
     const filters = {
       year: [],
-      generation: null,
       body: null,
       variant: null,
       transmission: null,
@@ -1059,90 +1044,11 @@
 
     const FILTER_CONFIG = {
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
-      generation:   { detect: l => generationFromYear(l.year), labels: {}, sortOrder: ['E30','E36','E46','E90/E92','F80','G80'], mode: 'single' },
-      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', saloon: 'Saloon', convertible: 'Convertible', estate: 'Estate' }, sortOrder: ['coupe','saloon','convertible','estate'], mode: 'single', minDistinct: 2 },
-      variant:      { detect: l => getVariant(l.title), labels: { standard: 'Standard', competition: 'Competition', cs: 'CS' }, sortOrder: ['standard','competition','cs'], mode: 'single', minDistinct: 2 },
-      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: { manual: 'Manual', dct: 'DCT', auto: 'Auto' }, sortOrder: ['manual','dct','auto'], mode: 'single' },
+      body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: {"coupe":"Coupe","convertible":"Convertible","saloon":"Saloon","estate":"Estate","targa":"Targa","speedster":"Speedster","suv":"SUV"}, sortOrder: ["coupe","convertible","saloon","estate","targa","speedster","suv"], mode: 'single' },
+      variant:      { detect: l => getVariant(l.title), labels: {"standard":"Standard"}, sortOrder: ["standard"], mode: 'single', minDistinct: 2 },
+      transmission: { detect: l => getTransmissionGroup(l.transmission), labels: {"manual":"Manual","dct":"DCT/Dual-Clutch","automatic":"Automatic","unknown":"Unknown"}, sortOrder: ["manual","dct","automatic","unknown"], mode: 'single' },
       source:       { detect: l => (l.sources||[]).map(s => s.name), labels: {}, sortOrder: ['PistonHeads','AutoTrader','Cars & Classic'], mode: 'single', isMultiValue: true },
     };
-
-    const GENERATION_DATA = {
-      'E30': {
-        name: 'BMW M3 E30',
-        years: '1986 — 1991',
-        specs: '2.3–2.5L I4 · 197–235 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BMW_M3_%28E30%29_IMG_4388.jpg/1920px-BMW_M3_%28E30%29_IMG_4388.jpg',
-        credit: 'Alexander Migl / CC BY-SA 4.0',
-        description: 'The original BMW M3 E30, built from 1986 to 1991, was developed for Group A touring car homologation. Powered by the S14 four-cylinder engine producing 197 to 235 bhp, the E30 M3 is the most motorsport-focused generation and among the most collectible BMW road cars ever produced.'
-      },
-      'E36': {
-        name: 'BMW M3 E36',
-        years: '1992 — 1999',
-        specs: '3.0–3.2L I6 · 286–321 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1995-1999_BMW_M3_%28E36%29_coupe_02.jpg/1920px-1995-1999_BMW_M3_%28E36%29_coupe_02.jpg',
-        credit: 'OSX / Public Domain',
-        description: 'The BMW M3 E36, produced from 1992 to 1999, introduced the inline-six engine to the M3 lineage. Available as a coupe, saloon, and convertible, the E36 M3 brought more refined grand touring manners while retaining sharp handling. Late-model Evolution and GT variants are the most sought-after.'
-      },
-      'E46': {
-        name: 'BMW M3 E46',
-        years: '2000 — 2006',
-        specs: '3.2L I6 · 338–360 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BMW_M3_CSL_%28E46%29.jpg/1920px-BMW_M3_CSL_%28E46%29.jpg',
-        credit: 'Jake Thomas / CC BY-SA 4.0',
-        description: 'The BMW M3 E46, produced from 2000 to 2006, is widely regarded as the finest M3 generation. Its 3.2-litre S54 inline-six delivers 338 bhp with a glorious exhaust note. The ultra-lightweight CSL variant, limited in production, is the most collectible M3 of any generation.'
-      },
-      'E90/E92': {
-        name: 'BMW M3 E90/E92',
-        years: '2007 — 2013',
-        specs: '4.0L V8 · 414–450 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BMW_M3_E92_-_Flickr_-_Alexandre_Pr%C3%A9vot_%284%29_%28cropped%29.jpg/1920px-BMW_M3_E92_-_Flickr_-_Alexandre_Pr%C3%A9vot_%284%29_%28cropped%29.jpg',
-        credit: 'Alexandre Pr\u00e9vot / CC BY-SA 2.0',
-        description: "The BMW M3 E90/E92, produced from 2007 to 2013, was the only M3 generation powered by a V8 \u2014 the S65 4.0-litre unit producing 414 bhp and revving to 8,300 rpm. Available as a coupe (E92), saloon (E90), and convertible (E93), this generation introduced the M-DCT dual-clutch gearbox. The limited GTS variant is exceptionally collectible."
-      },
-      'F80': {
-        name: 'BMW M3 F80',
-        years: '2014 — 2020',
-        specs: '3.0L I6 Twin-Turbo · 425–460 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2017_BMW_M3_%28F80%29_sedan_%282018-08-31%29_01.jpg/1920px-2017_BMW_M3_%28F80%29_sedan_%282018-08-31%29_01.jpg',
-        credit: 'EurovisionNim / CC BY-SA 4.0',
-        description: "The BMW M3 F80, produced from 2014 to 2020, marked the M3's return to an inline-six engine \u2014 this time twin-turbocharged. The S55 3.0-litre unit produces 425 bhp in standard form and 450 bhp in Competition specification. The CS variant, with reduced weight and 460 bhp, is the most desirable."
-      },
-      'G80': {
-        name: 'BMW M3 G80',
-        years: '2021 — Present',
-        specs: '3.0L I6 Twin-Turbo · 473–503 BHP',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BMW_M3_COMPETITION_%28G80%29_China.jpg/1920px-BMW_M3_COMPETITION_%28G80%29_China.jpg',
-        credit: 'Dinkun Chen / CC BY-SA 4.0',
-        description: 'The BMW M3 G80, produced from 2021, features the S58 twin-turbocharged 3.0-litre inline-six producing 473 bhp in standard form and 503 bhp in Competition specification. The G80 introduced xDrive all-wheel drive to the M3 for the first time, while a manual gearbox remains available on the rear-wheel-drive variant.'
-      }
-    };
-
-    function updateHeroForGeneration(gen) {
-      if (gen && GENERATION_DATA[gen]) {
-        const gd = GENERATION_DATA[gen];
-        heroImg.style.opacity = '0';
-        setTimeout(() => {
-          heroImg.src = gd.image;
-          heroImageUrl = gd.image;
-          heroImg.onload = () => { heroImg.style.opacity = '1'; };
-        }, 300);
-        heroNameEl.textContent = gd.name;
-        heroYearsEl.innerHTML = gd.years + ' &middot; ' + gd.specs;
-        if (heroCreditEl) heroCreditEl.textContent = 'Image: ' + gd.credit;
-        if (descriptionEl) descriptionEl.textContent = gd.description;
-      } else if (defaultHero) {
-        heroImg.style.opacity = '0';
-        setTimeout(() => {
-          heroImg.src = defaultHero.image;
-          heroImageUrl = defaultHero.image;
-          heroImg.onload = () => { heroImg.style.opacity = '1'; };
-        }, 300);
-        heroNameEl.textContent = defaultHero.name;
-        heroYearsEl.innerHTML = defaultHero.years;
-        if (heroCreditEl) heroCreditEl.textContent = 'Image: ' + defaultHero.credit;
-        if (descriptionEl) descriptionEl.textContent = defaultHero.description;
-      }
-    }
 
     function buildFilterPills(listings) {
       for (const [filterName, config] of Object.entries(FILTER_CONFIG)) {
@@ -1201,7 +1107,6 @@
     function updateFilterCount() {
       let count = 0;
       if (filters.year.length > 0) count++;
-      if (filters.generation) count++;
       if (filters.body) count++;
       if (filters.variant) count++;
       if (filters.transmission) count++;
@@ -1223,9 +1128,6 @@
       // Apply filters
       if (filters.year.length > 0) {
         results = results.filter(l => filters.year.includes(l.year));
-      }
-      if (filters.generation) {
-        results = results.filter(l => generationFromYear(l.year) === filters.generation);
       }
       if (filters.body) {
         results = results.filter(l => ((l.bodyType || '').toLowerCase() || getBody(l.title)) === filters.body);
@@ -1281,7 +1183,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.generation || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1309,21 +1211,21 @@
 
         if (filterName === 'year') {
           if (!val) {
-            filters[filterName] = [];
+            filters.year = [];
             row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
           } else {
-            const filterVal = parseInt(val);
-            const idx = filters[filterName].indexOf(filterVal);
+            const yearVal = parseInt(val);
+            const idx = filters.year.indexOf(yearVal);
             if (idx > -1) {
-              filters[filterName].splice(idx, 1);
+              filters.year.splice(idx, 1);
               pill.classList.remove('active');
             } else {
-              filters[filterName].push(filterVal);
+              filters.year.push(yearVal);
               pill.classList.add('active');
             }
             const allPill = row.querySelector('.filter-pill[data-value=""]');
-            if (filters[filterName].length > 0) {
+            if (filters.year.length > 0) {
               allPill.classList.remove('active');
             } else {
               allPill.classList.add('active');
@@ -1333,9 +1235,6 @@
           row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
           pill.classList.add('active');
           filters[filterName] = val || null;
-          if (filterName === 'generation') {
-            updateHeroForGeneration(filters.generation);
-          }
         }
         applyFiltersAndSort();
       });
@@ -1383,21 +1282,10 @@
         }
 
         // Hero credit
-        if (heroCreditEl && data.heroCredit) {
-          heroCreditEl.textContent = 'Image: ' + data.heroCredit;
+        const creditEl = document.getElementById('heroCredit');
+        if (creditEl && data.heroCredit) {
+          creditEl.textContent = 'Image: ' + data.heroCredit;
         }
-
-        // Store defaults for hero restoration when generation deselected
-        defaultHero = {
-          name: 'BMW M3',
-          years: '1986 — Present &middot; 2.3–4.0L I4/I6/V8 &middot; 197–503 BHP',
-          image: data.heroImage,
-          credit: data.heroCredit,
-          description: data.description
-        };
-
-        // Preload generation images so swaps feel instant
-        Object.values(GENERATION_DATA).forEach(gd => { new Image().src = gd.image; });
 
         loadingEl.style.display = 'none';
 
@@ -1446,6 +1334,9 @@
 
     loadListings();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
 
 </body>
 </html>

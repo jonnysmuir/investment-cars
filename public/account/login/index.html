@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    a.logo {
+      font-size: 1.2rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--color-accent); text-decoration: none;
+    }
+    a.logo:hover { opacity: 0.85; }
+
+    nav a {
+      color: var(--color-text-muted); text-decoration: none; font-size: 0.85rem;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    nav a:hover { color: var(--color-accent); }
+
+    .nav-right { display: flex; align-items: center; gap: 1.25rem; }
+
+    .theme-toggle {
+      background: none; border: 1px solid var(--color-border); border-radius: 50%;
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: var(--color-text-muted); font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+    /* Auth card */
+    .auth-container {
+      flex: 1; display: flex; align-items: center; justify-content: center;
+      padding: 6rem 1.5rem 3rem;
+    }
+
+    .auth-card {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; padding: 2.5rem; width: 100%; max-width: 420px;
+    }
+
+    .auth-card h1 {
+      font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;
+    }
+
+    .auth-card .subtitle {
+      color: var(--color-text-muted); font-size: 0.9rem; text-align: center; margin-bottom: 2rem;
+    }
+
+    /* Google button */
+    .google-btn {
+      width: 100%; padding: 0.75rem; border: 1px solid var(--color-border);
+      border-radius: 8px; background: var(--color-surface); color: var(--color-text);
+      font-size: 0.95rem; cursor: pointer; display: flex; align-items: center;
+      justify-content: center; gap: 0.75rem; transition: border-color 0.2s;
+    }
+    .google-btn:hover { border-color: var(--color-accent); }
+    .google-btn svg { width: 20px; height: 20px; }
+
+    /* Divider */
+    .divider {
+      display: flex; align-items: center; gap: 1rem; margin: 1.5rem 0;
+      color: var(--color-text-muted); font-size: 0.8rem;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--color-border);
+    }
+
+    /* Form */
+    .form-group { margin-bottom: 1rem; }
+
+    .form-group label {
+      display: block; font-size: 0.85rem; color: var(--color-text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .form-group input {
+      width: 100%; padding: 0.7rem 0.9rem; border: 1px solid var(--color-border);
+      border-radius: 8px; background: var(--color-bg); color: var(--color-text);
+      font-size: 0.95rem; outline: none; transition: border-color 0.2s;
+    }
+    .form-group input:focus { border-color: var(--color-accent); }
+
+    .submit-btn {
+      width: 100%; padding: 0.8rem; border: none; border-radius: 8px;
+      background: var(--color-accent); color: var(--btn-text); font-size: 0.95rem;
+      font-weight: 600; cursor: pointer; margin-top: 0.5rem; transition: opacity 0.2s;
+    }
+    .submit-btn:hover { opacity: 0.9; }
+    .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .auth-links {
+      text-align: center; margin-top: 1.25rem; font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+    .auth-links a { color: var(--color-accent); text-decoration: none; }
+    .auth-links a:hover { text-decoration: underline; }
+
+    .error-msg {
+      background: rgba(220, 53, 69, 0.1); border: 1px solid rgba(220, 53, 69, 0.3);
+      color: #ff6b7a; padding: 0.7rem 1rem; border-radius: 8px; font-size: 0.85rem;
+      margin-bottom: 1rem; display: none;
+    }
+
+    .success-msg {
+      background: rgba(40, 167, 69, 0.1); border: 1px solid rgba(40, 167, 69, 0.3);
+      color: #5bda7f; padding: 0.7rem 1rem; border-radius: 8px; font-size: 0.85rem;
+      margin-bottom: 1rem; display: none;
+    }
+
+    /* Hide register fields by default */
+    .register-only { display: none; }
+    .login-only { display: block; }
+
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-right { gap: 0.75rem; }
+      .auth-card { padding: 2rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis">Analysis</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1 id="authTitle">Sign In to Collectorly</h1>
+      <p class="subtitle" id="authSubtitle">Track, analyse, and invest in collector cars</p>
+
+      <div class="error-msg" id="errorMsg"></div>
+      <div class="success-msg" id="successMsg"></div>
+
+      <button class="google-btn" id="googleBtn">
+        <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        Continue with Google
+      </button>
+
+      <div class="divider">or continue with email</div>
+
+      <form id="authForm">
+        <div class="form-group register-only">
+          <label for="displayName">Display Name</label>
+          <input type="text" id="displayName" placeholder="Your name" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Your password" required autocomplete="current-password">
+        </div>
+
+        <div class="form-group register-only">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Confirm password" autocomplete="new-password">
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">Sign In</button>
+      </form>
+
+      <div class="auth-links">
+        <p class="login-only"><a href="#" id="forgotLink">Forgot your password?</a></p>
+        <p class="login-only" style="margin-top: 0.5rem">
+          Don't have an account? <a href="#" id="switchToRegister">Register</a>
+        </p>
+        <p class="register-only">
+          Already have an account? <a href="#" id="switchToLogin">Sign In</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      document.documentElement.classList.add('light');
+      themeToggle.innerHTML = '&#9728;';
+    }
+    themeToggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeToggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
+
+  <script>
+    const authForm = document.getElementById('authForm');
+    const authTitle = document.getElementById('authTitle');
+    const authSubtitle = document.getElementById('authSubtitle');
+    const submitBtn = document.getElementById('submitBtn');
+    const errorMsg = document.getElementById('errorMsg');
+    const successMsg = document.getElementById('successMsg');
+    const googleBtn = document.getElementById('googleBtn');
+
+    let isRegister = false;
+
+    function showError(msg) {
+      errorMsg.textContent = msg;
+      errorMsg.style.display = 'block';
+      successMsg.style.display = 'none';
+    }
+
+    function showSuccess(msg) {
+      successMsg.textContent = msg;
+      successMsg.style.display = 'block';
+      errorMsg.style.display = 'none';
+    }
+
+    function clearMessages() {
+      errorMsg.style.display = 'none';
+      successMsg.style.display = 'none';
+    }
+
+    function switchMode(register) {
+      isRegister = register;
+      clearMessages();
+      document.querySelectorAll('.register-only').forEach(el => {
+        el.style.display = register ? 'block' : 'none';
+      });
+      document.querySelectorAll('.login-only').forEach(el => {
+        el.style.display = register ? 'none' : 'block';
+      });
+      authTitle.textContent = register ? 'Create an Account' : 'Sign In to Collectorly';
+      authSubtitle.textContent = register
+        ? 'Join Collectorly to track your favourite cars'
+        : 'Track, analyse, and invest in collector cars';
+      submitBtn.textContent = register ? 'Create Account' : 'Sign In';
+      document.getElementById('password').autocomplete = register ? 'new-password' : 'current-password';
+    }
+
+    document.getElementById('switchToRegister').addEventListener('click', (e) => {
+      e.preventDefault();
+      switchMode(true);
+    });
+
+    document.getElementById('switchToLogin').addEventListener('click', (e) => {
+      e.preventDefault();
+      switchMode(false);
+    });
+
+    // Google sign-in
+    googleBtn.addEventListener('click', () => {
+      signInWithGoogle();
+    });
+
+    // Forgot password
+    document.getElementById('forgotLink').addEventListener('click', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('email').value.trim();
+      if (!email) {
+        showError('Please enter your email address first.');
+        return;
+      }
+      clearMessages();
+      const result = await resetPassword(email);
+      if (result.error) {
+        showError(result.error);
+      } else {
+        showSuccess('Password reset email sent. Check your inbox.');
+      }
+    });
+
+    // Form submit
+    authForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      clearMessages();
+
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+
+      if (!email || !password) {
+        showError('Please fill in all fields.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = isRegister ? 'Creating Account...' : 'Signing In...';
+
+      try {
+        if (isRegister) {
+          const displayName = document.getElementById('displayName').value.trim();
+          const confirmPassword = document.getElementById('confirmPassword').value;
+
+          if (password !== confirmPassword) {
+            showError('Passwords do not match.');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Create Account';
+            return;
+          }
+
+          if (password.length < 6) {
+            showError('Password must be at least 6 characters.');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Create Account';
+            return;
+          }
+
+          const result = await signUp(email, password, displayName);
+          if (result.error) {
+            showError(result.error);
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Create Account';
+            return;
+          }
+
+          if (result.needsConfirmation) {
+            showSuccess('Account created! Please check your email to confirm your address.');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Create Account';
+          } else {
+            window.location.href = '/account/dashboard';
+          }
+        } else {
+          const result = await signInWithEmail(email, password);
+          if (result.error) {
+            showError(result.error);
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Sign In';
+            return;
+          }
+          window.location.href = '/account/dashboard';
+        }
+      } catch (err) {
+        showError('An unexpected error occurred. Please try again.');
+        submitBtn.disabled = false;
+        submitBtn.textContent = isRegister ? 'Create Account' : 'Sign In';
+      }
+    });
+
+    // Check if already logged in
+    (async () => {
+      const user = await getCurrentUser();
+      if (user) {
+        window.location.href = '/account/dashboard';
+      }
+    })();
+  </script>
+
+</body>
+</html>

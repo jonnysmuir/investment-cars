@@ -35,6 +35,23 @@ async function setup() {
   `);
 
   console.log('click_events table ready.');
+
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS users (
+      id              VARCHAR(36) PRIMARY KEY,
+      email           VARCHAR(255) NOT NULL,
+      display_name    VARCHAR(100) NULL,
+      avatar_url      VARCHAR(500) NULL,
+      auth_provider   VARCHAR(20) DEFAULT 'email',
+      created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      last_login      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      alert_frequency ENUM('instant', 'daily', 'weekly') DEFAULT 'daily',
+      alerts_enabled  BOOLEAN DEFAULT TRUE,
+      INDEX idx_email (email)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  `);
+
+  console.log('users table ready.');
   await pool.end();
 }
 
