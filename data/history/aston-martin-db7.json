@@ -926,7 +926,7 @@
     "listings": [
       {
         "id": "39",
-        "price": 26995,
+        "price": 27990,
         "year": 2004,
         "mileage": 60,
         "transmission": "Automatic",
@@ -944,8 +944,8 @@
         "id": "41",
         "price": 17995,
         "year": 2000,
-        "mileage": null,
-        "transmission": "Unknown",
+        "mileage": 61411,
+        "transmission": "Automatic",
         "status": "active"
       },
       {
@@ -958,7 +958,7 @@
       },
       {
         "id": "43",
-        "price": 29950,
+        "price": 28950,
         "year": 2000,
         "mileage": 37500,
         "transmission": "Automatic",
@@ -974,7 +974,7 @@
       },
       {
         "id": "45",
-        "price": 22500,
+        "price": 22598,
         "year": 2000,
         "mileage": 57042,
         "transmission": "Unknown",
@@ -982,7 +982,7 @@
       },
       {
         "id": "46",
-        "price": 28000,
+        "price": 28995,
         "year": 2001,
         "mileage": 34500,
         "transmission": "Unknown",
@@ -1034,14 +1034,6 @@
         "year": 1998,
         "mileage": 1496,
         "transmission": "6-Speed Manual",
-        "status": "active"
-      },
-      {
-        "id": "53",
-        "price": 19995,
-        "year": 2000,
-        "mileage": 60174,
-        "transmission": "Automatic",
         "status": "active"
       },
       {
@@ -1334,7 +1326,7 @@
       },
       {
         "id": "90",
-        "price": 25995,
+        "price": 25950,
         "year": 2000,
         "mileage": 53561,
         "transmission": "6-Speed Manual",
@@ -1386,6 +1378,14 @@
         "year": "2000",
         "mileage": 61411,
         "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "97",
+        "price": 28995,
+        "year": 1998,
+        "mileage": 60000,
+        "transmission": "Unknown",
         "status": "active"
       }
     ]

@@ -677,34 +677,10 @@
     "date": "2026-03-30",
     "listings": [
       {
-        "id": "10",
-        "price": 89900,
-        "year": 2022,
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
         "id": "11",
         "price": 69990,
         "year": 2016,
         "mileage": 46221,
-        "transmission": "Unknown",
-        "status": "active"
-      },
-      {
-        "id": "12",
-        "price": 42995,
-        "year": 2015,
-        "mileage": null,
-        "transmission": "Unknown",
-        "status": "active"
-      },
-      {
-        "id": "13",
-        "price": 44995,
-        "year": 2013,
-        "mileage": null,
         "transmission": "Unknown",
         "status": "active"
       },
@@ -733,33 +709,9 @@
         "status": "active"
       },
       {
-        "id": "17",
-        "price": 79950,
-        "year": "2020",
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
         "id": "18",
         "price": 102950,
         "year": "2024",
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
-        "id": "19",
-        "price": 69950,
-        "year": "2019",
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
-        "id": "20",
-        "price": 68950,
-        "year": "2018",
         "mileage": null,
         "transmission": "Automatic",
         "status": "active"
@@ -834,38 +786,6 @@
         "year": "2016",
         "mileage": 23892,
         "transmission": "Automatic",
-        "status": "active"
-      },
-      {
-        "id": "30",
-        "price": 116995,
-        "year": 2022,
-        "mileage": null,
-        "transmission": "F1 Automated Manual",
-        "status": "active"
-      },
-      {
-        "id": "31",
-        "price": 76980,
-        "year": 2019,
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
-        "id": "32",
-        "price": 99480,
-        "year": 2023,
-        "mileage": null,
-        "transmission": "Automatic",
-        "status": "active"
-      },
-      {
-        "id": "33",
-        "price": 164995,
-        "year": 2025,
-        "mileage": null,
-        "transmission": "Unknown",
         "status": "active"
       },
       {
@@ -1066,6 +986,62 @@
         "year": "2024",
         "mileage": null,
         "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "59",
+        "price": 105007,
+        "year": 2023,
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "60",
+        "price": 134850,
+        "year": 2016,
+        "mileage": null,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "61",
+        "price": 49850,
+        "year": 2016,
+        "mileage": 24017,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "62",
+        "price": 95995,
+        "year": 2020,
+        "mileage": 14200,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "63",
+        "price": 204950,
+        "year": 2024,
+        "mileage": null,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "64",
+        "price": 82995,
+        "year": 2020,
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "65",
+        "price": 67950,
+        "year": 2009,
+        "mileage": 29600,
+        "transmission": "6-Speed Manual",
         "status": "active"
       }
     ]

@@ -824,12 +824,12 @@
     },
     {
       "id": "40",
-      "title": "2000 Used  BMW M5",
+      "title": "2000 BMW M5 5.0L 4 Door Saloon 6 Spd Manual Big Brake kit / Thousands spent",
       "price": "£27,995",
       "year": 2000,
       "mileage": "91,000 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Saloon",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-5-0l-4-door-saloon-6-spd-manual/bmw-m5-m5-5-0l-4-door-saloon-6-spd-manual-1367256499-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -944,13 +944,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/5-series/m5/bmw-5-series-m5-1416400425-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20108420"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "46",
@@ -4958,6 +4959,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1984629"
+        }
+      ]
+    },
+    {
+      "id": "257",
+      "title": "2022 BMW M5 4.4i V8 Competition Steptronic xDrive Euro 6 (s/s) 4dr",
+      "price": "£60,995",
+      "year": 2022,
+      "mileage": "22,800 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/efb63e944ade4083aaaa09f7857afcde.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281094248"
+        }
+      ]
+    },
+    {
+      "id": "258",
+      "title": "2013 BMW M5 4.4 V8 DCT Euro 5 (s/s) 4dr",
+      "price": "£15,989",
+      "year": 2013,
+      "mileage": "77,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/1b93edf9678d4df8a76cbcb2468f8819.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603180809631"
+        }
+      ]
+    },
+    {
+      "id": "259",
+      "title": "2018 BMW M5 4.4 V8 Saloon 4dr Petrol Steptronic xDrive Euro 6 (s/s) (600 ps)",
+      "price": "£37,900",
+      "year": 2018,
+      "mileage": "64,900 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/6ff92df634da4d07b939132e37e56f33.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603291108782"
         }
       ]
     }

@@ -4766,13 +4766,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2029752/2022-bmw-z4-69ba00ca79aa9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=49b104d8dda00d4f954b911c136d2fd7",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029752"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "248",
@@ -4823,13 +4824,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2023405/2015-bmw-z4-69bc02dd8e2b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4c80fe5abee6cd9d03aa8c0e48ec81ca",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023405"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "251",
@@ -4885,6 +4887,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039097"
+        }
+      ]
+    },
+    {
+      "id": "254",
+      "title": "2006 BMW Z4 2.0i SE Euro 4 2dr",
+      "price": "£950",
+      "year": 2006,
+      "mileage": "106,586 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1ae210d90eee43548e9819ed59dc6636.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281090450"
+        }
+      ]
+    },
+    {
+      "id": "255",
+      "title": "2010 BMW Z4 2.5 23i sDrive Euro 5 2dr",
+      "price": "£6,499",
+      "year": 2010,
+      "mileage": "74,850 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4db473431cb4489b8cac2ab700278b79.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281105088"
+        }
+      ]
+    },
+    {
+      "id": "256",
+      "title": "2007 BMW Z4 3.0si E85",
+      "price": "£13,490",
+      "year": "2007",
+      "mileage": "57,844 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29178969/2007-bmw-z4-69ca590e563fc.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e3c56e67887b8aa3daee66236b3ac06c",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2039558"
+        }
+      ]
+    },
+    {
+      "id": "257",
+      "title": "2009 BMW Z4 E89 sDrive35i",
+      "price": "£13,500",
+      "year": "2009",
+      "mileage": "35,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2039526/2009-bmw-z4-69ca4efb87a4a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=aa297c307d8c2ea3a1f1348c0f5bef78",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2039526"
         }
       ]
     }

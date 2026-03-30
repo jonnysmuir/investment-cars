@@ -903,13 +903,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/25501037/2022-aston-martin-dbs-68f82cff051d0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b84280fdba78b752fcd2035080709d77",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1962080"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "45",
@@ -1389,7 +1390,7 @@
     {
       "id": "70",
       "title": "2009 Aston Martin DBS 6.0 V12 Volante T-TronicII Euro 4 2dr",
-      "price": "£64,995",
+      "price": "£65,995",
       "year": 2009,
       "mileage": "49,000 miles",
       "transmission": "Unknown",
@@ -1402,6 +1403,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260236113"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£64,995",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -2200,6 +2207,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149931627"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2012 Aston Martin DBS 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£68,995",
+      "year": 2012,
+      "mileage": "39,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/0fa071b4e86647a28576c12ff15c8132.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281089056"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2008 Aston Martin DBS 6.0 V12 Coupe 2dr Petrol Manual Euro 4 (510 bhp)",
+      "price": "£114,950",
+      "year": 2008,
+      "mileage": "13,850 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f999f5d8c0234eafbc8b820e9ccc9f1d.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603200860468"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2022 Aston Martin DBS 5.2 V12 BiTurbo Volante Auto Euro 6 (s/s) 2dr",
+      "price": "£157,950",
+      "year": 2022,
+      "mileage": "9,900 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/514c2f0b7b9c410dac0dcd57725bed3e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601058933942"
         }
       ]
     }

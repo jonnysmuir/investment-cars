@@ -665,22 +665,28 @@
     },
     {
       "id": "34",
-      "title": "1997 Ferrari 456 GTA 5473 3dr Coupe Automatic Petrol 5.5",
-      "price": "£39,975",
+      "title": "1997 Ferrari 456 456 GTA 5473 3dr Coupe Automatic Petrol 5.5",
+      "price": "£37,975",
       "year": 1997,
       "mileage": "26,400 miles",
       "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w640/473958ddc05440c791986933191bad22.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509096184272"
         }
       ],
-      "unlistedDate": "2026-03-17"
+      "priceHistory": [
+        {
+          "price": "£39,975",
+          "date": "2026-03-30"
+        }
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "35",
@@ -771,6 +777,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1893283"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "2001 Ferrari 456M 5.5 GTA 2dr",
+      "price": "£49,995",
+      "year": 2001,
+      "mileage": "29,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/bdaf62bdcf2448c78f61943cd3a55e5e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602059685900"
         }
       ]
     }

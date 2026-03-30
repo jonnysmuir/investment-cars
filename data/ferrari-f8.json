@@ -318,13 +318,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1994956/2022-ferrari-f8-spider-695e463c37d19.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5177ad9e73eaa05318d13bf4606af563",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1994956"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "15",
@@ -397,13 +398,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6d0cd8a01a1949ceaed475cfe4ebc59a.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601209289945"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "19",
@@ -426,10 +428,10 @@
     },
     {
       "id": "20",
-      "title": "2023 Used  FERRARI F8 SPIDER S-A",
+      "title": "2023 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£325,000",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "367 miles",
       "transmission": "Automatic",
       "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f8/spider/ferrari-f8-spider-1419846608-1.jpg",
@@ -440,6 +442,48 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20160014"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271069811"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "2021 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£253,750",
+      "year": 2021,
+      "mileage": "8,750 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a41dd9bae2d04d468dd39bbc27b6c299.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240975837"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "2021 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£254,995",
+      "year": 2021,
+      "mileage": "6,635 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/94eea810d79d4659bddfcbde1373b844.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512118519326"
         }
       ]
     }

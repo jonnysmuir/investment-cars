@@ -386,7 +386,7 @@
     {
       "id": "20",
       "title": "2016 McLaren 650S 3.8T V8 Spider SSG Euro 6 2dr",
-      "price": "£104,999",
+      "price": "£97,995",
       "year": 2016,
       "mileage": "40,000 miles",
       "transmission": "Automatic",
@@ -427,6 +427,10 @@
         },
         {
           "price": "£94,999",
+          "date": "2026-03-30"
+        },
+        {
+          "price": "£104,999",
           "date": "2026-03-30"
         }
       ],
@@ -482,7 +486,7 @@
     {
       "id": "23",
       "title": "2016 McLaren 650S 3.8T V8 Spider 2dr Petrol SSG Euro 6 (650 ps) FULL CAR PPF!!!",
-      "price": "£94,999",
+      "price": "£104,999",
       "year": 2016,
       "mileage": "25,730 miles",
       "transmission": "Unknown",
@@ -500,6 +504,10 @@
         {
           "price": "£89,999",
           "date": "2026-03-22"
+        },
+        {
+          "price": "£94,999",
+          "date": "2026-03-30"
         }
       ],
       "bodyType": "Convertible"
@@ -551,13 +559,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4ff991a377e847db953d4554de2dcf8f.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202412036959311"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "27",
@@ -655,14 +664,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b0f6fbbd24c74bf1943c9ef9894b60cd.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110608989"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "32",
@@ -674,14 +684,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5148d68df94f4b3aa25cc91857522cd9.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180792567"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "33",
@@ -718,6 +729,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230921304"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "2014 McLaren 650S 3.8T V8 Spider SSG Euro 5 2dr",
+      "price": "£72,000",
+      "year": 2014,
+      "mileage": "67,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/b0f6fbbd24c74bf1943c9ef9894b60cd.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603291113426"
         }
       ]
     }

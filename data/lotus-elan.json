@@ -627,7 +627,7 @@
     {
       "id": "31",
       "title": "1995 Lotus Elan S2 (M100) – Medina Green/Raven Grey Leather",
-      "price": "£14,995",
+      "price": "£11,995",
       "year": "1995",
       "mileage": "1,234 miles",
       "transmission": "6-Speed Manual",
@@ -640,6 +640,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1933043"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£14,995",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -882,13 +888,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2025829/1972-lotus-elan-69ab561be2ff2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0548c029db52d86ddef1b40e22a89eb1",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025829"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "45",

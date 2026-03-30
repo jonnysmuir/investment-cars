@@ -59,7 +59,7 @@
     {
       "id": "3",
       "title": "2006 Ferrari 599 6.0 V12 GTB Fiorano Coupe 2dr Petrol F1 Euro 4 (612 bhp)",
-      "price": "£83,995",
+      "price": "£83,895",
       "year": 2006,
       "mileage": "31,000 miles",
       "transmission": "F1 Automated Manual",
@@ -77,7 +77,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19945578"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£83,995",
+          "date": "2026-03-30"
+        }
+      ]
     },
     {
       "id": "4",
@@ -218,13 +224,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/3768fc20f93e4d7d96084fc25c328c79.jpg",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202501238337372"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "11",
@@ -1254,13 +1261,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/3533e3a937784b6a82306b1fcd7c40e6.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603150717439"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "64",
@@ -1272,13 +1280,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28811480/2007-ferrari-599-gtb-69ba014d466ea.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5ffcf22c3dae5feb744b70994dce026a",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032100"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "65",

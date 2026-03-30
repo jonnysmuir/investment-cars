@@ -461,13 +461,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1926524/1969-ferrari-365-689f2c66b4b63.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8a017b34eb9f841b5d2c753f14ada898",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1926524"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "25",
@@ -679,6 +680,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2037090"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "1975 Ferrari 365 GT4 BB",
+      "price": "£199,950",
+      "year": "1975",
+      "mileage": "39,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2039652/1975-ferrari-365-69ca8776376cb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=62fa793aafbfa0ac2103f070b0108df1",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2039652"
         }
       ]
     }

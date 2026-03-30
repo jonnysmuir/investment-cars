@@ -1118,13 +1118,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2031506/2005-aston-martin-db9-69b8f8e7ed749.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1d4b7a7c6b6e923503b4cdee15072235",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2031506"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "56",
@@ -1137,13 +1138,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28809250/2004-aston-martin-db9-69b9f4c7e1acc.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=47ab99a521d2e928fe5b01577e708918",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032061"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "57",
@@ -1204,10 +1206,10 @@
     },
     {
       "id": "60",
-      "title": "2017 Used  ASTON MARTIN DB9",
+      "title": "2017 Aston Martin DB9 6.0 V12 GT T-TronicII Euro 6 2dr",
       "price": "£74,990",
       "year": 2017,
-      "mileage": "N/A",
+      "mileage": "5,000 miles",
       "transmission": "Unknown",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9/v12-gt/aston-martin-db9-v12-gt-1370151325-1.jpg",
@@ -1218,6 +1220,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19528738"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511278188085"
         }
       ]
     },
@@ -1237,6 +1243,1165 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039135"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "title": "2005 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£22,950",
+      "year": 2005,
+      "mileage": "63,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/ff41abbd064c4167bb7f73d93f6d82cf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240954654"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "2005 Aston Martin DB9 5.9 2dr",
+      "price": "£30,000",
+      "year": 2005,
+      "mileage": "43,250 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/334e9ae774eb4b9086dc7e3d5ab545cc.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603291114691"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£32,995",
+      "year": 2008,
+      "mileage": "39,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/c3b1dd722aa74bf792567b4d3561b9d5.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603120649568"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2008 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
+      "price": "£29,970",
+      "year": 2008,
+      "mileage": "52,278 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/2d82a85e9bd4426db167e621b885af51.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603140705900"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "2007 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
+      "price": "£21,000",
+      "year": 2007,
+      "mileage": "55,350 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f8ef8b247ebb483ea8f924b09dd6b0a6.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603250981052"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2007 Aston Martin DB9 Coupe 5.9 Automatic Petrol 2dr",
+      "price": "£29,980",
+      "year": 2007,
+      "mileage": "33,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/67af8af3c91d466d8df91cd0815c9185.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603200871965"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "2014 Aston Martin DB9 6.0 V12 Carbon Edition Coupe 2dr Petrol T-TronicII Euro 5 (510 bhp)",
+      "price": "£34,995",
+      "year": 2014,
+      "mileage": "74,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/a6f69df4f4104a78b53361e88b1ee837.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230929293"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2005 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
+      "price": "£18,000",
+      "year": 2005,
+      "mileage": "94,437 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3423b5b914eb43bb9404d67f86231efa.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510157157678"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£29,950",
+      "year": 2007,
+      "mileage": "68,200 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/250a728ca9f34d42a8ddf3dba9c381a1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602270260088"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr (EU4)",
+      "price": "£25,990",
+      "year": 2007,
+      "mileage": "59,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/ba53432103f5414b9e2d898ab686a500.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510317567979"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£29,950",
+      "year": 2007,
+      "mileage": "80,347 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/e20d731c51334239a7ff66c50e0a32d4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602280287557"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "title": "2006 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£33,899",
+      "year": 2006,
+      "mileage": "7,357 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/2eb481b58e6b4998bed4195bd076a1bf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512188693618"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "title": "2005 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£29,999",
+      "year": 2005,
+      "mileage": "27,045 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/dd102bab6d5c411b8c8b3e863a2af76a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240980193"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "2010 Aston Martin DB9 6.0 V12 T-TronicII Euro 4 2dr",
+      "price": "£34,990",
+      "year": 2010,
+      "mileage": "40,600 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/ad7a9659140a43759c808e537b0c5b66.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601209283152"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "title": "2016 Aston Martin DB9 6.0 V12 GT T-TronicII Euro 6 2dr",
+      "price": "£75,980",
+      "year": 2016,
+      "mileage": "15,645 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5597ed5d385f47ec88d02000f68e88bb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603060453514"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "title": "2005 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£36,000",
+      "year": 2005,
+      "mileage": "50,800 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f97710da47354806b2d8adf320e9ad98.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603090541362"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "2006 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£32,000",
+      "year": 2006,
+      "mileage": "33,010 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/44ad4483d0454f3ba7a05c667d037ce6.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202504301891897"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "2004 Aston Martin DB9 5.9 Seq 2dr (EU4)",
+      "price": "£26,990",
+      "year": 2004,
+      "mileage": "47,680 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/2d0d49173d204d26a847b6de2aa57fe4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511147883707"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "2014 Aston Martin DB9 6.0 V12 T-TronicII Euro 6 2dr",
+      "price": "£51,995",
+      "year": 2014,
+      "mileage": "38,400 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/9f9b0797769844fbaf5ab40043b00e4f.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602250202203"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£32,189",
+      "year": 2008,
+      "mileage": "39,600 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/cd9045b7aad745c79bad260485e5cac8.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603160728359"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2004 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£21,000",
+      "year": 2004,
+      "mileage": "58,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/0b39a75902fb4fc0a4e0b3c8115bccc8.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202502149094714"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "2005 Aston Martin DB9 5.9 2dr",
+      "price": "£29,750",
+      "year": 2005,
+      "mileage": "58,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1523bae8c96f42c5acec1492f34f862c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511127844180"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "2009 Aston Martin DB9 5.9 2dr",
+      "price": "£37,500",
+      "year": 2009,
+      "mileage": "17,200 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f493e62ad1604017930023f88d6cdb1e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202207197935391"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "2014 Aston Martin DB9 6.0 V12 T-TronicII Euro 6 2dr",
+      "price": "£58,990",
+      "year": 2014,
+      "mileage": "17,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/cc3c6f259ffb4909b27b45d5e8b4b53e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603250989293"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "title": "2009 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£28,995",
+      "year": 2009,
+      "mileage": "63,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9895eabae85640fca913b57d99cf0fa5.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202507054196680"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£27,500",
+      "year": 2007,
+      "mileage": "40,600 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f5098c8bbd9446d48eca85128c944c74.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603160737704"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2008 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (EU4) (394 g/km, 450 bhp)",
+      "price": "£41,995",
+      "year": 2008,
+      "mileage": "45,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/e27d27e8e00b4d8582c2e5e554195a62.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512088455390"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2006 Aston Martin DB9 5.9 2dr",
+      "price": "£34,989",
+      "year": 2006,
+      "mileage": "41,274 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/bfe38400e65c441c8f706f84ddb93ecf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601068964242"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2013 Aston Martin DB9 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£52,000",
+      "year": 2013,
+      "mileage": "31,035 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/122ce2276a9446d1935949b1a24229fd.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230928711"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "title": "2011 Aston Martin DB9 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£36,895",
+      "year": 2011,
+      "mileage": "53,700 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/41803a620bb04cf7999f098102140ed4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202505292956787"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "title": "2005 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£32,995",
+      "year": 2005,
+      "mileage": "WOW 19,000 MILES!!",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0e1ff6b2e2ac4393828d2372134d5ae2.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202407061505899"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£26,995",
+      "year": 2007,
+      "mileage": "53,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/c56610dee4f642db9446923537a464de.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230925255"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "title": "2015 Aston Martin DB9 6.0 V12 Carbon Edition T-TronicII Euro 6 2dr",
+      "price": "£47,999",
+      "year": 2015,
+      "mileage": "48,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e9708d85451942eda48672f00efda7ae.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603130688647"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£39,980",
+      "year": 2007,
+      "mileage": "16,000 MILES|FASH-17 SERVICES",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/14c8043c998649d198d11f833c9e48b4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601129088844"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "title": "2005 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£27,995",
+      "year": 2005,
+      "mileage": "87,869 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fe66d775f9604fbba323817d270e116e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512128548534"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "title": "2011 Aston Martin DB9 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£40,900",
+      "year": 2011,
+      "mileage": "25,900 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/429e337f65af4388ae54e2c865593ea2.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202502129036099"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£22,495",
+      "year": 2007,
+      "mileage": "89,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1c8068f2694f4556ad2278756dcbf972.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202307159695303"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "2004 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£22,495",
+      "year": 2004,
+      "mileage": "62,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4b9a56d7cf504743bdcf88d5217a320d.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511288215749"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "title": "2005 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£29,990",
+      "year": 2005,
+      "mileage": "26,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1f3eb0b41e2c46ab95b0317270853e74.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511268153552"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "title": "2009 Aston Martin DB9 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£38,995",
+      "year": 2009,
+      "mileage": "27,654 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f79de96d19d645f7a359831d7c4a17c6.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511117813506"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "title": "Aston Martin DB9 6.0 V12 Carbon Edition T-TronicII Euro 5 2dr",
+      "price": "£64,995",
+      "year": null,
+      "mileage": "11,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1eda43b4870044068f1ac8579a54949f.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601169205231"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "title": "2008 Aston Martin DB9 6.0 V12 T-TronicII Euro 4 2dr",
+      "price": "£22,500",
+      "year": 2008,
+      "mileage": "75,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1e6d2d575dfb463d82253dba023a10cf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603100583481"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "2015 Aston Martin DB9 6.0 V12 T-TronicII Euro 6 2dr",
+      "price": "£61,999",
+      "year": 2015,
+      "mileage": "12,421 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a527d01af44140fd9c0d099ac638fc4c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602029609812"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£28,995",
+      "year": 2008,
+      "mileage": "59,517 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/3a637aa4951f4958bdba6982dcd341bf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602099795976"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "title": "2008 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£31,500",
+      "year": 2008,
+      "mileage": "46,956 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/2b85eb267b2749c4a0a07d0aaa3b25f1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508025076990"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "title": "2014 Aston Martin DB9 6.0 V12 Carbon Edition T-TronicII Euro 5 2dr",
+      "price": "£48,995",
+      "year": 2014,
+      "mileage": "41,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/b5d73f2d1f2a47e8ba6d629c7c236b0c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202304146274219"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "title": "2015 Aston Martin DB9 6.0 V12 T-TronicII Euro 6 2dr",
+      "price": "£49,900",
+      "year": 2015,
+      "mileage": "28,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f5223f5da1fd47e582a8dbda7ac8dc9c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601269420404"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£29,995",
+      "year": 2008,
+      "mileage": "79,822 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/2a00eb156c8448e980e3f1ebd2e44ffb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602029624283"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2006 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£22,500",
+      "year": 2006,
+      "mileage": "74,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/50f93405e31c44488649678fdd461275.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202509015947744"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2013 Aston Martin DB9 6.0 V12 T-TronicII Euro 5 2dr",
+      "price": "£44,000",
+      "year": 2013,
+      "mileage": "30,128 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5f14f10c47c14e949028ffe347d3a7a3.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202410235503205"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2004 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£22,400",
+      "year": 2004,
+      "mileage": "89,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/9196d56db2ca47c5aee18fe56b9c3f5c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202507204651645"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2006 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£22,000",
+      "year": 2006,
+      "mileage": "53,260 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/3bbf59c2da0648f48b3d1df66aad61dc.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601309546942"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2005 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£32,999",
+      "year": 2005,
+      "mileage": "62,021 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/2407443bf7b24f0997fb5d54240cb6cc.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202504201531955"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£28,650",
+      "year": 2008,
+      "mileage": "48,278 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/62ffecf2cce74d53b2614573b16487c0.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202504301904142"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "title": "2006 Aston Martin DB9 5.9 2dr",
+      "price": "£37,995",
+      "year": 2006,
+      "mileage": "39,780 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/af04b2903ca14c158e411c4a84f3daa2.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603130681944"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "title": "2008 Aston Martin DB9 6.0 V12 Sports Edition T-TronicII Euro 5 2dr",
+      "price": "£26,497",
+      "year": 2008,
+      "mileage": "74,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/17c0bd7bd47b48bb9d52a76b22bee0a1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281086810"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£46,995",
+      "year": 2008,
+      "mileage": "25,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/24fe7926f9dd4241b5d92b3934bebf39.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202506233792597"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "title": "2005 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£27,500",
+      "year": 2005,
+      "mileage": "54,384 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d9d8a26e54894e4a8ef16d98e4ec236c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202409214308572"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "title": "2008 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£32,000",
+      "year": 2008,
+      "mileage": "20,643 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/27b6344f7d72423ba29b8bfd5941ed31.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602069731875"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "title": "2016 Aston Martin DB9 6.0 V12 Volante T-TronicII Euro 5 2dr",
+      "price": "£69,950",
+      "year": 2016,
+      "mileage": "17,722 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/e62ac48f79244537a9a34d877052f74f.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510036872708"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "title": "2016 Aston Martin DB9 6.0 V12 GT Volante T-TronicII Euro 6 2dr",
+      "price": "£75,990",
+      "year": 2016,
+      "mileage": "16,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/bf2beaf36aff4d2eadf3a04da68c70b5.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602139914863"
         }
       ]
     }

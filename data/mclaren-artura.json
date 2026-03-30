@@ -53,7 +53,8 @@
           "price": "£188,990",
           "date": "2026-03-25"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "3",
@@ -146,7 +147,7 @@
     {
       "id": "6",
       "title": "2022 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps) LOW RATE FINANCE +12 MONTH WARRANTY",
-      "price": "£129,450",
+      "price": "£129,995",
       "year": 2022,
       "mileage": "13,500 miles",
       "transmission": "6-Speed Manual",
@@ -172,13 +173,17 @@
         {
           "price": "£129,995",
           "date": "2026-03-20"
+        },
+        {
+          "price": "£129,450",
+          "date": "2026-03-30"
         }
       ]
     },
     {
       "id": "7",
       "title": "2022 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps)",
-      "price": "£129,449",
+      "price": "£129,450",
       "year": 2022,
       "mileage": "12,530 miles",
       "transmission": "6-Speed Manual",
@@ -204,6 +209,10 @@
         {
           "price": "£129,450",
           "date": "2026-03-20"
+        },
+        {
+          "price": "£129,449",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -233,7 +242,8 @@
           "price": "£177,250",
           "date": "2026-03-11"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "9",
@@ -563,7 +573,7 @@
     },
     {
       "id": "22",
-      "title": "2023 McLaren Artura V6 Phev S-A 3.0 2dr",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
       "price": "£129,950",
       "year": 2023,
       "mileage": "8,118 miles",
@@ -581,7 +591,7 @@
     },
     {
       "id": "23",
-      "title": "2023 McLaren Artura V6 PHEV 2dr DCT 3.0",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
       "price": "£133,850",
       "year": 2023,
       "mileage": "6,426 miles",
@@ -600,7 +610,7 @@
     {
       "id": "24",
       "title": "2024 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps)",
-      "price": "£149,950",
+      "price": "£156,990",
       "year": 2024,
       "mileage": "2,019 miles",
       "transmission": "Unknown",
@@ -622,6 +632,10 @@
         {
           "price": "£156,990",
           "date": "2026-03-28"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -646,7 +660,7 @@
     },
     {
       "id": "26",
-      "title": "2023 McLaren Artura V6 PHEV 2dr DCT 3.0",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
       "price": "£132,950",
       "year": 2023,
       "mileage": "4,695 miles",
@@ -664,7 +678,7 @@
     },
     {
       "id": "27",
-      "title": "2026 McLaren Artura Spider V6 PHEV 700 2dr SSG Auto 3.0",
+      "title": "2026 McLaren Artura 3.0T V6 7.4kWh Spider SSG Euro 6 (s/s) 2dr",
       "price": "£189,000",
       "year": 2026,
       "mileage": "500 miles",
@@ -684,7 +698,8 @@
           "price": "£195,000",
           "date": "2026-03-19"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "28",
@@ -702,7 +717,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508115333372"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "29",
@@ -720,7 +736,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511127846548"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "30",
@@ -738,7 +755,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504040966116"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "31",
@@ -784,7 +802,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511047641429"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "33",
@@ -808,7 +827,7 @@
     {
       "id": "34",
       "title": "2025 McLaren Artura 3.0T V6 7.4kWh Spider SSG Euro 6 (s/s) 2dr",
-      "price": "£172,450",
+      "price": "£159,950",
       "year": 2025,
       "mileage": "2,450 miles",
       "transmission": "Unknown",
@@ -821,7 +840,14 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511177949035"
         }
-      ]
+      ],
+      "priceHistory": [
+        {
+          "price": "£172,450",
+          "date": "2026-03-30"
+        }
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "35",
@@ -833,13 +859,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28819347/2022-mclaren-artura-69ba0df0058a3.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cb6ba11fd82ee80b88962abfe286a953",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032365"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "36",
@@ -966,6 +993,177 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038067"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "2025 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "price": "£149,850",
+      "year": 2025,
+      "mileage": "3,793 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5de0c8a4186f44b2900b8ca9f74dad3e.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603140698429"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "2025 McLaren Artura 3.0T V6 7.4kWh Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£189,990",
+      "year": 2025,
+      "mileage": "329 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/3b9de2332eeb4273bee98fae116babcc.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603220905956"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "2024 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "price": "£149,950",
+      "year": 2024,
+      "mileage": "2,400 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5ee571aa6aab4be08da42c74dd5cf6bb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603250987947"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "2025 McLaren Artura 3.0T V6 7.4kWh Performance Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£184,490",
+      "year": 2025,
+      "mileage": "2,547 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/2b0ccfdf240445ae97efc6830e9617b5.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271056301"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "2024 McLaren Artura 3.0T V6 7.4kWh Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£169,990",
+      "year": 2024,
+      "mileage": "5,822 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/69805f093bef4a668c18436a2e0ed114.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301126841"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "2025 McLaren Artura 3.0T V6 7.4kWh Performance SSG Euro 6 (s/s) 2dr",
+      "price": "£172,990",
+      "year": 2025,
+      "mileage": "412 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f465b52039174095ab3fc784c83d0dcb.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603220905662"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "price": "£133,950",
+      "year": 2023,
+      "mileage": "3,378 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/91d035c5d2284944b579f948dbd3df81.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240966958"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "price": "£124,900",
+      "year": 2023,
+      "mileage": "15,878 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e51c6a15b2e04c1898531c98d80aa123.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230920825"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "2024 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "price": "£139,850",
+      "year": 2024,
+      "mileage": "5,422 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/45df1d83d5774afca5da766abb0aa45c.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261043603"
         }
       ]
     }

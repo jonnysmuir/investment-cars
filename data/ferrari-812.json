@@ -640,7 +640,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/v12/ferrari-812-superfast-v12-1398789099-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -650,7 +650,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059708059"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "32",
@@ -662,7 +663,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/v12/ferrari-812-superfast-v12-1364233255-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -678,7 +679,8 @@
           "price": "£209,500",
           "date": "2026-03-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "33",
@@ -690,7 +692,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812/superfast-with-84k-spec-ffsh-ferrari-warranty-and-service-plan/ferrari-812-superfast-with-84k-spec-ffsh-ferrari-warranty-and-service-plan-1397954554-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -700,14 +702,15 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039645681"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "34",
-      "title": "2021 Used  FERRARI 812 SUPERFAST GTS S-A",
+      "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£349,995",
       "year": 2021,
-      "mileage": "N/A",
+      "mileage": "9,695 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812/6-5-v12-spider-2dr-petrol-f1-dct-euro-6-s-s--800-ps/ferrari-812-6-5-v12-spider-2dr-petrol-f1-dct-euro-6-s-s--800-ps-1410245253-1.jpg",
       "featured": false,
@@ -717,12 +720,17 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20008883"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261021405"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "35",
-      "title": "2020 Ferrari 812 SUPERFAST 2dr Auto 6.5",
+      "title": "2020 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£224,500",
       "year": 2020,
       "mileage": "13,269 miles",
@@ -774,7 +782,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps/ferrari-812-superfast-6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps-1364679417-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -790,12 +798,13 @@
           "price": "£214,900",
           "date": "2026-03-12"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "37",
-      "title": "2020 Ferrari 812 SUPERFAST 2dr Auto 6.5",
-      "price": "£224,500",
+      "title": "2020 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£239,000",
       "year": 2020,
       "mileage": "7,368 miles",
       "transmission": "Automatic",
@@ -825,12 +834,16 @@
         {
           "price": "£239,000",
           "date": "2026-03-23"
+        },
+        {
+          "price": "£224,500",
+          "date": "2026-03-30"
         }
       ]
     },
     {
       "id": "38",
-      "title": "2019 Ferrari 812 SUPERFAST 6.5 V12 2dr",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£219,995",
       "year": 2019,
       "mileage": "9,251 miles",
@@ -853,6 +866,14 @@
         {
           "price": "£222,850",
           "date": "2026-03-19"
+        },
+        {
+          "price": "£219,995",
+          "date": "2026-03-30"
+        },
+        {
+          "price": "£222,850",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -948,7 +969,7 @@
     },
     {
       "id": "42",
-      "title": "2019 Ferrari 812 SUPERFAST 2dr Auto 6.5",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£239,000",
       "year": 2019,
       "mileage": "2,864 miles",
@@ -1029,7 +1050,7 @@
     },
     {
       "id": "46",
-      "title": "2021 Used  FERRARI 812 SUPERFAST GTS S-A",
+      "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£314,995",
       "year": 2021,
       "mileage": "8,000 miles",
@@ -1042,8 +1063,13 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17019113"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240970387"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "47",
@@ -1066,10 +1092,10 @@
     },
     {
       "id": "48",
-      "title": "2020 Used  FERRARI 812 SUPERFAST GTS S-A",
+      "title": "2020 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£319,990",
       "year": 2020,
-      "mileage": "N/A",
+      "mileage": "8,350 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-gts/6-5-v12-spider-2dr-petrol-f1-dct-euro-6-s-s--800-ps/ferrari-812-gts-6-5-v12-spider-2dr-petrol-f1-dct-euro-6-s-s--800-ps-1400856921-1.jpg",
       "featured": false,
@@ -1079,9 +1105,14 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19870828"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261037277"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "unlistedDate": "2026-03-22",
+      "bodyType": "Convertible"
     },
     {
       "id": "49",
@@ -1111,7 +1142,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/27805809/2020-ferrari-812-superfast-698a7b0797004.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=336b3f94a262f7f44e915421b5cffb0b",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1123,7 +1154,8 @@
           "price": "£232,995",
           "date": "2026-03-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "51",
@@ -1323,10 +1355,10 @@
     },
     {
       "id": "61",
-      "title": "2022 Used  FERRARI 812 SUPERFAST GTS S-A",
+      "title": "2022 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£324,995",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "2,339 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/gts/ferrari-812-superfast-gts-1412900297-1.jpg",
       "featured": false,
@@ -1336,14 +1368,19 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19693813"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603170770168"
         }
       ],
-      "unlistedDate": "2026-03-17"
+      "unlistedDate": "2026-03-17",
+      "bodyType": "Convertible"
     },
     {
       "id": "62",
       "title": "2019 Ferrari 812 Superfast 6.5 V12 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (800 ps)",
-      "price": "£229,000",
+      "price": "£239,000",
       "year": 2019,
       "mileage": "14,015 miles",
       "transmission": "Automatic",
@@ -1359,6 +1396,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100569517"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£229,000",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -1439,10 +1482,10 @@
     },
     {
       "id": "66",
-      "title": "2021 Used  FERRARI 812 SUPERFAST GTS S-A",
+      "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£379,995",
       "year": 2021,
-      "mileage": "N/A",
+      "mileage": "2,287 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-gts/gts/ferrari-812-gts-gts-S4942024-1.jpg",
       "featured": false,
@@ -1452,8 +1495,13 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20077621"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603160726398"
         }
-      ]
+      ],
+      "bodyType": "Convertible"
     },
     {
       "id": "67",
@@ -1476,10 +1524,10 @@
     {
       "id": "68",
       "title": "2020 Ferrari 812 Superfast WARRANTY. FULL PPF. CARBON FIBRE INTERIOR & EXTERIOR. FRONT LIFT. 6.5 2dr",
-      "price": "£229,000",
+      "price": "£234,995",
       "year": 2020,
       "mileage": "7,000 miles",
-      "transmission": "Unknown",
+      "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/2dr-auto/ferrari-812-superfast-2dr-auto-1390256430-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
@@ -1502,6 +1550,10 @@
         {
           "price": "£234,995",
           "date": "2026-03-29"
+        },
+        {
+          "price": "£229,000",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -1567,7 +1619,7 @@
     {
       "id": "72",
       "title": "2019 Ferrari 812 Superfast 6.5 V12 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (800 ps)",
-      "price": "£249,995",
+      "price": "£259,990",
       "year": 2019,
       "mileage": "14,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1605,6 +1657,10 @@
         {
           "price": "£259,990",
           "date": "2026-03-29"
+        },
+        {
+          "price": "£249,995",
+          "date": "2026-03-30"
         }
       ],
       "bodyType": "Coupe"
@@ -1690,7 +1746,7 @@
     {
       "id": "77",
       "title": "2019 Ferrari 812 Superfast 6.5 V12 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (800 ps)",
-      "price": "£224,500",
+      "price": "£234,995",
       "year": 2019,
       "mileage": "837 miles",
       "transmission": "F1 Automated Manual",
@@ -1717,6 +1773,10 @@
         {
           "price": "£234,995",
           "date": "2026-03-29"
+        },
+        {
+          "price": "£224,500",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -1764,7 +1824,7 @@
     },
     {
       "id": "80",
-      "title": "2020 Ferrari 812 Superfast 6.5 2dr",
+      "title": "2020 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£224,950",
       "year": 2020,
       "mileage": "5,500 miles",
@@ -1806,11 +1866,11 @@
     },
     {
       "id": "82",
-      "title": "2019 Used  FERRARI 812 SUPERFAST S-A",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£234,995",
       "year": 2019,
-      "mileage": "N/A",
-      "transmission": "Unknown",
+      "mileage": "7,789 miles",
+      "transmission": "F1 Automated Manual",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/v12/ferrari-812-superfast-v12-1419855635-1.jpg",
       "featured": false,
@@ -1820,6 +1880,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20160230"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601239370484"
         }
       ]
     },
@@ -1901,7 +1965,7 @@
     },
     {
       "id": "87",
-      "title": "2019 Used  FERRARI 812 SUPERFAST S-A",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
       "price": "£229,990",
       "year": 2019,
       "mileage": "7,789 miles",
@@ -1915,6 +1979,86 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19769835"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603251003007"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2020 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£229,000",
+      "year": 2020,
+      "mileage": "10,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/84c9b70bd2a44a94a9d5d46bbf2eee30.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261015714"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£249,995",
+      "year": 2019,
+      "mileage": "8,264 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a7c6afd897f14fae9daefb9c00a3aa3a.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261037844"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2023 Ferrari 812 Competizione 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£995,000",
+      "year": 2023,
+      "mileage": "2,548 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/af06357b1dfd4b9a8ca7d0c187d3cdb0.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510086979521"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£239,995",
+      "year": 2019,
+      "mileage": "8,925 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/b7b4e8440d21475bb8971491f9207557.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512088453717"
         }
       ]
     }

@@ -1406,13 +1406,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26325184/2018-bmw-m2-69287b5f83d50.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=df12bf40fae1da5468fdbd66e2eec574",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1979871"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "68",
@@ -1912,7 +1913,7 @@
     {
       "id": "93",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£51,995",
+      "price": "£52,590",
       "year": 2024,
       "mileage": "7,800 miles",
       "transmission": "Unknown",
@@ -1929,6 +1930,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19965735"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£51,995",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -2129,7 +2136,7 @@
     {
       "id": "104",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£51,489",
+      "price": "£52,500",
       "year": 2024,
       "mileage": "13,970 miles",
       "transmission": "Automatic",
@@ -2146,6 +2153,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19958550"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£51,489",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -2682,6 +2695,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506223767539"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19803125"
         }
       ]
     },
@@ -2994,6 +3011,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110602040"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20118792"
         }
       ]
     },

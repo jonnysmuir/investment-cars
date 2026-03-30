@@ -3284,14 +3284,6 @@
         "status": "active"
       },
       {
-        "id": "23",
-        "price": 194400,
-        "year": 2023,
-        "mileage": 3000,
-        "transmission": "F1 Automated Manual",
-        "status": "active"
-      },
-      {
         "id": "24",
         "price": 194995,
         "year": 2022,
@@ -3356,11 +3348,19 @@
         "status": "active"
       },
       {
-        "id": "37",
-        "price": 239995,
-        "year": 2025,
-        "mileage": 150,
+        "id": "36",
+        "price": 189000,
+        "year": 2023,
+        "mileage": 6012,
         "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "38",
+        "price": 199000,
+        "year": 2024,
+        "mileage": 4766,
+        "transmission": "Automatic",
         "status": "active"
       },
       {
@@ -3407,7 +3407,7 @@
         "id": "50",
         "price": 259000,
         "year": 2023,
-        "mileage": null,
+        "mileage": 394,
         "transmission": "Automatic",
         "status": "active"
       },
@@ -3447,7 +3447,199 @@
         "id": "55",
         "price": 329995,
         "year": 2025,
-        "mileage": null,
+        "mileage": 100,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "56",
+        "price": 239000,
+        "year": 2024,
+        "mileage": 550,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "57",
+        "price": 325000,
+        "year": 2024,
+        "mileage": 1189,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "58",
+        "price": 199995,
+        "year": 2022,
+        "mileage": 5200,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "59",
+        "price": 205000,
+        "year": 2025,
+        "mileage": 4414,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "60",
+        "price": 199000,
+        "year": 2023,
+        "mileage": 2479,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "61",
+        "price": 189995,
+        "year": 2022,
+        "mileage": 7875,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "62",
+        "price": 262995,
+        "year": 2024,
+        "mileage": 1575,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "63",
+        "price": 209650,
+        "year": 2022,
+        "mileage": 5400,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "64",
+        "price": 259995,
+        "year": 2024,
+        "mileage": 749,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "65",
+        "price": 259000,
+        "year": 2024,
+        "mileage": 5071,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "66",
+        "price": 259000,
+        "year": 2024,
+        "mileage": 2891,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "67",
+        "price": 189000,
+        "year": 2022,
+        "mileage": 14775,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "68",
+        "price": 259990,
+        "year": 2024,
+        "mileage": 4217,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "69",
+        "price": 205000,
+        "year": 2024,
+        "mileage": 7464,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "70",
+        "price": 249950,
+        "year": 2024,
+        "mileage": 1591,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "71",
+        "price": 239990,
+        "year": 2024,
+        "mileage": 3393,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "72",
+        "price": 249830,
+        "year": 2025,
+        "mileage": 1732,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "73",
+        "price": 219990,
+        "year": 2023,
+        "mileage": 530,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "74",
+        "price": 204995,
+        "year": 2023,
+        "mileage": 2045,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "75",
+        "price": 205995,
+        "year": 2022,
+        "mileage": 15086,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "76",
+        "price": 194830,
+        "year": 2022,
+        "mileage": 4538,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "77",
+        "price": 197599,
+        "year": 2023,
+        "mileage": 2063,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "78",
+        "price": 209990,
+        "year": 2022,
+        "mileage": 8429,
+        "transmission": "F1 Automated Manual",
+        "status": "active"
+      },
+      {
+        "id": "79",
+        "price": 199995,
+        "year": 2023,
+        "mileage": 1900,
         "transmission": "F1 Automated Manual",
         "status": "active"
       }

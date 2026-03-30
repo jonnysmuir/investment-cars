@@ -812,7 +812,7 @@
     {
       "id": "37",
       "title": "2017 Ferrari 488 3.9T V8 GTB F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£139,995",
+      "price": "£131,995",
       "year": 2017,
       "mileage": "15,500 miles",
       "transmission": "F1 Automated Manual",
@@ -862,12 +862,16 @@
         {
           "price": "£131,995",
           "date": "2026-03-27"
+        },
+        {
+          "price": "£139,995",
+          "date": "2026-03-30"
         }
       ]
     },
     {
       "id": "38",
-      "title": "2017 Ferrari 488 GTB 2dr Auto 3.9",
+      "title": "2017 Ferrari 488 3.9T V8 GTB F1 DCT Euro 6 (s/s) 2dr",
       "price": "£154,000",
       "year": 2017,
       "mileage": "15499 miles",
@@ -989,7 +993,7 @@
     {
       "id": "43",
       "title": "2018 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£156,980",
+      "price": "£155,980",
       "year": 2018,
       "mileage": "22,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1023,6 +1027,10 @@
         {
           "price": "£155,980",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£156,980",
+          "date": "2026-03-30"
         }
       ],
       "bodyType": "Convertible"
@@ -1243,7 +1251,7 @@
     {
       "id": "55",
       "title": "2016 Ferrari 488 3.9T V8 GTB Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (670 ps)",
-      "price": "£135,000",
+      "price": "£139,950",
       "year": 2016,
       "mileage": "20,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1293,6 +1301,10 @@
         {
           "price": "£139,950",
           "date": "2026-03-27"
+        },
+        {
+          "price": "£135,000",
+          "date": "2026-03-30"
         }
       ],
       "bodyType": "Coupe"
@@ -1336,7 +1348,7 @@
     {
       "id": "58",
       "title": "2018 Ferrari 488 3.9T V8 GTB Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (670 ps)",
-      "price": "£149,975",
+      "price": "£149,995",
       "year": 2018,
       "mileage": "9,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1374,6 +1386,10 @@
         {
           "price": "£149,995",
           "date": "2026-03-27"
+        },
+        {
+          "price": "£149,975",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -1453,7 +1469,7 @@
     {
       "id": "63",
       "title": "2016 Ferrari 488 3.9T V8 GTB F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£154,990",
+      "price": "£159,995",
       "year": 2016,
       "mileage": "12,693 miles",
       "transmission": "F1 Automated Manual",
@@ -1475,6 +1491,10 @@
         {
           "price": "£159,995",
           "date": "2026-03-27"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -1623,7 +1643,7 @@
     {
       "id": "71",
       "title": "2017 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£169,000",
+      "price": "£165,000",
       "year": 2017,
       "mileage": "18,656 miles",
       "transmission": "F1 Automated Manual",
@@ -1637,7 +1657,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602109817794"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£169,000",
+          "date": "2026-03-30"
+        }
+      ]
     },
     {
       "id": "72",
@@ -1838,7 +1864,7 @@
     {
       "id": "82",
       "title": "2018 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£189,000",
+      "price": "£185,000",
       "year": 2018,
       "mileage": "8,526 miles",
       "transmission": "F1 Automated Manual",
@@ -1852,7 +1878,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602109817793"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£189,000",
+          "date": "2026-03-30"
+        }
+      ]
     },
     {
       "id": "83",
@@ -2616,13 +2648,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1997995/2017-ferrari-488-6964f47bde700.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=a0aa163f61ea450f85b5c82a2112863e",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1997995"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-30"
     },
     {
       "id": "122",
@@ -2809,6 +2842,101 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230937303"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "title": "2018 Ferrari 488 Challenge",
+      "price": "£169,950",
+      "year": 2018,
+      "mileage": "6,400 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f4e781e6d6f94cba971e9e6185e6bced.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601048915677"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "title": "2018 Ferrari 488 Challenge",
+      "price": "£149,990",
+      "year": 2018,
+      "mileage": "7,074 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/be2ab5174ca041c6b80ce014c4c8a382.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510237362724"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "title": "2022 Ferrari 488 3.9T V8 GTB F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£149,990",
+      "year": 2022,
+      "mileage": "15,158 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1b964ede7dfc4433bef2f5c1df0dcb40.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271068608"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "title": "2017 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£199,995",
+      "year": 2017,
+      "mileage": "2738 Miles,Carbon Racing Seats",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/3709bbfe625b45b4b658d2432cf92db4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271069501"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "title": "2018 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£182,600",
+      "year": 2018,
+      "mileage": "12,865 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/7b598c7ce1dd4f16aaffb623ca53ca56.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271059927"
         }
       ]
     }

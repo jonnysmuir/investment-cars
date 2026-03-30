@@ -565,7 +565,7 @@
     {
       "id": "29",
       "title": "1989 Ferrari 328 3.2 GTS 2dr",
-      "price": "£89,995",
+      "price": "£92,995",
       "year": 1989,
       "mileage": "17,198 miles",
       "transmission": "6-Speed Manual",
@@ -591,6 +591,10 @@
         {
           "price": "£92,995",
           "date": "2026-03-28"
+        },
+        {
+          "price": "£89,995",
+          "date": "2026-03-30"
         }
       ]
     },
@@ -895,14 +899,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f470bb3bd35a4d0188e337fe557dea2a.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511278188519"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "46",
@@ -915,14 +918,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d8c4601d26354af68c40718163fa8a57.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039638787"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "47",
@@ -935,14 +937,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d529a0bdebe0495d95c4b1222c895b94.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510277454558"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "48",
@@ -955,14 +956,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7106dc1bba8c46998a63ec61d3dffd9c.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202407041435274"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "49",
@@ -999,6 +999,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20151862"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "1988 Ferrari 328 3.2 GTS 2dr",
+      "price": "£129,995",
+      "year": 1988,
+      "mileage": "18,089 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/ec8f495e24f3464290e3c44120351b9f.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-30",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603291109918"
         }
       ]
     }
