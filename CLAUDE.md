@@ -93,6 +93,17 @@ All filtered to GBP/UK market only.
 7. Safeguard against mass unlisting from scraper failures
 - **Summary optimisation**: The summary table only includes models with activity (new/updated/unlisted/errors). Zero-change models are counted but omitted to keep the issue body within GitHub's 65536 char limit.
 
+## Health Monitoring
+- **Per-run log**: `data/.health/YYYY-MM-DD.json` — date, duration, per-source stats (totalResults, modelsWithResults, modelsWithZero, modelsWithErrors). Auto-cleaned after 30 days.
+- **Rolling baseline**: `data/.health/baseline.json` — 7-day rolling average per source per model, `consecutiveZeros` counter, `lastSeen` date.
+- **Anomaly detection** (requires 3+ days of baseline data):
+  - **CRITICAL**: Source has >30% of configured models at zero AND those models had baseline results (source-level failure)
+  - **WARNING**: Model at zero from a source for 3+ consecutive days, source otherwise healthy (broken URL)
+  - **INFO**: Model >50% below baseline average (gradual degradation)
+- **Email redesign** (`scripts/send-email.js`): Reads `scripts/email-data.json` (structured data from refresh). 5 sections: status banner (green/amber/red), source health table, anomaly alerts, summary stats with baseline comparison, detailed per-model changes.
+- **Subject line prefix**: `[CRITICAL]` or `[WARNING]` prepended when anomalies detected.
+- **Health module**: `scripts/health.js` exports `collectRunStats()`, `updateBaseline()`, `detectAnomalies()`, `getComparisons()`.
+
 ## Body Type Conventions
 - **`bodyType` is a scraped field** stored on each listing (like mileage and transmission). All 4 scrapers extract it via `normaliseBodyType()` in `base.js`, with structured data preferred and title inference as fallback.
 - **Frontend pages use `l.bodyType` for filtering**, falling back to a page-specific `getBody(title)` function for listings that haven't been re-scraped yet.

@@ -15,6 +15,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, today, sleep } = require('./scrapers/base');
+const health = require('./health');
 
 // ── Scrapers ──────────────────────────────────────────────────────────────
 const pistonheads = require('./scrapers/pistonheads');
@@ -36,12 +37,16 @@ const STATE_DIR = path.join(DATA_DIR, '.state');
 const HISTORY_DIR = path.join(DATA_DIR, 'history');
 const MODELS_FILE = path.join(DATA_DIR, 'models.json');
 const SUMMARY_FILE = path.join(__dirname, 'summary.md');
+const EMAIL_DATA_FILE = path.join(__dirname, 'email-data.json');
 
 // Days a listing must be missing before being marked as unlisted
 const UNLISTED_THRESHOLD = 3;
 
 // ── Main ──────────────────────────────────────────────────────────────────
 async function main() {
+  const startTime = Date.now();
+  const sourceTracker = {}; // { sourceName: { modelResults: { slug: count } } }
+
   console.log('═══ Collectorly Listings Refresh ═══');
   console.log(`Date: ${today()}\n`);
 
@@ -108,18 +113,24 @@ async function main() {
     console.log(`\n═══ AutoTrader Make-Level Batch Scrape ═══`);
     console.log(`Processing ${makes.length} makes: ${makes.join(', ')}\n`);
 
+    if (!sourceTracker.autotrader) sourceTracker.autotrader = { modelResults: {} };
+
     for (const make of makes) {
       const modelConfigs = makeGroups[make];
       try {
         const results = await autotrader.scrapeMake(make, modelConfigs);
         Object.assign(autotraderBatchResults, results);
+        // Track per-model result counts for health monitoring
+        for (const mc of modelConfigs) {
+          sourceTracker.autotrader.modelResults[mc.slug] = (results[mc.slug] || []).length;
+        }
       } catch (err) {
         console.error(`  [AutoTrader Batch] Fatal error for ${make}: ${err.message}`);
-        // Initialise empty results for all models in this make
         for (const mc of modelConfigs) {
           if (!autotraderBatchResults[mc.slug]) {
             autotraderBatchResults[mc.slug] = [];
           }
+          sourceTracker.autotrader.modelResults[mc.slug] = 0;
         }
       }
 
@@ -145,7 +156,7 @@ async function main() {
 
     console.log(`\n── ${modelConfig.make} ${modelConfig.model} ──`);
 
-    const modelSummary = await processModel(modelConfig, isSingleModel, autotraderBatchResults);
+    const modelSummary = await processModel(modelConfig, isSingleModel, autotraderBatchResults, sourceTracker);
     summary.models.push(modelSummary);
     summary.totalNew += modelSummary.newCount;
     summary.totalUpdated += modelSummary.updatedCount;
@@ -172,9 +183,26 @@ async function main() {
     // Ignore
   }
 
+  // ── Health monitoring ───────────────────────────────────────────────────
+  const durationMs = Date.now() - startTime;
+  try {
+    const runStats = health.collectRunStats(summary, sourceTracker, durationMs);
+    const baseline = health.updateBaseline(runStats, sourceTracker);
+    const anomalies = health.detectAnomalies(runStats, sourceTracker, baseline);
+    const comparisons = health.getComparisons(sourceTracker, baseline);
+    summary.health = { runStats, anomalies, comparisons, durationMs };
+    console.log(`\nHealth: ${anomalies.length} anomalies detected`);
+  } catch (err) {
+    console.error(`Health monitoring error (non-fatal): ${err.message}`);
+    summary.health = { runStats: null, anomalies: [], comparisons: {}, durationMs };
+  }
+
   // Write summary
   const summaryMd = generateSummaryMarkdown(summary);
   fs.writeFileSync(SUMMARY_FILE, summaryMd, 'utf8');
+
+  // Write structured email data (read by send-email.js)
+  fs.writeFileSync(EMAIL_DATA_FILE, JSON.stringify(summary, null, 2), 'utf8');
 
   // Set GitHub Actions outputs
   if (process.env.GITHUB_OUTPUT) {
@@ -194,7 +222,7 @@ async function main() {
 }
 
 // ── Process a Single Model ────────────────────────────────────────────────
-async function processModel(modelConfig, isSingleModel, autotraderBatchResults) {
+async function processModel(modelConfig, isSingleModel, autotraderBatchResults, sourceTracker) {
   const { slug, sources } = modelConfig;
 
   const result = {
@@ -246,6 +274,7 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults) 
       const batchListings = autotraderBatchResults[slug];
       scrapedListings.push(...batchListings);
       console.log(`  [AutoTrader] ${batchListings.length} listings (from make-level batch)`);
+      // sourceTracker already populated during batch phase
       continue;
     }
 
@@ -263,9 +292,14 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults) 
     try {
       const results = await scraper.scrape(sourceConfig, modelConfig);
       scrapedListings.push(...results);
+      // Track per-source per-model result counts for health monitoring
+      if (!sourceTracker[sourceName]) sourceTracker[sourceName] = { modelResults: {} };
+      sourceTracker[sourceName].modelResults[slug] = results.length;
     } catch (err) {
       console.error(`  [${sourceName}] Error: ${err.message}`);
       result.errors.push({ source: sourceName, error: err.message });
+      if (!sourceTracker[sourceName]) sourceTracker[sourceName] = { modelResults: {} };
+      sourceTracker[sourceName].modelResults[slug] = 0;
     }
   }
 
@@ -741,6 +775,50 @@ function getNextId(listings) {
 function generateSummaryMarkdown(summary) {
   const lines = [];
   lines.push(`## Listings Refresh — ${summary.date}\n`);
+
+  // ── Health status section ──
+  if (summary.health) {
+    const { runStats, anomalies } = summary.health;
+    const duration = runStats ? health.formatDuration(summary.health.durationMs) : 'unknown';
+
+    // Anomaly alerts
+    const criticals = (anomalies || []).filter(a => a.level === 'CRITICAL');
+    const warnings = (anomalies || []).filter(a => a.level === 'WARNING');
+
+    if (criticals.length > 0) {
+      lines.push(`### 🔴 CRITICAL — ${criticals.length} source-level issue(s)\n`);
+      for (const a of criticals) {
+        lines.push(`- **${a.message}**`);
+        if (a.affectedModels.length > 3) {
+          lines.push(`  - Affected: ${a.affectedModels.slice(0, 3).join(', ')} + ${a.affectedModels.length - 3} more`);
+        }
+      }
+      lines.push('');
+    }
+    if (warnings.length > 0) {
+      lines.push(`### 🟡 Warnings\n`);
+      for (const a of warnings) {
+        lines.push(`- ${a.message}`);
+      }
+      lines.push('');
+    }
+
+    // Source health table
+    if (runStats?.sources) {
+      lines.push('### Source Health\n');
+      lines.push('| Source | Models OK | Zero Results | Errors | Status |');
+      lines.push('|--------|-----------|-------------|--------|--------|');
+      for (const [name, stats] of Object.entries(runStats.sources)) {
+        const ok = stats.modelsWithResults;
+        const total = stats.modelsConfigured;
+        const status = stats.modelsWithZero > total * 0.3 ? '⚠️ DEGRADED' : '✅ Healthy';
+        lines.push(`| ${health.formatSourceName(name)} | ${ok}/${total} | ${stats.modelsWithZero} | ${stats.modelsWithErrors} | ${status} |`);
+      }
+      lines.push('');
+    }
+
+    lines.push(`*Completed in ${duration}*\n`);
+  }
 
   // Collect all notices across models
   const allNotices = [];
