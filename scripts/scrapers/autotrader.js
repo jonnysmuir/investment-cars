@@ -152,7 +152,9 @@ async function extractSearchPageListings(page, make) {
         const t = texts[i];
         if (makePattern.test(t)) {
           titleParts.push(t);
-          if (texts[i + 1] && !texts[i + 1].includes('£') && /^\d/.test(texts[i + 1])) {
+          // Always include the next line (trim/variant) unless it's a price
+          // e.g. "BMW 8 Series" + "M8 Competition 4.4 V8 2dr"
+          if (texts[i + 1] && !texts[i + 1].includes('£') && !/^Save|^Toggle|^Loading/i.test(texts[i + 1])) {
             titleParts.push(texts[i + 1]);
           }
           break;
@@ -339,11 +341,10 @@ async function scrapeMake(make, modelConfigs) {
     const allListings = new Map(); // id → { apollo?, search? }
 
     // ── Phase 1: Friendly URL for each model's Apollo cache ──
-    // Only scrape a subset to get rich Apollo data without too many requests
-    // Pick up to 5 representative models per make
+    // Visit every model URL to get rich Apollo data (full titles, body type, etc.)
+    // This ensures rare models buried deep in make-level search still get coverage.
     const modelsForApollo = modelConfigs
-      .filter(mc => mc.sources?.autotrader?.searchUrl)
-      .slice(0, 5);
+      .filter(mc => mc.sources?.autotrader?.searchUrl);
 
     for (const mc of modelsForApollo) {
       const searchUrl = mc.sources.autotrader.searchUrl;

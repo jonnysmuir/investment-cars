@@ -131,6 +131,8 @@ All filtered to GBP/UK market only.
   - Updated user agent string
 - **Phase 2 URL fix**: `autotrader.js` now parses make/model slugs from `sourceConfig.searchUrl` instead of using `modelConfig.model` directly, fixing broken URLs for models with parentheses/accents.
 - **Fallback warning**: If a make-level search returns 0 results (likely blocked), a clear warning appears in the summary.
+- **Apollo pass visits ALL model URLs** (no limit) so rare models buried deep in make-level search still get coverage. The make-level search (Phase 2) supplements this with additional listings found in broad pagination.
+- **Search page title extraction** captures both the make/series line AND the trim/variant line from card DOM nodes (e.g. "BMW 8 Series" + "M8 Competition 4.4 V8 2dr"), ensuring model matching works even for sub-models filed under a parent series.
 
 ## Important Patterns
 - When adding a new car model: add entry to `data/models.json` with slug, make, model, heroImage, heroCredit, description, heroYears, heroEngine, heroBhp, sources, and excludePatterns if needed. Then run `node scripts/generate-pages.js --slug {slug}`.
