@@ -855,6 +855,10 @@
         </select>
       </div>
 
+      <div class="filter-row" data-filter="generation" style="display: none;">
+        <span class="filter-label">Generation</span>
+      </div>
+
       <div class="filter-row" data-filter="year">
         <span class="filter-label">Year</span>
       </div>
@@ -1117,6 +1121,7 @@
     let heroImageUrl = '';
     let allClassified = [];
     const filters = {
+      generation: null,
       year: [],
       body: null,
       variant: null,
@@ -1135,7 +1140,42 @@
 
     // --- Dynamic filter pill config ---
 
+    // Parse generation data from hero-banner data attribute (needed before FILTER_CONFIG)
+    const _generationsData = (() => {
+      try {
+        return JSON.parse(document.getElementById('heroBanner').dataset.generations || '[]');
+      } catch { return []; }
+    })();
+
+    // Generation detection using _generationsData from hero-banner
+    function getGeneration(listing) {
+      if (!_generationsData.length) return null;
+      const title = (listing.title || '').toLowerCase();
+      const year = listing.year;
+      for (const g of _generationsData) {
+        if (g.patterns && g.patterns.length) {
+          for (const p of g.patterns) {
+            if (new RegExp(p, 'i').test(title)) return g.name;
+          }
+        }
+      }
+      if (year) {
+        for (const g of _generationsData) {
+          if (g.years && year >= g.years[0] && year <= g.years[1]) return g.name;
+        }
+      }
+      return null;
+    }
+
+    const _generationLabels = {};
+    const _generationOrder = [];
+    for (const g of _generationsData) {
+      _generationLabels[g.name] = g.name;
+      _generationOrder.push(g.name);
+    }
+
     const FILTER_CONFIG = {
+      generation:   { detect: l => getGeneration(l), labels: _generationLabels, sortOrder: _generationOrder, mode: 'single', minDistinct: 2 },
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
       body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: { coupe: 'Coupe', convertible: 'Convertible' }, sortOrder: ['coupe','convertible'], mode: 'single', minDistinct: 2 },
       variant:      { detect: l => getVariant(l.title), labels: { italia: 'Italia', speciale: 'Speciale', 'speciale-aperta': 'Speciale Aperta', spider: 'Spider' }, sortOrder: ['italia','speciale','speciale-aperta','spider'], mode: 'single' },
@@ -1199,6 +1239,7 @@
 
     function updateFilterCount() {
       let count = 0;
+      if (filters.generation) count++;
       if (filters.year.length > 0) count++;
       if (filters.body) count++;
       if (filters.variant) count++;
@@ -1219,6 +1260,9 @@
       let results = allClassified.slice();
 
       // Apply filters
+      if (filters.generation) {
+        results = results.filter(l => getGeneration(l) === filters.generation);
+      }
       if (filters.year.length > 0) {
         results = results.filter(l => filters.year.includes(l.year));
       }
@@ -1440,13 +1484,6 @@
     const watchEntriesEl = document.getElementById('watchEntries');
     const watchConfirm = document.getElementById('watchConfirm');
     const watchEditPanel = document.getElementById('watchEditPanel');
-
-    // Parse generation data from hero-banner data attribute
-    const _generationsData = (() => {
-      try {
-        return JSON.parse(document.getElementById('heroBanner').dataset.generations || '[]');
-      } catch { return []; }
-    })();
 
     let _watchEntries = []; // Array of watchlist rows for this model
     let _savedMap = new Map(); // listing_id -> favourite row id

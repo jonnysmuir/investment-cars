@@ -191,6 +191,7 @@ function generateListingPage(m) {
   const bodyMinDistinct = hasMultipleBodies ? '' : ', minDistinct: 2';
 
   const newFilterConfig = `const FILTER_CONFIG = {
+      generation:   { detect: l => getGeneration(l), labels: _generationLabels, sortOrder: _generationOrder, mode: 'single', minDistinct: 2 },
       year:         { detect: l => l.year ? String(l.year) : null, labels: {}, sortOrder: null, mode: 'multi' },
       body:         { detect: l => (l.bodyType || '').toLowerCase() || getBody(l.title), labels: ${JSON.stringify(bodyLabels)}, sortOrder: ${JSON.stringify(bodyOrder)}, mode: 'single'${bodyMinDistinct} },
       variant:      { detect: l => getVariant(l.title), labels: ${JSON.stringify(variantLabels)}, sortOrder: ${JSON.stringify(variantOrder)}, mode: 'single', minDistinct: 2 },

@@ -227,7 +227,8 @@ These must be set on Hostinger in addition to the existing DB credentials:
 - **Filters JSON structure**: `{ yearMin, yearMax, generation, variant, transmission, bodyType, source }`. Null/absent keys mean "any". `filters: null` means "all variants".
 - **API uses entry ID**: PUT and DELETE endpoints use the watchlist entry `id` (not slug) since multiple entries per model are allowed.
 - **Filter-aware stats**: GET /api/watchlist returns `listingCount` and `median` computed from listings matching the saved filters.
-- **Generation data on listing pages**: Embedded as `data-generations` attribute on the hero-banner element by the page generator. The watch JS reads this to show a generation dropdown in the edit panel for models with generations.
+- **Generation data on listing pages**: Embedded as `data-generations` attribute on the hero-banner element by the page generator. Used for both the listing filter UI (Generation pill row, auto-hidden via `minDistinct: 2` for models without generations) and the watchlist edit panel's generation dropdown.
+- **Generation filter logic**: `getGeneration(listing)` in the listing page JS checks title patterns first, then falls back to year ranges from `_generationsData`. This is defined in the first `<script>` block alongside `FILTER_CONFIG`, while `_generationsData` is parsed just before it. The second `<script>` block (watchlist) also references `_generationsData` — this works because top-level `const` is shared across `<script>` tags.
 - **Backward compatibility**: Existing entries with `filters IS NULL` are treated as "All variants".
 - **SQL ALTER statements** (run in phpMyAdmin for existing databases):
   ```sql
