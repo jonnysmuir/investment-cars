@@ -812,7 +812,7 @@
     </div>
   </nav>
 
-  <section class="hero-banner" id="heroBanner" data-generations='[{"name":"930","years":[1975,1989],"patterns":["930"]},{"name":"935","years":[1976,1981],"patterns":["935"]},{"name":"964","years":[1989,1994],"patterns":["964"]},{"name":"965","years":[1986,1989],"patterns":["965","959"]},{"name":"993","years":[1994,1998],"patterns":["993"]},{"name":"996","years":[1998,2004],"patterns":["996"]},{"name":"997","years":[2004,2012],"patterns":["997"]},{"name":"991.1","years":[2012,2016],"patterns":["991.1","991"]},{"name":"991.2","years":[2017,2019],"patterns":["991.2"]},{"name":"992","years":[2019,2026],"patterns":["992"]}]'>
+  <section class="hero-banner" id="heroBanner" data-generations='[{"name":"930","years":[1975,1989],"patterns":["930"]},{"name":"935","years":[1976,1981],"patterns":["935"]},{"name":"964","years":[1989,1994],"patterns":["964"]},{"name":"965","years":[1986,1989],"patterns":["965","959"]},{"name":"993","years":[1994,1998],"patterns":["993"]},{"name":"996","years":[1998,2004],"patterns":["996"]},{"name":"997","years":[2004,2012],"patterns":["997"]},{"name":"991.1","years":[2012,2016],"patterns":["991.1","991"]},{"name":"991.2","years":[2017,2019],"patterns":["991.2"]},{"name":"992","years":[2019,2026],"patterns":["992"]}]' data-generation-images='{"930":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg/1920px-1976_Porsche_930_Turbo%2C_Emerald_Green_met%2C_front_left.jpg","credit":"Mr.choppers / CC BY-SA 3.0"},"935":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg/1920px-Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg","credit":"nakhon100 / CC BY 2.0"},"964":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg/1920px-1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg","credit":"Mr.choppers / CC BY-SA 3.0"},"965":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg/1920px-Porsche_959_%E2%80%93_Frontansicht_%282%29%2C_21._M%C3%A4rz_2013%2C_D%C3%BCsseldorf.jpg","credit":"M 93 / CC BY-SA 3.0 de"},"992":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/1920px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg","credit":"Alexander Migl / CC BY-SA 4.0"},"993":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg/1920px-Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg","credit":"Alexander Migl / CC BY-SA 4.0"},"996":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg/1920px-2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg","credit":"MercurySable99 / CC BY-SA 4.0"},"997":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg/1920px-Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg","credit":"Alexandre Prévot / CC BY-SA 2.0"},"991.1":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2012_Porsche_911_Carrera_S_2.jpg/1920px-2012_Porsche_911_Carrera_S_2.jpg","credit":"Calreyn88 / CC BY-SA 4.0"},"991.2":{"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg/1920px-Porsche_991_Carrera_4S_MkII_%2825909704778%29.jpg","credit":"Alexandre Prévot / CC BY-SA 2.0"}}'>
     <img id="heroImage" src="" alt="Porsche 911" style="opacity: 0;">
     <div class="hero-overlay">
       <h1 class="hero-model-name">Porsche 911</h1>
@@ -1141,6 +1141,38 @@
       } catch { return []; }
     })();
 
+    // Parse per-generation hero images
+    const _generationImages = (() => {
+      try {
+        return JSON.parse(document.getElementById('heroBanner').dataset.generationImages || '{}');
+      } catch { return {}; }
+    })();
+
+    let _defaultHeroImage = '';
+    let _defaultHeroCredit = '';
+
+    function swapHeroImage(genName) {
+      if (!heroImg) return;
+      if (genName && _generationImages[genName]) {
+        const gi = _generationImages[genName];
+        heroImg.style.opacity = '0';
+        setTimeout(() => {
+          heroImg.src = gi.image;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+          const creditEl = document.getElementById('heroCredit');
+          if (creditEl) creditEl.textContent = gi.credit ? 'Image: ' + gi.credit : '';
+        }, 200);
+      } else if (_defaultHeroImage) {
+        heroImg.style.opacity = '0';
+        setTimeout(() => {
+          heroImg.src = _defaultHeroImage;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+          const creditEl = document.getElementById('heroCredit');
+          if (creditEl) creditEl.textContent = _defaultHeroCredit ? 'Image: ' + _defaultHeroCredit : '';
+        }, 200);
+      }
+    }
+
     // Generation detection using _generationsData from hero-banner
     function getGeneration(listing) {
       if (!_generationsData.length) return null;
@@ -1314,7 +1346,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.generation || filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1366,6 +1398,10 @@
           row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
           pill.classList.add('active');
           filters[filterName] = val || null;
+          // Swap hero image when generation changes
+          if (filterName === 'generation') {
+            swapHeroImage(val || null);
+          }
         }
         applyFiltersAndSort();
       });
@@ -1408,6 +1444,7 @@
         // Load hero image
         if (heroImg && data.heroImage) {
           heroImageUrl = data.heroImage;
+          _defaultHeroImage = data.heroImage;
           heroImg.src = data.heroImage;
           heroImg.onload = () => { heroImg.style.opacity = '1'; };
         }
@@ -1415,6 +1452,7 @@
         // Hero credit
         const creditEl = document.getElementById('heroCredit');
         if (creditEl && data.heroCredit) {
+          _defaultHeroCredit = data.heroCredit;
           creditEl.textContent = 'Image: ' + data.heroCredit;
         }
 

@@ -150,8 +150,21 @@ function generateListingPage(m) {
         .replace(/&/g, '&amp;').replace(/'/g, '&#39;')
     : '[]';
   html = html.replace(
-    /data-generations="[^"]*"/,
+    /data-generations='[^']*'|data-generations="[^"]*"/,
     `data-generations='${generationsJson}'`
+  );
+
+  // B3. Generation images data attribute on hero-banner
+  const genImagesObj = {};
+  if (m.generations) {
+    for (const g of m.generations) {
+      if (g.image) genImagesObj[g.name] = { image: g.image, credit: g.credit || '' };
+    }
+  }
+  const genImagesJson = JSON.stringify(genImagesObj).replace(/&/g, '&amp;').replace(/'/g, '&#39;');
+  html = html.replace(
+    /data-generation-images='[^']*'|data-generation-images="[^"]*"/,
+    `data-generation-images='${genImagesJson}'`
   );
 
   // C. Analysis link

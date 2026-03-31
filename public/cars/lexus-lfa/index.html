@@ -812,7 +812,7 @@
     </div>
   </nav>
 
-  <section class="hero-banner" id="heroBanner" data-generations='[]'>
+  <section class="hero-banner" id="heroBanner" data-generations='[]' data-generation-images='{}'>
     <img id="heroImage" src="" alt="Lexus LFA" style="opacity: 0;">
     <div class="hero-overlay">
       <h1 class="hero-model-name">Lexus LFA</h1>
@@ -1141,6 +1141,38 @@
       } catch { return []; }
     })();
 
+    // Parse per-generation hero images
+    const _generationImages = (() => {
+      try {
+        return JSON.parse(document.getElementById('heroBanner').dataset.generationImages || '{}');
+      } catch { return {}; }
+    })();
+
+    let _defaultHeroImage = '';
+    let _defaultHeroCredit = '';
+
+    function swapHeroImage(genName) {
+      if (!heroImg) return;
+      if (genName && _generationImages[genName]) {
+        const gi = _generationImages[genName];
+        heroImg.style.opacity = '0';
+        setTimeout(() => {
+          heroImg.src = gi.image;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+          const creditEl = document.getElementById('heroCredit');
+          if (creditEl) creditEl.textContent = gi.credit ? 'Image: ' + gi.credit : '';
+        }, 200);
+      } else if (_defaultHeroImage) {
+        heroImg.style.opacity = '0';
+        setTimeout(() => {
+          heroImg.src = _defaultHeroImage;
+          heroImg.onload = () => { heroImg.style.opacity = '1'; };
+          const creditEl = document.getElementById('heroCredit');
+          if (creditEl) creditEl.textContent = _defaultHeroCredit ? 'Image: ' + _defaultHeroCredit : '';
+        }, 200);
+      }
+    }
+
     // Generation detection using _generationsData from hero-banner
     function getGeneration(listing) {
       if (!_generationsData.length) return null;
@@ -1314,7 +1346,7 @@
       }
 
       // Update count
-      const isFiltered = filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
+      const isFiltered = filters.generation || filters.year.length > 0 || filters.body || filters.variant || filters.transmission || filters.source || filters.priceMin !== null || filters.priceMax !== null;
       if (isFiltered) {
         countEl.textContent = `${results.length} of ${allClassified.length} listings`;
       } else {
@@ -1366,6 +1398,10 @@
           row.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
           pill.classList.add('active');
           filters[filterName] = val || null;
+          // Swap hero image when generation changes
+          if (filterName === 'generation') {
+            swapHeroImage(val || null);
+          }
         }
         applyFiltersAndSort();
       });
@@ -1408,6 +1444,7 @@
         // Load hero image
         if (heroImg && data.heroImage) {
           heroImageUrl = data.heroImage;
+          _defaultHeroImage = data.heroImage;
           heroImg.src = data.heroImage;
           heroImg.onload = () => { heroImg.style.opacity = '1'; };
         }
@@ -1415,6 +1452,7 @@
         // Hero credit
         const creditEl = document.getElementById('heroCredit');
         if (creditEl && data.heroCredit) {
+          _defaultHeroCredit = data.heroCredit;
           creditEl.textContent = 'Image: ' + data.heroCredit;
         }
 
