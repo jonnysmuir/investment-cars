@@ -248,6 +248,10 @@
       "heroYears": "2007 — 2012",
       "heroEngine": "6.0L V12",
       "heroBhp": "510 BHP",
+      "generations": [
+        { "name": "Original", "years": [1967, 1972], "patterns": ["DBS6", "DBSV8"] },
+        { "name": "V12", "years": [2007, 2012], "patterns": ["V12"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/aston-martin/dbs"
@@ -287,40 +291,6 @@
         },
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=Aston%20Martin&model=DBS%20Superleggera"
-        }
-      }
-    },
-    {
-      "slug": "aston-martin-v8-vantage",
-      "make": "Aston Martin",
-      "model": "V8 Vantage",
-      "matchModel": "V8 Vantage",
-      "excludePatterns": [
-        "\\bDB5\\b",
-        "\\bDB7\\b",
-        "\\bDB9\\b",
-        "\\bDB11\\b",
-        "\\bValkyrie\\b"
-      ],
-      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2810%29.jpg/1920px-Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2810%29.jpg",
-      "heroCredit": "Alexandre Prévot / CC BY-SA 2.0",
-      "description": "The Aston Martin V8 Vantage, produced from 2005 to 2017, brought Aston Martin ownership to a wider audience with a more compact, driver-focused sports car. Its naturally aspirated V8 evolved from 4.3 to 4.7 litres, with manual gearbox cars being the most desirable. The V12 Vantage S with its 565 bhp is the ultimate expression.",
-      "heroYears": "2005 — 2017",
-      "heroEngine": "4.3L / 4.7L V8",
-      "heroBhp": "380 — 430 BHP",
-      "sources": {
-        "pistonheads": {
-          "searchUrl": "https://www.pistonheads.com/buy/aston-martin/v8-vantage"
-        },
-        "autotrader": {
-          "searchUrl": "https://www.autotrader.co.uk/cars/used/aston-martin/v8-vantage"
-        },
-        "carsandclassic": {
-          "makeId": 7,
-          "model": "v8+vantage"
-        },
-        "collectingcars": {
-          "searchUrl": "https://www.collectingcars.com/search?make=Aston%20Martin&model=V8%20Vantage"
         }
       }
     },
@@ -374,10 +344,9 @@
     {
       "slug": "aston-martin-vantage",
       "make": "Aston Martin",
-      "model": "Vantage (Modern)",
+      "model": "Vantage",
       "matchModel": "Vantage",
       "excludePatterns": [
-        "\\bV8 Vantage\\b",
         "\\bDB5\\b",
         "\\bDB9\\b",
         "\\bDB11\\b",
@@ -385,10 +354,15 @@
       ],
       "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2019_Aston_Martin_Vantage_Automatic_4.0.jpg/1920px-2019_Aston_Martin_Vantage_Automatic_4.0.jpg",
       "heroCredit": "Vauxford / CC BY-SA 4.0",
-      "description": "The Aston Martin Vantage, relaunched in 2018, is powered by a Mercedes-AMG-sourced 4.0-litre twin-turbo V8 producing 503 bhp, later increased to 656 bhp in the 2024 facelift. Its aggressive styling, front-mid-mounted engine, and rear-mounted gearbox deliver a balanced, focused sports car.",
-      "heroYears": "2018 — present",
-      "heroEngine": "4.0L V8 TT",
-      "heroBhp": "503 — 656 BHP",
+      "description": "The Aston Martin Vantage spans three generations. The V8 Vantage (2005–2017) featured a naturally aspirated 4.3/4.7-litre V8 with a manual gearbox option. The 2018 relaunch brought a Mercedes-AMG 4.0-litre twin-turbo V8 with 503 bhp. The 2025 facelift increased output to 656 bhp with revised styling.",
+      "heroYears": "2005 — present",
+      "heroEngine": "4.3L V8 — 4.0L V8 TT",
+      "heroBhp": "380 — 656 BHP",
+      "generations": [
+        { "name": "V8 Vantage", "years": [2005, 2017], "patterns": ["V8 Vantage", "4\\.3", "4\\.7"] },
+        { "name": "New Vantage", "years": [2018, 2024], "patterns": [] },
+        { "name": "New Vantage II", "years": [2025, 2026], "patterns": ["2025", "2026"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/aston-martin/vantage"
@@ -419,6 +393,10 @@
       "heroYears": "2006 — 2024",
       "heroEngine": "4.2L V8 / 5.2L V10",
       "heroBhp": "420 — 620 BHP",
+      "generations": [
+        { "name": "Type 42", "years": [2006, 2015], "patterns": ["Type 42", "Mk1", "Gen 1"] },
+        { "name": "Type 4S", "years": [2015, 2024], "patterns": ["Type 4S", "Mk2", "Gen 2"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/r8"
@@ -485,6 +463,11 @@
       "heroYears": "2011 — present",
       "heroEngine": "2.5L I5 Turbo",
       "heroBhp": "340 — 400 BHP",
+      "generations": [
+        { "name": "8P", "years": [2011, 2012], "patterns": ["8P"] },
+        { "name": "8V", "years": [2015, 2020], "patterns": ["8V"] },
+        { "name": "8Y", "years": [2021, 2026], "patterns": ["8Y"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/rs3"
@@ -517,6 +500,12 @@
       "heroYears": "2000 — present",
       "heroEngine": "2.7L V6 TT / 4.2L V8 / 2.9L V6 TT",
       "heroBhp": "380 — 450 BHP",
+      "generations": [
+        { "name": "B5", "years": [1999, 2001], "patterns": ["B5"] },
+        { "name": "B7", "years": [2006, 2008], "patterns": ["B7"] },
+        { "name": "B8", "years": [2012, 2015], "patterns": ["B8"] },
+        { "name": "B9", "years": [2018, 2026], "patterns": ["B9"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/rs4"
@@ -549,6 +538,10 @@
       "heroYears": "2010 — present",
       "heroEngine": "4.2L V8 / 2.9L V6 TT",
       "heroBhp": "444 — 450 BHP",
+      "generations": [
+        { "name": "B8", "years": [2010, 2016], "patterns": ["B8"] },
+        { "name": "B9", "years": [2017, 2026], "patterns": ["B9"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/rs5"
@@ -582,6 +575,12 @@
       "heroYears": "2002 — present",
       "heroEngine": "4.2L V8 TT / 5.0L V10 TT / 4.0L V8 TT",
       "heroBhp": "444 — 621 BHP",
+      "generations": [
+        { "name": "C5", "years": [2002, 2004], "patterns": ["C5"] },
+        { "name": "C6", "years": [2008, 2010], "patterns": ["C6"] },
+        { "name": "C7", "years": [2013, 2018], "patterns": ["C7"] },
+        { "name": "C8", "years": [2020, 2026], "patterns": ["C8"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/rs6"
@@ -614,6 +613,10 @@
       "heroYears": "2013 — present",
       "heroEngine": "4.0L V8 TT",
       "heroBhp": "560 — 621 BHP",
+      "generations": [
+        { "name": "C7", "years": [2013, 2018], "patterns": ["C7"] },
+        { "name": "C8", "years": [2020, 2026], "patterns": ["C8"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/audi/rs7"
@@ -707,6 +710,10 @@
       "heroYears": "2016 — present",
       "heroEngine": "3.0L I6 TT",
       "heroBhp": "365 — 460 BHP",
+      "generations": [
+        { "name": "F87", "years": [2016, 2021], "patterns": ["F87"] },
+        { "name": "G87", "years": [2023, 2026], "patterns": ["G87"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/bmw/m2"
@@ -858,6 +865,10 @@
       "heroYears": "2014 — present",
       "heroEngine": "3.0L I6 TT",
       "heroBhp": "425 — 543 BHP",
+      "generations": [
+        { "name": "F82", "years": [2014, 2020], "patterns": ["F82", "F83"] },
+        { "name": "G82", "years": [2021, 2026], "patterns": ["G82", "G83"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/bmw/m4"
@@ -892,6 +903,14 @@
       "heroYears": "1985 — present",
       "heroEngine": "3.5L I6 — 4.4L V8 TT",
       "heroBhp": "282 — 727 BHP",
+      "generations": [
+        { "name": "E28", "years": [1985, 1988], "patterns": ["E28"] },
+        { "name": "E34", "years": [1988, 1995], "patterns": ["E34"] },
+        { "name": "E39", "years": [1998, 2003], "patterns": ["E39"] },
+        { "name": "E60", "years": [2005, 2010], "patterns": ["E60", "E61"] },
+        { "name": "F10", "years": [2011, 2016], "patterns": ["F10"] },
+        { "name": "F90", "years": [2018, 2026], "patterns": ["F90"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/bmw/m5"
@@ -926,6 +945,11 @@
       "heroYears": "1983 — 2018",
       "heroEngine": "3.5L I6 — 4.4L V8 TT",
       "heroBhp": "282 — 600 BHP",
+      "generations": [
+        { "name": "E24", "years": [1983, 1989], "patterns": ["E24"] },
+        { "name": "E63/E64", "years": [2005, 2010], "patterns": ["E63", "E64"] },
+        { "name": "F06/F12/F13", "years": [2012, 2018], "patterns": ["F06", "F12", "F13"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/bmw/m6"
@@ -992,6 +1016,11 @@
       "heroYears": "2002 — present",
       "heroEngine": "2.0L I4 — 3.0L I6",
       "heroBhp": "150 — 382 BHP",
+      "generations": [
+        { "name": "E85", "years": [2002, 2008], "patterns": ["E85", "E86"] },
+        { "name": "E89", "years": [2009, 2016], "patterns": ["E89"] },
+        { "name": "G29", "years": [2019, 2026], "patterns": ["G29"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/bmw/z4"
@@ -3934,6 +3963,11 @@
       "heroYears": "2008 — present",
       "heroEngine": "6.2L V8 / 4.0L V8 TT / 2.0L I4 Hybrid",
       "heroBhp": "451 — 671 BHP",
+      "generations": [
+        { "name": "W204", "years": [2008, 2014], "patterns": ["W204", "6\\.2", "6\\.3"] },
+        { "name": "W205", "years": [2015, 2021], "patterns": ["W205", "4\\.0"] },
+        { "name": "W206", "years": [2023, 2026], "patterns": ["W206"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/mercedes-benz/c63-amg"
@@ -3986,6 +4020,11 @@
       "heroYears": "2006 — present",
       "heroEngine": "5.4L V8 SC / 6.2L V8 / 4.0L V8 TT",
       "heroBhp": "507 — 612 BHP",
+      "generations": [
+        { "name": "W211", "years": [2006, 2009], "patterns": ["W211"] },
+        { "name": "W212", "years": [2009, 2016], "patterns": ["W212"] },
+        { "name": "W213", "years": [2017, 2026], "patterns": ["W213"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/mercedes-benz/e63-amg"
@@ -4021,6 +4060,10 @@
       "heroYears": "2014 — present",
       "heroEngine": "4.0L V8 TT",
       "heroBhp": "462 — 730 BHP",
+      "generations": [
+        { "name": "C190", "years": [2015, 2021], "patterns": ["C190", "190"] },
+        { "name": "C192", "years": [2024, 2026], "patterns": ["C192"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/mercedes-benz/amg-gt"
@@ -4410,6 +4453,12 @@
       "heroYears": "1996 — present",
       "heroEngine": "2.5 — 4.0L Flat-6 / Flat-4",
       "heroBhp": "204 — 394 BHP",
+      "generations": [
+        { "name": "986", "years": [1996, 2004], "patterns": ["986"] },
+        { "name": "987", "years": [2005, 2012], "patterns": ["987"] },
+        { "name": "981", "years": [2012, 2016], "patterns": ["981"] },
+        { "name": "718", "years": [2016, 2026], "patterns": ["718"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/porsche/boxster"
@@ -4462,6 +4511,11 @@
       "heroYears": "2002 — present",
       "heroEngine": "3.0L V6 — 4.8L V8 TT",
       "heroBhp": "290 — 670 BHP",
+      "generations": [
+        { "name": "E1", "years": [2002, 2010], "patterns": ["E1", "9PA"] },
+        { "name": "E2", "years": [2010, 2018], "patterns": ["E2", "92A"] },
+        { "name": "E3", "years": [2018, 2026], "patterns": ["E3", "9YA", "9YB"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/porsche/cayenne"
@@ -4493,6 +4547,11 @@
       "heroYears": "2005 — present",
       "heroEngine": "2.7 — 4.0L Flat-6 / Flat-4",
       "heroBhp": "245 — 493 BHP",
+      "generations": [
+        { "name": "987c", "years": [2005, 2012], "patterns": ["987"] },
+        { "name": "981c", "years": [2012, 2016], "patterns": ["981"] },
+        { "name": "718", "years": [2016, 2026], "patterns": ["718"] }
+      ],
       "sources": {
         "pistonheads": {
           "searchUrl": "https://www.pistonheads.com/buy/porsche/cayman"

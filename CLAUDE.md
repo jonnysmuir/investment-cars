@@ -39,7 +39,7 @@ public/
   index.html                       # Homepage/dashboard
   listings/index.html              # Model listing page
   analysis/index.html              # Analysis/charting page
-  cars/{slug}/                     # 169 individual car model pages
+  cars/{slug}/                     # 168 individual car model pages
   home-1/ through home-4/          # Homepage design iterations
   js/auth.js                       # Shared frontend auth client (Supabase init, nav updates)
   account/login/index.html         # Login/register page
@@ -60,7 +60,17 @@ scripts/
 ```
 
 ## Car Coverage
-169 models across 13 makes: Ferrari (65), McLaren (21), Lotus (20), Porsche (11), BMW (10), Aston Martin (12), Lamborghini (9), Audi (7), Mercedes-AMG (6), Maserati (5), Alpine (2), Lexus (1: LFA).
+168 models across 13 makes: Ferrari (65), McLaren (21), Lotus (20), Porsche (11), BMW (10), Aston Martin (11), Lamborghini (9), Audi (7), Mercedes-AMG (6), Maserati (5), Alpine (2), Lexus (1: LFA).
+
+### Models with Generations
+21 models have generation data in `models.json` enabling the Generation filter on listing pages:
+- **BMW**: M2 (F87/G87), M3 (E30/E36/E46/E9x/F80/G80), M4 (F82/G82), M5 (E28/E34/E39/E60/F10/F90), M6 (E24/E63-E64/F06-F12-F13), Z4 (E85/E89/G29)
+- **Porsche**: 911 (930/935/964/965/993/996/997/991.1/991.2/992.1/992.2), Boxster (986/987/981/718), Cayman (987c/981c/718), Cayenne (E1/E2/E3)
+- **Audi**: R8 (Type 42/Type 4S), RS3 (8P/8V/8Y), RS4 (B5/B7/B8/B9), RS5 (B8/B9), RS6 (C5/C6/C7/C8), RS7 (C7/C8)
+- **Mercedes-AMG**: C63 (W204/W205/W206), E63 (W211/W212/W213), GT (C190/C192)
+- **Aston Martin**: DBS (Original/V12), Vantage (V8 Vantage/New Vantage/New Vantage II)
+
+**Note**: Lamborghini Huracán variants (LP610, EVO, STO, Tecnica, Sterrato) should be handled via the variant filter system in a future update, not generations.
 
 ## Data Sources
 **Live Listings (4 scrapers):** PistonHeads, AutoTrader, Cars and Classic, Collecting Cars
@@ -171,7 +181,7 @@ All filtered to GBP/UK market only.
 - **Analysis index is auto-updated** by `generate-pages.js` — no manual editing of `public/analysis/index.html` needed.
 
 ## Click Tracking System
-- **Outbound links go through `/go`** — all 111 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
+- **Outbound links go through `/go`** — all 168 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
 - **Query params, not path params** — listing IDs are not globally unique (sequential per-model), so the redirect uses query parameters (`url`, `platform`, `year`, `price`, `page`) instead of `/go/:listingId`
 - **Make/model derived server-side** — the `/go` route extracts the slug from the `page` query param and looks up make/model from `models.json` via `getModelsMap()`
 - **Domain allowlist** — `routes/tracking.js` has an `ALLOWED_DOMAINS` array to prevent open-redirect abuse; update it when adding new listing sources
@@ -246,3 +256,5 @@ These must be set on Hostinger in addition to the existing DB credentials:
 - **Hero images must be verified URLs** — when adding new models, do NOT guess Wikimedia Commons filenames. Search for the actual file page on Commons and verify the thumbnail URL returns HTTP 200 before using it. Guessed URLs will 404.
 - **Cars & Classic makeIds** — Aston Martin: 7, BMW: 10, Ferrari: 20, Lamborghini: 26, Lotus: 29, Maserati: 30, Mercedes: 31, Porsche: 35, Audi: 108, Lexus: 497, McLaren: 2180, Alpine: 2158. Find new makeIds by searching `carandclassic.com/list/{makeId}/` or checking the URL when browsing by make.
 - **Analysis index page is auto-updated** by `generate-pages.js` — the hardcoded `models` array in `public/analysis/index.html` is replaced with the full sorted model list from `models.json` every time the generator runs.
+- **Vantage consolidation** — `aston-martin-v8-vantage` was merged into `aston-martin-vantage` with generation filters (V8 Vantage / New Vantage / New Vantage II). The old V8 Vantage slug, page, and data files no longer exist. Any old bookmarks or links to `/cars/aston-martin-v8-vantage/` will 404.
+- **Generation filter on listing pages** uses `_generationsData` parsed from the `data-generations` attribute on the hero banner. The `getGeneration()` function checks title patterns first, then falls back to year ranges. The generation filter row auto-hides via `minDistinct: 2` for models without generations. Generation images swap the hero image via `data-generation-images` attribute.
