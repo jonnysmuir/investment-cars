@@ -1533,7 +1533,18 @@
             2008
           ],
           "patterns": [
-            "E85",
+            "E85"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG/1920px-BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0 1.0"
+        },
+        {
+          "name": "E86",
+          "years": [
+            2006,
+            2008
+          ],
+          "patterns": [
             "E86"
           ],
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG/1920px-BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG",
@@ -1543,7 +1554,7 @@
           "name": "E89",
           "years": [
             2009,
-            2016
+            2017
           ],
           "patterns": [
             "E89"
@@ -1580,12 +1591,23 @@
         }
       },
       "bodyTypeRules": {
-        "defaultBodyType": "Convertible",
-        "generationOverrides": {},
+        "defaultBodyType": null,
+        "generationOverrides": {
+          "E85": "Convertible",
+          "E86": "Coupe",
+          "E89": "Convertible",
+          "G29": "Convertible"
+        },
         "titlePatterns": {
           "Coupe": [
             "Coupe",
             "Coupé"
+          ],
+          "Convertible": [
+            "Convertible",
+            "Roadster",
+            "Cabriolet",
+            "Cabrio"
           ]
         }
       }
