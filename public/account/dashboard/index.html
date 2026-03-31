@@ -87,35 +87,123 @@
       max-width: 900px; margin: 0 auto; padding: 7rem 2rem 4rem;
     }
 
-    .welcome {
-      font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem;
-    }
-
-    .welcome-sub {
-      color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 2.5rem;
-    }
+    .welcome { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .welcome-sub { color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 2.5rem; }
 
     .section {
       background: var(--color-surface); border: 1px solid var(--color-border);
       border-radius: 12px; padding: 1.75rem; margin-bottom: 1.5rem;
     }
+    .section h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; }
+    .section .section-desc { color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+    .section .empty-state { color: var(--color-text-muted); font-size: 0.9rem; padding: 1rem 0; }
+    .section .empty-state a { color: var(--color-accent); text-decoration: none; }
+    .section .empty-state a:hover { text-decoration: underline; }
 
-    .section h2 {
-      font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem;
+    /* Watchlist cards */
+    .watch-card {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 1rem 0; border-bottom: 1px solid var(--color-border);
     }
+    .watch-card:last-child { border-bottom: none; }
 
-    .section .section-desc {
-      color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 1rem;
-    }
-
-    .section .empty-state {
-      color: var(--color-text-muted); font-size: 0.9rem; padding: 1rem 0;
-    }
-
-    .section .empty-state a {
+    .watch-card-info { flex: 1; min-width: 0; }
+    .watch-card-name {
+      font-weight: 600; font-size: 0.95rem;
       color: var(--color-accent); text-decoration: none;
     }
-    .section .empty-state a:hover { text-decoration: underline; }
+    .watch-card-name:hover { text-decoration: underline; }
+    .watch-card-stats {
+      font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.15rem;
+    }
+
+    .watch-card-controls { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
+
+    .watch-toggle-group {
+      display: flex; flex-direction: column; gap: 0.25rem; align-items: flex-end;
+    }
+    .watch-toggle-row {
+      display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem;
+      color: var(--color-text-muted);
+    }
+
+    .mini-toggle {
+      position: relative; width: 32px; height: 18px; cursor: pointer; display: inline-block;
+    }
+    .mini-toggle input { opacity: 0; width: 0; height: 0; }
+    .mini-toggle .slider {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--color-border); border-radius: 18px; transition: background 0.2s;
+    }
+    .mini-toggle .slider::before {
+      content: ''; position: absolute; width: 14px; height: 14px;
+      left: 2px; bottom: 2px; background: var(--color-text);
+      border-radius: 50%; transition: transform 0.2s;
+    }
+    .mini-toggle input:checked + .slider { background: var(--color-accent); }
+    .mini-toggle input:checked + .slider::before { transform: translateX(14px); }
+
+    .unwatch-btn {
+      background: none; border: 1px solid var(--color-border); border-radius: 6px;
+      padding: 0.35rem 0.65rem; color: var(--color-text-muted); font-size: 0.75rem;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .unwatch-btn:hover { border-color: #dc3545; color: #ff6b7a; }
+
+    /* Favourites cards */
+    .fav-group-heading {
+      font-size: 0.85rem; font-weight: 600; color: var(--color-text-muted);
+      text-transform: uppercase; letter-spacing: 0.06em;
+      margin-top: 1rem; margin-bottom: 0.5rem; padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .fav-group-heading:first-child { margin-top: 0; }
+
+    .fav-card {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.75rem 0; border-bottom: 1px solid var(--color-border);
+    }
+    .fav-card:last-child { border-bottom: none; }
+
+    .fav-thumb {
+      width: 64px; height: 48px; border-radius: 6px; object-fit: cover;
+      background: var(--color-border); flex-shrink: 0;
+    }
+
+    .fav-info { flex: 1; min-width: 0; }
+    .fav-title {
+      font-size: 0.85rem; font-weight: 500; white-space: nowrap;
+      overflow: hidden; text-overflow: ellipsis;
+    }
+    .fav-price-row { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; margin-top: 0.15rem; }
+    .fav-saved-price { color: var(--color-text-muted); }
+    .fav-current-price { font-weight: 600; }
+    .fav-price-up { color: #5bda7f; }
+    .fav-price-down { color: #ff6b7a; }
+    .fav-price-same { color: var(--color-text-muted); }
+
+    .fav-status {
+      display: inline-block; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.05em;
+      text-transform: uppercase; padding: 0.15rem 0.4rem; border-radius: 4px;
+    }
+    .fav-status.active { background: rgba(40,167,69,0.15); color: #5bda7f; }
+    .fav-status.sold { background: rgba(201,168,76,0.15); color: var(--color-accent); }
+    .fav-status.unlisted { background: rgba(136,136,136,0.15); color: #888; }
+
+    .fav-actions { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+
+    .fav-view-btn {
+      font-size: 0.75rem; color: var(--color-accent); text-decoration: none;
+      border: 1px solid var(--color-accent); border-radius: 6px;
+      padding: 0.3rem 0.6rem; transition: all 0.2s;
+    }
+    .fav-view-btn:hover { background: var(--color-accent); color: var(--btn-text); }
+
+    .fav-remove-btn {
+      background: none; border: none; color: var(--color-text-muted); cursor: pointer;
+      font-size: 1.1rem; padding: 0; line-height: 1; transition: color 0.2s;
+    }
+    .fav-remove-btn:hover { color: #ff6b7a; }
 
     /* Preferences */
     .pref-row {
@@ -127,7 +215,6 @@
     .pref-label { font-size: 0.95rem; }
     .pref-label span { color: var(--color-text-muted); font-size: 0.8rem; display: block; }
 
-    /* Toggle switch */
     .toggle {
       position: relative; width: 44px; height: 24px; cursor: pointer;
     }
@@ -144,7 +231,6 @@
     .toggle input:checked + .slider { background: var(--color-accent); }
     .toggle input:checked + .slider::before { transform: translateX(20px); }
 
-    /* Select */
     .pref-select {
       padding: 0.5rem 0.75rem; border: 1px solid var(--color-border);
       border-radius: 8px; background: var(--color-bg); color: var(--color-text);
@@ -157,7 +243,6 @@
       transition: opacity 0.3s; margin-left: 0.5rem;
     }
 
-    /* Sign out button */
     .signout-btn {
       padding: 0.7rem 1.5rem; border: 1px solid var(--color-border);
       border-radius: 8px; background: transparent; color: var(--color-text-muted);
@@ -170,6 +255,9 @@
       .nav-right { gap: 0.75rem; }
       .dashboard { padding: 6rem 1.25rem 3rem; }
       .welcome { font-size: 1.4rem; }
+      .watch-card { flex-direction: column; align-items: flex-start; }
+      .watch-card-controls { width: 100%; justify-content: space-between; }
+      .fav-card { flex-wrap: wrap; }
     }
   </style>
 </head>
@@ -190,14 +278,18 @@
     <h1 class="welcome" id="welcomeMsg">Welcome back</h1>
     <p class="welcome-sub">Manage your watchlist, favourites, and alert preferences.</p>
 
-    <div class="section">
+    <div class="section" id="watchlistSection">
       <h2>My Watchlist</h2>
-      <p class="empty-state">You're not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>
+      <div id="watchlistContent">
+        <p class="empty-state">You're not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>
+      </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="favouritesSection">
       <h2>My Favourites</h2>
-      <p class="empty-state">You haven't saved any listings yet.</p>
+      <div id="favouritesContent">
+        <p class="empty-state">You haven't saved any listings yet.</p>
+      </div>
     </div>
 
     <div class="section">
@@ -265,10 +357,28 @@
     const alertFrequency = document.getElementById('alertFrequency');
     const saveStatus = document.getElementById('saveStatus');
     const signOutBtn = document.getElementById('signOutBtn');
+    const watchlistContent = document.getElementById('watchlistContent');
+    const favouritesContent = document.getElementById('favouritesContent');
 
     let currentUser = null;
 
-    // Load user profile
+    function formatPrice(p) {
+      if (!p) return '';
+      const n = parseInt(String(p).replace(/[^0-9]/g, ''), 10);
+      if (!n) return p;
+      return '\u00a3' + n.toLocaleString();
+    }
+
+    function trackUrl(sourceUrl, slug) {
+      const params = new URLSearchParams({
+        url: sourceUrl,
+        platform: '',
+        page: '/account/dashboard',
+      });
+      return '/go?' + params.toString();
+    }
+
+    // ── Load user profile ──────────────────────────────────────────────────
     (async () => {
       currentUser = await getCurrentUser();
       if (!currentUser) {
@@ -277,14 +387,172 @@
       }
 
       const name = currentUser.display_name || currentUser.email.split('@')[0];
-      welcomeMsg.textContent = `Welcome back, ${name}`;
+      welcomeMsg.textContent = 'Welcome back, ' + name;
 
-      // Set preference values
       alertsEnabled.checked = currentUser.alerts_enabled;
       alertFrequency.value = currentUser.alert_frequency || 'daily';
+
+      loadWatchlist();
+      loadFavourites();
     })();
 
-    // Save preferences
+    // ── Watchlist ───────────────────────────────────────────────────────────
+    async function loadWatchlist() {
+      try {
+        const resp = await fetch('/api/watchlist');
+        if (!resp.ok) return;
+        const { watchlist } = await resp.json();
+        if (!watchlist || watchlist.length === 0) return;
+
+        watchlistContent.innerHTML = watchlist.map(w => {
+          const stats = [];
+          if (w.listingCount > 0) stats.push(w.listingCount + ' listing' + (w.listingCount === 1 ? '' : 's'));
+          if (w.median) stats.push('Median: ' + formatPrice(w.median));
+          return `
+            <div class="watch-card" data-slug="${w.model_slug}">
+              <div class="watch-card-info">
+                <a href="/cars/${w.model_slug}/" class="watch-card-name">${w.displayName}</a>
+                <div class="watch-card-stats">${stats.join(' \u00b7 ') || 'No active listings'}</div>
+              </div>
+              <div class="watch-card-controls">
+                <div class="watch-toggle-group">
+                  <label class="watch-toggle-row">
+                    New listings
+                    <label class="mini-toggle">
+                      <input type="checkbox" class="wt-new" ${w.notify_new_listings ? 'checked' : ''}>
+                      <span class="slider"></span>
+                    </label>
+                  </label>
+                  <label class="watch-toggle-row">
+                    Price drops
+                    <label class="mini-toggle">
+                      <input type="checkbox" class="wt-price" ${w.notify_price_drops ? 'checked' : ''}>
+                      <span class="slider"></span>
+                    </label>
+                  </label>
+                </div>
+                <button class="unwatch-btn" data-slug="${w.model_slug}">Unwatch</button>
+              </div>
+            </div>`;
+        }).join('');
+
+        // Event delegation for watchlist
+        watchlistContent.addEventListener('change', async (e) => {
+          const card = e.target.closest('.watch-card');
+          if (!card) return;
+          const slug = card.dataset.slug;
+          const newListings = card.querySelector('.wt-new').checked;
+          const priceDrops = card.querySelector('.wt-price').checked;
+          await fetch('/api/watchlist/' + slug, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ notifyNewListings: newListings, notifyPriceDrops: priceDrops }),
+          });
+        });
+
+        watchlistContent.addEventListener('click', async (e) => {
+          const btn = e.target.closest('.unwatch-btn');
+          if (!btn) return;
+          const slug = btn.dataset.slug;
+          await fetch('/api/watchlist/' + slug, { method: 'DELETE' });
+          const card = btn.closest('.watch-card');
+          card.remove();
+          if (!watchlistContent.querySelector('.watch-card')) {
+            watchlistContent.innerHTML = '<p class="empty-state">You\'re not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>';
+          }
+        });
+      } catch (err) {
+        console.error('Failed to load watchlist:', err);
+      }
+    }
+
+    // ── Favourites ──────────────────────────────────────────────────────────
+    async function loadFavourites() {
+      try {
+        const resp = await fetch('/api/favourites');
+        if (!resp.ok) return;
+        const { favourites } = await resp.json();
+        if (!favourites || favourites.length === 0) return;
+
+        // Group by model
+        const groups = {};
+        for (const f of favourites) {
+          const key = f.model_slug;
+          if (!groups[key]) groups[key] = { displayName: f.displayName, items: [] };
+          groups[key].items.push(f);
+        }
+
+        let html = '';
+        for (const [slug, group] of Object.entries(groups)) {
+          html += '<div class="fav-group-heading">' + group.displayName + '</div>';
+          for (const f of group.items) {
+            const statusClass = f.currentStatus === 'active' ? 'active' : (f.currentStatus === 'sold' ? 'sold' : 'unlisted');
+            const statusLabel = f.currentStatus === 'active' ? 'Active' : (f.currentStatus === 'sold' ? 'Sold' : 'Unlisted');
+
+            // Price comparison
+            let priceHtml = '';
+            if (f.price_at_save) {
+              priceHtml += '<span class="fav-saved-price">Saved at ' + f.price_at_save + '</span>';
+              if (f.currentPrice && f.currentPrice !== f.price_at_save && f.currentStatus === 'active') {
+                const savedNum = parseInt(String(f.price_at_save).replace(/[^0-9]/g, ''), 10);
+                const currentNum = parseInt(String(f.currentPrice).replace(/[^0-9]/g, ''), 10);
+                if (savedNum && currentNum) {
+                  const cls = currentNum > savedNum ? 'fav-price-up' : (currentNum < savedNum ? 'fav-price-down' : 'fav-price-same');
+                  const arrow = currentNum > savedNum ? '\u2191' : (currentNum < savedNum ? '\u2193' : '');
+                  priceHtml += ' <span class="fav-current-price ' + cls + '">' + arrow + ' Now ' + formatPrice(f.currentPrice) + '</span>';
+                }
+              }
+            }
+
+            const viewUrl = f.source_url ? trackUrl(f.source_url, slug) : '/cars/' + slug + '/';
+
+            html += `
+              <div class="fav-card" data-fav-id="${f.id}">
+                ${f.image_url ? '<img class="fav-thumb" src="' + f.image_url + '" alt="" loading="lazy">' : '<div class="fav-thumb"></div>'}
+                <div class="fav-info">
+                  <div class="fav-title">${f.title || 'Untitled listing'}</div>
+                  <div class="fav-price-row">
+                    ${priceHtml}
+                    <span class="fav-status ${statusClass}">${statusLabel}</span>
+                  </div>
+                </div>
+                <div class="fav-actions">
+                  <a href="${viewUrl}" target="_blank" rel="noopener noreferrer" class="fav-view-btn">View</a>
+                  <button class="fav-remove-btn" data-fav-id="${f.id}" title="Remove">\u00d7</button>
+                </div>
+              </div>`;
+          }
+        }
+
+        favouritesContent.innerHTML = html;
+
+        // Event delegation for remove
+        favouritesContent.addEventListener('click', async (e) => {
+          const btn = e.target.closest('.fav-remove-btn');
+          if (!btn) return;
+          const favId = btn.dataset.favId;
+          await fetch('/api/favourites/' + favId, { method: 'DELETE' });
+          const card = btn.closest('.fav-card');
+          card.remove();
+
+          // Check if any group heading is now empty
+          const headings = favouritesContent.querySelectorAll('.fav-group-heading');
+          headings.forEach(h => {
+            if (!h.nextElementSibling || h.nextElementSibling.classList.contains('fav-group-heading')) {
+              h.remove();
+            }
+          });
+
+          if (!favouritesContent.querySelector('.fav-card')) {
+            favouritesContent.innerHTML = '<p class="empty-state">You haven\'t saved any listings yet.</p>';
+          }
+        });
+      } catch (err) {
+        console.error('Failed to load favourites:', err);
+      }
+    }
+
+    // ── Alert preferences ───────────────────────────────────────────────────
     async function savePreferences() {
       try {
         await fetch('/api/auth/preferences', {
@@ -306,9 +574,7 @@
     alertFrequency.addEventListener('change', savePreferences);
 
     // Sign out
-    signOutBtn.addEventListener('click', () => {
-      signOut();
-    });
+    signOutBtn.addEventListener('click', () => { signOut(); });
   </script>
 
 </body>

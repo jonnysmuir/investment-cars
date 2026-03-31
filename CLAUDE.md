@@ -25,6 +25,8 @@ routes/
   tracking.js                     # GET /go — tracked redirect for outbound clicks
   admin.js                        # GET /admin/stats, GET /admin/dashboard
   auth.js                         # Auth API (callback, logout, me, refresh, preferences)
+  watchlist.js                    # Watchlist CRUD API (all requireAuth)
+  favourites.js                   # Favourites CRUD API (all requireAuth)
 data/
   models.json                      # Master registry (slug, make, model, hero image, description, scraper configs)
   {slug}.json                      # Current listings per model
@@ -74,6 +76,13 @@ All filtered to GBP/UK market only.
 - `GET /go?url=...&platform=...&year=...&price=...&page=...` — Tracked outbound redirect (logs to MySQL, appends UTM params, 302 redirects)
 - `GET /admin/stats` — Click analytics JSON (totals, by platform, top models, daily trend)
 - `GET /admin/dashboard` — HTML dashboard displaying click stats
+- `GET /api/watchlist` — User's watched models with live stats (requires auth)
+- `POST /api/watchlist` — Add model to watchlist (requires auth)
+- `PUT /api/watchlist/:slug` — Update notification prefs for watched model (requires auth)
+- `DELETE /api/watchlist/:slug` — Remove model from watchlist (requires auth)
+- `GET /api/favourites` — User's saved listings with current state; optional `?slug=` filter (requires auth)
+- `POST /api/favourites` — Save a listing to favourites (requires auth)
+- `DELETE /api/favourites/:id` — Remove a saved listing (requires auth)
 
 ## Key Server Logic & Conventions
 - **Variant normalisation**: Maps listing titles → categories (Scuderia, Pista, Spider, Convertible, GTS, etc.)

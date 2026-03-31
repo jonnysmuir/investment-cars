@@ -249,6 +249,7 @@
     const errorMsg = document.getElementById('errorMsg');
     const successMsg = document.getElementById('successMsg');
     const googleBtn = document.getElementById('googleBtn');
+    const redirectUrl = new URLSearchParams(window.location.search).get('redirect');
 
     let isRegister = false;
 
@@ -366,7 +367,7 @@
             submitBtn.disabled = false;
             submitBtn.textContent = 'Create Account';
           } else {
-            window.location.href = '/account/dashboard';
+            window.location.href = redirectUrl || '/account/dashboard';
           }
         } else {
           const result = await signInWithEmail(email, password);
@@ -376,7 +377,7 @@
             submitBtn.textContent = 'Sign In';
             return;
           }
-          window.location.href = '/account/dashboard';
+          window.location.href = redirectUrl || '/account/dashboard';
         }
       } catch (err) {
         showError('An unexpected error occurred. Please try again.');
@@ -389,7 +390,7 @@
     (async () => {
       const user = await getCurrentUser();
       if (user) {
-        window.location.href = '/account/dashboard';
+        window.location.href = redirectUrl || '/account/dashboard';
       }
     })();
   </script>

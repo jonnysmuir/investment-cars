@@ -7,6 +7,8 @@ const cookieParser = require('cookie-parser');
 const trackingRoutes = require('./routes/tracking');
 const adminRoutes = require('./routes/admin');
 const authRoutes = require('./routes/auth');
+const watchlistRoutes = require('./routes/watchlist');
+const favouritesRoutes = require('./routes/favourites');
 const { attachUser } = require('./middleware/auth');
 
 const app = express();
@@ -20,6 +22,8 @@ app.use(attachUser);
 app.use(trackingRoutes);
 app.use('/admin', adminRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/watchlist', watchlistRoutes);
+app.use('/api/favourites', favouritesRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

@@ -198,8 +198,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Handle OAuth redirect first
   const wasCallback = await handleOAuthCallback();
   if (wasCallback) {
-    // Redirect to dashboard after OAuth callback
-    window.location.href = '/account/dashboard';
+    // Redirect after OAuth callback — honour ?redirect= param if present
+    const oauthRedirect = new URLSearchParams(window.location.search).get('redirect');
+    window.location.href = oauthRedirect || '/account/dashboard';
     return;
   }
 

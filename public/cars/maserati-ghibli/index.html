@@ -504,6 +504,35 @@
       color: var(--color-text-muted);
     }
 
+    /* Watch & Save */
+    .watch-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      margin-top: 0.75rem; padding: 0.5rem 1.1rem;
+      background: transparent; border: 1px solid rgba(255,255,255,0.4);
+      border-radius: 6px; color: rgba(255,255,255,0.85);
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em;
+      text-transform: uppercase; cursor: pointer; transition: all 0.2s;
+    }
+    .watch-btn:hover { border-color: var(--color-accent); color: var(--color-accent); }
+    .watch-btn.watching {
+      background: var(--color-accent); border-color: var(--color-accent);
+      color: #000;
+    }
+    .watch-btn svg { width: 16px; height: 16px; }
+
+    .save-btn {
+      position: absolute; top: 0.6rem; right: 0.6rem; z-index: 5;
+      background: rgba(0,0,0,0.5); border: none; border-radius: 50%;
+      width: 32px; height: 32px; display: flex; align-items: center;
+      justify-content: center; cursor: pointer; transition: all 0.2s;
+      padding: 0;
+    }
+    .save-btn:hover { background: rgba(0,0,0,0.7); }
+    .save-btn svg { width: 18px; height: 18px; fill: none; stroke: #fff; stroke-width: 2; }
+    .save-btn.saved svg { fill: var(--color-accent); stroke: var(--color-accent); }
+
+    .listing-card { position: relative; }
+
     /* Auction section */
     .auction-section {
       border-top: 1px solid var(--color-border);
@@ -742,6 +771,10 @@
     <div class="hero-overlay">
       <h1 class="hero-model-name">Maserati Ghibli</h1>
       <p class="hero-model-years">2013 — 2023 &middot; 3.0L V6 TT / 2.0L I4 Hybrid &middot; 330 — 580 BHP</p>
+      <button class="watch-btn" id="watchBtn" style="display:none" aria-label="Watch this model">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        <span id="watchBtnText">Watch This Model</span>
+      </button>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -977,7 +1010,10 @@
     function renderActiveCard(l) {
       const primary = getPrimary(l);
       return `
-        <article class="listing-card${l.featured ? ' featured' : ''}">
+        <article class="listing-card${l.featured ? ' featured' : ''}" data-listing-id="${l.id}">
+          <button class="save-btn" data-id="${l.id}" title="Save listing" aria-label="Save listing">
+            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </button>
           ${l.image
             ? `<img class="card-image" src="${l.image}" alt="${l.title}" loading="lazy">`
             : `<div class="card-image-placeholder" style="background-image: url('${heroImageUrl}')"><span class="placeholder-text">${l.title}</span><span class="placeholder-subtext">See photos on ${primary.name}</span></div>`
@@ -1337,6 +1373,144 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/auth.js"></script>
+
+  <script>
+    // ── Watch & Save state ─────────────────────────────────────────────────
+    const MODEL_SLUG = window.location.pathname.replace(/^\/cars\//, '').replace(/\/$/, '');
+    const watchBtn = document.getElementById('watchBtn');
+    const watchBtnText = document.getElementById('watchBtnText');
+    let _isWatching = false;
+    let _savedMap = new Map(); // listing_id → favourite row id
+    let _currentUser = null;
+    let _allListingsData = []; // populated after listings load
+
+    function authGuard() {
+      if (_currentUser) return true;
+      window.location.href = '/account/login?redirect=' + encodeURIComponent(window.location.pathname);
+      return false;
+    }
+
+    function setWatchState(watching) {
+      _isWatching = watching;
+      watchBtn.classList.toggle('watching', watching);
+      watchBtnText.textContent = watching ? 'Watching' : 'Watch This Model';
+    }
+
+    function setSaveState(listingId, saved) {
+      const btns = document.querySelectorAll(`.save-btn[data-id="${listingId}"]`);
+      btns.forEach(btn => btn.classList.toggle('saved', saved));
+    }
+
+    // Watch button click
+    watchBtn.addEventListener('click', async () => {
+      if (!authGuard()) return;
+      try {
+        if (_isWatching) {
+          await fetch(`/api/watchlist/${MODEL_SLUG}`, { method: 'DELETE' });
+          setWatchState(false);
+        } else {
+          await fetch('/api/watchlist', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ slug: MODEL_SLUG }),
+          });
+          setWatchState(true);
+        }
+      } catch (err) {
+        console.error('Watch toggle failed:', err);
+      }
+    });
+
+    // Save button click (event delegation)
+    document.addEventListener('click', async (e) => {
+      const btn = e.target.closest('.save-btn');
+      if (!btn) return;
+      if (!authGuard()) return;
+
+      const listingId = btn.dataset.id;
+
+      try {
+        if (_savedMap.has(listingId)) {
+          const favId = _savedMap.get(listingId);
+          await fetch(`/api/favourites/${favId}`, { method: 'DELETE' });
+          _savedMap.delete(listingId);
+          setSaveState(listingId, false);
+        } else {
+          // Find the listing data to send
+          const card = btn.closest('.listing-card');
+          const listing = _allListingsData.find(l => String(l.id) === String(listingId));
+          const primary = listing && listing.sources && listing.sources[0];
+
+          const resp = await fetch('/api/favourites', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              modelSlug: MODEL_SLUG,
+              listingId: listingId,
+              sourceUrl: primary ? primary.url : '',
+              title: listing ? listing.title : '',
+              priceAtSave: listing ? listing.price : '',
+              imageUrl: listing ? listing.image : '',
+            }),
+          });
+          const data = await resp.json();
+          if (data.id) _savedMap.set(listingId, data.id);
+          setSaveState(listingId, true);
+        }
+      } catch (err) {
+        console.error('Save toggle failed:', err);
+      }
+    });
+
+    // Load user state after auth.js initialises
+    async function loadUserState() {
+      _currentUser = await getCurrentUser();
+      if (!_currentUser) {
+        watchBtn.style.display = 'inline-flex';
+        return;
+      }
+
+      watchBtn.style.display = 'inline-flex';
+
+      try {
+        // Check watchlist
+        const wRes = await fetch('/api/watchlist');
+        if (wRes.ok) {
+          const { watchlist } = await wRes.json();
+          const match = watchlist.find(w => w.model_slug === MODEL_SLUG);
+          if (match) setWatchState(true);
+        }
+
+        // Check favourites for this model
+        const fRes = await fetch(`/api/favourites?slug=${MODEL_SLUG}`);
+        if (fRes.ok) {
+          const { favourites } = await fRes.json();
+          for (const f of favourites) {
+            _savedMap.set(f.listing_id, f.id);
+            setSaveState(f.listing_id, true);
+          }
+        }
+      } catch (err) {
+        console.error('Failed to load user state:', err);
+      }
+    }
+
+    // Wait for DOM to be ready and listings to load, then check user state
+    // The allClassified variable is set by loadListings() in the main script above
+    function waitForListingsAndLoadState() {
+      // Use a short polling check since loadListings is async
+      const check = setInterval(() => {
+        if (typeof allClassified !== 'undefined') {
+          clearInterval(check);
+          _allListingsData = allClassified;
+          loadUserState();
+        }
+      }, 100);
+      // Fallback: load user state even if listings haven't loaded after 3s
+      setTimeout(() => { clearInterval(check); loadUserState(); }, 3000);
+    }
+    waitForListingsAndLoadState();
+  </script>
 
 </body>
 </html>

@@ -52,6 +52,41 @@ async function setup() {
   `);
 
   console.log('users table ready.');
+
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS watchlist (
+      id                  INT AUTO_INCREMENT PRIMARY KEY,
+      user_id             VARCHAR(36) NOT NULL,
+      model_slug          VARCHAR(100) NOT NULL,
+      notify_new_listings BOOLEAN DEFAULT TRUE,
+      notify_price_drops  BOOLEAN DEFAULT TRUE,
+      created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE KEY unique_user_model (user_id, model_slug),
+      INDEX idx_user (user_id),
+      INDEX idx_slug (model_slug)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  `);
+
+  console.log('watchlist table ready.');
+
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS favourites (
+      id            INT AUTO_INCREMENT PRIMARY KEY,
+      user_id       VARCHAR(36) NOT NULL,
+      model_slug    VARCHAR(100) NOT NULL,
+      listing_id    VARCHAR(50) NOT NULL,
+      source_url    VARCHAR(500),
+      title         VARCHAR(500),
+      price_at_save VARCHAR(50),
+      image_url     VARCHAR(500),
+      created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE KEY unique_user_listing (user_id, model_slug, listing_id),
+      INDEX idx_user (user_id),
+      INDEX idx_slug (model_slug)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  `);
+
+  console.log('favourites table ready.');
   await pool.end();
 }
 
