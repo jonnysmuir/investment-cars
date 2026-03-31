@@ -462,7 +462,7 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
       if ((!existingListing.transmission || existingListing.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
         existingListing.transmission = scraped.transmission;
       }
-      if (!existingListing.bodyType && scraped.bodyType) {
+      if (scraped.bodyType) {
         existingListing.bodyType = scraped.bodyType;
       }
 
@@ -506,7 +506,7 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
         if ((!duplicate.transmission || duplicate.transmission === 'Unknown') && scraped.transmission && scraped.transmission !== 'Unknown') {
           duplicate.transmission = scraped.transmission;
         }
-        if (!duplicate.bodyType && scraped.bodyType) {
+        if (scraped.bodyType) {
           duplicate.bodyType = scraped.bodyType;
         }
         // Clear missing-since

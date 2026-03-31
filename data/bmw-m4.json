@@ -1501,7 +1501,7 @@
     {
       "id": "73",
       "title": "2018 BMW M4 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
-      "price": "£32,000",
+      "price": "£31,450",
       "year": 2018,
       "mileage": "24,093 miles",
       "transmission": "F1 Automated Manual",
@@ -1523,6 +1523,10 @@
       "priceHistory": [
         {
           "price": "£31,450",
+          "date": "2026-03-31"
+        },
+        {
+          "price": "£32,000",
           "date": "2026-03-31"
         }
       ]
@@ -4808,7 +4812,7 @@
       "year": "2018",
       "mileage": "61,400 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/new/28700157/2018-bmw-m4-69b41af9d1d40.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=745015e191dab3b80c42f095b784c443",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -4847,7 +4851,7 @@
       "year": "2014",
       "mileage": "32,746 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/new/27944648/2014-bmw-m4-6990326629811.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=32e20184f32cd36980352bf5b81c6537",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -4866,7 +4870,7 @@
       "year": "2019",
       "mileage": "45,800 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/new/28689404/2019-bmw-m4-69b3c8c376cc5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=88675d67f3cfcefe5ceb50d3d8963509",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -4985,13 +4989,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26510107/2022-bmw-m4-693298ac6fb4a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5c9522387ac35a6ad253de2b4c75738f",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1983905"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "248",
@@ -5019,7 +5024,7 @@
       "year": "2023",
       "mileage": "6,250 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2031339/2023-bmw-m4-69b8391d19dca.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5b95f3ac613a9491c338b78282055f82",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -5038,7 +5043,7 @@
       "year": "2018",
       "mileage": "18,381 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2031148/2018-bmw-m4-69c13a7b28270.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e8d1f46fcab63dba132cd1882a9e436e",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -5121,7 +5126,7 @@
       "year": "2021",
       "mileage": "24,900 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2024321/2021-bmw-m4-69ad82d6df7ae.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=68176df891b38a084d7e06e17bf42b28",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -5159,7 +5164,7 @@
       "year": "2022",
       "mileage": "27,869 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/new/28658865/2022-bmw-m4-69b277349b4e0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9863c52b2cde00254bdfb4d33d209390",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -5183,13 +5188,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2038234/2017-bmw-m4-69c7b9bd89dd1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b505031b732a77260af8ec8511c171b6",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038234"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "258",
@@ -6275,7 +6281,7 @@
       "year": "2019",
       "mileage": "36,010 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2020411/2019-bmw-m4-699ed8812a77e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8be119b21eceb33589268ca90a7a5941",
       "featured": false,
       "dateAdded": "2026-03-31",

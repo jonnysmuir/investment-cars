@@ -151,13 +151,13 @@ function normaliseBodyType(raw) {
   if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b|\bgran\s*coup[eé]\b/i.test(s)) return 'Coupe';
   // Saloon / Sedan
   if (/\bsaloon\b|\bsedan\b/i.test(s)) return 'Saloon';
-  // Door-count inference (only when no other body type clue matched)
-  if (/\b4\s*(?:dr|door)\b/i.test(s)) return 'Saloon';
-  if (/\b5\s*(?:dr|door)\b/i.test(s)) return 'Estate';
+  // SUV / Crossover (must come before door-count to avoid "SUV 5dr" → Estate)
+  if (/\bsuv\b|\bcrossover\b/i.test(s)) return 'SUV';
   // Estate / Wagon / Touring (BMW-specific: "Touring" means Estate)
   if (/\bestate\b|\bwagon\b|\bshooting[\s.-]*brake\b|\btouring\b/i.test(s)) return 'Estate';
-  // SUV
-  if (/\bsuv\b|\bcrossover\b/i.test(s)) return 'SUV';
+  // Door-count inference (only when no explicit body type keyword matched above)
+  if (/\b4\s*(?:dr|door)\b/i.test(s)) return 'Saloon';
+  if (/\b5\s*(?:dr|door)\b/i.test(s)) return 'Estate';
   return null;
 }
 
