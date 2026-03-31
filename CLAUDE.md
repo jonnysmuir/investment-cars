@@ -76,10 +76,10 @@ All filtered to GBP/UK market only.
 - `GET /go?url=...&platform=...&year=...&price=...&page=...` — Tracked outbound redirect (logs to MySQL, appends UTM params, 302 redirects)
 - `GET /admin/stats` — Click analytics JSON (totals, by platform, top models, daily trend)
 - `GET /admin/dashboard` — HTML dashboard displaying click stats
-- `GET /api/watchlist` — User's watched models with live stats (requires auth)
-- `POST /api/watchlist` — Add model to watchlist (requires auth)
-- `PUT /api/watchlist/:slug` — Update notification prefs for watched model (requires auth)
-- `DELETE /api/watchlist/:slug` — Remove model from watchlist (requires auth)
+- `GET /api/watchlist` — User's watched models with filter-aware stats and filter summaries (requires auth)
+- `POST /api/watchlist` — Add model to watchlist with optional filters JSON (requires auth). Supports multiple entries per model with different filters.
+- `PUT /api/watchlist/:id` — Update filters and/or notification prefs for a specific watchlist entry (requires auth)
+- `DELETE /api/watchlist/:id` — Remove a specific watchlist entry (requires auth)
 - `GET /api/favourites` — User's saved listings with current state; optional `?slug=` filter (requires auth)
 - `POST /api/favourites` — Save a listing to favourites (requires auth)
 - `DELETE /api/favourites/:id` — Remove a saved listing (requires auth)
@@ -220,6 +220,21 @@ These must be set on Hostinger in addition to the existing DB credentials:
 
 ### Privacy Policy
 - User auth stores email, display name, avatar URL, and auth provider in MySQL. A privacy policy update is needed to disclose this data collection to comply with GDPR.
+
+## Watchlist Filter System
+- **Watchlist entries store a `filters` JSON column** alongside the model slug. This allows watching specific configurations like "BMW M3 E46 Manual".
+- **Multiple entries per model**: A user can have multiple watchlist entries for the same model with different filters (e.g. "M3 E46 Manual" and "M3 G80").
+- **Filters JSON structure**: `{ yearMin, yearMax, generation, variant, transmission, bodyType, source }`. Null/absent keys mean "any". `filters: null` means "all variants".
+- **API uses entry ID**: PUT and DELETE endpoints use the watchlist entry `id` (not slug) since multiple entries per model are allowed.
+- **Filter-aware stats**: GET /api/watchlist returns `listingCount` and `median` computed from listings matching the saved filters.
+- **Generation data on listing pages**: Embedded as `data-generations` attribute on the hero-banner element by the page generator. The watch JS reads this to show a generation dropdown in the edit panel for models with generations.
+- **Backward compatibility**: Existing entries with `filters IS NULL` are treated as "All variants".
+- **SQL ALTER statements** (run in phpMyAdmin for existing databases):
+  ```sql
+  ALTER TABLE watchlist ADD COLUMN filters JSON NULL AFTER model_slug;
+  ALTER TABLE watchlist DROP INDEX unique_user_model;
+  ALTER TABLE watchlist ADD INDEX idx_user_slug (user_id, model_slug);
+  ```
 
 ## Common Pitfalls
 - Scraper failures can cause false "unlisted" detections — the 3-day rule in `.state/` files prevents this

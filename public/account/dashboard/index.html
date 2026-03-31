@@ -116,6 +116,38 @@
     .watch-card-stats {
       font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.15rem;
     }
+    .watch-card-filters {
+      font-size: 0.75rem; color: var(--color-accent); margin-top: 0.1rem;
+      opacity: 0.8;
+    }
+    .watch-edit-btn {
+      background: none; border: 1px solid var(--color-border); border-radius: 6px;
+      padding: 0.35rem 0.65rem; color: var(--color-text-muted); font-size: 0.75rem;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .watch-edit-btn:hover { border-color: var(--color-accent); color: var(--color-accent); }
+    .dash-edit-panel {
+      padding: 0.75rem; margin-top: 0.5rem; background: var(--color-bg);
+      border: 1px solid var(--color-border); border-radius: 8px;
+    }
+    .dash-edit-row {
+      display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;
+      font-size: 0.8rem; color: var(--color-text-muted);
+    }
+    .dash-edit-row label { min-width: 80px; }
+    .dash-edit-row select, .dash-edit-row input {
+      padding: 0.3rem 0.5rem; border: 1px solid var(--color-border);
+      border-radius: 4px; background: var(--color-surface); color: var(--color-text);
+      font-size: 0.8rem; outline: none;
+    }
+    .dash-edit-row input[type="number"] { width: 75px; }
+    .dash-edit-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+    .dash-edit-save, .dash-edit-cancel {
+      padding: 0.3rem 0.75rem; border-radius: 4px; font-size: 0.75rem;
+      font-weight: 600; cursor: pointer; border: none;
+    }
+    .dash-edit-save { background: var(--color-accent); color: var(--btn-text); }
+    .dash-edit-cancel { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); }
 
     .watch-card-controls { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
 
@@ -408,11 +440,13 @@
           const stats = [];
           if (w.listingCount > 0) stats.push(w.listingCount + ' listing' + (w.listingCount === 1 ? '' : 's'));
           if (w.median) stats.push('Median: ' + formatPrice(w.median));
+          const summary = w.filterSummary || 'All variants';
           return `
-            <div class="watch-card" data-slug="${w.model_slug}">
+            <div class="watch-card" data-entry-id="${w.id}" data-slug="${w.model_slug}">
               <div class="watch-card-info">
                 <a href="/cars/${w.model_slug}/" class="watch-card-name">${w.displayName}</a>
-                <div class="watch-card-stats">${stats.join(' \u00b7 ') || 'No active listings'}</div>
+                <div class="watch-card-filters">${summary}</div>
+                <div class="watch-card-stats">${stats.join(' \u00b7 ') || 'No matching listings'}</div>
               </div>
               <div class="watch-card-controls">
                 <div class="watch-toggle-group">
@@ -431,19 +465,24 @@
                     </label>
                   </label>
                 </div>
-                <button class="unwatch-btn" data-slug="${w.model_slug}">Unwatch</button>
+                <button class="watch-edit-btn" data-entry-id="${w.id}">Edit</button>
+                <button class="unwatch-btn" data-entry-id="${w.id}">Unwatch</button>
               </div>
+              <div class="dash-edit-panel" id="dashEdit${w.id}" style="display:none"></div>
             </div>`;
         }).join('');
 
-        // Event delegation for watchlist
+        // Store watchlist data for edit panels
+        const _dashWatchData = watchlist;
+
+        // Notification toggle (event delegation)
         watchlistContent.addEventListener('change', async (e) => {
           const card = e.target.closest('.watch-card');
           if (!card) return;
-          const slug = card.dataset.slug;
+          const entryId = card.dataset.entryId;
           const newListings = card.querySelector('.wt-new').checked;
           const priceDrops = card.querySelector('.wt-price').checked;
-          await fetch('/api/watchlist/' + slug, {
+          await fetch('/api/watchlist/' + entryId, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ notifyNewListings: newListings, notifyPriceDrops: priceDrops }),
@@ -451,14 +490,82 @@
         });
 
         watchlistContent.addEventListener('click', async (e) => {
-          const btn = e.target.closest('.unwatch-btn');
-          if (!btn) return;
-          const slug = btn.dataset.slug;
-          await fetch('/api/watchlist/' + slug, { method: 'DELETE' });
-          const card = btn.closest('.watch-card');
-          card.remove();
-          if (!watchlistContent.querySelector('.watch-card')) {
-            watchlistContent.innerHTML = '<p class="empty-state">You\'re not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>';
+          // Unwatch
+          const unwatchBtn = e.target.closest('.unwatch-btn');
+          if (unwatchBtn) {
+            const entryId = unwatchBtn.dataset.entryId;
+            await fetch('/api/watchlist/' + entryId, { method: 'DELETE' });
+            unwatchBtn.closest('.watch-card').remove();
+            if (!watchlistContent.querySelector('.watch-card')) {
+              watchlistContent.innerHTML = '<p class="empty-state">You\'re not watching any models yet. <a href="/listings">Browse our collection</a> to get started.</p>';
+            }
+            return;
+          }
+
+          // Edit button
+          const editBtn = e.target.closest('.watch-edit-btn');
+          if (editBtn) {
+            const entryId = editBtn.dataset.entryId;
+            const entry = _dashWatchData.find(w => String(w.id) === String(entryId));
+            if (!entry) return;
+            const panel = document.getElementById('dashEdit' + entryId);
+            if (panel.style.display !== 'none') {
+              panel.style.display = 'none';
+              return;
+            }
+            // Build simple edit form
+            const f = entry.filters || {};
+            let html = '';
+            html += '<div class="dash-edit-row"><label>Year min</label><input type="number" class="de-yearMin" value="' + (f.yearMin || '') + '"></div>';
+            html += '<div class="dash-edit-row"><label>Year max</label><input type="number" class="de-yearMax" value="' + (f.yearMax || '') + '"></div>';
+            html += '<div class="dash-edit-row"><label>Generation</label><input type="text" class="de-generation" value="' + (f.generation || '') + '" placeholder="e.g. E46"></div>';
+            html += '<div class="dash-edit-row"><label>Variant</label><input type="text" class="de-variant" value="' + (f.variant || '') + '" placeholder="e.g. Speciale"></div>';
+            html += '<div class="dash-edit-row"><label>Gearbox</label><input type="text" class="de-transmission" value="' + (f.transmission || '') + '" placeholder="e.g. Manual"></div>';
+            html += '<div class="dash-edit-row"><label>Body</label><input type="text" class="de-bodyType" value="' + (f.bodyType || '') + '" placeholder="e.g. coupe"></div>';
+            html += '<div class="dash-edit-actions"><button class="dash-edit-save" data-entry-id="' + entryId + '">Save</button><button class="dash-edit-cancel" data-entry-id="' + entryId + '">Cancel</button></div>';
+            panel.innerHTML = html;
+            panel.style.display = 'block';
+            return;
+          }
+
+          // Edit save
+          const saveBtn = e.target.closest('.dash-edit-save');
+          if (saveBtn) {
+            const entryId = saveBtn.dataset.entryId;
+            const panel = document.getElementById('dashEdit' + entryId);
+            const newFilters = {};
+            const ym = panel.querySelector('.de-yearMin').value;
+            const yx = panel.querySelector('.de-yearMax').value;
+            if (ym) newFilters.yearMin = parseInt(ym);
+            if (yx) newFilters.yearMax = parseInt(yx);
+            const gen = panel.querySelector('.de-generation').value.trim();
+            if (gen) newFilters.generation = gen;
+            const variant = panel.querySelector('.de-variant').value.trim();
+            if (variant) newFilters.variant = variant;
+            const trans = panel.querySelector('.de-transmission').value.trim();
+            if (trans) newFilters.transmission = trans;
+            const body = panel.querySelector('.de-bodyType').value.trim();
+            if (body) newFilters.bodyType = body;
+
+            const filtersToSend = Object.keys(newFilters).length > 0 ? newFilters : null;
+            const resp = await fetch('/api/watchlist/' + entryId, {
+              method: 'PUT',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ filters: filtersToSend }),
+            });
+            if (resp.ok) {
+              panel.style.display = 'none';
+              // Reload to reflect updated stats and summary
+              loadWatchlist();
+            }
+            return;
+          }
+
+          // Edit cancel
+          const cancelBtn = e.target.closest('.dash-edit-cancel');
+          if (cancelBtn) {
+            document.getElementById('dashEdit' + cancelBtn.dataset.entryId).style.display = 'none';
+            return;
           }
         });
       } catch (err) {

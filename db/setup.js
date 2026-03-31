@@ -58,11 +58,12 @@ async function setup() {
       id                  INT AUTO_INCREMENT PRIMARY KEY,
       user_id             VARCHAR(36) NOT NULL,
       model_slug          VARCHAR(100) NOT NULL,
+      filters             JSON NULL,
       notify_new_listings BOOLEAN DEFAULT TRUE,
       notify_price_drops  BOOLEAN DEFAULT TRUE,
       created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-      UNIQUE KEY unique_user_model (user_id, model_slug),
       INDEX idx_user (user_id),
+      INDEX idx_user_slug (user_id, model_slug),
       INDEX idx_slug (model_slug)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
   `);

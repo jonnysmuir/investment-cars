@@ -505,20 +505,66 @@
     }
 
     /* Watch & Save */
+    .watch-area { margin-top: 0.75rem; }
+
     .watch-btn {
       display: inline-flex; align-items: center; gap: 0.5rem;
-      margin-top: 0.75rem; padding: 0.5rem 1.1rem;
+      padding: 0.5rem 1.1rem;
       background: transparent; border: 1px solid rgba(255,255,255,0.4);
       border-radius: 6px; color: rgba(255,255,255,0.85);
       font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em;
       text-transform: uppercase; cursor: pointer; transition: all 0.2s;
     }
     .watch-btn:hover { border-color: var(--color-accent); color: var(--color-accent); }
-    .watch-btn.watching {
-      background: var(--color-accent); border-color: var(--color-accent);
-      color: #000;
-    }
     .watch-btn svg { width: 16px; height: 16px; }
+
+    .watch-entries { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+    .watch-entry {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.3rem 0.6rem; background: rgba(201,168,76,0.15);
+      border: 1px solid rgba(201,168,76,0.3); border-radius: 20px;
+      font-size: 0.72rem; color: var(--color-accent);
+    }
+    .watch-entry-text { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .watch-entry-edit, .watch-entry-remove {
+      background: none; border: none; cursor: pointer; padding: 0; line-height: 1;
+      font-size: 0.8rem; color: rgba(255,255,255,0.5); transition: color 0.2s;
+    }
+    .watch-entry-edit:hover { color: var(--color-accent); }
+    .watch-entry-remove:hover { color: #ff6b7a; }
+
+    .watch-confirm {
+      font-size: 0.75rem; color: var(--color-accent); margin-top: 0.4rem;
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .watch-confirm.visible { opacity: 1; }
+
+    .watch-edit-panel {
+      margin-top: 0.5rem; padding: 0.75rem; background: rgba(0,0,0,0.6);
+      border: 1px solid var(--color-border); border-radius: 8px;
+      backdrop-filter: blur(8px);
+    }
+    .watch-edit-row {
+      display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;
+      font-size: 0.75rem; color: rgba(255,255,255,0.7);
+    }
+    .watch-edit-row label { min-width: 70px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .watch-edit-row select, .watch-edit-row input {
+      padding: 0.3rem 0.5rem; border: 1px solid var(--color-border);
+      border-radius: 4px; background: var(--color-bg); color: var(--color-text);
+      font-size: 0.75rem; outline: none;
+    }
+    .watch-edit-row select:focus, .watch-edit-row input:focus { border-color: var(--color-accent); }
+    .watch-edit-row input[type="number"] { width: 70px; }
+    .watch-edit-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+    .watch-edit-save, .watch-edit-cancel {
+      padding: 0.3rem 0.75rem; border-radius: 4px; font-size: 0.75rem;
+      font-weight: 600; cursor: pointer; border: none;
+    }
+    .watch-edit-save { background: var(--color-accent); color: #000; }
+    .watch-edit-save:hover { opacity: 0.9; }
+    .watch-edit-cancel { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); }
+    .watch-edit-cancel:hover { border-color: var(--color-text-muted); }
 
     .save-btn {
       position: absolute; top: 0.6rem; right: 0.6rem; z-index: 5;
@@ -766,15 +812,20 @@
     </div>
   </nav>
 
-  <section class="hero-banner" id="heroBanner">
+  <section class="hero-banner" id="heroBanner" data-generations='[]'>
     <img id="heroImage" src="" alt="Porsche Boxster" style="opacity: 0;">
     <div class="hero-overlay">
       <h1 class="hero-model-name">Porsche Boxster</h1>
       <p class="hero-model-years">1996 — present &middot; 2.5 — 4.0L Flat-6 / Flat-4 &middot; 204 — 394 BHP</p>
-      <button class="watch-btn" id="watchBtn" style="display:none" aria-label="Watch this model">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-        <span id="watchBtnText">Watch This Model</span>
-      </button>
+      <div class="watch-area" id="watchArea" style="display:none">
+        <button class="watch-btn" id="watchBtn" aria-label="Watch this model">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <span id="watchBtnText">Watch This Model</span>
+        </button>
+        <div class="watch-entries" id="watchEntries"></div>
+        <div class="watch-confirm" id="watchConfirm"></div>
+        <div class="watch-edit-panel" id="watchEditPanel" style="display:none"></div>
+      </div>
     </div>
     <span class="hero-credit" id="heroCredit"></span>
   </section>
@@ -1377,12 +1428,25 @@
   <script>
     // ── Watch & Save state ─────────────────────────────────────────────────
     const MODEL_SLUG = window.location.pathname.replace(/^\/cars\//, '').replace(/\/$/, '');
+    const watchArea = document.getElementById('watchArea');
     const watchBtn = document.getElementById('watchBtn');
     const watchBtnText = document.getElementById('watchBtnText');
-    let _isWatching = false;
-    let _savedMap = new Map(); // listing_id → favourite row id
+    const watchEntriesEl = document.getElementById('watchEntries');
+    const watchConfirm = document.getElementById('watchConfirm');
+    const watchEditPanel = document.getElementById('watchEditPanel');
+
+    // Parse generation data from hero-banner data attribute
+    const _generationsData = (() => {
+      try {
+        return JSON.parse(document.getElementById('heroBanner').dataset.generations || '[]');
+      } catch { return []; }
+    })();
+
+    let _watchEntries = []; // Array of watchlist rows for this model
+    let _savedMap = new Map(); // listing_id -> favourite row id
     let _currentUser = null;
     let _allListingsData = []; // populated after listings load
+    let _editingEntryId = null; // ID of entry currently being edited
 
     function authGuard() {
       if (_currentUser) return true;
@@ -1390,34 +1454,308 @@
       return false;
     }
 
-    function setWatchState(watching) {
-      _isWatching = watching;
-      watchBtn.classList.toggle('watching', watching);
-      watchBtnText.textContent = watching ? 'Watching' : 'Watch This Model';
-    }
-
     function setSaveState(listingId, saved) {
       const btns = document.querySelectorAll(`.save-btn[data-id="${listingId}"]`);
       btns.forEach(btn => btn.classList.toggle('saved', saved));
     }
 
-    // Watch button click
+    // Build filter summary string from a filters object (client-side version)
+    function clientFilterSummary(f) {
+      if (!f || Object.keys(f).length === 0) return 'All variants';
+      const parts = [];
+      if (f.yearMin && f.yearMax) parts.push(f.yearMin + '\u2013' + f.yearMax);
+      else if (f.yearMin) parts.push(f.yearMin + '+');
+      else if (f.yearMax) parts.push('Up to ' + f.yearMax);
+      if (f.generation) parts.push(f.generation);
+      if (f.variant) parts.push(f.variant);
+      if (f.transmission) parts.push(f.transmission);
+      if (f.bodyType) {
+        const bt = f.bodyType;
+        parts.push(bt.charAt(0).toUpperCase() + bt.slice(1));
+      }
+      if (f.source) parts.push(f.source);
+      return parts.length > 0 ? parts.join(' \u00b7 ') : 'All variants';
+    }
+
+    // Get current page filters as a watch filter object
+    function captureCurrentFilters() {
+      const f = {};
+      // Year range from selected year pills
+      if (typeof filters !== 'undefined' && filters.year && filters.year.length > 0) {
+        const sorted = [...filters.year].sort((a, b) => a - b);
+        f.yearMin = sorted[0];
+        f.yearMax = sorted[sorted.length - 1];
+      }
+      if (typeof filters !== 'undefined') {
+        if (filters.body) f.bodyType = filters.body;
+        if (filters.variant) {
+          // Convert variant key to label using FILTER_CONFIG
+          const cfg = typeof FILTER_CONFIG !== 'undefined' ? FILTER_CONFIG.variant : null;
+          f.variant = cfg && cfg.labels && cfg.labels[filters.variant]
+            ? cfg.labels[filters.variant]
+            : filters.variant;
+        }
+        if (filters.transmission) {
+          const cfg = typeof FILTER_CONFIG !== 'undefined' ? FILTER_CONFIG.transmission : null;
+          f.transmission = cfg && cfg.labels && cfg.labels[filters.transmission]
+            ? cfg.labels[filters.transmission]
+            : filters.transmission;
+        }
+        if (filters.source) f.source = filters.source;
+      }
+      // Clean out empty values
+      for (const k of Object.keys(f)) {
+        if (f[k] === null || f[k] === undefined || f[k] === '') delete f[k];
+      }
+      return Object.keys(f).length > 0 ? f : null;
+    }
+
+    // Check if a filters object matches any existing watch entry
+    function findMatchingEntry(f) {
+      for (const entry of _watchEntries) {
+        if (filtersMatchClient(entry.filters, f)) return entry;
+      }
+      return null;
+    }
+
+    function filtersMatchClient(a, b) {
+      const na = a && Object.keys(a).length > 0 ? a : null;
+      const nb = b && Object.keys(b).length > 0 ? b : null;
+      if (na === null && nb === null) return true;
+      if (na === null || nb === null) return false;
+      const keysA = Object.keys(na).sort();
+      const keysB = Object.keys(nb).sort();
+      if (keysA.length !== keysB.length) return false;
+      for (let i = 0; i < keysA.length; i++) {
+        if (keysA[i] !== keysB[i]) return false;
+        if (String(na[keysA[i]]) !== String(nb[keysB[i]])) return false;
+      }
+      return true;
+    }
+
+    // Show brief confirmation message
+    function showWatchConfirm(msg) {
+      watchConfirm.textContent = msg;
+      watchConfirm.classList.add('visible');
+      setTimeout(() => watchConfirm.classList.remove('visible'), 3000);
+    }
+
+    // Render watch entry chips
+    function renderWatchEntries() {
+      if (_watchEntries.length === 0) {
+        watchEntriesEl.innerHTML = '';
+        return;
+      }
+      watchEntriesEl.innerHTML = _watchEntries.map(e => {
+        const summary = e.filterSummary || clientFilterSummary(e.filters);
+        return `<span class="watch-entry" data-entry-id="${e.id}">
+          <span class="watch-entry-text" title="${summary}">${summary}</span>
+          <button class="watch-entry-edit" title="Edit filters">&#9998;</button>
+          <button class="watch-entry-remove" title="Unwatch">&times;</button>
+        </span>`;
+      }).join('');
+    }
+
+    // Build edit panel for a given entry (or new)
+    function buildEditPanel(entryFilters) {
+      const f = entryFilters || {};
+      // Collect available values from listings
+      const years = new Set(), bodies = new Set(), variants = new Set(), transmissions = new Set(), sources = new Set();
+      for (const l of _allListingsData) {
+        if (l.year) years.add(l.year);
+        const bk = (l.bodyType || '').toLowerCase();
+        if (bk) bodies.add(bk);
+        if (typeof getTransmissionGroup !== 'undefined') {
+          const tg = getTransmissionGroup(l.transmission);
+          if (tg) transmissions.add(tg);
+        }
+        if (typeof getVariant !== 'undefined') {
+          const vg = getVariant(l.title);
+          if (vg) variants.add(vg);
+        }
+        for (const s of (l.sources || [])) {
+          if (s.name) sources.add(s.name);
+        }
+      }
+
+      const sortedYears = [...years].sort((a, b) => a - b);
+      const cfg = typeof FILTER_CONFIG !== 'undefined' ? FILTER_CONFIG : {};
+
+      let html = '';
+      // Year range
+      if (sortedYears.length > 1) {
+        html += `<div class="watch-edit-row"><label>Year</label>
+          <input type="number" id="weYearMin" placeholder="Min" value="${f.yearMin || ''}" min="${sortedYears[0]}" max="${sortedYears[sortedYears.length-1]}">
+          <span style="color:var(--color-text-muted)">–</span>
+          <input type="number" id="weYearMax" placeholder="Max" value="${f.yearMax || ''}" min="${sortedYears[0]}" max="${sortedYears[sortedYears.length-1]}">
+        </div>`;
+      }
+
+      // Generation (only if model has generations)
+      if (_generationsData.length > 0) {
+        const opts = _generationsData.map(g =>
+          `<option value="${g.name}" ${f.generation === g.name ? 'selected' : ''}>${g.name}</option>`
+        ).join('');
+        html += `<div class="watch-edit-row"><label>Generation</label>
+          <select id="weGeneration"><option value="">Any</option>${opts}</select></div>`;
+      }
+
+      // Variant
+      if (variants.size > 1) {
+        const varLabels = cfg.variant ? cfg.variant.labels : {};
+        const opts = [...variants].map(v => {
+          const label = varLabels[v] || v;
+          return `<option value="${label}" ${f.variant === label ? 'selected' : ''}>${label}</option>`;
+        }).join('');
+        html += `<div class="watch-edit-row"><label>Variant</label>
+          <select id="weVariant"><option value="">Any</option>${opts}</select></div>`;
+      }
+
+      // Transmission
+      if (transmissions.size > 1) {
+        const transLabels = cfg.transmission ? cfg.transmission.labels : {};
+        const opts = [...transmissions].map(t => {
+          const label = transLabels[t] || t;
+          return `<option value="${label}" ${f.transmission === label ? 'selected' : ''}>${label}</option>`;
+        }).join('');
+        html += `<div class="watch-edit-row"><label>Gearbox</label>
+          <select id="weTransmission"><option value="">Any</option>${opts}</select></div>`;
+      }
+
+      // Body type
+      if (bodies.size > 1) {
+        const bodyLabels = cfg.body ? cfg.body.labels : {};
+        const opts = [...bodies].map(b => {
+          const label = bodyLabels[b] || (b.charAt(0).toUpperCase() + b.slice(1));
+          return `<option value="${b}" ${f.bodyType === b ? 'selected' : ''}>${label}</option>`;
+        }).join('');
+        html += `<div class="watch-edit-row"><label>Body</label>
+          <select id="weBodyType"><option value="">Any</option>${opts}</select></div>`;
+      }
+
+      html += `<div class="watch-edit-actions">
+        <button class="watch-edit-save" id="weEditSave">Save</button>
+        <button class="watch-edit-cancel" id="weEditCancel">Cancel</button>
+      </div>`;
+
+      watchEditPanel.innerHTML = html;
+      watchEditPanel.style.display = 'block';
+    }
+
+    function readEditPanel() {
+      const f = {};
+      const yearMin = document.getElementById('weYearMin');
+      const yearMax = document.getElementById('weYearMax');
+      const gen = document.getElementById('weGeneration');
+      const variant = document.getElementById('weVariant');
+      const trans = document.getElementById('weTransmission');
+      const body = document.getElementById('weBodyType');
+      if (yearMin && yearMin.value) f.yearMin = parseInt(yearMin.value);
+      if (yearMax && yearMax.value) f.yearMax = parseInt(yearMax.value);
+      if (gen && gen.value) f.generation = gen.value;
+      if (variant && variant.value) f.variant = variant.value;
+      if (trans && trans.value) f.transmission = trans.value;
+      if (body && body.value) f.bodyType = body.value;
+      return Object.keys(f).length > 0 ? f : null;
+    }
+
+    function closeEditPanel() {
+      watchEditPanel.style.display = 'none';
+      watchEditPanel.innerHTML = '';
+      _editingEntryId = null;
+    }
+
+    // Watch button click — add new watch with current page filters
     watchBtn.addEventListener('click', async () => {
       if (!authGuard()) return;
+      const currentFilters = captureCurrentFilters();
+
+      // Check if already watching this exact filter set
+      const existing = findMatchingEntry(currentFilters);
+      if (existing) {
+        showWatchConfirm('Already watching this configuration');
+        return;
+      }
+
       try {
-        if (_isWatching) {
-          await fetch(`/api/watchlist/${MODEL_SLUG}`, { method: 'DELETE' });
-          setWatchState(false);
-        } else {
-          await fetch('/api/watchlist', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ slug: MODEL_SLUG }),
-          });
-          setWatchState(true);
+        const resp = await fetch('/api/watchlist', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ slug: MODEL_SLUG, filters: currentFilters }),
+        });
+        const data = await resp.json();
+        if (resp.status === 409) {
+          showWatchConfirm('Already watching this configuration');
+          return;
+        }
+        if (data.success) {
+          const summary = data.filterSummary || clientFilterSummary(currentFilters);
+          _watchEntries.push({ id: data.id, filters: currentFilters, filterSummary: summary });
+          renderWatchEntries();
+          const displayName = document.querySelector('.hero-model-name')?.textContent || '';
+          showWatchConfirm('Watching ' + displayName + (summary !== 'All variants' ? ' \u00b7 ' + summary : ''));
         }
       } catch (err) {
-        console.error('Watch toggle failed:', err);
+        console.error('Watch failed:', err);
+      }
+    });
+
+    // Watch entry chip event delegation
+    watchEntriesEl.addEventListener('click', async (e) => {
+      const chip = e.target.closest('.watch-entry');
+      if (!chip) return;
+      const entryId = chip.dataset.entryId;
+
+      // Remove button
+      if (e.target.closest('.watch-entry-remove')) {
+        try {
+          await fetch(`/api/watchlist/${entryId}`, { method: 'DELETE' });
+          _watchEntries = _watchEntries.filter(w => String(w.id) !== String(entryId));
+          renderWatchEntries();
+        } catch (err) {
+          console.error('Unwatch failed:', err);
+        }
+        return;
+      }
+
+      // Edit button
+      if (e.target.closest('.watch-entry-edit')) {
+        const entry = _watchEntries.find(w => String(w.id) === String(entryId));
+        if (!entry) return;
+        _editingEntryId = entryId;
+        buildEditPanel(entry.filters || {});
+        return;
+      }
+    });
+
+    // Edit panel event delegation
+    watchEditPanel.addEventListener('click', async (e) => {
+      if (e.target.id === 'weEditCancel') {
+        closeEditPanel();
+        return;
+      }
+      if (e.target.id === 'weEditSave' && _editingEntryId) {
+        const newFilters = readEditPanel();
+        try {
+          const resp = await fetch(`/api/watchlist/${_editingEntryId}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ filters: newFilters }),
+          });
+          const data = await resp.json();
+          if (data.success) {
+            const entry = _watchEntries.find(w => String(w.id) === String(_editingEntryId));
+            if (entry) {
+              entry.filters = newFilters;
+              entry.filterSummary = data.filterSummary || clientFilterSummary(newFilters);
+            }
+            renderWatchEntries();
+            closeEditPanel();
+          }
+        } catch (err) {
+          console.error('Edit watch failed:', err);
+        }
+        return;
       }
     });
 
@@ -1436,8 +1774,6 @@
           _savedMap.delete(listingId);
           setSaveState(listingId, false);
         } else {
-          // Find the listing data to send
-          const card = btn.closest('.listing-card');
           const listing = _allListingsData.find(l => String(l.id) === String(listingId));
           const primary = listing && listing.sources && listing.sources[0];
 
@@ -1465,20 +1801,17 @@
     // Load user state after auth.js initialises
     async function loadUserState() {
       _currentUser = await getCurrentUser();
-      if (!_currentUser) {
-        watchBtn.style.display = 'inline-flex';
-        return;
-      }
+      watchArea.style.display = 'block';
 
-      watchBtn.style.display = 'inline-flex';
+      if (!_currentUser) return;
 
       try {
-        // Check watchlist
+        // Check watchlist entries for this model
         const wRes = await fetch('/api/watchlist');
         if (wRes.ok) {
           const { watchlist } = await wRes.json();
-          const match = watchlist.find(w => w.model_slug === MODEL_SLUG);
-          if (match) setWatchState(true);
+          _watchEntries = watchlist.filter(w => w.model_slug === MODEL_SLUG);
+          renderWatchEntries();
         }
 
         // Check favourites for this model
@@ -1495,10 +1828,8 @@
       }
     }
 
-    // Wait for DOM to be ready and listings to load, then check user state
-    // The allClassified variable is set by loadListings() in the main script above
+    // Wait for listings to load, then check user state
     function waitForListingsAndLoadState() {
-      // Use a short polling check since loadListings is async
       const check = setInterval(() => {
         if (typeof allClassified !== 'undefined') {
           clearInterval(check);
@@ -1506,7 +1837,6 @@
           loadUserState();
         }
       }, 100);
-      // Fallback: load user state even if listings haven't loaded after 3s
       setTimeout(() => { clearInterval(check); loadUserState(); }, 3000);
     }
     waitForListingsAndLoadState();

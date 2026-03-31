@@ -144,6 +144,16 @@ function generateListingPage(m) {
     );
   }
 
+  // B2. Generation data attribute on hero-banner
+  const generationsJson = m.generations
+    ? JSON.stringify(m.generations.map(g => ({ name: g.name, years: g.years, patterns: g.patterns })))
+        .replace(/&/g, '&amp;').replace(/'/g, '&#39;')
+    : '[]';
+  html = html.replace(
+    /data-generations="[^"]*"/,
+    `data-generations='${generationsJson}'`
+  );
+
   // C. Analysis link
   html = html.replace(
     /href="\/analysis\/ferrari-458"/,
