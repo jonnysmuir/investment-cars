@@ -1230,7 +1230,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a836047ade7a47a9b1e158d2875be999.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1243,7 +1243,8 @@
           "date": "2026-03-21"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "63",
@@ -1389,6 +1390,46 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240958702"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "2005 Ferrari 612 Scaglietti",
+      "price": "Sold",
+      "year": 2005,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086168/19-03-26KR1-1.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "sold",
+      "soldPrice": "€80,500",
+      "soldDate": "2026-03-30",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2005-ferrari-612-scaglietti-28"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2007 Ferrari 612 SCAGLIETTI F1 612 5.7 Scaglietti F1 2dr BEIGE LEATHER + SPLIT RIM ALLOYS",
+      "price": "£49,999",
+      "year": 2007,
+      "mileage": "51,052 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/206c1c5b457c481bb1f6b6ac76d643d4.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602270267972"
         }
       ]
     }

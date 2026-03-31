@@ -723,7 +723,7 @@
     {
       "id": "37",
       "title": "2004 Ferrari 360 3.6 Spider 2dr Petrol F1 DCT (440 g/km, 400 bhp)",
-      "price": "£64,995",
+      "price": "£69,995",
       "year": 2004,
       "mileage": "30,000 miles",
       "transmission": "Automatic",
@@ -741,7 +741,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202509186440879"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£64,995",
+          "date": "2026-03-31"
+        }
+      ]
     },
     {
       "id": "38",
@@ -812,7 +818,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/3-6-spider-f1-dct-2dr/ferrari-360-3-6-spider-f1-dct-2dr-1397424523-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -841,7 +847,8 @@
           "date": "2026-03-22"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "42",
@@ -1040,6 +1047,14 @@
         {
           "price": "£67,950",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-03-31"
+        },
+        {
+          "price": "£67,950",
+          "date": "2026-03-31"
         }
       ],
       "bodyType": "Coupe"
@@ -1268,6 +1283,14 @@
         {
           "price": "£61,970",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£59,950",
+          "date": "2026-03-31"
+        },
+        {
+          "price": "£61,970",
+          "date": "2026-03-31"
         }
       ],
       "bodyType": "Coupe"
@@ -1835,13 +1858,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/20ea1e62f9a3405595e097bc723cc8f0.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200867980"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "88",
@@ -1994,6 +2018,48 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038467"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "title": "2004 Ferrari 360 3.6 Challenge Stradale F1 2dr",
+      "price": "£475,000",
+      "year": 2004,
+      "mileage": "1000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-1420952124-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20169338"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301145414"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "title": "2004 Ferrari 360 Challenge Stradale",
+      "price": "POA",
+      "year": "2004",
+      "mileage": "22,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29195463/2004-ferrari-360-69cb0f289988f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6cc165804da528c60b7d1c31b6f3c144",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2039859"
         }
       ]
     }

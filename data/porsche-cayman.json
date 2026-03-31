@@ -824,7 +824,7 @@
     {
       "id": "40",
       "title": "2019 Porsche 718 Cayman 2.0T T PDK Euro 6 (s/s) 2dr",
-      "price": "£36,980",
+      "price": "£36,995",
       "year": 2019,
       "mileage": "55,405 miles",
       "transmission": "Unknown",
@@ -842,6 +842,12 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190052891"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£36,980",
+          "date": "2026-03-31"
+        }
       ]
     },
     {
@@ -850,7 +856,7 @@
       "price": "£82,989",
       "year": 2022,
       "mileage": "N/A",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/4-0-gt4-pdk-euro-6-s-s-2dr/porsche-cayman-718-4-0-gt4-pdk-euro-6-s-s-2dr-1419111854-1.jpg",
       "featured": false,
@@ -1085,13 +1091,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/porsche-cayman-718-1419141646-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20144521"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "54",
@@ -1104,13 +1111,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/porsche-cayman-718-1419004868-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20140728"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "55",
@@ -1705,12 +1713,12 @@
     },
     {
       "id": "86",
-      "title": "2016 Porsche Cayman 2.7 981 PDK Euro 6 (s/s) 2dr",
+      "title": "2016 Porsche Cayman 2.7 981 Coupe 2dr Petrol PDK Euro 6 (s/s) (275 ps)",
       "price": "£30,970",
       "year": 2016,
       "mileage": "43,598 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/0a1c256afb27434a9fff54ac636c6ca9.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -4459,13 +4467,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-gt4/porsche-cayman-cayman-gt4-S4942021-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20010250"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "231",
@@ -4478,13 +4487,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-0t-t-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-0t-t-pdk-euro-6-s-s-2dr-1418960029-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20136069"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "232",
@@ -4497,13 +4507,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-5t-s-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-5t-s-pdk-euro-6-s-s-2dr-1419848119-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20059828"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "233",
@@ -4516,13 +4527,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-0t-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-0t-pdk-euro-6-s-s-2dr-1420288789-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19996669"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "234",
@@ -4659,10 +4671,10 @@
     },
     {
       "id": "241",
-      "title": "2019 Used  PORSCHE CAYMAN",
+      "title": "2019 Porsche 718 Cayman 2.0T T Euro 6 (s/s) 2dr",
       "price": "£39,499",
       "year": 2019,
-      "mileage": "N/A",
+      "mileage": "51,372 miles",
       "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-5t-s-gpf-coupe-2dr-petrol-pdk-euro-6-s-s--350-ps/porsche-cayman-718-2-5t-s-gpf-coupe-2dr-petrol-pdk-euro-6-s-s--350-ps-1409006121-1.jpg",
@@ -4673,6 +4685,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19961589"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602139899720"
         }
       ]
     },
@@ -4698,7 +4714,7 @@
     {
       "id": "243",
       "title": "2020 Porsche 718 Cayman 2.0T PDK Euro 6 (s/s) 2dr",
-      "price": "£40,648",
+      "price": "£40,797",
       "year": 2020,
       "mileage": "28,642 miles",
       "transmission": "Unknown",
@@ -4715,6 +4731,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200094577"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£40,648",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -4797,7 +4819,7 @@
     {
       "id": "248",
       "title": "2024 Used  PORSCHE CAYMAN",
-      "price": "£49,880",
+      "price": "£49,780",
       "year": 2024,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -4810,6 +4832,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19971018"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£49,880",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -4834,12 +4862,12 @@
     },
     {
       "id": "250",
-      "title": "2009 Porsche Cayman 2.9 987 2dr",
+      "title": "2009 Porsche Cayman 2.9 987 Coupe 2dr Petrol Manual (221 g/km, 265 bhp)",
       "price": "£19,995",
       "year": 2009,
       "mileage": "65,000 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/1803dd331748429a9c30d0377d72038b.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -4853,12 +4881,12 @@
     },
     {
       "id": "251",
-      "title": "2007 Porsche Cayman 3.4 987 S 2dr",
+      "title": "2007 Porsche Cayman 3.4 987 S Coupe 2dr Petrol Manual (254 g/km, 295 bhp)",
       "price": "£10,500",
       "year": 2007,
       "mileage": "106,000 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/8a4cb845eeed4db8b1100e8d81b5c78b.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -4924,6 +4952,120 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291113239"
+        }
+      ]
+    },
+    {
+      "id": "255",
+      "title": "2021 Used  PORSCHE 718 CAYMAN GT4 S-A",
+      "price": "£74,995",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-gt4-pdk/porsche-cayman-cayman-gt4-pdk-S4942020-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19112135"
+        }
+      ]
+    },
+    {
+      "id": "256",
+      "title": "2024 Used  PORSCHE 718 CAYMAN GT4 RS S-A",
+      "price": "£133,950",
+      "year": 2024,
+      "mileage": "3199 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/4-0-gt4-rs-pdk-euro-6-s-s-2dr/porsche-cayman-718-4-0-gt4-rs-pdk-euro-6-s-s-2dr-1421081269-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20171256"
+        }
+      ]
+    },
+    {
+      "id": "257",
+      "title": "2009 Porsche Cayman 2.7 987 Coupe 2dr Petrol Tiptronic S (242 g/km, 245 bhp)",
+      "price": "£13,999",
+      "year": 2009,
+      "mileage": "77,149 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b21214335e58445784059bd5e997a2f9.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281103064"
+        }
+      ]
+    },
+    {
+      "id": "258",
+      "title": "2024 Porsche 718 Cayman 2.5T S Euro 6 (s/s) 2dr",
+      "price": "£69,900",
+      "year": 2024,
+      "mileage": "1,307 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/56b92418a1134711a8c7d35f1b66d03b.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603180812255"
+        }
+      ]
+    },
+    {
+      "id": "259",
+      "title": "2017 Porsche 718 Cayman 2.5T S Euro 6 (s/s) 2dr",
+      "price": "£33,989",
+      "year": 2017,
+      "mileage": "35,870 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d2c15b5531dc4274afe21184db559572.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603010311092"
+        }
+      ]
+    },
+    {
+      "id": "260",
+      "title": "2023 Porsche Cayman GTS 718",
+      "price": "£68,995",
+      "year": "2023",
+      "mileage": "13,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29202286/2023-porsche-718-cayman-69cb833be9975.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=78ec704c2addce747e86f6633bb16df6",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2039964"
         }
       ]
     }

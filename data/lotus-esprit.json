@@ -1044,13 +1044,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1963716/1987-lotus-esprit-68fb9cba66b37.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=dbc4be678bf1fc50dc608b60fbe8bec3",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1963716"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "53",
@@ -1277,6 +1278,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1922668"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "1988 Lotus Esprit Turbo HC, 1987. Last owner 21 years. One of 135",
+      "price": "£69,995",
+      "year": "1988",
+      "mileage": "60,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1837174/1988-lotus-esprit-67accdf756b10.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9ce8a51cd3df9e9f6fd1253e26ab34d5",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1837174"
         }
       ]
     }

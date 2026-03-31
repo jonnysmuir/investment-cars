@@ -271,7 +271,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/8-series/m8-competition-2dr-step-auto/bmw-8-series-m8-competition-2dr-step-auto-1409640868-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -291,7 +291,8 @@
           "price": "£49,599",
           "date": "2026-03-18"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "12",
@@ -607,7 +608,7 @@
     {
       "id": "23",
       "title": "2021 BMW 8 SERIES 4.4 M8 Competition Edition Auto 4WD 2dr",
-      "price": "£64,000",
+      "price": "£66,990",
       "year": 2021,
       "mileage": "26,000 miles",
       "transmission": "Automatic",
@@ -641,6 +642,10 @@
         {
           "price": "£66,990",
           "date": "2026-03-27"
+        },
+        {
+          "price": "£64,000",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -694,7 +699,7 @@
     {
       "id": "26",
       "title": "2022 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£74,759",
+      "price": "£73,999",
       "year": 2022,
       "mileage": "10,889 miles",
       "transmission": "Unknown",
@@ -712,8 +717,13 @@
         {
           "price": "£76,999",
           "date": "2026-03-19"
+        },
+        {
+          "price": "£74,759",
+          "date": "2026-03-31"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "27",
@@ -1157,13 +1167,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/80f969b079194e7a8a3140133bcb4287.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602139892628"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "44",
@@ -1218,13 +1229,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d337f352caaf4fd79c7b1419b83ad921.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601269436103"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "47",
@@ -1317,10 +1329,10 @@
     },
     {
       "id": "51",
-      "title": "2022 Used  BMW M8 COMPETITION AUTO",
+      "title": "2022 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
       "price": "£66,950",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "23,000 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m8/m8-competition-2dr-dct/bmw-m8-m8-competition-2dr-dct-1413552193-1.jpg",
       "featured": false,
@@ -1330,6 +1342,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20054911"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202509096193724"
         }
       ],
       "priceHistory": [
@@ -1424,12 +1440,12 @@
     },
     {
       "id": "56",
-      "title": "2019 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
+      "title": "2019 BMW M8 4.4i V8 Competition Coupe 2dr Petrol Steptronic 4WD Euro 6 (s/s) (625 ps)",
       "price": "£42,995",
       "year": 2019,
       "mileage": "75,000 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/bc7872c648684316a22e98b65671b70d.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
@@ -1448,7 +1464,7 @@
       "year": 2025,
       "mileage": "1,960 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/b5286288a5be4088be8006e1c17cfa9d.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",

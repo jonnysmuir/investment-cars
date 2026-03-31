@@ -894,7 +894,7 @@
     {
       "id": "43",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£24,999",
+      "price": "£25,995",
       "year": 2018,
       "mileage": "52,400 miles",
       "transmission": "F1 Automated Manual",
@@ -911,6 +911,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603251005834"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£24,999",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -1406,14 +1412,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/26325184/2018-bmw-m2-69287b5f83d50.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=df12bf40fae1da5468fdbd66e2eec574",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1979871"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "68",
@@ -2998,7 +3003,7 @@
     {
       "id": "148",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£31,000",
+      "price": "£30,990",
       "year": 2018,
       "mileage": "48,500 miles",
       "transmission": "F1 Automated Manual",
@@ -3015,6 +3020,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20118792"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£31,000",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -4065,12 +4076,12 @@
     },
     {
       "id": "204",
-      "title": "2019 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "title": "2019 BMW M2 3.0 BiTurbo GPF Competition Coupe 2dr Petrol DCT Euro 6 (s/s) (410 ps)",
       "price": "£32,950",
       "year": 2019,
       "mileage": "45,095 miles",
       "transmission": "F1 Automated Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/d3744a08bd8c45eb99fa1654b2448329.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -5086,6 +5097,101 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19877467"
+        }
+      ]
+    },
+    {
+      "id": "258",
+      "title": "2019 BMW M2 3.0 BiTurbo Competition Coupe 2dr Petrol DCT Euro 6 (s/s) (410 ps) FULL TRACK BUILD SPEC",
+      "price": "£44,995",
+      "year": 2019,
+      "mileage": "28,182 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/0e18807f4abe40a89455d43806edcbda.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281091725"
+        }
+      ]
+    },
+    {
+      "id": "259",
+      "title": "2020 BMW M2 3.0 BiTurbo GPF Competition Coupe 2dr Petrol DCT Euro 6 (s/s) (410 ps)",
+      "price": "£27,990",
+      "year": 2020,
+      "mileage": "63,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f0aa699de1f04a049080bf40e878a0df.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301143892"
+        }
+      ]
+    },
+    {
+      "id": "260",
+      "title": "2017 BMW 3.0 M2 Coupe 2dr",
+      "price": "£25,995",
+      "year": 2017,
+      "mileage": "43,122 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/cefbaf543ebb4222aeb1a966b9741879.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271067740"
+        }
+      ]
+    },
+    {
+      "id": "261",
+      "title": "2016 BMW M2 3.0i Coupe 2dr Petrol Manual Euro 6 (s/s) (370 ps)",
+      "price": "£22,995",
+      "year": 2016,
+      "mileage": "52,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7f45d01e75c247e1a74a2e46bd7b8157.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281104602"
+        }
+      ]
+    },
+    {
+      "id": "262",
+      "title": "2018 BMW M2 Coupe 3.0 2dr",
+      "price": "£28,495",
+      "year": 2018,
+      "mileage": "52,854 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/10d93484dea44dccb829eac415fe0edf.jpg",
+      "featured": false,
+      "dateAdded": "2026-03-31",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271066498"
         }
       ]
     }

@@ -71,13 +71,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7369109054d440f6906043b247ed6107.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512098483090"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "5",
@@ -89,13 +90,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7beb7dfcac7d4cb7b2137eec5d768f44.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602109814984"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "6",
@@ -166,13 +168,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/21bbae4ab75548cd9cce1046e50d379c.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050448682"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "10",
@@ -202,7 +205,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e3722714d91e4c8985306eaff8549986.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -212,7 +215,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19731453"
         }
-      ]
+      ],
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "12",
@@ -312,7 +316,7 @@
     {
       "id": "17",
       "title": "2018 Ferrari GTC4Lusso 6.3 V12 F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£175,000",
+      "price": "£169,000",
       "year": 2018,
       "mileage": "29,779 miles",
       "transmission": "F1 Automated Manual",
@@ -342,6 +346,10 @@
         {
           "price": "£169,000",
           "date": "2026-03-28"
+        },
+        {
+          "price": "£175,000",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -561,6 +569,14 @@
         {
           "price": "£179,000",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£184,600",
+          "date": "2026-03-31"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-03-31"
         }
       ]
     },

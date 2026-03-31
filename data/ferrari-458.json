@@ -1113,6 +1113,14 @@
         {
           "price": "£114,995",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£112,000",
+          "date": "2026-03-31"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-03-31"
         }
       ]
     },
@@ -1460,14 +1468,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dd414bb3bb9c49f5a9466af02d1eeb38.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602119841053"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-03-31"
     },
     {
       "id": "66",
