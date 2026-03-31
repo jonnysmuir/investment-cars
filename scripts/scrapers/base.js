@@ -142,12 +142,21 @@ function normaliseTransmission(raw) {
 function normaliseBodyType(raw) {
   if (!raw) return null;
   const s = raw.toLowerCase();
+  // Exceptions first — these are their own body types
   if (/\btarga\b/.test(s)) return 'Targa';
   if (/\bspeedster\b/.test(s)) return 'Speedster';
-  if (/convertible|cabrio(?:let)?|\broadster\b|\bspider\b|\bspyder\b|drop\s*top|open.top|\bvolante\b|\baperta\b|\bbarchetta\b|\bcab\b/i.test(s)) return 'Convertible';
-  if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b/i.test(s)) return 'Coupe';
+  // All convertible-roof types → "Convertible"
+  if (/convertible|cabrio(?:let)?|\broadster\b|\bspider\b|\bspyder\b|drop\s*(?:top|head)|\bopen\s*top\b|\bvolante\b|\baperta\b|\bbarchetta\b|\bcab\b|\bdrophead\b|\bdrop-head\b|\bdcv\b/i.test(s)) return 'Convertible';
+  // Coupe variants (Gran Coupe counts as Coupe)
+  if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b|\bgran\s*coup[eé]\b/i.test(s)) return 'Coupe';
+  // Saloon / Sedan
   if (/\bsaloon\b|\bsedan\b/i.test(s)) return 'Saloon';
-  if (/\bestate\b|\bwagon\b|\bshooting.brake\b/i.test(s)) return 'Estate';
+  // Door-count inference (only when no other body type clue matched)
+  if (/\b4\s*(?:dr|door)\b/i.test(s)) return 'Saloon';
+  if (/\b5\s*(?:dr|door)\b/i.test(s)) return 'Estate';
+  // Estate / Wagon / Touring (BMW-specific: "Touring" means Estate)
+  if (/\bestate\b|\bwagon\b|\bshooting[\s.-]*brake\b|\btouring\b/i.test(s)) return 'Estate';
+  // SUV
   if (/\bsuv\b|\bcrossover\b/i.test(s)) return 'SUV';
   return null;
 }

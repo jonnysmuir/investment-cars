@@ -159,9 +159,10 @@ async function scrapeListing(url, modelConfig) {
     const mileageMatch = specText.match(/([\d,]+)\s*miles/i);
     if (mileageMatch) mileage = `${mileageMatch[1]} miles`;
 
-    // Body type — try spec text, fall back to title
-    const bodyTypeMatch = specText.match(/(?:body\s*(?:type|style))[:\s]*([\w\s-]+?)(?:\n|,|<)/i);
-    const bodyType = normaliseBodyType(bodyTypeMatch ? bodyTypeMatch[1] : title);
+    // Body type — try spec text patterns, fall back to title
+    // PistonHeads shows "Body type" in the spec section; $('body').text() strips HTML
+    const bodyTypeMatch = specText.match(/body\s*(?:type|style)\s*[:\s]\s*([\w\s-]+?)(?:\n|\t|,|Body|Engine|Gearbox|Doors|Colour|Fuel|\d)/i);
+    const bodyType = normaliseBodyType(bodyTypeMatch ? bodyTypeMatch[1].trim() : title);
 
     // Transmission
     let transmission = 'Unknown';

@@ -185,6 +185,14 @@ async function extractSearchPageListings(page, make) {
       // Image
       const img = container.querySelector('img[src*="atcdn"]');
 
+      // Extract body type from spec text (AutoTrader cards show "Coupe", "Convertible" etc.)
+      let bodyType = null;
+      const bodyPatterns = /\b(coupe|coupé|convertible|cabriolet|saloon|sedan|estate|hatchback|suv|roadster|targa|speedster)\b/i;
+      for (const t of texts) {
+        const bm = t.match(bodyPatterns);
+        if (bm) { bodyType = bm[1]; break; }
+      }
+
       const title = titleParts.join(' ').trim();
 
       results.push({
@@ -194,6 +202,7 @@ async function extractSearchPageListings(page, make) {
         year,
         mileage: mileage || 'N/A',
         image: img ? img.src : '',
+        bodyType: bodyType || null,
       });
     }
 
@@ -502,13 +511,15 @@ function buildListing(id, apollo, search, modelConfig) {
     let image = search.image || '';
     if (image) image = image.replace(/\{resize\}/g, 'w640');
 
+    const rawBodyType = search.bodyType || title;
+
     return {
       title,
       price: search.price || 'POA',
       year,
       mileage: search.mileage || 'N/A',
       transmission: normaliseTransmission(search.title),
-      bodyType: normaliseBodyType(title),
+      bodyType: normaliseBodyType(rawBodyType),
       image,
       sourceUrl,
       sourceName: SOURCE_NAME,

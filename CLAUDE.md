@@ -133,13 +133,20 @@ All filtered to GBP/UK market only.
 
 ## Body Type Conventions
 - **`bodyType` is a scraped field** stored on each listing (like mileage and transmission). All 4 scrapers extract it via `normaliseBodyType()` in `base.js`, with structured data preferred and title inference as fallback.
+- **Body type data quality varies by source**:
+  - **AutoTrader Apollo cache** (first ~12 listings per model): Best — `obj.bodyType` field is rich and accurate.
+  - **AutoTrader search pages**: Limited — tries to extract body type from card text, falls back to title. Many AutoTrader titles omit body type (e.g. "2018 BMW M4 3.0 BiTurbo DCT Euro 6 (s/s) 2dr").
+  - **Cars & Classic**: Good — `item.attributes.bodyType` from Inertia.js data, with multiple fallbacks.
+  - **PistonHeads**: Moderate — regex extracts from "Body type: X" spec text on listing pages.
+  - **Collecting Cars**: Title-only — no structured body type data available; falls back to specText then title.
+- **Audit script**: `node scripts/audit-body-types.js` scans all data files and generates `scripts/body-type-audit.md` with body type distribution, null rates, and suspected misclassification per model.
 - **Frontend pages use `l.bodyType` for filtering**, falling back to a page-specific `getBody(title)` function for listings that haven't been re-scraped yet.
 - **Normalised body types**: Coupe, Saloon, Convertible, Estate, Targa, Speedster, SUV.
 - **All convertible-roof cars must use "Convertible"** — including "roadster", "spider", "spyder", "cabriolet", "volante", "drop top", "aperta", "barchetta", "cab". Normalise all of these to "Convertible".
 - **Exceptions — do NOT normalise to Convertible:**
   - **"Targa"** — remains its own body type (partially removable roof, retains roll bar)
   - **"Speedster"** — remains its own body type (distinct low-windscreen open design)
-- **"Touring" is ambiguous** — means "Estate" for BMW but is a trim package for Porsche (GT3 Touring). The global `normaliseBodyType()` does NOT map "touring" → Estate. Handle it model-specifically (e.g. in BMW M3's `getBody()` function).
+- **"Touring" → Estate** in the global `normaliseBodyType()`. This is correct for BMW (M3/M5 Touring = Estate) and doesn't conflict with Porsche GT3 Touring since Porsche Touring is a trim, not a body type (the GT3 Touring's title also contains "Coupe" which matches first).
 - **"Estate" in the global normaliser** covers: "estate", "wagon", "shooting brake" (unambiguous terms only).
 - **BMW M3 body inference** uses door count ("2dr" → Coupe, "4dr" → Saloon) and generation codes (E30/E36/E46/E92 → Coupe, E93 → Convertible, E90/F80/G80 → Saloon, E91/F81/G81 → Estate).
 

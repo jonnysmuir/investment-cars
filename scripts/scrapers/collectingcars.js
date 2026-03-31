@@ -164,7 +164,7 @@ async function scrape(sourceConfig, modelConfig) {
         year,
         mileage,
         transmission,
-        bodyType: normaliseBodyType(title),
+        bodyType: normaliseBodyType(specText) || normaliseBodyType(title),
         image,
         sourceUrl: originalUrl,
         sourceName: SOURCE_NAME,
