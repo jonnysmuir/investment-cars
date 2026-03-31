@@ -164,20 +164,26 @@ function normaliseBodyType(raw) {
 }
 
 /**
- * Infer body type using model-specific rules when standard detection fails.
- * Checks: (1) normaliseBodyType from title, (2) model title patterns,
- * (3) generation overrides, (4) model default.
+ * Infer body type using model-specific rules.
+ * Called AFTER scraper structured data (Apollo, Inertia.js) has been tried.
+ * Priority order:
+ *   1. Generation override (e.g. all G29 Z4s → Convertible)
+ *   2. Model-specific title patterns (e.g. "Roadster" → Convertible)
+ *   3. Standard normaliseBodyType on title (generic keywords)
+ *   4. Model default (e.g. M4 → Coupe)
  */
 function inferBodyType(title, modelConfig, generation) {
-  // Step 1: Standard title-based detection (handles spider, cabriolet, coupe, etc.)
-  const fromTitle = normaliseBodyType(title);
-  if (fromTitle) return fromTitle;
-
   const rules = modelConfig?.bodyTypeRules;
-  if (!rules) return null;
+
+  // Step 1: Generation override — highest priority after scraper data
+  // (e.g. every G29 Z4 is a Convertible, every G80 M3 is a Saloon)
+  if (rules?.generationOverrides && generation) {
+    const override = rules.generationOverrides[generation];
+    if (override) return normaliseBodyType(override) || override;
+  }
 
   // Step 2: Model-specific title patterns (more targeted than generic normalise)
-  if (rules.titlePatterns) {
+  if (rules?.titlePatterns) {
     for (const [bodyType, patterns] of Object.entries(rules.titlePatterns)) {
       for (const pattern of patterns) {
         if (new RegExp(`\\b${pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(title)) {
@@ -187,14 +193,12 @@ function inferBodyType(title, modelConfig, generation) {
     }
   }
 
-  // Step 3: Generation override (e.g. all G80 M3s are Saloon)
-  if (rules.generationOverrides && generation) {
-    const override = rules.generationOverrides[generation];
-    if (override) return normaliseBodyType(override) || override;
-  }
+  // Step 3: Standard title-based detection (generic keywords: spider, cabriolet, etc.)
+  const fromTitle = normaliseBodyType(title);
+  if (fromTitle) return fromTitle;
 
-  // Step 4: Model default (e.g. M4 defaults to Coupe)
-  if (rules.defaultBodyType) {
+  // Step 4: Model default (final fallback)
+  if (rules?.defaultBodyType) {
     return normaliseBodyType(rules.defaultBodyType) || rules.defaultBodyType;
   }
 

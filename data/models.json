@@ -1591,18 +1591,11 @@
         }
       },
       "bodyTypeRules": {
-        "defaultBodyType": null,
+        "defaultBodyType": "Coupe",
         "generationOverrides": {
-          "E85": "Convertible",
-          "E86": "Coupe",
-          "E89": "Convertible",
           "G29": "Convertible"
         },
         "titlePatterns": {
-          "Coupe": [
-            "Coupe",
-            "Coupé"
-          ],
           "Convertible": [
             "Convertible",
             "Roadster",
