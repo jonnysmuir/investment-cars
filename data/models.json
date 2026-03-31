@@ -249,8 +249,31 @@
       "heroEngine": "6.0L V12",
       "heroBhp": "510 BHP",
       "generations": [
-        { "name": "Original", "years": [1967, 1972], "patterns": ["DBS6", "DBSV8"] },
-        { "name": "V12", "years": [2007, 2012], "patterns": ["V12"] }
+        {
+          "name": "Original",
+          "years": [
+            1967,
+            1972
+          ],
+          "patterns": [
+            "DBS6",
+            "DBSV8"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/1969_Aston_Martin_DBS_%2823982446654%29.jpg/1920px-1969 Aston Martin DBS (23982446654).jpg",
+          "credit": "Sicnag / CC BY 2.0"
+        },
+        {
+          "name": "V12",
+          "years": [
+            2007,
+            2012
+          ],
+          "patterns": [
+            "V12"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2008_Aston_Martin_DBS_V12_Coupe_%2825819693093%29.jpg/1920px-2008 Aston Martin DBS V12 Coupe (25819693093).jpg",
+          "credit": "Sicnag / CC BY 2.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -359,9 +382,43 @@
       "heroEngine": "4.3L V8 — 4.0L V8 TT",
       "heroBhp": "380 — 656 BHP",
       "generations": [
-        { "name": "V8 Vantage", "years": [2005, 2017], "patterns": ["V8 Vantage", "4\\.3", "4\\.7"] },
-        { "name": "New Vantage", "years": [2018, 2024], "patterns": [] },
-        { "name": "New Vantage II", "years": [2025, 2026], "patterns": ["2025", "2026"] }
+        {
+          "name": "V8 Vantage",
+          "years": [
+            2005,
+            2017
+          ],
+          "patterns": [
+            "V8 Vantage",
+            "4\\.3",
+            "4\\.7"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/ASTON_MARTIN_V8_VANTAGE%282005%29.jpg/1920px-ASTON MARTIN V8 VANTAGE(2005).jpg",
+          "credit": "Kim H Yusuke~commonswiki / CC BY-SA 3.0"
+        },
+        {
+          "name": "New Vantage",
+          "years": [
+            2018,
+            2024
+          ],
+          "patterns": [],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2019_Aston_Martin_Vantage_coupe%2C_front_right_%28Wings-n-Wheels_2023%29.jpg/1920px-2019 Aston Martin Vantage coupe, front right (Wings-n-Wheels 2023).jpg",
+          "credit": "MercurySable99 / CC BY-SA 4.0"
+        },
+        {
+          "name": "New Vantage II",
+          "years": [
+            2025,
+            2026
+          ],
+          "patterns": [
+            "2025",
+            "2026"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Aston_Martin_Vantage_Roadster_%282024%29_Classic-Gala_2025_DSC_0923.jpg/1920px-Aston Martin Vantage Roadster (2024) Classic-Gala 2025 DSC 0923.jpg",
+          "credit": "Alexander-93 / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -394,8 +451,34 @@
       "heroEngine": "4.2L V8 / 5.2L V10",
       "heroBhp": "420 — 620 BHP",
       "generations": [
-        { "name": "Type 42", "years": [2006, 2015], "patterns": ["Type 42", "Mk1", "Gen 1"] },
-        { "name": "Type 4S", "years": [2015, 2024], "patterns": ["Type 4S", "Mk2", "Gen 2"] }
+        {
+          "name": "Type 42",
+          "years": [
+            2006,
+            2015
+          ],
+          "patterns": [
+            "Type 42",
+            "Mk1",
+            "Gen 1"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Audi_R8_GT_Spyder_%28type_42%29_front.jpg/1920px-Audi R8 GT Spyder (type 42) front.jpg",
+          "credit": "Tokumeigakarinoaoshima / CC BY-SA 4.0"
+        },
+        {
+          "name": "Type 4S",
+          "years": [
+            2015,
+            2024
+          ],
+          "patterns": [
+            "Type 4S",
+            "Mk2",
+            "Gen 2"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Audi_R8_V10_Type_4S_Ibis_White_%287%29.jpg/1920px-Audi R8 V10 Type 4S Ibis White (7).jpg",
+          "credit": "Damian B Oh / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -464,9 +547,40 @@
       "heroEngine": "2.5L I5 Turbo",
       "heroBhp": "340 — 400 BHP",
       "generations": [
-        { "name": "8P", "years": [2011, 2012], "patterns": ["8P"] },
-        { "name": "8V", "years": [2015, 2020], "patterns": ["8V"] },
-        { "name": "8Y", "years": [2021, 2026], "patterns": ["8Y"] }
+        {
+          "name": "8P",
+          "years": [
+            2011,
+            2012
+          ],
+          "patterns": [
+            "8P"
+          ]
+        },
+        {
+          "name": "8V",
+          "years": [
+            2015,
+            2020
+          ],
+          "patterns": [
+            "8V"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/VPR_RS3_sedan.jpg/1920px-VPR RS3 sedan.jpg",
+          "credit": "ZoBuyani / CC BY-SA 4.0"
+        },
+        {
+          "name": "8Y",
+          "years": [
+            2021,
+            2026
+          ],
+          "patterns": [
+            "8Y"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Audi_RS3_8Y_Sedan_IMG_6030.jpg/1920px-Audi RS3 8Y Sedan IMG 6030.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -501,10 +615,54 @@
       "heroEngine": "2.7L V6 TT / 4.2L V8 / 2.9L V6 TT",
       "heroBhp": "380 — 450 BHP",
       "generations": [
-        { "name": "B5", "years": [1999, 2001], "patterns": ["B5"] },
-        { "name": "B7", "years": [2006, 2008], "patterns": ["B7"] },
-        { "name": "B8", "years": [2012, 2015], "patterns": ["B8"] },
-        { "name": "B9", "years": [2018, 2026], "patterns": ["B9"] }
+        {
+          "name": "B5",
+          "years": [
+            1999,
+            2001
+          ],
+          "patterns": [
+            "B5"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Audi_RS4%2C_EMS_2023%2C_Essen_%28P1160911-RR%29.jpg/1920px-Audi RS4, EMS 2023, Essen (P1160911-RR).jpg",
+          "credit": "Matti Blume / CC BY-SA 4.0"
+        },
+        {
+          "name": "B7",
+          "years": [
+            2006,
+            2008
+          ],
+          "patterns": [
+            "B7"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Audi_RS4_B7_2006.jpg/1920px-Audi RS4 B7 2006.jpg",
+          "credit": "Ethan from Brooklyn, NY, U.S. / CC BY 2.0"
+        },
+        {
+          "name": "B8",
+          "years": [
+            2012,
+            2015
+          ],
+          "patterns": [
+            "B8"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Audi_RS4_%28B8%29_front.JPG/1920px-Audi RS4 (B8) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "B9",
+          "years": [
+            2018,
+            2026
+          ],
+          "patterns": [
+            "B9"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Audi_RS4_Avant_B9_quattro_light_blue_-_front.jpg/1920px-Audi RS4 Avant B9 quattro light blue - front.jpg",
+          "credit": "Ethan Llamas / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -539,8 +697,30 @@
       "heroEngine": "4.2L V8 / 2.9L V6 TT",
       "heroBhp": "444 — 450 BHP",
       "generations": [
-        { "name": "B8", "years": [2010, 2016], "patterns": ["B8"] },
-        { "name": "B9", "years": [2017, 2026], "patterns": ["B9"] }
+        {
+          "name": "B8",
+          "years": [
+            2010,
+            2016
+          ],
+          "patterns": [
+            "B8"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Audi_RS5_Coup%C3%A9_4.2_FSI_quattro_S_tronic.JPG/1920px-Audi RS5 Coupé 4.2 FSI quattro S tronic.JPG",
+          "credit": "Thomas doerfer / CC BY 3.0"
+        },
+        {
+          "name": "B9",
+          "years": [
+            2017,
+            2026
+          ],
+          "patterns": [
+            "B9"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Audi_RS5_Sportback_5F_FL_IMG_8131.jpg/1920px-Audi RS5 Sportback 5F FL IMG 8131.jpg",
+          "credit": "Alexander-93 / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -576,10 +756,54 @@
       "heroEngine": "4.2L V8 TT / 5.0L V10 TT / 4.0L V8 TT",
       "heroBhp": "444 — 621 BHP",
       "generations": [
-        { "name": "C5", "years": [2002, 2004], "patterns": ["C5"] },
-        { "name": "C6", "years": [2008, 2010], "patterns": ["C6"] },
-        { "name": "C7", "years": [2013, 2018], "patterns": ["C7"] },
-        { "name": "C8", "years": [2020, 2026], "patterns": ["C8"] }
+        {
+          "name": "C5",
+          "years": [
+            2002,
+            2004
+          ],
+          "patterns": [
+            "C5"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Audi_RS6_C5_Avant.jpg/1920px-Audi RS6 C5 Avant.jpg",
+          "credit": "Thomas doerfer / CC BY-SA 3.0"
+        },
+        {
+          "name": "C6",
+          "years": [
+            2008,
+            2010
+          ],
+          "patterns": [
+            "C6"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Audi_RS6_Avant_%28C6%29_front.JPG/1920px-Audi RS6 Avant (C6) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "C7",
+          "years": [
+            2013,
+            2018
+          ],
+          "patterns": [
+            "C7"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Audi_RS6_%28C7%29_front.JPG/1920px-Audi RS6 (C7) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "C8",
+          "years": [
+            2020,
+            2026
+          ],
+          "patterns": [
+            "C8"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Audi_RS6_Avant_C8_1X7A0305.jpg/1920px-Audi RS6 Avant C8 1X7A0305.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -614,8 +838,30 @@
       "heroEngine": "4.0L V8 TT",
       "heroBhp": "560 — 621 BHP",
       "generations": [
-        { "name": "C7", "years": [2013, 2018], "patterns": ["C7"] },
-        { "name": "C8", "years": [2020, 2026], "patterns": ["C8"] }
+        {
+          "name": "C7",
+          "years": [
+            2013,
+            2018
+          ],
+          "patterns": [
+            "C7"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Audi_RS_7_Sportback_%282015%29_%2853487730658%29.jpg/1920px-Audi RS 7 Sportback (2015) (53487730658).jpg",
+          "credit": "Charles from Port Chester, New York / CC BY 2.0"
+        },
+        {
+          "name": "C8",
+          "years": [
+            2020,
+            2026
+          ],
+          "patterns": [
+            "C8"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Audi_ABT_RS7-R_Sportback_C8.jpg/1920px-Audi ABT RS7-R Sportback C8.jpg",
+          "credit": "Alexandre Prevot / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -711,8 +957,30 @@
       "heroEngine": "3.0L I6 TT",
       "heroBhp": "365 — 460 BHP",
       "generations": [
-        { "name": "F87", "years": [2016, 2021], "patterns": ["F87"] },
-        { "name": "G87", "years": [2023, 2026], "patterns": ["G87"] }
+        {
+          "name": "F87",
+          "years": [
+            2016,
+            2021
+          ],
+          "patterns": [
+            "F87"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/BMW_M2%2C_IAA_2017%2C_Frankfurt_%281Y7A3530%29.jpg/1920px-BMW_M2%2C_IAA_2017%2C_Frankfurt_%281Y7A3530%29.jpg",
+          "credit": "Matti Blume / CC BY-SA 4.0"
+        },
+        {
+          "name": "G87",
+          "years": [
+            2023,
+            2026
+          ],
+          "patterns": [
+            "G87"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2024_BMW_M2_G87%2C_front_left%2C_05-31-2024.jpg/1920px-2024_BMW_M2_G87%2C_front_left%2C_05-31-2024.jpg",
+          "credit": "Ethan Llamas / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -866,8 +1134,32 @@
       "heroEngine": "3.0L I6 TT",
       "heroBhp": "425 — 543 BHP",
       "generations": [
-        { "name": "F82", "years": [2014, 2020], "patterns": ["F82", "F83"] },
-        { "name": "G82", "years": [2021, 2026], "patterns": ["G82", "G83"] }
+        {
+          "name": "F82",
+          "years": [
+            2014,
+            2020
+          ],
+          "patterns": [
+            "F82",
+            "F83"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/BMW_M4_Coupe_%28F82%29_front.JPG/1920px-BMW_M4_Coupe_%28F82%29_front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0 1.0"
+        },
+        {
+          "name": "G82",
+          "years": [
+            2021,
+            2026
+          ],
+          "patterns": [
+            "G82",
+            "G83"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/BMW_M4_%28G82%29_1X7A0155.jpg/1920px-BMW_M4_%28G82%29_1X7A0155.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -904,12 +1196,79 @@
       "heroEngine": "3.5L I6 — 4.4L V8 TT",
       "heroBhp": "282 — 727 BHP",
       "generations": [
-        { "name": "E28", "years": [1985, 1988], "patterns": ["E28"] },
-        { "name": "E34", "years": [1988, 1995], "patterns": ["E34"] },
-        { "name": "E39", "years": [1998, 2003], "patterns": ["E39"] },
-        { "name": "E60", "years": [2005, 2010], "patterns": ["E60", "E61"] },
-        { "name": "F10", "years": [2011, 2016], "patterns": ["F10"] },
-        { "name": "F90", "years": [2018, 2026], "patterns": ["F90"] }
+        {
+          "name": "E28",
+          "years": [
+            1985,
+            1988
+          ],
+          "patterns": [
+            "E28"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/1985_BMW_M5.jpg/1920px-1985_BMW_M5.jpg",
+          "credit": "Calreyn88 / CC BY-SA 4.0"
+        },
+        {
+          "name": "E34",
+          "years": [
+            1988,
+            1995
+          ],
+          "patterns": [
+            "E34"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BMW_M5_%28E34%29_Retro_Classics_2024_IMG_9114.jpg/1920px-BMW_M5_%28E34%29_Retro_Classics_2024_IMG_9114.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "E39",
+          "years": [
+            1998,
+            2003
+          ],
+          "patterns": [
+            "E39"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BMW_M5_E39_-_Flickr_-_Alexandre_Pr%C3%A9vot_%281%29.jpg/1920px-BMW_M5_E39_-_Flickr_-_Alexandre_Pr%C3%A9vot_%281%29.jpg",
+          "credit": "Alexandre Prévot / CC BY-SA 2.0"
+        },
+        {
+          "name": "E60",
+          "years": [
+            2005,
+            2010
+          ],
+          "patterns": [
+            "E60",
+            "E61"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/BMW_M5_%28E60%29_front.jpg/1920px-BMW_M5_%28E60%29_front.jpg",
+          "credit": "M.rJirapat / CC BY-SA 4.0"
+        },
+        {
+          "name": "F10",
+          "years": [
+            2011,
+            2016
+          ],
+          "patterns": [
+            "F10"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW_M5_F10_%28front_quarter%29.jpg/1920px-BMW_M5_F10_%28front_quarter%29.jpg",
+          "credit": "Overlaet / CC BY-SA 3.0"
+        },
+        {
+          "name": "F90",
+          "years": [
+            2018,
+            2026
+          ],
+          "patterns": [
+            "F90"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2019_BMW_M5_Competition_in_Silver%2C_front_right_%28US%29.jpg/1920px-2019_BMW_M5_Competition_in_Silver%2C_front_right_%28US%29.jpg",
+          "credit": "Mr.choppers / CC BY-SA 3.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -946,9 +1305,45 @@
       "heroEngine": "3.5L I6 — 4.4L V8 TT",
       "heroBhp": "282 — 600 BHP",
       "generations": [
-        { "name": "E24", "years": [1983, 1989], "patterns": ["E24"] },
-        { "name": "E63/E64", "years": [2005, 2010], "patterns": ["E63", "E64"] },
-        { "name": "F06/F12/F13", "years": [2012, 2018], "patterns": ["F06", "F12", "F13"] }
+        {
+          "name": "E24",
+          "years": [
+            1983,
+            1989
+          ],
+          "patterns": [
+            "E24"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/BMW_M6_%28E24%29_Retro_Classics_2024_IMG_9158.jpg/1920px-BMW_M6_%28E24%29_Retro_Classics_2024_IMG_9158.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "E63/E64",
+          "years": [
+            2005,
+            2010
+          ],
+          "patterns": [
+            "E63",
+            "E64"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BMW_M6_%28E63%29_Retro_Classics_2026_IMG_4810.jpg/1920px-BMW_M6_%28E63%29_Retro_Classics_2026_IMG_4810.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "F06/F12/F13",
+          "years": [
+            2012,
+            2018
+          ],
+          "patterns": [
+            "F06",
+            "F12",
+            "F13"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BMW_M6_Coupe_%28F13%29_front.JPG/1920px-BMW_M6_Coupe_%28F13%29_front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0 1.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -1017,9 +1412,43 @@
       "heroEngine": "2.0L I4 — 3.0L I6",
       "heroBhp": "150 — 382 BHP",
       "generations": [
-        { "name": "E85", "years": [2002, 2008], "patterns": ["E85", "E86"] },
-        { "name": "E89", "years": [2009, 2016], "patterns": ["E89"] },
-        { "name": "G29", "years": [2019, 2026], "patterns": ["G29"] }
+        {
+          "name": "E85",
+          "years": [
+            2002,
+            2008
+          ],
+          "patterns": [
+            "E85",
+            "E86"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG/1920px-BMW_Z4_Roadster_2.2i_%28E85%29_front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0 1.0"
+        },
+        {
+          "name": "E89",
+          "years": [
+            2009,
+            2016
+          ],
+          "patterns": [
+            "E89"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BMW_Z4_%28E89%29_front_20100815.jpg/1920px-BMW_Z4_%28E89%29_front_20100815.jpg",
+          "credit": "M 93 / Attribution"
+        },
+        {
+          "name": "G29",
+          "years": [
+            2019,
+            2026
+          ],
+          "patterns": [
+            "G29"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BMW_G29_Z4_sDrive20i_San_Francisco_Red_%281%29.jpg/1920px-BMW_G29_Z4_sDrive20i_San_Francisco_Red_%281%29.jpg",
+          "credit": "Damian B Oh / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -3459,7 +3888,9 @@
       "slug": "mclaren-570gt",
       "make": "McLaren",
       "model": "570GT",
-      "excludePatterns": ["\\b570S\\b"],
+      "excludePatterns": [
+        "\\b570S\\b"
+      ],
       "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2016_McLaren_570GT_%2851258975843%29.jpg/1920px-2016_McLaren_570GT_%2851258975843%29.jpg",
       "heroCredit": "Wikimedia Commons / CC BY 2.0",
       "description": "The McLaren 570GT, produced from 2017 to 2021, was the grand touring variant of the Sports Series. Sharing the 570S's 562 bhp twin-turbo V8, it added a glass-roofed touring deck with 220 litres of luggage space, softer suspension, and enhanced sound insulation for long-distance comfort.",
@@ -3486,7 +3917,9 @@
       "slug": "mclaren-570s",
       "make": "McLaren",
       "model": "570S",
-      "excludePatterns": ["\\b570GT\\b"],
+      "excludePatterns": [
+        "\\b570GT\\b"
+      ],
       "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/McLaren_570S_at_Geneva_Motor_Show_2015.jpg/1920px-McLaren_570S_at_Geneva_Motor_Show_2015.jpg",
       "heroCredit": "Wikimedia Commons / CC BY-SA 4.0",
       "description": "The McLaren 570S, produced from 2015 to 2021, was the most popular Sports Series model. With 562 bhp from the 3.8-litre twin-turbo V8 and McLaren's signature carbon fibre MonoCell II chassis, it combined supercar dynamics with daily usability. Available as coupe and spider.",
@@ -3964,9 +4397,45 @@
       "heroEngine": "6.2L V8 / 4.0L V8 TT / 2.0L I4 Hybrid",
       "heroBhp": "451 — 671 BHP",
       "generations": [
-        { "name": "W204", "years": [2008, 2014], "patterns": ["W204", "6\\.2", "6\\.3"] },
-        { "name": "W205", "years": [2015, 2021], "patterns": ["W205", "4\\.0"] },
-        { "name": "W206", "years": [2023, 2026], "patterns": ["W206"] }
+        {
+          "name": "W204",
+          "years": [
+            2008,
+            2014
+          ],
+          "patterns": [
+            "W204",
+            "6\\.2",
+            "6\\.3"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mercedes-Benz_C63_AMG_%28W204%29_front.JPG/1920px-Mercedes-Benz C63 AMG (W204) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "W205",
+          "years": [
+            2015,
+            2021
+          ],
+          "patterns": [
+            "W205",
+            "4\\.0"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mercedes-AMG_C63_S_%28W205%29_front.JPG/1920px-Mercedes-AMG C63 S (W205) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "W206",
+          "years": [
+            2023,
+            2026
+          ],
+          "patterns": [
+            "W206"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Mercedes-AMG_C63_S_E_PERFORMANCE_%28W206%29_front.jpg/1920px-Mercedes-AMG C63 S E PERFORMANCE (W206) front.jpg",
+          "credit": "Tokumeigakarinoaoshima / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -4021,9 +4490,42 @@
       "heroEngine": "5.4L V8 SC / 6.2L V8 / 4.0L V8 TT",
       "heroBhp": "507 — 612 BHP",
       "generations": [
-        { "name": "W211", "years": [2006, 2009], "patterns": ["W211"] },
-        { "name": "W212", "years": [2009, 2016], "patterns": ["W212"] },
-        { "name": "W213", "years": [2017, 2026], "patterns": ["W213"] }
+        {
+          "name": "W211",
+          "years": [
+            2006,
+            2009
+          ],
+          "patterns": [
+            "W211"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mercedes-Benz_E63_AMG_%28W211%29_front.JPG/1920px-Mercedes-Benz E63 AMG (W211) front.JPG",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "W212",
+          "years": [
+            2009,
+            2016
+          ],
+          "patterns": [
+            "W212"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mercedes-Benz_E63_AMG_S_%28W212%29_front.jpg/1920px-Mercedes-Benz E63 AMG S (W212) front.jpg",
+          "credit": "Tokumeigakarinoaoshima / CC0"
+        },
+        {
+          "name": "W213",
+          "years": [
+            2017,
+            2026
+          ],
+          "patterns": [
+            "W213"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/MERCEDES-AMG_E_63_S_4MATIC%2B_%28W213%29_China.jpg/1920px-MERCEDES-AMG E 63 S 4MATIC+ (W213) China.jpg",
+          "credit": "Dinkun Chen / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -4061,8 +4563,31 @@
       "heroEngine": "4.0L V8 TT",
       "heroBhp": "462 — 730 BHP",
       "generations": [
-        { "name": "C190", "years": [2015, 2021], "patterns": ["C190", "190"] },
-        { "name": "C192", "years": [2024, 2026], "patterns": ["C192"] }
+        {
+          "name": "C190",
+          "years": [
+            2015,
+            2021
+          ],
+          "patterns": [
+            "C190",
+            "190"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mercedes-AMG_GT_R%2C_BAS_24%2C_Brussels_%28P1170229-RR%29.jpg/1920px-Mercedes-AMG GT R, BAS 24, Brussels (P1170229-RR).jpg",
+          "credit": "Matti Blume / CC BY-SA"
+        },
+        {
+          "name": "C192",
+          "years": [
+            2024,
+            2026
+          ],
+          "patterns": [
+            "C192"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mercedes-AMG_GT_43_%28C192%29_IMG_2893.jpg/1920px-Mercedes-AMG GT 43 (C192) IMG 2893.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -4454,10 +4979,54 @@
       "heroEngine": "2.5 — 4.0L Flat-6 / Flat-4",
       "heroBhp": "204 — 394 BHP",
       "generations": [
-        { "name": "986", "years": [1996, 2004], "patterns": ["986"] },
-        { "name": "987", "years": [2005, 2012], "patterns": ["987"] },
-        { "name": "981", "years": [2012, 2016], "patterns": ["981"] },
-        { "name": "718", "years": [2016, 2026], "patterns": ["718"] }
+        {
+          "name": "986",
+          "years": [
+            1996,
+            2004
+          ],
+          "patterns": [
+            "986"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Porsche_986_Boxster_front_20070522.jpg/1920px-Porsche 986 Boxster front 20070522.jpg",
+          "credit": "Rudolf Stricker / CC BY-SA 3.0"
+        },
+        {
+          "name": "987",
+          "years": [
+            2005,
+            2012
+          ],
+          "patterns": [
+            "987"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Porsche_987_Boxster_front_20080226.JPG/1920px-Porsche 987 Boxster front 20080226.JPG",
+          "credit": "Samoborac / CC BY-SA 3.0"
+        },
+        {
+          "name": "981",
+          "years": [
+            2012,
+            2016
+          ],
+          "patterns": [
+            "981"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/PORSCHE_981_BOXSTER_SPYDER_China.jpg/1920px-PORSCHE 981 BOXSTER SPYDER China.jpg",
+          "credit": "Dinkun Chen / CC BY-SA 4.0"
+        },
+        {
+          "name": "718",
+          "years": [
+            2016,
+            2026
+          ],
+          "patterns": [
+            "718"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg/1920px-Porsche 718 Boxster GTS 4.0 1X7A0320.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -4512,9 +5081,46 @@
       "heroEngine": "3.0L V6 — 4.8L V8 TT",
       "heroBhp": "290 — 670 BHP",
       "generations": [
-        { "name": "E1", "years": [2002, 2010], "patterns": ["E1", "9PA"] },
-        { "name": "E2", "years": [2010, 2018], "patterns": ["E2", "92A"] },
-        { "name": "E3", "years": [2018, 2026], "patterns": ["E3", "9YA", "9YB"] }
+        {
+          "name": "E1",
+          "years": [
+            2002,
+            2010
+          ],
+          "patterns": [
+            "E1",
+            "9PA"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2009_Porsche_Cayenne_GTS%2C_front_left%2C_06-13-2023.jpg/1920px-2009 Porsche Cayenne GTS, front left, 06-13-2023.jpg",
+          "credit": "MercurySable99 / CC BY-SA 4.0"
+        },
+        {
+          "name": "E2",
+          "years": [
+            2010,
+            2018
+          ],
+          "patterns": [
+            "E2",
+            "92A"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2015_Porsche_Cayenne_V6_Diesel_Triptonic_S_3.0_Front.jpg/1920px-2015 Porsche Cayenne V6 Diesel Triptonic S 3.0 Front.jpg",
+          "credit": "Makizox / CC BY-SA 4.0"
+        },
+        {
+          "name": "E3",
+          "years": [
+            2018,
+            2026
+          ],
+          "patterns": [
+            "E3",
+            "9YA",
+            "9YB"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Porsche_Cayenne_GTS_%28PO536%29_front.jpg/1920px-Porsche Cayenne GTS (PO536) front.jpg",
+          "credit": "Tokumeigakarinoaoshima / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {
@@ -4548,9 +5154,42 @@
       "heroEngine": "2.7 — 4.0L Flat-6 / Flat-4",
       "heroBhp": "245 — 493 BHP",
       "generations": [
-        { "name": "987c", "years": [2005, 2012], "patterns": ["987"] },
-        { "name": "981c", "years": [2012, 2016], "patterns": ["981"] },
-        { "name": "718", "years": [2016, 2026], "patterns": ["718"] }
+        {
+          "name": "987c",
+          "years": [
+            2005,
+            2012
+          ],
+          "patterns": [
+            "987"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/2006-05-01_Tuning_World_Bodensee.jpg/1920px-2006-05-01 Tuning World Bodensee.jpg",
+          "credit": "Stefan-Xp / CC BY-SA 3.0"
+        },
+        {
+          "name": "981c",
+          "years": [
+            2012,
+            2016
+          ],
+          "patterns": [
+            "981"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Porsche_981_Cayman_GT4_SCD_24.jpg/1920px-Porsche 981 Cayman GT4 SCD 24.jpg",
+          "credit": "MrWalkr / CC BY-SA 4.0"
+        },
+        {
+          "name": "718",
+          "years": [
+            2016,
+            2026
+          ],
+          "patterns": [
+            "718"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Porsche_718_Cayman_GT4_Solitude_Revival_2022_1X7A0107.jpg/1920px-Porsche 718 Cayman GT4 Solitude Revival 2022 1X7A0107.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        }
       ],
       "sources": {
         "pistonheads": {

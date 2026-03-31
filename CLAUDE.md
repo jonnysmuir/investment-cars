@@ -179,6 +179,13 @@ All filtered to GBP/UK market only.
 - When modifying the frontend: maintain dark/light theme compatibility, use the gold accent for highlights
 - Page generators create static HTML pages per car model — re-run after adding new models
 - **Analysis index is auto-updated** by `generate-pages.js` — no manual editing of `public/analysis/index.html` needed.
+- **When adding generation filters to a model**: This is a standard procedure:
+  1. Add a `generations` array to the model's entry in `models.json`. Each generation needs: `name`, `years` (two-element array), `patterns` (array of title-matching strings).
+  2. For each generation, find a hero image on Wikimedia Commons. Search the relevant category (e.g. `Category:BMW_M5_E39`). Use the Wikimedia API: `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=...&srnamespace=6&format=json` to find files, then `?action=query&titles=File:...&prop=imageinfo&iiprop=url|user|extmetadata&format=json` to get metadata.
+  3. Add `image` (1920px thumbnail URL) and `credit` ("Author / License") fields to each generation object.
+  4. Verify the thumbnail URL returns HTTP 200: `curl -sI "URL" | head -1`.
+  5. Run `node scripts/generate-pages.js --slug {slug} --force` to regenerate the page.
+  6. The generation filter row auto-appears on the listing page (via `minDistinct: 2`), and the hero image swaps on generation selection via `data-generation-images` attribute.
 
 ## Click Tracking System
 - **Outbound links go through `/go`** — all 168 car pages use `trackUrl()` in `renderSourceLinks()` to route external listing links through the `/go` redirect endpoint
