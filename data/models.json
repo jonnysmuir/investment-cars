@@ -4224,15 +4224,28 @@
           "credit": "Alexandre Prévot / CC BY-SA 2.0"
         },
         {
-          "name": "992",
+          "name": "992.1",
           "years": [
             2019,
+            2023
+          ],
+          "patterns": [
+            "992.1",
+            "992(?!\\.2)"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/1920px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg",
+          "credit": "Alexander Migl / CC BY-SA 4.0"
+        },
+        {
+          "name": "992.2",
+          "years": [
+            2024,
             2026
           ],
           "patterns": [
-            "992"
+            "992.2"
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/1920px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Porsche_992.2_coupes_IMG_4596.jpg/1920px-Porsche_992.2_coupes_IMG_4596.jpg",
           "credit": "Alexander Migl / CC BY-SA 4.0"
         }
       ],
