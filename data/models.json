@@ -1591,16 +1591,12 @@
         }
       },
       "bodyTypeRules": {
-        "defaultBodyType": "Coupe",
-        "generationOverrides": {
-          "G29": "Convertible"
-        },
+        "defaultBodyType": "Convertible",
+        "generationOverrides": {},
         "titlePatterns": {
-          "Convertible": [
-            "Convertible",
-            "Roadster",
-            "Cabriolet",
-            "Cabrio"
+          "Coupe": [
+            "Coupe",
+            "Coupé"
           ]
         }
       }

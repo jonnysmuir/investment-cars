@@ -13,9 +13,9 @@ Generated: 2026-03-31
 
 | Body Type | Count | % |
 |---|---|---|
-| Coupe | 1,169 | 18% |
+| Coupe | 1,002 | 15% |
 | Estate | 951 | 15% |
-| Convertible | 714 | 11% |
+| Convertible | 881 | 13% |
 | Saloon | 565 | 9% |
 | SUV | 44 | 1% |
 | Targa | 30 | 0% |
@@ -494,7 +494,7 @@ Generated: 2026-03-31
 | bmw-m5 | 225 | Saloon: 207, Estate: 18 | 0 |
 | bmw-m6 | 30 | Coupe: 26, Convertible: 3, Gran Coupe: 1 | 0 |
 | bmw-m8 | 45 | Coupe: 43, Convertible: 1, Gran Coupe: 1 | 0 |
-| bmw-z4 | 219 | Coupe: 168, Convertible: 51 | 0 |
+| bmw-z4 | 219 | Convertible: 218, Coupe: 1 | 0 |
 | bmw-z8 | 10 | Convertible: 10 | 0 |
 | ferrari-250-california | 2 | Convertible: 2 | 0 |
 | lotus-eletre | 64 | Estate: 64 | 0 |
