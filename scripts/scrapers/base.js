@@ -147,8 +147,10 @@ function normaliseBodyType(raw) {
   if (/\bspeedster\b/.test(s)) return 'Speedster';
   // All convertible-roof types → "Convertible"
   if (/convertible|cabrio(?:let)?|\broadster\b|\bspider\b|\bspyder\b|drop\s*(?:top|head)|\bopen\s*top\b|\bvolante\b|\baperta\b|\bbarchetta\b|\bcab\b|\bdrophead\b|\bdrop-head\b|\bdcv\b/i.test(s)) return 'Convertible';
-  // Coupe variants (Gran Coupe counts as Coupe)
-  if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b|\bgran\s*coup[eé]\b/i.test(s)) return 'Coupe';
+  // Gran Coupe — distinct 4-door coupe body style (must check BEFORE generic Coupe)
+  if (/\bgran\s*coup[eé]\b/i.test(s)) return 'Gran Coupe';
+  // Coupe
+  if (/\bcoupe\b|\bcoupé\b|\bberlinetta\b|\bhatchback\b/i.test(s)) return 'Coupe';
   // Saloon / Sedan
   if (/\bsaloon\b|\bsedan\b/i.test(s)) return 'Saloon';
   // SUV / Crossover (must come before door-count to avoid "SUV 5dr" → Estate)
@@ -158,6 +160,44 @@ function normaliseBodyType(raw) {
   // Door-count inference (only when no explicit body type keyword matched above)
   if (/\b4\s*(?:dr|door)\b/i.test(s)) return 'Saloon';
   if (/\b5\s*(?:dr|door)\b/i.test(s)) return 'Estate';
+  return null;
+}
+
+/**
+ * Infer body type using model-specific rules when standard detection fails.
+ * Checks: (1) normaliseBodyType from title, (2) model title patterns,
+ * (3) generation overrides, (4) model default.
+ */
+function inferBodyType(title, modelConfig, generation) {
+  // Step 1: Standard title-based detection (handles spider, cabriolet, coupe, etc.)
+  const fromTitle = normaliseBodyType(title);
+  if (fromTitle) return fromTitle;
+
+  const rules = modelConfig?.bodyTypeRules;
+  if (!rules) return null;
+
+  // Step 2: Model-specific title patterns (more targeted than generic normalise)
+  if (rules.titlePatterns) {
+    for (const [bodyType, patterns] of Object.entries(rules.titlePatterns)) {
+      for (const pattern of patterns) {
+        if (new RegExp(`\\b${pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(title)) {
+          return normaliseBodyType(bodyType) || bodyType;
+        }
+      }
+    }
+  }
+
+  // Step 3: Generation override (e.g. all G80 M3s are Saloon)
+  if (rules.generationOverrides && generation) {
+    const override = rules.generationOverrides[generation];
+    if (override) return normaliseBodyType(override) || override;
+  }
+
+  // Step 4: Model default (e.g. M4 defaults to Coupe)
+  if (rules.defaultBodyType) {
+    return normaliseBodyType(rules.defaultBodyType) || rules.defaultBodyType;
+  }
+
   return null;
 }
 
@@ -321,6 +361,7 @@ module.exports = {
   extractYear,
   normaliseTransmission,
   normaliseBodyType,
+  inferBodyType,
   sourceUrlToId,
   isImageValid,
   titleMatchesModel,

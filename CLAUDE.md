@@ -141,14 +141,22 @@ All filtered to GBP/UK market only.
   - **Collecting Cars**: Title-only — no structured body type data available; falls back to specText then title.
 - **Audit script**: `node scripts/audit-body-types.js` scans all data files and generates `scripts/body-type-audit.md` with body type distribution, null rates, and suspected misclassification per model.
 - **Frontend pages use `l.bodyType` for filtering**, falling back to a page-specific `getBody(title)` function for listings that haven't been re-scraped yet.
-- **Normalised body types**: Coupe, Saloon, Convertible, Estate, Targa, Speedster, SUV.
+- **Normalised body types**: Coupe, Gran Coupe, Saloon, Convertible, Estate, Targa, Speedster, SUV.
+- **"Gran Coupe"** is a distinct body type (BMW 4-door coupes like M6 Gran Coupe, M8 Gran Coupe). Checked before generic "Coupe" in `normaliseBodyType()`.
 - **All convertible-roof cars must use "Convertible"** — including "roadster", "spider", "spyder", "cabriolet", "volante", "drop top", "aperta", "barchetta", "cab". Normalise all of these to "Convertible".
 - **Exceptions — do NOT normalise to Convertible:**
   - **"Targa"** — remains its own body type (partially removable roof, retains roll bar)
   - **"Speedster"** — remains its own body type (distinct low-windscreen open design)
 - **"Touring" → Estate** in the global `normaliseBodyType()`. This is correct for BMW (M3/M5 Touring = Estate) and doesn't conflict with Porsche GT3 Touring since Porsche Touring is a trim, not a body type (the GT3 Touring's title also contains "Coupe" which matches first).
 - **"Estate" in the global normaliser** covers: "estate", "wagon", "shooting brake" (unambiguous terms only).
-- **BMW M3 body inference** uses door count ("2dr" → Coupe, "4dr" → Saloon) and generation codes (E30/E36/E46/E92 → Coupe, E93 → Convertible, E90/F80/G80 → Saloon, E91/F81/G81 → Estate).
+
+### Model-Specific Body Type Rules (bodyTypeRules)
+- **`bodyTypeRules`** in `models.json` provides model-specific inference when scraper and title-based detection both return null.
+- **Structure**: `{ defaultBodyType, generationOverrides: { genName: bodyType }, titlePatterns: { bodyType: [patterns] } }`
+- **`inferBodyType(title, modelConfig, generation)`** in `base.js` applies rules in order: (1) `normaliseBodyType(title)`, (2) model title patterns, (3) generation override, (4) model default.
+- **Currently configured for BMW**: M1, 1M, M2, M3, M4, M5, M6, M8, Z4, Z8. Reduced BMW null body types from ~95% to ~0%.
+- **When adding bodyTypeRules for a new model**: determine the default body type (most common variant), add generation overrides where a generation is exclusively one body type (e.g. G80 M3 = Saloon), and add title patterns for keywords that appear in listing titles.
+- **Backfill script**: `node scripts/fix-body-types.js` re-runs `inferBodyType` against all existing listings. Run after adding or modifying bodyTypeRules.
 
 ## Title Matching & Exclusion Patterns
 - **`titleMatchesModel()`** in `base.js` is the shared title relevance filter used by all 4 scrapers and the post-scrape validation pass in `refresh.js`.

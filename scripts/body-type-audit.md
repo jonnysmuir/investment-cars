@@ -5,22 +5,23 @@ Generated: 2026-03-31
 ## Summary
 
 - **Total active listings scanned**: 6,549
-- **Listings with null bodyType**: 3,835 (59%)
+- **Listings with null bodyType**: 3,068 (47%)
 - **Models scanned**: 136
-- **Suspected issues**: 118
+- **Suspected issues**: 111
 
 ## Global Body Type Distribution
 
 | Body Type | Count | % |
 |---|---|---|
+| Coupe | 1,002 | 15% |
 | Estate | 951 | 15% |
-| Convertible | 675 | 10% |
-| Saloon | 546 | 8% |
-| Coupe | 462 | 7% |
+| Convertible | 881 | 13% |
+| Saloon | 565 | 9% |
 | SUV | 44 | 1% |
 | Targa | 30 | 0% |
 | Speedster | 6 | 0% |
-| null | 3,835 | 59% |
+| Gran Coupe | 2 | 0% |
+| null | 3,068 | 47% |
 
 ## Suspected Issues
 
@@ -77,27 +78,6 @@ Generated: 2026-03-31
 
 ### audi-rs6 — High null rate
 32 of 36 listings (89%) have null bodyType.
-
-### bmw-m2 — High null rate
-210 of 224 listings (94%) have null bodyType.
-
-### bmw-m3 — High null rate
-80 of 236 listings (34%) have null bodyType.
-
-### bmw-m4 — High null rate
-206 of 223 listings (92%) have null bodyType.
-
-### bmw-m6 — High null rate
-19 of 30 listings (63%) have null bodyType.
-
-### bmw-m8 — High null rate
-30 of 45 listings (67%) have null bodyType.
-
-### bmw-z4 — High null rate
-200 of 219 listings (91%) have null bodyType.
-
-### bmw-z8 — High null rate
-6 of 10 listings (60%) have null bodyType.
 
 ### ferrari-12cilindri — High null rate
 16 of 23 listings (70%) have null bodyType.
@@ -383,9 +363,6 @@ Generated: 2026-03-31
 | Model | Total | Distribution | Null |
 |---|---|---|---|
 | porsche-911 | 481 | Convertible: 37, Targa: 29, Coupe: 16, Estate: 8, Speedster: 2 | 389 |
-| bmw-m2 | 224 | Coupe: 14 | 210 |
-| bmw-m4 | 223 | Coupe: 14, Convertible: 3 | 206 |
-| bmw-z4 | 219 | Convertible: 18, Coupe: 1 | 200 |
 | porsche-cayman | 211 | Coupe: 16 | 195 |
 | aston-martin-vantage | 219 | Convertible: 31, Coupe: 18 | 170 |
 | porsche-boxster | 117 | Convertible: 11 | 106 |
@@ -393,7 +370,6 @@ Generated: 2026-03-31
 | alpine-a110-modern | 99 | Coupe: 7 | 92 |
 | lamborghini-huracan | 126 | Convertible: 32, Coupe: 6 | 88 |
 | lotus-emira | 90 | Coupe: 8 | 82 |
-| bmw-m3 | 236 | Saloon: 116, Estate: 23, Coupe: 10, Convertible: 7 | 80 |
 | aston-martin-vanquish | 115 | Convertible: 21, Coupe: 14, Speedster: 4, Estate: 3 | 73 |
 | ferrari-california | 72 | Convertible: 10 | 62 |
 | maserati-granturismo | 72 | Coupe: 12 | 60 |
@@ -413,7 +389,6 @@ Generated: 2026-03-31
 | audi-rs6 | 36 | Saloon: 4 | 32 |
 | lotus-evora | 36 | Coupe: 4 | 32 |
 | aston-martin-db7 | 57 | Convertible: 18, Coupe: 8 | 31 |
-| bmw-m8 | 45 | Coupe: 14, Convertible: 1 | 30 |
 | lotus-exige | 41 | Estate: 5, Convertible: 4, Coupe: 2 | 30 |
 | ferrari-812 | 45 | Coupe: 9, Convertible: 7 | 29 |
 | mclaren-720s | 46 | Coupe: 10, Convertible: 8 | 28 |
@@ -423,7 +398,6 @@ Generated: 2026-03-31
 | mclaren-gt | 33 | Coupe: 9 | 24 |
 | audi-rs4 | 39 | Saloon: 12, Estate: 3, Convertible: 1 | 23 |
 | mclaren-570gt | 48 | Coupe: 14, Convertible: 12 | 22 |
-| bmw-m6 | 30 | Coupe: 8, Convertible: 3 | 19 |
 | ferrari-gtc4lusso | 22 | Coupe: 3 | 19 |
 | ferrari-sf90 | 42 | Convertible: 21, Coupe: 2 | 19 |
 | lamborghini-urus | 276 | Estate: 242, SUV: 15 | 19 |
@@ -436,7 +410,6 @@ Generated: 2026-03-31
 | lotus-elan | 20 | Convertible: 2, Coupe: 1 | 17 |
 | lotus-europa | 17 | none | 17 |
 | mclaren-artura | 43 | Convertible: 20, Coupe: 6 | 17 |
-| bmw-m5 | 225 | Saloon: 191, Estate: 18 | 16 |
 | ferrari-12cilindri | 23 | Coupe: 5, Convertible: 2 | 16 |
 | ferrari-f355 | 30 | Coupe: 7, Convertible: 7 | 16 |
 | aston-martin-dbs-superleggera | 18 | Convertible: 2, Coupe: 1 | 15 |
@@ -469,7 +442,6 @@ Generated: 2026-03-31
 | ferrari-f12 | 25 | Coupe: 18 | 7 |
 | ferrari-purosangue | 48 | Saloon: 38, SUV: 3 | 7 |
 | mclaren-senna | 7 | none | 7 |
-| bmw-z8 | 10 | Convertible: 4 | 6 |
 | ferrari-250-gt | 8 | Convertible: 2 | 6 |
 | ferrari-f430 | 48 | Convertible: 33, Coupe: 9 | 6 |
 | lotus-elite | 7 | Coupe: 1 | 6 |
@@ -516,5 +488,13 @@ Generated: 2026-03-31
 | mercedes-amg-clk-black-series | 1 | none | 1 |
 | porsche-carrera-gt | 1 | none | 1 |
 | bmw-1m | 3 | Coupe: 3 | 0 |
+| bmw-m2 | 224 | Coupe: 224 | 0 |
+| bmw-m3 | 236 | Saloon: 119, Coupe: 87, Estate: 23, Convertible: 7 | 0 |
+| bmw-m4 | 223 | Coupe: 220, Convertible: 3 | 0 |
+| bmw-m5 | 225 | Saloon: 207, Estate: 18 | 0 |
+| bmw-m6 | 30 | Coupe: 26, Convertible: 3, Gran Coupe: 1 | 0 |
+| bmw-m8 | 45 | Coupe: 43, Convertible: 1, Gran Coupe: 1 | 0 |
+| bmw-z4 | 219 | Convertible: 218, Coupe: 1 | 0 |
+| bmw-z8 | 10 | Convertible: 10 | 0 |
 | ferrari-250-california | 2 | Convertible: 2 | 0 |
 | lotus-eletre | 64 | Estate: 64 | 0 |

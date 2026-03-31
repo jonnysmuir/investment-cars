@@ -14,7 +14,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, today, sleep } = require('./scrapers/base');
+const { parsePrice, parseMileage, formatPrice, sourceUrlToId, titleMatchesModel, inferBodyType, today, sleep } = require('./scrapers/base');
 const health = require('./health');
 
 // ── Scrapers ──────────────────────────────────────────────────────────────
@@ -405,6 +405,27 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
   // Build a set of all source URLs found in this scrape
   const foundSourceUrls = new Set(scrapedListings.map(l => l.sourceUrl));
 
+  // ── Helpers ──────────────────────────────────────────────────────────
+
+  // Detect generation from title patterns + year range (mirrors frontend getGeneration)
+  function detectGeneration(title, year, mc) {
+    if (!mc.generations) return null;
+    const t = (title || '').toLowerCase();
+    for (const g of mc.generations) {
+      if (g.patterns && g.patterns.length) {
+        for (const p of g.patterns) {
+          if (new RegExp(p, 'i').test(t)) return g.name;
+        }
+      }
+    }
+    if (year) {
+      for (const g of mc.generations) {
+        if (g.years && year >= g.years[0] && year <= g.years[1]) return g.name;
+      }
+    }
+    return null;
+  }
+
   // ── Merge Logic ──────────────────────────────────────────────────────
 
   // Pick the more descriptive title (longer, with variant/trim info)
@@ -465,6 +486,11 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
       if (scraped.bodyType) {
         existingListing.bodyType = scraped.bodyType;
       }
+      // Model-specific inference fallback when scraper returned null
+      if (!existingListing.bodyType) {
+        const gen = detectGeneration(existingListing.title, existingListing.year, modelConfig);
+        existingListing.bodyType = inferBodyType(existingListing.title, modelConfig, gen);
+      }
 
       // Update image if the existing one is empty
       if (!existingListing.image && scraped.image) {
@@ -509,6 +535,10 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
         if (scraped.bodyType) {
           duplicate.bodyType = scraped.bodyType;
         }
+        if (!duplicate.bodyType) {
+          const gen = detectGeneration(duplicate.title, duplicate.year, modelConfig);
+          duplicate.bodyType = inferBodyType(duplicate.title, modelConfig, gen);
+        }
         // Clear missing-since
         delete state.missingSince[scraped.sourceUrl];
       } else {
@@ -521,7 +551,7 @@ async function processModel(modelConfig, isSingleModel, autotraderBatchResults, 
           year: scraped.year,
           mileage: scraped.mileage,
           transmission: scraped.transmission,
-          bodyType: scraped.bodyType || null,
+          bodyType: scraped.bodyType || inferBodyType(scraped.title, modelConfig, detectGeneration(scraped.title, scraped.year, modelConfig)),
           image: scraped.image,
           featured: false,
           dateAdded: today(),

@@ -910,6 +910,11 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=1M"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {}
       }
     },
     {
@@ -936,6 +941,11 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M1"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {}
       }
     },
     {
@@ -996,6 +1006,11 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M2"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {}
       }
     },
     {
@@ -1114,6 +1129,34 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M3"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {
+          "F80": "Saloon",
+          "G80": "Saloon"
+        },
+        "titlePatterns": {
+          "Saloon": [
+            "Saloon",
+            "Sedan",
+            "4dr",
+            "4 door"
+          ],
+          "Convertible": [
+            "Convertible",
+            "Cabriolet",
+            "Cabrio"
+          ],
+          "Estate": [
+            "Touring",
+            "5dr"
+          ],
+          "Coupe": [
+            "Coupe",
+            "Coupé"
+          ]
+        }
       }
     },
     {
@@ -1174,6 +1217,21 @@
         },
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M4"
+        }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {
+          "Convertible": [
+            "Convertible",
+            "Cabriolet",
+            "Cabrio"
+          ],
+          "Coupe": [
+            "Coupe",
+            "Coupé"
+          ]
         }
       }
     },
@@ -1284,6 +1342,21 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M5"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Saloon",
+        "generationOverrides": {},
+        "titlePatterns": {
+          "Estate": [
+            "Touring",
+            "5dr"
+          ],
+          "Saloon": [
+            "Saloon",
+            "Sedan",
+            "4dr"
+          ]
+        }
       }
     },
     {
@@ -1359,6 +1432,26 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M6"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {
+          "Convertible": [
+            "Convertible",
+            "Cabriolet",
+            "Cabrio"
+          ],
+          "Gran Coupe": [
+            "Gran Coupe",
+            "Gran Coupé",
+            "Gran Coup"
+          ],
+          "Coupe": [
+            "Coupe",
+            "Coupé"
+          ]
+        }
       }
     },
     {
@@ -1393,6 +1486,27 @@
         },
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=M8"
+        }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Coupe",
+        "generationOverrides": {},
+        "titlePatterns": {
+          "Convertible": [
+            "Convertible",
+            "Cabriolet",
+            "Cabrio"
+          ],
+          "Gran Coupe": [
+            "Gran Coupe",
+            "Gran Coupé",
+            "Gran Coup"
+          ],
+          "Coupe": [
+            "Coupe",
+            "Coupé",
+            "2dr"
+          ]
         }
       }
     },
@@ -1464,6 +1578,16 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=Z4"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Convertible",
+        "generationOverrides": {},
+        "titlePatterns": {
+          "Coupe": [
+            "Coupe",
+            "Coupé"
+          ]
+        }
       }
     },
     {
@@ -1493,6 +1617,11 @@
         "collectingcars": {
           "searchUrl": "https://www.collectingcars.com/search?make=BMW&model=Z8"
         }
+      },
+      "bodyTypeRules": {
+        "defaultBodyType": "Convertible",
+        "generationOverrides": {},
+        "titlePatterns": {}
       }
     },
     {
