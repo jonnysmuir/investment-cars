@@ -95,7 +95,7 @@
 
     /* ── Hero ── */
     .hero {
-      position: relative; min-height: 75vh; display: flex;
+      position: relative; min-height: 85vh; display: flex;
       align-items: center; justify-content: center; overflow: hidden;
     }
     .hero-bg {
@@ -310,27 +310,39 @@
       font-size: 0.72rem; color: var(--color-text-muted); margin-top: 0.35rem;
     }
 
-    /* ── Search ── */
-    .search-section {
-      background: var(--color-surface); border-top: 1px solid var(--color-border);
-      border-bottom: 1px solid var(--color-border);
+    /* ── Search (inside hero) ── */
+    .hero-search {
+      margin-top: 2.5rem; width: 100%; max-width: 560px;
     }
+    .hero-search-title {
+      font-size: 1.15rem; font-weight: 600; text-align: center;
+      margin-bottom: 1rem; color: #fff;
+    }
+    .light .hero-search-title { color: var(--color-text); }
     .search-wrap {
       max-width: 600px; margin: 0 auto; position: relative;
     }
     .search-input {
       width: 100%; padding: 1rem 1.25rem 1rem 3rem;
-      background: var(--color-bg); border: 1px solid var(--color-border);
-      border-radius: 8px; color: var(--color-text);
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 8px; color: #fff;
       font-size: 1rem; font-family: inherit;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, background 0.2s;
+      backdrop-filter: blur(4px);
     }
-    .search-input:focus { outline: none; border-color: var(--color-accent); }
+    .search-input::placeholder { color: rgba(255,255,255,0.4); }
+    .search-input:focus { outline: none; border-color: var(--color-accent); background: rgba(255,255,255,0.12); }
+    .light .search-input {
+      background: rgba(0,0,0,0.05); border-color: var(--color-border); color: var(--color-text);
+    }
+    .light .search-input::placeholder { color: var(--color-text-muted); }
+    .light .search-input:focus { background: rgba(0,0,0,0.08); }
     .search-icon {
       position: absolute; left: 1rem; top: 50%;
-      transform: translateY(-50%); color: var(--color-text-muted);
+      transform: translateY(-50%); color: rgba(255,255,255,0.4);
       pointer-events: none; font-size: 1.1rem;
     }
+    .light .search-icon { color: var(--color-text-muted); }
     .search-results {
       display: none; position: absolute; top: calc(100% + 4px);
       left: 0; right: 0; background: var(--color-surface);
@@ -487,20 +499,17 @@
           <div class="stat-label">Auction Results</div>
         </div>
       </div>
+      <!-- Search — inside hero -->
+      <div class="hero-search">
+        <h2 class="hero-search-title">Find a Model</h2>
+        <div class="search-wrap">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" class="search-input" id="modelSearch" placeholder="Search models..." autocomplete="off">
+          <div class="search-results" id="searchResults"></div>
+        </div>
+      </div>
     </div>
   </section>
-
-  <!-- Search -->
-  <div class="section search-section">
-    <div class="section-header" style="justify-content: center;">
-      <h2 class="section-title">Find a Model</h2>
-    </div>
-    <div class="search-wrap">
-      <span class="search-icon">&#128269;</span>
-      <input type="text" class="search-input" id="modelSearch" placeholder="Search models..." autocomplete="off">
-      <div class="search-results" id="searchResults"></div>
-    </div>
-  </div>
 
   <!-- CTA -->
   <div class="section cta-section" id="ctaSection">
