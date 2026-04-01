@@ -939,7 +939,7 @@
     {
       "id": "44",
       "title": "2017 Lamborghini Huracan 5.2 V10 LP 610-4 Avio LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£145,995",
+      "price": "£149,990",
       "year": 2017,
       "mileage": "300 miles",
       "transmission": "Automatic",
@@ -962,6 +962,10 @@
         {
           "price": "£149,990",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£145,995",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1126,7 +1130,7 @@
       "price": "£184,995",
       "year": 2018,
       "mileage": "24,328 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/d09f0ffa90944aa89ede2191a0ea8724.jpg",
       "featured": false,
@@ -1136,6 +1140,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601078987314"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19802212"
         }
       ]
     },
@@ -1184,7 +1192,7 @@
     {
       "id": "55",
       "title": "Lamborghini Huracan 5.2 V10 LP 640-4 EVO Spyder LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£254,995",
+      "price": "£244,750",
       "year": 2023,
       "mileage": "1,600 miles",
       "transmission": "Automatic",
@@ -1202,12 +1210,18 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18847869"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£254,995",
+          "date": "2026-04-01"
+        }
       ]
     },
     {
       "id": "56",
       "title": "2016 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/",
-      "price": "£129,950",
+      "price": "£128,950",
       "year": "2016",
       "mileage": "26,086 miles",
       "transmission": "Automatic",
@@ -1220,6 +1234,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2005039"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£129,950",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1270,7 +1290,7 @@
     {
       "id": "59",
       "title": "2023 Lamborghini Huracan 5.2 V10 Sterrato LDF 4WD Euro 6 (s/",
-      "price": "£247,950",
+      "price": "£244,750",
       "year": "2023",
       "mileage": "995 miles",
       "transmission": "Automatic",
@@ -1283,6 +1303,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1962047"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£247,950",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1603,7 +1629,7 @@
     },
     {
       "id": "75",
-      "title": "2019 Lamborghini Huracan Performante",
+      "title": "2019 Lamborghini Huracan V10 LP 640-4 Performante",
       "price": "£207,990",
       "year": "2019",
       "mileage": "21,000 miles",
@@ -1652,7 +1678,7 @@
     {
       "id": "77",
       "title": "2018 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£148,995",
+      "price": "£149,995",
       "year": 2018,
       "mileage": "16,250 miles",
       "transmission": "Unknown",
@@ -1675,6 +1701,10 @@
         {
           "price": "£149,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£148,995",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -3346,6 +3376,29 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301147549"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20177167"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "title": "2018 LAMBORGHINI HURACAN LP 610-4",
+      "price": "£148,995",
+      "year": "2018",
+      "mileage": "16,250 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28033675/2018-lamborghini-huracan-699578a4c0e24.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bfb488a8c5ece2f2c57683aa04b93c86",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2016721"
         }
       ]
     }

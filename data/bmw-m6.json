@@ -802,7 +802,7 @@
     {
       "id": "39",
       "title": "2018 Used  BMW M6",
-      "price": "£29,750",
+      "price": "£29,000",
       "year": 2018,
       "mileage": "995 miles",
       "transmission": "Automatic",
@@ -815,6 +815,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19452146"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,750",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1078,13 +1084,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28492810/DSC09591.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4d0109bdf4129d0d0bb84a2794507c6b",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2006-bmw-e63-m6-nY7Dl8"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "53",
@@ -1401,6 +1408,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503250577439"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2016 Used  BMW M6",
+      "price": "£29,895",
+      "year": 2016,
+      "mileage": "100 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m6-gran-coup/4-4-m6-auto-4dr/bmw-m6-gran-coup-4-4-m6-auto-4dr-1421553408-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20178543"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "2005 Used  BMW M6",
+      "price": "£16,500",
+      "year": 2005,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m6/m6/bmw-m6-m6-S4945037-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20172482"
         }
       ]
     }

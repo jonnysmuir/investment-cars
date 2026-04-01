@@ -214,8 +214,17 @@
         {
           "price": "£75,500",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£70,975",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£75,500",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "9",
@@ -321,6 +330,14 @@
         {
           "price": "£69,989",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£69,989",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -397,6 +414,14 @@
         {
           "price": "£71,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£69,989",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -504,6 +529,25 @@
         {
           "price": "£76,978",
           "date": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6",
+      "price": "£76,978",
+      "year": "2017",
+      "mileage": "5,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29232903/2017-mclaren-540c-69cc7326c9fea.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=88c847f484b37259fe1c5849d0857ed3",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040500"
         }
       ]
     }

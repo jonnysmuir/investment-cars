@@ -390,7 +390,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1964253"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "20",
@@ -449,6 +450,14 @@
         {
           "price": "£104,999",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£99,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£104,999",
+          "date": "2026-04-01"
         }
       ],
       "bodyType": "Convertible"
@@ -567,7 +576,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505011931940"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "26",
@@ -675,7 +685,8 @@
           "price": "£92,995",
           "date": "2026-03-27"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "31",
@@ -771,6 +782,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291113426"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "2016 McLaren 650S 3.8T V8 Spider 2dr Petrol SSG Euro 5 (650 ps)",
+      "price": "£369,000",
+      "year": 2016,
+      "mileage": "7,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/670ff17a3e464d71a63ac8550289f5bf.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311189292"
         }
       ]
     }

@@ -247,7 +247,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511107783092"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "13",
@@ -279,7 +280,8 @@
           "price": "£122,490",
           "date": "2026-03-13"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "14",
@@ -301,7 +303,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512088457272"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "15",
@@ -323,7 +326,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512068422827"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "16",
@@ -462,6 +466,14 @@
         {
           "price": "£126,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£132,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£126,950",
+          "date": "2026-04-01"
         }
       ],
       "bodyType": "Coupe"
@@ -552,12 +564,13 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510157165439"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "22",
       "title": "2019 McLaren 600LT 3.8T V8 Spider SSG Euro 6 (s/s) 2dr DELIVERY AVALIABLE",
-      "price": "£139,990",
+      "price": "£143,950",
       "year": 2019,
       "mileage": "8,000 miles",
       "transmission": "Automatic",
@@ -603,6 +616,10 @@
         {
           "price": "£143,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£139,990",
+          "date": "2026-04-01"
         }
       ],
       "bodyType": "Convertible"
@@ -660,7 +677,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602099790716"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "25",
@@ -735,8 +753,17 @@
         {
           "price": "£115,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£117,500",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£115,950",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "26",
@@ -774,7 +801,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2012423"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "28",
@@ -841,7 +869,8 @@
           "price": "£124,495",
           "date": "2026-03-12"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "31",
@@ -859,7 +888,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1986802"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "32",
@@ -877,7 +907,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1933028"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "33",
@@ -1040,6 +1071,14 @@
         {
           "price": "£138,480",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£141,490",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£138,480",
+          "date": "2026-04-01"
         }
       ],
       "bodyType": "Convertible"
@@ -1122,8 +1161,17 @@
         {
           "price": "£128,000",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "40",
@@ -1190,7 +1238,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508275784298"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "43",
@@ -1238,6 +1287,14 @@
         {
           "price": "£149,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£143,950",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1508,6 +1565,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271067472"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "2020 McLaren 600LT 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£129,990",
+      "year": 2020,
+      "mileage": "15,425 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/f8bac2e6f50c4b278705415ab5f4b4a7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011195030"
         }
       ]
     }

@@ -45,7 +45,8 @@
           "price": "£159,850",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "3",
@@ -101,7 +102,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601058937059"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "6",
@@ -119,7 +121,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601209277877"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "7",
@@ -143,7 +146,8 @@
           "price": "£148,500",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "8",
@@ -161,7 +165,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511047640938"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "9",
@@ -198,7 +203,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603070499442"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "11",
@@ -241,7 +247,7 @@
     {
       "id": "13",
       "title": "2025 McLaren GTS 4.0 2dr",
-      "price": "£164,990",
+      "price": "£139,750",
       "year": 2025,
       "mileage": "1,600 miles",
       "transmission": "Unknown",
@@ -254,6 +260,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509286695757"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£164,990",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -311,6 +323,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301140469"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "2025 McLaren GTS 4.0 2dr",
+      "price": "£144,990",
+      "year": 2025,
+      "mileage": "939 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/4309c71dc39745289f85f901746f190a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301126396"
         }
       ]
     }

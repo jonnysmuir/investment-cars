@@ -581,7 +581,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1933758"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "30",
@@ -617,7 +618,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1930143"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "32",
@@ -635,7 +637,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1410068"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "33",
@@ -653,7 +656,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2017876"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "34",
@@ -709,7 +713,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1938833"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "37",
@@ -727,7 +732,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2030937"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "38",
@@ -745,7 +751,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1664590"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "39",
@@ -919,6 +926,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169976477"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20174314"
         }
       ]
     },
@@ -957,6 +968,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511107791319"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2004 Ferrari 575M 5.8 Maranello F1 2dr",
+      "price": "£87,995",
+      "year": 2004,
+      "mileage": "32,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a12e87277ebe42baafdbc99b07c03fc5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311186793"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "2003 Ferrari 575M 5.8 Maranello F1 2dr",
+      "price": "£84,995",
+      "year": 2003,
+      "mileage": "40,300 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d6f03fdf73324b58829ca240836a5f8d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311177382"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "2004 Ferrari 575M Maranello",
+      "price": "£87,995",
+      "year": "2004",
+      "mileage": "32,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2041060/2004-ferrari-575-69cc933ea6fe0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=42625bcdbb30814dcb8480cebbe4cff4",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041060"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "2003 Ferrari 575M Maranello F1",
+      "price": "£84,995",
+      "year": "2003",
+      "mileage": "40,300 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2041059/2003-ferrari-575-69cc933e096f1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=718582efd6db0a3d1d26b7c3a10f01c8",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041059"
         }
       ]
     }

@@ -1117,14 +1117,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1944562/2025-bmw-m3-68cd8822c1fad.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=763d3478d11409d5ddf268ca9340b591",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1944562"
         }
       ],
-      "bodyType": "Estate"
+      "bodyType": "Estate",
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "55",
@@ -3668,7 +3669,7 @@
       "price": "£18,990",
       "year": 2003,
       "mileage": "68,406 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/3bc6bc06ebe04087938fd368cbf8db8d.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -3677,6 +3678,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508135412433"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19809991"
         }
       ],
       "bodyType": "Coupe"
@@ -4378,7 +4383,7 @@
       "price": "£69,995",
       "year": 2025,
       "mileage": "4,245 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/2ff9321d2b9846b9bcad7b44449934bc.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -4387,6 +4392,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507014053384"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19804963"
         }
       ],
       "unlistedDate": "2026-03-31",
@@ -10876,7 +10885,7 @@
       "price": "£74,990",
       "year": 2024,
       "mileage": "15,275 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/319c7f8b8325493785f42d603c4ceff0.jpg",
       "featured": false,
@@ -10886,6 +10895,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603251005748"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19804947"
         }
       ],
       "unlistedDate": "2026-03-30"
@@ -12074,6 +12087,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301145198"
+        }
+      ]
+    },
+    {
+      "id": "572",
+      "title": "2011 Used  BMW M3",
+      "price": "£34,995",
+      "year": 2011,
+      "mileage": "1,247 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/e90-m3-07-13/m3/bmw-e90-m3-07-13-m3-S4906433-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19074879"
+        }
+      ]
+    },
+    {
+      "id": "573",
+      "title": "1995 BMW (E36) M3 GT",
+      "price": "POA",
+      "year": "1995",
+      "mileage": "139,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2040241/1995-bmw-m3-69cbeab9782b4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=51facdb9023cc493e2b4898164cf2b6a",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040241"
+        }
+      ]
+    },
+    {
+      "id": "574",
+      "title": "2002 BMW M3 Touring",
+      "price": "POA",
+      "year": "2002",
+      "mileage": "656 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Estate",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2040235/2000-bmw-m3-69cbe0bc18a7d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=788082e60438c7e19deba3146d7a258a",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040235"
         }
       ]
     }

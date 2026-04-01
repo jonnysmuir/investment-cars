@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr 6 Speed Paddle Shift (396 g/km, 460 bhp) Fantastic condition",
-      "price": "£38,495",
+      "price": "£39,990",
       "year": 2003,
       "mileage": "43000 miles",
       "transmission": "6-Speed Manual",
@@ -829,6 +829,10 @@
         {
           "price": "£39,990",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1777,7 +1781,7 @@
     {
       "id": "84",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr Petrol Manual (396 g/km, 460 bhp)",
-      "price": "£39,990",
+      "price": "£38,495",
       "year": 2003,
       "mileage": "43,000 miles",
       "transmission": "6-Speed Manual",
@@ -1794,6 +1798,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18689521"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£39,990",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1951,6 +1961,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110607358"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20047236"
         }
       ]
     },
@@ -2280,7 +2294,7 @@
     {
       "id": "109",
       "title": "2005 Aston Martin Vanquish 5.9 S 2dr",
-      "price": "£57,990",
+      "price": "£59,850",
       "year": 2005,
       "mileage": "24,000 miles",
       "transmission": "Unknown",
@@ -2297,6 +2311,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17632029"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£57,990",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -3173,6 +3193,63 @@
         }
       ],
       "unlistedDate": "2026-03-31"
+    },
+    {
+      "id": "155",
+      "title": "2006 ASTON MARTIN VANQUISH S",
+      "price": "£89,995",
+      "year": "2006",
+      "mileage": "15,800 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/24231110/2006-aston-martin-vanquish-68bb819461521.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0c1dc9baa3a713a62354e1b1930edf90",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1937961"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "title": "2019 Aston Martin Vanquish Zagato",
+      "price": "£424,950",
+      "year": "2019",
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29244686/2019-aston-martin-vanquish-69cc80bf0c298.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f01386db3662a64bf3b107504e06a027",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040719"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "title": "2013 Aston Martin Vanquish Zagato",
+      "price": "£83,950",
+      "year": "2013",
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29244526/2013-aston-martin-vanquish-69cc809d9ea1a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4f22a1ee06f618bb14a81508dbb1ed19",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040711"
+        }
+      ]
     }
   ]
 }

@@ -852,7 +852,7 @@
     {
       "id": "41",
       "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 5 2dr",
-      "price": "£25,495",
+      "price": "£24,995",
       "year": 2011,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
@@ -875,6 +875,10 @@
         {
           "price": "£24,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1019,7 +1023,7 @@
     {
       "id": "48",
       "title": "2015 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
-      "price": "£36,950",
+      "price": "£36,990",
       "year": 2015,
       "mileage": "14000 miles",
       "transmission": "Automatic",
@@ -1042,13 +1046,17 @@
         {
           "price": "£36,990",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£36,950",
+          "date": "2026-04-01"
         }
       ]
     },
     {
       "id": "49",
       "title": "2012 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
-      "price": "£28,500",
+      "price": "£28,995",
       "year": 2012,
       "mileage": "40000 miles",
       "transmission": "Automatic",
@@ -1071,6 +1079,10 @@
         {
           "price": "£28,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£28,500",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1889,7 +1901,7 @@
     {
       "id": "91",
       "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 4 2dr",
-      "price": "£25,750",
+      "price": "£25,495",
       "year": 2011,
       "mileage": "19,500 miles",
       "transmission": "Automatic",
@@ -1906,6 +1918,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20169554"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,750",
+          "date": "2026-04-01"
         }
       ]
     },

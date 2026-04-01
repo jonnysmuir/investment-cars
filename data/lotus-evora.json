@@ -630,13 +630,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/27374563/2013-lotus-evora-6972302317d2e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=73f84634b26722e58f6bd228fd83e1b2",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003097"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "31",
@@ -1039,6 +1040,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509256620299"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "2015 Used  LOTUS EVORA",
+      "price": "£51,995",
+      "year": 2015,
+      "mileage": "9758 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/evora/lotus-evora-1421596070-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20179830"
         }
       ]
     }

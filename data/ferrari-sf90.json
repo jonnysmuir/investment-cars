@@ -300,6 +300,14 @@
         {
           "price": "£369,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£369,950",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -417,7 +425,7 @@
     {
       "id": "19",
       "title": "2021 Ferrari SF90 Stradale 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£299,995",
+      "price": "£289,850",
       "year": 2021,
       "mileage": "6,500 miles",
       "transmission": "F1 Automated Manual",
@@ -447,8 +455,13 @@
         {
           "price": "£289,850",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£299,995",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "20",
@@ -576,8 +589,17 @@
         {
           "price": "£285,000",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£289,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£275,000",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "25",
@@ -672,7 +694,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017199"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "30",
@@ -696,7 +719,8 @@
           "price": "£289,995",
           "date": "2026-03-27"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "31",
@@ -714,12 +738,13 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025859"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "32",
       "title": "2022 Ferrari SF90 Spider 4.0T V8 7.9kWh Convertible 2dr Petr",
-      "price": "£449,995",
+      "price": "£424,995",
       "year": "2022",
       "mileage": "1,000 miles",
       "transmission": "Automatic",
@@ -733,7 +758,13 @@
           "url": "https://www.carandclassic.com/car/C1998817"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£449,995",
+          "date": "2026-04-01"
+        }
+      ]
     },
     {
       "id": "33",
@@ -770,7 +801,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1991424"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "35",
@@ -908,7 +940,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507124422261"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "42",
@@ -952,7 +985,8 @@
           "price": "£284,995",
           "date": "2026-03-20"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "44",
@@ -1004,7 +1038,8 @@
           "price": "£279,900",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "46",
@@ -1113,8 +1148,17 @@
         {
           "price": "£274,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£267,000",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£274,995",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "51",
@@ -1142,7 +1186,8 @@
           "price": "£299,995",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "52",
@@ -1188,8 +1233,17 @@
         {
           "price": "£289,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£284,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£289,995",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "54",
@@ -1436,6 +1490,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301136069"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2021 Used  FERRARI SF90 ASSETTO FIORANO S-A",
+      "price": "£314,950",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/assetto-fiorano/ferrari-sf90-assetto-fiorano-S4945162-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20172516"
         }
       ]
     }

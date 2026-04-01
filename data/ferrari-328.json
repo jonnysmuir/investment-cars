@@ -501,7 +501,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19331232"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "26",
@@ -519,7 +520,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19301369"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "27",
@@ -541,7 +543,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512248787742"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "28",
@@ -603,8 +606,17 @@
         {
           "price": "£89,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£92,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£89,995",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "30",
@@ -632,7 +644,8 @@
           "price": "£74,995",
           "date": "2026-03-14"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "31",
@@ -673,7 +686,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2011262"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "33",
@@ -691,7 +705,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1952212"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "34",
@@ -709,7 +724,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1874852"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "35",
@@ -745,7 +761,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2015131"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "37",
@@ -757,14 +774,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1991862/1986-ferrari-328-694be05d81887.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fcb6573257bce45fe7d9f95311500110",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1991862"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": null
     },
     {
       "id": "38",
@@ -776,14 +793,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/24472715/1989-ferrari-328-68c96f3d4d860.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bab661958b2ec89472fac4dce8e9769c",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1942813"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "39",
@@ -858,7 +876,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029644"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "43",
@@ -895,7 +914,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20121277"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "45",
@@ -1027,6 +1047,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291109918"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "1989 Ferrari 328 3.2 GTS 2dr",
+      "price": "£89,980",
+      "year": 1989,
+      "mileage": "28,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/2fa1ea81d8d148dca9f324669ae8ab2e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301138689"
         }
       ]
     }

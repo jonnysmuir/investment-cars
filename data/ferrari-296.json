@@ -237,7 +237,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2024669"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "13",
@@ -255,7 +256,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2002584"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "14",
@@ -292,7 +294,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1954994"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "16",
@@ -310,7 +313,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1959951"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "17",
@@ -353,7 +357,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1906768"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "19",
@@ -419,7 +424,8 @@
           "price": "£244,995",
           "date": "2026-03-23"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "22",
@@ -455,7 +461,8 @@
           "price": "£204,995",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "23",
@@ -593,7 +600,8 @@
           "price": "£199,000",
           "date": "2026-03-23"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "28",
@@ -679,7 +687,8 @@
           "price": "£205,000",
           "date": "2026-03-23"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "31",
@@ -749,7 +758,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19177281"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "34",
@@ -771,7 +781,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20168969"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "35",
@@ -849,7 +860,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250206775"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "39",
@@ -886,7 +898,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202411096115025"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "41",
@@ -1064,12 +1077,12 @@
     },
     {
       "id": "47",
-      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "title": "2023 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£237,000",
       "year": 2023,
-      "mileage": "N/A",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "mileage": "2,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts/ferrari-296-gts-1419137058-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
@@ -1078,6 +1091,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19811401"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311170859"
         }
       ],
       "unlistedDate": "2026-03-30"
@@ -1103,7 +1120,7 @@
     },
     {
       "id": "49",
-      "title": "2023 Ferrari 296  GTB Asseto Fiorano £40k Spec UK RHD",
+      "title": "2023 Ferrari 296  GTB Asseto Fiorano £125k of Options UK RHD",
       "price": "£235,000",
       "year": "2023",
       "mileage": "4,500 miles",
@@ -1731,6 +1748,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311152111"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2024 Ferrari 296 GTS 3.0T V6 7.45kWh Spider 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
+      "price": "£299,999",
+      "year": 2024,
+      "mileage": "600 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b5177d886f254f0db3b4c4b126ce79ce.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311172722"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£199,000",
+      "year": 2022,
+      "mileage": "5,752 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/90667a50cc744a7799c340e400258577.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011190779"
         }
       ]
     }

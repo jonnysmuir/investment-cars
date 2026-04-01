@@ -751,7 +751,8 @@
           "price": "£59,995",
           "date": "2026-03-21"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "38",
@@ -819,11 +820,12 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602089762993"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "41",
-      "title": "2008 Ferrari 612 5.7 Scaglietti FI 2dr",
+      "title": "2008 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
       "price": "£64,950",
       "year": 2008,
       "mileage": "45,000 miles",
@@ -841,7 +843,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509186426902"
         }
-      ]
+      ],
+      "bodyType": "Coupe"
     },
     {
       "id": "42",
@@ -953,7 +956,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1911917"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "48",
@@ -971,7 +975,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1992305"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "49",
@@ -989,7 +994,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023521"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "50",
@@ -1007,7 +1013,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867234"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "51",
@@ -1025,7 +1032,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2017932"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "52",
@@ -1043,7 +1051,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023446"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "53",
@@ -1081,7 +1090,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029694"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "55",
@@ -1099,7 +1109,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023499"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "56",
@@ -1199,6 +1210,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602230144995"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17627485"
         }
       ],
       "bodyType": "Coupe"
@@ -1219,7 +1234,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510177231424"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "62",
@@ -1286,14 +1302,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/83367821b67c4b9c85a25b6d48105ce8.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309031498291"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "65",
@@ -1305,14 +1322,15 @@
       "image": "",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306279020557"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "66",
@@ -1324,14 +1342,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1950304/2005-ferrari-612-68daa3d39c1c9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1aa0383af022feea51bf75d0e3b1b0a0",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1950304"
         }
       ],
-      "unlistedDate": "2026-03-27"
+      "bodyType": null
     },
     {
       "id": "67",
@@ -1431,6 +1449,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602270267972"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "2005 Ferrari 612 Scaglietti F1 5.7 2dr",
+      "price": "£69,995",
+      "year": 2005,
+      "mileage": "38,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/842d72026b704dbbae77e10468a62620.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311165666"
         }
       ]
     }

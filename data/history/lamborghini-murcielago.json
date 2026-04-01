@@ -1419,5 +1419,58 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-04-01",
+    "listings": [
+      {
+        "id": "1",
+        "price": 850000,
+        "year": 2010,
+        "mileage": 12500,
+        "transmission": "E-Gear",
+        "status": "active"
+      },
+      {
+        "id": "3",
+        "price": 499995,
+        "year": 2007,
+        "mileage": 2005,
+        "transmission": "E-Gear",
+        "status": "active"
+      },
+      {
+        "id": "4",
+        "price": 394995,
+        "year": 2006,
+        "mileage": 340,
+        "transmission": "E-Gear",
+        "status": "active"
+      },
+      {
+        "id": "23",
+        "price": 394995,
+        "year": "2006",
+        "mileage": 340,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "27",
+        "price": 499995,
+        "year": "2007",
+        "mileage": 2005,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "29",
+        "price": 850000,
+        "year": "2010",
+        "mileage": 12500,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]

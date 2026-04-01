@@ -167,7 +167,8 @@
           "price": "£148,500",
           "date": "2026-03-25"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "9",
@@ -215,7 +216,8 @@
           "price": "£89,950",
           "date": "2026-03-14"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "10",
@@ -313,8 +315,17 @@
         {
           "price": "£117,990",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£117,950",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£117,990",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "12",
@@ -393,8 +404,17 @@
         {
           "price": "£118,000",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£119,850",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£118,000",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "13",
@@ -542,8 +562,17 @@
         {
           "price": "£117,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£117,990",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£117,950",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "15",
@@ -571,7 +600,8 @@
           "price": "£99,950",
           "date": "2026-03-11"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "16",
@@ -637,7 +667,7 @@
     {
       "id": "18",
       "title": "2020 McLaren GT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (620 ps)",
-      "price": "£86,948",
+      "price": "£84,948",
       "year": 2020,
       "mileage": "14,500 miles",
       "transmission": "Automatic",
@@ -703,6 +733,10 @@
         {
           "price": "£82,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£86,948",
+          "date": "2026-04-01"
         }
       ],
       "bodyType": "Coupe"
@@ -871,13 +905,22 @@
         {
           "price": "£117,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£118,000",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£117,995",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "23",
       "title": "2020 McLaren GT 4.0T V8 SSG Euro 6 2dr",
-      "price": "£86,948",
+      "price": "£84,948",
       "year": "2020",
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -890,7 +933,14 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2020915"
         }
-      ]
+      ],
+      "priceHistory": [
+        {
+          "price": "£86,948",
+          "date": "2026-04-01"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "24",
@@ -989,7 +1039,8 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1985478"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "28",
@@ -1026,7 +1077,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202502269508200"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "30",
@@ -1125,7 +1177,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602129891304"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "35",
@@ -1180,13 +1233,22 @@
         {
           "price": "£116,000",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£117,995",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£116,000",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "36",
       "title": "2020 McLaren GT 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£87,199",
+      "price": "£85,199",
       "year": 2020,
       "mileage": "25,000 miles",
       "transmission": "Unknown",
@@ -1199,7 +1261,14 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602230138838"
         }
-      ]
+      ],
+      "priceHistory": [
+        {
+          "price": "£87,199",
+          "date": "2026-04-01"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "37",
@@ -1254,8 +1323,17 @@
         {
           "price": "£88,500",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£88,679",
+          "date": "2026-04-01"
+        },
+        {
+          "price": "£88,500",
+          "date": "2026-04-01"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "38",
@@ -1344,13 +1422,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a023151061b648baa0fe5178b91848a5.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603220905584"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "43",
@@ -1363,13 +1442,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/77550673b9b94c68b886310aec341ee9.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210888233"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "44",
@@ -1382,18 +1462,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/addb0f09be2c470bae4870fb7c8547e4.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190821449"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-01"
     },
     {
       "id": "45",
       "title": "2022 McLaren GT 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£99,985",
+      "price": "£102,985",
       "year": 2022,
       "mileage": "9,500 miles",
       "transmission": "Unknown",
@@ -1424,6 +1505,10 @@
         {
           "price": "£99,786",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£99,985",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1468,7 +1553,7 @@
     {
       "id": "48",
       "title": "2025 Used  MCLAREN GT V8 S-A",
-      "price": "£164,990",
+      "price": "£139,750",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -1481,6 +1566,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19216971"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£164,990",
+          "date": "2026-04-01"
         }
       ]
     },
