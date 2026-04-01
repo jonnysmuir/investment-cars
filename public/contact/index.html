@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Collectorly</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0a;
+      --color-surface: #141414;
+      --color-border: #2a2a2a;
+      --color-text: #e8e8e8;
+      --color-text-muted: #888;
+      --color-accent: #c9a84c;
+      --nav-bg: rgba(10, 10, 10, 0.85);
+      --btn-text: #0a0a0a;
+    }
+
+    .light {
+      --color-bg: #f5f3ef;
+      --color-surface: #ffffff;
+      --color-border: #ddd8d0;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #b8942e;
+      --nav-bg: rgba(245, 243, 239, 0.88);
+      --btn-text: #ffffff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    body, nav, footer, .form-group input, .form-group textarea {
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 3rem;
+      background: var(--nav-bg); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .logo {
+      font-size: 1.2rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--color-accent); text-decoration: none;
+    }
+    .logo:hover { opacity: 0.85; }
+    .nav-right { display: flex; align-items: center; gap: 1.25rem; }
+    nav a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--color-accent); }
+    .auth-link { text-transform: none !important; letter-spacing: 0 !important; }
+    .auth-logged-in { color: var(--color-accent) !important; cursor: pointer; }
+    .auth-dropdown {
+      display: none; position: absolute; top: 100%; right: 0; margin-top: 0.5rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 8px; min-width: 160px; padding: 0.5rem 0; z-index: 200;
+    }
+    .auth-dropdown-open { display: block; }
+    .auth-dropdown a {
+      display: block; padding: 0.6rem 1rem; font-size: 0.85rem;
+      color: var(--color-text) !important; text-transform: none !important; letter-spacing: 0 !important;
+    }
+    .auth-dropdown a:hover { background: var(--color-border); color: var(--color-accent) !important; }
+    .theme-toggle {
+      background: none; border: 1px solid var(--color-border); border-radius: 50%;
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: var(--color-text-muted); font-size: 1rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+    .page {
+      max-width: 560px; margin: 0 auto;
+      padding: 8rem 1.5rem 4rem;
+    }
+
+    .section-label {
+      font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--color-accent); margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600;
+      margin-bottom: 1rem; letter-spacing: -0.01em;
+    }
+    .page > p {
+      color: var(--color-text-muted); margin-bottom: 2.5rem; font-size: 0.95rem;
+    }
+
+    .form-group { margin-bottom: 1.5rem; }
+    .form-group label {
+      display: block; font-size: 0.78rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 0.5rem;
+    }
+    .form-group input, .form-group textarea {
+      width: 100%; padding: 0.85rem 1rem;
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 6px; color: var(--color-text);
+      font-size: 0.95rem; font-family: inherit; transition: border-color 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--color-accent);
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+
+    .btn {
+      display: inline-block; padding: 0.85rem 2.4rem;
+      background: var(--color-accent); color: var(--btn-text);
+      border: none; border-radius: 6px;
+      font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; cursor: pointer; transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 3rem; text-align: center;
+      font-size: 0.8rem; color: var(--color-text-muted);
+    }
+
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="logo">Collectorly</a>
+    <div class="nav-right">
+      <a href="/listings">Listings</a>
+      <a href="/analysis">Analysis</a>
+      <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
+    </div>
+  </nav>
+
+  <div class="page">
+    <p class="section-label">Contact</p>
+    <h1 class="section-title">Get in Touch</h1>
+    <p>Have a question about a vehicle or the market? Drop us a message and we'll get back to you.</p>
+
+    <form onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="What can we help with?"></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+
+  <footer>&copy; 2026 Collectorly. All rights reserved.</footer>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    if (localStorage.getItem('theme') === 'light') {
+      root.classList.add('light');
+      toggle.innerHTML = '&#9728;';
+    }
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      toggle.innerHTML = isLight ? '&#9728;' : '&#9790;';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      const data = Object.fromEntries(new FormData(e.target));
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json();
+        if (res.ok) {
+          btn.textContent = 'Message Sent!';
+          e.target.reset();
+        } else {
+          btn.textContent = json.error || 'Something went wrong';
+        }
+      } catch {
+        btn.textContent = 'Network error';
+      }
+      btn.style.opacity = '0.7';
+      setTimeout(() => {
+        btn.textContent = 'Send Message';
+        btn.style.opacity = '1';
+        btn.disabled = false;
+      }, 3000);
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/auth.js"></script>
+
+</body>
+</html>

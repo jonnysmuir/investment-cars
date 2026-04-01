@@ -263,13 +263,9 @@
   <nav>
     <a href="/" class="logo">Collectorly</a>
     <div class="nav-right">
-      <a href="/home-1">Home 1</a>
-      <a href="/home-2">Home 2</a>
-      <a href="/home-3">Home 3</a>
-      <a href="/home-4">Home 4</a>
       <a href="/listings" class="nav-active">Listings</a>
       <a href="/analysis">Analysis</a>
-      <a href="#" id="contactLink">Get in Touch</a>
+      <a href="/contact">Get in Touch</a>
       <a href="/account/login" id="authLink" class="auth-link">Sign In</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light mode">&#9790;</button>
     </div>
@@ -321,11 +317,7 @@
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
     });
 
-    // Contact link → homepage
-    document.getElementById('contactLink').addEventListener('click', (e) => {
-      e.preventDefault();
-      window.location.href = '/#contact';
-    });
+    // Contact link (now a direct <a> to /contact, no JS needed)
 
     // Models per make (loaded dynamically from API)
     let models = {};

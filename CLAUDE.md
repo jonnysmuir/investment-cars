@@ -36,11 +36,11 @@ data/
   collecting-cars-sold/            # Collecting Cars sold archives
   car-and-classic-sold/            # Car & Classic sold archives
 public/
-  index.html                       # Homepage/dashboard
+  index.html                       # Homepage (single, fetches /api/homepage)
   listings/index.html              # Model listing page
   analysis/index.html              # Analysis/charting page
   cars/{slug}/                     # 168 individual car model pages
-  home-1/ through home-4/          # Homepage design iterations
+  contact/index.html               # Contact form page
   js/auth.js                       # Shared frontend auth client (Supabase init, nav updates)
   account/login/index.html         # Login/register page
   account/dashboard/index.html     # User dashboard (watchlist, favourites, preferences)
@@ -268,6 +268,16 @@ These must be set on Hostinger in addition to the existing DB credentials:
   ALTER TABLE watchlist DROP INDEX unique_user_model;
   ALTER TABLE watchlist ADD INDEX idx_user_slug (user_id, model_slug);
   ```
+
+## Homepage
+- **Single homepage** at `public/index.html` — the old `home-1/` through `home-4/` variants have been deleted.
+- **Data source**: Fetches `GET /api/homepage` on page load (cached 1-min TTL in server.js). No build-time generation needed.
+- **7 sections**: Hero with stats bar, Browse by Make (horizontal scroll), Market at a Glance (snapshot cards), Featured Models (top 4 by listing count), Recently Added (6 latest listings), Model Search (typeahead), CTA/Sign Up (auth-aware).
+- **Auth-aware CTA**: The bottom CTA section checks `/api/auth/me` and swaps "Create Free Account" → "Go to Dashboard" for logged-in users.
+- **Mobile nav**: Hamburger toggle on viewports ≤768px — the `.nav-right` div toggles `.open` class.
+- **Image fallbacks**: All model/listing images use `onerror` handlers to show a dark placeholder with the model name instead of broken image icons.
+- **Contact page**: `public/contact/index.html` — standalone page with the contact form (previously embedded in the homepage). All nav "Get in Touch" links across the site now point to `/contact`.
+- **Navigation**: Main nav is: Listings, Analysis, Sign In/user dropdown, theme toggle. No more Home 1-4 links.
 
 ## Common Pitfalls
 - Scraper failures can cause false "unlisted" detections — the 3-day rule in `.state/` files prevents this
