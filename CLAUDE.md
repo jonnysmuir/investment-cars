@@ -272,8 +272,9 @@ These must be set on Hostinger in addition to the existing DB credentials:
 ## Homepage
 - **Single homepage** at `public/index.html` — the old `home-1/` through `home-4/` variants have been deleted.
 - **Data source**: Fetches `GET /api/homepage` on page load (cached 1-min TTL in server.js). No build-time generation needed.
-- **7 sections**: Hero with stats bar, Browse by Make (horizontal scroll), Market at a Glance (snapshot cards), Featured Models (top 4 by listing count), Recently Added (6 latest listings), Model Search (typeahead), CTA/Sign Up (auth-aware).
-- **Auth-aware CTA**: The bottom CTA section checks `/api/auth/me` and swaps "Create Free Account" → "Go to Dashboard" for logged-in users.
+- **Hero section** contains: headline, subtitle, two CTA buttons, stats bar (models/listings/auctions), "Find a Model" search with typeahead, and the sign-up CTA. The search input uses translucent glass styling (`rgba` backgrounds, `backdrop-filter: blur`) to overlay the hero image. Hero height is `min-height: 85vh`.
+- **Sections below hero**: CTA/Sign Up (auth-aware), Browse by Make (horizontal scroll), Market at a Glance (snapshot cards), Featured Models (top 4 by listing count), Recently Added (6 latest listings).
+- **Auth-aware CTA**: Checks `/api/auth/me` and swaps "Create Free Account" → "Go to Dashboard" for logged-in users.
 - **Mobile nav**: Hamburger toggle on viewports ≤768px — the `.nav-right` div toggles `.open` class.
 - **Image fallbacks**: All model/listing images use `onerror` handlers to show a dark placeholder with the model name instead of broken image icons.
 - **Contact page**: `public/contact/index.html` — standalone page with the contact form (previously embedded in the homepage). All nav "Get in Touch" links across the site now point to `/contact`.
@@ -286,6 +287,7 @@ These must be set on Hostinger in addition to the existing DB credentials:
 - When adding new listing source platforms, update the `ALLOWED_DOMAINS` array in `routes/tracking.js` and the `normalisePlatform()` mapping
 - The universal generator (`generate-pages.js`) reads the Ferrari 458 listing template and F430 analysis template — the `trackUrl()` and `renderSourceLinks()` functions are in the 458 template, so changes to tracking link format only need to be made there before re-running the generator.
 - **Hero images must be verified URLs** — when adding new models, do NOT guess Wikimedia Commons filenames. Search for the actual file page on Commons and verify the thumbnail URL returns HTTP 200 before using it. Guessed URLs will 404.
+- **Do NOT use manufacturer CDN URLs** (ferrari.com, porsche.com, lamborghini.com, etc.) for hero images — they block hotlinking with 403 errors. Always use Wikimedia Commons images instead. Run `node scripts/audit-hero-images.js` to check for broken images.
 - **Cars & Classic makeIds** — Aston Martin: 7, BMW: 10, Ferrari: 20, Lamborghini: 26, Lotus: 29, Maserati: 30, Mercedes: 31, Porsche: 35, Audi: 108, Lexus: 497, McLaren: 2180, Alpine: 2158. Find new makeIds by searching `carandclassic.com/list/{makeId}/` or checking the URL when browsing by make.
 - **Analysis index page is auto-updated** by `generate-pages.js` — the hardcoded `models` array in `public/analysis/index.html` is replaced with the full sorted model list from `models.json` every time the generator runs.
 - **Vantage consolidation** — `aston-martin-v8-vantage` was merged into `aston-martin-vantage` with generation filters (V8 Vantage / New Vantage / New Vantage II). The old V8 Vantage slug, page, and data files no longer exist. Any old bookmarks or links to `/cars/aston-martin-v8-vantage/` will 404.
