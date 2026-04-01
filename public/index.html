@@ -345,9 +345,7 @@
     }
     .search-result:hover { background: var(--color-accent-dim); }
     .search-result-name { font-size: 0.92rem; font-weight: 500; }
-    .search-result-meta {
-      font-size: 0.78rem; color: var(--color-text-muted);
-    }
+    .search-result-meta { font-size: 0.78rem; color: var(--color-text-muted); }
 
     /* ── CTA Section ── */
     .cta-section {
@@ -492,6 +490,25 @@
     </div>
   </section>
 
+  <!-- Search -->
+  <div class="section search-section">
+    <div class="section-header" style="justify-content: center;">
+      <h2 class="section-title">Find a Model</h2>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">&#128269;</span>
+      <input type="text" class="search-input" id="modelSearch" placeholder="Search models..." autocomplete="off">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="section cta-section" id="ctaSection">
+    <h2>Track Prices. Discover Trends. Find Your Next Car.</h2>
+    <p>Create a free account to set up watchlists, price alerts, and track your portfolio.</p>
+    <a href="/account/login" class="btn" id="ctaBtn">Create Free Account</a>
+  </div>
+
   <hr class="section-divider">
 
   <!-- Section 2: Browse by Make -->
@@ -542,24 +559,6 @@
     </div>
   </div>
 
-  <!-- Section 6: Search -->
-  <div class="section search-section">
-    <div class="section-header" style="justify-content: center;">
-      <h2 class="section-title">Find a Model</h2>
-    </div>
-    <div class="search-wrap">
-      <span class="search-icon">&#128269;</span>
-      <input type="text" class="search-input" id="modelSearch" placeholder="Search models..." autocomplete="off">
-      <div class="search-results" id="searchResults"></div>
-    </div>
-  </div>
-
-  <!-- Section 7: CTA -->
-  <div class="section cta-section" id="ctaSection">
-    <h2>Track Prices. Discover Trends. Find Your Next Car.</h2>
-    <p>Create a free account to set up watchlists, price alerts, and track your portfolio.</p>
-    <a href="/account/login" class="btn" id="ctaBtn">Create Free Account</a>
-  </div>
 
   <!-- Footer -->
   <footer>
