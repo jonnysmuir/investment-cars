@@ -1,8 +1,8 @@
 {
   "model": "McLaren 720S",
   "slug": "mclaren-720s",
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2018_McLaren_720S_V8_SSG_4.0.jpg/1920px-2018_McLaren_720S_V8_SSG_4.0.jpg",
-  "heroCredit": "Wikimedia Commons / CC BY-SA 4.0",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2018_McLaren_720S_in_Azores_Orange%2C_front_right.jpg/1920px-2018 McLaren 720S in Azores Orange, front right.jpg",
+  "heroCredit": "Mr.choppers / CC BY-SA 3.0",
   "description": "The McLaren 720S, produced from 2017 to 2023, redefined the Super Series with a new 4.0-litre twin-turbo V8 producing 710 bhp and the innovative Monocage II carbon fibre structure. Widely praised for its combination of performance, comfort, and dramatic design, it was available as coupe and spider.",
   "listings": [
     {
@@ -693,7 +693,7 @@
     {
       "id": "30",
       "title": "2017 McLaren 720S 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (720 ps) 12 MONTH WARRANTY + FINANCE",
-      "price": "£118,995",
+      "price": "£114,989",
       "year": 2017,
       "mileage": "39,000 miles",
       "transmission": "Unknown",
@@ -771,6 +771,10 @@
         {
           "price": "£114,989",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£118,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Coupe"
@@ -900,6 +904,14 @@
         {
           "price": "£131,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£131,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1090,6 +1102,14 @@
         {
           "price": "£148,000",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£144,990",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£148,000",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Coupe"
@@ -1625,6 +1645,14 @@
         {
           "price": "£138,500",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£142,500",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Coupe"
@@ -2019,7 +2047,7 @@
     },
     {
       "id": "82",
-      "title": "2017 McLaren 720S",
+      "title": "2017 McLaren 720S 4.0T V8 Performance SSG Euro 6",
       "price": "£124,995",
       "year": "2017",
       "mileage": "16,000 miles",
@@ -2038,12 +2066,12 @@
     },
     {
       "id": "83",
-      "title": "2019 McLaren 720S",
+      "title": "2019 McLaren 720S Spider V8 2dr SSG MSO PAINT PERFORMANCE SP",
       "price": "£162,900",
       "year": "2019",
       "mileage": "21,504 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/new/29229133/2019-mclaren-720s-spider-69cc635775b1f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9ed29ef81e9ce65b44f6651fcca90d67",
       "featured": false,
       "dateAdded": "2026-04-01",
@@ -2052,6 +2080,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040435"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "2019 McLaren 4.0 720s V8 Semi-Auto 2dr",
+      "price": "£118,000",
+      "year": 2019,
+      "mileage": "51,253 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/34ab6afb2c6d4dc095527b2f597a0b28.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011219515"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "2022 McLaren 720S 4.0T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£172,950",
+      "year": 2022,
+      "mileage": "4,850 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fc2d686cb15c40648c0cc6d11bedcb24.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011215862"
         }
       ]
     }

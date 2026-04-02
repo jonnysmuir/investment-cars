@@ -1,8 +1,8 @@
 {
   "model": "Ferrari 308",
   "slug": "ferrari-308",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dd3f14984077c3b24323c4d-ferrari-308-gtb-1975-thumb?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ferrari_308_GT4%2C_Auto_2024%2C_Zurich_%28PANA0903%29.jpg/1920px-Ferrari 308 GT4, Auto 2024, Zurich (PANA0903).jpg",
+  "heroCredit": "Matti Blume / CC BY-SA",
   "description": "The Ferrari 308, produced from 1975 to 1985, is one of the most recognisable Ferraris ever made. Available as GTB (coupe) and GTS (targa), later variants included fuel-injected GTBi/GTSi models and the Quattrovalvole four-valve versions.",
   "listings": [
     {
@@ -921,13 +921,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2017796/1983-ferrari-308-6997a11bda12f.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=579c47d3efd32fa0ce6b4b904d7b6e53",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017796"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "48",
@@ -1026,7 +1027,7 @@
     },
     {
       "id": "53",
-      "title": "1984 Ferrari 308 GTB",
+      "title": "1984 Ferrari 308 GT/M",
       "price": "POA",
       "year": "1984",
       "mileage": "N/A",
@@ -1099,6 +1100,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040274"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "1980 Ferrari 308 GT4",
+      "price": "POA",
+      "year": "1980",
+      "mileage": "40,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2016517/1980-ferrari-308-699493f1bd80d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c020a30ac770d30b3a49e047ae14051d",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2016517"
         }
       ]
     }

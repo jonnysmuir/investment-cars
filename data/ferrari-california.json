@@ -1,8 +1,8 @@
 {
   "model": "Ferrari California",
   "slug": "ferrari-california",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5ddd4f3b0cf6995f44de9359-ferrari-california-2008-thumb?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2018_Ferrari_California_T%2C_front_left%2C_05-26-2025.jpg/1920px-2018 Ferrari California T, front left, 05-26-2025.jpg",
+  "heroCredit": "MercurySable99 / CC BY-SA 4.0",
   "description": "The Ferrari California, produced from 2008 to 2017, was Ferrari's front-engined V8 grand tourer with a retractable hard top. Evolving through California, California 30, and the turbocharged California T, it combined open-top motoring with everyday usability.",
   "listings": [
     {
@@ -833,7 +833,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/t/ferrari-california-t-1391813966-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -850,7 +850,8 @@
           "date": "2026-03-24"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "40",
@@ -959,6 +960,14 @@
         {
           "price": "£64,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£64,999",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1218,7 +1227,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2011501/2015-ferrari-california-6987d593c96b5.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6278a22da673942ce7ed5e496b15fce6",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1231,7 +1240,7 @@
           "date": "2026-03-13"
         }
       ],
-      "unlistedDate": "2026-03-29"
+      "bodyType": null
     },
     {
       "id": "54",
@@ -1313,7 +1322,7 @@
     {
       "id": "58",
       "title": "2015 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (560 ps)",
-      "price": "£69,995",
+      "price": "£68,495",
       "year": 2015,
       "mileage": "48,246 miles",
       "transmission": "Automatic",
@@ -1359,6 +1368,14 @@
         {
           "price": "£74,999",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£74,999",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Convertible"
@@ -1500,7 +1517,8 @@
           "price": "£64,995",
           "date": "2026-03-26"
         }
-      ]
+      ],
+      "bodyType": null
     },
     {
       "id": "63",
@@ -1585,7 +1603,7 @@
     {
       "id": "66",
       "title": "2017 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£77,989",
+      "price": "£79,995",
       "year": 2017,
       "mileage": "28,278 miles",
       "transmission": "F1 Automated Manual",
@@ -1631,6 +1649,10 @@
         {
           "price": "£79,995",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£77,989",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1979,6 +2001,14 @@
         {
           "price": "£69,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£74,999",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£68,495",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -2122,6 +2152,14 @@
         {
           "price": "£65,000",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£65,795",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£65,000",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -2198,6 +2236,14 @@
         {
           "price": "£84,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£84,980",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£84,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -2288,6 +2334,14 @@
         {
           "price": "£56,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£55,995",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£56,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -2576,14 +2630,14 @@
     {
       "id": "104",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£74,199",
+      "price": "£76,950",
       "year": 2015,
       "mileage": "33,000 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/98bbf6ea2249480ea45a88706f4ad4ea.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2594,8 +2648,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20178945"
         }
       ],
-      "unlistedDate": "2026-03-31",
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£74,199",
+          "date": "2026-04-02"
+        }
+      ]
     },
     {
       "id": "105",
@@ -2924,12 +2983,12 @@
     },
     {
       "id": "120",
-      "title": "2016 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
+      "title": "2016 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (s/s) (560 ps)",
       "price": "£89,950",
       "year": 2016,
       "mileage": "8,600 miles",
       "transmission": "F1 Automated Manual",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/b0a2f5fe8f864b3d970293a502538e74.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",

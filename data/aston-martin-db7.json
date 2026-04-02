@@ -1,8 +1,8 @@
 {
   "model": "Aston Martin DB7",
   "slug": "aston-martin-db7",
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Aston_Martin_DB7_Vantage_-_Flickr_-_The_Car_Spy_%286%29.jpg/1920px-Aston_Martin_DB7_Vantage_-_Flickr_-_The_Car_Spy_%286%29.jpg",
-  "heroCredit": "The Car Spy / CC BY 2.0",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2001_Aston_Martin_DB7_Vantage_Coupe_%2822747634970%29.jpg/1920px-2001 Aston Martin DB7 Vantage Coupe (22747634970).jpg",
+  "heroCredit": "Sicnag / CC BY 2.0",
   "description": "The Aston Martin DB7, produced from 1994 to 2004, was the model that saved Aston Martin. Initially powered by a supercharged 3.2-litre straight-six, the later Vantage variant received a 6.0-litre V12 producing 420 bhp. The V12 Vantage, particularly in manual guise, is the most collectible.",
   "listings": [
     {
@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2004 Aston Martin DB7 5.9 Volante 2dr",
-      "price": "£26,995",
+      "price": "£27,990",
       "year": 2004,
       "mileage": "60 miles",
       "transmission": "Automatic",
@@ -833,6 +833,10 @@
         {
           "price": "£27,990",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£26,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -862,7 +866,7 @@
     {
       "id": "41",
       "title": "2000 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
-      "price": "£17,995",
+      "price": "£17,950",
       "year": 2000,
       "mileage": "61,411 miles",
       "transmission": "Automatic",
@@ -879,6 +883,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281095761"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£17,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -908,7 +918,7 @@
     {
       "id": "43",
       "title": "2000 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
-      "price": "£29,950",
+      "price": "£28,950",
       "year": 2000,
       "mileage": "37,500 miles",
       "transmission": "Automatic",
@@ -935,6 +945,10 @@
         {
           "price": "£28,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1214,7 +1228,7 @@
     {
       "id": "56",
       "title": "2003 Aston Martin DB7 GTA Coupe Touchtronic",
-      "price": "£25,000",
+      "price": "£24,900",
       "year": "2003",
       "mileage": "56,000 miles",
       "transmission": "Automatic",
@@ -1227,6 +1241,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2036420"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,000",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1485,7 +1505,7 @@
     {
       "id": "70",
       "title": "2002 Aston Martin DB7 5.9 Vantage 2dr",
-      "price": "£27,632",
+      "price": "£27,411",
       "year": 2002,
       "mileage": "35,000 miles",
       "transmission": "Unknown",
@@ -1498,6 +1518,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505242765147"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£27,632",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1636,12 +1662,12 @@
     },
     {
       "id": "78",
-      "title": "2001 Aston Martin DB7",
+      "title": "2001 Aston Martin Aston Martin DB7 Vantage Coupe 5.9 Manual Petrol 2dr",
       "price": "£19,995",
       "year": 2001,
       "mileage": "79,181 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/cda4d25f3e5c49e3a8bb6c67674f5ec0.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1655,12 +1681,12 @@
     },
     {
       "id": "79",
-      "title": "2002 Aston Martin DB7 5.9 Vantage 2dr",
+      "title": "2002 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
       "price": "£19,950",
       "year": 2002,
       "mileage": "40,007 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/04e9d17ed42d4fd3861ec71249a828ee.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1713,7 +1739,7 @@
     {
       "id": "82",
       "title": "2002 Aston Martin DB7 5.9 Volante 2dr",
-      "price": "£19,995",
+      "price": "£18,995",
       "year": 2002,
       "mileage": "94,119 miles",
       "transmission": "Unknown",
@@ -1726,6 +1752,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509176403678"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£19,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -2044,6 +2076,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17627478"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "2004 Aston Martin DB7",
+      "price": "£14,495",
+      "year": "2004",
+      "mileage": "74,272 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2019858/2004-aston-martin-db7-699d72f0a81e4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ea9555ee39f9ad52704af58d61e0c5ef",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2019858"
         }
       ]
     }

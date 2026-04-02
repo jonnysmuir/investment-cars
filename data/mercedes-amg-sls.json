@@ -793,13 +793,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/sls/6-2-63-v8-amg-roadster-spds-dct-euro-5-2dr/mercedes-benz-sls-6-2-63-v8-amg-roadster-spds-dct-euro-5-2dr-1409917079-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19780712"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "39",
@@ -879,7 +880,7 @@
     },
     {
       "id": "43",
-      "title": "2010 Mercedes SLS Class",
+      "title": "2010 Mercedes-Benz SLS AMG",
       "price": "POA",
       "year": "2010",
       "mileage": "N/A",
@@ -990,6 +991,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040206"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "2011 Mercedes SLS Class SLS63 AMG",
+      "price": "£134,995",
+      "year": "2011",
+      "mileage": "9,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2041468/2011-mercedes-sls-class-69cd3f61ccc37.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=41786249c2f73a8ecc400504a75b0610",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2041468"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2011 Mercedes SLS Class SLS63 AMG",
+      "price": "£239,995",
+      "year": "2011",
+      "mileage": "1,900 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2041435/2011-mercedes-sls-class-69cd2fa3ca7c3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6aa33bfc72c3000444fc85fe8e396ec3",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2041435"
         }
       ]
     }

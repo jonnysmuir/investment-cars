@@ -1,8 +1,8 @@
 {
   "model": "Ferrari F355",
   "slug": "ferrari-f355",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dd52a270cf6995f44de91e5-ferrari-f355-berlinetta-1994-thumb?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ferrari_F355_1998_GTB_LSideFront_CECF_9April2011_%2814414479237%29.jpg/1920px-Ferrari F355 1998 GTB LSideFront CECF 9April2011 (14414479237).jpg",
+  "heroCredit": "Valder137 / CC BY 2.0",
   "description": "The Ferrari F355, produced from 1994 to 1999, is widely considered one of the finest mid-engine V8 Ferraris. Available as Berlinetta (coupe), GTS (targa), and Spider, the F355 combined a 3.5-litre V8 with sublime handling. Manual gearbox cars are particularly sought after.",
   "listings": [
     {
@@ -783,14 +783,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
       ],
-      "unlistedDate": "2026-03-29"
+      "bodyType": null
     },
     {
       "id": "39",
@@ -1023,14 +1023,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "51",
@@ -1203,12 +1204,12 @@
     },
     {
       "id": "59",
-      "title": "1997 Ferrari F355",
+      "title": "1997 Ferrari F355 Spider",
       "price": "POA",
       "year": "1997",
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/new/28982162/1997-ferrari-f355-spider-69c1d59a46433.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=438f39bde022771e347bb7ca5e046cb5",
       "featured": false,
       "dateAdded": "2026-03-24",
@@ -1471,7 +1472,7 @@
     {
       "id": "72",
       "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
-      "price": "£169,990",
+      "price": "£170,189",
       "year": 1996,
       "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
@@ -1488,6 +1489,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100585718"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£169,990",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1512,7 +1519,7 @@
     },
     {
       "id": "74",
-      "title": "1998 Ferrari F355",
+      "title": "1998 Ferrari 355 GTS F1",
       "price": "£125,000",
       "year": "1998",
       "mileage": "10,300 miles",
@@ -1606,6 +1613,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040084"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "1999 Ferrari F355 GTS",
+      "price": "£149,950",
+      "year": "1999",
+      "mileage": "11,455 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29274388/1999-ferrari-f355-69cd255a26295.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6b0d3403b42525f77f86a346c5673595",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041388"
         }
       ]
     }

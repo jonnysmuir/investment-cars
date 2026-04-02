@@ -469,7 +469,7 @@
     },
     {
       "id": "23",
-      "title": "1991 Used  LOTUS ESPRIT",
+      "title": "1991 Lotus Esprit 2.2 Turbo HC 2dr",
       "price": "£35,000",
       "year": 1991,
       "mileage": "200 miles",
@@ -483,6 +483,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18915861"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/201810311997689"
         }
       ]
     },
@@ -602,7 +606,7 @@
     },
     {
       "id": "30",
-      "title": "1994 Lotus Esprit 2.2 S4 2dr",
+      "title": "1994 Lotus Esprit ESP TBO S4 2.2 2dr",
       "price": "£39,995",
       "year": 1994,
       "mileage": "71,000 miles",
@@ -701,12 +705,12 @@
     },
     {
       "id": "35",
-      "title": "2000 Lotus Esprit 3.5 Sport 350 2dr",
+      "title": "2000 Lotus Esprit 3.5 Sport 350 Coupe 2dr Petrol Manual (366 g/km, 349 bhp)",
       "price": "£64,995",
       "year": 2000,
       "mileage": "24,800 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/lotus/esprit/3-5-sport-350-coupe-2dr-petrol-manual-366-g-km-349-bhp/lotus-esprit-3-5-sport-350-coupe-2dr-petrol-manual-366-g-km-349-bhp-1410778757-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1005,14 +1009,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1945189/1977-lotus-esprit-68d12c2b6814d.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c37c2f2eb316a42e6ef1457602e7a55b",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1945189"
         }
-      ],
-      "unlistedDate": "2026-03-30"
+      ]
     },
     {
       "id": "51",
@@ -1025,13 +1028,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1894437/1994-lotus-esprit-68444d0140bef.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ff0b0f97d32d5cda381a26bdb046f02",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1894437"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "52",
@@ -1096,7 +1100,7 @@
       "price": "£39,995",
       "year": 1988,
       "mileage": "34,205 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/28369ebcd00848a1a76012d9278eeed9.jpg",
       "featured": false,
@@ -1106,6 +1110,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507254823199"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19073857"
         }
       ]
     },
@@ -1130,7 +1138,7 @@
     },
     {
       "id": "57",
-      "title": "1999 Lotus Esprit 3.5 Sport 350 2dr",
+      "title": "1999 Lotus Esprit SPORT 350. 1 OF 42 RHD. SUPERB EXAMPLE. COMPREHENSIVE HISTORY. FRONT PPF 3.5 2dr",
       "price": "£59,495",
       "year": 1999,
       "mileage": "47,080 miles",
@@ -1149,12 +1157,12 @@
     },
     {
       "id": "58",
-      "title": "1989 Lotus Esprit 2.2 HC 2dr",
+      "title": "1989 Lotus Esprit 2.2 HC Coupe 2dr Petrol Manual (215 bhp)",
       "price": "£22,999",
       "year": 1989,
       "mileage": "43,000 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/f4df4bfededb442ea72d12ead232a325.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1168,12 +1176,12 @@
     },
     {
       "id": "59",
-      "title": "1988 Lotus Esprit 2.2 Turbo Turbo Commemorative Limited Edition 2dr",
+      "title": "1988 Lotus Esprit 2.2 Turbo Turbo Commemorative Limited Edition Coupe 2dr Petrol Manual (215 bhp)",
       "price": "£22,500",
       "year": 1988,
       "mileage": "76,300 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/c0133d401d5a47c396e99799d9f64402.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1315,6 +1323,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/15463607"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "1998 Lotus Esprit  V8 Coupe",
+      "price": "£54,995",
+      "year": "1998",
+      "mileage": "39,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1938698/1998-lotus-esprit-68bea1a84fc92.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=626ff9a77ac4db1a0ba6052b05b6c6bb",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1938698"
         }
       ]
     }

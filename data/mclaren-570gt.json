@@ -269,14 +269,22 @@
         {
           "price": "£76,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£77,985",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£76,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
     },
     {
       "id": "12",
-      "title": "2017 McLaren 3.8 570GT Coupe Semi-Auto 3dr",
-      "price": "£77,250",
+      "title": "2017 McLaren 570GT 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£75,970",
       "year": 2017,
       "mileage": "37,740 miles",
       "transmission": "F1 Automated Manual",
@@ -298,6 +306,10 @@
         {
           "price": "£75,970",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£77,250",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Coupe"
@@ -436,6 +448,14 @@
         {
           "price": "£85,950",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£89,490",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£85,950",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -486,7 +506,7 @@
     {
       "id": "20",
       "title": "2019 McLaren 570GT 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£78,995",
+      "price": "£77,900",
       "year": 2019,
       "mileage": "28,500 miles",
       "transmission": "Unknown",
@@ -508,6 +528,10 @@
         {
           "price": "£75,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£78,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -618,7 +642,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d0d65867ee6541b0a8e26cb15ea50e79.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -630,7 +654,8 @@
           "price": "£79,000",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "27",
@@ -687,13 +712,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0299855817884c19bca4812e47b3d158.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060468478"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "30",
@@ -706,13 +732,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/36d3c6217a044f34a09ea8dd71fd0278.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602179991466"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "31",
@@ -725,13 +752,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d3dc042fa7604b91bb50b5cc58e6175f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601279465540"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "32",
@@ -744,13 +772,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/3e36b297ad004767bf77e1aa6663646e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512178648505"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "33",
@@ -763,13 +792,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f391fda3c92740ebbf8214624d470c08.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601219318812"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "34",
@@ -782,13 +812,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/40160f55f2944bd78c731e2706101465.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149935070"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "35",
@@ -801,13 +832,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5e1dc260051d462d98b08f062aeb01a9.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603070491501"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "36",
@@ -820,13 +852,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7c1346edbb914eb192b9410ecacecd21.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100577201"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "37",
@@ -839,13 +872,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5270a71b006f4e2fa771004144169d7e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506263894609"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "38",
@@ -858,13 +892,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/cbb2750a78ff4ec582d711154093a63f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202408173001792"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "39",
@@ -877,13 +912,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c1419ecc28d74576ab48aac21d42ebcb.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202405179810140"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "40",
@@ -896,13 +932,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/640dea35dcb44c1993e0c3f5939f6914.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120648040"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "41",
@@ -915,13 +952,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8db8868661534fbb97b0c8cf23d4666d.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069734187"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "42",
@@ -934,13 +972,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/17384dc062394619bc4ebd4110fe66bd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169962661"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "43",
@@ -953,13 +992,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/43d6cff44f5d41e683dd59b56c10607e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260243613"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "44",
@@ -972,13 +1012,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6eecab29b5714d6c966be866d32870d9.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603070493641"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "45",
@@ -991,13 +1032,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/af469a48d2b64becb638f174436a2f74.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230929673"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "46",
@@ -1010,13 +1052,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/91d035c5d2284944b579f948dbd3df81.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240968028"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "47",
@@ -1029,13 +1072,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/59edab97fc2644f584733838ad24cc46.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603150719013"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "48",
@@ -1048,13 +1092,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/48197c7dde0c48f1bc5dfbf01d6162fb.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100566749"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "49",
@@ -1067,13 +1112,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/04a0b751892a4dd3a00102c2694ebdcd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602119849671"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "50",
@@ -1086,13 +1132,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/19636fe83d5a4c2db97b2d70ae13337b.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602159940594"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "51",
@@ -1105,13 +1152,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b4f6311b2f2248ea9398a557d6ce6eec.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271064819"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "52",
@@ -1124,13 +1172,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/37c1be23c64f4e8aa21ace7c97373892.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271056973"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "53",
@@ -1143,13 +1192,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/83504815f6b44dcfa3c592973df1b130.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505302959686"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "54",
@@ -1162,13 +1212,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/707e6a6d94854c6c81767557a8ce2a05.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603251006513"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "55",
@@ -1181,13 +1232,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/478ec7e72f4148468e1b871fc292c7fb.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512288814864"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "56",
@@ -1200,13 +1252,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/380877e48fff41659d5bac87990410f8.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601239384863"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "57",
@@ -1219,13 +1272,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/25d91619c30c4b31a2e4602603fdffb9.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169960216"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "58",
@@ -1238,13 +1292,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4d58a45eb5c54d529a30cbf0def71b5c.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601129089833"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     }
   ]
 }

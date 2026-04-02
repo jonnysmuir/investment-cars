@@ -1,8 +1,8 @@
 {
   "model": "Maserati GranTurismo",
   "slug": "maserati-granturismo",
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Maserati_GranTurismo_%E2%80%93_Frontansicht_%281%29%2C_21._Juni_2011%2C_D%C3%BCsseldorf.jpg/1920px-Maserati_GranTurismo_%E2%80%93_Frontansicht_%281%29%2C_21._Juni_2011%2C_D%C3%BCsseldorf.jpg",
-  "heroCredit": "M 93 / CC BY-SA 3.0 de",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Front_view_of_the_Maserati_GranTurismo.jpg/1920px-Front view of the Maserati GranTurismo.jpg",
+  "heroCredit": "Wagon Master 2.0 / CC BY-SA 4.0",
   "description": "The Maserati GranTurismo, produced from 2007, is Maserati's flagship grand tourer. The first generation featured Ferrari-derived naturally aspirated V8 engines up to 4.7 litres, with the MC Stradale being the most focused variant. The second generation (2023) introduced Nettuno twin-turbo V6 and fully electric Folgore versions.",
   "listings": [
     {
@@ -852,7 +852,7 @@
     {
       "id": "41",
       "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 5 2dr",
-      "price": "£24,995",
+      "price": "£25,495",
       "year": 2011,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
@@ -879,6 +879,10 @@
         {
           "price": "£25,495",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£24,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1056,7 +1060,7 @@
     {
       "id": "49",
       "title": "2012 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
-      "price": "£28,995",
+      "price": "£26,500",
       "year": 2012,
       "mileage": "40000 miles",
       "transmission": "Automatic",
@@ -1083,6 +1087,10 @@
         {
           "price": "£28,500",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£28,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1141,6 +1149,14 @@
         {
           "price": "£14,300",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£14,499",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£14,300",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1354,13 +1370,14 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/4-7-v8-sport-coupe-2dr-petrol-auto-euro-5-460-ps/maserati-granturismo-4-7-v8-sport-coupe-2dr-petrol-auto-euro-5-460-ps-1419423312-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20055418"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "63",
@@ -1502,7 +1519,7 @@
     {
       "id": "70",
       "title": "2015 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
-      "price": "£29,980",
+      "price": "£28,980",
       "year": 2015,
       "mileage": "39,758 miles",
       "transmission": "Automatic",
@@ -1515,6 +1532,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504231636777"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,980",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -1901,7 +1924,7 @@
     {
       "id": "91",
       "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 4 2dr",
-      "price": "£25,495",
+      "price": "£25,750",
       "year": 2011,
       "mileage": "19,500 miles",
       "transmission": "Automatic",
@@ -1924,6 +1947,10 @@
         {
           "price": "£25,750",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -2266,6 +2293,71 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301151668"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2026 Used  MASERATI GRANTURISMO TROFEO 4X4 AUTO",
+      "price": "£68,898",
+      "year": 2026,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/48v-mhev-330-modena-5dr-auto/maserati-granturismo-48v-mhev-330-modena-5dr-auto-1421845790-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20160487"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2016 Maserati Granturismo 4.7 V8 MC Stradale MC Shift Euro 5 2dr",
+      "price": "£58,950",
+      "year": 2016,
+      "mileage": "22,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/mc-stradale/maserati-granturismo-mc-stradale-1421987960-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20188617"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011213620"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2025 Maserati Granturismo 3.0 V6 Trofeo Auto AWD Euro 6 (s/s) 2dr",
+      "price": "£125,000",
+      "year": 2025,
+      "mileage": "434 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/v6-trofeo-primaserie-2dr-auto/maserati-granturismo-v6-trofeo-primaserie-2dr-auto-1421816489-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20184374"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011208453"
         }
       ]
     }

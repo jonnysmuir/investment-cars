@@ -1,8 +1,8 @@
 {
   "model": "Ferrari 612 Scaglietti",
   "slug": "ferrari-612",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dc45da801d20661709475b4-ferrari-612-scaglietti-2004-thumb?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ferrari_612_Scaglietti_5748cc_March_2008.JPG/1920px-Ferrari 612 Scaglietti 5748cc March 2008.JPG",
+  "heroCredit": "Charles01 / CC BY-SA 3.0",
   "description": "The Ferrari 612 Scaglietti, produced from 2004 to 2011, was Ferrari's front-engined V12 grand tourer. Named after legendary coachbuilder Sergio Scaglietti, its aluminium body and 5.7-litre V12 delivered effortless performance in a luxurious 2+2 package.",
   "listings": [
     {
@@ -1216,7 +1216,17 @@
           "url": "https://www.pistonheads.com/buy/listing/17627485"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£69,830",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-02"
+        }
+      ]
     },
     {
       "id": "61",
@@ -1302,15 +1312,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/83367821b67c4b9c85a25b6d48105ce8.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309031498291"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-01"
+      "bodyType": "Coupe"
     },
     {
       "id": "65",
@@ -1322,15 +1331,14 @@
       "image": "",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306279020557"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-01"
+      "bodyType": "Coupe"
     },
     {
       "id": "66",

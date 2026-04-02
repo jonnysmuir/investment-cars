@@ -3858,7 +3858,7 @@
       "price": "£24,995",
       "year": 1996,
       "mileage": "112,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/a3265554f44d4f358f940ca7e882f08e.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -3867,6 +3867,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202308070529583"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/15448537"
         }
       ],
       "unlistedDate": "2026-03-31",
@@ -4559,6 +4563,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602119844660"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20181624"
         }
       ],
       "bodyType": "Estate"
@@ -11835,13 +11843,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/e36-m3-92-99/m3-evolution-conv/bmw-e36-m3-92-99-m3-evolution-conv-S4944939-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20166694"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "559",
@@ -12146,11 +12155,108 @@
           "url": "https://www.carandclassic.com/car/C2040235"
         }
       ]
+    },
+    {
+      "id": "575",
+      "title": "2003 BMW (E46) M3 Convertible",
+      "price": "Sold",
+      "year": 2003,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086276/AS-23-03-04.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "sold",
+      "soldPrice": "£13,500",
+      "soldDate": "2026-04-01",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2003-bmw-e46-m3-convertible-28"
+        }
+      ]
+    },
+    {
+      "id": "576",
+      "title": "1997 BMW M3 3.2 EVOLUTION SALOON",
+      "price": "£29,995",
+      "year": "1997",
+      "mileage": "66,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Saloon",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1984092/1997-bmw-m3-6932eb2119075.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3fc6d53ba28bb011822e6481f0d63863",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1984092"
+        }
+      ]
+    },
+    {
+      "id": "577",
+      "title": "2017 BMW M3 F80 Competition | Massive Spec",
+      "price": "£32,500",
+      "year": "2017",
+      "mileage": "63,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041474/2017-bmw-m3-69cd3b00bd204.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b58bf1e71d9b255ded22cea92e6529ce",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2041474"
+        }
+      ]
+    },
+    {
+      "id": "578",
+      "title": "2014 6 SPEED MANUAL! BMW M3 F80 SALOON",
+      "price": "£26,990",
+      "year": "2014",
+      "mileage": "77,801 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Saloon",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041299/2014-bmw-m3-69cd8bf5d696b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b90f3c3f452605e98d3038df592d677",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041299"
+        }
+      ]
+    },
+    {
+      "id": "579",
+      "title": "2001 BMW E46 M3 Manual /// Inspection 2 Done /// 85k Miles",
+      "price": "£25,495",
+      "year": "2001",
+      "mileage": "85,303 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041206/2001-bmw-m3-69ccf00a220b7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=88b14abe7a204d0e325e8c477bd342a8",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041206"
+        }
+      ]
     }
   ],
   "model": "BMW M3",
   "slug": "bmw-m3",
-  "heroImage": "https://hips.hearstapps.com/hmg-prod/images/bmw-m-party-web-1633453475.jpg?resize=2048:*",
-  "heroCredit": "BMW AG",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/BMW_M3_%28front%29_%283935664481%29.jpg/1920px-BMW M3 (front) (3935664481).jpg",
+  "heroCredit": "Rian Castillo from Vestavia Hills, USA / CC BY 2.0",
   "description": "The BMW M3, produced in various generations since 1986, is BMW's iconic high-performance compact sports car. From the E30's motorsport-bred four-cylinder to the E46's legendary inline-six, the E90/E92's screaming V8, and the F80/G80's twin-turbo six, each generation has defined its era. The E46 CSL, E92 GTS, and manual-gearbox examples are the most collectible variants."
 }

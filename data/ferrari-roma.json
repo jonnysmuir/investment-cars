@@ -1,8 +1,8 @@
 {
   "model": "Ferrari Roma",
   "slug": "ferrari-roma",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/60d1bd14997c9a7a59e64395-roma?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/1961_Ferrari_250_GT_PFII_Cabriolet_%282489GT%29_with_hardtop%2C_front_left.jpg/1920px-1961 Ferrari 250 GT PFII Cabriolet (2489GT) with hardtop, front left.jpg",
+  "heroCredit": "Mr.choppers / CC BY-SA 3.0",
   "description": "The Ferrari Roma, produced from 2020, is a front-engined V8 grand tourer inspired by the carefree lifestyle of 1960s Rome. With elegant Pininfarina-influenced styling and a 3.9-litre twin-turbo V8, the Roma blends classic beauty with modern performance.",
   "listings": [
     {
@@ -770,7 +770,7 @@
     {
       "id": "29",
       "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£189,830",
+      "price": "£188,000",
       "year": 2024,
       "mileage": "2,223 miles",
       "transmission": "F1 Automated Manual",
@@ -808,6 +808,10 @@
         {
           "price": "£188,000",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£189,830",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": "Convertible"
@@ -1640,6 +1644,14 @@
         {
           "price": "£148,950",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£155,000",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£148,950",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1822,6 +1834,14 @@
         {
           "price": "£145,000",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£139,995",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£145,000",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1911,6 +1931,14 @@
         {
           "price": "£139,000",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£132,990",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£139,000",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -1951,7 +1979,7 @@
     {
       "id": "66",
       "title": "2021 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£137,830",
+      "price": "£134,830",
       "year": 2021,
       "mileage": "11,852 miles",
       "transmission": "F1 Automated Manual",
@@ -1965,7 +1993,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602109821400"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£137,830",
+          "date": "2026-04-02"
+        }
+      ]
     },
     {
       "id": "67",
@@ -2117,7 +2151,7 @@
     {
       "id": "74",
       "title": "2024 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£147,830",
+      "price": "£144,830",
       "year": 2024,
       "mileage": "19,160 miles",
       "transmission": "F1 Automated Manual",
@@ -2135,7 +2169,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19915984"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£147,830",
+          "date": "2026-04-02"
+        }
+      ]
     },
     {
       "id": "75",
@@ -2178,7 +2218,7 @@
     {
       "id": "77",
       "title": "2023 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£149,995",
+      "price": "£154,950",
       "year": 2023,
       "mileage": "2,780 miles",
       "transmission": "F1 Automated Manual",
@@ -2220,6 +2260,10 @@
         {
           "price": "£154,950",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£149,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -2366,7 +2410,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1cfffb31354c496e9125f6379f341d36.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2387,7 +2431,8 @@
           "date": "2026-03-23"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "83",
@@ -2432,7 +2477,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9ce7dd938da04220a2dcfea1f4f7b4e9.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2461,7 +2506,8 @@
           "date": "2026-03-30"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "85",
@@ -2650,7 +2696,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a3b943724f4044d688b554a2663cdc31.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2667,7 +2713,8 @@
           "date": "2026-03-24"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "92",
@@ -2783,7 +2830,7 @@
     {
       "id": "96",
       "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£184,995",
+      "price": "£189,000",
       "year": 2024,
       "mileage": "675 miles",
       "transmission": "F1 Automated Manual",
@@ -2826,6 +2873,10 @@
         {
           "price": "£189,000",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£184,995",
+          "date": "2026-04-02"
         }
       ]
     },
@@ -3014,6 +3065,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120648119"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20179875"
         }
       ],
       "bodyType": "Convertible",
@@ -3155,6 +3210,14 @@
         {
           "price": "£139,950",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£138,950",
+          "date": "2026-04-02"
+        },
+        {
+          "price": "£144,995",
+          "date": "2026-04-02"
         }
       ],
       "bodyType": null
@@ -3488,6 +3551,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230928700"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£195,950",
+      "year": 2024,
+      "mileage": "1,263 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/7bdcfffe26cc4ea98707e35075731e72.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011206967"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "title": "2024 Ferrari Roma Spider",
+      "price": "£195,950",
+      "year": "2024",
+      "mileage": "1,263 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1905743/2024-ferrari-roma-6864db97ee751.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2148db3a7982b2acf13b2372f161ee4d",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1905743"
         }
       ]
     }

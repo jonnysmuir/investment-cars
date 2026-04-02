@@ -1,8 +1,8 @@
 {
   "model": "BMW M4",
   "slug": "bmw-m4",
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/BMW_M4_Competition_%28G82%29_1X7A8133.jpg/1920px-BMW_M4_Competition_%28G82%29_1X7A8133.jpg",
-  "heroCredit": "Alexander Migl / CC BY-SA 4.0",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/2024_BMW_M4_Competition_xDrive%2C_front_left%2C_06-15-2025.jpg/1920px-2024 BMW M4 Competition xDrive, front left, 06-15-2025.jpg",
+  "heroCredit": "MercurySable99 / CC BY-SA 4.0",
   "description": "The BMW M4, produced from 2014, split from the M3 lineage as the two-door coupe and convertible variant. The F82 generation produced 425-444 bhp, while the G82 increased to 473-543 bhp in CSL form. The ultra-limited M4 CSL with its carbon roof and manual-delete weight saving is the ultimate version.",
   "listings": [
     {
@@ -1561,13 +1561,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/44056ef8247e49e3bf28bfd01219a7bc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120633861"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "76",
@@ -1740,7 +1741,7 @@
     },
     {
       "id": "84",
-      "title": "2021 BMW M4 3.0 BiTurbo Competition Steptronic Euro 6 (s/s) 2dr",
+      "title": "2021 BMW M4 3.0 BiTurbo Competition Coupe 2dr Petrol Steptronic Euro 6 (s/s) (510 ps) MHD TUNE",
       "price": "£49,989",
       "year": 2021,
       "mileage": "48,675 miles",
@@ -5360,7 +5361,7 @@
     },
     {
       "id": "266",
-      "title": "2015 BMW M4 3.0 BiTurbo DCT Euro 6 (s/s) 2dr",
+      "title": "2015 BMW M4 3.0 BiTurbo Coupe 2dr Petrol DCT Euro 6 (s/s) (431 ps) *Finance Available From 9.9% APR*",
       "price": "£22,899",
       "year": 2015,
       "mileage": "64,000 miles",
@@ -5369,14 +5370,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cc911f21bbc246a7bbc1b36b6580a257.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291110657"
         }
-      ],
-      "unlistedDate": "2026-03-31"
+      ]
     },
     {
       "id": "267",
@@ -6379,7 +6379,7 @@
     },
     {
       "id": "319",
-      "title": "2023 BMW M4 Competition G82",
+      "title": "2023 BMW M4 3.0 BiTurbo Competition Steptronic Euro 6 (s/s)",
       "price": "£58,950",
       "year": "2023",
       "mileage": "7,560 miles",
@@ -6412,6 +6412,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040441"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "title": "2019 BMW M4 3.0 BiTurbo GPF Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£36,995",
+      "year": 2019,
+      "mileage": "33,800 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/acdf71fb8055446bb64605828c84d23c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011223294"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "title": "2017 BMW M4 Competition F83",
+      "price": "£22,995",
+      "year": "2017",
+      "mileage": "74,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29264387/2017-bmw-m4-69ccfc4a11fb8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f2da1fc6bbb1a663518034c32d0cc0a6",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041249"
+        }
+      ]
+    },
+    {
+      "id": "323",
+      "title": "2017 BMW M4 Competition F82",
+      "price": "£26,995",
+      "year": "2017",
+      "mileage": "68,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29264160/2017-bmw-m4-69ccfc3751cfe.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eb99714d613dc0b8e696351778eb2133",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041247"
         }
       ]
     }

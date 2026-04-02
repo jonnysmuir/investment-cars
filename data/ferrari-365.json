@@ -1,8 +1,8 @@
 {
   "model": "Ferrari 365",
   "slug": "ferrari-365",
-  "heroImage": "https://cdn.ferrari.com/cms/network/media/img/resize/5dcae27af8fc7b0aa9048da4-ferrari-365-gtb4-thumb?width=1200&height=675",
-  "heroCredit": "Ferrari S.p.A.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ferrari_365_GTB_4_Daytona%2C_Bj._1970_%282007-07-22%29.jpg/1920px-Ferrari 365 GTB 4 Daytona, Bj. 1970 (2007-07-22).jpg",
+  "heroCredit": "Spurzem - Lothar Spurzem / CC BY-SA 2.0 de",
   "description": "The Ferrari 365 family, produced from 1966 to 1976, encompasses some of the most iconic Ferraris ever made. From the California spider to the legendary GTB/4 Daytona, the GT4 BB, and the comfortable GT4 2+2, the 365 range defined an era of Ferrari excellence.",
   "listings": [
     {
@@ -527,13 +527,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1928445/1975-ferrari-365-68a58f4ebecbb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=116ae01c1c9154556bf0bd3b06184edc",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1928445"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "28",
@@ -570,13 +571,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1909241/1972-ferrari-365-686e4acca6490.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ace16e12ea1ad0b7c5e119e76cf6b0a",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1909241"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-02"
     },
     {
       "id": "30",
@@ -637,12 +639,12 @@
     },
     {
       "id": "33",
-      "title": "1972 Ferrari 365 GTB/4 Daytona",
+      "title": "1972 Ferrari 365 GTB/4 Daytona Berlinetta",
       "price": "POA",
       "year": "1972",
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/new/28981853/1972-ferrari-365-gtb4-daytona-berlinetta-69c1d5085c771.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=76c7b80100801f0514cb32324f4a7a45",
       "featured": false,
       "dateAdded": "2026-03-24",
@@ -728,6 +730,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039753"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "1969 Ferrari 365 GT 2x2",
+      "price": "POA",
+      "year": "1969",
+      "mileage": "40,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2041459/1969-ferrari-365-69cd3603e0b85.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cae52e1a4b0c77ae640db9a8ce949277",
+      "featured": false,
+      "dateAdded": "2026-04-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041459"
         }
       ]
     }
