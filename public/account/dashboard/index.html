@@ -237,6 +237,120 @@
     }
     .fav-remove-btn:hover { color: #ff6b7a; }
 
+    /* Portfolio */
+    .port-summary {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;
+      margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-border);
+    }
+    .port-stat { text-align: center; }
+    .port-stat-value { font-size: 1.3rem; font-weight: 700; color: var(--color-accent); }
+    .port-stat-label { font-size: 0.7rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .port-gain { color: #5bda7f !important; }
+    .port-loss { color: #ff6b7a !important; }
+
+    .port-card {
+      padding: 1rem 0; border-bottom: 1px solid var(--color-border);
+    }
+    .port-card:last-child { border-bottom: none; }
+    .port-card-top { display: flex; align-items: flex-start; gap: 1rem; }
+    .port-card-info { flex: 1; min-width: 0; }
+    .port-card-name {
+      font-weight: 600; font-size: 0.95rem; color: var(--color-accent);
+      text-decoration: none;
+    }
+    .port-card-name:hover { text-decoration: underline; }
+    .port-card-detail { font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.1rem; }
+    .port-card-purchase { font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.15rem; }
+
+    .port-card-values { text-align: right; flex-shrink: 0; }
+    .port-card-est { font-size: 1.1rem; font-weight: 700; color: var(--color-accent); }
+    .port-card-gl { font-size: 0.8rem; font-weight: 600; margin-top: 0.1rem; }
+    .port-card-confidence { font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.1rem; }
+
+    .port-card-spark { margin-top: 0.5rem; }
+    .port-card-spark svg { display: block; width: 100%; height: 40px; }
+
+    .port-card-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+    .port-edit-btn, .port-remove-btn, .port-chart-btn {
+      background: none; border: 1px solid var(--color-border); border-radius: 6px;
+      padding: 0.3rem 0.6rem; color: var(--color-text-muted); font-size: 0.75rem;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .port-edit-btn:hover, .port-chart-btn:hover { border-color: var(--color-accent); color: var(--color-accent); }
+    .port-remove-btn:hover { border-color: #dc3545; color: #ff6b7a; }
+
+    .port-add-btn {
+      display: inline-block; margin-top: 0.75rem; padding: 0.5rem 1.25rem;
+      background: var(--color-accent); color: var(--btn-text); border: none;
+      border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .port-add-btn:hover { opacity: 0.85; }
+
+    .port-form {
+      margin-top: 0.75rem; padding: 1rem; background: var(--color-bg);
+      border: 1px solid var(--color-border); border-radius: 8px;
+    }
+    .port-form-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;
+    }
+    .port-form-field { display: flex; flex-direction: column; gap: 0.2rem; }
+    .port-form-field.full { grid-column: 1 / -1; }
+    .port-form-field label {
+      font-size: 0.75rem; color: var(--color-text-muted); text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .port-form-field input, .port-form-field select, .port-form-field textarea {
+      padding: 0.4rem 0.5rem; border: 1px solid var(--color-border);
+      border-radius: 4px; background: var(--color-surface); color: var(--color-text);
+      font-size: 0.85rem; outline: none; font-family: inherit;
+    }
+    .port-form-field textarea { resize: vertical; min-height: 60px; }
+    .port-form-field input:focus, .port-form-field select:focus, .port-form-field textarea:focus {
+      border-color: var(--color-accent);
+    }
+    .port-form-hint { font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.5rem; grid-column: 1 / -1; }
+    .port-form-actions { display: flex; gap: 0.5rem; margin-top: 0.75rem; grid-column: 1 / -1; }
+
+    .port-search-wrap { position: relative; }
+    .port-search-results {
+      display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 50;
+      max-height: 200px; overflow-y: auto; background: var(--color-surface);
+      border: 1px solid var(--color-border); border-radius: 4px; margin-top: 2px;
+    }
+    .port-search-results.open { display: block; }
+    .port-search-item {
+      display: block; padding: 0.4rem 0.5rem; font-size: 0.85rem;
+      color: var(--color-text); text-decoration: none; cursor: pointer;
+    }
+    .port-search-item:hover { background: var(--color-border); color: var(--color-accent); }
+
+    .port-chart-panel {
+      margin-top: 0.75rem; padding: 1rem; background: var(--color-bg);
+      border: 1px solid var(--color-border); border-radius: 8px;
+    }
+    .port-chart-panel svg { display: block; width: 100%; height: 200px; }
+    .port-chart-labels { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.25rem; }
+    .port-chart-legend { display: flex; gap: 1rem; font-size: 0.7rem; color: var(--color-text-muted); margin-bottom: 0.5rem; }
+    .port-chart-legend span::before {
+      content: ''; display: inline-block; width: 12px; height: 2px;
+      margin-right: 4px; vertical-align: middle;
+    }
+    .port-chart-legend .legend-value::before { background: var(--color-accent); }
+    .port-chart-legend .legend-purchase::before { background: var(--color-text-muted); }
+
+    .port-disclaimer {
+      font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.75rem;
+      padding-top: 0.5rem; border-top: 1px solid var(--color-border);
+    }
+
+    @media (max-width: 640px) {
+      .port-summary { grid-template-columns: repeat(2, 1fr); }
+      .port-card-top { flex-direction: column; }
+      .port-card-values { text-align: left; }
+      .port-form-grid { grid-template-columns: 1fr; }
+    }
+
     /* Preferences */
     .pref-row {
       display: flex; align-items: center; justify-content: space-between;
@@ -324,9 +438,11 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="portfolioSection">
       <h2>My Portfolio</h2>
-      <p class="empty-state">Track the cars you own. Coming soon.</p>
+      <div id="portfolioContent">
+        <p class="empty-state">Loading portfolio...</p>
+      </div>
     </div>
 
     <div class="section">
@@ -391,8 +507,10 @@
     const signOutBtn = document.getElementById('signOutBtn');
     const watchlistContent = document.getElementById('watchlistContent');
     const favouritesContent = document.getElementById('favouritesContent');
+    const portfolioContent = document.getElementById('portfolioContent');
 
     let currentUser = null;
+    let _allModels = null; // cached for add-car search
 
     function formatPrice(p) {
       if (!p) return '';
@@ -426,6 +544,7 @@
 
       loadWatchlist();
       loadFavourites();
+      loadPortfolio();
     })();
 
     // ── Watchlist ───────────────────────────────────────────────────────────
@@ -657,6 +776,435 @@
       } catch (err) {
         console.error('Failed to load favourites:', err);
       }
+    }
+
+    // ── Portfolio ────────────────────────────────────────────────────────────
+
+    async function fetchAllModels() {
+      if (_allModels) return _allModels;
+      try {
+        const resp = await fetch('/api/models');
+        if (!resp.ok) return [];
+        const data = await resp.json();
+        const flat = [];
+        for (const [make, models] of Object.entries(data)) {
+          for (const m of models) {
+            flat.push({ slug: m.slug, make, model: m.model, displayName: make + ' ' + m.model, generations: m.generations || null });
+          }
+        }
+        _allModels = flat;
+        return flat;
+      } catch { return []; }
+    }
+
+    function buildSparkline(history, purchasePrice, width, height) {
+      if (!history || history.length < 2) return '';
+      const values = history.map(h => h.estimatedValue);
+      const min = Math.min(...values, purchasePrice || Infinity);
+      const max = Math.max(...values, purchasePrice || 0);
+      const range = max - min || 1;
+      const pad = 2;
+      const w = width - pad * 2;
+      const h = height - pad * 2;
+
+      const points = values.map((v, i) => {
+        const x = pad + (i / (values.length - 1)) * w;
+        const y = pad + h - ((v - min) / range) * h;
+        return x.toFixed(1) + ',' + y.toFixed(1);
+      }).join(' ');
+
+      let purchaseLine = '';
+      if (purchasePrice) {
+        const py = pad + h - ((purchasePrice - min) / range) * h;
+        purchaseLine = '<line x1="' + pad + '" y1="' + py.toFixed(1) + '" x2="' + (width - pad) + '" y2="' + py.toFixed(1) + '" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>';
+      }
+
+      return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="none">' +
+        purchaseLine +
+        '<polyline points="' + points + '" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linejoin="round"/>' +
+        '</svg>';
+    }
+
+    function buildChart(history, purchasePrice, width, height) {
+      if (!history || history.length < 2) return '<p style="font-size:0.8rem;color:var(--color-text-muted)">Collecting valuation data...</p>';
+      const values = history.map(h => h.estimatedValue);
+      const min = Math.min(...values, purchasePrice || Infinity) * 0.95;
+      const max = Math.max(...values, purchasePrice || 0) * 1.05;
+      const range = max - min || 1;
+      const padL = 2; const padR = 2; const padT = 5; const padB = 5;
+      const w = width - padL - padR;
+      const h = height - padT - padB;
+
+      const points = values.map((v, i) => {
+        const x = padL + (i / (values.length - 1)) * w;
+        const y = padT + h - ((v - min) / range) * h;
+        return x.toFixed(1) + ',' + y.toFixed(1);
+      }).join(' ');
+
+      let purchaseLine = '';
+      if (purchasePrice) {
+        const py = padT + h - ((purchasePrice - min) / range) * h;
+        purchaseLine = '<line x1="' + padL + '" y1="' + py.toFixed(1) + '" x2="' + (width - padR) + '" y2="' + py.toFixed(1) + '" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="4,4" opacity="0.6"/>';
+      }
+
+      const firstDate = history[0].date;
+      const lastDate = history[history.length - 1].date;
+
+      return '<div class="port-chart-legend"><span class="legend-value">Estimated Value</span><span class="legend-purchase">Purchase Price</span></div>' +
+        '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="none">' +
+        purchaseLine +
+        '<polyline points="' + points + '" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linejoin="round"/>' +
+        '</svg>' +
+        '<div class="port-chart-labels"><span>' + firstDate + '</span><span>' + lastDate + '</span></div>';
+    }
+
+    async function loadPortfolio() {
+      try {
+        const resp = await fetch('/api/portfolio');
+        if (!resp.ok) {
+          portfolioContent.innerHTML = '<p class="empty-state">Failed to load portfolio.</p>';
+          return;
+        }
+        const { portfolio, totals } = await resp.json();
+
+        if (!portfolio || portfolio.length === 0) {
+          portfolioContent.innerHTML =
+            '<p class="empty-state">Track the value of cars you own.</p>' +
+            '<p class="empty-state">Add your first car to see estimated values, track performance, and monitor your collection.</p>' +
+            '<button class="port-add-btn" id="portAddBtn">Add Car</button>' +
+            '<div id="portAddForm" style="display:none"></div>';
+          setupAddCarBtn();
+          return;
+        }
+
+        // Summary bar
+        const glClass = totals.totalGainLoss >= 0 ? 'port-gain' : 'port-loss';
+        const glSign = totals.totalGainLoss >= 0 ? '+' : '';
+        let html = '<div class="port-summary">' +
+          '<div class="port-stat"><div class="port-stat-value">' + formatPrice(totals.totalEstimatedValue) + '</div><div class="port-stat-label">Portfolio Value</div></div>' +
+          '<div class="port-stat"><div class="port-stat-value" style="color:var(--color-text)">' + formatPrice(totals.totalPurchasePrice) + '</div><div class="port-stat-label">Total Invested</div></div>' +
+          '<div class="port-stat"><div class="port-stat-value ' + glClass + '">' + glSign + formatPrice(Math.abs(totals.totalGainLoss)) + (totals.totalGainLossPercent !== null ? ' (' + glSign + totals.totalGainLossPercent + '%)' : '') + '</div><div class="port-stat-label">Gain / Loss</div></div>' +
+          '<div class="port-stat"><div class="port-stat-value" style="color:var(--color-text)">' + totals.carCount + '</div><div class="port-stat-label">Cars</div></div>' +
+          '</div>';
+
+        // Car cards
+        html += '<div id="portCards">';
+        for (const car of portfolio) {
+          html += renderPortfolioCard(car);
+        }
+        html += '</div>';
+
+        html += '<button class="port-add-btn" id="portAddBtn">Add Car</button>';
+        html += '<div id="portAddForm" style="display:none"></div>';
+        html += '<p class="port-disclaimer">Valuations are estimates based on current market listings and may not reflect actual sale prices.</p>';
+
+        portfolioContent.innerHTML = html;
+        setupAddCarBtn();
+        setupPortfolioEvents();
+
+        // Load sparklines asynchronously
+        for (const car of portfolio) {
+          loadSparkline(car.id);
+        }
+      } catch (err) {
+        console.error('Failed to load portfolio:', err);
+        portfolioContent.innerHTML = '<p class="empty-state">Failed to load portfolio.</p>';
+      }
+    }
+
+    function renderPortfolioCard(car) {
+      const yearStr = car.year ? car.year + ' ' : '';
+      const details = [car.variant, car.generation, car.transmission, car.body_type].filter(Boolean).join(' \u00b7 ');
+      const purchaseStr = car.purchase_price
+        ? 'Bought for ' + formatPrice(car.purchase_price) + (car.purchase_date ? ' on ' + new Date(car.purchase_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '')
+        : '';
+
+      let glHtml = '';
+      if (car.gainLoss !== null && car.purchase_price) {
+        const cls = car.gainLoss >= 0 ? 'port-gain' : 'port-loss';
+        const sign = car.gainLoss >= 0 ? '+' : '';
+        glHtml = '<div class="port-card-gl ' + cls + '">' + sign + formatPrice(Math.abs(car.gainLoss)) + ' (' + sign + car.gainLossPercent + '%)</div>';
+      }
+
+      const confidence = car.broadEstimate
+        ? 'Broad estimate \u2014 few comparable listings'
+        : 'Based on ' + car.comparableCount + ' similar listing' + (car.comparableCount === 1 ? '' : 's');
+
+      return '<div class="port-card" data-port-id="' + car.id + '">' +
+        '<div class="port-card-top">' +
+          '<div class="port-card-info">' +
+            '<a href="/cars/' + car.model_slug + '/" class="port-card-name">' + yearStr + car.displayName + '</a>' +
+            (details ? '<div class="port-card-detail">' + details + '</div>' : '') +
+            (purchaseStr ? '<div class="port-card-purchase">' + purchaseStr + '</div>' : '') +
+          '</div>' +
+          '<div class="port-card-values">' +
+            (car.estimatedValue ? '<div class="port-card-est">' + formatPrice(car.estimatedValue) + '</div>' : '<div class="port-card-est" style="color:var(--color-text-muted)">No data</div>') +
+            glHtml +
+            '<div class="port-card-confidence">' + confidence + '</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="port-card-spark" id="portSpark' + car.id + '"></div>' +
+        '<div class="port-card-actions">' +
+          '<button class="port-chart-btn" data-port-id="' + car.id + '">Value Chart</button>' +
+          '<button class="port-edit-btn" data-port-id="' + car.id + '">Edit</button>' +
+          '<button class="port-remove-btn" data-port-id="' + car.id + '">Remove</button>' +
+        '</div>' +
+        '<div class="port-chart-panel" id="portChart' + car.id + '" style="display:none"></div>' +
+        '<div class="dash-edit-panel" id="portEditPanel' + car.id + '" style="display:none"></div>' +
+        '</div>';
+    }
+
+    async function loadSparkline(carId) {
+      try {
+        const resp = await fetch('/api/portfolio/' + carId + '/history');
+        if (!resp.ok) return;
+        const { history } = await resp.json();
+        // Use last 90 data points
+        const recent = history.slice(-90);
+        const el = document.getElementById('portSpark' + carId);
+        if (!el) return;
+        const card = el.closest('.port-card');
+        const purchasePrice = card ? parseInt(card.querySelector('.port-card-purchase')?.textContent?.replace(/[^0-9]/g, '') || '0', 10) : 0;
+        el.innerHTML = buildSparkline(recent, purchasePrice || null, 400, 40);
+      } catch {}
+    }
+
+    function setupPortfolioEvents() {
+      portfolioContent.addEventListener('click', async (e) => {
+        // Remove
+        const removeBtn = e.target.closest('.port-remove-btn');
+        if (removeBtn) {
+          if (!confirm('Remove this car from your portfolio?')) return;
+          const id = removeBtn.dataset.portId;
+          await fetch('/api/portfolio/' + id, { method: 'DELETE' });
+          loadPortfolio();
+          return;
+        }
+
+        // Value chart toggle
+        const chartBtn = e.target.closest('.port-chart-btn');
+        if (chartBtn) {
+          const id = chartBtn.dataset.portId;
+          const panel = document.getElementById('portChart' + id);
+          if (panel.style.display !== 'none') {
+            panel.style.display = 'none';
+            return;
+          }
+          panel.innerHTML = '<p style="font-size:0.8rem;color:var(--color-text-muted)">Loading chart...</p>';
+          panel.style.display = 'block';
+          try {
+            const resp = await fetch('/api/portfolio/' + id + '/history');
+            const { history } = await resp.json();
+            const recent = history.slice(-90);
+            const card = panel.closest('.port-card');
+            const purchaseText = card.querySelector('.port-card-purchase')?.textContent || '';
+            const purchasePrice = parseInt(purchaseText.replace(/[^0-9]/g, '') || '0', 10) || null;
+            panel.innerHTML = buildChart(recent, purchasePrice, 600, 200);
+          } catch {
+            panel.innerHTML = '<p style="font-size:0.8rem;color:var(--color-text-muted)">Failed to load chart.</p>';
+          }
+          return;
+        }
+
+        // Edit toggle
+        const editBtn = e.target.closest('.port-edit-btn');
+        if (editBtn) {
+          const id = editBtn.dataset.portId;
+          const panel = document.getElementById('portEditPanel' + id);
+          if (panel.style.display !== 'none') {
+            panel.style.display = 'none';
+            return;
+          }
+          // Fetch current data
+          try {
+            const resp = await fetch('/api/portfolio/' + id);
+            const { car } = await resp.json();
+            let h = '<div class="port-form-grid">';
+            h += '<div class="port-form-field"><label>Year</label><input type="number" class="pe-year" value="' + (car.year || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pe-variant" value="' + (car.variant || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Generation</label><input type="text" class="pe-generation" value="' + (car.generation || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Transmission</label><select class="pe-transmission"><option value="">--</option><option' + (car.transmission === 'Manual' ? ' selected' : '') + '>Manual</option><option' + (car.transmission === 'Automatic' ? ' selected' : '') + '>Automatic</option><option' + (car.transmission === 'DCT/Dual-Clutch' ? ' selected' : '') + '>DCT/Dual-Clutch</option><option' + (car.transmission === 'F1 Automated Manual' ? ' selected' : '') + '>F1 Automated Manual</option><option' + (car.transmission === 'E-Gear' ? ' selected' : '') + '>E-Gear</option></select></div>';
+            h += '<div class="port-form-field"><label>Body Type</label><select class="pe-bodyType"><option value="">--</option><option' + (car.body_type === 'Coupe' ? ' selected' : '') + '>Coupe</option><option' + (car.body_type === 'Convertible' ? ' selected' : '') + '>Convertible</option><option' + (car.body_type === 'Saloon' ? ' selected' : '') + '>Saloon</option><option' + (car.body_type === 'Estate' ? ' selected' : '') + '>Estate</option><option' + (car.body_type === 'SUV' ? ' selected' : '') + '>SUV</option><option' + (car.body_type === 'Targa' ? ' selected' : '') + '>Targa</option><option' + (car.body_type === 'Speedster' ? ' selected' : '') + '>Speedster</option><option' + (car.body_type === 'Gran Coupe' ? ' selected' : '') + '>Gran Coupe</option></select></div>';
+            h += '<div class="port-form-field"><label>Purchase Price (\u00a3)</label><input type="number" class="pe-purchasePrice" value="' + (car.purchase_price || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Purchase Date</label><input type="date" class="pe-purchaseDate" value="' + (car.purchase_date ? car.purchase_date.substring(0, 10) : '') + '"></div>';
+            h += '<div class="port-form-field"><label>Mileage at Purchase</label><input type="number" class="pe-mileagePurchase" value="' + (car.mileage_at_purchase || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Current Mileage</label><input type="number" class="pe-mileageCurrent" value="' + (car.current_mileage || '') + '"></div>';
+            h += '<div class="port-form-field"><label>Colour</label><input type="text" class="pe-colour" value="' + (car.colour || '') + '"></div>';
+            h += '<div class="port-form-field full"><label>Notes</label><textarea class="pe-notes">' + (car.notes || '') + '</textarea></div>';
+            h += '<div class="port-form-actions"><button class="dash-edit-save port-save-edit" data-port-id="' + id + '">Save</button><button class="dash-edit-cancel port-cancel-edit" data-port-id="' + id + '">Cancel</button></div>';
+            h += '</div>';
+            panel.innerHTML = h;
+            panel.style.display = 'block';
+          } catch {
+            panel.innerHTML = '<p style="font-size:0.8rem;color:var(--color-text-muted)">Failed to load details.</p>';
+            panel.style.display = 'block';
+          }
+          return;
+        }
+
+        // Edit save
+        const saveEdit = e.target.closest('.port-save-edit');
+        if (saveEdit) {
+          const id = saveEdit.dataset.portId;
+          const panel = document.getElementById('portEditPanel' + id);
+          const body = {};
+          const year = panel.querySelector('.pe-year').value;
+          if (year) body.year = parseInt(year);
+          body.variant = panel.querySelector('.pe-variant').value.trim() || null;
+          body.generation = panel.querySelector('.pe-generation').value.trim() || null;
+          body.transmission = panel.querySelector('.pe-transmission').value || null;
+          body.bodyType = panel.querySelector('.pe-bodyType').value || null;
+          const pp = panel.querySelector('.pe-purchasePrice').value;
+          if (pp) body.purchasePrice = parseInt(pp);
+          body.purchaseDate = panel.querySelector('.pe-purchaseDate').value || null;
+          const mp = panel.querySelector('.pe-mileagePurchase').value;
+          if (mp) body.mileageAtPurchase = parseInt(mp);
+          const mc = panel.querySelector('.pe-mileageCurrent').value;
+          if (mc) body.currentMileage = parseInt(mc);
+          body.colour = panel.querySelector('.pe-colour').value.trim() || null;
+          body.notes = panel.querySelector('.pe-notes').value.trim() || null;
+
+          const resp = await fetch('/api/portfolio/' + id, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+          });
+          if (resp.ok) loadPortfolio();
+          return;
+        }
+
+        // Edit cancel
+        const cancelEdit = e.target.closest('.port-cancel-edit');
+        if (cancelEdit) {
+          document.getElementById('portEditPanel' + cancelEdit.dataset.portId).style.display = 'none';
+          return;
+        }
+      });
+    }
+
+    function setupAddCarBtn() {
+      const btn = document.getElementById('portAddBtn');
+      const formContainer = document.getElementById('portAddForm');
+      if (!btn || !formContainer) return;
+
+      btn.addEventListener('click', async () => {
+        if (formContainer.style.display !== 'none') {
+          formContainer.style.display = 'none';
+          return;
+        }
+        const models = await fetchAllModels();
+
+        let h = '<div class="port-form"><div class="port-form-grid">';
+        h += '<div class="port-form-field full"><label>Model *</label><div class="port-search-wrap"><input type="text" class="pa-model-search" placeholder="Search models..." autocomplete="off"><input type="hidden" class="pa-model-slug"><div class="port-search-results" id="portSearchResults"></div></div></div>';
+        h += '<div class="port-form-field"><label>Year</label><input type="number" class="pa-year" placeholder="e.g. 2018"></div>';
+        h += '<div class="port-form-field" id="paGenField" style="display:none"><label>Generation</label><select class="pa-generation"><option value="">--</option></select></div>';
+        h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pa-variant" placeholder="e.g. Speciale, Competition"></div>';
+        h += '<div class="port-form-field"><label>Transmission</label><select class="pa-transmission"><option value="">--</option><option>Manual</option><option>Automatic</option><option>DCT/Dual-Clutch</option><option>F1 Automated Manual</option><option>E-Gear</option></select></div>';
+        h += '<div class="port-form-field"><label>Body Type</label><select class="pa-bodyType"><option value="">--</option><option>Coupe</option><option>Convertible</option><option>Saloon</option><option>Estate</option><option>SUV</option><option>Targa</option><option>Speedster</option><option>Gran Coupe</option></select></div>';
+        h += '<div class="port-form-field"><label>Purchase Price (\u00a3) *</label><input type="number" class="pa-purchasePrice" placeholder="e.g. 85000"></div>';
+        h += '<div class="port-form-field"><label>Purchase Date</label><input type="date" class="pa-purchaseDate"></div>';
+        h += '<div class="port-form-field"><label>Mileage at Purchase</label><input type="number" class="pa-mileagePurchase" placeholder="e.g. 12000"></div>';
+        h += '<div class="port-form-field"><label>Current Mileage</label><input type="number" class="pa-mileageCurrent" placeholder="e.g. 15000"></div>';
+        h += '<div class="port-form-field"><label>Colour</label><input type="text" class="pa-colour" placeholder="e.g. Rosso Corsa"></div>';
+        h += '<div class="port-form-field full"><label>Notes</label><textarea class="pa-notes" placeholder="Any additional details..."></textarea></div>';
+        h += '<div class="port-form-hint">Adding more details improves your valuation accuracy.</div>';
+        h += '<div class="port-form-actions"><button class="dash-edit-save" id="portSaveNew">Save</button><button class="dash-edit-cancel" id="portCancelNew">Cancel</button></div>';
+        h += '</div></div>';
+
+        formContainer.innerHTML = h;
+        formContainer.style.display = 'block';
+
+        // Model search autocomplete
+        const searchInput = formContainer.querySelector('.pa-model-search');
+        const slugInput = formContainer.querySelector('.pa-model-slug');
+        const searchResults = document.getElementById('portSearchResults');
+        const genField = document.getElementById('paGenField');
+        const genSelect = formContainer.querySelector('.pa-generation');
+
+        searchInput.addEventListener('input', () => {
+          const q = searchInput.value.trim().toLowerCase();
+          if (q.length < 1) { searchResults.classList.remove('open'); return; }
+          const matches = models.filter(m => m.displayName.toLowerCase().includes(q) || m.slug.includes(q)).slice(0, 10);
+          if (!matches.length) { searchResults.classList.remove('open'); return; }
+          searchResults.innerHTML = matches.map(m =>
+            '<div class="port-search-item" data-slug="' + m.slug + '" data-display="' + m.displayName + '">' + m.displayName + '</div>'
+          ).join('');
+          searchResults.classList.add('open');
+        });
+
+        searchResults.addEventListener('click', (ev) => {
+          const item = ev.target.closest('.port-search-item');
+          if (!item) return;
+          const slug = item.dataset.slug;
+          const display = item.dataset.display;
+          searchInput.value = display;
+          slugInput.value = slug;
+          searchResults.classList.remove('open');
+          // Populate generation dropdown if available
+          const model = models.find(m => m.slug === slug);
+          if (model && model.generations && model.generations.length > 0) {
+            genSelect.innerHTML = '<option value="">--</option>' +
+              model.generations.map(g => '<option value="' + g.name + '">' + g.name + (g.years ? ' (' + g.years[0] + '\u2013' + g.years[1] + ')' : '') + '</option>').join('');
+            genField.style.display = '';
+          } else {
+            genField.style.display = 'none';
+            genSelect.innerHTML = '<option value="">--</option>';
+          }
+        });
+
+        document.addEventListener('click', (ev) => {
+          if (!ev.target.closest('.port-search-wrap')) searchResults.classList.remove('open');
+        });
+
+        // Save new car
+        document.getElementById('portSaveNew').addEventListener('click', async () => {
+          const modelSlug = slugInput.value;
+          const purchasePrice = formContainer.querySelector('.pa-purchasePrice').value;
+          if (!modelSlug) { alert('Please select a model.'); return; }
+          if (!purchasePrice) { alert('Please enter a purchase price.'); return; }
+
+          const body = {
+            modelSlug,
+            purchasePrice: parseInt(purchasePrice),
+          };
+          const year = formContainer.querySelector('.pa-year').value;
+          if (year) body.year = parseInt(year);
+          const gen = genSelect.value;
+          if (gen) body.generation = gen;
+          const variant = formContainer.querySelector('.pa-variant').value.trim();
+          if (variant) body.variant = variant;
+          const trans = formContainer.querySelector('.pa-transmission').value;
+          if (trans) body.transmission = trans;
+          const bodyType = formContainer.querySelector('.pa-bodyType').value;
+          if (bodyType) body.bodyType = bodyType;
+          const purchaseDate = formContainer.querySelector('.pa-purchaseDate').value;
+          if (purchaseDate) body.purchaseDate = purchaseDate;
+          const mp = formContainer.querySelector('.pa-mileagePurchase').value;
+          if (mp) body.mileageAtPurchase = parseInt(mp);
+          const mc = formContainer.querySelector('.pa-mileageCurrent').value;
+          if (mc) body.currentMileage = parseInt(mc);
+          const colour = formContainer.querySelector('.pa-colour').value.trim();
+          if (colour) body.colour = colour;
+          const notes = formContainer.querySelector('.pa-notes').value.trim();
+          if (notes) body.notes = notes;
+
+          const resp = await fetch('/api/portfolio', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+          });
+          if (resp.ok) {
+            loadPortfolio();
+          } else {
+            const err = await resp.json().catch(() => ({}));
+            alert(err.error || 'Failed to add car.');
+          }
+        });
+
+        document.getElementById('portCancelNew').addEventListener('click', () => {
+          formContainer.style.display = 'none';
+        });
+      });
     }
 
     // ── Alert preferences ───────────────────────────────────────────────────

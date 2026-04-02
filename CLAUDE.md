@@ -27,6 +27,7 @@ routes/
   auth.js                         # Auth API (callback, logout, me, refresh, preferences)
   watchlist.js                    # Watchlist CRUD API (all requireAuth)
   favourites.js                   # Favourites CRUD API (all requireAuth)
+  portfolio.js                    # Portfolio CRUD API with valuation logic (all requireAuth)
 data/
   models.json                      # Master registry (slug, make, model, hero image, description, scraper configs)
   {slug}.json                      # Current listings per model
@@ -93,6 +94,12 @@ All filtered to GBP/UK market only.
 - `GET /api/favourites` — User's saved listings with current state; optional `?slug=` filter (requires auth)
 - `POST /api/favourites` — Save a listing to favourites (requires auth)
 - `DELETE /api/favourites/:id` — Remove a saved listing (requires auth)
+- `GET /api/portfolio` — User's portfolio with valuations, gain/loss, and portfolio totals (requires auth)
+- `GET /api/portfolio/:id` — Single portfolio entry with full details and valuation (requires auth)
+- `GET /api/portfolio/:id/history` — Historical valuation data points for a specific car, filtered by car characteristics from `data/history/{slug}.json` (requires auth)
+- `POST /api/portfolio` — Add a car to portfolio. Body: `{ modelSlug, year, variant, generation, transmission, bodyType, purchasePrice, purchaseDate, mileageAtPurchase, currentMileage, colour, notes }`. Validates modelSlug exists in models.json (requires auth)
+- `PUT /api/portfolio/:id` — Update a car's details (requires auth)
+- `DELETE /api/portfolio/:id` — Remove a car from portfolio (requires auth)
 
 ## Key Server Logic & Conventions
 - **Variant normalisation**: Maps listing titles → categories (Scuderia, Pista, Spider, Convertible, GTS, etc.)
@@ -252,6 +259,36 @@ These must be set on Hostinger in addition to the existing DB credentials:
 
 ### Privacy Policy
 - User auth stores email, display name, avatar URL, and auth provider in MySQL. A privacy policy update is needed to disclose this data collection to comply with GDPR.
+
+## Portfolio Tracker
+- **Portfolio table** stores cars users own with purchase details (price in whole pounds, date, mileage, colour, notes) and car characteristics (year, variant, generation, transmission, body_type).
+- **Valuation logic** (`routes/portfolio.js`): Loads `data/{slug}.json`, filters active listings by the car's year (+-2), generation, transmission, and body type. Computes median of filtered prices as the estimated value. Falls back to unfiltered model median with `broadEstimate: true` if fewer than 3 comparable listings.
+- **History endpoint**: Reads `data/history/{slug}.json`, filters each daily snapshot by car characteristics, computes median per date to produce a time series of `{ date, estimatedValue, listingCount }` points.
+- **Portfolio totals**: GET /api/portfolio returns per-car valuations plus aggregate `totalPurchasePrice`, `totalEstimatedValue`, `totalGainLoss`, `totalGainLossPercent`.
+- **Dashboard UI**: Summary bar (total value, invested, gain/loss, car count), car cards with sparkline SVG charts, inline edit forms, add car form with model autocomplete and dynamic generation dropdown.
+- **SQL for phpMyAdmin** (run once for existing databases):
+  ```sql
+  CREATE TABLE IF NOT EXISTS portfolio (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id VARCHAR(36) NOT NULL,
+    model_slug VARCHAR(100) NOT NULL,
+    year INT NULL,
+    variant VARCHAR(200) NULL,
+    generation VARCHAR(50) NULL,
+    transmission VARCHAR(50) NULL,
+    body_type VARCHAR(50) NULL,
+    purchase_price INT NULL,
+    purchase_date DATE NULL,
+    mileage_at_purchase INT NULL,
+    current_mileage INT NULL,
+    colour VARCHAR(100) NULL,
+    notes TEXT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_user (user_id),
+    INDEX idx_slug (model_slug)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  ```
 
 ## Watchlist Filter System
 - **Watchlist entries store a `filters` JSON column** alongside the model slug. This allows watching specific configurations like "BMW M3 E46 Manual".

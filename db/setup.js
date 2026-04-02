@@ -88,6 +88,31 @@ async function setup() {
   `);
 
   console.log('favourites table ready.');
+
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS portfolio (
+      id              INT AUTO_INCREMENT PRIMARY KEY,
+      user_id         VARCHAR(36) NOT NULL,
+      model_slug      VARCHAR(100) NOT NULL,
+      year            INT NULL,
+      variant         VARCHAR(200) NULL,
+      generation      VARCHAR(50) NULL,
+      transmission    VARCHAR(50) NULL,
+      body_type       VARCHAR(50) NULL,
+      purchase_price  INT NULL,
+      purchase_date   DATE NULL,
+      mileage_at_purchase INT NULL,
+      current_mileage INT NULL,
+      colour          VARCHAR(100) NULL,
+      notes           TEXT NULL,
+      created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      INDEX idx_user (user_id),
+      INDEX idx_slug (model_slug)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  `);
+
+  console.log('portfolio table ready.');
   await pool.end();
 }
 
