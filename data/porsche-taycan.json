@@ -704,7 +704,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4s-sport-turismo-auto-4wd-5dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-4s-sport-turismo-auto-4wd-5dr-11kw-charger-1320651506-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -714,7 +714,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140692360"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "31",
@@ -756,7 +757,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-571-ps/porsche-taycan-performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-571-ps-1408236044-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -766,7 +767,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030357982"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "33",
@@ -1051,13 +1053,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2003431/2023-porsche-taycan-698540fb38ae6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=039c7726e7fbd16fcf00417024aa0cb3",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003431"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "47",
@@ -1424,7 +1427,7 @@
     {
       "id": "63",
       "title": "2023 Porsche Taycan Performance 79.2kWh Sport Turismo Auto RWD 5dr (11kW Charger)",
-      "price": "£46,990",
+      "price": "£44,990",
       "year": 2023,
       "mileage": "22,000 miles",
       "transmission": "Automatic",
@@ -1432,7 +1435,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-auto-rwd-4dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-auto-rwd-4dr-11kw-charger-1419763962-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1443,7 +1446,12 @@
           "url": "https://www.autotrader.co.uk/car-details/202602109810675"
         }
       ],
-      "unlistedDate": "2026-04-01"
+      "priceHistory": [
+        {
+          "price": "£46,990",
+          "date": "2026-04-03"
+        }
+      ]
     },
     {
       "id": "64",
@@ -1456,13 +1464,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-11kw-charger--571-ps/porsche-taycan-performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-11kw-charger--571-ps-1383483075-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19531561"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "65",
@@ -1495,7 +1504,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-11kw-charger--571-ps/porsche-taycan-performance-plus-93-4kwh-4s-cross-turismo-5dr-electric-auto-4wd-11kw-charger--571-ps-1420306080-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1507,7 +1516,8 @@
           "price": "£51,995",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "67",
@@ -1630,12 +1640,12 @@
     },
     {
       "id": "72",
-      "title": "2022 Used  PORSCHE TAYCAN SPORT TURISMO 4X2",
+      "title": "2022 Porsche Taycan Performance Plus 93.4kWh 4S Cross Turismo Auto 4WD 5dr (11kW Charger)",
       "price": "£54,450",
       "year": 2022,
-      "mileage": "N/A",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "mileage": "13,529 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1407924166-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1644,6 +1654,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19964347"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230919674"
         }
       ]
     },
@@ -1721,7 +1735,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-gts-sport-turismo-5dr-electric-auto-4wd-11kw-charger--598-ps/porsche-taycan-performance-plus-93-4kwh-gts-sport-turismo-5dr-electric-auto-4wd-11kw-charger--598-ps-1399731421-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1731,7 +1745,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120638947"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "77",
@@ -1833,13 +1848,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/390kw-4s-79kwh-4dr-auto-5-seat/porsche-taycan-390kw-4s-79kwh-4dr-auto-5-seat-1395512580-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19790570"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "81",
@@ -1872,13 +1888,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/4s-93kwh/porsche-taycan-4s-93kwh-1420727587-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19794507"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "83",
@@ -1891,13 +1908,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1395552990-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19795683"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "84",
@@ -1910,13 +1928,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/turbo-sport-turismo/porsche-taycan-turbo-sport-turismo-1420727213-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19971021"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "85",
@@ -1929,22 +1948,23 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1418572803-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19795185"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "86",
-      "title": "2023 Used  PORSCHE TAYCAN TURBO CROSS TURISMO",
+      "title": "2023 Porsche Taycan (23 Reg) 4S Cross Turismo 5dr",
       "price": "£66,500",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "7,816 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Estate",
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/cross-turismo-500kw-turbo-93kwh-5dr-auto/porsche-taycan-cross-turismo-500kw-turbo-93kwh-5dr-auto-1395278100-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1953,6 +1973,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19789803"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603130678218"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -1968,13 +1992,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-gts-sport-turismo-auto-4wd-5dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-gts-sport-turismo-auto-4wd-5dr-11kw-charger-1383076843-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19650251"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "88",
@@ -2156,6 +2181,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291116604"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20197351"
         }
       ]
     },
@@ -2279,13 +2308,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f2c9ee51052043c5bbe4a1a1766c556a.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190846969"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "103",
@@ -2336,13 +2366,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c8b9f9e81b80494da68dc03b439f0bb9.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509226516751"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "106",
@@ -2360,6 +2391,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180792229"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19812097"
         }
       ]
     },
@@ -2374,13 +2409,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4s-auto-4wd-4dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-4s-auto-4wd-4dr-11kw-charger-1420391120-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20164688"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "108",
@@ -2393,13 +2429,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-turbo-cross-turismo-auto-4wd-5dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-turbo-cross-turismo-auto-4wd-5dr-11kw-charger-1415848192-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20050032"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "109",
@@ -2431,13 +2468,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/matching/porsche-taycan-matching-1421030338-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20152601"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "111",
@@ -2473,13 +2511,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/matching/porsche-taycan-matching-1421125024-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20168414"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "113",
@@ -2497,6 +2536,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603040415657"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19764052"
         }
       ]
     },
@@ -3121,6 +3164,390 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059714394"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "title": "2022 Used  PORSCHE TAYCAN 4 CROSS TURISMO",
+      "price": "£55,000",
+      "year": 2022,
+      "mileage": "27,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-4-cross-turismo-auto-4wd-5dr-11kw-charger/porsche-taycan-performance-plus-93-4kwh-4-cross-turismo-auto-4wd-5dr-11kw-charger-1414444471-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20073127"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "title": "2020 Used  PORSCHE TAYCAN TURBO",
+      "price": "£49,990",
+      "year": 2020,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/t-4wd/porsche-taycan-t-4wd-1410609071-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20019442"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "title": "2021 Porsche Taycan Performance Plus 93.4kWh Saloon 4dr Electric Auto RWD (476 ps)",
+      "price": "£41,998",
+      "year": 2021,
+      "mileage": "48,307 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/390kw-4s-79kwh-4dr-auto/porsche-taycan-390kw-4s-79kwh-4dr-auto-1415956626-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19972867"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603251008381"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "title": "2021 Used  PORSCHE TAYCAN 4S 93KWH",
+      "price": "£46,999",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/saloon-420kw-4s-93kwh-4dr-auto/porsche-taycan-saloon-420kw-4s-93kwh-4dr-auto-1422248796-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192903"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "title": "2026 Used  PORSCHE TAYCAN SPRT TURISMO BLK ED 4X2",
+      "price": "£94,000",
+      "year": 2026,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/sport-turismo-320kw-105kwh-black-edition-5dr-rwd-auto/porsche-taycan-sport-turismo-320kw-105kwh-black-edition-5dr-rwd-auto-1401059630-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19873162"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "title": "2023 Used  PORSCHE TAYCAN GTS SPORT TURISMO",
+      "price": "£69,750",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/sport-turismo-440kw-gts-93kwh-4dr-auto/porsche-taycan-sport-turismo-440kw-gts-93kwh-4dr-auto-1422250517-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192990"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "title": "2022 Used  PORSCHE TAYCAN GTS",
+      "price": "£54,750",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/saloon-440kw-gts-93kwh-4dr-auto/porsche-taycan-saloon-440kw-gts-93kwh-4dr-auto-1422250510-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192989"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "title": "2021 Used  PORSCHE TAYCAN TURBO",
+      "price": "£55,000",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/saloon-500kw-turbo-93kwh-4dr-auto-22kw-5-seat/porsche-taycan-saloon-500kw-turbo-93kwh-4dr-auto-22kw-5-seat-1422250030-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192948"
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "title": "2022 Used  PORSCHE TAYCAN 4X2",
+      "price": "£43,600",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-saloon-4dr-electric-auto-rwd-11kw-charger--476-ps/porsche-taycan-performance-plus-93-4kwh-saloon-4dr-electric-auto-rwd-11kw-charger--476-ps-1422272180-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20193551"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "title": "2023 Used  PORSCHE TAYCAN GTS",
+      "price": "£64,989",
+      "year": 2023,
+      "mileage": "18,599 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-gts-saloon-4dr-electric-auto-4wd-11kw-charger--5/porsche-taycan-performance-plus-93-4kwh-gts-saloon-4dr-electric-auto-4wd-11kw-charger--5-1422235929-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192684"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "title": "2020 Used  PORSCHE TAYCAN 4S 93KWH",
+      "price": "£42,950",
+      "year": 2020,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1422109635-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20190804"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "title": "2023 Used  PORSCHE TAYCAN 4S CROSS TURISMO",
+      "price": "£57,995",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1422109238-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20190849"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "title": "2023 Used  PORSCHE TAYCAN 4S SPORT TURISMO",
+      "price": "£57,995",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/porsche-taycan-1422109242-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20190819"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "title": "2023 Used  PORSCHE TAYCAN SPORT TURISMO 4X2",
+      "price": "£49,975",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-93-4kwh-sport-turismo-5dr-electric-auto-rwd-11kw-charger--476-ps/porsche-taycan-performance-plus-93-4kwh-sport-turismo-5dr-electric-auto-rwd-11kw-charger--476-ps-1409098664-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19989631"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "title": "2023 Used  PORSCHE TAYCAN 4S CROSS TURISMO",
+      "price": "£47,550",
+      "year": 2023,
+      "mileage": "48,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/420kw-4s-93kwh-5dr-auto/porsche-taycan-420kw-4s-93kwh-5dr-auto-1416962784-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19988460"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "title": "2022 Used  PORSCHE TAYCAN 4S 79KWH",
+      "price": "£52,990",
+      "year": 2022,
+      "mileage": "4000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/taycan-4s-79kwh-4wd-4dr/porsche-taycan-taycan-4s-79kwh-4wd-4dr-1418088074-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19989254"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "title": "2021 Used  PORSCHE TAYCAN 4S 93KWH",
+      "price": "£41,995",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/taycan/performance-plus-4s/porsche-taycan-performance-plus-4s-1398527424-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19395563"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "title": "2020 Porsche Taycan Performance Plus 93.4kWh 4S Auto 4WD 4dr",
+      "price": "£34,995",
+      "year": 2020,
+      "mileage": "70,118 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f55c9b2d79f740a39d94c243c1b5554d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021247472"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "title": "2020 Porsche Taycan Performance 79.2kWh 4S Auto 4WD 4dr",
+      "price": "£39,994",
+      "year": 2020,
+      "mileage": "26,200 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d7824b7752124fab9a9b9b534927d964.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021233247"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "title": "2023 Porsche Taycan Performance Plus 93.4kWh 4 Cross Turismo Auto 4WD 5dr (11kW Charger)",
+      "price": "£53,000",
+      "year": 2023,
+      "mileage": "19,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/4516b389ecbe43379fc8ea73bf2127c2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011222820"
         }
       ]
     }

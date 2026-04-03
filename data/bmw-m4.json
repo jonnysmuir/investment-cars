@@ -2430,6 +2430,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190055191"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20197724"
         }
       ]
     },
@@ -5037,13 +5041,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2031339/2023-bmw-m4-69b8391d19dca.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5b95f3ac613a9491c338b78282055f82",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2031339"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "250",
@@ -5120,13 +5125,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28503134/2017-bmw-m4-69aae1d021f5a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=982b71c973d83f5ed036afbcdc4870e4",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025620"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "254",
@@ -5139,13 +5145,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2024321/2021-bmw-m4-69ad82d6df7ae.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=68176df891b38a084d7e06e17bf42b28",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2024321"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "255",
@@ -5158,13 +5165,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2023523/2017-bmw-m4-69a7175ddd925.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=be8aa09ab7a4e922a4b2b3de6de638ac",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023523"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "256",
@@ -6274,13 +6282,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2026001/2015-bmw-m4-69ac10db28b29.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c4fc7f67e32b1bc89ac2fcd04f6b56e6",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2026001"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "314",
@@ -6293,13 +6302,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2020411/2019-bmw-m4-699ed8812a77e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8be119b21eceb33589268ca90a7a5941",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2020411"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "315",
@@ -6436,7 +6446,7 @@
     },
     {
       "id": "322",
-      "title": "2017 BMW M4 Competition F83",
+      "title": "2017 BMW M4 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
       "price": "£22,995",
       "year": "2017",
       "mileage": "74,500 miles",
@@ -6455,7 +6465,7 @@
     },
     {
       "id": "323",
-      "title": "2017 BMW M4 Competition F82",
+      "title": "2017 BMW M4 3.0 M4 Coupe Competition Package",
       "price": "£26,995",
       "year": "2017",
       "mileage": "68,000 miles",
@@ -6469,6 +6479,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041247"
+        }
+      ]
+    },
+    {
+      "id": "324",
+      "title": "2021 Used  BMW M4 COMPETITION AUTO",
+      "price": "£54,990",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/4-series/m4-competition-2dr-step-auto-stage-2-700bhp-carbon-buckets-30000-mods-show-car/bmw-4-series-m4-competition-2dr-step-auto-stage-2-700bhp-carbon-buckets-30000-mods-show-car-1422382940-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20196326"
         }
       ]
     }

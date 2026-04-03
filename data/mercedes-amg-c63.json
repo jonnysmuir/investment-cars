@@ -814,13 +814,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2032096/2017-mercedes-c-class-69bca1afa65b2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0208a4d0f2880877eefa5756b8a2a084",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032096"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "40",
@@ -1106,18 +1107,19 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes/c63-s-amg/4-0-c63-v8-biturbo-amg-s-night-edition-premium-plus-cabriolet-2dr-petrol-spds-mct-euro-6-s-s--51/mercedes-c63-s-amg-4-0-c63-v8-biturbo-amg-s-night-edition-premium-plus-cabriolet-2dr-petrol-spds-mct-euro-6-s-s--51-1404159442-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19870856"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "55",
       "title": "2016 Mercedes C Class C63 AMG",
-      "price": "£33,990",
+      "price": "£32,890",
       "year": "2016",
       "mileage": "47,000 miles",
       "transmission": "Automatic",
@@ -1130,6 +1132,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2040375"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£33,990",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1149,6 +1157,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2041644"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "2021 Used  MERCEDES-BENZ AMG C 63 S NIGHT ED PREM + A",
+      "price": "£56,950",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class/c-63-s-night-ed-prem/mercedes-benz-c-class-c-63-s-night-ed-prem-1422436758-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20197521"
         }
       ]
     }

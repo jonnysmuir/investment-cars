@@ -926,7 +926,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/458-italia/dct/ferrari-458-italia-dct-1409506887-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -962,7 +962,8 @@
           "price": "£138,995",
           "date": "2026-03-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "46",
@@ -2061,13 +2062,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d7ff0861adf440d1acf802b55aeef5d3.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120638571"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "92",
@@ -2104,6 +2106,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261019400"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "title": "2014 Ferrari 458 Speciale FULL FSH. CARBON FIBRE INT/EXT. CARBON ENGINE BAY. LIFT. CRUISE CONTROL. 4.5 2dr",
+      "price": "£524,995",
+      "year": 2014,
+      "mileage": "3,925 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/6cb959ec388f44caa671f19f394e678e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021247400"
         }
       ]
     }

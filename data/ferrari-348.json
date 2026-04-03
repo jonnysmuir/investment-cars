@@ -1019,13 +1019,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29135164/1991-ferrari-testarossa-69c7fc18edd2c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=23afaaf9a933fe5308ac96f33e3a655e",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038436"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "52",
@@ -1043,6 +1044,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2039213"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "1990 Ferrari 348 tb",
+      "price": "£50,000",
+      "year": "1990",
+      "mileage": "45,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29331886/1990-ferrari-348-69ce9ed037ba6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f91860e4356a5020dd2e310c4e480120",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042147"
         }
       ]
     }

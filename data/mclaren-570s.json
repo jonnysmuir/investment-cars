@@ -871,7 +871,7 @@
       "price": "£94,995",
       "year": 2018,
       "mileage": "17,500 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/6eecab29b5714d6c966be866d32870d9.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -880,9 +880,13 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603070493641"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192760"
         }
       ],
-      "bodyType": null
+      "bodyType": "Convertible"
     },
     {
       "id": "41",
@@ -964,6 +968,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": "Coupe"
@@ -1058,6 +1070,14 @@
         {
           "price": "£76,999",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£76,999",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1138,6 +1158,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": "Convertible"
@@ -1195,6 +1223,14 @@
         {
           "price": "£79,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£79,790",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1290,6 +1326,14 @@
         {
           "price": "£64,785",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£64,964",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£64,785",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1347,6 +1391,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601129089833"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192774"
         }
       ],
       "bodyType": null
@@ -1381,13 +1429,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28403589/2019-mclaren-570s-69a78391873d3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=be3f05a0ae178f2765cdf7670c821bbc",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023740"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "56",
@@ -1399,13 +1448,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26509406/2019-mclaren-570s-6932983109ecb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a01376ee70abe214f17d1a36f185be7d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1983895"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "57",
@@ -1663,7 +1713,7 @@
     },
     {
       "id": "69",
-      "title": "2018 McLaren 570S 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "title": "2018 McLaren 570S 3.8T V8 Spider 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
       "price": "£89,000",
       "year": 2018,
       "mileage": "27,500 miles",

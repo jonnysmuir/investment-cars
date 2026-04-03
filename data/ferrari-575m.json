@@ -594,13 +594,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1994021/2005-ferrari-575-6957a966f28c4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5a9d2af9523258401514f76f4b596e6c",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1994021"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "31",
@@ -764,13 +765,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2033840/2004-ferrari-575-69bcc150c721a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5236f5dbb969da9aa081f11280b2ee0c",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033840"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "40",
@@ -864,13 +866,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cf2d38e626c44b428a09f914966c2471.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601028877659"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "45",
@@ -913,7 +916,7 @@
     {
       "id": "47",
       "title": "2003 Ferrari 575M 5.8 Maranello F1 2dr",
-      "price": "£82,950",
+      "price": "£84,995",
       "year": 2003,
       "mileage": "30,700 miles",
       "transmission": "F1 Automated Manual",
@@ -940,6 +943,10 @@
         {
           "price": "£84,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£82,950",
+          "date": "2026-04-03"
         }
       ]
     },

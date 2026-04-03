@@ -764,7 +764,7 @@
     {
       "id": "37",
       "title": "2019 Maserati Granturismo 4.7 V8 Sport Nerissimo Auto Euro 6 2dr",
-      "price": "£53,480",
+      "price": "£52,980",
       "year": 2019,
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -781,6 +781,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068948166"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£53,480",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -851,12 +857,12 @@
     },
     {
       "id": "41",
-      "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 5 2dr",
+      "title": "2011 Maserati Granturismo 4.7 V8 S Coupe 2dr Petrol Auto Euro 5 (440 ps)",
       "price": "£25,495",
       "year": 2011,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/s/maserati-granturismo-s-S4910807-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -883,6 +889,14 @@
         {
           "price": "£24,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£24,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1443,7 +1457,7 @@
     {
       "id": "66",
       "title": "2008 Maserati Granturismo 4.2 V8 Coupe 2dr Petrol Auto Euro 4 (405 ps)",
-      "price": "£13,995",
+      "price": "£12,995",
       "year": 2008,
       "mileage": "42,000 miles",
       "transmission": "Automatic",
@@ -1456,6 +1470,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250996102"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£13,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1571,13 +1591,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fcea6942a3de4af489cb39a0b2276a92.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170782361"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "73",
@@ -1848,7 +1869,7 @@
     {
       "id": "87",
       "title": "2018 Maserati Granturismo 4.7 V8 Sport Auto Euro 6 2dr",
-      "price": "£43,995",
+      "price": "£43,495",
       "year": 2018,
       "mileage": "27,000 miles",
       "transmission": "Automatic",
@@ -1861,6 +1882,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180799721"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£43,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1951,6 +1978,14 @@
         {
           "price": "£25,495",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£25,750",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -2279,12 +2314,12 @@
     },
     {
       "id": "109",
-      "title": "2013 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
+      "title": "2013 Maserati Granturismo 4.7 V8 Sport Coupe 2dr Petrol Auto Euro 5 (460 ps)",
       "price": "£27,500",
       "year": 2013,
       "mileage": "40,000 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/fcea6942a3de4af489cb39a0b2276a92.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
@@ -2358,6 +2393,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011208453"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2015 Maserati Granturismo 4.7 V8 Sport Auto Euro 5 2dr",
+      "price": "£36,950",
+      "year": 2015,
+      "mileage": "23,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/c2091d772d254d45ad6324c2c3b2057c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021228966"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2013 Maserati Granturismo 4.7 V8 Sport MC Shift Euro 5 2dr",
+      "price": "£32,950",
+      "year": 2013,
+      "mileage": "22,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/9b4e8fafcc6c4104bf70743d9f904a25.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021228976"
         }
       ]
     }

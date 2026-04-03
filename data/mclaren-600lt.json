@@ -773,6 +773,14 @@
         {
           "price": "£115,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£117,500",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£115,950",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1099,6 +1107,14 @@
         {
           "price": "£138,480",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£141,490",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£138,480",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": "Convertible"
@@ -1197,6 +1213,14 @@
         {
           "price": "£128,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1331,6 +1355,14 @@
         {
           "price": "£149,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£143,950",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1344,7 +1376,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/bf2bffb31a1e4677b777d09412134969.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1361,7 +1393,8 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "45",
@@ -1518,15 +1551,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/eee599e8a154443ea54b539501c6afb3.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210889337"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-03-31"
+      "bodyType": "Convertible"
     },
     {
       "id": "53",
@@ -1558,13 +1590,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f8bac2e6f50c4b278705415ab5f4b4a7.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250985400"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "55",
@@ -1596,13 +1629,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/90667a50cc744a7799c340e400258577.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271067472"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "57",

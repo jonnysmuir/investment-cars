@@ -837,6 +837,14 @@
         {
           "price": "£39,990",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£39,990",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -943,6 +951,14 @@
         {
           "price": "£67,500",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£69,950",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£67,500",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1197,7 +1213,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/v12/aston-martin-vanquish-v12-S4943424-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1207,7 +1223,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200873200"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "55",
@@ -1220,7 +1237,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/5-9-v12-2d-460-bhp/aston-martin-vanquish-5-9-v12-2d-460-bhp-1329376172-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1230,7 +1247,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202407302296969"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "56",
@@ -1357,13 +1375,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28899978/2019-aston-martin-vanquish-69bcb7d678214.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=05d24285394c7e5986577eab54ac58d6",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033757"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "63",
@@ -1572,13 +1591,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2022761/2008-aston-martin-vanquish-69c10bf44a18d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1281832a66708b4661105c7001b2e1cf",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2022761"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "74",
@@ -1591,7 +1611,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/28585209/2025-aston-martin-vanquish-69af85fc32cb0.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fe14c9f64d75edc562bcdc0c2434f59a",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1603,7 +1623,8 @@
           "price": "£308,990",
           "date": "2026-03-29"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "75",
@@ -1725,13 +1746,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0da6b60df4b244d88ac7d5e68c93f455.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202402066299315"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "81",
@@ -1943,6 +1965,14 @@
         {
           "price": "£109,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£112,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£109,950",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -2111,7 +2141,7 @@
     {
       "id": "98",
       "title": "2017 Aston Martin Vanquish 6.0 V12 T-TronIII Euro 6 2dr",
-      "price": "£97,500",
+      "price": "£92,500",
       "year": 2017,
       "mileage": "25,233 miles",
       "transmission": "Unknown",
@@ -2124,6 +2154,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512128560912"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£97,500",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -2233,13 +2269,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0782d91f4aac40718f342dc7a8bda3ef.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202402066299222"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "105",
@@ -2367,13 +2404,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a56cc5dbc7644a98aa5524f6eb8808b8.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069730572"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "111",
@@ -2386,13 +2424,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/23af8376905142b3a07e29a2d1c09d9f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511248097652"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "112",
@@ -2405,13 +2444,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6cc22164ebf24c9998e05c7c85e85b8e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508115329184"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "113",
@@ -2462,13 +2502,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0b1a4d369adf4b91975f22ad09fcee8b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505142401630"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "116",
@@ -2481,13 +2522,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ebbdcc6c81de4fa0b376b6bc614a8b03.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059693058"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "117",
@@ -2500,13 +2542,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2a84417fce994693b871f04b668cc524.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511268154551"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "118",
@@ -2519,13 +2562,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ef5068329de04c8b9e95dfac2d34125a.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601289487824"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "119",
@@ -2538,13 +2582,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/aba9d98cda424915b3e8c156abf6317f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512018252344"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "120",
@@ -2599,13 +2644,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b1deca4e68904428b0b5556b67fd7478.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049678337"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "123",
@@ -2618,13 +2664,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dbaae2c9d34d4b168c6a948bdbf949a4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511087751951"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "124",
@@ -2637,13 +2684,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e3b9ed26ebfd4e149d0bedb71d860caf.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060459881"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "125",
@@ -2675,13 +2723,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f0ba7ed7f7fb417287ad70b5d5edb0ef.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202405099511933"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "127",
@@ -2694,13 +2743,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4242f335fc874229b4eb43e85a1f656a.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510137118154"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "128",
@@ -2732,18 +2782,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/116b0e0d663f4f1b81c29d631628d275.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059688876"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "130",
       "title": "2019 Aston Martin Vanquish 6.0 V12 S Zagato Shooting Brake T-TronIII Euro 6 2dr",
-      "price": "£395,000",
+      "price": "£385,000",
       "year": 2019,
       "mileage": "61 miles",
       "transmission": "Automatic",
@@ -2761,6 +2812,12 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19804949"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£395,000",
+          "date": "2026-04-03"
+        }
       ]
     },
     {
@@ -2774,13 +2831,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/951e33a4adad47f18e0e469491671ba4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060453122"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "132",
@@ -2793,13 +2851,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/597b10dd36f54031ade855f2ef15343b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506053208741"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "133",
@@ -2812,13 +2871,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/83fda1582b564bcda781a71bf2765446.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069733260"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "134",
@@ -2831,13 +2891,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5af91f67883d48329e6afbccf0f61c88.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503260604409"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "135",
@@ -2850,13 +2911,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2dfebcca09934100968978c57dea754b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602270268893"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "136",
@@ -2869,13 +2931,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f10374845c1f4b6581f301665d990e8c.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603040413210"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "137",
@@ -2888,13 +2951,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/472a1e349d8a4c0c991fe63715315880.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200879422"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "138",
@@ -2907,13 +2971,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1713942ac9824b649877ae250e1ecc42.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510086990414"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "139",
@@ -2926,13 +2991,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f21171574dc5407686258c8c88939ff6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602119850612"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "140",
@@ -2945,13 +3011,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/33eb5f6362a448558f275cad71933265.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170775376"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "141",
@@ -2987,13 +3054,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/033fa70b87644872a7ef55e3572d74f6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210884832"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "143",
@@ -3006,13 +3074,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d154e6a42b1245b69ba40cb0a127b3cb.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506213741143"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "144",
@@ -3025,13 +3094,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0e96bb77c45c495eb1a4b470a574b31c.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503059767065"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "145",
@@ -3044,13 +3114,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5af88a1f3ee84e66bb1001e620fcf986.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202411126209773"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "146",
@@ -3063,13 +3134,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/200001d3f25d4093a0b31a311b671a28.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601319573768"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "147",
@@ -3082,13 +3154,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1d1c7e6204174a7f8bda991592707f60.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602029611305"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "148",
@@ -3153,13 +3226,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7b8ba3629e464e8a8e3a4a5eaab7fe81.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200858220"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "151",
@@ -3172,13 +3246,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8d51dc53199049d3aeb9b0fbf2ff4a17.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050447873"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "152",
@@ -3191,13 +3266,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2939fc6842a04a8e8abc4331d765d712.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202311164019686"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "153",
@@ -3210,13 +3286,14 @@
       "image": "",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271055645"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "154",
@@ -3332,6 +3409,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1837359"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "title": "2013 Aston Martin Vanquish 5.9 V12 2d 565 BHP",
+      "price": "£64,950",
+      "year": 2013,
+      "mileage": "18,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/faaf4789a27049f2aa19ca36fa6ee68b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202404249004798"
         }
       ]
     }

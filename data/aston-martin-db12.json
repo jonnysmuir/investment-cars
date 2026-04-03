@@ -39,6 +39,14 @@
         {
           "price": "£152,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£154,900",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£152,950",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -49,7 +57,7 @@
       "year": 2024,
       "mileage": "894 miles",
       "transmission": "Automatic",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db12/volante/aston-martin-db12-volante-1418146822-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -76,6 +84,14 @@
         {
           "price": "£159,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£154,850",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£159,950",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -113,6 +129,14 @@
         {
           "price": "£144,998",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£145,990",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£144,998",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -165,6 +189,14 @@
         {
           "price": "£147,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£147,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -223,6 +255,14 @@
         {
           "price": "£145,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£147,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£145,000",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -283,6 +323,14 @@
         {
           "price": "£153,900",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£156,990",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£153,900",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -335,6 +383,14 @@
         {
           "price": "£149,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£145,900",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£149,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -364,7 +420,7 @@
     {
       "id": "13",
       "title": "2024 Aston Martin DB12 4.0 V8 Volante Auto Euro 6 (s/s) 2dr",
-      "price": "£174,990",
+      "price": "£167,950",
       "year": 2024,
       "mileage": "6,050 miles",
       "transmission": "Automatic",
@@ -381,6 +437,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301144803"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£174,990",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -591,6 +653,14 @@
         {
           "price": "£162,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£167,950",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£162,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -729,12 +799,12 @@
     },
     {
       "id": "31",
-      "title": "2024 Aston Martin DB12 4.0 V8 Auto Euro 6 (s/s) 2dr",
+      "title": "2024 Aston Martin DB12 4.0 V8 Coupe 2dr Petrol Auto Euro 6 (s/s) (680 ps)",
       "price": "£155,900",
       "year": 2024,
       "mileage": "1,220 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/6cd9e8e2e24140fbb89a54886e8fe40e.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
@@ -762,6 +832,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170782813"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "2024 Aston Martin DB12 4.0 V8 Volante Auto Euro 6 (s/s) 2dr",
+      "price": "£174,990",
+      "year": 2024,
+      "mileage": "5,750 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0472688df5984b81b1344feb0dc5bca8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602250203728"
         }
       ]
     }

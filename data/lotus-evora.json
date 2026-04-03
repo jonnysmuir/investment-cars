@@ -500,7 +500,7 @@
     {
       "id": "24",
       "title": "2025 Lotus Evora 3.5 V6 S Sports Racer Coupe 2dr Petrol IPS Euro 5 (350 ps) LEFT HAND DRIVE FULL LOTUS HISTORY LHD year 2015",
-      "price": "£44,995",
+      "price": "£45,995",
       "year": 2015,
       "mileage": "18,000 miles",
       "transmission": "Unknown",
@@ -523,6 +523,10 @@
         {
           "price": "£45,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£44,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -537,13 +541,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/evora/v6-4/lotus-evora-v6-4-S4930863-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19723282"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "26",
@@ -642,14 +647,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/27374563/2013-lotus-evora-6972302317d2e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=73f84634b26722e58f6bd228fd83e1b2",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003097"
         }
-      ],
-      "unlistedDate": "2026-04-01"
+      ]
     },
     {
       "id": "31",
@@ -1113,6 +1117,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011204749"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "title": "2016 Used  LOTUS EVORA",
+      "price": "£44,495",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/evora/evora-400/lotus-evora-evora-400-S4945732-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192776"
         }
       ]
     }

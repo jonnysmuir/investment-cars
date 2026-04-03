@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2008 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£69,995",
+      "price": "£69,980",
       "year": 2008,
       "mileage": "60 miles",
       "transmission": "E-Gear",
@@ -833,6 +833,10 @@
         {
           "price": "£69,980",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -948,7 +952,7 @@
     {
       "id": "45",
       "title": "2006 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£59,900",
+      "price": "£58,980",
       "year": 2006,
       "mileage": "25000 miles",
       "transmission": "F1 Automated Manual",
@@ -975,6 +979,10 @@
         {
           "price": "£59,980",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1571,6 +1579,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039858"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "title": "2014 Lamborghini Gallardo LP560-2 50th Anniversary Coupé",
+      "price": "£50,000",
+      "year": "2014",
+      "mileage": "15,451 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29331717/2014-lamborghini-gallardo-69ce9ea4791d8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=853f4fb930ec1825aa09873e719d5925",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042141"
         }
       ]
     }

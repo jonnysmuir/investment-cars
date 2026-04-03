@@ -478,7 +478,7 @@
     {
       "id": "24",
       "title": "2017 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£139,990",
+      "price": "£134,990",
       "year": 2017,
       "mileage": "10,000 miles",
       "transmission": "Unknown",
@@ -496,7 +496,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202603040404651"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£139,990",
+          "date": "2026-04-03"
+        }
+      ]
     },
     {
       "id": "25",
@@ -912,6 +918,14 @@
         {
           "price": "£131,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£131,995",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": null
@@ -1110,6 +1124,14 @@
         {
           "price": "£148,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£144,990",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£148,000",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": "Coupe"
@@ -1431,13 +1453,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C1961431/2017-mclaren-720s-698a7fdb419bf.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d6bbebd28b9422a394a3b1331fa4e06f",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1961431"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "55",
@@ -1507,13 +1530,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C1925891/2017-mclaren-720s-6909693452ab6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eb1c6fd409795dca7b1cba15881c63b4",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1925891"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "59",
@@ -1653,6 +1677,14 @@
         {
           "price": "£138,500",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£142,500",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-03"
         }
       ],
       "bodyType": "Coupe"
@@ -1819,7 +1851,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/720s/4-0t-v8-ssg-euro-6-s-s/mclaren-720s-4-0t-v8-ssg-euro-6-s-s-1415523487-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1829,7 +1861,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170777593"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "71",
@@ -1918,7 +1951,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/720s/mclaren-720s-1418171555-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-25",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1928,7 +1961,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230917688"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "76",

@@ -741,13 +741,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1934647/1989-ferrari-328-68b6fab8a5d72.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d7652a42ff4c6c2dce33363b203aaa1d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1934647"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "36",
@@ -1074,6 +1075,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20179744"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "1989 Ferrari 328 GTS",
+      "price": "£65,000",
+      "year": "1989",
+      "mileage": "29,103 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29307029/1989-ferrari-328-gts-69ce2513d8b04.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b9b25867ac018592600e3fbf21811299",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041802"
         }
       ]
     }

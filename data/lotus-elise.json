@@ -854,13 +854,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2008009/2000-lotus-elise-69814f9dd60e4.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e9da03332b6fb47710a8a000b6a9dfe7",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2008009"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "42",
@@ -1171,13 +1172,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2031782/2009-lotus-elise-69b976cc10ffe.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=a9093638d3d32e35f35dfd74e0c88ad1",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2031782"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "58",
@@ -2395,6 +2397,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011224773"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "title": "1998 Lotus Elise S1",
+      "price": "£14,999",
+      "year": "1998",
+      "mileage": "61,398 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28792586/15---LOTUS-ELISE----HIGH-RES.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd6817288c80874538b92ebb5db34f0f",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/1998-lotus-elise-s1-nMqwbn"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "title": "2019 Lotus Elise Sport 220",
+      "price": "£43,500",
+      "year": "2019",
+      "mileage": "4,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2042319/2019-lotus-elise-69cf36ca3f002.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ea945808555948a38af930b6f70446de",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042319"
         }
       ]
     }

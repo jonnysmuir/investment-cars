@@ -305,6 +305,14 @@
         {
           "price": "£15,900",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£15,990",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£15,900",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -888,6 +896,14 @@
         {
           "price": "£11,500",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£11,900",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£11,500",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1111,6 +1127,14 @@
         {
           "price": "£14,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£15,500",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£14,995",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1148,6 +1172,14 @@
         {
           "price": "£12,999",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£12,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£12,999",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1185,6 +1217,14 @@
         {
           "price": "£10,495",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£10,490",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£10,495",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1261,6 +1301,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260247946"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19988855"
         }
       ]
     },
@@ -1488,6 +1532,14 @@
         {
           "price": "£13,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£12,995",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£13,000",
+          "date": "2026-04-03"
         }
       ]
     },
@@ -1682,6 +1734,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19984398"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£15,495",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£15,999",
+          "date": "2026-04-03"
+        }
       ]
     },
     {
@@ -1743,6 +1805,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19809712"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£34,000",
+          "date": "2026-04-03"
+        },
+        {
+          "price": "£33,995",
+          "date": "2026-04-03"
+        }
       ]
     },
     {
@@ -1775,13 +1847,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1c3b353014a5421aa8ce58f0f97074ef.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160729903"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "76",
@@ -2126,6 +2199,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511298221307"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19544279"
         }
       ]
     },
@@ -2337,7 +2414,7 @@
       "price": "£16,091",
       "year": 2015,
       "mileage": "33,112 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://m.atcdn.co.uk/a/media/w480/fac8f5f6a7e04854a73323e8ea3a2611.jpg",
       "featured": false,
@@ -2347,6 +2424,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511228067078"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20055509"
         }
       ]
     },
@@ -2965,6 +3046,145 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011202923"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "title": "1968 Maserati Ghibli 4.7",
+      "price": "Sold",
+      "year": 1968,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/085742/AS-05-03-12.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "sold",
+      "soldPrice": "€104,000",
+      "soldDate": "2026-04-02",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1968-maserati-ghibli-4-7-1"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "title": "2016 Maserati Ghibli 3.0 V6 ZF Euro 5 4dr",
+      "price": "£18,495",
+      "year": 2016,
+      "mileage": "35,777 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/3-0-v6-zf-euro-5-4dr/maserati-ghibli-3-0-v6-zf-euro-5-4dr-1422262784-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20193418"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021232941"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "title": "1994 Used  MASERATI GHIBLI",
+      "price": "£25,995",
+      "year": 1994,
+      "mileage": "1,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/maserati-ghibli-S4945582-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20189807"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "title": "2019 Maserati Ghibli 3.0 V6 GPF GranSport ZF Euro 6 (s/s) 4dr",
+      "price": "£17,999",
+      "year": 2019,
+      "mileage": "22,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8ee29d1de12d41fb9920cb976ca13d89.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021261004"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "title": "2015 Maserati Ghibli 3.0D V6 ZF Euro 5 (s/s) 4dr",
+      "price": "£7,885",
+      "year": 2015,
+      "mileage": "104,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021259280"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "title": "2015 Maserati Ghibli 3.0 V6 ZF Euro 5 4dr",
+      "price": "£13,900",
+      "year": 2015,
+      "mileage": "45,986 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w480/5ce1d3a8bfff4f7599ac26acb2921864.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021235126"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "title": "1994 Maserati Ghibli II 2.8 V6 Biturbo /// Just 55k Miles",
+      "price": "£25,995",
+      "year": "1994",
+      "mileage": "55,951 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/maserati/C2041965/1994-maserati-ghibli-69ce61536285c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b4926b197e7c78bcf63c5d9f8080bc1f",
+      "featured": false,
+      "dateAdded": "2026-04-03",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2041965"
         }
       ]
     }

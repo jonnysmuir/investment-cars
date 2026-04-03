@@ -4981,13 +4981,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2029432/2006-bmw-z4-69b56bf8df151.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f2c006f189550e5d31f1f48efbce7aec",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029432"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "249",
@@ -5000,13 +5001,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2035184/2003-bmw-z4-69c1189adf481.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e7c716422001db9730b707d2328eca7b",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2035184"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-03"
     },
     {
       "id": "250",
@@ -5231,7 +5233,7 @@
     {
       "id": "261",
       "title": "2014 BMW Z4 E89 sDrive20i",
-      "price": "£6,800",
+      "price": "£6,600",
       "year": "2014",
       "mileage": "108,000 miles",
       "transmission": "6-Speed Manual",
@@ -5244,6 +5246,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2040317"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£6,800",
+          "date": "2026-04-03"
         }
       ]
     },
