@@ -285,6 +285,14 @@
         {
           "price": "£76,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£77,985",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£76,995",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -292,7 +300,7 @@
     {
       "id": "12",
       "title": "2017 McLaren 570GT 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£75,970",
+      "price": "£77,250",
       "year": 2017,
       "mileage": "37,740 miles",
       "transmission": "F1 Automated Manual",
@@ -326,6 +334,10 @@
         {
           "price": "£77,250",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£75,970",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Coupe"
@@ -480,6 +492,14 @@
         {
           "price": "£85,950",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£89,490",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£85,950",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -1341,6 +1361,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021233795"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "2019 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
+      "price": "£86,100",
+      "year": 2019,
+      "mileage": "21,224 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/db88fa1ce8a744d68db8a8b67a64d910.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031279078"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "2019 McLaren 570 V8 2dr SSG Auto 3.8",
+      "price": "£94,950",
+      "year": 2019,
+      "mileage": "17,400 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/ec490f5e1b0841c99b1db54333527876.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021251677"
         }
       ]
     }

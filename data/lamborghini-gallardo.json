@@ -837,6 +837,14 @@
         {
           "price": "£69,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£69,980",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -983,6 +991,14 @@
         {
           "price": "£59,900",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£58,980",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -1464,12 +1480,12 @@
     },
     {
       "id": "70",
-      "title": "2009 Lamborghini Gallardo 5.0 V10 EGear 4WD Euro 4 2dr",
+      "title": "2009 Lamborghini Gallardo 5.0 V10 Coupe 2dr Petrol EGear 4WD Euro 4 (520 ps)",
       "price": "£79,990",
       "year": 2009,
       "mileage": "25,750 miles",
       "transmission": "E-Gear",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/9d067cf5e9904961a22dc62a5bfe3f0f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1574,13 +1590,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29195451/2009-lamborghini-gallardo-69cb0f24d9605.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6a8f76f2f7778cd6378509c849e5ff87",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039858"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "76",

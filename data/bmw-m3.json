@@ -1081,14 +1081,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2021855/1992-bmw-m3-69a1c8ff5522b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=adaa7922506eb4ff667a62f1e240c3e2",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2021855"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "53",
@@ -1435,14 +1436,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2026149/2025-bmw-m3-69ac6dff0fdc0.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6e22636ce45deae823f2d3b1fcd19099",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2026149"
         }
       ],
-      "bodyType": "Estate"
+      "bodyType": "Estate",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "70",
@@ -12515,6 +12517,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2041918"
+        }
+      ]
+    },
+    {
+      "id": "585",
+      "title": "2003 BMW M3 E46 (Big Jobs Done Rust Free)",
+      "price": "£18,500",
+      "year": "2003",
+      "mileage": "83,470 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2042617/2003-bmw-m3-69d018d8b0853.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=374d10d1d7aa3234b12bbeec04bd5e11",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2042617"
         }
       ]
     }

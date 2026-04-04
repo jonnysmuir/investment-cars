@@ -75,13 +75,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28981913/1964-lotus-type-30-69c1d527c5a06.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ee7da27ef8b48f1f21a24f16e191b0e8",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035586"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "5",
@@ -137,6 +138,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2022108"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "2008 Lotus Europa 2.0 S Euro 4 2dr",
+      "price": "£30,000",
+      "year": 2008,
+      "mileage": "14,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/85e7e8d1987947268957da12b5919457.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311153708"
         }
       ]
     }

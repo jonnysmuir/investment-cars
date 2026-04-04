@@ -821,7 +821,7 @@
     {
       "id": "41",
       "title": "2012 Ferrari 458 Italia 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£147,975",
+      "price": "£149,975",
       "year": 2012,
       "mileage": "8,300 miles",
       "transmission": "Automatic",
@@ -839,7 +839,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202507254821204"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£147,975",
+          "date": "2026-04-04"
+        }
+      ]
     },
     {
       "id": "42",
@@ -1035,7 +1041,7 @@
     {
       "id": "49",
       "title": "2010 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£114,995",
+      "price": "£112,000",
       "year": 2010,
       "mileage": "34,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1149,6 +1155,10 @@
         {
           "price": "£112,000",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -1667,14 +1677,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cf2b64cab1704f929d5f79267f260c75.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508125369740"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "72",
@@ -2115,7 +2126,7 @@
       "price": "£524,995",
       "year": 2014,
       "mileage": "3,925 miles",
-      "transmission": "Unknown",
+      "transmission": "F1 Automated Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w640/6cb959ec388f44caa671f19f394e678e.jpg",
       "featured": false,

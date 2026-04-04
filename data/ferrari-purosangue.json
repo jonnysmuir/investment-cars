@@ -279,7 +279,7 @@
     {
       "id": "13",
       "title": "2025 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£469,995",
+      "price": "£479,995",
       "year": 2025,
       "mileage": "500 miles",
       "transmission": "F1 Automated Manual",
@@ -301,6 +301,10 @@
         {
           "price": "£449,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£469,995",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Saloon"
@@ -608,7 +612,7 @@
     {
       "id": "23",
       "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£349,000",
+      "price": "£359,995",
       "year": 2024,
       "mileage": "2,600 miles",
       "transmission": "F1 Automated Manual",
@@ -666,6 +670,10 @@
         {
           "price": "£359,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£349,000",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Saloon"
@@ -673,7 +681,7 @@
     {
       "id": "24",
       "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£345,995",
+      "price": "£329,000",
       "year": 2024,
       "mileage": "1,150 miles",
       "transmission": "Automatic",
@@ -739,6 +747,10 @@
         {
           "price": "£329,000",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£345,995",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Saloon"
@@ -1541,14 +1553,14 @@
     {
       "id": "53",
       "title": "2023 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£344,990",
+      "price": "£328,950",
       "year": 2023,
       "mileage": "9,283 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/61be2239c5574d089b801c526a1feb6c.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1560,7 +1572,12 @@
         }
       ],
       "bodyType": "Saloon",
-      "unlistedDate": "2026-04-01"
+      "priceHistory": [
+        {
+          "price": "£344,990",
+          "date": "2026-04-04"
+        }
+      ]
     },
     {
       "id": "54",

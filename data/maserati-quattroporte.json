@@ -703,7 +703,7 @@
     {
       "id": "34",
       "title": "2017 Maserati Quattroporte 3.0D V6 ZF Euro 5 (s/s) 4dr",
-      "price": "£23,689",
+      "price": "£23,500",
       "year": 2017,
       "mileage": "28400 miles",
       "transmission": "Automatic",
@@ -750,6 +750,10 @@
         {
           "price": "£23,500",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£23,689",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -779,7 +783,7 @@
     {
       "id": "36",
       "title": "2016 Maserati Quattroporte 3.0D V6 ZF Euro 5 (s/s) 4dr",
-      "price": "£17,290",
+      "price": "£17,995",
       "year": 2016,
       "mileage": "59,422 miles",
       "transmission": "Unknown",
@@ -826,6 +830,10 @@
         {
           "price": "£17,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£17,290",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -858,7 +866,7 @@
       "price": "£47,500",
       "year": 2022,
       "mileage": "27,500 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://img.pistonheads.com/LargeSize/maserati/quattroporte/v6-gt-4dr-auto/maserati-quattroporte-v6-gt-4dr-auto-1411846838-1.jpg",
       "featured": false,
@@ -917,7 +925,7 @@
     {
       "id": "41",
       "title": "2015 Maserati Quattroporte 3.0D V6 ZF Euro 6 (s/s) 4dr",
-      "price": "£11,495",
+      "price": "£11,800",
       "year": 2015,
       "mileage": "45000 miles",
       "transmission": "Automatic",
@@ -964,6 +972,10 @@
         {
           "price": "£11,800",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£11,495",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -1121,13 +1133,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/92d9be3cf1f446abb4f2068d9ab6497b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210889897"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "50",
@@ -1521,14 +1534,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/maserati/C1944125/1999-maserati-quattroporte-69c42b67466d6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4a8a85d1bebcb0fe6ca6acd38c4a6844",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1944125"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "71",
@@ -1600,7 +1612,7 @@
     {
       "id": "74",
       "title": "2006 Maserati Quattroporte M139",
-      "price": "£3,250",
+      "price": "£3,450",
       "year": "2006",
       "mileage": "70,000 miles",
       "transmission": "Automatic",
@@ -1613,6 +1625,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2040352"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£3,250",
+          "date": "2026-04-04"
         }
       ]
     },

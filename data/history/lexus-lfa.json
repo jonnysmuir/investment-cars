@@ -501,5 +501,26 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-04-04",
+    "listings": [
+      {
+        "id": "3",
+        "price": 1149995,
+        "year": 2012,
+        "mileage": 300,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "4",
+        "price": 1149995,
+        "year": "2012",
+        "mileage": 262,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]

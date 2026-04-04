@@ -3234,6 +3234,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059690136"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19816896"
         }
       ],
       "priceHistory": [
@@ -4997,6 +5001,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202412127219916"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17858140"
         }
       ]
     },
@@ -5495,6 +5503,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601179224859"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19661341"
         }
       ]
     },
@@ -5533,6 +5545,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602270262622"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19551498"
         }
       ],
       "priceHistory": [
@@ -5871,13 +5887,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/v8-dbx707-5dr-touchtronic/aston-martin-dbx-v8-dbx707-5dr-touchtronic-1408372548-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19977147"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "287",
@@ -5890,13 +5907,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/v8-dbx707-5dr-touchtronic/aston-martin-dbx-v8-dbx707-5dr-touchtronic-1408372542-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19977383"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "288",
@@ -6495,7 +6513,7 @@
       "price": "£164,995",
       "year": "2017",
       "mileage": "9,150 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2042318/2017-aston-martin-vantage-69cf3694811ef.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8803507968267189b0d9f72ec97a21de",
       "featured": false,
@@ -6510,7 +6528,7 @@
     },
     {
       "id": "320",
-      "title": "2022 Aston Martin Vantage V12",
+      "title": "2022 Aston Martin V12 Vantage 2dr ZF 8 Speed Auto",
       "price": "£181,900",
       "year": "2022",
       "mileage": "8,833 miles",
@@ -6524,6 +6542,27 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042296"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "title": "2013 Aston Martin V12 Vantage",
+      "price": "Sold",
+      "year": 2013,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086340/24-03-26-JJBB-04.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "sold",
+      "soldPrice": "£65,000",
+      "soldDate": "2026-04-03",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2013-aston-martin-v12-vantage-10"
         }
       ]
     }

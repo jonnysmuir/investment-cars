@@ -1,87 +1,95 @@
 {
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-04",
   "sources": {
     "pistonheads": {
       "models": {
         "bmw-m3": {
-          "avg": 1.3,
+          "avg": 1,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             2,
             1,
             2,
+            0,
             0
           ]
         },
         "alpine-a110-modern": {
-          "avg": 15.7,
-          "lastSeen": "2026-04-03",
+          "avg": 16,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             17,
-            14
+            14,
+            17
           ]
         },
         "aston-martin-db11": {
-          "avg": 18.7,
-          "lastSeen": "2026-04-03",
+          "avg": 18.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             18,
-            19
+            19,
+            17
           ]
         },
         "aston-martin-db12": {
-          "avg": 13,
-          "lastSeen": "2026-04-03",
+          "avg": 12.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             13,
-            13
+            13,
+            12
           ]
         },
         "aston-martin-db7": {
           "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             17,
             15,
-            17
+            17,
+            16
           ]
         },
         "aston-martin-db9": {
-          "avg": 1,
-          "lastSeen": "2026-04-03",
+          "avg": 1.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
             0,
-            1
+            1,
+            2
           ]
         },
         "aston-martin-dbs": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
           ]
         },
         "aston-martin-dbs-superleggera": {
-          "avg": 1,
-          "lastSeen": "2026-04-03",
+          "avg": 1.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             1,
             1,
-            1
+            1,
+            2
           ]
         },
         "aston-martin-v8-vantage": {
@@ -93,118 +101,129 @@
           ]
         },
         "aston-martin-vanquish": {
-          "avg": 17.3,
-          "lastSeen": "2026-04-03",
+          "avg": 17,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             17,
             18,
-            17
+            17,
+            16
           ]
         },
         "aston-martin-vantage": {
           "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
             8,
-            4
+            4,
+            5
           ]
         },
         "audi-r8": {
-          "avg": 18.7,
-          "lastSeen": "2026-04-03",
+          "avg": 18.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             19,
-            18
+            18,
+            17
           ]
         },
         "audi-rs-q8": {
-          "avg": 0.7,
+          "avg": 0.5,
           "lastSeen": "2026-03-31",
-          "consecutiveZeros": 2,
+          "consecutiveZeros": 3,
           "history": [
             2,
+            0,
             0,
             0
           ]
         },
         "audi-rs3": {
-          "avg": 11.7,
-          "lastSeen": "2026-04-03",
+          "avg": 12.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             12,
             10,
-            13
+            13,
+            15
           ]
         },
         "audi-rs4": {
-          "avg": 7.3,
-          "lastSeen": "2026-04-03",
+          "avg": 7.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             6,
-            9
+            9,
+            8
           ]
         },
         "audi-rs5": {
-          "avg": 3.7,
-          "lastSeen": "2026-04-03",
+          "avg": 4,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             3,
-            3
+            3,
+            5
           ]
         },
         "audi-rs6": {
-          "avg": 14.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             15,
             14,
-            15
+            15,
+            13
           ]
         },
         "audi-rs7": {
-          "avg": 10.3,
-          "lastSeen": "2026-04-03",
+          "avg": 10,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
             11,
+            9,
             9
           ]
         },
         "bmw-1m": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "bmw-m2": {
-          "avg": 14,
-          "lastSeen": "2026-04-03",
+          "avg": 14.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             13,
+            15,
             15
           ]
         },
         "bmw-m4": {
-          "avg": 2.2,
-          "lastSeen": "2026-04-03",
+          "avg": 2,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
@@ -212,35 +231,39 @@
             3,
             3,
             0,
-            2
+            2,
+            1
           ]
         },
         "bmw-m5": {
-          "avg": 7,
-          "lastSeen": "2026-04-03",
+          "avg": 7.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             8,
-            7
+            7,
+            9
           ]
         },
         "bmw-m6": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 13.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             14,
-            14
+            14,
+            13
           ]
         },
         "bmw-m8": {
           "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             17,
+            16,
             16,
             16
           ]
@@ -248,28 +271,31 @@
         "bmw-z4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "bmw-z8": {
-          "avg": 3,
-          "lastSeen": "2026-04-03",
+          "avg": 2.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             3,
-            3
+            3,
+            2
           ]
         },
         "ferrari-208": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -278,38 +304,42 @@
         "ferrari-gto": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-296": {
-          "avg": 1,
-          "lastSeen": "2026-04-03",
+          "avg": 1.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
             0,
-            1
+            1,
+            2
           ]
         },
         "ferrari-308": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             6,
-            7
+            7,
+            6
           ]
         },
         "ferrari-328": {
           "avg": 8,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            8,
             8,
             8,
             8
@@ -317,9 +347,10 @@
         },
         "ferrari-348": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -327,19 +358,21 @@
         },
         "ferrari-360": {
           "avg": 13,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             13,
-            12
+            12,
+            13
           ]
         },
         "ferrari-400": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -348,39 +381,43 @@
         "ferrari-412": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-456": {
-          "avg": 5,
-          "lastSeen": "2026-04-03",
+          "avg": 4.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             5,
-            5
+            5,
+            4
           ]
         },
         "ferrari-458": {
-          "avg": 10.7,
-          "lastSeen": "2026-04-03",
+          "avg": 10.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             12,
+            10,
             10,
             10
           ]
         },
         "ferrari-488": {
           "avg": 11.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             12,
+            11,
             11,
             11
           ]
@@ -388,78 +425,86 @@
         "ferrari-512-bb": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-550": {
-          "avg": 4.7,
-          "lastSeen": "2026-04-03",
+          "avg": 4.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             5,
+            4,
             4
           ]
         },
         "ferrari-575m": {
-          "avg": 3.7,
-          "lastSeen": "2026-04-03",
+          "avg": 3.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
+            4,
             4,
             4
           ]
         },
         "ferrari-599": {
-          "avg": 0.3,
-          "lastSeen": "2026-04-03",
+          "avg": 0.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             0,
             0,
-            1
+            1,
+            2
           ]
         },
         "ferrari-612": {
-          "avg": 6,
-          "lastSeen": "2026-04-03",
+          "avg": 5.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             7,
+            5,
             5
           ]
         },
         "ferrari-812": {
-          "avg": 19.3,
-          "lastSeen": "2026-04-03",
+          "avg": 19,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             21,
             19,
+            18,
             18
           ]
         },
         "ferrari-california": {
-          "avg": 17.7,
-          "lastSeen": "2026-04-03",
+          "avg": 17.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             18,
             18,
-            17
+            17,
+            16
           ]
         },
         "ferrari-dino-206-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -468,8 +513,9 @@
         "ferrari-dino-208-gt4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -477,9 +523,10 @@
         },
         "ferrari-dino-246": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -488,8 +535,9 @@
         "ferrari-dino-308-gt4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -498,188 +546,207 @@
         "ferrari-enzo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-f12": {
-          "avg": 6.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             6,
-            7
+            7,
+            6
           ]
         },
         "ferrari-f355": {
-          "avg": 13.3,
-          "lastSeen": "2026-04-03",
+          "avg": 13.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             14,
-            13
+            13,
+            14
           ]
         },
         "ferrari-f40": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-f430": {
-          "avg": 15,
-          "lastSeen": "2026-04-03",
+          "avg": 15.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             15,
-            14
+            14,
+            17
           ]
         },
         "ferrari-f50": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-f8": {
-          "avg": 5.7,
-          "lastSeen": "2026-04-03",
+          "avg": 5.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
+            5,
             5,
             5
           ]
         },
         "ferrari-ff": {
           "avg": 10,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            10,
             10,
             10,
             10
           ]
         },
         "ferrari-gtc4lusso": {
-          "avg": 8.7,
-          "lastSeen": "2026-04-03",
+          "avg": 8.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
             9,
+            8,
             8
           ]
         },
         "ferrari-laferrari": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-mondial": {
-          "avg": 3,
-          "lastSeen": "2026-04-03",
+          "avg": 2.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             3,
-            3
+            3,
+            2
           ]
         },
         "ferrari-portofino": {
-          "avg": 15,
-          "lastSeen": "2026-04-03",
+          "avg": 14.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             15,
             15,
-            15
+            15,
+            14
           ]
         },
         "ferrari-purosangue": {
           "avg": 13.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             14,
+            13,
             13
           ]
         },
         "ferrari-roma": {
-          "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "avg": 16,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             17,
             16,
-            16
+            16,
+            15
           ]
         },
         "ferrari-sf90": {
-          "avg": 14.3,
-          "lastSeen": "2026-04-03",
+          "avg": 14.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
+            15,
             15,
             15
           ]
         },
         "ferrari-superamerica": {
           "avg": 1.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
+            1,
             1,
             1
           ]
         },
         "ferrari-testarossa": {
           "avg": 4.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
             5,
+            4,
             4
           ]
         },
         "lamborghini-aventador": {
-          "avg": 12.7,
-          "lastSeen": "2026-04-03",
+          "avg": 12.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             13,
+            12,
             12
           ]
         },
         "lamborghini-diablo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -687,9 +754,10 @@
         },
         "lamborghini-gallardo": {
           "avg": 13,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            13,
             13,
             13,
             13
@@ -697,39 +765,43 @@
         },
         "lamborghini-huracan": {
           "avg": 13.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             13,
-            11
+            11,
+            13
           ]
         },
         "lamborghini-murcielago": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
           ]
         },
         "lamborghini-urus": {
-          "avg": 16.7,
-          "lastSeen": "2026-04-03",
+          "avg": 17,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             16,
+            18,
             18
           ]
         },
         "lexus-lfa": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -737,9 +809,10 @@
         },
         "lotus-2-eleven": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -748,8 +821,9 @@
         "lotus-3-eleven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -758,8 +832,9 @@
         "lotus-340r": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -768,28 +843,31 @@
         "lotus-carlton": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "lotus-elan": {
-          "avg": 4.7,
-          "lastSeen": "2026-04-03",
+          "avg": 5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             6,
-            5
+            5,
+            6
           ]
         },
         "lotus-elan-m100": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -797,60 +875,66 @@
         },
         "lotus-eletre": {
           "avg": 15.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
+            15,
             15,
             15
           ]
         },
         "lotus-elise": {
-          "avg": 2.3,
+          "avg": 1.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             5,
             1,
-            1
+            1,
+            0
           ]
         },
         "lotus-emeya": {
-          "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "avg": 16.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             16,
+            17,
             17
           ]
         },
         "lotus-emira": {
           "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             16,
-            14
+            14,
+            16
           ]
         },
         "lotus-esprit": {
           "avg": 15,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            15,
             15,
             15,
             15
           ]
         },
         "lotus-europa": {
-          "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "avg": 5.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
+            6,
             6,
             6
           ]
@@ -858,8 +942,9 @@
         "lotus-europa-s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -867,69 +952,76 @@
         },
         "lotus-evora": {
           "avg": 16,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            16,
             16,
             16,
             16
           ]
         },
         "lotus-exige": {
-          "avg": 1.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 1.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             3,
             2,
-            0
+            0,
+            1
           ]
         },
         "lotus-seven": {
-          "avg": 1.3,
-          "lastSeen": "2026-04-03",
+          "avg": 1.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             1,
             1,
+            2,
             2
           ]
         },
         "maserati-ghibli": {
-          "avg": 19.3,
-          "lastSeen": "2026-04-03",
+          "avg": 19.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             20,
-            19
+            19,
+            20
           ]
         },
         "maserati-granturismo": {
-          "avg": 16.7,
-          "lastSeen": "2026-04-03",
+          "avg": 16.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
+            17,
             17,
             17
           ]
         },
         "maserati-mc20": {
-          "avg": 2.7,
-          "lastSeen": "2026-04-03",
+          "avg": 2.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
+            3,
             3,
             3
           ]
         },
         "maserati-quattroporte": {
           "avg": 11,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            11,
             11,
             11,
             11
@@ -937,9 +1029,10 @@
         },
         "mclaren-12c": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -947,9 +1040,10 @@
         },
         "mclaren-540c": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -957,39 +1051,43 @@
         },
         "mclaren-570gt": {
           "avg": 7,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            7,
             7,
             7,
             7
           ]
         },
         "mclaren-570s": {
-          "avg": 12.3,
-          "lastSeen": "2026-04-03",
+          "avg": 13,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             12,
             12,
-            13
+            13,
+            15
           ]
         },
         "mclaren-600lt": {
           "avg": 14.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             15,
+            14,
             14,
             14
           ]
         },
         "mclaren-650s": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -998,48 +1096,53 @@
         "mclaren-675lt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mclaren-720s": {
-          "avg": 14.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             14,
-            14
+            14,
+            15
           ]
         },
         "mclaren-750s": {
-          "avg": 7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             8,
             7,
+            6,
             6
           ]
         },
         "mclaren-765lt": {
-          "avg": 4,
-          "lastSeen": "2026-04-03",
+          "avg": 3.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             5,
+            2,
             2
           ]
         },
         "mclaren-artura": {
           "avg": 10,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            10,
             10,
             10,
             10
@@ -1048,8 +1151,9 @@
         "mclaren-elva": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -1058,8 +1162,9 @@
         "mclaren-f1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -1067,9 +1172,10 @@
         },
         "mclaren-gt": {
           "avg": 12,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            12,
             12,
             12,
             12
@@ -1077,9 +1183,10 @@
         },
         "mclaren-p1": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -1087,9 +1194,10 @@
         },
         "mclaren-senna": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -1098,140 +1206,154 @@
         "mclaren-speedtail": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mercedes-amg-c63": {
-          "avg": 0.7,
-          "lastSeen": "2026-04-03",
+          "avg": 0.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             1,
             0,
+            1,
             1
           ]
         },
         "mercedes-amg-e63": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mercedes-amg-gt": {
-          "avg": 8.7,
-          "lastSeen": "2026-04-03",
+          "avg": 9,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             9,
-            7
+            7,
+            10
           ]
         },
         "mercedes-amg-sls": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
           ]
         },
         "porsche-911": {
-          "avg": 210.3,
-          "lastSeen": "2026-04-03",
+          "avg": 209.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             210,
             211,
-            210
+            210,
+            208
           ]
         },
         "porsche-928": {
           "avg": 9,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            9,
             9,
             9,
             9
           ]
         },
         "porsche-944": {
-          "avg": 6.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            7,
             7,
             7
           ]
         },
         "porsche-968": {
-          "avg": 7.7,
-          "lastSeen": "2026-04-03",
+          "avg": 7.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
+            8,
             8,
             8
           ]
         },
         "porsche-boxster": {
-          "avg": 5,
-          "lastSeen": "2026-04-03",
+          "avg": 4.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             3,
+            2,
             2
           ]
         },
         "porsche-cayenne": {
-          "avg": 17,
-          "lastSeen": "2026-04-03",
+          "avg": 17.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             12,
+            20,
             20
           ]
         },
         "porsche-cayman": {
-          "avg": 18.7,
-          "lastSeen": "2026-04-03",
+          "avg": 18.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             18,
             20,
-            18
+            18,
+            17
           ]
         },
         "porsche-macan": {
-          "avg": 18.3,
-          "lastSeen": "2026-04-03",
+          "avg": 18.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             20,
             19,
-            16
+            16,
+            19
           ]
         },
         "porsche-taycan": {
-          "avg": 18.7,
-          "lastSeen": "2026-04-03",
+          "avg": 19,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
             17,
+            20,
             20
           ]
         }
@@ -1240,74 +1362,81 @@
     "autotrader": {
       "models": {
         "bmw-m3": {
-          "avg": 55,
+          "avg": 44,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             196,
             12,
             0,
-            12
+            12,
+            0
           ]
         },
         "aston-martin-db11": {
-          "avg": 34.7,
+          "avg": 26,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             51,
-            53
+            53,
+            0
           ]
         },
         "aston-martin-db12": {
-          "avg": 17,
+          "avg": 12.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             25,
-            26
+            26,
+            0
           ]
         },
         "aston-martin-db7": {
-          "avg": 11.7,
+          "avg": 8.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             18,
-            17
+            17,
+            0
           ]
         },
         "aston-martin-db9": {
-          "avg": 41,
+          "avg": 30.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             63,
-            60
+            60,
+            0
           ]
         },
         "aston-martin-dbs": {
-          "avg": 21,
+          "avg": 15.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             32,
-            31
+            31,
+            0
           ]
         },
         "aston-martin-dbs-superleggera": {
           "avg": 0.3,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             0,
-            1
+            1,
+            0
           ]
         },
         "aston-martin-v8-vantage": {
@@ -1319,210 +1448,231 @@
           ]
         },
         "aston-martin-vanquish": {
-          "avg": 25,
+          "avg": 18.8,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             38,
-            37
+            37,
+            0
           ]
         },
         "aston-martin-vantage": {
-          "avg": 118.7,
+          "avg": 89,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             177,
-            179
+            179,
+            0
           ]
         },
         "lamborghini-aventador": {
-          "avg": 29.7,
-          "lastSeen": "2026-04-03",
+          "avg": 32.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             45,
             0,
-            44
+            44,
+            42
           ]
         },
         "lamborghini-gallardo": {
-          "avg": 18,
-          "lastSeen": "2026-04-03",
+          "avg": 20.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             27,
             0,
+            27,
             27
           ]
         },
         "lamborghini-huracan": {
-          "avg": 73.7,
-          "lastSeen": "2026-04-03",
+          "avg": 83,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             109,
             0,
-            112
+            112,
+            111
           ]
         },
         "lamborghini-murcielago": {
-          "avg": 2.3,
-          "lastSeen": "2026-04-03",
+          "avg": 2.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             0,
+            4,
             4
           ]
         },
         "lamborghini-urus": {
-          "avg": 163.7,
-          "lastSeen": "2026-04-03",
+          "avg": 185,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             244,
             0,
-            247
+            247,
+            249
           ]
         },
         "mclaren-12c": {
-          "avg": 11,
+          "avg": 8.3,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             11,
             11,
-            11
+            11,
+            0
           ]
         },
         "mclaren-540c": {
-          "avg": 8,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             8,
             8,
-            8
+            8,
+            3
           ]
         },
         "mclaren-570gt": {
-          "avg": 12,
-          "lastSeen": "2026-04-03",
+          "avg": 12.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
             12,
+            13,
             13
           ]
         },
         "mclaren-570s": {
-          "avg": 29,
-          "lastSeen": "2026-04-03",
+          "avg": 24.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             30,
             29,
-            28
+            28,
+            12
           ]
         },
         "mclaren-600lt": {
-          "avg": 19.3,
-          "lastSeen": "2026-04-03",
+          "avg": 17.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             21,
             18,
-            19
+            19,
+            12
           ]
         },
         "mclaren-620r": {
-          "avg": 6.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            7,
             7,
             7
           ]
         },
         "mclaren-650s": {
-          "avg": 6.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            7,
             7,
             7
           ]
         },
         "mclaren-675lt": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
           ]
         },
         "mclaren-720s": {
-          "avg": 32.3,
-          "lastSeen": "2026-04-03",
+          "avg": 27.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             33,
             32,
-            32
+            32,
+            12
           ]
         },
         "mclaren-750s": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 13.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             14,
-            13
+            13,
+            12
           ]
         },
         "mclaren-765lt": {
-          "avg": 4.7,
-          "lastSeen": "2026-04-03",
+          "avg": 4.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             5,
+            3,
             3
           ]
         },
         "mclaren-artura": {
-          "avg": 25.3,
-          "lastSeen": "2026-04-03",
+          "avg": 22.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             26,
             25,
-            25
+            25,
+            13
           ]
         },
         "mclaren-gt": {
-          "avg": 15.3,
-          "lastSeen": "2026-04-03",
+          "avg": 13.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             18,
             15,
-            13
+            13,
+            7
           ]
         },
         "mclaren-gts": {
           "avg": 12,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            12,
             12,
             12,
             12
@@ -1530,9 +1680,10 @@
         },
         "mclaren-p1": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -1540,9 +1691,10 @@
         },
         "mclaren-senna": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -1551,611 +1703,672 @@
         "bmw-1m": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "bmw-m2": {
-          "avg": 4,
+          "avg": 3,
           "lastSeen": "2026-03-31",
-          "consecutiveZeros": 2,
+          "consecutiveZeros": 3,
           "history": [
             12,
+            0,
             0,
             0
           ]
         },
         "bmw-m4": {
-          "avg": 101.2,
+          "avg": 86.7,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             12,
             193,
             195,
             195,
             12,
+            0,
             0
           ]
         },
         "bmw-m5": {
-          "avg": 8,
+          "avg": 6,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             12,
             12,
+            0,
             0
           ]
         },
         "bmw-m6": {
-          "avg": 8,
+          "avg": 6,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             12,
             12,
+            0,
             0
           ]
         },
         "bmw-m8": {
-          "avg": 8,
+          "avg": 6,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             12,
             12,
+            0,
             0
           ]
         },
         "bmw-z4": {
-          "avg": 8,
+          "avg": 6,
           "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "consecutiveZeros": 2,
           "history": [
             12,
             12,
+            0,
             0
           ]
         },
         "lotus-carlton": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "lotus-eletre": {
-          "avg": 23,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 34.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             69,
-            0
+            0,
+            69
           ]
         },
         "lotus-elise": {
-          "avg": 17,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 25.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             51,
-            0
+            0,
+            52
           ]
         },
         "lotus-emeya": {
-          "avg": 19.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 29,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             59,
-            0
+            0,
+            57
           ]
         },
         "lotus-emira": {
-          "avg": 30.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 46.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             92,
-            0
+            0,
+            93
           ]
         },
         "lotus-esprit": {
-          "avg": 4,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 6,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             12,
-            0
+            0,
+            12
           ]
         },
         "lotus-europa-s": {
-          "avg": 0,
-          "lastSeen": null,
-          "consecutiveZeros": 3,
+          "avg": 0.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             0,
-            0
+            0,
+            1
           ]
         },
         "lotus-evora": {
-          "avg": 7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 11,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             21,
-            0
+            0,
+            23
           ]
         },
         "lotus-exige": {
-          "avg": 8.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 12.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             0,
             26,
-            0
+            0,
+            25
           ]
         },
         "ferrari-12cilindri": {
-          "avg": 8,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 9,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             13,
             11,
-            0
+            0,
+            12
           ]
         },
         "ferrari-296": {
-          "avg": 27,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 32.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             45,
             36,
-            0
+            0,
+            48
           ]
         },
         "ferrari-328": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-03",
+          "avg": 8.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             8,
             8,
+            9,
             9
           ]
         },
         "ferrari-348": {
-          "avg": 4,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 4.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             6,
             6,
-            0
+            0,
+            6
           ]
         },
         "ferrari-360": {
-          "avg": 10.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 11.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             16,
             16,
-            0
+            0,
+            15
           ]
         },
         "ferrari-456": {
-          "avg": 2.7,
-          "lastSeen": "2026-04-03",
+          "avg": 2.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             3,
-            2
+            2,
+            3
           ]
         },
         "ferrari-458": {
-          "avg": 19.7,
-          "lastSeen": "2026-04-03",
+          "avg": 21.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             24,
             23,
-            12
+            12,
+            26
           ]
         },
         "ferrari-488": {
-          "avg": 36.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 40.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             56,
             54,
-            0
+            0,
+            53
           ]
         },
         "ferrari-550": {
-          "avg": 2.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 3.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             4,
             4,
-            0
+            0,
+            5
           ]
         },
         "ferrari-575m": {
-          "avg": 5,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 5.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             7,
             8,
-            0
+            0,
+            7
           ]
         },
         "ferrari-599": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-03",
+          "avg": 9,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             10,
-            10
+            10,
+            11
           ]
         },
         "ferrari-612": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 9.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             11,
             14,
-            0
+            0,
+            14
           ]
         },
         "ferrari-812": {
-          "avg": 19,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 22.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             28,
             29,
-            0
+            0,
+            32
           ]
         },
         "ferrari-california": {
-          "avg": 23.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 27,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             38,
             33,
-            0
+            0,
+            37
           ]
         },
         "ferrari-enzo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-f12": {
-          "avg": 9.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 10.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             15,
             14,
-            0
+            0,
+            14
           ]
         },
         "ferrari-f355": {
-          "avg": 8,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 8.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             13,
             11,
-            0
+            0,
+            11
           ]
         },
         "ferrari-f40": {
-          "avg": 0.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 0.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             1,
             1,
-            0
+            0,
+            1
           ]
         },
         "ferrari-f430": {
-          "avg": 18,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 20.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             27,
             27,
-            0
+            0,
+            27
           ]
         },
         "ferrari-f50": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-f8": {
-          "avg": 4.3,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 4.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             7,
             6,
-            0
+            0,
+            5
           ]
         },
         "ferrari-ff": {
-          "avg": 12.7,
-          "lastSeen": "2026-04-03",
+          "avg": 12.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             13,
-            12
+            12,
+            13
           ]
         },
         "ferrari-gtc4lusso": {
-          "avg": 8.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 9.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             13,
             13,
-            0
+            0,
+            13
           ]
         },
         "ferrari-laferrari": {
-          "avg": 0.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 0.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             1,
             1,
-            0
+            0,
+            1
           ]
         },
         "ferrari-portofino": {
-          "avg": 23.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 26.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             36,
             35,
-            0
+            0,
+            36
           ]
         },
         "ferrari-purosangue": {
-          "avg": 11,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 12.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             17,
             16,
-            0
+            0,
+            18
           ]
         },
         "ferrari-roma": {
-          "avg": 34.3,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 41.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             56,
             47,
-            0
+            0,
+            63
           ]
         },
         "ferrari-sf90": {
-          "avg": 10.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 13.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             22,
             10,
-            0
+            0,
+            22
           ]
         },
         "ferrari-testarossa": {
-          "avg": 5,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 5.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             7,
             8,
-            0
+            0,
+            7
           ]
         },
         "audi-r8": {
-          "avg": 2.7,
+          "avg": 2,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             3,
             2,
-            3
+            3,
+            0
           ]
         },
         "audi-rs-q8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "audi-rs3": {
-          "avg": 12,
+          "avg": 9,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             12,
             12,
-            12
+            12,
+            0
           ]
         },
         "audi-rs4": {
-          "avg": 12,
+          "avg": 9,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             12,
             12,
-            12
+            12,
+            0
           ]
         },
         "audi-rs5": {
-          "avg": 12,
+          "avg": 9,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             12,
             12,
-            12
+            12,
+            0
           ]
         },
         "audi-rs6": {
-          "avg": 3.3,
+          "avg": 2.5,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             4,
             3,
-            3
+            3,
+            0
           ]
         },
         "audi-rs7": {
-          "avg": 12,
+          "avg": 9,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             12,
             12,
-            12
+            12,
+            0
           ]
         },
         "porsche-911": {
-          "avg": 20,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 21.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             32,
             28,
-            0
+            0,
+            25
           ]
         },
         "porsche-928": {
-          "avg": 3,
+          "avg": 2.3,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             0,
-            9
+            9,
+            0
           ]
         },
         "porsche-944": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             12,
             13,
-            0
+            0,
+            13
           ]
         },
         "porsche-boxster": {
-          "avg": 52,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 59.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             73,
             83,
-            0
+            0,
+            81
           ]
         },
         "porsche-cayenne": {
-          "avg": 111,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 122.8,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             166,
             167,
-            0
+            0,
+            158
           ]
         },
         "porsche-cayman": {
-          "avg": 15.7,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 18.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             25,
             22,
-            0
+            0,
+            26
           ]
         },
         "porsche-macan": {
-          "avg": 84.3,
-          "lastSeen": "2026-04-02",
-          "consecutiveZeros": 1,
+          "avg": 92.3,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             127,
             126,
-            0
+            0,
+            116
           ]
         },
         "porsche-taycan": {
-          "avg": 30.7,
-          "lastSeen": "2026-04-03",
+          "avg": 34.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             44,
             36,
-            12
+            12,
+            45
           ]
         },
         "alpine-a110-modern": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2164,8 +2377,9 @@
         "mercedes-amg-c63": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2174,71 +2388,78 @@
         "mercedes-amg-e63": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mercedes-amg-gt": {
-          "avg": 8,
+          "avg": 6,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             0,
             12,
-            12
+            12,
+            0
           ]
         },
         "mercedes-amg-sls": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "maserati-ghibli": {
-          "avg": 111.3,
+          "avg": 83.5,
           "lastSeen": "2026-04-03",
-          "consecutiveZeros": 0,
+          "consecutiveZeros": 1,
           "history": [
             107,
             112,
-            115
+            115,
+            0
           ]
         },
         "maserati-granturismo": {
-          "avg": 60.7,
-          "lastSeen": "2026-04-03",
+          "avg": 48.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             62,
             59,
-            61
+            61,
+            12
           ]
         },
         "maserati-mc20": {
-          "avg": 5,
-          "lastSeen": "2026-04-03",
+          "avg": 4.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             5,
-            5
+            5,
+            4
           ]
         },
         "maserati-quattroporte": {
-          "avg": 33.7,
-          "lastSeen": "2026-04-03",
+          "avg": 28.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             33,
             34,
-            34
+            34,
+            12
           ]
         }
       }
@@ -2247,112 +2468,123 @@
       "models": {
         "bmw-m3": {
           "avg": 19.8,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             20,
             19,
             20,
+            20,
             20
           ]
         },
         "alpine-a110-classic": {
-          "avg": 5.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             6,
-            6
+            6,
+            7
           ]
         },
         "alpine-a110-modern": {
-          "avg": 5.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             6,
-            6
+            6,
+            7
           ]
         },
         "aston-martin-db11": {
           "avg": 17,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            17,
             17,
             17,
             17
           ]
         },
         "aston-martin-db12": {
-          "avg": 1.3,
+          "avg": 1,
           "lastSeen": "2026-03-31",
-          "consecutiveZeros": 2,
+          "consecutiveZeros": 3,
           "history": [
             4,
+            0,
             0,
             0
           ]
         },
         "aston-martin-db5": {
-          "avg": 17.3,
-          "lastSeen": "2026-04-03",
+          "avg": 17.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
+            18,
             18,
             18
           ]
         },
         "aston-martin-db6": {
           "avg": 16,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            16,
             16,
             16,
             16
           ]
         },
         "aston-martin-db7": {
-          "avg": 15.7,
-          "lastSeen": "2026-04-03",
+          "avg": 15.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             15,
+            16,
             16,
             16
           ]
         },
         "aston-martin-db9": {
           "avg": 17.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             18,
+            17,
             17,
             17
           ]
         },
         "aston-martin-dbs": {
           "avg": 12.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
+            12,
             12,
             12
           ]
         },
         "aston-martin-dbs-superleggera": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 13.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             12,
+            13,
             13
           ]
         },
@@ -2366,89 +2598,98 @@
         },
         "aston-martin-vanquish": {
           "avg": 19,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            19,
             19,
             19,
             19
           ]
         },
         "aston-martin-vantage": {
-          "avg": 16.3,
-          "lastSeen": "2026-04-03",
+          "avg": 16.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             16,
+            17,
             17
           ]
         },
         "audi-r8": {
           "avg": 14.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             15,
             13,
-            15
+            15,
+            14
           ]
         },
         "audi-rs-q8": {
           "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            5,
             5,
             5
           ]
         },
         "audi-rs3": {
-          "avg": 14,
-          "lastSeen": "2026-04-03",
+          "avg": 13.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             14,
-            14
+            14,
+            13
           ]
         },
         "audi-rs4": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             14,
-            14
+            14,
+            15
           ]
         },
         "audi-rs5": {
           "avg": 9,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            9,
             9,
             9,
             9
           ]
         },
         "audi-rs6": {
-          "avg": 9.7,
-          "lastSeen": "2026-04-03",
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
+            9,
             9,
             9
           ]
         },
         "audi-rs7": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -2456,9 +2697,10 @@
         },
         "bmw-1m": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -2467,26 +2709,28 @@
         "bmw-m1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "bmw-m2": {
-          "avg": 14.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
+            14,
             14,
             14
           ]
         },
         "bmw-m4": {
-          "avg": 19.7,
-          "lastSeen": "2026-04-03",
+          "avg": 19.4,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             19,
@@ -2494,24 +2738,27 @@
             21,
             21,
             18,
+            18,
             18
           ]
         },
         "bmw-m5": {
-          "avg": 14,
-          "lastSeen": "2026-04-03",
+          "avg": 13.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             14,
-            14
+            14,
+            12
           ]
         },
         "bmw-m6": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -2519,9 +2766,10 @@
         },
         "bmw-m8": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -2529,19 +2777,21 @@
         },
         "bmw-z4": {
           "avg": 13.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
             14,
+            13,
             13
           ]
         },
         "bmw-z8": {
           "avg": 7,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            7,
             7,
             7,
             7
@@ -2549,9 +2799,10 @@
         },
         "ferrari-12cilindri": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -2559,9 +2810,10 @@
         },
         "ferrari-166-inter": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -2570,28 +2822,31 @@
         "ferrari-195-inter": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-208": {
-          "avg": 2.7,
-          "lastSeen": "2026-04-03",
+          "avg": 2.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
             3,
+            2,
             2
           ]
         },
         "ferrari-212-inter": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2599,9 +2854,10 @@
         },
         "ferrari-250-california": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -2610,48 +2866,53 @@
         "ferrari-250-europa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-250-gt": {
-          "avg": 6.3,
-          "lastSeen": "2026-04-03",
+          "avg": 6,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             6,
-            6
+            6,
+            5
           ]
         },
         "ferrari-250-gto": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-275-gtb": {
-          "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "avg": 5.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
+            6,
             6,
             6
           ]
         },
         "ferrari-275-gts": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -2659,49 +2920,54 @@
         },
         "ferrari-gto": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
           ]
         },
         "ferrari-296": {
-          "avg": 9.3,
-          "lastSeen": "2026-04-03",
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             9,
-            9
+            9,
+            10
           ]
         },
         "ferrari-308": {
-          "avg": 9.7,
-          "lastSeen": "2026-04-03",
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
             11,
+            9,
             9
           ]
         },
         "ferrari-328": {
           "avg": 7.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             7,
-            8
+            8,
+            7
           ]
         },
         "ferrari-330-gt": {
           "avg": 5,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            5,
             5,
             5,
             5
@@ -2710,48 +2976,53 @@
         "ferrari-342-america": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-348": {
-          "avg": 4.7,
-          "lastSeen": "2026-04-03",
+          "avg": 4.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             4,
+            5,
             5
           ]
         },
         "ferrari-360": {
           "avg": 11,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             12,
+            11,
             11
           ]
         },
         "ferrari-365": {
-          "avg": 11,
-          "lastSeen": "2026-04-03",
+          "avg": 11.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
             11,
-            11
+            11,
+            13
           ]
         },
         "ferrari-375-america": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2759,9 +3030,10 @@
         },
         "ferrari-400": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -2770,8 +3042,9 @@
         "ferrari-400-superamerica": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2780,8 +3053,9 @@
         "ferrari-410-superamerica": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2789,20 +3063,22 @@
         },
         "ferrari-412": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
           ]
         },
         "ferrari-456": {
-          "avg": 3.7,
-          "lastSeen": "2026-04-03",
+          "avg": 3.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             3,
+            4,
             4,
             4
           ]
@@ -2810,8 +3086,9 @@
         "ferrari-458": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2819,9 +3096,10 @@
         },
         "ferrari-488": {
           "avg": 11,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            11,
             11,
             11,
             11
@@ -2830,8 +3108,9 @@
         "ferrari-500-superfast": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2839,9 +3118,10 @@
         },
         "ferrari-512-bb": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -2849,59 +3129,65 @@
         },
         "ferrari-550": {
           "avg": 8,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            8,
             8,
             8,
             8
           ]
         },
         "ferrari-575m": {
-          "avg": 9,
-          "lastSeen": "2026-04-03",
+          "avg": 8.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
             9,
-            9
+            9,
+            8
           ]
         },
         "ferrari-599": {
-          "avg": 10.7,
-          "lastSeen": "2026-04-03",
+          "avg": 10.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
+            11,
             11,
             11
           ]
         },
         "ferrari-612": {
           "avg": 8.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
+            8,
             8,
             8
           ]
         },
         "ferrari-812": {
-          "avg": 10.3,
-          "lastSeen": "2026-04-03",
+          "avg": 10.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             10,
+            11,
             11
           ]
         },
         "ferrari-849-testarossa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2910,28 +3196,31 @@
         "ferrari-amalfi": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-california": {
-          "avg": 9,
-          "lastSeen": "2026-04-03",
+          "avg": 8.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             9,
+            8,
             8
           ]
         },
         "ferrari-daytona-sp3": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2940,8 +3229,9 @@
         "ferrari-dino-206-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -2950,28 +3240,31 @@
         "ferrari-dino-208-gt4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "ferrari-dino-246": {
-          "avg": 11,
-          "lastSeen": "2026-04-03",
+          "avg": 11.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
             11,
-            11
+            11,
+            12
           ]
         },
         "ferrari-dino-308-gt4": {
           "avg": 5,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            5,
             5,
             5,
             5
@@ -2979,9 +3272,10 @@
         },
         "ferrari-enzo": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -2989,49 +3283,54 @@
         },
         "ferrari-f12": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
           ]
         },
         "ferrari-f355": {
-          "avg": 8,
-          "lastSeen": "2026-04-03",
+          "avg": 8.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             9,
-            8
+            8,
+            9
           ]
         },
         "ferrari-f40": {
-          "avg": 6,
-          "lastSeen": "2026-04-03",
+          "avg": 6.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             6,
+            7,
             7
           ]
         },
         "ferrari-f430": {
-          "avg": 10.3,
-          "lastSeen": "2026-04-03",
+          "avg": 10.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             10,
             10,
+            11,
             11
           ]
         },
         "ferrari-f50": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3039,9 +3338,10 @@
         },
         "ferrari-f8": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -3050,8 +3350,9 @@
         "ferrari-f80": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3059,9 +3360,10 @@
         },
         "ferrari-ff": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -3069,9 +3371,10 @@
         },
         "ferrari-fxx": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3079,9 +3382,10 @@
         },
         "ferrari-gtc4lusso": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3089,9 +3393,10 @@
         },
         "ferrari-laferrari": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -3100,8 +3405,9 @@
         "ferrari-luce": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3109,9 +3415,10 @@
         },
         "ferrari-mondial": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
@@ -3120,8 +3427,9 @@
         "ferrari-monza-sp1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3130,8 +3438,9 @@
         "ferrari-monza-sp2": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3139,9 +3448,10 @@
         },
         "ferrari-portofino": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -3149,29 +3459,32 @@
         },
         "ferrari-purosangue": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
           ]
         },
         "ferrari-roma": {
-          "avg": 9.3,
-          "lastSeen": "2026-04-03",
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
             10,
-            9
+            9,
+            10
           ]
         },
         "ferrari-sf90": {
           "avg": 11,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            11,
             11,
             11,
             11
@@ -3179,109 +3492,120 @@
         },
         "ferrari-superamerica": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
           ]
         },
         "ferrari-testarossa": {
-          "avg": 7.7,
-          "lastSeen": "2026-04-03",
+          "avg": 7.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
+            8,
             8,
             8
           ]
         },
         "lamborghini-aventador": {
           "avg": 11,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            11,
             11,
             11,
             11
           ]
         },
         "lamborghini-countach": {
-          "avg": 2,
-          "lastSeen": "2026-04-03",
+          "avg": 2.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
             2,
-            2
+            2,
+            3
           ]
         },
         "lamborghini-diablo": {
-          "avg": 8,
-          "lastSeen": "2026-04-03",
+          "avg": 8.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             8,
             8,
-            8
+            8,
+            9
           ]
         },
         "lamborghini-gallardo": {
-          "avg": 5.7,
-          "lastSeen": "2026-04-03",
+          "avg": 5.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             5,
+            6,
             6
           ]
         },
         "lamborghini-huracan": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             14,
-            13
+            13,
+            15
           ]
         },
         "lamborghini-miura": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
           ]
         },
         "lamborghini-murcielago": {
-          "avg": 4.7,
-          "lastSeen": "2026-04-03",
+          "avg": 5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
             4,
+            6,
             6
           ]
         },
         "lamborghini-urus": {
-          "avg": 20.7,
-          "lastSeen": "2026-04-03",
+          "avg": 20.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             21,
             20,
+            21,
             21
           ]
         },
         "lexus-lfa": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3290,8 +3614,9 @@
         "lotus-2-eleven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3300,8 +3625,9 @@
         "lotus-3-eleven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3310,8 +3636,9 @@
         "lotus-340r": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3319,9 +3646,10 @@
         },
         "lotus-carlton": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -3329,50 +3657,55 @@
         },
         "lotus-eclat": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
           ]
         },
         "lotus-elan": {
-          "avg": 17,
-          "lastSeen": "2026-04-03",
+          "avg": 17.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             16,
             18,
-            17
+            17,
+            19
           ]
         },
         "lotus-elan-m100": {
           "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
             6,
+            5,
             5
           ]
         },
         "lotus-elise": {
-          "avg": 18,
-          "lastSeen": "2026-04-03",
+          "avg": 18.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             18,
             18,
-            18
+            18,
+            19
           ]
         },
         "lotus-elite": {
-          "avg": 6.7,
-          "lastSeen": "2026-04-03",
+          "avg": 6.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            7,
             7,
             7
           ]
@@ -3380,38 +3713,42 @@
         "lotus-elite-type-14": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "lotus-emira": {
-          "avg": 0.3,
-          "lastSeen": "2026-03-31",
-          "consecutiveZeros": 2,
+          "avg": 0.5,
+          "lastSeen": "2026-04-04",
+          "consecutiveZeros": 0,
           "history": [
             1,
             0,
-            0
+            0,
+            1
           ]
         },
         "lotus-esprit": {
-          "avg": 13.7,
-          "lastSeen": "2026-04-03",
+          "avg": 13.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             13,
+            14,
             14,
             14
           ]
         },
         "lotus-europa": {
           "avg": 12,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            12,
             12,
             12,
             12
@@ -3419,29 +3756,32 @@
         },
         "lotus-europa-s": {
           "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
+            5,
             5,
             5
           ]
         },
         "lotus-evora": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-03",
+          "avg": 8.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             8,
             8,
+            9,
             9
           ]
         },
         "lotus-excel": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -3449,9 +3789,10 @@
         },
         "lotus-exige": {
           "avg": 10,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            10,
             10,
             10,
             10
@@ -3459,9 +3800,10 @@
         },
         "lotus-seven": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -3469,20 +3811,22 @@
         },
         "maserati-ghibli": {
           "avg": 7.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
             7,
-            8
+            8,
+            7
           ]
         },
         "maserati-granturismo": {
           "avg": 6.3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             7,
+            6,
             6,
             6
           ]
@@ -3490,8 +3834,9 @@
         "maserati-mc12": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3499,69 +3844,76 @@
         },
         "maserati-mc20": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
           ]
         },
         "maserati-quattroporte": {
-          "avg": 3,
-          "lastSeen": "2026-04-03",
+          "avg": 3.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             2,
             3,
+            4,
             4
           ]
         },
         "mclaren-12c": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
           ]
         },
         "mclaren-540c": {
-          "avg": 1.7,
-          "lastSeen": "2026-04-03",
+          "avg": 1.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             1,
+            2,
             2,
             2
           ]
         },
         "mclaren-570gt": {
           "avg": 3,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            3,
             3,
             3,
             3
           ]
         },
         "mclaren-570s": {
-          "avg": 3.7,
-          "lastSeen": "2026-04-03",
+          "avg": 3.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             5,
+            3,
             3,
             3
           ]
         },
         "mclaren-600lt": {
           "avg": 8,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            8,
             8,
             8,
             8
@@ -3569,9 +3921,10 @@
         },
         "mclaren-620r": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3580,8 +3933,9 @@
         "mclaren-625c": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3589,9 +3943,10 @@
         },
         "mclaren-650s": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3599,9 +3954,10 @@
         },
         "mclaren-675lt": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3609,9 +3965,10 @@
         },
         "mclaren-720s": {
           "avg": 8,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            8,
             8,
             8,
             8
@@ -3619,9 +3976,10 @@
         },
         "mclaren-750s": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -3629,9 +3987,10 @@
         },
         "mclaren-765lt": {
           "avg": 2,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            2,
             2,
             2,
             2
@@ -3639,9 +3998,10 @@
         },
         "mclaren-artura": {
           "avg": 6,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            6,
             6,
             6,
             6
@@ -3650,8 +4010,9 @@
         "mclaren-elva": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3660,8 +4021,9 @@
         "mclaren-f1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3669,9 +4031,10 @@
         },
         "mclaren-gt": {
           "avg": 4,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            4,
             4,
             4,
             4
@@ -3680,8 +4043,9 @@
         "mclaren-gts": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3690,8 +4054,9 @@
         "mclaren-m6gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3699,9 +4064,10 @@
         },
         "mclaren-p1": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3709,9 +4075,10 @@
         },
         "mclaren-senna": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
@@ -3720,48 +4087,53 @@
         "mclaren-speedtail": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mercedes-amg-c63": {
-          "avg": 14.7,
-          "lastSeen": "2026-04-03",
+          "avg": 14.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             15,
-            15
+            15,
+            13
           ]
         },
         "mercedes-amg-clk-black-series": {
           "avg": 1,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            1,
             1,
             1,
             1
           ]
         },
         "mercedes-amg-e63": {
-          "avg": 9.7,
-          "lastSeen": "2026-04-03",
+          "avg": 9.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             9,
+            10,
             10,
             10
           ]
         },
         "mercedes-amg-gt": {
           "avg": 12,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            12,
             12,
             12,
             12
@@ -3770,119 +4142,131 @@
         "mercedes-amg-sl65-black-series": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
           ]
         },
         "mercedes-amg-sls": {
-          "avg": 6,
-          "lastSeen": "2026-04-03",
+          "avg": 6.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             4,
+            7,
             7,
             7
           ]
         },
         "porsche-911": {
-          "avg": 31,
-          "lastSeen": "2026-04-03",
+          "avg": 31.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             32,
             29,
-            32
+            32,
+            33
           ]
         },
         "porsche-928": {
-          "avg": 5.3,
-          "lastSeen": "2026-04-03",
+          "avg": 5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             5,
-            5
+            5,
+            4
           ]
         },
         "porsche-944": {
-          "avg": 8.3,
-          "lastSeen": "2026-04-03",
+          "avg": 8.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             6,
             9,
+            10,
             10
           ]
         },
         "porsche-968": {
-          "avg": 12.7,
-          "lastSeen": "2026-04-03",
+          "avg": 12.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             12,
+            13,
             13,
             13
           ]
         },
         "porsche-boxster": {
           "avg": 18,
-          "lastSeen": "2026-04-03",
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
+            18,
             18,
             18,
             18
           ]
         },
         "porsche-carrera-gt": {
-          "avg": 1.7,
-          "lastSeen": "2026-04-03",
+          "avg": 1.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             1,
+            2,
             2,
             2
           ]
         },
         "porsche-cayenne": {
-          "avg": 11.7,
-          "lastSeen": "2026-04-03",
+          "avg": 11.3,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             14,
             11,
+            10,
             10
           ]
         },
         "porsche-cayman": {
-          "avg": 20.7,
-          "lastSeen": "2026-04-03",
+          "avg": 20.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             20,
+            21,
             21,
             21
           ]
         },
         "porsche-macan": {
-          "avg": 18.7,
-          "lastSeen": "2026-04-03",
+          "avg": 18.8,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             20,
             17,
+            19,
             19
           ]
         },
         "porsche-taycan": {
-          "avg": 9.7,
-          "lastSeen": "2026-04-03",
+          "avg": 9.5,
+          "lastSeen": "2026-04-04",
           "consecutiveZeros": 0,
           "history": [
             11,
+            9,
             9,
             9
           ]
@@ -3894,8 +4278,9 @@
         "bmw-m3": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 4,
+          "consecutiveZeros": 5,
           "history": [
+            0,
             0,
             0,
             0,
@@ -3905,8 +4290,9 @@
         "alpine-a110-classic": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3915,8 +4301,9 @@
         "alpine-a110-modern": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3925,8 +4312,9 @@
         "aston-martin-db11": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3935,8 +4323,9 @@
         "aston-martin-db12": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3945,8 +4334,9 @@
         "aston-martin-db5": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3955,8 +4345,9 @@
         "aston-martin-db6": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3965,8 +4356,9 @@
         "aston-martin-db7": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3975,8 +4367,9 @@
         "aston-martin-db9": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3985,8 +4378,9 @@
         "aston-martin-dbs": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -3995,8 +4389,9 @@
         "aston-martin-dbs-superleggera": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4013,8 +4408,9 @@
         "aston-martin-valkyrie": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4023,8 +4419,9 @@
         "aston-martin-vanquish": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4033,8 +4430,9 @@
         "aston-martin-vantage": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4043,8 +4441,9 @@
         "audi-r8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4053,8 +4452,9 @@
         "audi-rs-q8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4063,8 +4463,9 @@
         "audi-rs3": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4073,8 +4474,9 @@
         "audi-rs4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4083,8 +4485,9 @@
         "audi-rs5": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4093,8 +4496,9 @@
         "audi-rs6": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4103,8 +4507,9 @@
         "audi-rs7": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4113,8 +4518,9 @@
         "bmw-1m": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4123,8 +4529,9 @@
         "bmw-m1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4133,8 +4540,9 @@
         "bmw-m2": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4143,8 +4551,9 @@
         "bmw-m4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 6,
+          "consecutiveZeros": 7,
           "history": [
+            0,
             0,
             0,
             0,
@@ -4156,8 +4565,9 @@
         "bmw-m5": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4166,8 +4576,9 @@
         "bmw-m6": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4176,8 +4587,9 @@
         "bmw-m8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4186,8 +4598,9 @@
         "bmw-z4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4196,8 +4609,9 @@
         "bmw-z8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4206,8 +4620,9 @@
         "ferrari-12cilindri": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4216,8 +4631,9 @@
         "ferrari-166-inter": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4226,8 +4642,9 @@
         "ferrari-195-inter": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4236,8 +4653,9 @@
         "ferrari-208": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4246,8 +4664,9 @@
         "ferrari-212-inter": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4256,8 +4675,9 @@
         "ferrari-250-california": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4266,8 +4686,9 @@
         "ferrari-250-europa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4276,8 +4697,9 @@
         "ferrari-250-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4286,8 +4708,9 @@
         "ferrari-250-gto": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4296,8 +4719,9 @@
         "ferrari-275-gtb": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4306,8 +4730,9 @@
         "ferrari-275-gts": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4316,8 +4741,9 @@
         "ferrari-gto": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4326,8 +4752,9 @@
         "ferrari-296": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4336,8 +4763,9 @@
         "ferrari-308": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4346,8 +4774,9 @@
         "ferrari-328": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4356,8 +4785,9 @@
         "ferrari-330-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4366,8 +4796,9 @@
         "ferrari-342-america": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4376,8 +4807,9 @@
         "ferrari-348": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4386,8 +4818,9 @@
         "ferrari-360": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4396,8 +4829,9 @@
         "ferrari-365": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4406,8 +4840,9 @@
         "ferrari-375-america": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4416,8 +4851,9 @@
         "ferrari-400": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4426,8 +4862,9 @@
         "ferrari-400-superamerica": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4436,8 +4873,9 @@
         "ferrari-410-superamerica": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4446,8 +4884,9 @@
         "ferrari-412": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4456,8 +4895,9 @@
         "ferrari-456": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4466,8 +4906,9 @@
         "ferrari-458": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4476,8 +4917,9 @@
         "ferrari-488": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4486,8 +4928,9 @@
         "ferrari-500-superfast": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4496,8 +4939,9 @@
         "ferrari-512-bb": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4506,8 +4950,9 @@
         "ferrari-550": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4516,8 +4961,9 @@
         "ferrari-575m": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4526,8 +4972,9 @@
         "ferrari-599": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4536,8 +4983,9 @@
         "ferrari-612": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4546,8 +4994,9 @@
         "ferrari-812": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4556,8 +5005,9 @@
         "ferrari-849-testarossa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4566,8 +5016,9 @@
         "ferrari-amalfi": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4576,8 +5027,9 @@
         "ferrari-california": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4586,8 +5038,9 @@
         "ferrari-daytona-sp3": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4596,8 +5049,9 @@
         "ferrari-dino-206-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4606,8 +5060,9 @@
         "ferrari-dino-208-gt4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4616,8 +5071,9 @@
         "ferrari-dino-246": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4626,8 +5082,9 @@
         "ferrari-dino-308-gt4": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4636,8 +5093,9 @@
         "ferrari-enzo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4646,8 +5104,9 @@
         "ferrari-f12": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4656,8 +5115,9 @@
         "ferrari-f355": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4666,8 +5126,9 @@
         "ferrari-f40": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4676,8 +5137,9 @@
         "ferrari-f430": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4686,8 +5148,9 @@
         "ferrari-f50": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4696,8 +5159,9 @@
         "ferrari-f8": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4706,8 +5170,9 @@
         "ferrari-f80": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4716,8 +5181,9 @@
         "ferrari-ff": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4726,8 +5192,9 @@
         "ferrari-fxx": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4736,8 +5203,9 @@
         "ferrari-gtc4lusso": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4746,8 +5214,9 @@
         "ferrari-laferrari": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4756,8 +5225,9 @@
         "ferrari-luce": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4766,8 +5236,9 @@
         "ferrari-mondial": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4776,8 +5247,9 @@
         "ferrari-monza-sp1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4786,8 +5258,9 @@
         "ferrari-monza-sp2": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4796,8 +5269,9 @@
         "ferrari-portofino": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4806,8 +5280,9 @@
         "ferrari-purosangue": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4816,8 +5291,9 @@
         "ferrari-roma": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4826,8 +5302,9 @@
         "ferrari-sf90": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4836,8 +5313,9 @@
         "ferrari-superamerica": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4846,8 +5324,9 @@
         "ferrari-testarossa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4856,8 +5335,9 @@
         "lamborghini-aventador": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4866,8 +5346,9 @@
         "lamborghini-countach": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4876,8 +5357,9 @@
         "lamborghini-diablo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4886,8 +5368,9 @@
         "lamborghini-gallardo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4896,8 +5379,9 @@
         "lamborghini-huracan": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4906,8 +5390,9 @@
         "lamborghini-miura": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4916,8 +5401,9 @@
         "lamborghini-murcielago": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4926,8 +5412,9 @@
         "lamborghini-reventon": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4936,8 +5423,9 @@
         "lamborghini-urus": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4946,8 +5434,9 @@
         "lexus-lfa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4956,8 +5445,9 @@
         "lotus-2-eleven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4966,8 +5456,9 @@
         "lotus-3-eleven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4976,8 +5467,9 @@
         "lotus-340r": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4986,8 +5478,9 @@
         "lotus-carlton": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -4996,8 +5489,9 @@
         "lotus-eclat": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5006,8 +5500,9 @@
         "lotus-elan": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5016,8 +5511,9 @@
         "lotus-elan-m100": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5026,8 +5522,9 @@
         "lotus-eletre": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5036,8 +5533,9 @@
         "lotus-elise": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5046,8 +5544,9 @@
         "lotus-elite": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5056,8 +5555,9 @@
         "lotus-elite-type-14": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5066,8 +5566,9 @@
         "lotus-emeya": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5076,8 +5577,9 @@
         "lotus-emira": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5086,8 +5588,9 @@
         "lotus-esprit": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5096,8 +5599,9 @@
         "lotus-europa": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5106,8 +5610,9 @@
         "lotus-europa-s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5116,8 +5621,9 @@
         "lotus-evora": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5126,8 +5632,9 @@
         "lotus-excel": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5136,8 +5643,9 @@
         "lotus-exige": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5146,8 +5654,9 @@
         "lotus-seven": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5156,8 +5665,9 @@
         "maserati-ghibli": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5166,8 +5676,9 @@
         "maserati-granturismo": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5176,8 +5687,9 @@
         "maserati-mc12": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5186,8 +5698,9 @@
         "maserati-mc20": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5196,8 +5709,9 @@
         "maserati-quattroporte": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5206,8 +5720,9 @@
         "mclaren-12c": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5216,8 +5731,9 @@
         "mclaren-540c": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5226,8 +5742,9 @@
         "mclaren-570gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5236,8 +5753,9 @@
         "mclaren-570s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5246,8 +5764,9 @@
         "mclaren-600lt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5256,8 +5775,9 @@
         "mclaren-620r": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5266,8 +5786,9 @@
         "mclaren-625c": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5276,8 +5797,9 @@
         "mclaren-650s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5286,8 +5808,9 @@
         "mclaren-675lt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5296,8 +5819,9 @@
         "mclaren-720s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5306,8 +5830,9 @@
         "mclaren-750s": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5316,8 +5841,9 @@
         "mclaren-765lt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5326,8 +5852,9 @@
         "mclaren-artura": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5336,8 +5863,9 @@
         "mclaren-elva": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5346,8 +5874,9 @@
         "mclaren-f1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5356,8 +5885,9 @@
         "mclaren-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5366,8 +5896,9 @@
         "mclaren-gts": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5376,8 +5907,9 @@
         "mclaren-m6gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5386,8 +5918,9 @@
         "mclaren-p1": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5396,8 +5929,9 @@
         "mclaren-senna": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5406,8 +5940,9 @@
         "mclaren-speedtail": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5416,8 +5951,9 @@
         "mercedes-amg-c63": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5426,8 +5962,9 @@
         "mercedes-amg-clk-black-series": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5436,8 +5973,9 @@
         "mercedes-amg-e63": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5446,8 +5984,9 @@
         "mercedes-amg-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5456,8 +5995,9 @@
         "mercedes-amg-sl65-black-series": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5466,8 +6006,9 @@
         "mercedes-amg-sls": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5476,8 +6017,9 @@
         "porsche-911": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5486,8 +6028,9 @@
         "porsche-918": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5496,8 +6039,9 @@
         "porsche-928": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5506,8 +6050,9 @@
         "porsche-944": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5516,8 +6061,9 @@
         "porsche-968": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5526,8 +6072,9 @@
         "porsche-boxster": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5536,8 +6083,9 @@
         "porsche-carrera-gt": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5546,8 +6094,9 @@
         "porsche-cayenne": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5556,8 +6105,9 @@
         "porsche-cayman": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5566,8 +6116,9 @@
         "porsche-macan": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0
@@ -5576,8 +6127,9 @@
         "porsche-taycan": {
           "avg": 0,
           "lastSeen": null,
-          "consecutiveZeros": 3,
+          "consecutiveZeros": 4,
           "history": [
+            0,
             0,
             0,
             0

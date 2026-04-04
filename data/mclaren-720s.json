@@ -632,7 +632,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/720s/v8-ssg/mclaren-720s-v8-ssg-S4936804-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -665,7 +665,8 @@
           "date": "2026-03-19"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "29",
@@ -872,7 +873,7 @@
     {
       "id": "33",
       "title": "2018 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£138,500",
+      "price": "£131,995",
       "year": 2018,
       "mileage": "16,285 miles",
       "transmission": "Unknown",
@@ -926,6 +927,10 @@
         {
           "price": "£131,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -997,6 +1002,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508185533537"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20199634"
         }
       ],
       "bodyType": "Convertible"
@@ -1011,14 +1020,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/bfa2945d6b954cb69b10f3dae65508d5.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202501318606068"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "38",
@@ -1132,6 +1142,14 @@
         {
           "price": "£148,000",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£144,990",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£148,000",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Coupe"
@@ -1190,14 +1208,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d261c5ec77534eb5b7b625062e7de451.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602129886441"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "43",
@@ -1311,14 +1330,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a7cf6db68a7c48c2b284b94259d14001.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505292924396"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "48",
@@ -1619,7 +1639,7 @@
     {
       "id": "63",
       "title": "2018 McLaren 720S 4.0T V8 Performance Coupe 2dr Petrol SSG Euro 6 (s/s) (720 ps)",
-      "price": "£142,500",
+      "price": "£138,500",
       "year": 2018,
       "mileage": "14,981 miles",
       "transmission": "Automatic",
@@ -1685,6 +1705,10 @@
         {
           "price": "£138,500",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£142,500",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Coupe"
@@ -1736,7 +1760,7 @@
     {
       "id": "66",
       "title": "2023 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£155,900",
+      "price": "£154,900",
       "year": 2023,
       "mileage": "11,064 miles",
       "transmission": "Unknown",
@@ -1766,6 +1790,10 @@
         {
           "price": "£156,900",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£155,900",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -1792,7 +1820,7 @@
     {
       "id": "68",
       "title": "2023 McLaren 720S V8 2dr SSG Auto",
-      "price": "£155,900",
+      "price": "£154,900",
       "year": "2023",
       "mileage": "11,064 miles",
       "transmission": "Automatic",
@@ -1818,6 +1846,10 @@
         {
           "price": "£156,900",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£155,900",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": null
@@ -2101,7 +2133,7 @@
     {
       "id": "83",
       "title": "2019 McLaren 720S Spider V8 2dr SSG MSO PAINT PERFORMANCE SP",
-      "price": "£162,900",
+      "price": "£159,900",
       "year": "2019",
       "mileage": "21,504 miles",
       "transmission": "Automatic",
@@ -2114,6 +2146,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040435"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£162,900",
+          "date": "2026-04-04"
         }
       ]
     },

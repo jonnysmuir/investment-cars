@@ -530,14 +530,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4905980-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18489651"
         }
       ],
-      "unlistedDate": "2026-03-28"
+      "bodyType": null
     },
     {
       "id": "27",
@@ -744,14 +744,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2008170/1997-ferrari-f355-69809531cf2ce.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=44b715092669c5f02865a8838a9b66c2",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2008170"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "37",
@@ -899,14 +900,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1966915/1998-ferrari-f355-6903d99733bdf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b375ce9e457eaefb8322175f7ad46152",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1966915"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "45",
@@ -1023,15 +1025,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1867563/1999-ferrari-f355-680077c9c8ad2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c58dd85918abab76f586e3097c7217fa",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1867563"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-02"
+      "bodyType": "Convertible"
     },
     {
       "id": "51",
@@ -1472,7 +1473,7 @@
     {
       "id": "72",
       "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
-      "price": "£169,990",
+      "price": "£170,189",
       "year": 1996,
       "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
@@ -1499,6 +1500,10 @@
         {
           "price": "£170,189",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£169,990",
+          "date": "2026-04-04"
         }
       ]
     },

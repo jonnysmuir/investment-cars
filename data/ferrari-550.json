@@ -1033,15 +1033,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/24938378/2001-ferrari-550-68de349aed77e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a515e546f383ef32e5c607b514e23090",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1951899"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-02"
+      "bodyType": "Convertible"
     },
     {
       "id": "52",
@@ -1157,6 +1156,44 @@
         }
       ],
       "unlistedDate": "2026-03-30"
+    },
+    {
+      "id": "58",
+      "title": "2001 Ferrari 550 5.5 Barchetta Pininfarina Convertible 2dr Petrol Manual (558 g/km, 485 bhp)",
+      "price": "£429,990",
+      "year": 2001,
+      "mileage": "3,648 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3ba2e32d55564f25bb13969c88baef0e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021247616"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "1998 Ferrari 550 Maranello",
+      "price": "£80,000",
+      "year": "1998",
+      "mileage": "18,900 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29350137/1998-ferrari-550-maranello-69cf768d6a41b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ddd5357652e3ca62295378abc95e1140",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042377"
+        }
+      ]
     }
   ]
 }

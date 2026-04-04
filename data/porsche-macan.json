@@ -830,7 +830,7 @@
     {
       "id": "40",
       "title": "2024 Porsche Macan 2.9T V6 GTS PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£74,900",
+      "price": "£74,950",
       "year": 2024,
       "mileage": "13,500 miles",
       "transmission": "Unknown",
@@ -865,6 +865,10 @@
         {
           "price": "£74,950",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£74,900",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -958,7 +962,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1419582095-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -970,12 +974,13 @@
           "price": "£61,028",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "45",
       "title": "2024 Porsche Macan 2.0T T PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£57,480",
+      "price": "£57,450",
       "year": 2024,
       "mileage": "8,000 miles",
       "transmission": "Unknown",
@@ -998,6 +1003,10 @@
         {
           "price": "£58,950",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£57,480",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -2213,7 +2222,7 @@
     {
       "id": "101",
       "title": "2019 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£31,928",
+      "price": "£31,688",
       "year": 2019,
       "mileage": "79,932 miles",
       "transmission": "Unknown",
@@ -2221,19 +2230,24 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/24e0f866b748479a9b80b0eb365c4c94.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602270265818"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "priceHistory": [
+        {
+          "price": "£31,928",
+          "date": "2026-04-04"
+        }
+      ]
     },
     {
       "id": "102",
       "title": "2019 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£32,495",
+      "price": "£33,995",
       "year": 2019,
       "mileage": "51,000 miles",
       "transmission": "6-Speed Manual",
@@ -2250,6 +2264,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18991424"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,495",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -2306,6 +2326,14 @@
         {
           "price": "£41,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£40,995",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£40,999",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -2350,7 +2378,7 @@
     {
       "id": "107",
       "title": "2019 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£25,749",
+      "price": "£28,531",
       "year": 2019,
       "mileage": "82,800 miles",
       "transmission": "Unknown",
@@ -2363,6 +2391,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510237364370"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,749",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -2433,7 +2467,7 @@
     {
       "id": "111",
       "title": "2016 Porsche Macan 3.0T V6 GTS PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£29,550",
+      "price": "£29,450",
       "year": 2016,
       "mileage": "35,853 miles",
       "transmission": "Unknown",
@@ -2446,6 +2480,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510097008711"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,550",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -2828,12 +2868,12 @@
     },
     {
       "id": "129",
-      "title": "2019 Porsche Macan 2.0T PDK 4WD Euro 6 (s/s) 5dr",
+      "title": "2019 Porsche Macan 2.0T SUV 5dr Petrol PDK 4WD Euro 6 (s/s) (245 ps)",
       "price": "£29,990",
       "year": 2019,
       "mileage": "45,000 miles",
       "transmission": "Unknown",
-      "bodyType": "Estate",
+      "bodyType": "SUV",
       "image": "https://m.atcdn.co.uk/a/media/w480/af62b1f96a5c420c9e1cda7f798d30b5.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -2880,6 +2920,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261015655"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20202763"
         }
       ],
       "unlistedDate": "2026-03-31"
@@ -2985,6 +3029,14 @@
         {
           "price": "£53,998",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£52,900",
+          "date": "2026-04-04"
+        },
+        {
+          "price": "£53,998",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -3135,7 +3187,7 @@
       "price": "£29,500",
       "year": 2018,
       "mileage": "72,848 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/14ff27fabd164aad84ee70dfc2346889.jpg",
       "featured": false,
@@ -3145,6 +3197,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039640955"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19992123"
         }
       ]
     },
@@ -3357,13 +3413,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1446dc1311b2447dad87fff2a5ef0e3e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602240173385"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "154",
@@ -3438,13 +3495,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a372229d476740e68ada56865c13a458.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512138577139"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "158",
@@ -3554,7 +3612,7 @@
     {
       "id": "163",
       "title": "2020 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£41,630",
+      "price": "£41,494",
       "year": 2020,
       "mileage": "25,182 miles",
       "transmission": "Unknown",
@@ -3567,6 +3625,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260248115"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£41,630",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -3862,13 +3926,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3cfdbcb8548140af80f487d7c885dbec.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180809755"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "178",
@@ -4008,7 +4073,7 @@
     {
       "id": "184",
       "title": "2016 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£22,200",
+      "price": "£22,400",
       "year": 2016,
       "mileage": "65,544 miles",
       "transmission": "Unknown",
@@ -4021,6 +4086,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509196463943"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£22,200",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -4206,13 +4277,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7335998b38b24129b58cd5cb379e646c.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140698800"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "194",
@@ -4245,13 +4317,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/844f8f3c032e41469b447a078570d471.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049675447"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "196",
@@ -4331,14 +4404,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/56c0dd98c6014aa4bdb2ebac1bae7f49.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090546898"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "200",
@@ -4427,7 +4499,7 @@
     {
       "id": "204",
       "title": "2017 Porsche Macan 3.0 V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£16,990",
+      "price": "£16,850",
       "year": 2017,
       "mileage": "100,000 miles",
       "transmission": "Unknown",
@@ -4440,6 +4512,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261032663"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£16,990",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -4533,13 +4611,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b530c69641ed4ff087e62424da87946e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511077717985"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "210",
@@ -4563,7 +4642,7 @@
     {
       "id": "211",
       "title": "2020 Porsche Macan 2.0T PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£41,990",
+      "price": "£40,990",
       "year": 2020,
       "mileage": "14,600 miles",
       "transmission": "Unknown",
@@ -4571,14 +4650,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1c680a4deddb4a97a674e55a846d3de7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601099035840"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£41,990",
+          "date": "2026-04-04"
+        }
+      ]
     },
     {
       "id": "212",
@@ -4731,14 +4815,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b2e6d008882b47b1b1c8132208527d45.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170782947"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "220",
@@ -4815,13 +4898,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1ac5b0acbff341bca16d6e6b80b054b6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512218739036"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "224",
@@ -5044,7 +5128,7 @@
     {
       "id": "235",
       "title": "2021 Porsche Macan 2.9T V6 GTS PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£42,989",
+      "price": "£41,949",
       "year": 2021,
       "mileage": "66,000 miles",
       "transmission": "Unknown",
@@ -5057,6 +5141,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180029182"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£42,989",
+          "date": "2026-04-04"
         }
       ]
     },
@@ -5129,14 +5219,17 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3abcee79ecbd47f3b256a569f79397a0.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039643752"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192922"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "240",
@@ -5252,6 +5345,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601149140553"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20199696"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -5287,19 +5384,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/214f202fda6a4f068f8825c71a834fa6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601028880567"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "248",
       "title": "2015 Porsche Macan 3.6T V6 Turbo PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£15,271",
+      "price": "£14,971",
       "year": 2015,
       "mileage": "122,235 miles",
       "transmission": "Unknown",
@@ -5307,14 +5403,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e2fe2c16afd14544bc155aad6ba3bf51.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512158590551"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£15,271",
+          "date": "2026-04-04"
+        }
+      ]
     },
     {
       "id": "249",
@@ -5404,7 +5505,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b8fa51f735d849d18ab56ed34a2f1509.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -5414,7 +5515,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19842426"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "254",
@@ -5447,14 +5549,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/46915377c80a4c17a46c2190beb26c62.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602230144799"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "256",
@@ -5968,7 +6069,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/extended-leather-package-black/porsche-macan-extended-leather-package-black-1419365822-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -5978,7 +6079,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190849772"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "281",
@@ -6495,14 +6597,13 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/100kwh-4-auto-4wd-5dr/porsche-macan-100kwh-4-auto-4wd-5dr-1402364072-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19841703"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "306",
@@ -6634,13 +6735,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b2b27159ce804667b6e80074c3f6dd6e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169962789"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "313",
@@ -6672,13 +6774,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e5f3dcb5020e4943b54ec81a331a3754.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271068192"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "315",
@@ -6729,13 +6832,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/628efada0743442895ae30b88cf87d9f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291113668"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "318",
@@ -6767,13 +6871,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/679f6275bd0340579de40f20eaefe5c0.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261032779"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "320",
@@ -6786,13 +6891,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2a04e80550174abe93dab2a350f8c0df.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190820242"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "321",
@@ -6824,13 +6930,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1da7082f63cf47ac94a15326d2abce34.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281086861"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "323",
@@ -6843,13 +6950,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/12b850051f9b445a94d916df8bc9fafa.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511117803261"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "324",
@@ -6881,13 +6989,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-t-5dr-pdk/porsche-macan-estate-t-5dr-pdk-1420950206-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20169253"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "326",
@@ -6900,13 +7009,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/electric-estate-300kw-4-100kwh-5dr-auto/porsche-macan-electric-estate-300kw-4-100kwh-5dr-auto-1420950211-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20169265"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "327",
@@ -7231,13 +7341,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1418706278-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19859691"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "344",
@@ -7250,22 +7361,23 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1416973115-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19512438"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "345",
-      "title": "2022 Used  PORSCHE macan",
+      "title": "2022 Porsche Macan 2.9T V6 S PDK 4WD Euro 6 (s/s) 5dr",
       "price": "£48,500",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "18,600 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Estate",
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-265-5dr-pdk/porsche-macan-estate-265-5dr-pdk-1400242812-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
@@ -7274,6 +7386,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19860057"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512128558775"
         }
       ]
     },
@@ -7402,22 +7518,23 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1383232276-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19654638"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "353",
-      "title": "2023 Used  PORSCHE macan",
+      "title": "2023 Porsche Macan 2.0T PDK 4WD Euro 6 (s/s) 5dr",
       "price": "£49,500",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "13,000 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Estate",
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-265-5dr-pdk/porsche-macan-estate-265-5dr-pdk-1395689437-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
@@ -7426,6 +7543,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19797549"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602190048492"
         }
       ]
     },
@@ -8134,12 +8255,12 @@
     },
     {
       "id": "391",
-      "title": "2021 Porsche Macan S",
+      "title": "2021 PORSCHE MACAN 2.0T SUV 5dr Petrol PDK 4WD Euro 6 (s/s)",
       "price": "£39,995",
       "year": "2021",
       "mileage": "34,000 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "SUV",
       "image": "https://assets.carandclassic.com/uploads/new/29307377/2021-porsche-macan-69ce25c883b8d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=91fda79d77eac6d3de719f3e84a4bdde",
       "featured": false,
       "dateAdded": "2026-04-03",
@@ -8167,6 +8288,445 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040705"
+        }
+      ]
+    },
+    {
+      "id": "393",
+      "title": "2019 Porsche Macan S",
+      "price": "Sold",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086259/23-03-26KR11.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "sold",
+      "soldPrice": "£31,750",
+      "soldDate": "2026-04-03",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2019-porsche-macan-s-1"
+        }
+      ]
+    },
+    {
+      "id": "394",
+      "title": "2025 Used  PORSCHE MACAN 4S ELECTRIC",
+      "price": "£72,000",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/100kwh-4s-suv-5dr-electric-auto-4wd-516-ps/porsche-macan-100kwh-4s-suv-5dr-electric-auto-4wd-516-ps-1422372634-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20196119"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "title": "2025 Used  PORSCHE MACAN T S-A",
+      "price": "£69,750",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-t-5dr-pdk/porsche-macan-estate-t-5dr-pdk-1408061659-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19547865"
+        }
+      ]
+    },
+    {
+      "id": "396",
+      "title": "2025 Used  PORSCHE macan",
+      "price": "£62,500",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-265-5dr-pdk/porsche-macan-estate-265-5dr-pdk-1353852128-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19249683"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "title": "2023 Used  PORSCHE MACAN T S-A",
+      "price": "£51,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-t-5dr-pdk/porsche-macan-estate-t-5dr-pdk-1409299302-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19992292"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "2023 Used  PORSCHE macan",
+      "price": "£59,991",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1415569765-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19997623"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "2023 Used  PORSCHE MACAN T S-A",
+      "price": "£58,985",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/t-pdk/porsche-macan-t-pdk-1409438818-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19995110"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "2021 Used  PORSCHE macan",
+      "price": "£33,099",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-5dr-pdk/porsche-macan-estate-5dr-pdk-1415697682-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19805023"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "2023 Used  PORSCHE MACAN T S-A",
+      "price": "£49,750",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-t-5dr-pdk/porsche-macan-estate-t-5dr-pdk-1422250061-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20192982"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "title": "2018 Porsche Macan 2.0T SUV 5dr Petrol PDK 4WD Euro 6 (s/s) (252 ps)",
+      "price": "£23,450",
+      "year": 2018,
+      "mileage": "69,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "SUV",
+      "image": "https://m.atcdn.co.uk/a/media/w640/2fd39f8563ba47f2acd63fcecd76ee95.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601149132328"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "2015 Porsche Macan 3.0 TD V6 S SUV 5dr Diesel PDK 4WD Euro 6 (s/s) (258 ps)",
+      "price": "£20,495",
+      "year": 2015,
+      "mileage": "70,888 miles",
+      "transmission": "Unknown",
+      "bodyType": "SUV",
+      "image": "https://m.atcdn.co.uk/a/media/w640/82ca4a0724c94b1f96d23f66caa2a0dc.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011211493"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "2016 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£31,950",
+      "year": 2016,
+      "mileage": "19,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/59c673ff38f944a1b448f2875690c0ba.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261021846"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "2018 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£34,900",
+      "year": 2018,
+      "mileage": "46,692 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/81b2cbc89c8c48d2bd60f479ca5881bb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011218203"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "2017 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£21,990",
+      "year": 2017,
+      "mileage": "75,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fa1bed2afe8148eeb7bfe31dba2d7cf4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602179991204"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "2019 Porsche Macan 2.0T PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£29,250",
+      "year": 2019,
+      "mileage": "66,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9cfe34c5763741aaa170e20dad4a5169.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031273316"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "2017 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£26,990",
+      "year": 2017,
+      "mileage": "52,200 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/6ab19640bf664675ae46a0b7041a074c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011218102"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "2019 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£36,950",
+      "year": 2019,
+      "mileage": "41,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/028866bb540b46f892636f62f2a57ea3.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031267201"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "2017 Porsche Macan 2.0T PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£22,500",
+      "year": 2017,
+      "mileage": "54,564 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/7b9a3c0ca12c4ebb979ab6451492e448.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603220908703"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "2016 Porsche Macan 3.6T V6 Turbo PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£24,995",
+      "year": 2016,
+      "mileage": "65,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f3e4ce250ef14b5da215c78b217a6b0c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031268387"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "2017 Porsche Macan 3.0 TD V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£21,990",
+      "year": 2017,
+      "mileage": "108,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/6cb4ae448563412c804cb86bcb5d31e5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031262968"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "title": "2021 Porsche Macan 3.0T V6 S PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£48,990",
+      "year": 2021,
+      "mileage": "21,272 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/860a455e5a4a4627944409c4898f5270.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240952490"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "title": "2019 Porsche Macan 2.9T V6 Turbo PDK 4WD Euro 6 (s/s) 5dr",
+      "price": "£38,950",
+      "year": 2019,
+      "mileage": "75,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/781c8a6c691d459a92a1b71f3b4375aa.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603030365598"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "2025 Porsche Macan GTS",
+      "price": "£77,900",
+      "year": "2025",
+      "mileage": "3,362 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29360233/2025-porsche-macan-69cfc8fb81e4e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8b483efdc608499627df6670eeffa244",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042606"
         }
       ]
     }

@@ -924,7 +924,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-S4933646-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -945,7 +945,6 @@
           "date": "2026-03-23"
         }
       ],
-      "unlistedDate": "2026-03-30",
       "bodyType": "Convertible"
     },
     {
@@ -1012,7 +1011,7 @@
     {
       "id": "48",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£67,950",
+      "price": "£64,995",
       "year": 2000,
       "mileage": "01975 miles",
       "transmission": "F1 Automated Manual",
@@ -1094,6 +1093,10 @@
         {
           "price": "£64,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£67,950",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Coupe"
@@ -1257,19 +1260,20 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/91ebb07da6e84e6784e29b936d95a6b2.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050428480"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "57",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£61,970",
+      "price": "£59,950",
       "year": 2000,
       "mileage": "33,100 miles",
       "transmission": "F1 Automated Manual",
@@ -1355,6 +1359,10 @@
         {
           "price": "£59,950",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£61,970",
+          "date": "2026-04-04"
         }
       ],
       "bodyType": "Coupe"
@@ -1956,7 +1964,7 @@
       "price": "£69,995",
       "year": 2000,
       "mileage": "34,100 miles",
-      "transmission": "Unknown",
+      "transmission": "F1 Automated Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/7162dc29587a4f7f833c14bcd7b625a7.jpg",
       "featured": false,
@@ -1966,6 +1974,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202410074929152"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20198483"
         }
       ]
     },

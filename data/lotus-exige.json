@@ -1205,13 +1205,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/cup/lotus-exige-s3-cup-S4944739-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20162399"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-04"
     },
     {
       "id": "59",
@@ -1525,12 +1526,12 @@
     },
     {
       "id": "75",
-      "title": "2013 Lotus Exige 3.5 V6 S Euro 5 2dr",
+      "title": "2013 Lotus Exige 3.5 V6 S Coupe 2dr Petrol Manual Euro 5 (350 ps)",
       "price": "£42,000",
       "year": 2013,
       "mileage": "22,606 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/c8ac53be7b0a493caae2a5979d56ff75.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1767,6 +1768,105 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504091150671"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2020 Lotus Exige 3.5 V6 Sport 410 Euro 6 2dr",
+      "price": "£71,980",
+      "year": 2020,
+      "mileage": "17,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/exige/3-5-v6-sport-410-euro-6-2dr/lotus-exige-3-5-v6-sport-410-euro-6-2dr-1422922782-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20198513"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311184498"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2007 Lotus Exige S TOURING & SPORTS 1.8 2dr",
+      "price": "£36,995",
+      "year": 2007,
+      "mileage": "19,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/6e08f44d628f4e70bf340d05a210d2e7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021236899"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2020 Lotus Exige 3.5 V6 Sport 350 Coupe 2dr Petrol Manual Euro 6 (350 ps)",
+      "price": "£47,950",
+      "year": 2020,
+      "mileage": "31,938 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b0a55b11e94d487d8d829175cf14eee9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031276799"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "title": "2018 Lotus Exige 3.5 V6 Sport 380 Euro 6 2dr",
+      "price": "£57,995",
+      "year": 2018,
+      "mileage": "18,600 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4fb0ff98712542ff8682e44f56e82097.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031284133"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "title": "2018 Lotus Exige Sport 380",
+      "price": "£57,995",
+      "year": "2018",
+      "mileage": "18,600 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2042793/2018-lotus-exige-69d087d9d74a5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d1be9aad0a020fa4b4e62824eef054cb",
+      "featured": false,
+      "dateAdded": "2026-04-04",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042793"
         }
       ]
     }
