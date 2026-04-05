@@ -4908,7 +4908,7 @@
       "price": "£74,490",
       "year": 2025,
       "mileage": "1,589 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/4a6cc3d4dfe3488d972d68355407f1d8.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -4917,6 +4917,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505313000974"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19998945"
         }
       ],
       "priceHistory": [
@@ -10405,6 +10409,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509056086590"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19093689"
         }
       ],
       "bodyType": "Coupe",
@@ -12398,13 +12406,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041299/2014-bmw-m3-69cd8bf5d696b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b90f3c3f452605e98d3038df592d677",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041299"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "579",
@@ -12417,13 +12426,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041206/2001-bmw-m3-69ccf00a220b7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=88b14abe7a204d0e325e8c477bd342a8",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041206"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "580",
@@ -12536,6 +12546,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2042617"
+        }
+      ]
+    },
+    {
+      "id": "586",
+      "title": "2021 Used  BMW M3 COMPETITION AUTO",
+      "price": "£72,995",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/g80-m3-post-21/m3-competition/bmw-g80-m3-post-21-m3-competition-S4946027-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20205091"
+        }
+      ]
+    },
+    {
+      "id": "587",
+      "title": "2023 BMW M3 Competition Edition M xDrive Auto 4WD",
+      "price": "£64,995",
+      "year": "2023",
+      "mileage": "14,650 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2042025/2023-bmw-m3-69cfc92dd6ad3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6d875d9044a8ce3b02fd80f7112941ba",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042025"
         }
       ]
     }

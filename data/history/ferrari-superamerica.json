@@ -709,5 +709,34 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-04-05",
+    "listings": [
+      {
+        "id": "11",
+        "price": 225000,
+        "year": "2006",
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "12",
+        "price": 495950,
+        "year": 2005,
+        "mileage": 203,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "13",
+        "price": 229950,
+        "year": "2005",
+        "mileage": 18200,
+        "transmission": "Automatic",
+        "status": "active"
+      }
+    ]
   }
 ]

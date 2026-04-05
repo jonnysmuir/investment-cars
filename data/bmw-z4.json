@@ -5233,7 +5233,7 @@
     {
       "id": "261",
       "title": "2014 BMW Z4 E89 sDrive20i",
-      "price": "£6,600",
+      "price": "£6,500",
       "year": "2014",
       "mileage": "108,000 miles",
       "transmission": "6-Speed Manual",
@@ -5252,6 +5252,10 @@
         {
           "price": "£6,800",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£6,600",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -5266,11 +5270,31 @@
       "image": "https://assets.carandclassic.com/uploads/new/29208733/2007-bmw-z4-69cbac9ef38da.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6b6fd43935ddb554a15b1c2d8c5f510f",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040091"
+        }
+      ],
+      "unlistedDate": "2026-04-05"
+    },
+    {
+      "id": "263",
+      "title": "2004 BMW Z4 3.0si Convertible 2004 Konig Coil Over Suspensio",
+      "price": "£3,995",
+      "year": "2004",
+      "mileage": "104,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/new/29373597/2004-bmw-z4-69d0f2a3899ca.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d89c6406f583c8ac11adf816b4103cec",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042933"
         }
       ]
     }

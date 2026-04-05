@@ -492,13 +492,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/gtc4lusso/v8/ferrari-gtc4lusso-v8-S4925415-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19574872"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "25",
@@ -561,7 +562,7 @@
     {
       "id": "28",
       "title": "2020 Ferrari GTC4Lusso 6.3 V12 F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£184,600",
+      "price": "£179,000",
       "year": 2020,
       "mileage": "13,752 miles",
       "transmission": "Automatic",
@@ -616,6 +617,10 @@
         {
           "price": "£179,000",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£184,600",
+          "date": "2026-04-05"
         }
       ]
     },

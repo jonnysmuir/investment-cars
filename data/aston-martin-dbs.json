@@ -1074,7 +1074,7 @@
     {
       "id": "53",
       "title": "2019 Aston Martin DBS 5.2 V12 BiTurbo Superleggera Auto Euro 6 (s/s) 2dr",
-      "price": "£106,980",
+      "price": "£105,980",
       "year": 2019,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
@@ -1087,6 +1087,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230922073"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£106,980",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -1120,13 +1126,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/97c5c12bac5b4b7bb2946db402089f26.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512118536410"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "56",
@@ -1310,13 +1317,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ffa2fa3b87f64025940ea2b9c7e4e356.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100582422"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "66",
@@ -1405,7 +1413,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7f1c47b091614e2c89d57ed3f6f93069.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1417,7 +1425,8 @@
           "price": "£64,995",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "71",
@@ -1545,13 +1554,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/416bdcf4c8ee48a181d907c4dc672873.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601078967041"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "78",
@@ -1905,14 +1915,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/90667a50cc744a7799c340e400258577.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261015055"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "96",

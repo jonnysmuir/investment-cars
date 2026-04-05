@@ -1170,13 +1170,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2030285/2019-bmw-m2-69bd0225590cb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cfa350a04ff57c80e3d2c62cb059ec2a",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2030285"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "55",
@@ -1478,7 +1479,7 @@
     {
       "id": "69",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£55,980",
+      "price": "£56,980",
       "year": 2024,
       "mileage": "5,217 miles",
       "transmission": "6-Speed Manual",
@@ -1495,6 +1496,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170767736"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£55,980",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -2517,7 +2524,7 @@
     {
       "id": "120",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£57,895",
+      "price": "£56,000",
       "year": 2024,
       "mileage": "2,700 miles",
       "transmission": "Automatic",
@@ -2534,6 +2541,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19992190"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£57,895",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -3321,7 +3334,7 @@
     {
       "id": "158",
       "title": "2024 BMW M2 3.0 BiTurbo Euro 6 (s/s) 2dr",
-      "price": "£51,699",
+      "price": "£53,990",
       "year": 2024,
       "mileage": "3,989 miles",
       "transmission": "Automatic",
@@ -3338,6 +3351,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19997555"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£51,699",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -3382,7 +3401,7 @@
     {
       "id": "161",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£27,194",
+      "price": "£26,399",
       "year": 2017,
       "mileage": "39,751 miles",
       "transmission": "F1 Automated Manual",
@@ -3399,6 +3418,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20201205"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£27,194",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -3551,7 +3576,7 @@
       "price": "£49,990",
       "year": 2024,
       "mileage": "9,859 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/a633cb4975d4480ba3e410b28a8f630b.jpg",
       "featured": false,
@@ -3561,6 +3586,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601269436365"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19817361"
         }
       ]
     },
@@ -3818,7 +3847,7 @@
       "price": "£51,990",
       "year": 2024,
       "mileage": "5,860 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/bacd3e3a4e0e45b791b156094259f260.jpg",
       "featured": false,
@@ -3828,6 +3857,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190054052"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19817455"
         }
       ]
     },
@@ -5398,6 +5431,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041685"
+        }
+      ]
+    },
+    {
+      "id": "265",
+      "title": "2025 Used  BMW M2 AUTO",
+      "price": "£59,990",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/2-series/m2/bmw-2-series-m2-1423120987-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20206089"
         }
       ]
     }

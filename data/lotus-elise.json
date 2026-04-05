@@ -1134,13 +1134,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2027797/1997-lotus-elise-69b010807125f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=67e6ae76215789ff122eb3fc371aa1df",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2027797"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "56",
@@ -1153,13 +1154,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2033860/2007-lotus-elise-69bcf6374f21f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6beb10957aedd98f591e3ee09b41ca8e",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2033860"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "57",
@@ -1960,7 +1962,7 @@
       "price": "£20,000",
       "year": 1999,
       "mileage": "27,530 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/f798f0d8f9894322b3fc2de96ab70189.jpg",
       "featured": false,
@@ -1970,6 +1972,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190044777"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18647241"
         }
       ]
     },
@@ -2311,13 +2317,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/elise/lotus-elise-s1-elise-S4945377-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19247456"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "115",
@@ -2544,6 +2551,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042479"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "title": "2000 Used  LOTUS ELISE",
+      "price": "£30,995",
+      "year": 2000,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise/sport-160-sva/lotus-elise-sport-160-sva-1385696469-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18645148"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "title": "2001 Used  LOTUS ELISE",
+      "price": "£18,995",
+      "year": 2001,
+      "mileage": "40,700 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/16v/lotus-elise-s2-16v-S4921694-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18346473"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "title": "2003 Lotus Elise S2 Touring",
+      "price": "£21,995",
+      "year": "2003",
+      "mileage": "16,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Estate",
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2043030/2003-lotus-elise-69d13402caaeb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1561ff3b98a5611b1e459387b64eb0c0",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2043030"
         }
       ]
     }

@@ -784,14 +784,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "39",
@@ -1006,14 +1007,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4894333-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/14945697"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-05"
     },
     {
       "id": "50",
@@ -1064,14 +1066,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1588488/1998-ferrari-f355-v8-6470ab1cb867c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc82b241aaaf14b78a186a09795f9cc9",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1588488"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "53",
@@ -1473,7 +1475,7 @@
     {
       "id": "72",
       "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
-      "price": "£170,189",
+      "price": "£169,990",
       "year": 1996,
       "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
@@ -1504,6 +1506,10 @@
         {
           "price": "£169,990",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£170,189",
+          "date": "2026-04-05"
         }
       ]
     },
@@ -1641,6 +1647,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041388"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "1999 Ferrari F1 355 Spider UK RHD Only 39,687 Miles! Stunning!",
+      "price": "£72,950",
+      "year": "1999",
+      "mileage": "39,687 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1783141/1999-ferrari-f355-66f1e04b19ee6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3a46b3db315e30a67918288b18754803",
+      "featured": false,
+      "dateAdded": "2026-04-05",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1783141"
         }
       ]
     }
