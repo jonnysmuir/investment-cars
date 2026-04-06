@@ -271,7 +271,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs5/rs-5-tfsi-quattro-carbon-black-5dr-tiptronic/audi-rs5-rs-5-tfsi-quattro-carbon-black-5dr-tiptronic-1416846126-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -281,7 +281,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190843541"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "14",
@@ -318,7 +319,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs5/carbon-black/audi-rs5-carbon-black-1416455520-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -328,7 +329,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190840041"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "16",
@@ -399,7 +401,7 @@
     {
       "id": "19",
       "title": "2017 Audi RS5 2.9 TFSI V6 Tiptronic quattro Euro 6 (s/s) 2dr",
-      "price": "£33,280",
+      "price": "£34,940",
       "year": 2017,
       "mileage": "47,832 miles",
       "transmission": "Unknown",
@@ -407,14 +409,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/93f452655b9d447d919a768ff63f2583.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271077118"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£33,280",
+          "date": "2026-04-06"
+        }
+      ]
     },
     {
       "id": "20",
@@ -427,13 +434,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/15b9ea88a6ca4990833bc9e9d36b0d62.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601289499810"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "21",
@@ -703,7 +711,7 @@
       "price": "£42,995",
       "year": 2021,
       "mileage": "32,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/3defffeb25b64a4aaaab9f95170fd3d7.jpg",
       "featured": false,
@@ -713,6 +721,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603150717420"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19561942"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -3009,6 +3021,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202501298534615"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20012682"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -3494,7 +3510,7 @@
     {
       "id": "172",
       "title": "2011 Audi RS5 4.2 FSI V8 S Tronic quattro Euro 4 2dr",
-      "price": "£12,995",
+      "price": "£11,995",
       "year": 2011,
       "mileage": "186,000 miles",
       "transmission": "Unknown",
@@ -3502,14 +3518,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/091e54457059433baa4c339cb4fdc870.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261042096"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£12,995",
+          "date": "2026-04-06"
+        }
+      ]
     },
     {
       "id": "173",
@@ -3522,13 +3543,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/934f009d791b4da9b532f1a9936a9499.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512198705402"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "174",
@@ -3541,13 +3563,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b7b027d9562842b5bd13544cf69b29e5.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301148714"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "175",
@@ -3590,7 +3613,7 @@
     {
       "id": "177",
       "title": "2011 Audi Rs5 4.2 FSI V8 Coupe 2dr Petrol S Tronic quattro Euro 4 (450 ps)",
-      "price": "£15,150",
+      "price": "£15,080",
       "year": 2011,
       "mileage": "51,656 miles",
       "transmission": "Unknown",
@@ -3603,6 +3626,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311160555"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£15,150",
+          "date": "2026-04-06"
         }
       ]
     },
@@ -3641,6 +3670,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011223910"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "title": "2015 Audi RS5 4.2 FSI V8 S Tronic quattro Euro 5 2dr",
+      "price": "£18,980",
+      "year": 2015,
+      "mileage": "68,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/4aafa943df7340b5b39bc9b9fc7e9fff.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-06",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261030516"
         }
       ]
     }

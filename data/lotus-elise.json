@@ -1096,13 +1096,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28182408/7866ce83-a810-4922-abda-0434b101020b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b13d120e78b5e07fe44c170e345213e2",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2021-lotus-elise-220-sport-8qy2x8"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "54",
@@ -1115,13 +1116,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2031057/1998-lotus-elise-69b7ce29e341c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6a44d66067319c14daaf9681aad52bac",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2031057"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "55",
@@ -1785,7 +1787,7 @@
       "price": "£21,500",
       "year": 2003,
       "mileage": "37,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/8e801c806e6a4883aefaa7a0e6f471dc.jpg",
       "featured": false,
@@ -1795,6 +1797,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271063973"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20010196"
         }
       ]
     },
@@ -1959,7 +1965,7 @@
     {
       "id": "96",
       "title": "1999 Lotus Elise 1.8 111S 2dr",
-      "price": "£20,000",
+      "price": "£19,995",
       "year": 1999,
       "mileage": "27,530 miles",
       "transmission": "6-Speed Manual",
@@ -1976,6 +1982,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18647241"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£20,000",
+          "date": "2026-04-06"
         }
       ]
     },
@@ -2370,7 +2382,7 @@
       "price": "£45,995",
       "year": 2021,
       "mileage": "7,900 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/a2e1a17e88a84382bfccb3ba22a4b482.jpg",
       "featured": false,
@@ -2380,6 +2392,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311166404"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20207112"
         }
       ]
     },

@@ -1144,13 +1144,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2004574/2015-lotus-exige-6997841a5deae.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d5b8bc894bd31abc0b4a06d67b22c562",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2004574"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "56",
@@ -1308,6 +1309,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050448893"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20008381"
         }
       ]
     },
@@ -1317,7 +1322,7 @@
       "price": "£84,995",
       "year": 2020,
       "mileage": "13,500 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/7e41a904b3a04d438071c14d51b7e20d.jpg",
       "featured": false,
@@ -1327,6 +1332,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140708745"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20207086"
         }
       ]
     },
@@ -1728,13 +1737,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s2/cup/lotus-exige-s2-cup-S4939128-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19984601"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "86",
@@ -1747,13 +1757,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/sport/lotus-exige-s3-sport-S4925995-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18630473"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "87",
@@ -1870,6 +1881,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042793"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "title": "2015 Used  LOTUS EXIGE",
+      "price": "£42,000",
+      "year": 2015,
+      "mileage": "23,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/s-roadster-premium/lotus-exige-s3-s-roadster-premium-S4946123-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-06",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20207118"
         }
       ]
     }

@@ -250,7 +250,7 @@
     {
       "id": "13",
       "title": "2022 Ferrari Roma 3.8T V8 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (620 ps)",
-      "price": "£129,995",
+      "price": "£138,000",
       "year": 2022,
       "mileage": "22,900 miles",
       "transmission": "F1 Automated Manual",
@@ -312,6 +312,10 @@
         {
           "price": "£138,000",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-06"
         }
       ],
       "bodyType": "Coupe"
@@ -733,7 +737,7 @@
     {
       "id": "27",
       "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£199,950",
+      "price": "£179,950",
       "year": 2024,
       "mileage": "50 miles",
       "transmission": "Automatic",
@@ -751,7 +755,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202409093843842"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£199,950",
+          "date": "2026-04-06"
+        }
+      ]
     },
     {
       "id": "28",
@@ -2133,9 +2143,14 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020340050"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20207721"
         }
       ],
-      "unlistedDate": "2026-03-23"
+      "unlistedDate": "2026-03-23",
+      "bodyType": null
     },
     {
       "id": "71",

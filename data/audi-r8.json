@@ -1327,13 +1327,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28504505/2013-Audi-R8-001.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b1fb24ef25d6aec6e14c1d3888cff3fe",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2013-audi-r8-type-42-42l-v8-fsi-quattro-coupe-nVdbo8"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "65",
@@ -1491,13 +1492,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-570-v10-performance-ed-2dr-s-tronic-rwd/audi-r8-5-2-fsi-570-v10-performance-ed-2dr-s-tronic-rwd-1411025670-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19464053"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "73",
@@ -1958,7 +1960,7 @@
       "price": "£38,995",
       "year": 2010,
       "mileage": "68,197 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w640/22bff8c48e194a6398e2e37529ed6d4d.jpg",
       "featured": false,
@@ -1968,6 +1970,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202411055970694"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20208429"
         }
       ],
       "unlistedDate": "2026-04-03"
@@ -2063,13 +2069,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a36da8dc78ad4e52b7d551ce6c1ffe0f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020332412"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "102",
@@ -2375,13 +2382,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-spyder-s-tronic/audi-r8-5-2-fsi-v10-spyder-s-tronic-1418572950-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19546157"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-06"
     },
     {
       "id": "118",
@@ -2437,6 +2445,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1753880"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "title": "2023 Used  AUDI R8 GT V10 S-A",
+      "price": "£179,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/fsi-v10-gt-2dr-s-tronic-rwd/audi-r8-fsi-v10-gt-2dr-s-tronic-rwd-1365307213-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-06",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19484861"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "title": "2019 Used  AUDI R8",
+      "price": "£85,000",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/fsi-v10-quattro-2dr-s-tronic/audi-r8-fsi-v10-quattro-2dr-s-tronic-1400241938-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-06",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19824640"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2011 Audi R8 LMS Ultra GT3",
+      "price": "POA",
+      "year": "2011",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C1842754/2011-audi-r8-lms-ultra-gt3-67bf7e094916a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c2a81fd63be3692c70abf7d9f5794659",
+      "featured": false,
+      "dateAdded": "2026-04-06",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1842754"
         }
       ]
     }
