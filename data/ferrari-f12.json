@@ -691,7 +691,7 @@
     {
       "id": "32",
       "title": "2016 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
-      "price": "£179,000",
+      "price": "£175,150",
       "year": 2016,
       "mileage": "1052 miles",
       "transmission": "F1 Automated Manual",
@@ -773,6 +773,10 @@
         {
           "price": "£175,150",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-04-07"
         }
       ],
       "bodyType": "Coupe"
@@ -940,7 +944,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e18e79f941d54b809f66d27597da61b9.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -953,8 +957,7 @@
           "date": "2026-03-26"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-01"
+      "bodyType": "Coupe"
     },
     {
       "id": "38",
@@ -1272,14 +1275,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/57737486bf5645588eecc254e5b6642c.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512058416153"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "54",
@@ -1356,13 +1360,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/04c99c46f1a24d9db7f04cff0b246637.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030360448"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "58",
@@ -1375,13 +1380,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/497576b390c046958ab78995d5e701a2.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291108248"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "59",

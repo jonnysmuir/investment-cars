@@ -900,7 +900,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/s/lotus-exige-s3-s-S4941285-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -910,7 +910,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603220901615"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "44",
@@ -1280,7 +1281,7 @@
       "price": "£44,925",
       "year": 2008,
       "mileage": "19,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/4a282a65248749a1915fafcf4b638db8.jpg",
       "featured": false,
@@ -1290,6 +1291,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049674914"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19837566"
         }
       ]
     },
@@ -1350,13 +1355,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/31585ffd1af64ea1b5dbb6c35dc941dd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602179998389"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "66",
@@ -1424,7 +1430,7 @@
     {
       "id": "69",
       "title": "2018 Lotus Exige 3.5 V6 Sport 410 Euro 6 2dr",
-      "price": "£67,595",
+      "price": "£67,295",
       "year": 2018,
       "mileage": "12,800 miles",
       "transmission": "Unknown",
@@ -1437,6 +1443,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510097033020"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£67,595",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -1641,13 +1653,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0113c65249ab455b8582e7bb990ee763.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601139114794"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "81",
@@ -1900,6 +1913,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20207118"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "title": "2007 Lotus Exige 1.8 S Touring Euro 4 2dr",
+      "price": "£31,000",
+      "year": 2007,
+      "mileage": "34,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/517e9c9e617944a78b6ba18be020b7d2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604051303557"
         }
       ]
     }

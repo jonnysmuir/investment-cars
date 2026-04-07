@@ -986,7 +986,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-s-premium-pan-roof/mercedes-benz-amg-gt-4-0-v8-biturbo-s-premium-pan-roof-1395069324-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -996,7 +996,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210882689"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "47",
@@ -1029,14 +1030,13 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-gpf-premium-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps/mercedes-benz-amg-gt-4-0-v8-biturbo-gpf-premium-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps-1419404953-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20116529"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "49",
@@ -1293,7 +1293,7 @@
     {
       "id": "62",
       "title": "2021 Used  MERCEDES-BENZ AMG GT EDITION AUTO",
-      "price": "£77,980",
+      "price": "£77,480",
       "year": 2021,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -1301,14 +1301,19 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps/mercedes-benz-amg-gt-4-0-v8-biturbo-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps-1420288600-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20024196"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£77,980",
+          "date": "2026-04-07"
+        }
+      ]
     },
     {
       "id": "63",
@@ -1394,7 +1399,7 @@
     {
       "id": "67",
       "title": "2019 Mercedes-Benz Amg Gt 4.0 63 V8 BiTurbo S (Premium Plus) Coupe SpdS MCT 4MATIC+ Euro 6 (s/s) 5dr",
-      "price": "£55,289",
+      "price": "£59,898",
       "year": 2019,
       "mileage": "69,000 miles",
       "transmission": "Unknown",
@@ -1407,6 +1412,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601219326259"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£55,289",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -1488,6 +1499,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19938514"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£46,500",
+          "date": "2026-04-07"
+        },
+        {
+          "price": "£46,995",
+          "date": "2026-04-07"
+        }
       ]
     },
     {
@@ -1560,13 +1581,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f5eb4a8b08d5480392cbdba1be2cc5a4.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311181352"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "76",
@@ -1774,6 +1796,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042450"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "title": "2015 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo S Edition 1 Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (510 ps)",
+      "price": "£54,995",
+      "year": 2015,
+      "mileage": "54,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7ddd79acadc74c2093c7b3fd11e3c4c5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271058155"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2017 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo (Premium) Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (476 ps) SPORTS SUSPENSION,PTS,2 OWNERS,FMSH",
+      "price": "£58,790",
+      "year": 2017,
+      "mileage": "42,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/74a7c846b9734ba083f5e6b1f53f4ab7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603291113128"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2020 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo R Roadster SpdS DCT Euro 6 (s/s) 2dr",
+      "price": "£126,990",
+      "year": 2020,
+      "mileage": "5,700 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/181b092087d24b0b9cbf30a341fd444b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061312059"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2020 Mercedes-Benz Amg Gt 4.0 63 V8 BiTurbo S (Premium Plus) Coupe SpdS MCT 4MATIC+ Euro 6 (s/s) 5dr",
+      "price": "£64,600",
+      "year": 2020,
+      "mileage": "59,470 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/4a6f06142305419988d6c1016a8e6a53.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202509296730025"
         }
       ]
     }

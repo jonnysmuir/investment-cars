@@ -277,7 +277,7 @@
     {
       "id": "14",
       "title": "2022 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£369,950",
+      "price": "£379,995",
       "year": 2022,
       "mileage": "686 miles",
       "transmission": "Automatic",
@@ -328,6 +328,10 @@
         {
           "price": "£379,995",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£369,950",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -387,7 +391,7 @@
     {
       "id": "17",
       "title": "2023 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£385,000",
+      "price": "£375,000",
       "year": 2023,
       "mileage": "3,350 miles",
       "transmission": "Automatic",
@@ -422,6 +426,10 @@
         {
           "price": "£375,000",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£385,000",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -435,7 +443,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider/ferrari-sf90-spider-1395575785-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -452,7 +460,8 @@
           "price": "£369,000",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "19",
@@ -912,14 +921,14 @@
     {
       "id": "38",
       "title": "2023 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£369,990",
+      "price": "£385,000",
       "year": 2023,
       "mileage": "2,079 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90-spider/4-0t-v8-7-9kwh-f1-dct-4wd-euro-6-s-s-2dr/ferrari-sf90-spider-4-0t-v8-7-9kwh-f1-dct-4wd-euro-6-s-s-2dr-1409917778-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -930,8 +939,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602019584834"
         }
       ],
-      "unlistedDate": "2026-03-24",
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£369,990",
+          "date": "2026-04-07"
+        }
+      ]
     },
     {
       "id": "39",
@@ -1123,14 +1137,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90-stradale/ferrari-sf90-stradale-1414839485-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20017856"
         }
       ],
-      "unlistedDate": "2026-03-27"
+      "bodyType": null
     },
     {
       "id": "48",
@@ -1179,7 +1193,7 @@
     {
       "id": "50",
       "title": "2021 Ferrari SF90 Stradale 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£274,995",
+      "price": "£267,000",
       "year": 2021,
       "mileage": "5,000 miles",
       "transmission": "Automatic",
@@ -1221,6 +1235,10 @@
         {
           "price": "£267,000",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£274,995",
+          "date": "2026-04-07"
         }
       ],
       "bodyType": null
@@ -1235,7 +1253,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/4-0t-v8-7-9kwh-f1-dct-4wd-euro-6-s-s-2dr/ferrari-sf90-4-0t-v8-7-9kwh-f1-dct-4wd-euro-6-s-s-2dr-1417584726-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1252,7 +1270,8 @@
           "date": "2026-03-31"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "52",
@@ -1452,13 +1471,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/47dbf66780a6481ba0d0059695e13747.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049669178"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "61",
@@ -1567,13 +1587,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f49a76640647452886d7e5a10c97e113.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301136069"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "67",
@@ -1648,6 +1669,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602099796093"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2021 Ferrari SF90 Stradale 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
+      "price": "£279,830",
+      "year": 2021,
+      "mileage": "7,472 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5a35e40c3bcd4ee0a6a921eedababd5f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202505062097666"
         }
       ]
     }

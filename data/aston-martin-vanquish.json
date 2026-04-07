@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr 6 Speed Paddle Shift (396 g/km, 460 bhp) Fantastic condition",
-      "price": "£39,990",
+      "price": "£38,495",
       "year": 2003,
       "mileage": "43000 miles",
       "transmission": "6-Speed Manual",
@@ -857,6 +857,10 @@
         {
           "price": "£38,495",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£39,990",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -933,7 +937,7 @@
     {
       "id": "43",
       "title": "2005 Aston Martin Vanquish 5.9 S 2dr",
-      "price": "£67,500",
+      "price": "£69,950",
       "year": 2005,
       "mileage": "17,944 miles",
       "transmission": "Unknown",
@@ -984,6 +988,10 @@
         {
           "price": "£69,950",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£67,500",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -1579,13 +1587,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28899840/2025-aston-martin-vanquish-69bcb7b7f3a2b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=16ad0af480dea0f821936e79b9168848",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033752"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "72",
@@ -1731,6 +1740,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19832575"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£97,950",
+          "date": "2026-04-07"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -1979,7 +1998,7 @@
     {
       "id": "89",
       "title": "2017 Aston Martin Vanquish 6.0 V12 Volante T-TronIII Euro 6 2dr",
-      "price": "£109,950",
+      "price": "£112,995",
       "year": 2017,
       "mileage": "8,800 miles",
       "transmission": "Automatic",
@@ -2034,6 +2053,10 @@
         {
           "price": "£112,995",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£109,950",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -2140,13 +2163,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2d4d8466dabe48b5aa89d7967e3039b3.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068958922"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "95",
@@ -2420,14 +2444,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/61452324c2c04ad4ac9ab2046385e66e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510036872678"
         }
-      ],
-      "unlistedDate": "2026-04-05"
+      ]
     },
     {
       "id": "109",
@@ -2459,6 +2482,14 @@
         {
           "price": "£59,850",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£57,990",
+          "date": "2026-04-07"
+        },
+        {
+          "price": "£59,850",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -2671,13 +2702,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/583340ab5f8443d3bb2a38e4ac4f33b4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505092219972"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "121",
@@ -2906,7 +2938,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/951e33a4adad47f18e0e469491671ba4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2916,8 +2948,7 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20007087"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "132",

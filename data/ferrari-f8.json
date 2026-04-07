@@ -117,7 +117,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f8/spider/ferrari-f8-spider-S4926880-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -130,7 +130,8 @@
           "price": "£259,995",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "7",
@@ -260,7 +261,7 @@
     {
       "id": "12",
       "title": "2020 Ferrari F8 Tributo 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£239,850",
+      "price": "£234,980",
       "year": 2020,
       "mileage": "2,257 miles",
       "transmission": "Automatic",
@@ -342,6 +343,10 @@
         {
           "price": "£234,980",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£239,850",
+          "date": "2026-04-07"
         }
       ],
       "bodyType": null
@@ -513,7 +518,7 @@
     {
       "id": "21",
       "title": "2021 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£253,750",
+      "price": "£257,750",
       "year": 2021,
       "mileage": "8,750 miles",
       "transmission": "F1 Automated Manual",
@@ -526,6 +531,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240975837"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£253,750",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -540,14 +551,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/94eea810d79d4659bddfcbde1373b844.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512118519326"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     }
   ]
 }

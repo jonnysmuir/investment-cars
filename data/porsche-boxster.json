@@ -1177,7 +1177,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/boxster-s/3-4-981-s-convertible-2dr-petrol-pdk-euro-6-s-s--315-ps/porsche-boxster-s-3-4-981-s-convertible-2dr-petrol-pdk-euro-6-s-s--315-ps-1417735712-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1187,7 +1187,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602210114144"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "58",
@@ -1348,13 +1349,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/99cf8ff0a82c4deeac0ea9640cad4933.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602079752119"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "66",
@@ -1367,13 +1369,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7b566486197e487baf4ce5231059f306.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170775622"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "67",
@@ -1665,13 +1668,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a5d0c49d447740caabed8a3f30c4007f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511197992288"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "82",
@@ -1817,7 +1821,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/17c2ec2c88134a7587d57ef9e098f93b.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1829,7 +1833,8 @@
           "price": "£6,450",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "90",
@@ -2118,13 +2123,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/49dd5557edd04461bc0a8eb50f5745cc.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050436704"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "105",
@@ -2137,13 +2143,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1df4f946f33d4409b18acf8cf8ab93d2.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202407222028914"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "106",
@@ -2372,7 +2379,7 @@
       "price": "£21,990",
       "year": 2010,
       "mileage": "34,500 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/0b2e5126ca0a4851bd192c4ba1daa6fe.jpg",
       "featured": false,
@@ -2382,6 +2389,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281085383"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/12850345"
         }
       ],
       "unlistedDate": "2026-04-05"
@@ -2627,7 +2638,7 @@
     {
       "id": "130",
       "title": "2014 Porsche Boxster 2.7 981 PDK Euro 5 (s/s) 2dr",
-      "price": "£27,950",
+      "price": "£27,450",
       "year": 2014,
       "mileage": "39,921 miles",
       "transmission": "Unknown",
@@ -2635,14 +2646,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/024fbc4858304b59a28c3ec4f54aaa79.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601299531900"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£27,950",
+          "date": "2026-04-07"
+        }
+      ]
     },
     {
       "id": "131",
@@ -2693,13 +2709,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4e4b276c8a15442b81d6db720e97350e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506103375428"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "134",
@@ -2750,13 +2767,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6f5dd22f36b94b69a62a329b5610025d.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200852697"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "137",
@@ -3158,13 +3176,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e844c10d5cc947b7a6c291591397c48b.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601249402830"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "157",
@@ -3177,13 +3196,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a9311d9b5ab04a11afc07a6827370d21.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202401095383934"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "158",
@@ -3370,13 +3390,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/53bf4dd5ed034721b537cd1f2bd4419b.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011221776"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "168",
@@ -3389,13 +3410,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a789a38c0d834f98bc3dfaf40b16ac99.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271072037"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "169",
@@ -3446,13 +3468,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/59721c56557c48b2bb4efa1835d0e139.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011200262"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "172",
@@ -3465,13 +3488,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/61b8419fb75846feb2907d7b7acb9039.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311188343"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "173",
@@ -3503,13 +3527,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/602ca87588964353912acd5f3f195120.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059704258"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "175",
@@ -3522,13 +3547,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e0c2fa64a2854101882400ae814fd492.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100585733"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "176",
@@ -3589,13 +3615,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/boxster-718/2-5t-gts-pdk-euro-6-s-s-2dr/porsche-boxster-718-2-5t-gts-pdk-euro-6-s-s-2dr-1419537730-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19934454"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "179",
@@ -3608,13 +3635,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/boxster-718/2-5t-s-euro-6-s-s-2dr/porsche-boxster-718-2-5t-s-euro-6-s-s-2dr-1422338112-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20195131"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-07"
     },
     {
       "id": "180",
@@ -3979,12 +4007,12 @@
     },
     {
       "id": "199",
-      "title": "2003 Porsche Boxster 2.7 986 2dr",
+      "title": "2003 Porsche Boxster 2.7 986 Convertible 2dr Petrol Manual (233 g/km, 228 bhp)",
       "price": "£4,950",
       "year": 2003,
       "mileage": "74,200 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/8edc5def111542b4baaeb1c7783d9f4f.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
@@ -4069,6 +4097,310 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19552066"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "title": "2016 Used  PORSCHE BOXSTER",
+      "price": "£39,750",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/boxster/roadster-718-s-2dr-pdk/porsche-boxster-roadster-718-s-2dr-pdk-1423991242-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20209524"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "title": "2003 Porsche Boxster 3.2 986 S Convertible 2dr Petrol Manual (255 g/km, 260 bhp)",
+      "price": "£5,500",
+      "year": 2003,
+      "mileage": "99,645 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/92ff0852891647c395a9f6b8c573c9e1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604041299334"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "title": "2013 Porsche Boxster 2.7 981 Euro 5 (s/s) 2dr",
+      "price": "£18,750",
+      "year": 2013,
+      "mileage": "88,537 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f111f497a3cd4c0cac55a33ba792cb94.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508015058932"
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "title": "2004 Porsche Boxster 2.7 986 2dr",
+      "price": "£5,250",
+      "year": 2004,
+      "mileage": "111,676 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/ad1dee9c92fe4d62a510120f66649e0a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604041301480"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "title": "2002 Porsche Boxster 3.2 986 S Tiptronic S 2dr",
+      "price": "£6,995",
+      "year": 2002,
+      "mileage": "96,700 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/c07a4e3dbdaa4b00a21edb009f04dc1c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061326282"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "title": "2016 Porsche 718 Boxster 2.5T S Euro 6 (s/s) 2dr",
+      "price": "£36,990",
+      "year": 2016,
+      "mileage": "19,700 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/2977ec6c891e4d798d6e77cb574b77d4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061313880"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "title": "2014 Porsche Boxster 2.7 981 PDK Euro 6 (s/s) 2dr",
+      "price": "£32,995",
+      "year": 2014,
+      "mileage": "19,635 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5dd831fbdce643849b915e791fcd36f9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602179986818"
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "title": "2005 Porsche Boxster 2.7 987 2dr",
+      "price": "£6,695",
+      "year": 2005,
+      "mileage": "143,481 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a4adf0309c34472ba9ce47a506b96d45.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601239382819"
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "title": "2017 Porsche 718 Boxster 2.0T Euro 6 (s/s) 2dr",
+      "price": "£30,777",
+      "year": 2017,
+      "mileage": "35,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/6d8b376cd36a42be99845a03c40d32cb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602169967608"
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "title": "2000 Porsche Boxster 2.7 986 Tiptronic S 2dr",
+      "price": "£9,995",
+      "year": 2000,
+      "mileage": "75,257 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f114d967ed024211869507abfff0c4e1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604051308503"
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "title": "2005 Porsche Boxster 2.7 987 2dr",
+      "price": "£10,950",
+      "year": 2005,
+      "mileage": "59,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/3ea3b77a387445f793183c7c7c3cf55e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603010310359"
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "title": "2002 Porsche Boxster 3.2 986 S Convertible 2dr Petrol Manual (255 g/km, 260 bhp)",
+      "price": "£8,995",
+      "year": 2002,
+      "mileage": "133,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9d59fd4e1ee04e83817ef5732df33618.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031272376"
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "title": "2004 Porsche Boxster 2.7 986 Tiptronic S 2dr",
+      "price": "£5,995",
+      "year": 2004,
+      "mileage": "112,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/1bef7577f9044cfaa440063064a71587.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601299523141"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "title": "2008 Porsche Boxster 3.4 987 RS 60 Spyder 2dr",
+      "price": "£21,995",
+      "year": 2008,
+      "mileage": "63,200 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/cdd327a324f046dba48189d3bb3f5d0e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230931115"
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "title": "2019 Porsche 718 Boxster 2.5T GTS PDK Euro 6 (s/s) 2dr",
+      "price": "£54,990",
+      "year": "2019",
+      "mileage": "3,179 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2019422/2019-porsche-718-boxster-69aa2b58505c4.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b9446c106bb10e608d86bd35ce75db60",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2019422"
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "title": "2015 Porsche Boxster 981 (2012 - 2016)",
+      "price": "£26,000",
+      "year": "2015",
+      "mileage": "51,700 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2039546/2015-porsche-boxster-69ca54eb7ef9c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ceb62041aa1952ef1e0dd12b34383290",
+      "featured": false,
+      "dateAdded": "2026-04-07",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2039546"
         }
       ]
     }
