@@ -895,6 +895,14 @@
         {
           "price": "£97,500",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£97,500",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1002,6 +1010,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1120,6 +1136,14 @@
         {
           "price": "£76,999",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£76,999",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1217,6 +1241,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Convertible"
@@ -1290,6 +1322,14 @@
         {
           "price": "£79,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£79,790",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1401,6 +1441,14 @@
         {
           "price": "£64,785",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£64,964",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£64,785",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1434,14 +1482,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/25d91619c30c4b31a2e4602603fdffb9.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169960216"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "53",
@@ -1473,6 +1522,14 @@
         {
           "price": "£89,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£86,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£89,950",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1576,7 +1633,7 @@
     {
       "id": "59",
       "title": "2016 MCLAREN 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£64,790",
+      "price": "£71,995",
       "year": "2016",
       "mileage": "25,768 miles",
       "transmission": "Automatic",
@@ -1594,6 +1651,10 @@
         {
           "price": "£69,890",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£64,790",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1781,13 +1842,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/91d035c5d2284944b579f948dbd3df81.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240968028"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "69",
@@ -1819,6 +1881,14 @@
         {
           "price": "£94,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£94,950",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1925,10 +1995,10 @@
     },
     {
       "id": "75",
-      "title": "2018 Used  MCLAREN 570",
+      "title": "2018 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
       "price": "£89,900",
       "year": 2018,
-      "mileage": "N/A",
+      "mileage": "19,873 miles",
       "transmission": "Unknown",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/mclaren/570s/3-8t-v8-coupe/mclaren-570s-3-8t-v8-coupe-1422811572-1.jpg",
@@ -1939,6 +2009,67 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20203131"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031268159"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "title": "2017 McLaren 570S 3.8 T V8 2dr",
+      "price": "£89,995",
+      "year": 2017,
+      "mileage": "17,300 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/6315ab5c2dfa45cdb65d5aac6fffc4f9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202407191934994"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "title": "2017 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£49,995",
+      "year": 2017,
+      "mileage": "37,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5feb14d9da914b6a99e4cac9b852c58f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071345599"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "2018 McLaren 570S 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£97,500",
+      "year": 2018,
+      "mileage": "11,599 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/315a49febb41470dac841d04ab6a17fb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071330059"
         }
       ]
     }

@@ -2060,7 +2060,7 @@
     {
       "id": "93",
       "title": "2023 Alpine A110 1.8 Turbo GT DCT Euro 6 2dr",
-      "price": "£51,489",
+      "price": "£51,357",
       "year": 2023,
       "mileage": "2,200 miles",
       "transmission": "F1 Automated Manual",
@@ -2083,6 +2083,10 @@
         {
           "price": "£53,995",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£51,489",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2393,7 +2397,7 @@
     {
       "id": "110",
       "title": "2025 Alpine A110 1.8 Turbo DCT Euro 6 2dr",
-      "price": "£51,490",
+      "price": "£51,950",
       "year": 2025,
       "mileage": "1,895 miles",
       "transmission": "F1 Automated Manual",
@@ -2410,6 +2414,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20211231"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£51,490",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -3062,7 +3072,7 @@
     {
       "id": "144",
       "title": "2023 Alpine A110 2nd Gen",
-      "price": "£49,900",
+      "price": "£48,900",
       "year": "2023",
       "mileage": "4,152 miles",
       "transmission": "Automatic",
@@ -3075,6 +3085,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042609"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£49,900",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -3089,11 +3105,31 @@
       "image": "https://img.pistonheads.com/LargeSize/alpine/a110/1-8-turbo-dct-euro-6-2dr/alpine-a110-1-8-turbo-dct-euro-6-2dr-1422840336-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20203580"
+        }
+      ],
+      "unlistedDate": "2026-04-08"
+    },
+    {
+      "id": "146",
+      "title": "2023 Alpine A110 2nd Gen",
+      "price": "£44,790",
+      "year": "2023",
+      "mileage": "2,677 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29442860/2023-alpine-a110-69d526bcb496b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=27aa8aec732fc0d0f1c798cad9cfb234",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044339"
         }
       ]
     }

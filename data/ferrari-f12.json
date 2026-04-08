@@ -669,7 +669,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f12-berlinetta/6-3-v12-coupe-2dr-petrol-f1-dct-euro-5-s-s--740-ps/ferrari-f12-berlinetta-6-3-v12-coupe-2dr-petrol-f1-dct-euro-5-s-s--740-ps-1409918314-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -686,7 +686,8 @@
           "price": "£169,950",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "32",
@@ -777,6 +778,14 @@
         {
           "price": "£179,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£175,150",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1443,6 +1452,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2043423"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "title": "2017 Ferrari F12 tdf 6.3 V12 F1 DCT Euro 5 (s/s) 2dr",
+      "price": "£1,350,000",
+      "year": 2017,
+      "mileage": "1,496 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/55692e5c2c5d425e9a8df36a0f0c07a7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071331872"
         }
       ]
     }

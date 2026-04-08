@@ -1006,7 +1006,7 @@
     {
       "id": "49",
       "title": "1998 Lotus Elise S1",
-      "price": "£23,750",
+      "price": "£22,995",
       "year": "1998",
       "mileage": "28,849 miles",
       "transmission": "6-Speed Manual",
@@ -1019,6 +1019,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2034575"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£23,750",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2099,7 +2105,7 @@
       "price": "£18,995",
       "year": 1999,
       "mileage": "49,850 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/4751dc0b5ffc4cc1b3fd84e5ecb1a6ae.jpg",
       "featured": false,
@@ -2109,6 +2115,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603251010455"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20213347"
         }
       ]
     },
@@ -2652,13 +2662,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/16v/lotus-elise-s2-16v-S4921694-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18346473"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "129",
@@ -2771,6 +2782,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604051303728"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "title": "2004 Used  LOTUS ELISE",
+      "price": "£21,495",
+      "year": 2004,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4946385-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20211958"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "title": "2004 Lotus Elise S2 111R",
+      "price": "£21,495",
+      "year": "2004",
+      "mileage": "31,100 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2044091/2004-lotus-elise-69d4dd8863574.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4e06135d6de474a4eec648b70c085c9a",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2044091"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "title": "2010 Lotus Elise S3",
+      "price": "£26,995",
+      "year": "2010",
+      "mileage": "21,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2043860/2010-lotus-elise-69d404f4814c7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8e9195002bc2478f42c085b518c57993",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2043860"
         }
       ]
     }

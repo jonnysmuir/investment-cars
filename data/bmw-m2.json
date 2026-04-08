@@ -901,7 +901,7 @@
     {
       "id": "43",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£24,999",
+      "price": "£25,995",
       "year": 2018,
       "mileage": "52,400 miles",
       "transmission": "F1 Automated Manual",
@@ -928,6 +928,10 @@
         {
           "price": "£25,995",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£24,999",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1279,7 +1283,7 @@
     {
       "id": "60",
       "title": "2018 BMW M2 i",
-      "price": "£26,450",
+      "price": "£25,995",
       "year": "2018",
       "mileage": "46,000 miles",
       "transmission": "Automatic",
@@ -1292,6 +1296,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023711"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£26,450",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1619,7 +1629,7 @@
     {
       "id": "75",
       "title": "2018 BMW M2 3.0i Coupe 2dr Petrol DCT Euro 6 (s/s) (370 ps)",
-      "price": "£26,000",
+      "price": "£26,495",
       "year": 2018,
       "mileage": "46,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1636,6 +1646,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20195853"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£26,000",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1709,7 +1725,7 @@
     {
       "id": "79",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£25,748",
+      "price": "£25,488",
       "year": 2018,
       "mileage": "45,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1722,6 +1738,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140698139"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,748",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2490,10 +2512,10 @@
     {
       "id": "118",
       "title": "2023 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£46,080",
+      "price": "£45,485",
       "year": 2023,
       "mileage": "37,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/2b20ad8fc42f42b88ce92451e89c5bc7.jpg",
       "featured": false,
@@ -2503,6 +2525,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050451117"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£46,080",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -3968,7 +3996,7 @@
     },
     {
       "id": "187",
-      "title": "BMW M2 3.0 BiTurbo Competition Euro 6 (s/s) 2dr",
+      "title": "2018 BMW M2 3.0 BiTurbo Competition Euro 6 (s/s) 2dr",
       "price": "£31,995",
       "year": null,
       "mileage": "39,000 miles",
@@ -5367,7 +5395,7 @@
     {
       "id": "260",
       "title": "2017 BMW 3.0 M2 Coupe 2dr",
-      "price": "£25,995",
+      "price": "£25,500",
       "year": 2017,
       "mileage": "43,122 miles",
       "transmission": "Unknown",
@@ -5380,6 +5408,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271067740"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,995",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -5424,7 +5458,7 @@
     {
       "id": "263",
       "title": "2024 BMW M2 M2 Auto 3dr",
-      "price": "£49,777",
+      "price": "£49,277",
       "year": "2024",
       "mileage": "15,416 miles",
       "transmission": "Automatic",
@@ -5432,14 +5466,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1989043/2024-bmw-m2-6973b74400a84.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd57e8854d04403db785d274a0043372",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1989043"
         }
       ],
-      "unlistedDate": "2026-04-04"
+      "priceHistory": [
+        {
+          "price": "£49,777",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "264",
@@ -5514,6 +5553,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20011512"
+        }
+      ]
+    },
+    {
+      "id": "268",
+      "title": "2026 BMW M2 Coupe LCI 3.0 2dr",
+      "price": "£62,000",
+      "year": 2026,
+      "mileage": "2,408 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b26b4ff7838542a88267e096792e5746.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202510317544889"
+        }
+      ]
+    },
+    {
+      "id": "269",
+      "title": "2019 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£29,990",
+      "year": 2019,
+      "mileage": "52,013 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/902ec868ee7149d7bb0c09ac20067b9e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202506123421002"
+        }
+      ]
+    },
+    {
+      "id": "270",
+      "title": "2024 BMW M2 G87",
+      "price": "£52,990",
+      "year": "2024",
+      "mileage": "5,712 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29442806/2024-bmw-m2-69d526993c8f7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=524118971a70318625ea3e6e478b598a",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044332"
         }
       ]
     }

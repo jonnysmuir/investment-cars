@@ -849,7 +849,7 @@
     {
       "id": "41",
       "title": "2014 BMW M5 4.4 V8 DCT Euro 6 (s/s) 4dr",
-      "price": "£25,000",
+      "price": "£24,489",
       "year": 2014,
       "mileage": "46,800 miles",
       "transmission": "Automatic",
@@ -866,6 +866,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271064327"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,000",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1036,7 +1042,7 @@
     {
       "id": "50",
       "title": "2016 BMW M5 Saloon (2013 - 2016)",
-      "price": "£24,490",
+      "price": "£23,995",
       "year": "2016",
       "mileage": "69,000 miles",
       "transmission": "Automatic",
@@ -1055,6 +1061,10 @@
         {
           "price": "£24,495",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£24,490",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1255,7 +1265,7 @@
     {
       "id": "61",
       "title": "2016 BMW M5 V8 Saloon 4.4 Automatic Petrol 4dr",
-      "price": "£23,995",
+      "price": "£24,999",
       "year": 2016,
       "mileage": "44,094 miles",
       "transmission": "Automatic",
@@ -1282,6 +1292,10 @@
         {
           "price": "£24,490",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£23,995",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1296,14 +1310,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f2e9b8b9c59d4a71bbe8843c7e475b6f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271082511"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "63",
@@ -1528,8 +1541,8 @@
     },
     {
       "id": "74",
-      "title": "2019 BMW M5 4.4i V8 Competition Steptronic xDrive Euro 6 (s/s) 4dr",
-      "price": "£37,989",
+      "title": "2019 BMW M5 4.4i V8 Competition Saloon 4dr Petrol Steptronic xDrive Euro 6 (s/s) (625 ps)",
+      "price": "£36,989",
       "year": 2019,
       "mileage": "57,000 miles",
       "transmission": "Unknown",
@@ -1537,14 +1550,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b846d030f065471399eb66a9ca716fd1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603040412076"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£37,989",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "75",
@@ -1677,14 +1695,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d0d1dec3bf03465ca0531dbb65be6e71.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505242776617"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "82",
@@ -2026,7 +2043,7 @@
     },
     {
       "id": "99",
-      "title": "2018 BMW M5 4.4i V8 Competition Steptronic xDrive Euro 6 (s/s) 4dr",
+      "title": "2018 BMW M5 4.4i V8 Competition Saloon 4dr Petrol Steptronic xDrive Euro 6 (s/s) (625 ps) Very Rare Colour / Soft Close",
       "price": "£41,995",
       "year": 2018,
       "mileage": "61,000 miles",
@@ -2035,14 +2052,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0bbf9a9f32944caf911a7c25687f260f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200861762"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "100",
@@ -2183,13 +2199,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8ebb602ecd2a47b4aa6c6c9dbe934c28.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281090390"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "107",
@@ -5205,13 +5222,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/efb63e944ade4083aaaa09f7857afcde.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281094248"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "258",
@@ -5224,13 +5242,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1b93edf9678d4df8a76cbcb2468f8819.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180809631"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "259",
@@ -5243,13 +5262,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6ff92df634da4d07b939132e37e56f33.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291108782"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "260",
@@ -5377,13 +5397,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-touring/bmw-m5-m5-touring-S4942301-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19804690"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "267",
@@ -5515,6 +5536,120 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19999192"
+        }
+      ]
+    },
+    {
+      "id": "274",
+      "title": "2007 Used  BMW M5",
+      "price": "£20,000",
+      "year": 2007,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5/bmw-m5-m5-S4946495-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20029285"
+        }
+      ]
+    },
+    {
+      "id": "275",
+      "title": "2024 Used  BMW M5 PHEV AUTO",
+      "price": "£89,500",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-4dr-dct/bmw-m5-m5-4dr-dct-1401065421-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19840354"
+        }
+      ]
+    },
+    {
+      "id": "276",
+      "title": "2025 Used  BMW M5 PHEV AUTO",
+      "price": "£91,750",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-4dr-dct/bmw-m5-m5-4dr-dct-1414831829-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20026451"
+        }
+      ]
+    },
+    {
+      "id": "277",
+      "title": "2024 Used  BMW M5 PHEV AUTO",
+      "price": "£85,750",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-4dr-dct-ultimate-pack/bmw-m5-m5-4dr-dct-ultimate-pack-1398995011-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19840199"
+        }
+      ]
+    },
+    {
+      "id": "278",
+      "title": "2006 Used  BMW M5",
+      "price": "£31,990",
+      "year": 2006,
+      "mileage": "000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m5/5-0-v10-touring-5dr-petrol-smg-euro-4-507-ps/bmw-m5-5-0-v10-touring-5dr-petrol-smg-euro-4-507-ps-1411212432-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20029282"
+        }
+      ]
+    },
+    {
+      "id": "279",
+      "title": "2019 BMW M5 4.4 V8 GPF Saloon 4dr Petrol Steptronic xDrive Euro 6 (s/s) (600 ps) DRIVER ASSIST+ / M SPORTS EXHAUST",
+      "price": "£42,999",
+      "year": 2019,
+      "mileage": "33,200 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f52f9f1a3219463e97887492b13966b3.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021253221"
         }
       ]
     }

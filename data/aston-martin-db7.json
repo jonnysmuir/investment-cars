@@ -861,6 +861,14 @@
         {
           "price": "£26,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£27,990",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£26,995",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -937,6 +945,14 @@
         {
           "price": "£17,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£17,950",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1021,6 +1037,14 @@
         {
           "price": "£29,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£28,950",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1091,7 +1115,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/5-9-volante-2dr/aston-martin-db7-5-9-volante-2dr-1272092499-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1111,7 +1135,8 @@
           "price": "£28,995",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "47",
@@ -1208,13 +1233,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/vantage/aston-martin-db7-vantage-S4914979-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19307400"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "52",
@@ -1543,13 +1569,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2015775/2000-aston-martin-db7-69933e0a070d3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bd3f4ce3752dedaf83f9aa61a3771933",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015775"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "69",
@@ -1673,6 +1700,14 @@
         {
           "price": "£29,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£29,500",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1775,6 +1810,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511077736411"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19424539"
         }
       ],
       "unlistedDate": "2026-04-07"
@@ -1952,14 +1991,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/766c546425e7449cad48b934d08840d9.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511067702335"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "88",
@@ -2264,6 +2302,44 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19412404"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "title": "1995 Aston Martin DB7",
+      "price": "£17,995",
+      "year": "1995",
+      "mileage": "65,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2043702/1995-aston-martin-db7-69d3b16621e82.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e9cdc83e6c459f67970d42e03114d0a1",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2043702"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "1996 Aston Martin DB7 Zagato",
+      "price": "£18,499",
+      "year": "1996",
+      "mileage": "43,500 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045005/1996-aston-martin-db7-69d5301fc7a1f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4c442964423b5605fa2786508738d304",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2045005"
         }
       ]
     }

@@ -441,6 +441,14 @@
         {
           "price": "£149,991",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£150,190",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£149,991",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Convertible"
@@ -707,7 +715,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/ferrari-portofino-1387554069-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -724,7 +732,8 @@
           "date": "2026-03-22"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "26",
@@ -975,7 +984,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b7d9acbf3749495b88a7a836f0d61309.jpg",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -992,7 +1001,8 @@
           "date": "2026-03-27"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "32",
@@ -1063,6 +1073,14 @@
         {
           "price": "£132,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£132,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1179,6 +1197,14 @@
         {
           "price": "£137,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£137,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1240,6 +1266,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601289482802"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19822523"
         }
       ],
       "bodyType": null
@@ -1472,13 +1502,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/615fc29538e142ee89428f415db17883.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250997631"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "49",
@@ -1576,6 +1607,14 @@
         {
           "price": "£159,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£154,600",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£159,000",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1855,6 +1894,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301140491"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20205031"
         }
       ]
     },
@@ -1874,6 +1917,48 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021242246"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "2023 Ferrari Portofino M 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£164,950",
+      "year": 2023,
+      "mileage": "5,826 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/m/ferrari-portofino-m-1424628114-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/16040624"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071347721"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2019 Ferrari Portofino",
+      "price": "£109,990",
+      "year": "2019",
+      "mileage": "32,079 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29442332/2019-ferrari-portofino-69d5262760731.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=dd66a5097dee0228119572a79be786ff",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044319"
         }
       ]
     }

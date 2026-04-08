@@ -320,6 +320,14 @@
         {
           "price": "£138,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£138,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -492,6 +500,14 @@
         {
           "price": "£142,950",
           "date": "2026-03-23"
+        },
+        {
+          "price": "£138,900",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£142,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -847,6 +863,14 @@
         {
           "price": "£188,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£189,830",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£188,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Convertible"
@@ -1157,6 +1181,14 @@
         {
           "price": "£133,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£135,000",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£133,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -1713,6 +1745,14 @@
         {
           "price": "£148,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£155,000",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£148,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -2029,6 +2069,14 @@
         {
           "price": "£139,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£132,990",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£139,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -2092,6 +2140,14 @@
         {
           "price": "£137,830",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£134,830",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£137,950",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2206,7 +2262,17 @@
           "url": "https://www.pistonheads.com/buy/listing/20209572"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£139,994",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£145,000",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "72",
@@ -2258,7 +2324,17 @@
           "url": "https://www.pistonheads.com/buy/listing/20209569"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£204,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£199,000",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "74",
@@ -2388,6 +2464,14 @@
         {
           "price": "£154,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£149,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£154,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -2456,6 +2540,14 @@
         {
           "price": "£138,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£144,830",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£138,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null
@@ -2550,7 +2642,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1cfffb31354c496e9125f6379f341d36.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2571,8 +2663,7 @@
           "date": "2026-03-23"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-02"
+      "bodyType": "Convertible"
     },
     {
       "id": "83",
@@ -2896,7 +2987,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e2003203328a45279a00cdbaa234df25.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2917,7 +3008,8 @@
           "price": "£199,990",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "94",
@@ -3405,6 +3497,14 @@
         {
           "price": "£144,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£138,950",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£144,995",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": null

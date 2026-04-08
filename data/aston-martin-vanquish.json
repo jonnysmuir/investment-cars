@@ -861,6 +861,14 @@
         {
           "price": "£39,990",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£39,990",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -898,7 +906,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/v12-568-2dr-volante-touchtronic-auto/aston-martin-vanquish-v12-568-2dr-volante-touchtronic-auto-1416568724-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -908,8 +916,7 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160745006"
         }
-      ],
-      "unlistedDate": "2026-04-05"
+      ]
     },
     {
       "id": "42",
@@ -1117,7 +1124,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/v12-zagato-volante/aston-martin-vanquish-v12-zagato-volante-S4897829-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1127,7 +1134,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510247384441"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "50",
@@ -1140,7 +1148,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/v12/aston-martin-vanquish-v12-S4935027-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1150,7 +1158,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602099780633"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "51",
@@ -1163,7 +1172,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/5-9-s-coupe-2dr-petrol-automatic-448-g-km-520-bhp/aston-martin-vanquish-5-9-s-coupe-2dr-petrol-automatic-448-g-km-520-bhp-1417666260-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1173,7 +1182,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200081390"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "52",
@@ -1750,6 +1760,14 @@
         {
           "price": "£94,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£97,950",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1978,12 +1996,12 @@
     },
     {
       "id": "88",
-      "title": "2002 Aston Martin Vanquish 5.9 2dr",
+      "title": "2002 Aston Martin Vanquish 5.9 Coupe 2dr Petrol Manual (396 g/km, 460 bhp)",
       "price": "£39,950",
       "year": 2002,
       "mileage": "53,000 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/3990ca76c2f84f76b650a2cd26ba7944.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -2221,13 +2239,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ec3ab8f7a5f4466db75969e114bb7f83.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601139117054"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "98",
@@ -2260,7 +2279,7 @@
       "price": "£109,950",
       "year": 2017,
       "mileage": "16,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/25571c5e32ec42bfa1dac652462d5025.jpg",
       "featured": false,
@@ -2270,6 +2289,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506263895064"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20096152"
         }
       ]
     },
@@ -2411,7 +2434,7 @@
     {
       "id": "107",
       "title": "2025 Aston Martin Vanquish 5.2 V12 BiTurbo Auto Euro 6 (s/s) 2dr",
-      "price": "£309,990",
+      "price": "£303,990",
       "year": 2025,
       "mileage": "3,695 miles",
       "transmission": "Automatic",
@@ -2430,6 +2453,10 @@
         {
           "price": "£323,990",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£309,990",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2490,6 +2517,14 @@
         {
           "price": "£59,850",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£57,990",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£59,850",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2870,13 +2905,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/509d9a7966c24c13b60ed503dc42ce90.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202411286810292"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "129",
@@ -2884,7 +2920,7 @@
       "price": "£69,950",
       "year": 2004,
       "mileage": "26,795 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/116b0e0d663f4f1b81c29d631628d275.jpg",
       "featured": false,
@@ -2894,6 +2930,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059688876"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19845070"
         }
       ],
       "unlistedDate": "2026-04-03"

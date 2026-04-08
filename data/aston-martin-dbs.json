@@ -1673,13 +1673,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e8b13c3ef828444698f9a12e6e3ee781.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240952075"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "84",
@@ -2371,13 +2372,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e19b73fb77f84217acaa519ad75f188d.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510096998339"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "119",
@@ -2409,14 +2411,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4d221a7b9f2a46ab991b6a440f4951c0.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180021258"
         }
-      ],
-      "unlistedDate": "2026-04-07"
+      ]
     },
     {
       "id": "121",
@@ -2453,6 +2454,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041939"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2010 Aston Martin DBS 2nd Gen",
+      "price": "£64,900",
+      "year": "2010",
+      "mileage": "29,540 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29471111/2010-aston-martin-dbs-69d59e2da49cb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=06d66880a6e10e29df8a674989266aa1",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045142"
         }
       ]
     }

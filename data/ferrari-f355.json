@@ -983,7 +983,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355-f1/ferrari-355-f1-1311518731-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -994,7 +994,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202504161388939"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "49",
@@ -1065,14 +1066,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1588488/1998-ferrari-f355-v8-6470ab1cb867c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc82b241aaaf14b78a186a09795f9cc9",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1588488"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "53",
@@ -1517,6 +1519,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1668,13 +1678,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1783141/1999-ferrari-f355-66f1e04b19ee6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3a46b3db315e30a67918288b18754803",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1783141"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "81",
@@ -1692,6 +1703,48 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061323509"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20210667"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "1997 Ferrari F355 GTS",
+      "price": "£124,990",
+      "year": "1997",
+      "mileage": "50,625 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29444134/1997-ferrari-f355-69d5285c373b9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d9d22cb242117f42a8fe1f1e74a71531",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044363"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "1996 Ferrari F355 GTS",
+      "price": "£99,995",
+      "year": "1996",
+      "mileage": "29,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29418132/1996-ferrari-f355-69d4be65c98ed.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a062538a055401a9ef9d1fc7d6915b8e",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2043989"
         }
       ]
     }

@@ -972,7 +972,7 @@
     {
       "id": "47",
       "title": "2013 BMW M6 4.4 V8 Coupe 2dr Petrol M-DCT Euro 5 (s/s) (560 ps)",
-      "price": "£22,999",
+      "price": "£22,990",
       "year": 2013,
       "mileage": "54,555 miles",
       "transmission": "Automatic",
@@ -999,6 +999,10 @@
         {
           "price": "£23,990",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£22,999",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1265,7 +1269,7 @@
     {
       "id": "60",
       "title": "2017 BMW M6 4.4 V8 DCT Euro 6 (s/s) 2dr",
-      "price": "£21,450",
+      "price": "£21,895",
       "year": 2017,
       "mileage": "91,943 miles",
       "transmission": "F1 Automated Manual",
@@ -1278,6 +1282,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506073259362"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£21,450",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1473,7 +1483,7 @@
     },
     {
       "id": "71",
-      "title": "2007 Used  BMW M6",
+      "title": "2007 BMW M6 5.0 V10 SMG Euro 4 2dr",
       "price": "£24,925",
       "year": 2007,
       "mileage": "52,853 miles",
@@ -1487,6 +1497,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20207065"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604041298050"
         }
       ]
     },
@@ -1506,6 +1520,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2043375"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "title": "2016 BMW M6 4.4 V8 DCT Euro 6 (s/s) 2dr",
+      "price": "£25,000",
+      "year": 2016,
+      "mileage": "34,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/146c15a875b649fc8640311537248f3c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508265776345"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "title": "2017 BMW M6 4Dr Dct 4.4",
+      "price": "£29,899",
+      "year": 2017,
+      "mileage": "51,250 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/a7e5a36166874c0984b08908a14b538f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021258342"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "2015 BMW M6 4.4 V8 DCT Euro 6 (s/s) 2dr",
+      "price": "£19,989",
+      "year": 2015,
+      "mileage": "107,637 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/48e5ea3035eb4dc483be1b60bc6a578c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031262450"
         }
       ]
     }

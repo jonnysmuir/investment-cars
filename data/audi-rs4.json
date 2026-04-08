@@ -859,13 +859,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs4-avant/2-9-tfsi-quattro-5dr-tip-tronic/audi-rs4-avant-2-9-tfsi-quattro-5dr-tip-tronic-1418594896-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20137044"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "42",
@@ -1132,7 +1133,7 @@
     {
       "id": "55",
       "title": "2018 Audi RS4 Avant Estate (2017 - 2018)",
-      "price": "£39,495",
+      "price": "£38,995",
       "year": "2018",
       "mileage": "47,700 miles",
       "transmission": "Automatic",
@@ -1151,6 +1152,10 @@
         {
           "price": "£39,395",
           "date": "2026-04-01"
+        },
+        {
+          "price": "£39,495",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -1787,13 +1792,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs4-avant/2-9-tfsi-v6-carbon-black-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--450-ps/audi-rs4-avant-2-9-tfsi-v6-carbon-black-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--450-ps-1421594230-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20179797"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "88",
@@ -1889,13 +1895,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs4-avant/carbon-black/audi-rs4-avant-carbon-black-1396805355-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19814001"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "93",
@@ -2220,6 +2227,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20071457"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2014 Audi RS4 Avant 4.2 FSI V8",
+      "price": "£25,490",
+      "year": "2014",
+      "mileage": "54,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29444132/2014-audi-rs4-avant-69d528580d94a.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=89dda1eecd13f52c2f7a14e8867b5515",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044362"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2001 Audi RS4 B5",
+      "price": "£27,750",
+      "year": "2001",
+      "mileage": "120,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C2044083/2001-audi-rs4-69d4dfe32dd2a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=35924a78c13b03b48ea3dabf30041ffa",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2044083"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2020 Audi RS4",
+      "price": "£48,990",
+      "year": "2020",
+      "mileage": "46,151 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29442856/2020-audi-rs4-avant-69d526abac12e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a9ab4608bd0c44fc17a1eaeae874d50b",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044335"
         }
       ]
     }

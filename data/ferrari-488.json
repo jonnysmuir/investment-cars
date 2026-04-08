@@ -1492,6 +1492,14 @@
         {
           "price": "£149,975",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£149,995",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£149,975",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1676,7 +1684,7 @@
     {
       "id": "67",
       "title": "2017 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£189,995",
+      "price": "£187,500",
       "year": 2017,
       "mileage": "14,700 miles",
       "transmission": "F1 Automated Manual",
@@ -1690,7 +1698,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602129874552"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£189,995",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "68",
@@ -1740,14 +1754,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e6b8136046a643e1aaea4e744b527f2a.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512298831967"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "71",
@@ -1759,7 +1774,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3b8d0fb2c3b94c2d92c7c6396ed5e07a.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1772,7 +1787,8 @@
           "price": "£169,000",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "72",
@@ -2035,14 +2051,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7732710f793e4318ab6d6b8ffdb91c90.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503190322531"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "85",
@@ -2431,6 +2448,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£149,899",
+          "date": "2026-04-08"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -2995,13 +3020,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/936dab30a8d541149802d24bffa2802a.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240968541"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "131",
@@ -3168,13 +3194,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/bcc29dbd9b0045349482b71fc97bf3d6.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311159161"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "140",
@@ -3255,12 +3282,12 @@
     },
     {
       "id": "144",
-      "title": "2019 Ferrari 488 Pista",
+      "title": "2019 Ferrari 488 Pista Spider",
       "price": "POA",
       "year": "2019",
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/new/29293504/2019-ferrari-488-pista-spider-69cdb2cfb9ac8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=22601c7c0d9a0b0a987390ee31cecd19",
       "featured": false,
       "dateAdded": "2026-04-02",
@@ -3330,6 +3357,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604031274367"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "title": "2019 Ferrari 488 Pista 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£394,995",
+      "year": 2019,
+      "mileage": "9,499 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/8a23267708b544d0a745c74631b9b89c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311159118"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "title": "2017 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£164,995",
+      "year": 2017,
+      "mileage": "14,476 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9a8758774fe7440288533dda9214467a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071337240"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "title": "2017 Ferrari 488 3.9T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£164,995",
+      "year": 2017,
+      "mileage": "11,750 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fa3714ac463b499aaaa4348f0075c664.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071342725"
         }
       ]
     }

@@ -1304,13 +1304,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c3b1dd722aa74bf792567b4d3561b9d5.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120649568"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "65",
@@ -1318,7 +1319,7 @@
       "price": "£29,970",
       "year": 2008,
       "mileage": "52,278 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/2d82a85e9bd4426db167e621b885af51.jpg",
       "featured": false,
@@ -1328,6 +1329,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140705900"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20216081"
         }
       ]
     },
@@ -1361,7 +1366,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/67af8af3c91d466d8df91cd0815c9185.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1371,7 +1376,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19994194"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "68",
@@ -1446,6 +1452,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510317567979"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19734452"
         }
       ]
     },
@@ -2048,12 +2058,12 @@
     },
     {
       "id": "103",
-      "title": "2008 Aston Martin DB9 6.0 V12 T-TronicII Euro 4 2dr",
+      "title": "2008 Aston Martin DB9 6.0 V12 Coupe 2dr Petrol T-TronicII Euro 4 (470 bhp)",
       "price": "£22,500",
       "year": 2008,
       "mileage": "75,500 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/1e6d2d575dfb463d82253dba023a10cf.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -2690,6 +2700,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061316068"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "title": "2008 Aston Martin DB9 5.9 Volante Seq 2dr (EU4)",
+      "price": "£29,895",
+      "year": 2008,
+      "mileage": "53,504 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/e00079a7e45d4d11927b041dada2f113.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071346089"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£27,500",
+      "year": 2007,
+      "mileage": "48,453 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e12d32647eed4647a25a9f38174f752a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202308261233467"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "title": "2007 Aston Martin DB9",
+      "price": "£45,995",
+      "year": "2007",
+      "mileage": "10,145 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2044642/2007-aston-martin-db9-69d520985c3cd.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1a94368bd9abc4260026378dc6a43c8b",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044642"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "title": "2007 Aston Martin DB9  Volante",
+      "price": "£26,995",
+      "year": "2007",
+      "mileage": "51,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2044088/2007-aston-martin-db9-69d4f75eec68a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=17b323c0de7728b62d69a9889b75f222",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044088"
         }
       ]
     }

@@ -412,7 +412,7 @@
     {
       "id": "15",
       "title": "2020 BMW 4.4 M8 Competition Edition Auto 4WD 2dr",
-      "price": "£53,990",
+      "price": "£53,490",
       "year": 2020,
       "mileage": "28,455 miles",
       "transmission": "Automatic",
@@ -442,6 +442,10 @@
         {
           "price": "£54,990",
           "date": "2026-03-28"
+        },
+        {
+          "price": "£53,990",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -499,7 +503,7 @@
     {
       "id": "18",
       "title": "2023 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£74,000",
+      "price": "£69,990",
       "year": 2023,
       "mileage": "25,360 miles",
       "transmission": "Automatic",
@@ -525,6 +529,10 @@
         {
           "price": "£69,991",
           "date": "2026-03-24"
+        },
+        {
+          "price": "£74,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -601,7 +609,7 @@
     {
       "id": "22",
       "title": "2022 BMW 4.4 M8 Competition Auto 4WD 2dr",
-      "price": "£61,900",
+      "price": "£59,900",
       "year": 2022,
       "mileage": "21,500 miles",
       "transmission": "Automatic",
@@ -627,6 +635,10 @@
         {
           "price": "£62,490",
           "date": "2026-03-19"
+        },
+        {
+          "price": "£61,900",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -634,7 +646,7 @@
     {
       "id": "23",
       "title": "2021 BMW 8 SERIES 4.4 M8 Competition Edition Auto 4WD 2dr",
-      "price": "£64,000",
+      "price": "£65,990",
       "year": 2021,
       "mileage": "26,000 miles",
       "transmission": "Automatic",
@@ -684,6 +696,10 @@
         {
           "price": "£66,990",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£64,000",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -740,7 +756,7 @@
     {
       "id": "26",
       "title": "2022 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£73,699",
+      "price": "£71,699",
       "year": 2022,
       "mileage": "10,889 miles",
       "transmission": "Unknown",
@@ -766,6 +782,10 @@
         {
           "price": "£73,999",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£73,699",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1034,7 +1054,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m8/m8-competition-2dr-step-auto/bmw-m8-m8-competition-2dr-step-auto-1400652717-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1059,7 +1079,8 @@
           "date": "2026-03-26"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "37",
@@ -1126,7 +1147,7 @@
     {
       "id": "39",
       "title": "2021 BMW M8 4.4i V8 Competition Coupe 2dr Petrol Steptronic 4WD Euro 6 (s/s) (625 ps) FULL BMW SERVICE HISTORY",
-      "price": "£55,490",
+      "price": "£54,990",
       "year": 2021,
       "mileage": "42,000 miles",
       "transmission": "Unknown",
@@ -1144,6 +1165,10 @@
         {
           "price": "£55,990",
           "date": "2026-03-26"
+        },
+        {
+          "price": "£55,490",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1151,7 +1176,7 @@
     {
       "id": "40",
       "title": "2019 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£53,495",
+      "price": "£52,995",
       "year": 2019,
       "mileage": "31,898 miles",
       "transmission": "Unknown",
@@ -1165,7 +1190,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202601209296978"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£53,495",
+          "date": "2026-04-08"
+        }
+      ]
     },
     {
       "id": "41",
@@ -1203,7 +1234,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8007749cb4e44909a0e11473f4902806.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1216,7 +1247,8 @@
           "date": "2026-03-26"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "43",
@@ -1248,7 +1280,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2c6366ee3dc44c488f7382acc6c2022e.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1261,7 +1293,8 @@
           "date": "2026-03-19"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "45",
@@ -1273,14 +1306,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/81bee53fc5ec4459887610cae5720b5a.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169978813"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "46",
@@ -1312,7 +1346,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3db49f34b45e42dba55b429095c37d2e.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1325,7 +1359,8 @@
           "date": "2026-03-19"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "48",
@@ -1357,7 +1392,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9d7f602283bc40b7861657d75c79066d.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1374,7 +1409,8 @@
           "date": "2026-03-26"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "50",
@@ -1398,7 +1434,7 @@
     {
       "id": "51",
       "title": "2022 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£67,950",
+      "price": "£64,990",
       "year": 2022,
       "mileage": "23,000 miles",
       "transmission": "Automatic",
@@ -1428,6 +1464,10 @@
         {
           "price": "£64,990",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£67,950",
+          "date": "2026-04-08"
         }
       ],
       "bodyType": "Coupe"
@@ -1565,13 +1605,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d6b681ba0cc64ffd9520e4f3675d4295.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200877824"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "59",
@@ -1584,13 +1625,14 @@
       "image": "",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240945975"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "60",
@@ -1623,12 +1665,12 @@
     },
     {
       "id": "61",
-      "title": "2022 Used  BMW M8 COMPETITION AUTO",
+      "title": "2022 BMW M8 Competition Convertible 4.4 2dr",
       "price": "£70,000",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "20,700 miles",
       "transmission": "Automatic",
-      "bodyType": "Coupe",
+      "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m8/m8-competition-2dr-dct-ultimate-pack/bmw-m8-m8-competition-2dr-dct-ultimate-pack-1406011531-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1637,6 +1679,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19938698"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602240159785"
         }
       ]
     },

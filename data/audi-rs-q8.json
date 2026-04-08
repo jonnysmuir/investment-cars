@@ -159,13 +159,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/audi/C2023190/2020-audi-rsq8-69a93d3c1ae12.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5d0a43af342a97183347cfabc0b1345b",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023190"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-08"
     },
     {
       "id": "9",
@@ -303,6 +304,25 @@
         }
       ],
       "unlistedDate": "2026-04-03"
+    },
+    {
+      "id": "16",
+      "title": "2024 Audi RS Q8 R",
+      "price": "£134,950",
+      "year": "2024",
+      "mileage": "7,256 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29442324/2024-audi-rsq8-69d5261dd558f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=863db6796423ba40a5dbcb0d152a3da4",
+      "featured": false,
+      "dateAdded": "2026-04-08",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044317"
+        }
+      ]
     }
   ]
 }
