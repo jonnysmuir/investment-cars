@@ -801,14 +801,13 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/4-7/maserati-granturismo-4-7-1366195562-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19493764"
         }
-      ],
-      "unlistedDate": "2026-04-08"
+      ]
     },
     {
       "id": "39",
@@ -936,6 +935,14 @@
         {
           "price": "£24,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£24,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1233,7 +1240,7 @@
     },
     {
       "id": "52",
-      "title": "2009 Used  MASERATI GRANTURISMO",
+      "title": "2009 Maserati Granturismo 4.7 V8 S Auto Euro 4 2dr",
       "price": "£22,995",
       "year": 2009,
       "mileage": "39,000 miles",
@@ -1247,6 +1254,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20071076"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081383403"
         }
       ],
       "unlistedDate": "2026-03-30"
@@ -1986,13 +1997,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9bf9713628644aa9a7a5d446fe6ebedd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202412297596411"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "90",
@@ -2660,6 +2672,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604051308384"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2011 Used  MASERATI GRANTURISMO S SEMI-AUTO",
+      "price": "£26,450",
+      "year": 2011,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/4-7-v8-s-auto-euro-4-2dr/maserati-granturismo-4-7-v8-s-auto-euro-4-2dr-1424571446-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20216419"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "title": "2011 Maserati Granturismo 4.7 V8 S Auto Euro 4 2dr",
+      "price": "£23,995",
+      "year": 2011,
+      "mileage": "57,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/13a76e9c2714497583471ca5965b14f6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601259408875"
         }
       ]
     }

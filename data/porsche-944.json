@@ -1059,7 +1059,7 @@
     {
       "id": "51",
       "title": "1985 Porsche 944 2.5 Lux Coupe 2dr Petrol Automatic (163 bhp)",
-      "price": "£3,500",
+      "price": "£2,999",
       "year": 1985,
       "mileage": "118,000 miles",
       "transmission": "Automatic",
@@ -1082,6 +1082,10 @@
         {
           "price": "£4,999",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£3,500",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1501,13 +1505,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1980594/1989-porsche-944-6929df2c9b942.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7826321f8cc90e1bdd3e3d0bf3b3c50e",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1980594"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "74",
@@ -1580,7 +1585,7 @@
     },
     {
       "id": "77",
-      "title": "1987 Porsche 944 Turbo Cup",
+      "title": "1987 Porsche 944 Turbo Cup Car",
       "price": "£79,995",
       "year": "1987",
       "mileage": "1 miles",
@@ -1594,6 +1599,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044289"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "1988 Porsche 944",
+      "price": "£9,000",
+      "year": "1988",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2045276/1988-porsche-944-69d622f1217d3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0c84535f351c5910126c9527a8b6e260",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2045276"
         }
       ]
     }

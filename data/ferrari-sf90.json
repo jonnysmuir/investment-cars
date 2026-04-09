@@ -340,6 +340,14 @@
         {
           "price": "£369,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£369,950",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -372,6 +380,14 @@
         {
           "price": "£354,830",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£349,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£354,830",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Convertible"
@@ -450,6 +466,14 @@
         {
           "price": "£385,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£375,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£385,000",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1088,7 +1112,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider-2dr-auto/ferrari-sf90-spider-2dr-auto-1413984651-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1099,8 +1123,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202603120643321"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-03-31"
+      "bodyType": "Convertible"
     },
     {
       "id": "45",
@@ -1209,14 +1232,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c704014bd38d4a539d44d20f3e45a693.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200880669"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "50",
@@ -1377,6 +1401,14 @@
         {
           "price": "£289,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£284,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£289,995",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1608,13 +1640,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/17cd7bca4c09417dbd86382b2cc710c8.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512178664765"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "66",
@@ -1704,13 +1737,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ff36dc456f2f4a209878de27bed37e94.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602099796093"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "71",
@@ -1728,6 +1762,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505062097666"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "2024 Ferrari SF90 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
+      "price": "£1,199,000",
+      "year": "2024",
+      "mileage": "120 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/27020532/2024-ferrari-sf90-695c6c90e04c0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc10e0b2d2b537b8b00ddffada357894",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1994954"
         }
       ]
     }

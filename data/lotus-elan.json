@@ -540,13 +540,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan/elan-se-turbo/lotus-elan-elan-se-turbo-1314414220-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18836200"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "27",
@@ -1266,13 +1267,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan-m100/elan-se/lotus-elan-m100-elan-se-S4939730-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19999923"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "64",
@@ -1385,6 +1387,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044122"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "1971 Used  LOTUS ELAN",
+      "price": "£49,995",
+      "year": 1971,
+      "mileage": "7000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elan-pre-76/lotus-elan-pre-76-S4815573-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17023652"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "1966 Lotus Elan S3 Convertible",
+      "price": "£16,000",
+      "year": "1966",
+      "mileage": "97,894 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/new/28992414/228971c1-c9bf-44e8-a711-661af19125ac.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e3ab1a3dbb509e7e9839211e3f598433",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/1966-lotus-elan-s3-convertible-gLbex4"
         }
       ]
     }

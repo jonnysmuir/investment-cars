@@ -774,6 +774,14 @@
         {
           "price": "£23,500",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£23,689",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£23,500",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -874,6 +882,14 @@
         {
           "price": "£17,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£17,290",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1036,6 +1052,14 @@
         {
           "price": "£11,800",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£11,495",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£11,800",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1487,13 +1511,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d282fb7e046848668b2d191e92890ffb.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169973521"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "65",
@@ -1506,13 +1531,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/58546b461d94438aa6c5d73cf81ee516.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230922792"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "66",
@@ -1602,14 +1628,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/maserati/C1944125/1999-maserati-quattroporte-69c42b67466d6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4a8a85d1bebcb0fe6ca6acd38c4a6844",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1944125"
         }
-      ],
-      "unlistedDate": "2026-04-07"
+      ]
     },
     {
       "id": "71",
@@ -1622,14 +1647,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/maserati/C1691006/1982-maserati-quattroporte-65d0f559cb9f7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=55f1a5353c5f4f8f478213c83e3eef05",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1691006"
         }
-      ],
-      "unlistedDate": "2026-04-06"
+      ]
     },
     {
       "id": "72",
@@ -1801,6 +1825,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061325190"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "2010 Maserati Quattroporte 4.7 V8 Sport GT S Saloon 4dr Petrol Auto Euro 4 (440 ps)",
+      "price": "£32,950",
+      "year": 2010,
+      "mileage": "51,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/a9ea1d694ca548b2874e0fa1a4129fda.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081372677"
         }
       ]
     }

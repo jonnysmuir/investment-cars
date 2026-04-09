@@ -2546,7 +2546,7 @@
       "price": "£55,680",
       "year": 2022,
       "mileage": "31,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/b1e926209fcc43d5b457f928205145b8.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -2555,6 +2555,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169953428"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20220097"
         }
       ],
       "priceHistory": [
@@ -6541,14 +6545,14 @@
     {
       "id": "293",
       "title": "2023 BMW M3 3.0 BiTurbo Competition Steptronic M xDrive Euro 6 (s/s) 4dr",
-      "price": "£66,888",
+      "price": "£68,750",
       "year": 2023,
       "mileage": "24,800 miles",
       "transmission": "Unknown",
       "image": "https://m.atcdn.co.uk/a/media/w480/dddf7dcd543f413da6ad5f2ff6ada9f2.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6559,8 +6563,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20172459"
         }
       ],
-      "unlistedDate": "2026-03-26",
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "priceHistory": [
+        {
+          "price": "£66,888",
+          "date": "2026-04-09"
+        }
+      ]
     },
     {
       "id": "294",
@@ -12666,13 +12675,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/g80-m3-post-21/m3-competition/bmw-g80-m3-post-21-m3-competition-S4944590-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20017257"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "589",
@@ -12715,7 +12725,7 @@
     {
       "id": "591",
       "title": "1996 BMW M3 E36 Evolution",
-      "price": "£32,500",
+      "price": "£31,000",
       "year": "1996",
       "mileage": "93,628 miles",
       "transmission": "6-Speed Manual",
@@ -12728,6 +12738,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2044172"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,500",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -12747,6 +12763,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2044031"
+        }
+      ]
+    },
+    {
+      "id": "593",
+      "title": "1990 Used  BMW M3",
+      "price": "£99,995",
+      "year": 1990,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m3/2-3-m3-2d-200-bhp/bmw-m3-2-3-m3-2d-200-bhp-1424864441-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20220374"
+        }
+      ]
+    },
+    {
+      "id": "594",
+      "title": "2003 BMW M3 E46",
+      "price": "£87,500",
+      "year": "2003",
+      "mileage": "17,061 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2045364/2003-bmw-m3-69d6569c9773a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6b7d61f102fcacdb9996a402f5e23723",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2045364"
         }
       ]
     }

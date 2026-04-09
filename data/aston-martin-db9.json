@@ -814,13 +814,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2032632/2005-aston-martin-db9-69ba869309a8c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=89749fdb4d18f1ff404dd371f6eb01a6",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032632"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "40",
@@ -853,13 +854,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C1985400/2007-aston-martin-db9-6936e61823a81.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=7ee8630f5f1e9a4984fb3fdfbe4ad190",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1985400"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "42",
@@ -1723,6 +1725,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250989293"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20219090"
         }
       ]
     },
@@ -2676,13 +2682,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9/6-0-v12-volante-2dr-petrol-t-tronicii-euro-5-470-bhp/aston-martin-db9-6-0-v12-volante-2dr-petrol-t-tronicii-euro-5-470-bhp-1399770745-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19832068"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "134",
@@ -2776,6 +2783,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044088"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "title": "2014 Used  ASTON MARTIN DB9",
+      "price": "£69,850",
+      "year": 2014,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9-volante/v12-volante/aston-martin-db9-volante-v12-volante-S4946686-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20217694"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "title": "2014 Aston Martin DB9  Volante",
+      "price": "£69,850",
+      "year": "2014",
+      "mileage": "17,800 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045274/2014-aston-martin-db9-69d641ab7c6c2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b95d53e78daaceb716ea23f73c3273e2",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045274"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "title": "2013 Aston Martin DB9",
+      "price": "£44,995",
+      "year": "2013",
+      "mileage": "41,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2017534/2013-aston-martin-db9-69971548e435c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0bd4aeb75ec1ead903747a1a18b9c086",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2017534"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "title": "2015 Aston Martin DB9 V12 GT 2dr Touchtronic Auto",
+      "price": "£121,950",
+      "year": "2015",
+      "mileage": "2,447 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2024674/2015-aston-martin-db9-69d6f08d143c5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c41562322a6977ea6831c21f35524a4f",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2024674"
         }
       ]
     }

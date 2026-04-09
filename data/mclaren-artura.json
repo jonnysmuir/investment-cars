@@ -222,6 +222,14 @@
         {
           "price": "£129,450",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£129,450",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Coupe"
@@ -315,6 +323,14 @@
         {
           "price": "£129,449",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£129,450",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£129,449",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Coupe"
@@ -652,7 +668,7 @@
     {
       "id": "20",
       "title": "2023 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps) *MCLAREN WARRANTY & SERVICE PLAN *",
-      "price": "£124,900",
+      "price": "£122,900",
       "year": 2023,
       "mileage": "8,852 miles",
       "transmission": "Automatic",
@@ -674,6 +690,10 @@
         {
           "price": "£124,990",
           "date": "2026-03-25"
+        },
+        {
+          "price": "£124,900",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Coupe"
@@ -820,6 +840,14 @@
         {
           "price": "£149,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£156,990",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Coupe"
@@ -1184,7 +1212,7 @@
     {
       "id": "42",
       "title": "2023 McLaren Artura V6 PHEV 2dr DCT",
-      "price": "£124,900",
+      "price": "£122,900",
       "year": "2023",
       "mileage": "15,878 miles",
       "transmission": "Automatic",
@@ -1197,6 +1225,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038067"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£124,900",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1288,13 +1322,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/69805f093bef4a668c18436a2e0ed114.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301126841"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "48",

@@ -772,13 +772,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-touring/bmw-m5-m5-touring-S4898086-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18877277"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "38",
@@ -1265,7 +1266,7 @@
     {
       "id": "61",
       "title": "2016 BMW M5 V8 Saloon 4.4 Automatic Petrol 4dr",
-      "price": "£24,999",
+      "price": "£23,995",
       "year": 2016,
       "mileage": "44,094 miles",
       "transmission": "Automatic",
@@ -1296,6 +1297,10 @@
         {
           "price": "£23,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£24,999",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -5202,14 +5207,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1984629/1986-bmw-m5-693429b67e0d2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3c5d88d2952762b76c5376acf0748d78",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1984629"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "257",
@@ -5378,13 +5382,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-4dr-dct-ultimate-pack/bmw-m5-m5-4dr-dct-ultimate-pack-1395689033-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19797413"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "266",
@@ -5650,6 +5655,48 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021253221"
+        }
+      ]
+    },
+    {
+      "id": "280",
+      "title": "2008 BMW (E61) M5 Touring",
+      "price": "Sold",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://images.collectingcars.com/086152/18-03-26-JJBB-07.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "sold",
+      "soldPrice": "£22,750",
+      "soldDate": "2026-04-08",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2008-bmw-e61-m5-touring-6"
+        }
+      ]
+    },
+    {
+      "id": "281",
+      "title": "2021 BMW (F90) M5 CS",
+      "price": "Sold",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086452/AS-27-03-13.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "sold",
+      "soldPrice": "$136,500",
+      "soldDate": "2026-04-08",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2021-bmw-f90-m5-cs-3"
         }
       ]
     }

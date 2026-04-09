@@ -365,7 +365,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/roma/spider/ferrari-roma-spider-S4926807-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -386,7 +386,8 @@
           "date": "2026-03-17"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "16",
@@ -398,7 +399,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/roma/ferrari-roma-1391813959-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -419,19 +420,19 @@
           "date": "2026-03-14"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "bodyType": null
     },
     {
       "id": "17",
       "title": "2024 Ferrari Roma 3.8T V8 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£230,400",
+      "price": "£199,500",
       "year": 2024,
       "mileage": "5,745 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/roma/ferrari-roma-1406259272-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -462,15 +463,18 @@
         {
           "price": "£199,830",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£230,400",
+          "date": "2026-04-09"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-04"
+      "bodyType": "Convertible"
     },
     {
       "id": "18",
       "title": "2021 Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£138,900",
+      "price": "£137,900",
       "year": 2021,
       "mileage": "9,966 miles",
       "transmission": "F1 Automated Manual",
@@ -508,6 +512,14 @@
         {
           "price": "£142,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£138,900",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£142,950",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -871,6 +883,14 @@
         {
           "price": "£188,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£189,830",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£188,000",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Convertible"
@@ -1189,6 +1209,14 @@
         {
           "price": "£133,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£135,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£133,000",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1753,6 +1781,14 @@
         {
           "price": "£148,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£155,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£148,950",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -2077,6 +2113,14 @@
         {
           "price": "£139,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£132,990",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£139,000",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -2148,6 +2192,14 @@
         {
           "price": "£137,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£134,830",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£137,950",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2196,7 +2248,7 @@
     {
       "id": "69",
       "title": "2021 Ferrari Roma 3.8T V8 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (620 ps)",
-      "price": "£154,600",
+      "price": "£152,600",
       "year": 2021,
       "mileage": "546 miles",
       "transmission": "F1 Automated Manual",
@@ -2210,7 +2262,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602270273678"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£154,600",
+          "date": "2026-04-09"
+        }
+      ]
     },
     {
       "id": "70",
@@ -2271,6 +2329,14 @@
         {
           "price": "£145,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£139,994",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£145,000",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2333,6 +2399,14 @@
         {
           "price": "£199,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£204,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£199,000",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2472,6 +2546,14 @@
         {
           "price": "£154,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£149,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£154,950",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -2791,7 +2873,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cf236a3e94f7414eb80a211038fee60a.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2820,7 +2902,8 @@
           "date": "2026-03-30"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "87",
@@ -2832,14 +2915,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0c65f692ceeb4b1eb45ec31c652fc713.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602210104317"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "88",
@@ -3071,7 +3155,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fa3714ac463b499aaaa4348f0075c664.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3120,7 +3204,8 @@
           "price": "£184,995",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "97",
@@ -3295,14 +3380,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d78ab19260294a0a9d84bb970e8750f8.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110592954"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "105",
@@ -3505,6 +3591,14 @@
         {
           "price": "£144,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£138,950",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£144,995",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -3994,6 +4088,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071328180"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "title": "Ferrari Roma 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£144,999",
+      "year": null,
+      "mileage": "13,800 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/bfd93a0e3a3a4eb497062e348f271a2e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602200088237"
         }
       ]
     }

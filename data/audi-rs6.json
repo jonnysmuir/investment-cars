@@ -1244,7 +1244,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d5779d47d42d48b69257e0f4c0e19add.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1256,7 +1256,8 @@
           "price": "£33,333",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "62",
@@ -1269,13 +1270,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/603ddc9f991748068618b8174bcb4e7e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202302234572242"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "63",
@@ -1288,13 +1290,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d58bd2540e754d9a891c25cd372ae68e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202107084783217"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "64",
@@ -1307,7 +1310,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/tfsi-v8-vorsprung/audi-rs6-avant-tfsi-v8-vorsprung-1376993803-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1319,7 +1322,8 @@
           "price": "£69,990",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "65",
@@ -1451,13 +1455,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/4-0-tfsi-v8-performance-tiptronic-quattro-euro-6-s-s-5dr/audi-rs6-avant-4-0-tfsi-v8-performance-tiptronic-quattro-euro-6-s-s-5dr-1390154661-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19724846"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "72",
@@ -1522,7 +1527,7 @@
     {
       "id": "75",
       "title": "2024 Used  AUDI RS 6 PRFRMNCE TFSI MHEV QUAT A",
-      "price": "£93,990",
+      "price": "£93,690",
       "year": 2024,
       "mileage": "19,520 miles",
       "transmission": "Automatic",
@@ -1541,6 +1546,10 @@
         {
           "price": "£94,490",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£93,990",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1566,7 +1575,7 @@
     {
       "id": "77",
       "title": "2020 Used  AUDI RS 6 CRBN BLK TFSI MHEV QUAT A",
-      "price": "£67,850",
+      "price": "£67,755",
       "year": 2020,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -1574,14 +1583,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/4-0-tfsi-v8-carbon-black-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--600-ps/audi-rs6-avant-4-0-tfsi-v8-carbon-black-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--600-ps-1416641403-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20105412"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£67,850",
+          "date": "2026-04-09"
+        }
+      ]
     },
     {
       "id": "78",
@@ -1748,13 +1762,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/vorsprung/audi-rs6-avant-vorsprung-1421189850-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20172716"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "86",
@@ -1942,13 +1957,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/rs-6-tfsi-quattro-performance-5dr/audi-rs6-avant-rs-6-tfsi-quattro-performance-5dr-1422256367-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20169252"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "96",
@@ -2157,6 +2173,215 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044323"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "title": "2020 Used  AUDI RS 6 LAUNCH ED TFSI MHEV QTO A",
+      "price": "£60,995",
+      "year": 2020,
+      "mileage": "25 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/4-0-tfsi-v8-launch-edition-tiptronic-quattro-euro-6-s-s-5dr/audi-rs6-avant-4-0-tfsi-v8-launch-edition-tiptronic-quattro-euro-6-s-s-5dr-1412200641-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20032081"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "title": "2017 Used  AUDI RS6 PERFORMANCE TFSI QUATTRO A",
+      "price": "£39,950",
+      "year": 2017,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/4-0-tfsi-v8-performance-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--605-ps/audi-rs6-avant-4-0-tfsi-v8-performance-estate-5dr-petrol-tiptronic-quattro-euro-6-s-s--605-ps-1399230574-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19851132"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "title": "2021 Used  AUDI RS 6 CRBN BLK TFSI MHEV QUAT A",
+      "price": "£74,990",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs6-avant/carbon-black/audi-rs6-avant-carbon-black-1414489505-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20031570"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "title": "2015 Audi RS6 4.0TFSI Quattro Avant",
+      "price": "£37,500",
+      "year": "2015",
+      "mileage": "46,931 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/19432423/62878c16-6f65-4565-8796-d422d8e811a0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=83967c231d5fb1301e766fe7899ac91d",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2015-audi-rs6-40tfsi-quattro-avant-nkAZD8"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2008 Audi RS6 5.0 V10 TFSI",
+      "price": "£13,500",
+      "year": "2008",
+      "mileage": "63,699 km",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/25428948/251018-Audi_RS6-4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7cab02662fb9b9a72603a711e7954f46",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2008-audi-rs6-50-v10-tfsi-ndmBm4"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2024 Audi RS6 Performance Carbon Black",
+      "price": "£103,995",
+      "year": "2024",
+      "mileage": "13,400 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C2012991/2024-audi-rs6-698b253643521.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0b78db989de37a4a5396ff42595f7bc4",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2012991"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2016 Audi RS6 C7 Avant 4.0 TFSI V8",
+      "price": "£33,995",
+      "year": "2016",
+      "mileage": "74,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C1991913/2016-audi-rs6-694bf3a626423.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9a2c15b6c8c7ff2886331f8bb15a6cc5",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1991913"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2008 Audi RS6 C7 Typ 4G (2013 - 2018) Performance Avant",
+      "price": "£29,980",
+      "year": "2008",
+      "mileage": "66,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C2004817/2008-audi-rs6-697787a3206db.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e8c63b912643a88be62dab85e483accc",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2004817"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2014 Audi RS6",
+      "price": "£29,995",
+      "year": "2014",
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C1847996/2014-audi-rs6-67cefae6beefa.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c0c43e9d964cdabed45c1d636c1d3ab8",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1847996"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "title": "2017 Audi RS6 Avant TFSI V8 Performance",
+      "price": "£39,995",
+      "year": "2017",
+      "mileage": "57,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C1902190/2017-audi-rs6-avant-691d1d5c6f933.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=74252645ff0bb48e4d99ff704a23120f",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1902190"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "title": "2020 Audi RS6 Avant Launch Edition",
+      "price": "£74,995",
+      "year": "2020",
+      "mileage": "27,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/audi/C2006690/2020-audi-rs6-6984d3f693634.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=229f68f55c5fc7867e67361102a0813c",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2006690"
         }
       ]
     }

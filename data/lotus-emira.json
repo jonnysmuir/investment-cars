@@ -174,7 +174,7 @@
     {
       "id": "8",
       "title": "2024 Lotus Emira 2.0 First Edition DCT Euro 6 2dr",
-      "price": "£61,980",
+      "price": "£62,999",
       "year": 2024,
       "mileage": "3,346 miles",
       "transmission": "6-Speed Manual",
@@ -225,13 +225,17 @@
         {
           "price": "£62,999",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£61,980",
+          "date": "2026-04-09"
         }
       ]
     },
     {
       "id": "9",
       "title": "2023 Lotus Emira 3.5 V6 First Edition IPS Euro 6 2dr",
-      "price": "£59,995",
+      "price": "£59,495",
       "year": 2023,
       "mileage": "2,800 miles",
       "transmission": "6-Speed Manual",
@@ -290,6 +294,10 @@
         {
           "price": "£59,495",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£59,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -400,7 +408,7 @@
     {
       "id": "13",
       "title": "2024 Lotus Emira 2.0 First Edition Coupe 2dr Petrol DCT Euro 6 (365 ps)",
-      "price": "£65,495",
+      "price": "£64,995",
       "year": 2024,
       "mileage": "2586 miles",
       "transmission": "Automatic",
@@ -459,6 +467,10 @@
         {
           "price": "£64,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£65,495",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -488,7 +500,7 @@
     {
       "id": "15",
       "title": "Lotus Emira 3.5 V6 First Edition Euro 6 2dr",
-      "price": "£61,995",
+      "price": "£59,950",
       "year": 2023,
       "mileage": "5,250 miles",
       "transmission": "Unknown",
@@ -547,6 +559,10 @@
         {
           "price": "£59,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£61,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -754,7 +770,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/emira/3-5-v6-first-edition-euro-6-2dr/lotus-emira-3-5-v6-first-edition-euro-6-2dr-1417234016-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -778,7 +794,8 @@
           "price": "£56,480",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "21",
@@ -1198,7 +1215,7 @@
     {
       "id": "36",
       "title": "2024 Lotus Emira 2.0 First Edition DCT Euro 6 2dr",
-      "price": "£61,990",
+      "price": "£64,995",
       "year": 2024,
       "mileage": "4,745 miles",
       "transmission": "F1 Automated Manual",
@@ -1206,7 +1223,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e37133004fb946d2afe25732ebee423d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1217,7 +1234,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19846468"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£61,990",
+          "date": "2026-04-09"
+        }
+      ]
     },
     {
       "id": "37",
@@ -1241,7 +1263,7 @@
     {
       "id": "38",
       "title": "2024 Lotus Emira 3.5 V6 First Edition Euro 6 2dr",
-      "price": "£65,975",
+      "price": "£61,980",
       "year": 2024,
       "mileage": "5,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1296,6 +1318,10 @@
         {
           "price": "£61,980",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£65,975",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1329,6 +1355,14 @@
         {
           "price": "£70,990",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£74,500",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£70,990",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1430,7 +1464,7 @@
     {
       "id": "45",
       "title": "2025 Lotus Emira 2.0 Turbo SE Coupe 2dr Petrol DCT Euro 6 (406 ps)",
-      "price": "£74,500",
+      "price": "£76,999",
       "year": 2025,
       "mileage": "2,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1469,6 +1503,10 @@
         {
           "price": "£76,999",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£74,500",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1564,7 +1602,7 @@
     {
       "id": "49",
       "title": "2023 Lotus Emira 3.5 V6 First Edition Euro 6 2dr",
-      "price": "£59,950",
+      "price": "£59,099",
       "year": 2023,
       "mileage": "5,348 miles",
       "transmission": "Unknown",
@@ -1611,6 +1649,10 @@
         {
           "price": "£59,099",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£59,950",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2041,13 +2083,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/aa2641861bca4e108ec388a23bcd687f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603150711482"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "71",
@@ -2458,6 +2501,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601109049233"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20030646"
         }
       ]
     },
@@ -2512,13 +2559,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/550377fb534a4d2f8df5fe95f5721a27.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601229340814"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "95",
@@ -2661,7 +2709,7 @@
       "mileage": "23,300 miles",
       "transmission": "Unknown",
       "bodyType": null,
-      "image": "",
+      "image": "https://m.atcdn.co.uk/a/media/w480/dc6cbaee0bb746af85ea5fe910ed468d.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
       "status": "active",
@@ -2852,7 +2900,7 @@
     {
       "id": "112",
       "title": "2023 Lotus Emira 3.5 V6 First Edition Euro 6 2dr",
-      "price": "£58,490",
+      "price": "£57,990",
       "year": 2023,
       "mileage": "12,000 miles",
       "transmission": "Unknown",
@@ -2865,6 +2913,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021238615"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£58,490",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2970,6 +3024,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061321874"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "title": "2023 Lotus Emira V6 FIRST EDITION. 6-SPEED MANUAL. FIRST EDITION TRIM PACKAGE. KEF AUDIO. 3.5 2dr",
+      "price": "£56,995",
+      "year": 2023,
+      "mileage": "10,675 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/2f90b7c07e7d4e6c82e31ad7c5b1ed61.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071351856"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "title": "2023 Lotus Emira 3.5 V6 First Edition IPS Euro 6 2dr",
+      "price": "£60,980",
+      "year": 2023,
+      "mileage": "17,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/f8d60f292a22471cb26b011671c83f77.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261017539"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "title": "2023 Lotus Emira 3.5 V6 First Edition Euro 6 2dr",
+      "price": "£59,950",
+      "year": 2023,
+      "mileage": "2,832 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e3965ab04a4e45fba55d4d1c3212ab6c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081379758"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "title": "2024 Lotus Emira 2.0 First Edition DCT Euro 6 2dr",
+      "price": "£59,950",
+      "year": 2024,
+      "mileage": "21,065 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e3965ab04a4e45fba55d4d1c3212ab6c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081379634"
         }
       ]
     }

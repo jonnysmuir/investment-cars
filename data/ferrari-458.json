@@ -1175,6 +1175,14 @@
         {
           "price": "£114,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£112,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1730,14 +1738,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/390ee65dcad8421b95a28861cf4d0625.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260253177"
         }
       ],
-      "unlistedDate": "2026-03-30",
       "bodyType": "Convertible"
     },
     {
@@ -2155,6 +2162,48 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021247400"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "title": "2012 Ferrari 458 Italia 2dr Auto 4.5",
+      "price": "£147,500",
+      "year": 2012,
+      "mileage": "12,996 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/458/italia-2dr-auto/ferrari-458-italia-2dr-auto-1424847690-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20219959"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081373867"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "title": "2014 Ferrari 458 4.5 Speciale F1 DCT Euro 5 2dr",
+      "price": "£458,000",
+      "year": 2014,
+      "mileage": "18,417 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/7c9ceeb634ee460baac26af676bd97f6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081366791"
         }
       ]
     }

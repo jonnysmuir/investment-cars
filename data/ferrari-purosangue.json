@@ -195,7 +195,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/ferrari-purosangue-1392730821-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -212,7 +212,8 @@
           "date": "2026-03-23"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "11",
@@ -387,6 +388,14 @@
         {
           "price": "£365,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£374,990",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£365,000",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Saloon"
@@ -789,6 +798,14 @@
         {
           "price": "£345,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£329,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£345,995",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Saloon"
@@ -1315,7 +1332,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/base/ferrari-purosangue-base-S4942978-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1326,7 +1343,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202603200862748"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "44",
@@ -1464,7 +1482,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8c57e35b12f94534bbd7e7dffe6d1c82.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1497,7 +1515,8 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-09"
     },
     {
       "id": "49",
@@ -1695,6 +1714,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601159169438"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20222419"
         }
       ],
       "unlistedDate": "2026-03-31",
@@ -1965,7 +1988,7 @@
     },
     {
       "id": "70",
-      "title": "2024 Ferrari Purosangue",
+      "title": "2024 Ferrari Purosangue 6.5 V12",
       "price": "£499,995",
       "year": "2024",
       "mileage": "200 miles",
@@ -1979,6 +2002,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045145"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2024 Ferrari Purosangue",
+      "price": "£354,995",
+      "year": "2024",
+      "mileage": "2,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2045394/2024-ferrari-purosangue-69d652528a3d0.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2c239ae3f8604b632887ba66ea3be7b0",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045394"
         }
       ]
     }

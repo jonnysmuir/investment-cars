@@ -842,6 +842,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169962661"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20215548"
         }
       ],
       "bodyType": "Convertible"
@@ -903,6 +907,14 @@
         {
           "price": "£97,500",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£97,500",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1018,6 +1030,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Coupe"
@@ -1144,6 +1164,14 @@
         {
           "price": "£76,999",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£76,999",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1249,6 +1277,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": "Convertible"
@@ -1256,7 +1292,7 @@
     {
       "id": "47",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£79,790",
+      "price": "£79,995",
       "year": 2016,
       "mileage": "37,400 miles",
       "transmission": "Unknown",
@@ -1330,6 +1366,10 @@
         {
           "price": "£79,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£79,790",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1375,7 +1415,7 @@
     {
       "id": "50",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£64,964",
+      "price": "£64,785",
       "year": 2016,
       "mileage": "47,890 miles",
       "transmission": "6-Speed Manual",
@@ -1449,6 +1489,10 @@
         {
           "price": "£64,785",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£64,964",
+          "date": "2026-04-09"
         }
       ],
       "bodyType": null
@@ -1495,7 +1539,7 @@
     {
       "id": "53",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£86,995",
+      "price": "£89,950",
       "year": 2016,
       "mileage": "8,104 miles",
       "transmission": "Unknown",
@@ -1530,6 +1574,10 @@
         {
           "price": "£89,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£86,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1889,6 +1937,14 @@
         {
           "price": "£94,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£94,950",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1999,7 +2055,7 @@
       "price": "£89,900",
       "year": 2018,
       "mileage": "19,873 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/mclaren/570s/3-8t-v8-coupe/mclaren-570s-3-8t-v8-coupe-1422811572-1.jpg",
       "featured": false,
@@ -2018,7 +2074,7 @@
     },
     {
       "id": "76",
-      "title": "2017 McLaren 570S 3.8 T V8 2dr",
+      "title": "2017 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
       "price": "£89,995",
       "year": 2017,
       "mileage": "17,300 miles",
@@ -2070,6 +2126,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330059"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "2018 McLaren 570S 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£105,000",
+      "year": 2018,
+      "mileage": "19,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0ed63e8694fe463e832214798520abfc.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081378003"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "2019 McLaren 570S 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£94,950",
+      "year": 2019,
+      "mileage": "17,400 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ec490f5e1b0841c99b1db54333527876.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021251677"
         }
       ]
     }

@@ -908,6 +908,14 @@
         {
           "price": "£69,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -1499,15 +1507,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2022048/2003-ferrari-360-69a2aa8ebfaf1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fb30ded415b2dcf80da0f3e2da8d70b9",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2022048"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-05"
+      "bodyType": null
     },
     {
       "id": "64",
@@ -1519,14 +1526,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1738622/2001-ferrari-360-66686889936b8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=221678572e0688ccfcebfe3dbc6e5e52",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1738622"
         }
       ],
-      "unlistedDate": "2026-03-22",
       "bodyType": "Convertible"
     },
     {
@@ -1558,14 +1564,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-S4928041-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19278068"
         }
       ],
-      "unlistedDate": "2026-03-29"
+      "bodyType": null
     },
     {
       "id": "67",
@@ -1756,14 +1762,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1944099/2001-ferrari-360-68cc2a4623f4e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2f221c472abbea1a676c7181b842b6d6",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1944099"
         }
       ],
-      "unlistedDate": "2026-03-22",
       "bodyType": "Convertible"
     },
     {
@@ -2026,6 +2031,14 @@
         {
           "price": "£66,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-09"
+        },
+        {
+          "price": "£66,995",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -2300,6 +2313,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2004-ferrari-360-spider-4XP2x4"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "title": "2003 Ferrari 360 Modena",
+      "price": "£69,995",
+      "year": "2003",
+      "mileage": "13,501 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1912323/2003-ferrari-360-68763a7a35e41.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a6814cdd97d7d263f79dc7a84b817bea",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1912323"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "2004 Ferrari 360  Modena Manual Tripple Nero! Pristine!",
+      "price": "£68,950",
+      "year": "2004",
+      "mileage": "57,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1956187/2004-ferrari-360-68e8d7e9deb73.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6fe279682c37b910120c9ed5e57c7f50",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1956187"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "title": "2004 Ferrari 360  Modena",
+      "price": "£66,895",
+      "year": "2004",
+      "mileage": "45,384 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1925103/2004-ferrari-360-689b19713eddf.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=84eed12a0c203838896c722a53911699",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1925103"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "title": "1999 Ferrari 360 Medena F-1. Rare low mileage example with FFSH",
+      "price": "£79,895",
+      "year": "1999",
+      "mileage": "11,479 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1884205/1999-ferrari-360-682c5b1b0033f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b0591e1e9032f5636229544fbc6d366",
+      "featured": false,
+      "dateAdded": "2026-04-09",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1884205"
         }
       ]
     }
