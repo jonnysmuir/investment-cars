@@ -57,7 +57,7 @@ app.get('/api/models', (req, res) => {
       for (const m of models) {
         const key = m.make.toLowerCase();
         if (!grouped[key]) grouped[key] = [];
-        grouped[key].push({ label: m.model, slug: m.slug });
+        grouped[key].push({ label: m.model, slug: m.slug, generations: m.generations || null });
         if (!makeDisplay[key]) makeDisplay[key] = m.make;
       }
       // Sort models within each make alphabetically

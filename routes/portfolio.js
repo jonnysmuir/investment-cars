@@ -354,19 +354,28 @@ router.put('/:id', requireAuth, async (req, res) => {
     }
 
     const allowedFields = [
-      'year', 'variant', 'generation', 'transmission', 'body_type',
+      'model_slug', 'year', 'variant', 'generation', 'transmission', 'body_type',
       'purchase_price', 'purchase_date', 'mileage_at_purchase', 'current_mileage',
       'colour', 'notes',
     ];
 
     // Map camelCase request keys to snake_case DB columns
     const fieldMap = {
+      modelSlug: 'model_slug',
       bodyType: 'body_type',
       purchasePrice: 'purchase_price',
       purchaseDate: 'purchase_date',
       mileageAtPurchase: 'mileage_at_purchase',
       currentMileage: 'current_mileage',
     };
+
+    // Validate model_slug if provided
+    if (req.body.modelSlug) {
+      const modelsMap = getModelsMap();
+      if (!modelsMap[req.body.modelSlug]) {
+        return res.status(400).json({ error: 'Unknown model slug' });
+      }
+    }
 
     const updates = [];
     const values = [];

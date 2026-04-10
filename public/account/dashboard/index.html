@@ -784,17 +784,109 @@
       if (_allModels) return _allModels;
       try {
         const resp = await fetch('/api/models');
-        if (!resp.ok) return [];
+        if (!resp.ok) return null;
         const data = await resp.json();
-        const flat = [];
-        for (const [make, models] of Object.entries(data)) {
-          for (const m of models) {
-            flat.push({ slug: m.slug, make, model: m.model, displayName: make + ' ' + m.model, generations: m.generations || null });
-          }
+        // data.makes = { makeKey: "Display Name" }, data.models = { makeKey: [{label, slug, generations}] }
+        // Build a structure: { sortedMakes: ["Alpine", "Aston Martin", ...], modelsByMake: { "BMW": [...] } }
+        const sortedMakeKeys = Object.keys(data.makes).sort((a, b) => data.makes[a].localeCompare(data.makes[b]));
+        const sortedMakes = sortedMakeKeys.map(k => data.makes[k]);
+        const modelsByMake = {};
+        for (const key of sortedMakeKeys) {
+          const displayMake = data.makes[key];
+          modelsByMake[displayMake] = (data.models[key] || []).slice().sort((a, b) => a.label.localeCompare(b.label));
         }
-        _allModels = flat;
-        return flat;
-      } catch { return []; }
+        _allModels = { sortedMakes, modelsByMake };
+        return _allModels;
+      } catch { return null; }
+    }
+
+    function findModelBySlug(slug) {
+      if (!_allModels || !slug) return null;
+      for (const make of _allModels.sortedMakes) {
+        const m = (_allModels.modelsByMake[make] || []).find(x => x.slug === slug);
+        if (m) return { make, model: m };
+      }
+      return null;
+    }
+
+    function buildMakeModelGenFields(prefix, selectedSlug, selectedGeneration) {
+      // prefix is e.g. "pa" for add or "pe" for edit. Returns HTML for 3 form fields.
+      if (!_allModels) return '';
+      const selected = findModelBySlug(selectedSlug);
+      const selectedMake = selected ? selected.make : '';
+      const selectedModel = selected ? selected.model : null;
+
+      let makeHtml = '<option value="">-- Select make --</option>';
+      for (const make of _allModels.sortedMakes) {
+        makeHtml += '<option value="' + make + '"' + (make === selectedMake ? ' selected' : '') + '>' + make + '</option>';
+      }
+
+      let modelHtml = '<option value="">-- Select model --</option>';
+      if (selectedMake) {
+        for (const m of _allModels.modelsByMake[selectedMake] || []) {
+          modelHtml += '<option value="' + m.slug + '"' + (m.slug === selectedSlug ? ' selected' : '') + '>' + m.label + '</option>';
+        }
+      }
+
+      let genHtml = '<option value="">-- Any --</option>';
+      let showGen = false;
+      if (selectedModel && selectedModel.generations && selectedModel.generations.length > 0) {
+        showGen = true;
+        for (const g of selectedModel.generations) {
+          const label = g.years ? g.name + ' (' + g.years[0] + '\u2013' + g.years[1] + ')' : g.name;
+          genHtml += '<option value="' + g.name + '"' + (g.name === selectedGeneration ? ' selected' : '') + '>' + label + '</option>';
+        }
+      }
+
+      return (
+        '<div class="port-form-field"><label>Make *</label><select class="' + prefix + '-make">' + makeHtml + '</select></div>' +
+        '<div class="port-form-field"><label>Model *</label><select class="' + prefix + '-model"' + (selectedMake ? '' : ' disabled') + '>' + modelHtml + '</select></div>' +
+        '<div class="port-form-field ' + prefix + '-gen-field"' + (showGen ? '' : ' style="display:none"') + '><label>Generation</label><select class="' + prefix + '-generation">' + genHtml + '</select></div>'
+      );
+    }
+
+    function wireMakeModelGenCascade(container, prefix) {
+      const makeSel = container.querySelector('.' + prefix + '-make');
+      const modelSel = container.querySelector('.' + prefix + '-model');
+      const genField = container.querySelector('.' + prefix + '-gen-field');
+      const genSel = container.querySelector('.' + prefix + '-generation');
+      if (!makeSel || !modelSel) return;
+
+      makeSel.addEventListener('change', () => {
+        const make = makeSel.value;
+        modelSel.innerHTML = '<option value="">-- Select model --</option>';
+        if (make && _allModels && _allModels.modelsByMake[make]) {
+          for (const m of _allModels.modelsByMake[make]) {
+            const opt = document.createElement('option');
+            opt.value = m.slug;
+            opt.textContent = m.label;
+            modelSel.appendChild(opt);
+          }
+          modelSel.disabled = false;
+        } else {
+          modelSel.disabled = true;
+        }
+        // Reset generation
+        genSel.innerHTML = '<option value="">-- Any --</option>';
+        genField.style.display = 'none';
+      });
+
+      modelSel.addEventListener('change', () => {
+        const slug = modelSel.value;
+        const found = findModelBySlug(slug);
+        genSel.innerHTML = '<option value="">-- Any --</option>';
+        if (found && found.model.generations && found.model.generations.length > 0) {
+          for (const g of found.model.generations) {
+            const opt = document.createElement('option');
+            opt.value = g.name;
+            opt.textContent = g.years ? g.name + ' (' + g.years[0] + '\u2013' + g.years[1] + ')' : g.name;
+            genSel.appendChild(opt);
+          }
+          genField.style.display = '';
+        } else {
+          genField.style.display = 'none';
+        }
+      });
     }
 
     function buildSparkline(history, purchasePrice, width, height) {
@@ -1017,12 +1109,13 @@
           }
           // Fetch current data
           try {
+            await fetchAllModels();
             const resp = await fetch('/api/portfolio/' + id);
             const { car } = await resp.json();
             let h = '<div class="port-form-grid">';
+            h += buildMakeModelGenFields('pe', car.model_slug, car.generation);
             h += '<div class="port-form-field"><label>Year</label><input type="number" class="pe-year" value="' + (car.year || '') + '"></div>';
             h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pe-variant" value="' + (car.variant || '') + '"></div>';
-            h += '<div class="port-form-field"><label>Generation</label><input type="text" class="pe-generation" value="' + (car.generation || '') + '"></div>';
             h += '<div class="port-form-field"><label>Transmission</label><select class="pe-transmission"><option value="">--</option><option' + (car.transmission === 'Manual' ? ' selected' : '') + '>Manual</option><option' + (car.transmission === 'Automatic' ? ' selected' : '') + '>Automatic</option><option' + (car.transmission === 'DCT/Dual-Clutch' ? ' selected' : '') + '>DCT/Dual-Clutch</option><option' + (car.transmission === 'F1 Automated Manual' ? ' selected' : '') + '>F1 Automated Manual</option><option' + (car.transmission === 'E-Gear' ? ' selected' : '') + '>E-Gear</option></select></div>';
             h += '<div class="port-form-field"><label>Body Type</label><select class="pe-bodyType"><option value="">--</option><option' + (car.body_type === 'Coupe' ? ' selected' : '') + '>Coupe</option><option' + (car.body_type === 'Convertible' ? ' selected' : '') + '>Convertible</option><option' + (car.body_type === 'Saloon' ? ' selected' : '') + '>Saloon</option><option' + (car.body_type === 'Estate' ? ' selected' : '') + '>Estate</option><option' + (car.body_type === 'SUV' ? ' selected' : '') + '>SUV</option><option' + (car.body_type === 'Targa' ? ' selected' : '') + '>Targa</option><option' + (car.body_type === 'Speedster' ? ' selected' : '') + '>Speedster</option><option' + (car.body_type === 'Gran Coupe' ? ' selected' : '') + '>Gran Coupe</option></select></div>';
             h += '<div class="port-form-field"><label>Purchase Price (\u00a3)</label><input type="number" class="pe-purchasePrice" value="' + (car.purchase_price || '') + '"></div>';
@@ -1035,6 +1128,7 @@
             h += '</div>';
             panel.innerHTML = h;
             panel.style.display = 'block';
+            wireMakeModelGenCascade(panel, 'pe');
           } catch {
             panel.innerHTML = '<p style="font-size:0.8rem;color:var(--color-text-muted)">Failed to load details.</p>';
             panel.style.display = 'block';
@@ -1048,10 +1142,12 @@
           const id = saveEdit.dataset.portId;
           const panel = document.getElementById('portEditPanel' + id);
           const body = {};
+          const modelSlug = panel.querySelector('.pe-model').value;
+          if (modelSlug) body.modelSlug = modelSlug;
           const year = panel.querySelector('.pe-year').value;
           if (year) body.year = parseInt(year);
           body.variant = panel.querySelector('.pe-variant').value.trim() || null;
-          body.generation = panel.querySelector('.pe-generation').value.trim() || null;
+          body.generation = panel.querySelector('.pe-generation').value || null;
           body.transmission = panel.querySelector('.pe-transmission').value || null;
           body.bodyType = panel.querySelector('.pe-bodyType').value || null;
           const pp = panel.querySelector('.pe-purchasePrice').value;
@@ -1093,11 +1189,15 @@
           return;
         }
         const models = await fetchAllModels();
+        if (!models) {
+          formContainer.innerHTML = '<p class="empty-state">Failed to load models.</p>';
+          formContainer.style.display = 'block';
+          return;
+        }
 
         let h = '<div class="port-form"><div class="port-form-grid">';
-        h += '<div class="port-form-field full"><label>Model *</label><div class="port-search-wrap"><input type="text" class="pa-model-search" placeholder="Search models..." autocomplete="off"><input type="hidden" class="pa-model-slug"><div class="port-search-results" id="portSearchResults"></div></div></div>';
+        h += buildMakeModelGenFields('pa', null, null);
         h += '<div class="port-form-field"><label>Year</label><input type="number" class="pa-year" placeholder="e.g. 2018"></div>';
-        h += '<div class="port-form-field" id="paGenField" style="display:none"><label>Generation</label><select class="pa-generation"><option value="">--</option></select></div>';
         h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pa-variant" placeholder="e.g. Speciale, Competition"></div>';
         h += '<div class="port-form-field"><label>Transmission</label><select class="pa-transmission"><option value="">--</option><option>Manual</option><option>Automatic</option><option>DCT/Dual-Clutch</option><option>F1 Automated Manual</option><option>E-Gear</option></select></div>';
         h += '<div class="port-form-field"><label>Body Type</label><select class="pa-bodyType"><option value="">--</option><option>Coupe</option><option>Convertible</option><option>Saloon</option><option>Estate</option><option>SUV</option><option>Targa</option><option>Speedster</option><option>Gran Coupe</option></select></div>';
@@ -1114,53 +1214,14 @@
         formContainer.innerHTML = h;
         formContainer.style.display = 'block';
 
-        // Model search autocomplete
-        const searchInput = formContainer.querySelector('.pa-model-search');
-        const slugInput = formContainer.querySelector('.pa-model-slug');
-        const searchResults = document.getElementById('portSearchResults');
-        const genField = document.getElementById('paGenField');
-        const genSelect = formContainer.querySelector('.pa-generation');
-
-        searchInput.addEventListener('input', () => {
-          const q = searchInput.value.trim().toLowerCase();
-          if (q.length < 1) { searchResults.classList.remove('open'); return; }
-          const matches = models.filter(m => m.displayName.toLowerCase().includes(q) || m.slug.includes(q)).slice(0, 10);
-          if (!matches.length) { searchResults.classList.remove('open'); return; }
-          searchResults.innerHTML = matches.map(m =>
-            '<div class="port-search-item" data-slug="' + m.slug + '" data-display="' + m.displayName + '">' + m.displayName + '</div>'
-          ).join('');
-          searchResults.classList.add('open');
-        });
-
-        searchResults.addEventListener('click', (ev) => {
-          const item = ev.target.closest('.port-search-item');
-          if (!item) return;
-          const slug = item.dataset.slug;
-          const display = item.dataset.display;
-          searchInput.value = display;
-          slugInput.value = slug;
-          searchResults.classList.remove('open');
-          // Populate generation dropdown if available
-          const model = models.find(m => m.slug === slug);
-          if (model && model.generations && model.generations.length > 0) {
-            genSelect.innerHTML = '<option value="">--</option>' +
-              model.generations.map(g => '<option value="' + g.name + '">' + g.name + (g.years ? ' (' + g.years[0] + '\u2013' + g.years[1] + ')' : '') + '</option>').join('');
-            genField.style.display = '';
-          } else {
-            genField.style.display = 'none';
-            genSelect.innerHTML = '<option value="">--</option>';
-          }
-        });
-
-        document.addEventListener('click', (ev) => {
-          if (!ev.target.closest('.port-search-wrap')) searchResults.classList.remove('open');
-        });
+        // Wire cascading dropdowns
+        wireMakeModelGenCascade(formContainer, 'pa');
 
         // Save new car
         document.getElementById('portSaveNew').addEventListener('click', async () => {
-          const modelSlug = slugInput.value;
+          const modelSlug = formContainer.querySelector('.pa-model').value;
           const purchasePrice = formContainer.querySelector('.pa-purchasePrice').value;
-          if (!modelSlug) { alert('Please select a model.'); return; }
+          if (!modelSlug) { alert('Please select a make and model.'); return; }
           if (!purchasePrice) { alert('Please enter a purchase price.'); return; }
 
           const body = {
@@ -1169,7 +1230,7 @@
           };
           const year = formContainer.querySelector('.pa-year').value;
           if (year) body.year = parseInt(year);
-          const gen = genSelect.value;
+          const gen = formContainer.querySelector('.pa-generation').value;
           if (gen) body.generation = gen;
           const variant = formContainer.querySelector('.pa-variant').value.trim();
           if (variant) body.variant = variant;
