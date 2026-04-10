@@ -547,7 +547,7 @@
     {
       "id": "28",
       "title": "2018 Aston Martin 5.2 DBS Superleggera V12 Auto 2dr",
-      "price": "£104,995",
+      "price": "£100,000",
       "year": 2018,
       "mileage": "62,000 miles",
       "transmission": "Automatic",
@@ -566,6 +566,10 @@
         {
           "price": "£106,000",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£104,995",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -637,13 +641,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/514c2f0b7b9c410dac0dcd57725bed3e.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601058933942"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     }
   ]
 }

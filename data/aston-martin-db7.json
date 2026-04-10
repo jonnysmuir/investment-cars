@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2004 Aston Martin DB7 5.9 Volante 2dr",
-      "price": "£26,995",
+      "price": "£27,990",
       "year": 2004,
       "mileage": "60 miles",
       "transmission": "Automatic",
@@ -873,6 +873,10 @@
         {
           "price": "£27,990",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£26,995",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -902,7 +906,7 @@
     {
       "id": "41",
       "title": "2000 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
-      "price": "£17,995",
+      "price": "£17,950",
       "year": 2000,
       "mileage": "61,411 miles",
       "transmission": "Automatic",
@@ -961,6 +965,10 @@
         {
           "price": "£17,950",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -990,7 +998,7 @@
     {
       "id": "43",
       "title": "2000 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
-      "price": "£29,950",
+      "price": "£28,950",
       "year": 2000,
       "mileage": "37,500 miles",
       "transmission": "Automatic",
@@ -1057,6 +1065,10 @@
         {
           "price": "£28,950",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -1555,13 +1567,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2022161/1997-aston-martin-db7-69a2f4e38c397.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57fdd897eaa4cb920c91337b96ac9fad",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2022161"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "67",
@@ -1574,13 +1587,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2021207/2001-aston-martin-db7-69a06bad8e9d6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=389d26780205d9d9c548ae3f4b8a4bd5",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2021207"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "68",
@@ -1661,13 +1675,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/35206f497d2a4c0d80ec7506692636ea.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130660492"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "72",
@@ -1697,7 +1712,7 @@
     {
       "id": "73",
       "title": "2001 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
-      "price": "£29,950",
+      "price": "£29,500",
       "year": 2001,
       "mileage": "6,081 miles",
       "transmission": "Automatic",
@@ -1736,6 +1751,10 @@
         {
           "price": "£29,500",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -1825,7 +1844,7 @@
     {
       "id": "78",
       "title": "2001 Aston Martin Aston Martin DB7 Vantage Coupe 5.9 Manual Petrol 2dr",
-      "price": "£19,995",
+      "price": "£15,495",
       "year": 2001,
       "mileage": "79,181 miles",
       "transmission": "6-Speed Manual",
@@ -1842,6 +1861,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19424539"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£19,995",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -2029,7 +2054,7 @@
     {
       "id": "88",
       "title": "2000 Aston Martin DB7 6.0L V12 Vantage Volante Petrol Automatic 420 bhp",
-      "price": "£28,000",
+      "price": "£28,950",
       "year": 2000,
       "mileage": "55,565 miles",
       "transmission": "Automatic",
@@ -2037,7 +2062,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a698c104a812473a87e18cdaf42abcec.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2048,7 +2073,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19575888"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£28,000",
+          "date": "2026-04-10"
+        }
+      ]
     },
     {
       "id": "89",
@@ -2290,13 +2320,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/aston-martin-db7-S4942220-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20084022"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "101",
@@ -2409,6 +2440,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1950330"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "title": "2003 Aston Martin DB7 5.9 GTA 2dr",
+      "price": "£36,500",
+      "year": 2003,
+      "mileage": "35,796 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/46bb4bf471a4412f903bcf1e24b583e3.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091408202"
         }
       ]
     }

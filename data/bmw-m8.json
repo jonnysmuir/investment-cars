@@ -416,7 +416,7 @@
     {
       "id": "15",
       "title": "2020 BMW 4.4 M8 Competition Edition Auto 4WD 2dr",
-      "price": "£53,490",
+      "price": "£53,499",
       "year": 2020,
       "mileage": "28,455 miles",
       "transmission": "Automatic",
@@ -450,6 +450,10 @@
         {
           "price": "£53,990",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£53,490",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Coupe"
@@ -507,7 +511,7 @@
     {
       "id": "18",
       "title": "2023 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£74,000",
+      "price": "£69,991",
       "year": 2023,
       "mileage": "25,360 miles",
       "transmission": "Automatic",
@@ -541,6 +545,10 @@
         {
           "price": "£69,990",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£74,000",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Coupe"
@@ -871,14 +879,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2003088/2025-bmw-m8-6979518b7ee06.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=36bc2d9c43cb355b1f60916dc5ad8a66",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003088"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "30",
@@ -941,7 +950,7 @@
     {
       "id": "32",
       "title": "2020 BMW M8 4.4i V8 Competition Coupe 2dr Petrol Steptronic 4WD Euro 6 (s/s) (625 ps)",
-      "price": "£53,499",
+      "price": "£53,700",
       "year": 2020,
       "mileage": "37,212 miles",
       "transmission": "Unknown",
@@ -971,6 +980,10 @@
         {
           "price": "£53,700",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£53,499",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Coupe"
@@ -1004,7 +1017,7 @@
     {
       "id": "34",
       "title": "2022 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£61,900",
+      "price": "£59,900",
       "year": 2022,
       "mileage": "21500 miles",
       "transmission": "Automatic",
@@ -1026,6 +1039,10 @@
         {
           "price": "£62,490",
           "date": "2026-03-17"
+        },
+        {
+          "price": "£61,900",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Coupe"
@@ -1130,7 +1147,7 @@
     {
       "id": "38",
       "title": "2025 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£77,290",
+      "price": "£80,000",
       "year": 2025,
       "mileage": "2,421 miles",
       "transmission": "Automatic",
@@ -1156,6 +1173,10 @@
         {
           "price": "£78,490",
           "date": "2026-03-28"
+        },
+        {
+          "price": "£77,290",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Coupe"
@@ -1431,7 +1452,7 @@
     {
       "id": "50",
       "title": "2023 Used  BMW M8 COMPETITION AUTO",
-      "price": "£61,000",
+      "price": "£60,000",
       "year": 2023,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -1445,7 +1466,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19873391"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£61,000",
+          "date": "2026-04-10"
+        }
+      ]
     },
     {
       "id": "51",
@@ -1594,7 +1621,7 @@
     {
       "id": "57",
       "title": "2025 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£89,790",
+      "price": "£88,990",
       "year": 2025,
       "mileage": "1,960 miles",
       "transmission": "Unknown",
@@ -1607,6 +1634,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090540430"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£89,790",
+          "date": "2026-04-10"
         }
       ]
     },

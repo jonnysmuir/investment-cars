@@ -838,5 +838,34 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-04-10",
+    "listings": [
+      {
+        "id": "4",
+        "price": 3185990,
+        "year": 1990,
+        "mileage": 10000,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "5",
+        "price": 4200000,
+        "year": "1989",
+        "mileage": 2500,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      },
+      {
+        "id": "8",
+        "price": 2880000,
+        "year": "1990",
+        "mileage": 30000,
+        "transmission": "6-Speed Manual",
+        "status": "active"
+      }
+    ]
   }
 ]

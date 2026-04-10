@@ -396,6 +396,14 @@
         {
           "price": "£365,000",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£374,990",
+          "date": "2026-04-10"
+        },
+        {
+          "price": "£365,000",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Saloon"
@@ -806,6 +814,14 @@
         {
           "price": "£345,995",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£329,000",
+          "date": "2026-04-10"
+        },
+        {
+          "price": "£345,995",
+          "date": "2026-04-10"
         }
       ],
       "bodyType": "Saloon"
@@ -1602,6 +1618,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202410285670370"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20151788"
         }
       ],
       "priceHistory": [
@@ -1672,7 +1692,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6c90fcdbb8e44a6ba3820ffd16810bfe.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1697,19 +1717,20 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "56",
       "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£348,830",
+      "price": "£339,975",
       "year": 2024,
       "mileage": "2,025 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/16bc9dd2b2c8417ca7498a02758dbc3f.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1720,8 +1741,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20222419"
         }
       ],
-      "unlistedDate": "2026-03-31",
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "priceHistory": [
+        {
+          "price": "£348,830",
+          "date": "2026-04-10"
+        }
+      ]
     },
     {
       "id": "57",
@@ -1841,13 +1867,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/15bb591c731b48fa8c2887672d8d2f13.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240961211"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "63",
@@ -2021,6 +2048,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045394"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "2024 Ferrari 6.5 Purosangue S-A 4WD 5dr",
+      "price": "£360,149",
+      "year": 2024,
+      "mileage": "500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/33bbae5f91dd4866b96449eb7055c53b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091411297"
         }
       ]
     }

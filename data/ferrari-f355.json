@@ -942,7 +942,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4913380-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -953,8 +953,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202508125352150"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-09"
+      "bodyType": "Convertible"
     },
     {
       "id": "47",
@@ -1538,6 +1537,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-10"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -1632,13 +1639,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8593596e44b244e5a6dd6450a45afb63.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506053193274"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "78",
@@ -1756,6 +1764,46 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2043989"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "1998 Ferrari 355 F1 Berlinetta",
+      "price": "Sold",
+      "year": 1998,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://images.collectingcars.com/086421/more20.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "sold",
+      "soldPrice": "$82,001",
+      "soldDate": "2026-04-09",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1998-ferrari-355-f1-berlinetta-15"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "1997 Ferrari F355 3.5 Spider 2dr",
+      "price": "£99,980",
+      "year": 1997,
+      "mileage": "28,948 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f6571dfe9e444b3c8e9ed39a223da5d5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202310173084696"
         }
       ]
     }

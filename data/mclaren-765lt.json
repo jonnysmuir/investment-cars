@@ -323,14 +323,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C1906087/2021-mclaren-765lt-6919195297995.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9ba3ec9e7ff7d04d4049b3dd4c4be07f",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1906087"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "15",
@@ -419,6 +420,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081365278"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "2022 McLaren 765LT 4.0T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£369,950",
+      "year": 2022,
+      "mileage": "850 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/fc2d686cb15c40648c0cc6d11bedcb24.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091399121"
         }
       ]
     }

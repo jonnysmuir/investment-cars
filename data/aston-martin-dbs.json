@@ -1056,7 +1056,7 @@
     {
       "id": "52",
       "title": "2012 Aston Martin DBS Coupe Touchtronic Carbon Edition 6.0 2dr",
-      "price": "£72,940",
+      "price": "£69,995",
       "year": 2012,
       "mileage": "18,700 miles",
       "transmission": "Unknown",
@@ -1069,6 +1069,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510096998338"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£72,940",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -2430,13 +2436,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9a32e2cbfcc8476e8c412947aaed1def.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011199097"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "122",
@@ -2473,6 +2480,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045142"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "title": "2010 Aston Martin DBS V12 2dr Touchtronic Auto 6.0",
+      "price": "£64,900",
+      "year": 2010,
+      "mileage": "29,540 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/9bca7f3502d540a19c5c0986ab8b42d0.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601269439608"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "title": "2022 Aston Martin DBS 5.2 V12 BiTurbo Superleggera Volante Auto Euro 6 (s/s) 2dr",
+      "price": "£154,900",
+      "year": 2022,
+      "mileage": "2,391 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a089a760f4ba47f8803453592ba99bc9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311179254"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "title": "1968 Aston Martin DBS, 29,000 miles, factory Manual, AC, PAS",
+      "price": "£69,995",
+      "year": "1968",
+      "mileage": "45,850 km",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045865/1968-aston-martin-dbs-69d79452eb545.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d199ffc7266c84db937cf770b1ef4ca5",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045865"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "title": "1970 Aston Martin DBS",
+      "price": "£60,000",
+      "year": "1970",
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045927/1970-aston-martin-dbs-69d7abd6ec55a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b1ccefb31bd10a410a732a80b1a70207",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045927"
         }
       ]
     }

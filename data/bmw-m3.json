@@ -1142,14 +1142,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/27017611/2015-bmw-m3-695c1049ab89f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=593b3c65a1020c0583a21c7480a0499b",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1994927"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "56",
@@ -3098,7 +3099,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2de8d9f5f0a2486f9934e9502d3de500.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3115,7 +3116,8 @@
           "date": "2026-03-30"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "143",
@@ -6678,6 +6680,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060485335"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20226569"
         }
       ],
       "unlistedDate": "2026-03-26",
@@ -9463,14 +9469,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/28889547/2003-bmw-m3-69bca4bebbc27.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a261d334ac45c407a0f4da9d4aab8abb",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033506"
         }
       ],
-      "unlistedDate": "2026-03-25",
       "bodyType": "Coupe"
     },
     {
@@ -10318,14 +10323,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/dbe76c241c1e471799919f35f5a83c80.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120652747"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "473",
@@ -12308,13 +12314,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/3d31d7241b91464db09b23b7604e609f.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200875256"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "570",
@@ -12327,13 +12334,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/49e2a8e6db204952879f088ec9e0c1e5.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301150307"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "571",
@@ -12346,13 +12354,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/8c47311787bb44499c09ad34a6abc47c.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301145198"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "572",
@@ -12463,13 +12472,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041474/2017-bmw-m3-69cd3b00bd204.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b58bf1e71d9b255ded22cea92e6529ce",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2041474"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-10"
     },
     {
       "id": "578",
@@ -12801,6 +12811,196 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2045364"
+        }
+      ]
+    },
+    {
+      "id": "595",
+      "title": "2008 Used  BMW M3",
+      "price": "£28,995",
+      "year": 2008,
+      "mileage": "71,123 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/3-series/4-0-m3-saloon/bmw-3-series-4-0-m3-saloon-1425167115-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20226337"
+        }
+      ]
+    },
+    {
+      "id": "596",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Touring 5dr Petrol Steptronic M xDrive Euro 6 (s/s) (510 ps)",
+      "price": "£79,995",
+      "year": 2023,
+      "mileage": "23,964 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/dc2948d79f074bd6adb0a2c906cb706c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511278192647"
+        }
+      ]
+    },
+    {
+      "id": "597",
+      "title": "2011 BMW M3 4.0 iV8 DCT Euro 5 2dr",
+      "price": "£21,795",
+      "year": 2011,
+      "mileage": "79,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/8533b1b977f84fdf9b4c1541c001cc9d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091411997"
+        }
+      ]
+    },
+    {
+      "id": "598",
+      "title": "2009 BMW M3 4.0 iV8 Coupe 2dr Petrol Manual Euro 4 (420 ps)",
+      "price": "£20,990",
+      "year": 2009,
+      "mileage": "74,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/9fbc8252e3284736a50a53627a6d3e0f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091407261"
+        }
+      ]
+    },
+    {
+      "id": "599",
+      "title": "2021 BMW M3 3.0 BiTurbo Competition Saloon 4dr Petrol Steptronic Euro 6 (s/s) (510 ps)",
+      "price": "£53,995",
+      "year": 2021,
+      "mileage": "41,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/8e4bc15fb4134c3e98e1d01ec46201e4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091420317"
+        }
+      ]
+    },
+    {
+      "id": "600",
+      "title": "2018 BMW M3 3.0 BiTurbo Competition DCT Euro 6 (s/s) 4dr",
+      "price": "£33,450",
+      "year": 2018,
+      "mileage": "52,900 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/93b37fc2e8af45b6a9e67692384b3d3b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091403897"
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "title": "2017 BMW M3 3.0 BiTurbo Competition Saloon 4dr Petrol DCT Euro 6 (s/s) (450 ps)",
+      "price": "£29,600",
+      "year": 2017,
+      "mileage": "75,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/c66aac4b2d9d4040ba1c3cfb7139c638.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081371619"
+        }
+      ]
+    },
+    {
+      "id": "602",
+      "title": "2025 BMW M3 3.0 BiTurbo Competition Saloon 4dr Petrol Steptronic M xDrive Euro 6 (s/s) (530 ps) LCI+BROOKLYN GREY+COMFORT PACK+2KEY",
+      "price": "£71,990",
+      "year": 2025,
+      "mileage": "5,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/182e812a543d4a7c87f06cbc9be428a9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011206448"
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "title": "2008 BMW M3 4.0 V8",
+      "price": "£19,995",
+      "year": "2008",
+      "mileage": "78,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29234960/2008-bmw-m3-69cc77ba4f6f3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f81af59e2593bfe0abcb59b807a3b463",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2040582"
+        }
+      ]
+    },
+    {
+      "id": "604",
+      "title": "2022 BMW M3 Competition M X Drive",
+      "price": "£76,950",
+      "year": "2022",
+      "mileage": "13,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://assets.carandclassic.com/uploads/new/29134763/2022-bmw-m3-69c7fbc6733ac.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9d3160b5d41801fbe6bd518b0473c15a",
+      "featured": false,
+      "dateAdded": "2026-04-10",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2038429"
         }
       ]
     }
