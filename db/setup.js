@@ -45,7 +45,7 @@ async function setup() {
       auth_provider   VARCHAR(20) DEFAULT 'email',
       created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
       last_login      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-      alert_frequency ENUM('instant', 'daily', 'weekly') DEFAULT 'daily',
+      alert_frequency ENUM('daily', 'weekly', 'monthly') DEFAULT 'weekly',
       alerts_enabled  BOOLEAN DEFAULT TRUE,
       INDEX idx_email (email)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4

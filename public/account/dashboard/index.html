@@ -520,9 +520,9 @@
         </div>
         <div>
           <select class="pref-select" id="alertFrequency">
-            <option value="instant">Instant</option>
-            <option value="daily" selected>Daily</option>
-            <option value="weekly">Weekly</option>
+            <option value="daily">Daily</option>
+            <option value="weekly" selected>Weekly</option>
+            <option value="monthly">Monthly</option>
           </select>
           <span class="save-status" id="saveStatus">Saved</span>
         </div>
@@ -593,7 +593,7 @@
       welcomeMsg.textContent = 'Welcome back, ' + name;
 
       alertsEnabled.checked = currentUser.alerts_enabled;
-      alertFrequency.value = currentUser.alert_frequency || 'daily';
+      alertFrequency.value = currentUser.alert_frequency || 'weekly';
 
       loadWatchlist();
       loadFavourites();

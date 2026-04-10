@@ -14,6 +14,11 @@ const multer = require('multer');
 const { createClient } = require('@supabase/supabase-js');
 const pool = require('../db/connection');
 const { requireAuth } = require('../middleware/auth');
+const {
+  getModelsMap,
+  getEstimatedValue,
+  buildCarHistorySeries,
+} = require('../scripts/lib/valuation');
 
 const router = Router();
 
@@ -59,146 +64,7 @@ async function deletePhotoFromStorage(photoUrl) {
   }
 }
 
-// ── Models cache ────────────────────────────────────────────────────────────
-
-let _modelsCache = null;
-function getModelsMap() {
-  if (_modelsCache) return _modelsCache;
-  try {
-    const raw = fs.readFileSync(path.join(__dirname, '..', 'data', 'models.json'), 'utf8');
-    const { models } = JSON.parse(raw);
-    _modelsCache = {};
-    for (const m of models) {
-      _modelsCache[m.slug] = {
-        make: m.make,
-        model: m.model,
-        heroImage: m.heroImage || '',
-        generations: m.generations || null,
-      };
-    }
-    return _modelsCache;
-  } catch {
-    return {};
-  }
-}
-
-// ── Generation resolver ─────────────────────────────────────────────────────
-
-function resolveGeneration(text, year, generations) {
-  if (!generations || generations.length === 0) return null;
-  if (text) {
-    for (const gen of generations) {
-      for (const pat of gen.patterns) {
-        const re = new RegExp(`\\b${pat}\\b`, 'i');
-        if (re.test(text)) return gen.name;
-      }
-    }
-  }
-  if (year) {
-    for (const gen of generations) {
-      if (year >= gen.years[0] && year <= gen.years[1]) return gen.name;
-    }
-  }
-  return null;
-}
-
-// ── Valuation helpers ───────────────────────────────────────────────────────
-
-function parsePrice(price) {
-  if (!price) return null;
-  const s = String(price).replace(/[^0-9]/g, '');
-  const n = s ? parseInt(s, 10) : null;
-  return n && n > 0 ? n : null;
-}
-
-function median(arr) {
-  if (arr.length === 0) return null;
-  const sorted = [...arr].sort((a, b) => a - b);
-  const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 === 0
-    ? Math.round((sorted[mid - 1] + sorted[mid]) / 2)
-    : sorted[mid];
-}
-
-/**
- * Filter listings to match a portfolio car's characteristics.
- */
-function filterListingsForCar(listings, car, generations) {
-  return listings.filter(l => {
-    if (l.status !== 'active') return false;
-
-    // Year: +-2 years
-    if (car.year && l.year) {
-      if (Math.abs(l.year - car.year) > 2) return false;
-    }
-
-    // Generation
-    if (car.generation && generations) {
-      const listingGen = resolveGeneration(l.title, l.year, generations);
-      if (listingGen !== car.generation) return false;
-    }
-
-    // Transmission
-    if (car.transmission) {
-      const lt = (l.transmission || '').toLowerCase();
-      const ct = car.transmission.toLowerCase();
-      if (ct.includes('manual') && !lt.includes('manual')) return false;
-      if (!ct.includes('manual') && lt.includes('manual')) return false;
-      if (!ct.includes('manual') && !lt.includes(ct) && !ct.includes(lt)) return false;
-    }
-
-    // Body type
-    if (car.body_type) {
-      const lb = (l.bodyType || '').toLowerCase();
-      if (lb && lb !== car.body_type.toLowerCase()) return false;
-    }
-
-    return true;
-  });
-}
-
-/**
- * Get estimated current value for a portfolio car.
- * Returns { estimatedValue, comparableCount, broadEstimate, marketMedian }.
- */
-function getEstimatedValue(slug, car) {
-  try {
-    const filePath = path.join(__dirname, '..', 'data', `${slug}.json`);
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    const modelsMap = getModelsMap();
-    const modelInfo = modelsMap[slug] || {};
-    const generations = modelInfo.generations || null;
-
-    const activeListings = (data.listings || []).filter(l => l.status === 'active');
-
-    // All active prices for market median
-    const allPrices = activeListings.map(l => parsePrice(l.price)).filter(Boolean);
-    const marketMedian = median(allPrices);
-
-    // Filtered prices for car-specific estimate
-    const filtered = filterListingsForCar(activeListings, car, generations);
-    const filteredPrices = filtered.map(l => parsePrice(l.price)).filter(Boolean);
-
-    if (filteredPrices.length >= 3) {
-      return {
-        estimatedValue: median(filteredPrices),
-        comparableCount: filteredPrices.length,
-        broadEstimate: false,
-        marketMedian,
-      };
-    }
-
-    // Fallback to unfiltered median
-    return {
-      estimatedValue: marketMedian,
-      comparableCount: allPrices.length,
-      broadEstimate: true,
-      marketMedian,
-    };
-  } catch {
-    return { estimatedValue: null, comparableCount: 0, broadEstimate: true, marketMedian: null };
-  }
-}
+// ── Enrichment ──────────────────────────────────────────────────────────────
 
 /**
  * Enrich a portfolio DB row with valuation data and display name.
@@ -308,33 +174,7 @@ router.get('/:id/history', requireAuth, async (req, res) => {
     if (rows.length === 0) {
       return res.status(404).json({ error: 'Car not found' });
     }
-
-    const car = rows[0];
-    const historyPath = path.join(__dirname, '..', 'data', 'history', `${car.model_slug}.json`);
-
-    if (!fs.existsSync(historyPath)) {
-      return res.json({ history: [] });
-    }
-
-    const snapshots = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
-    const modelsMap = getModelsMap();
-    const modelInfo = modelsMap[car.model_slug] || {};
-    const generations = modelInfo.generations || null;
-
-    const history = [];
-    for (const snapshot of snapshots) {
-      const filtered = filterListingsForCar(snapshot.listings || [], car, generations);
-      const prices = filtered.map(l => parsePrice(l.price)).filter(Boolean);
-
-      if (prices.length > 0) {
-        history.push({
-          date: snapshot.date,
-          estimatedValue: median(prices),
-          listingCount: prices.length,
-        });
-      }
-    }
-
+    const history = buildCarHistorySeries(rows[0].model_slug, rows[0]);
     res.json({ history });
   } catch (err) {
     console.error('Portfolio history error:', err);

@@ -10,6 +10,7 @@ const authRoutes = require('./routes/auth');
 const watchlistRoutes = require('./routes/watchlist');
 const favouritesRoutes = require('./routes/favourites');
 const portfolioRoutes = require('./routes/portfolio');
+const alertsRoutes = require('./routes/alerts');
 const { attachUser } = require('./middleware/auth');
 
 const app = express();
@@ -26,6 +27,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/watchlist', watchlistRoutes);
 app.use('/api/favourites', favouritesRoutes);
 app.use('/api/portfolio', portfolioRoutes);
+app.use('/api/alerts', alertsRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

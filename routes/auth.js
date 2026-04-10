@@ -144,7 +144,7 @@ router.put('/preferences', requireAuth, async (req, res) => {
   const values = [];
 
   if (alert_frequency !== undefined) {
-    if (!['instant', 'daily', 'weekly'].includes(alert_frequency)) {
+    if (!['daily', 'weekly', 'monthly'].includes(alert_frequency)) {
       return res.status(400).json({ error: 'Invalid alert_frequency' });
     }
     updates.push('alert_frequency = ?');

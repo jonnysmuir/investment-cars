@@ -27,7 +27,8 @@ routes/
   auth.js                         # Auth API (callback, logout, me, refresh, preferences)
   watchlist.js                    # Watchlist CRUD API (all requireAuth)
   favourites.js                   # Favourites CRUD API (all requireAuth)
-  portfolio.js                    # Portfolio CRUD API with valuation logic (all requireAuth)
+  portfolio.js                    # Portfolio CRUD API (uses scripts/lib/valuation.js)
+  alerts.js                       # GET /api/alerts/unsubscribe — HMAC-signed one-click unsub (no auth)
 data/
   models.json                      # Master registry (slug, make, model, hero image, description, scraper configs)
   {slug}.json                      # Current listings per model
@@ -48,6 +49,11 @@ public/
   account/reset-password/index.html # Password reset form
 scripts/
   refresh.js                       # Main orchestrator (dedup, price tracking, unlisted detection)
+  send-user-alerts.js              # Per-user digest email engine (runs after refresh)
+  lib/
+    valuation.js                   # Shared portfolio valuation logic (used by routes + alert engine)
+    alert-email.js                 # HTML + plain-text builder for user digest emails
+    unsubscribe-token.js           # HMAC-signed one-click unsubscribe tokens
   scrape-glenmarch.js              # Glenmarch auction scraper
   scrape-cc-sold.js                # Collecting Cars sold scraper
   scrape-cc-sold-bulk.js           # Collecting Cars bulk sold scraper
@@ -101,6 +107,7 @@ All filtered to GBP/UK market only.
 - `PUT /api/portfolio/:id` — Update a car's details (requires auth)
 - `DELETE /api/portfolio/:id` — Remove a car from portfolio. Also deletes the car's photo from Supabase Storage if one exists (requires auth)
 - `POST /api/portfolio/upload-photo` — Upload a car photo (multipart/form-data with `photo` field and optional `portfolioId`). Validates JPEG/PNG/WebP, max 5MB. Returns `{ photoUrl }` (requires auth)
+- `GET /api/alerts/unsubscribe?token={token}` — One-click unsubscribe from user digest emails. Token is an HMAC-SHA256 signature of the user id using `UNSUBSCRIBE_SECRET`. On success, sets `alerts_enabled = FALSE` for the user and returns a branded HTML confirmation page. **No auth required** — users click this from their inbox without being logged in.
 
 ## Key Server Logic & Conventions
 - **Variant normalisation**: Maps listing titles → categories (Scuderia, Pista, Spider, Convertible, GTS, etc.)
@@ -321,6 +328,72 @@ These must be set on Hostinger in addition to the existing DB credentials:
 - **Image fallbacks**: All model/listing images use `onerror` handlers to show a dark placeholder with the model name instead of broken image icons.
 - **Contact page**: `public/contact/index.html` — standalone page with the contact form (previously embedded in the homepage). All nav "Get in Touch" links across the site now point to `/contact`.
 - **Navigation**: Main nav is: Listings, Analysis, Sign In/user dropdown, theme toggle. No more Home 1-4 links.
+
+## User Alert Engine
+The alert engine (`scripts/send-user-alerts.js`) runs after every daily refresh in GitHub Actions and sends personalised digest emails to users. Each user chooses their delivery frequency (daily / weekly / monthly) from the dashboard preferences.
+
+### Frequency and eligibility
+- **daily** — email goes out every day
+- **weekly** — email goes out only on **Sundays** (local day-of-week === 0)
+- **monthly** — email goes out only on the **1st of the month**
+
+The default for new users is `weekly`. The `alert_frequency` column is an ENUM `('daily','weekly','monthly')` on the `users` table. The old `'instant'` value has been removed — for existing databases, run: `ALTER TABLE users MODIFY COLUMN alert_frequency ENUM('daily', 'weekly', 'monthly') DEFAULT 'weekly';`
+
+### Lookback windows
+- **daily** — listings added today only; portfolio compared to yesterday's snapshot
+- **weekly** — listings added in the last 7 days; portfolio compared to 7 days ago
+- **monthly** — listings added in the last 30 days; portfolio compared to 30 days ago
+
+### What each digest contains
+1. **Portfolio value changes** — only cars that moved by more than **2%** in either direction over the lookback window. Uses the shared valuation logic to compute today's estimated value and the historical value from the appropriate `data/history/{slug}.json` snapshot. If no comparable snapshot exists (new portfolio car, history not yet built up), that car is silently skipped rather than erroring.
+2. **New listings on watchlist** — grouped by watchlist entry. Respects each entry's saved filters (year range, generation, transmission, body type, source, variant) and the `notify_new_listings` flag. Capped at 5 listings per group with an "and X more — view all →" link to the model's page on collectorly.io.
+3. **Price drops** — uses each listing's `priceHistory` array. The baseline is the last entry strictly before the lookback window; if the current price is lower than the baseline, the drop is reported. Respects the watchlist entry's filters and the `notify_price_drops` flag.
+
+Empty digests are **never sent** — a user with no portfolio changes, no new matching listings, and no price drops is skipped entirely.
+
+### Shared valuation module
+`scripts/lib/valuation.js` is imported by both `routes/portfolio.js` (the live API) and `scripts/send-user-alerts.js` (the nightly engine) to avoid duplicating the filtering and median-calculation logic. Exports: `parsePrice`, `median`, `resolveGeneration`, `filterListingsForCar`, `getModelsMap`, `loadModelListings`, `loadModelHistory`, `getEstimatedValue`, `getHistoricalValue`, `buildCarHistorySeries`. The functions are pure — they take data in and return numbers out — which makes them easy to test and share.
+
+### Email template
+`scripts/lib/alert-email.js` builds both the HTML and plain-text versions of each digest. Styling matches the existing scraper-summary email: dark header (`#0a0a0a`) with gold `COLLECTORLY` wordmark and accent bars (`#c9a84c`), a white content card below, and a small footer with Manage / Unsubscribe / copyright links. Gains show in green (`#16a34a`), losses in red (`#dc2626`).
+
+### Unsubscribe mechanism
+Each email's footer contains a signed unsubscribe link:
+```
+https://collectorly.io/api/alerts/unsubscribe?token={base64url(userId).base64url(hmac_sha256(userId, SECRET))}
+```
+`scripts/lib/unsubscribe-token.js` signs and verifies tokens using `UNSUBSCRIBE_SECRET`. If the secret isn't set, `buildUnsubscribeToken()` returns `null` and `verifyUnsubscribeToken()` always rejects — we refuse to fall back to a default so a misconfigured env can't silently disable every user's alerts. The route is mounted at `/api/alerts/unsubscribe` and is deliberately **not behind `requireAuth`** — users click the link from their inbox without being logged in.
+
+### CLI usage
+```
+node scripts/send-user-alerts.js                  # send alerts for all eligible users
+node scripts/send-user-alerts.js --dry-run        # build digests but don't actually send
+node scripts/send-user-alerts.js --user <id>      # target a single user (ignores frequency check)
+node scripts/send-user-alerts.js --force-frequency # ignore the day-of-week/month gate
+```
+`--user <id> --force-frequency` together is the standard test combo — e.g. send yourself a weekly digest on a Wednesday to review the layout.
+
+### Runtime behaviour
+- **Rate limiting**: 2-second delay between sends to stay under Gmail's per-minute limit
+- **Fault tolerance**: a failed email for one user does not block the rest of the queue — errors are logged to `scripts/alert-summary.md` and the script exits with code 1 if any errors occurred
+- **Summary output**: `scripts/alert-summary.md` always gets written with users checked / eligible / with content / sent / errors. In GitHub Actions, a `::notice::` line is also printed so the summary appears in the Actions UI.
+- **Missing credentials**: if `GMAIL_USER`/`GMAIL_APP_PASSWORD` are missing, the script auto-downgrades to dry-run mode (warns but doesn't crash). If `UNSUBSCRIBE_SECRET` is missing, it warns and omits the unsubscribe link.
+
+### Environment variables
+Required on Hostinger (dashboard unsubscribe endpoint) and in GitHub Actions secrets (nightly script):
+- `UNSUBSCRIBE_SECRET` — HMAC secret, 32-byte hex. Generate with: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`. Set in `.env` locally, on Hostinger, and in GitHub Actions secrets. **Must be identical across all three** — a rotation invalidates every in-flight unsubscribe link.
+
+Required **only** in GitHub Actions (the nightly alert script):
+- `GMAIL_USER` / `GMAIL_APP_PASSWORD` — same creds used by `scripts/send-email.js`
+- `DB_HOST` / `DB_USER` / `DB_PASSWORD` / `DB_NAME` — MySQL creds for **remote** access from GitHub Actions runners
+- `UNSUBSCRIBE_SECRET`
+
+### GitHub Actions setup
+The alert script runs as a new workflow step after the existing email step. See the project README / the output at the time this feature was implemented for the exact YAML block. Important gotchas:
+
+- **`DB_HOST` must be a remote hostname, not `127.0.0.1`** — GitHub Actions runners can't reach Hostinger's local MySQL. Use `srv2111.hstgr.io` (or the numeric `77.37.35.122`) — find the correct value in the Hostinger control panel under **Databases → Remote MySQL**.
+- **Hostinger Remote MySQL must allow the connection**. Under **Databases → Remote MySQL**, either add the GitHub Actions egress IP ranges (which rotate — annoying) or set access host to `%` ("Any Host"). Any-host is the practical choice for this workflow but means your DB is reachable from anywhere with valid credentials, so ensure the DB password is strong.
+- **`if: steps.check.outputs.has_changes == 'true'`** — the step only runs when the refresh actually produced changes, matching the existing email step's behaviour.
 
 ## Common Pitfalls
 - Scraper failures can cause false "unlisted" detections — the 3-day rule in `.state/` files prevents this
