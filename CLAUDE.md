@@ -99,7 +99,8 @@ All filtered to GBP/UK market only.
 - `GET /api/portfolio/:id/history` — Historical valuation data points for a specific car, filtered by car characteristics from `data/history/{slug}.json` (requires auth)
 - `POST /api/portfolio` — Add a car to portfolio. Body: `{ modelSlug, year, variant, generation, transmission, bodyType, purchasePrice, purchaseDate, mileageAtPurchase, currentMileage, colour, notes }`. Validates modelSlug exists in models.json (requires auth)
 - `PUT /api/portfolio/:id` — Update a car's details (requires auth)
-- `DELETE /api/portfolio/:id` — Remove a car from portfolio (requires auth)
+- `DELETE /api/portfolio/:id` — Remove a car from portfolio. Also deletes the car's photo from Supabase Storage if one exists (requires auth)
+- `POST /api/portfolio/upload-photo` — Upload a car photo (multipart/form-data with `photo` field and optional `portfolioId`). Validates JPEG/PNG/WebP, max 5MB. Returns `{ photoUrl }` (requires auth)
 
 ## Key Server Logic & Conventions
 - **Variant normalisation**: Maps listing titles → categories (Scuderia, Pista, Spider, Convertible, GTS, etc.)
@@ -265,7 +266,10 @@ These must be set on Hostinger in addition to the existing DB credentials:
 - **Valuation logic** (`routes/portfolio.js`): Loads `data/{slug}.json`, filters active listings by the car's year (+-2), generation, transmission, and body type. Computes median of filtered prices as the estimated value. Falls back to unfiltered model median with `broadEstimate: true` if fewer than 3 comparable listings.
 - **History endpoint**: Reads `data/history/{slug}.json`, filters each daily snapshot by car characteristics, computes median per date to produce a time series of `{ date, estimatedValue, listingCount }` points.
 - **Portfolio totals**: GET /api/portfolio returns per-car valuations plus aggregate `totalPurchasePrice`, `totalEstimatedValue`, `totalGainLoss`, `totalGainLossPercent`.
-- **Dashboard UI**: Summary bar (total value, invested, gain/loss, car count), car cards with sparkline SVG charts, inline edit forms, add car form with model autocomplete and dynamic generation dropdown.
+- **Dashboard UI**: Summary bar (total value, invested, gain/loss, car count), car cards with sparkline SVG charts, inline edit forms, add car form with cascading Make/Model/Generation dropdowns, and per-car photo thumbnails.
+- **Photo upload**: Cars can have an optional photo stored in the Supabase Storage public bucket `portfolio-photos`. Photos are uploaded through the backend via `multer` (memory storage, 5MB limit, JPEG/PNG/WebP only). File paths are namespaced per user: `{userId}/{portfolioId}-{timestamp}.{ext}`. The frontend Add/Edit forms show a drag-and-drop zone; preview is generated client-side with `URL.createObjectURL()` and the actual upload happens on form submit. When a photo is replaced or removed, the old file is deleted from storage in the PUT handler. When a portfolio car is deleted, its photo is also deleted. Car cards show the photo as a 120x80 thumbnail with a dark placeholder fallback showing the car name when no photo exists.
+- **Existing DBs need this ALTER**: `ALTER TABLE portfolio ADD COLUMN photo_url VARCHAR(500) NULL AFTER notes;`
+- **Required Supabase setup**: Create a public bucket named `portfolio-photos` in the Supabase dashboard (Storage → New bucket → make public). The server uses `SUPABASE_SECRET_KEY` (already set) to upload via the Supabase JS client.
 - **SQL for phpMyAdmin** (run once for existing databases):
   ```sql
   CREATE TABLE IF NOT EXISTS portfolio (
@@ -283,6 +287,7 @@ These must be set on Hostinger in addition to the existing DB credentials:
     current_mileage INT NULL,
     colour VARCHAR(100) NULL,
     notes TEXT NULL,
+    photo_url VARCHAR(500) NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     INDEX idx_user (user_id),

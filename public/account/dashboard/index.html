@@ -339,6 +339,56 @@
     .port-chart-legend .legend-value::before { background: var(--color-accent); }
     .port-chart-legend .legend-purchase::before { background: var(--color-text-muted); }
 
+    /* Photo upload */
+    .port-photo-zone {
+      grid-column: 1 / -1;
+      border: 2px dashed var(--color-border); border-radius: 8px;
+      padding: 1.25rem; text-align: center; cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      min-height: 120px; display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 0.4rem; position: relative;
+    }
+    .port-photo-zone:hover, .port-photo-zone.drag-over {
+      border-color: var(--color-accent); background: rgba(201, 168, 76, 0.05);
+    }
+    .port-photo-zone-icon { font-size: 1.5rem; color: var(--color-text-muted); }
+    .port-photo-zone-text { font-size: 0.85rem; color: var(--color-text-muted); }
+    .port-photo-zone-sub { font-size: 0.7rem; color: var(--color-text-muted); opacity: 0.7; }
+    .port-photo-preview {
+      max-width: 100%; max-height: 200px; border-radius: 6px; object-fit: cover;
+    }
+    .port-photo-clear {
+      position: absolute; top: 6px; right: 6px;
+      background: rgba(0, 0, 0, 0.6); color: #fff; border: none;
+      width: 24px; height: 24px; border-radius: 50%; cursor: pointer;
+      font-size: 0.9rem; line-height: 1; display: flex; align-items: center; justify-content: center;
+    }
+    .port-photo-clear:hover { background: rgba(220, 53, 69, 0.9); }
+
+    .port-photo-current {
+      grid-column: 1 / -1; position: relative;
+      text-align: center; padding-bottom: 0.5rem;
+    }
+    .port-photo-current img {
+      max-width: 100%; max-height: 200px; border-radius: 8px; object-fit: cover;
+    }
+    .port-photo-actions {
+      display: flex; gap: 0.5rem; justify-content: center; margin-top: 0.5rem;
+    }
+
+    /* Car card photo */
+    .port-card-photo {
+      width: 120px; height: 80px; border-radius: 6px; object-fit: cover;
+      flex-shrink: 0; background: var(--color-border);
+    }
+    .port-card-photo-placeholder {
+      width: 120px; height: 80px; border-radius: 6px; flex-shrink: 0;
+      background: var(--color-bg); border: 1px solid var(--color-border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; color: var(--color-text-muted); text-align: center;
+      padding: 0.25rem; line-height: 1.2;
+    }
+
     .port-disclaimer {
       font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.75rem;
       padding-top: 0.5rem; border-top: 1px solid var(--color-border);
@@ -845,6 +895,122 @@
       );
     }
 
+    // Photo upload helpers ─────────────────────────────────────────────────
+
+    function buildPhotoZoneHtml(prefix) {
+      return '<div class="port-photo-zone ' + prefix + '-photo-zone">' +
+        '<input type="file" class="' + prefix + '-photo-input" accept="image/jpeg,image/png,image/webp" style="display:none">' +
+        '<div class="' + prefix + '-photo-placeholder">' +
+          '<div class="port-photo-zone-icon">\uD83D\uDCF7</div>' +
+          '<div class="port-photo-zone-text">Upload a photo of your car</div>' +
+          '<div class="port-photo-zone-sub">Click or drag a JPG, PNG or WebP (max 5MB)</div>' +
+        '</div>' +
+        '</div>';
+    }
+
+    function wirePhotoZone(container, prefix, onFileSelected) {
+      const zone = container.querySelector('.' + prefix + '-photo-zone');
+      const input = container.querySelector('.' + prefix + '-photo-input');
+      if (!zone || !input) return;
+
+      let currentFile = null;
+      let previewUrl = null;
+
+      const state = { getFile: () => currentFile };
+      zone.__photoState = state;
+
+      function clearPreview() {
+        currentFile = null;
+        if (previewUrl) { URL.revokeObjectURL(previewUrl); previewUrl = null; }
+        zone.innerHTML =
+          '<input type="file" class="' + prefix + '-photo-input" accept="image/jpeg,image/png,image/webp" style="display:none">' +
+          '<div class="' + prefix + '-photo-placeholder">' +
+            '<div class="port-photo-zone-icon">\uD83D\uDCF7</div>' +
+            '<div class="port-photo-zone-text">Upload a photo of your car</div>' +
+            '<div class="port-photo-zone-sub">Click or drag a JPG, PNG or WebP (max 5MB)</div>' +
+          '</div>';
+        // Re-wire the new input
+        const newInput = zone.querySelector('.' + prefix + '-photo-input');
+        newInput.addEventListener('change', handleFileSelect);
+      }
+
+      function handleFile(file) {
+        if (!file) return;
+        const allowed = ['image/jpeg', 'image/png', 'image/webp'];
+        if (!allowed.includes(file.type)) {
+          alert('Invalid file type. Please use JPG, PNG, or WebP.');
+          return;
+        }
+        if (file.size > 5 * 1024 * 1024) {
+          alert('File too large. Max 5MB.');
+          return;
+        }
+        currentFile = file;
+        if (previewUrl) URL.revokeObjectURL(previewUrl);
+        previewUrl = URL.createObjectURL(file);
+        zone.innerHTML =
+          '<img class="port-photo-preview" src="' + previewUrl + '" alt="Preview">' +
+          '<button type="button" class="port-photo-clear" title="Remove">\u00d7</button>';
+        const clearBtn = zone.querySelector('.port-photo-clear');
+        clearBtn.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          clearPreview();
+        });
+        if (onFileSelected) onFileSelected(file);
+      }
+
+      function handleFileSelect(e) {
+        const file = e.target.files && e.target.files[0];
+        handleFile(file);
+      }
+
+      input.addEventListener('change', handleFileSelect);
+
+      zone.addEventListener('click', (e) => {
+        if (e.target.closest('.port-photo-clear')) return;
+        if (e.target.closest('.port-photo-preview')) return;
+        const currentInput = zone.querySelector('.' + prefix + '-photo-input');
+        if (currentInput) currentInput.click();
+      });
+
+      ['dragenter', 'dragover'].forEach(ev => {
+        zone.addEventListener(ev, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          zone.classList.add('drag-over');
+        });
+      });
+      ['dragleave', 'drop'].forEach(ev => {
+        zone.addEventListener(ev, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          zone.classList.remove('drag-over');
+        });
+      });
+      zone.addEventListener('drop', (e) => {
+        const file = e.dataTransfer.files && e.dataTransfer.files[0];
+        handleFile(file);
+      });
+
+      return state;
+    }
+
+    async function uploadPhotoFile(file, portfolioId) {
+      const formData = new FormData();
+      formData.append('photo', file);
+      if (portfolioId) formData.append('portfolioId', String(portfolioId));
+      const resp = await fetch('/api/portfolio/upload-photo', {
+        method: 'POST',
+        body: formData,
+      });
+      if (!resp.ok) {
+        const err = await resp.json().catch(() => ({}));
+        throw new Error(err.error || 'Upload failed');
+      }
+      const data = await resp.json();
+      return data.photoUrl;
+    }
+
     function wireMakeModelGenCascade(container, prefix) {
       const makeSel = container.querySelector('.' + prefix + '-make');
       const modelSel = container.querySelector('.' + prefix + '-model');
@@ -1022,8 +1188,13 @@
         ? 'Broad estimate \u2014 few comparable listings'
         : 'Based on ' + car.comparableCount + ' similar listing' + (car.comparableCount === 1 ? '' : 's');
 
+      const photoHtml = car.photo_url
+        ? '<img class="port-card-photo" src="' + car.photo_url + '" alt="" loading="lazy" onerror="this.outerHTML=\'<div class=&quot;port-card-photo-placeholder&quot;>' + (yearStr + car.displayName).replace(/"/g, '') + '</div>\'">'
+        : '<div class="port-card-photo-placeholder">' + (yearStr + car.displayName) + '</div>';
+
       return '<div class="port-card" data-port-id="' + car.id + '">' +
         '<div class="port-card-top">' +
+          photoHtml +
           '<div class="port-card-info">' +
             '<a href="/cars/' + car.model_slug + '/" class="port-card-name">' + yearStr + car.displayName + '</a>' +
             (details ? '<div class="port-card-detail">' + details + '</div>' : '') +
@@ -1113,6 +1284,18 @@
             const resp = await fetch('/api/portfolio/' + id);
             const { car } = await resp.json();
             let h = '<div class="port-form-grid">';
+            // Photo section
+            if (car.photo_url) {
+              h += '<div class="port-photo-current">' +
+                '<img src="' + car.photo_url + '" alt="Current photo">' +
+                '<div class="port-photo-actions">' +
+                  '<button type="button" class="dash-edit-cancel port-replace-photo" data-port-id="' + id + '">Replace photo</button>' +
+                  '<button type="button" class="dash-edit-cancel port-remove-photo" data-port-id="' + id + '">Remove photo</button>' +
+                '</div>' +
+                '</div>';
+            } else {
+              h += buildPhotoZoneHtml('pe');
+            }
             h += buildMakeModelGenFields('pe', car.model_slug, car.generation);
             h += '<div class="port-form-field"><label>Year</label><input type="number" class="pe-year" value="' + (car.year || '') + '"></div>';
             h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pe-variant" value="' + (car.variant || '') + '"></div>';
@@ -1129,9 +1312,51 @@
             panel.innerHTML = h;
             panel.style.display = 'block';
             wireMakeModelGenCascade(panel, 'pe');
+            // Wire photo zone if present (car had no photo)
+            if (!car.photo_url) {
+              wirePhotoZone(panel, 'pe');
+            }
+            // Store the existing photo URL on the panel for the save flow
+            panel.dataset.currentPhotoUrl = car.photo_url || '';
+            panel.dataset.photoAction = '';
           } catch {
             panel.innerHTML = '<p style="font-size:0.8rem;color:var(--color-text-muted)">Failed to load details.</p>';
             panel.style.display = 'block';
+          }
+          return;
+        }
+
+        // Replace photo — swap the current photo display for an upload zone
+        const replaceBtn = e.target.closest('.port-replace-photo');
+        if (replaceBtn) {
+          const id = replaceBtn.dataset.portId;
+          const panel = document.getElementById('portEditPanel' + id);
+          const currentDiv = panel.querySelector('.port-photo-current');
+          if (currentDiv) {
+            const grid = currentDiv.parentElement;
+            const zoneDiv = document.createElement('div');
+            zoneDiv.innerHTML = buildPhotoZoneHtml('pe');
+            grid.replaceChild(zoneDiv.firstChild, currentDiv);
+            wirePhotoZone(panel, 'pe');
+            panel.dataset.photoAction = 'replace';
+          }
+          return;
+        }
+
+        // Remove photo — mark for removal and show placeholder zone
+        const removePhotoBtn = e.target.closest('.port-remove-photo');
+        if (removePhotoBtn) {
+          if (!confirm('Remove this photo?')) return;
+          const id = removePhotoBtn.dataset.portId;
+          const panel = document.getElementById('portEditPanel' + id);
+          const currentDiv = panel.querySelector('.port-photo-current');
+          if (currentDiv) {
+            const grid = currentDiv.parentElement;
+            const zoneDiv = document.createElement('div');
+            zoneDiv.innerHTML = buildPhotoZoneHtml('pe');
+            grid.replaceChild(zoneDiv.firstChild, currentDiv);
+            wirePhotoZone(panel, 'pe');
+            panel.dataset.photoAction = 'remove';
           }
           return;
         }
@@ -1159,6 +1384,22 @@
           if (mc) body.currentMileage = parseInt(mc);
           body.colour = panel.querySelector('.pe-colour').value.trim() || null;
           body.notes = panel.querySelector('.pe-notes').value.trim() || null;
+
+          // Photo handling
+          const photoZone = panel.querySelector('.pe-photo-zone');
+          const pendingFile = photoZone && photoZone.__photoState ? photoZone.__photoState.getFile() : null;
+          if (pendingFile) {
+            // Upload new photo (replacement or first-time add)
+            try {
+              const photoUrl = await uploadPhotoFile(pendingFile, id);
+              body.photoUrl = photoUrl;
+            } catch (uploadErr) {
+              alert('Photo upload failed: ' + uploadErr.message);
+              return;
+            }
+          } else if (panel.dataset.photoAction === 'remove') {
+            body.photoUrl = null;
+          }
 
           const resp = await fetch('/api/portfolio/' + id, {
             method: 'PUT',
@@ -1196,6 +1437,7 @@
         }
 
         let h = '<div class="port-form"><div class="port-form-grid">';
+        h += buildPhotoZoneHtml('pa');
         h += buildMakeModelGenFields('pa', null, null);
         h += '<div class="port-form-field"><label>Year</label><input type="number" class="pa-year" placeholder="e.g. 2018"></div>';
         h += '<div class="port-form-field"><label>Variant</label><input type="text" class="pa-variant" placeholder="e.g. Speciale, Competition"></div>';
@@ -1216,6 +1458,9 @@
 
         // Wire cascading dropdowns
         wireMakeModelGenCascade(formContainer, 'pa');
+
+        // Wire photo zone
+        const photoState = wirePhotoZone(formContainer, 'pa');
 
         // Save new car
         document.getElementById('portSaveNew').addEventListener('click', async () => {
@@ -1254,12 +1499,31 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body),
           });
-          if (resp.ok) {
-            loadPortfolio();
-          } else {
+          if (!resp.ok) {
             const err = await resp.json().catch(() => ({}));
             alert(err.error || 'Failed to add car.');
+            return;
           }
+
+          const { car: newCar } = await resp.json();
+
+          // Upload photo if one was selected
+          const photoFile = photoState && photoState.getFile();
+          if (photoFile) {
+            try {
+              const photoUrl = await uploadPhotoFile(photoFile, newCar.id);
+              await fetch('/api/portfolio/' + newCar.id, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ photoUrl }),
+              });
+            } catch (uploadErr) {
+              console.error('Photo upload failed:', uploadErr);
+              alert('Car saved, but the photo could not be uploaded: ' + uploadErr.message);
+            }
+          }
+
+          loadPortfolio();
         });
 
         document.getElementById('portCancelNew').addEventListener('click', () => {

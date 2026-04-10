@@ -105,6 +105,7 @@ async function setup() {
       current_mileage INT NULL,
       colour          VARCHAR(100) NULL,
       notes           TEXT NULL,
+      photo_url       VARCHAR(500) NULL,
       created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
       updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       INDEX idx_user (user_id),

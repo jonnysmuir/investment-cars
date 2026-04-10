@@ -10,10 +10,54 @@
 const { Router } = require('express');
 const path = require('path');
 const fs = require('fs');
+const multer = require('multer');
+const { createClient } = require('@supabase/supabase-js');
 const pool = require('../db/connection');
 const { requireAuth } = require('../middleware/auth');
 
 const router = Router();
+
+// ── Supabase Storage client ─────────────────────────────────────────────────
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SECRET_KEY
+);
+
+const STORAGE_BUCKET = 'portfolio-photos';
+
+// Multer: memory storage, 5MB limit, image types only
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 5 * 1024 * 1024 },
+  fileFilter: (req, file, cb) => {
+    const allowed = ['image/jpeg', 'image/png', 'image/webp'];
+    if (allowed.includes(file.mimetype)) cb(null, true);
+    else cb(new Error('Invalid file type. Only JPEG, PNG, and WebP are allowed.'));
+  },
+});
+
+/**
+ * Parse a Supabase storage public URL into a storage path.
+ * Returns null if not a recognisable public URL for our bucket.
+ */
+function storagePathFromPublicUrl(url) {
+  if (!url) return null;
+  const marker = `/storage/v1/object/public/${STORAGE_BUCKET}/`;
+  const idx = url.indexOf(marker);
+  if (idx === -1) return null;
+  return url.substring(idx + marker.length);
+}
+
+async function deletePhotoFromStorage(photoUrl) {
+  const storagePath = storagePathFromPublicUrl(photoUrl);
+  if (!storagePath) return;
+  try {
+    await supabase.storage.from(STORAGE_BUCKET).remove([storagePath]);
+  } catch (err) {
+    console.error('Failed to delete photo from storage:', err.message);
+  }
+}
 
 // ── Models cache ────────────────────────────────────────────────────────────
 
@@ -356,7 +400,7 @@ router.put('/:id', requireAuth, async (req, res) => {
     const allowedFields = [
       'model_slug', 'year', 'variant', 'generation', 'transmission', 'body_type',
       'purchase_price', 'purchase_date', 'mileage_at_purchase', 'current_mileage',
-      'colour', 'notes',
+      'colour', 'notes', 'photo_url',
     ];
 
     // Map camelCase request keys to snake_case DB columns
@@ -367,6 +411,7 @@ router.put('/:id', requireAuth, async (req, res) => {
       purchaseDate: 'purchase_date',
       mileageAtPurchase: 'mileage_at_purchase',
       currentMileage: 'current_mileage',
+      photoUrl: 'photo_url',
     };
 
     // Validate model_slug if provided
@@ -391,6 +436,13 @@ router.put('/:id', requireAuth, async (req, res) => {
       return res.status(400).json({ error: 'No valid fields to update' });
     }
 
+    // If photo_url is being changed or cleared, delete the old one from storage
+    const oldPhotoUrl = existing[0].photo_url;
+    const newPhotoUrl = req.body.photoUrl !== undefined ? req.body.photoUrl : req.body.photo_url;
+    if (oldPhotoUrl && newPhotoUrl !== undefined && newPhotoUrl !== oldPhotoUrl) {
+      await deletePhotoFromStorage(oldPhotoUrl);
+    }
+
     values.push(req.params.id, req.user.id);
     await pool.query(
       `UPDATE portfolio SET ${updates.join(', ')} WHERE id = ? AND user_id = ?`,
@@ -411,6 +463,15 @@ router.put('/:id', requireAuth, async (req, res) => {
  */
 router.delete('/:id', requireAuth, async (req, res) => {
   try {
+    // Fetch the photo_url before deleting so we can clean up storage
+    const [existing] = await pool.query(
+      'SELECT photo_url FROM portfolio WHERE id = ? AND user_id = ?',
+      [req.params.id, req.user.id]
+    );
+    if (existing.length === 0) {
+      return res.status(404).json({ error: 'Car not found' });
+    }
+
     const [result] = await pool.query(
       'DELETE FROM portfolio WHERE id = ? AND user_id = ?',
       [req.params.id, req.user.id]
@@ -418,11 +479,68 @@ router.delete('/:id', requireAuth, async (req, res) => {
     if (result.affectedRows === 0) {
       return res.status(404).json({ error: 'Car not found' });
     }
+
+    // Clean up photo from Supabase Storage (non-blocking — don't fail the delete if storage fails)
+    if (existing[0].photo_url) {
+      deletePhotoFromStorage(existing[0].photo_url);
+    }
+
     res.json({ success: true });
   } catch (err) {
     console.error('Portfolio DELETE error:', err);
     res.status(500).json({ error: 'Failed to remove car' });
   }
+});
+
+/**
+ * POST /api/portfolio/upload-photo
+ * Upload a photo for a portfolio car. Accepts multipart/form-data with
+ * a single "photo" field and an optional "portfolioId" field to namespace
+ * the filename. Returns the public URL of the uploaded image.
+ */
+router.post('/upload-photo', requireAuth, (req, res) => {
+  upload.single('photo')(req, res, async (err) => {
+    if (err) {
+      if (err.code === 'LIMIT_FILE_SIZE') {
+        return res.status(400).json({ error: 'File too large. Max 5MB.' });
+      }
+      return res.status(400).json({ error: err.message });
+    }
+
+    if (!req.file) {
+      return res.status(400).json({ error: 'No file uploaded' });
+    }
+
+    try {
+      // Determine extension from mime type
+      const extMap = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
+      const ext = extMap[req.file.mimetype] || 'bin';
+      const portfolioId = req.body.portfolioId || 'new';
+      const timestamp = Date.now();
+      const filePath = `${req.user.id}/${portfolioId}-${timestamp}.${ext}`;
+
+      const { error: uploadError } = await supabase.storage
+        .from(STORAGE_BUCKET)
+        .upload(filePath, req.file.buffer, {
+          contentType: req.file.mimetype,
+          upsert: true,
+        });
+
+      if (uploadError) {
+        console.error('Supabase upload error:', uploadError);
+        return res.status(500).json({ error: 'Failed to upload photo' });
+      }
+
+      const { data: urlData } = supabase.storage
+        .from(STORAGE_BUCKET)
+        .getPublicUrl(filePath);
+
+      res.json({ photoUrl: urlData.publicUrl });
+    } catch (err) {
+      console.error('Portfolio upload-photo error:', err);
+      res.status(500).json({ error: 'Failed to upload photo' });
+    }
+  });
 });
 
 module.exports = router;
