@@ -835,7 +835,7 @@
     {
       "id": "40",
       "title": "2024 Porsche Macan 2.9T V6 GTS PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£74,950",
+      "price": "£74,900",
       "year": 2024,
       "mileage": "13,500 miles",
       "transmission": "Unknown",
@@ -882,6 +882,10 @@
         {
           "price": "£74,900",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -975,7 +979,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1419582095-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -987,7 +991,8 @@
           "price": "£61,028",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "45",
@@ -1528,7 +1533,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2019465/2016-porsche-macan-69a0345117fa2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6205813f622d81f3f386a57ec1ac28d5",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1540,7 +1545,8 @@
           "price": "£31,995",
           "date": "2026-04-08"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "68",
@@ -3604,7 +3610,7 @@
     {
       "id": "154",
       "title": "2022 Porsche Macan 2.9T V6 S PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£47,990",
+      "price": "£46,898",
       "year": 2022,
       "mileage": "36,800 miles",
       "transmission": "Automatic",
@@ -3621,6 +3627,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18596793"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£47,990",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -3815,7 +3827,7 @@
       "price": "£41,333",
       "year": 2020,
       "mileage": "25,182 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/7da9ed19ecd84c6e97eeabc90b79f51a.jpg",
       "featured": false,
@@ -3825,6 +3837,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260248115"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20235532"
         }
       ],
       "priceHistory": [
@@ -5414,7 +5430,7 @@
     {
       "id": "235",
       "title": "2021 Porsche Macan 2.9T V6 GTS PDK 4WD Euro 6 (s/s) 5dr",
-      "price": "£41,949",
+      "price": "£43,950",
       "year": 2021,
       "mileage": "66,000 miles",
       "transmission": "Unknown",
@@ -5437,6 +5453,10 @@
         {
           "price": "£42,989",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£41,949",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -6790,7 +6810,7 @@
       "price": "£44,995",
       "year": 2022,
       "mileage": "38,728 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/43fe59df11da4b7cbec9603aba41a85a.jpg",
       "featured": false,
@@ -6800,6 +6820,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508295871749"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20039584"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -6887,7 +6911,7 @@
     {
       "id": "304",
       "title": "2025 Used  PORSCHE MACAN TURBO ELECTRIC",
-      "price": "£95,998",
+      "price": "£94,998",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -6895,14 +6919,19 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1419268621-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19943030"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£95,998",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "305",
@@ -7087,6 +7116,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190820335"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20044162"
         }
       ]
     },
@@ -8496,7 +8529,7 @@
     {
       "id": "383",
       "title": "2024 Used  PORSCHE MACAN 4 ELECTRIC",
-      "price": "£64,650",
+      "price": "£64,500",
       "year": 2024,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -8504,19 +8537,24 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/100kwh-4-suv-5dr-electric-auto-4wd-408-ps/porsche-macan-100kwh-4-suv-5dr-electric-auto-4wd-408-ps-1404059543-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19859490"
         }
       ],
-      "unlistedDate": "2026-04-06"
+      "priceHistory": [
+        {
+          "price": "£64,650",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "384",
       "title": "2025 Used  PORSCHE MACAN 4 ELECTRIC",
-      "price": "£67,700",
+      "price": "£70,500",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -8524,14 +8562,19 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/100kwh-4-auto-4wd-5dr/porsche-macan-100kwh-4-auto-4wd-5dr-1383483051-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19432059"
         }
       ],
-      "unlistedDate": "2026-04-06"
+      "priceHistory": [
+        {
+          "price": "£67,700",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "385",
@@ -9479,13 +9522,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/matching/porsche-macan-matching-1417629172-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19672484"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "432",
@@ -9578,13 +9622,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1406284895-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19566674"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "437",
@@ -9597,13 +9642,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-t-5dr-pdk/porsche-macan-estate-t-5dr-pdk-1398160894-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19832813"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "438",
@@ -9636,13 +9682,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/electric-estate-300kw-4-100kwh-5dr-auto/porsche-macan-electric-estate-300kw-4-100kwh-5dr-auto-1423148035-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19832906"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "440",
@@ -9870,13 +9917,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1359848575-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19420676"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "452",
@@ -9889,13 +9937,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/base/porsche-macan-base-1424206311-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20029210"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "453",
@@ -9908,13 +9957,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1398859970-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19845787"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "454",
@@ -9927,13 +9977,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/180kw-se-ev-long-range-77kwh-5dr-auto/porsche-macan-180kw-se-ev-long-range-77kwh-5dr-auto-1399190420-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19844509"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "455",
@@ -9946,13 +9997,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/macan/estate-265-5dr-pdk/porsche-macan-estate-265-5dr-pdk-1410989553-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20026430"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "456",
@@ -10850,6 +10902,101 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2036150"
+        }
+      ]
+    },
+    {
+      "id": "503",
+      "title": "2023 Used  PORSCHE macan",
+      "price": "£43,990",
+      "year": 2023,
+      "mileage": "20,754 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/t/porsche-macan-t-1425596547-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20234048"
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "title": "2023 Used  PORSCHE macan",
+      "price": "£51,999",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1387599394-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19694980"
+        }
+      ]
+    },
+    {
+      "id": "505",
+      "title": "2025 Used  PORSCHE MACAN T S-A",
+      "price": "£68,990",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/t-pdk/porsche-macan-t-pdk-1425924104-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18941091"
+        }
+      ]
+    },
+    {
+      "id": "506",
+      "title": "2023 Used  PORSCHE MACAN T S-A",
+      "price": "£56,950",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/porsche-macan-1356047184-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18677300"
+        }
+      ]
+    },
+    {
+      "id": "507",
+      "title": "2025 Used  PORSCHE macan",
+      "price": "£72,995",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/macan/macan-2-0/porsche-macan-macan-2-0-1425923787-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19676355"
         }
       ]
     }

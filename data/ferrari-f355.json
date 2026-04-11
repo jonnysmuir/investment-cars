@@ -786,14 +786,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1990394/1995-ferrari-f355-69a98df526ef2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0fa6b414496061e8c1e59decb585f0a9",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990394"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "39",
@@ -1478,7 +1479,7 @@
     {
       "id": "72",
       "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
-      "price": "£155,189",
+      "price": "£154,990",
       "year": 1996,
       "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
@@ -1545,6 +1546,10 @@
         {
           "price": "£154,990",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-11"
         }
       ]
     },

@@ -801,6 +801,14 @@
         {
           "price": "£114,989",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£118,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£114,989",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": "Coupe"
@@ -912,6 +920,14 @@
         {
           "price": "£139,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£136,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£139,995",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -996,6 +1012,14 @@
         {
           "price": "£131,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£131,995",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": null
@@ -1106,6 +1130,14 @@
         {
           "price": "£172,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£169,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£172,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1597,14 +1629,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9b14530cf6f94467887f59faa169d40e.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202401265914694"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "54",
@@ -1873,6 +1906,14 @@
         {
           "price": "£138,500",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£142,500",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£138,500",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": "Coupe"
@@ -2249,8 +2290,8 @@
       "price": "£128,990",
       "year": 2018,
       "mileage": "24,731 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/91d035c5d2284944b579f948dbd3df81.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
@@ -2259,6 +2300,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311175618"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20213664"
         }
       ]
     },
@@ -2334,7 +2379,7 @@
     {
       "id": "84",
       "title": "2019 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£118,000",
+      "price": "£114,450",
       "year": 2019,
       "mileage": "51,253 miles",
       "transmission": "F1 Automated Manual",
@@ -2347,6 +2392,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011219515"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£118,000",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2385,6 +2436,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081358091"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "title": "2017 McLaren 720S 4.0T V8 Performance SSG Euro 6 (s/s) 2dr",
+      "price": "£114,995",
+      "year": 2017,
+      "mileage": "44,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/6a77c2c2034743e7af493a2ceef72208.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091418462"
         }
       ]
     }

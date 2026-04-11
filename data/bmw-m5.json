@@ -1117,7 +1117,7 @@
     {
       "id": "53",
       "title": "2006 BMW M5 E60",
-      "price": "£19,000",
+      "price": "£17,000",
       "year": "2006",
       "mileage": "95,000 miles",
       "transmission": "Automatic",
@@ -1130,6 +1130,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1967955"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£19,000",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2347,7 +2353,7 @@
     {
       "id": "113",
       "title": "2013 BMW M5",
-      "price": "£16,449",
+      "price": "£16,495",
       "year": 2013,
       "mileage": "90,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2355,7 +2361,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/943b373424dd4869a89f4cc60eb2a781.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2366,7 +2372,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20225021"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£16,449",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "114",
@@ -5623,13 +5634,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m5/m5-4dr-dct/bmw-m5-m5-4dr-dct-1414831829-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20026451"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "277",
@@ -5803,6 +5815,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091399950"
+        }
+      ]
+    },
+    {
+      "id": "286",
+      "title": "2025 Used  BMW M5 PHEV AUTO",
+      "price": "£89,995",
+      "year": 2025,
+      "mileage": "10565 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/5-series/4-4-m5-saloon/bmw-5-series-4-4-m5-saloon-1425395941-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20230094"
         }
       ]
     }

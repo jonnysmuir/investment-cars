@@ -370,13 +370,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28899958/2024-aston-martin-vantage-69bcb7d092324.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4658b6262e9a094e0b790783c9e7053f",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033756"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "19",
@@ -467,13 +468,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C1883752/2014-aston-martin-v12-vantage-694279ac386e6.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a1b21849298fcd2badc415f9df0e52a5",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1883752"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "24",
@@ -1271,7 +1273,7 @@
     {
       "id": "60",
       "title": "2016 Aston Martin Vantage 6.0 V12 S Euro 6 2dr",
-      "price": "£134,950",
+      "price": "£134,850",
       "year": 2016,
       "mileage": "13,271 miles",
       "transmission": "6-Speed Manual",
@@ -1294,6 +1296,10 @@
         {
           "price": "£134,850",
           "date": "2026-04-05"
+        },
+        {
+          "price": "£134,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -3671,6 +3677,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200870443"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20100956"
         }
       ]
     },
@@ -4656,6 +4666,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601229329651"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20044996"
         }
       ]
     },
@@ -5298,6 +5312,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202312154829391"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20052009"
         }
       ]
     },
@@ -7242,13 +7260,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/5-2-v12-biturbo-auto-euro-6-s-s-2dr/aston-martin-vanquish-5-2-v12-biturbo-auto-euro-6-s-s-2dr-1424630118-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19676338"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "340",
@@ -7846,6 +7865,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040708"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "2022 Used  ASTON MARTIN VANTAGE F1 ED V8 ROADSTER AUTO",
+      "price": "£134,990",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/-71-reg-4-0-v8-f1-edition-roadster/aston-martin-vantage--71-reg-4-0-v8-f1-edition-roadster-1425709930-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20235557"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "title": "2008 Used  ASTON MARTIN V8 VANTAGE",
+      "price": "£29,995",
+      "year": 2008,
+      "mileage": "49,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-roadster/v8-roadster/aston-martin-v8-vantage-roadster-v8-roadster-S4947240-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20233151"
         }
       ]
     }

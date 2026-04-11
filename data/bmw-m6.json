@@ -918,18 +918,19 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m6/5-0-v10-coupe-2dr-petrol-smg-euro-4-507-ps/bmw-m6-5-0-v10-coupe-2dr-petrol-smg-euro-4-507-ps-1413334060-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19830044"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "45",
       "title": "2014 BMW M6 4.4 V8 Coupe 2dr Petrol DCT Euro 5 (s/s) (560 ps)",
-      "price": "£27,150",
+      "price": "£27,995",
       "year": 2014,
       "mileage": "25,395 miles",
       "transmission": "F1 Automated Manual",
@@ -952,6 +953,10 @@
         {
           "price": "£27,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£27,150",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -978,7 +983,7 @@
     {
       "id": "47",
       "title": "2013 BMW M6 4.4 V8 Coupe 2dr Petrol M-DCT Euro 5 (s/s) (560 ps)",
-      "price": "£22,990",
+      "price": "£22,999",
       "year": 2013,
       "mileage": "54,555 miles",
       "transmission": "Automatic",
@@ -1017,6 +1022,10 @@
         {
           "price": "£22,999",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£22,990",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1632,6 +1641,25 @@
         {
           "name": "Collecting Cars",
           "url": "https://collectingcars.com/for-sale/2005-bmw-e63-m6-5"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "2006 BMW E63 M6",
+      "price": "£27,000",
+      "year": "2006",
+      "mileage": "46,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29178745/c4d7e431-1df5-4498-83be-f75f6c9d3bd4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa9d0517428b95b97bb9128dca85c0cf",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2006-bmw-e63-m6-nY7zo8"
         }
       ]
     }

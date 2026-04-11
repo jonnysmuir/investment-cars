@@ -959,6 +959,14 @@
         {
           "price": "£24,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£24,995",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1974,7 +1982,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0379e317bace47318ec296f6bccf5030.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1986,7 +1994,8 @@
           "price": "£43,995",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "88",
@@ -2008,6 +2017,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20229564"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£52,500",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£50,999",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2207,13 +2226,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ed78137c8c1d431992fe55e7cf2d850a.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250197136"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "98",

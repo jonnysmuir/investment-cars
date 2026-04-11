@@ -2160,6 +2160,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601089017420"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20235013"
         }
       ],
       "bodyType": "Coupe",
@@ -12484,7 +12488,7 @@
     {
       "id": "578",
       "title": "2014 6 SPEED MANUAL! BMW M3 F80 SALOON",
-      "price": "£26,990",
+      "price": "£25,990",
       "year": "2014",
       "mileage": "77,801 miles",
       "transmission": "6-Speed Manual",
@@ -12492,14 +12496,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041299/2014-bmw-m3-69cd8bf5d696b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b90f3c3f452605e98d3038df592d677",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041299"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£26,990",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "579",
@@ -12608,13 +12617,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041918/2005-bmw-m3-69ce531aed15c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2abea61611ed09692f40175423cdaf86",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2041918"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "585",
@@ -13001,6 +13011,27 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038429"
+        }
+      ]
+    },
+    {
+      "id": "605",
+      "title": "1994 BMW (E36) M3 -  39,920 Miles",
+      "price": "Sold",
+      "year": 1994,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086447/AS-27-03-09.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "sold",
+      "soldPrice": "£28,250",
+      "soldDate": "2026-04-10",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1994-bmw-e36-m3-1"
         }
       ]
     }

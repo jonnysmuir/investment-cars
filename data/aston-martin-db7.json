@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2004 Aston Martin DB7 5.9 Volante 2dr",
-      "price": "£27,990",
+      "price": "£26,995",
       "year": 2004,
       "mileage": "60 miles",
       "transmission": "Automatic",
@@ -877,6 +877,10 @@
         {
           "price": "£26,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£27,990",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -906,7 +910,7 @@
     {
       "id": "41",
       "title": "2000 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
-      "price": "£17,950",
+      "price": "£17,995",
       "year": 2000,
       "mileage": "61,411 miles",
       "transmission": "Automatic",
@@ -969,6 +973,10 @@
         {
           "price": "£17,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£17,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -998,7 +1006,7 @@
     {
       "id": "43",
       "title": "2000 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
-      "price": "£28,950",
+      "price": "£29,950",
       "year": 2000,
       "mileage": "37,500 miles",
       "transmission": "Automatic",
@@ -1069,6 +1077,10 @@
         {
           "price": "£29,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£28,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1179,13 +1191,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/i6/aston-martin-db7-i6-1317732411-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18878732"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "48",
@@ -1712,7 +1725,7 @@
     {
       "id": "73",
       "title": "2001 Aston Martin DB7 5.9 Vantage Coupe 2dr Petrol Automatic (460 g/km, 420 bhp)",
-      "price": "£29,500",
+      "price": "£29,950",
       "year": 2001,
       "mileage": "6,081 miles",
       "transmission": "Automatic",
@@ -1755,6 +1768,10 @@
         {
           "price": "£29,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£29,500",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2459,6 +2476,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091408202"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "title": "1998 Used  ASTON MARTIN DB7 AUTO",
+      "price": "£23,950",
+      "year": 1998,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/base/aston-martin-db7-base-1425715423-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20235614"
         }
       ]
     }

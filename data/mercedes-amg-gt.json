@@ -1142,13 +1142,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2017295/2017-mercedes-amg-gt-69bcadf2b949e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=55822124f556f5dc39db01cc3b469cd3",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017295"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "54",
@@ -1442,7 +1443,7 @@
     {
       "id": "68",
       "title": "2017 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo (Premium) Coupe + CARBON BODYKIT + PAN ROOF + VOSSENS + 2dr Petrol SpdS DCT Euro 6 (s/s) (476 ps)",
-      "price": "£66,950",
+      "price": "£65,795",
       "year": 2017,
       "mileage": "53,749 miles",
       "transmission": "F1 Automated Manual",
@@ -1459,6 +1460,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20230769"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£66,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1503,7 +1510,7 @@
     {
       "id": "71",
       "title": "2016 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo (Premium) Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (462 ps)",
-      "price": "£46,500",
+      "price": "£46,995",
       "year": 2016,
       "mileage": "39,672 miles",
       "transmission": "F1 Automated Manual",
@@ -1546,6 +1553,10 @@
         {
           "price": "£46,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£46,500",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1698,13 +1709,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/amg-gt-black-series/mercedes-benz-amg-gt-amg-gt-black-series-S4939187-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19982932"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "80",
@@ -1791,7 +1803,7 @@
     {
       "id": "84",
       "title": "2025 Used  MERCEDES-BENZ AMG GT 55 PREMIUM + 4MATIC A",
-      "price": "£128,500",
+      "price": "£126,500",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -1804,6 +1816,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19992296"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£128,500",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2081,13 +2099,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29442857/2025-mercedes-benz-cle-69d526b3c4328.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=69d3525779dcb5e795fbe67c5348d392",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044336"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "99",
@@ -2276,6 +2295,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601279452648"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "title": "2017 Mercedes AMG GT S",
+      "price": "£50,000",
+      "year": "2017",
+      "mileage": "19,444 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29548709/2017-mercedes-benz-amg-gt-s-premium-69d8b2a8dd580.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d3c3ffe109201bf9d223d18997cbbfc1",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046254"
         }
       ]
     }

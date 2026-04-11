@@ -4864,13 +4864,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2035170/2007-bmw-z4-69c109a8bdde2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=44063cbdd079605fc36526ae2bd36782",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035170"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "242",
@@ -5344,13 +5345,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2043641/2019-bmw-z4-69d38af422d06.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5657a6d46cc053cf33a83d2a24c57ce6",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2043641"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "265",
@@ -5520,6 +5522,84 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240974226"
+        }
+      ]
+    },
+    {
+      "id": "274",
+      "title": "2006 BMW Z4M Coupe",
+      "price": "Sold",
+      "year": 2006,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://images.collectingcars.com/085472/25-02-26-JJBB-03.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "sold",
+      "soldPrice": "£17,950",
+      "soldDate": "2026-04-10",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2006-bmw-z4m-coupe-16"
+        }
+      ]
+    },
+    {
+      "id": "275",
+      "title": "2010 BMW Z4 E89 sDrive30i",
+      "price": "£27,995",
+      "year": "2010",
+      "mileage": "4,735 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2046322/2010-bmw-z4-69d8d5476c4b1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=89ede484c205feca58de633b29288ce8",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2046322"
+        }
+      ]
+    },
+    {
+      "id": "276",
+      "title": "2010 BMW Z4 sDrive23i M Sport, N52 Engine*Full BMW SH*6m Wty",
+      "price": "£8,989",
+      "year": "2010",
+      "mileage": "90,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2046552/2010-bmw-z4-69d9126880514.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0ca13f0f4a28e90ae7ca6f13188951ff",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046552"
+        }
+      ]
+    },
+    {
+      "id": "277",
+      "title": "2006 BMW Z4 3.0i E86",
+      "price": "£24,950",
+      "year": "2006",
+      "mileage": "50,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/new/29548791/2006-bmw-z4-m-69d8b31f68236.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1bc1af26d4bfc0ad2518c7747d47b9e4",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046261"
         }
       ]
     }

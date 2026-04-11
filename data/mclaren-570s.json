@@ -857,6 +857,14 @@
         {
           "price": "£89,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£89,898",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£89,995",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -881,7 +889,17 @@
           "url": "https://www.pistonheads.com/buy/listing/20230147"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£96,500",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£99,999",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "40",
@@ -937,6 +955,14 @@
         {
           "price": "£97,500",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£97,500",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1068,6 +1094,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": "Coupe"
@@ -1210,6 +1244,14 @@
         {
           "price": "£76,999",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£76,999",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": null
@@ -1331,6 +1373,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": "Convertible"
@@ -1420,6 +1470,14 @@
         {
           "price": "£79,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£79,790",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": null
@@ -1547,6 +1605,14 @@
         {
           "price": "£64,785",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£64,964",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£64,785",
+          "date": "2026-04-11"
         }
       ],
       "bodyType": null
@@ -1636,6 +1702,14 @@
         {
           "price": "£89,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£86,995",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£89,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -1871,7 +1945,17 @@
           "url": "https://www.pistonheads.com/buy/listing/20220356"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£109,950",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£105,000",
+          "date": "2026-04-11"
+        }
+      ]
     },
     {
       "id": "65",
@@ -2015,6 +2099,14 @@
         {
           "price": "£94,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-11"
+        },
+        {
+          "price": "£94,950",
+          "date": "2026-04-11"
         }
       ]
     },
@@ -2111,13 +2203,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/260c20a76a8741d8b6570929086fff7c.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311179679"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-11"
     },
     {
       "id": "75",
@@ -2253,6 +2346,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091415269"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2015 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£69,970",
+      "year": 2015,
+      "mileage": "36,944 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/07fe6935300c478fa3d83a6a47663676.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-11",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602180035352"
         }
       ]
     }
