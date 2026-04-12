@@ -693,7 +693,7 @@
     {
       "id": "32",
       "title": "2016 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
-      "price": "£179,000",
+      "price": "£175,150",
       "year": 2016,
       "mileage": "1052 miles",
       "transmission": "F1 Automated Manual",
@@ -799,6 +799,10 @@
         {
           "price": "£175,150",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -1484,6 +1488,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071331872"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "2009 Ferrari F430 4.3 F1 2dr",
+      "price": "£89,990",
+      "year": 2009,
+      "mileage": "22,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/beff40ffc6ed44d6845d99d900959015.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202411296843386"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2013 Ferrari F12 Berlinetta 6.3 V12 F1 DCT Euro 5 (s/s) 2dr",
+      "price": "£219,995",
+      "year": 2013,
+      "mileage": "6,700 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/defdab28ecc9407db5d1739fdf475e10.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091412727"
         }
       ]
     }

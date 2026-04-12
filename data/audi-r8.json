@@ -837,18 +837,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr/audi-r8-5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr-1395889348-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19801812"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "41",
       "title": "2016 Used  AUDI R8",
-      "price": "£70,450",
+      "price": "£68,450",
       "year": 2016,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -856,14 +857,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr/audi-r8-5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr-1413482075-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18788588"
         }
       ],
-      "unlistedDate": "2026-04-11"
+      "priceHistory": [
+        {
+          "price": "£70,450",
+          "date": "2026-04-12"
+        }
+      ]
     },
     {
       "id": "42",
@@ -957,10 +963,10 @@
     },
     {
       "id": "46",
-      "title": "2007 Used  AUDI R8",
+      "title": "2007 Audi R8 4.2 FSI V8 R Tronic quattro Euro 4 2dr",
       "price": "£34,995",
       "year": 2007,
-      "mileage": "N/A",
+      "mileage": "59,414 miles",
       "transmission": "Automatic",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/4-2-fsi-quattro/audi-r8-4-2-fsi-quattro-1406122223-1.jpg",
@@ -971,6 +977,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19940794"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021254614"
         }
       ],
       "unlistedDate": "2026-04-01"
@@ -1346,7 +1356,7 @@
     {
       "id": "65",
       "title": "2011 Audi R8 V10",
-      "price": "£48,750",
+      "price": "£45,000",
       "year": "2011",
       "mileage": "47,000 miles",
       "transmission": "Automatic",
@@ -1365,6 +1375,10 @@
         {
           "price": "£52,500",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£48,750",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1608,12 +1622,12 @@
     },
     {
       "id": "78",
-      "title": "2012 Used  AUDI R8",
+      "title": "2012 Audi R8 5.2 FSI V10 Coupe 2dr Petrol R Tronic quattro Euro 5 (525 ps)",
       "price": "£42,990",
       "year": 2012,
       "mileage": "24653 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/4-2-fsi-v8-limited-edition-quattro-euro-5-2dr/audi-r8-4-2-fsi-v8-limited-edition-quattro-euro-5-2dr-1394566180-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
@@ -1622,6 +1636,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19779365"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111475058"
         }
       ],
       "unlistedDate": "2026-04-04"
@@ -1637,13 +1655,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/audi/C1982360/2010-audi-r8-692ecdf0440f9.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ae0ad47d106ebffe8c9b742d825ff168",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1982360"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "80",
@@ -1685,12 +1704,12 @@
     },
     {
       "id": "82",
-      "title": "2008 Used  AUDI R8",
+      "title": "2008 Audi R8 4.2 FSI V8 Coupe 2dr Petrol R Tronic quattro Euro 4 (420 ps) APPRECIATING FUTURE CLASSIC",
       "price": "£35,000",
       "year": 2008,
       "mileage": "53,000 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/quattro/audi-r8-quattro-S4944865-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1699,6 +1718,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20166596"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101440804"
         }
       ],
       "unlistedDate": "2026-04-05"
@@ -1873,14 +1896,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/edc518047c5f4f8a820612e5d5f2fcd3.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601058936804"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "92",
@@ -1934,7 +1956,7 @@
     {
       "id": "94",
       "title": "2009 Audi R8 5.2 FSI V10 R Tronic quattro Euro 4 2dr",
-      "price": "£59,975",
+      "price": "£59,775",
       "year": 2009,
       "mileage": "19,200 miles",
       "transmission": "Unknown",
@@ -1942,14 +1964,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e9d64a783fcf4f1e87cbadf02df34660.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130689839"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£59,975",
+          "date": "2026-04-12"
+        }
+      ]
     },
     {
       "id": "95",
@@ -1962,19 +1989,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/dd6e4f1ec76c4c979c600b6d6037a2c4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169960751"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "96",
       "title": "2010 Audi R8 5.2 FSI V10 R Tronic quattro Euro 5 2dr",
-      "price": "£39,995",
+      "price": "£38,995",
       "year": 2010,
       "mileage": "68,197 miles",
       "transmission": "Automatic",
@@ -1997,6 +2023,10 @@
         {
           "price": "£38,995",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£39,995",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -2063,7 +2093,7 @@
     {
       "id": "100",
       "title": "2012 Audi 4.2 R8 LE Semi-Auto 4WD 2dr",
-      "price": "£39,000",
+      "price": "£44,990",
       "year": 2012,
       "mileage": "88,627 miles",
       "transmission": "F1 Automated Manual",
@@ -2071,7 +2101,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/facb1737462942589a5fa06817bf5cdc.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2082,7 +2112,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19435137"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£39,000",
+          "date": "2026-04-12"
+        }
+      ]
     },
     {
       "id": "101",
@@ -2115,13 +2150,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/25159622/2014-audi-r8-68e88d4129963.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=361db9b3b8271005b329759cbf47032a",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1955881"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "103",
@@ -2134,13 +2170,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-performance-carbon-black-spyder-s-tronic-quattro-euro-6-s-s-2dr/audi-r8-5-2-fsi-v10-performance-carbon-black-spyder-s-tronic-quattro-euro-6-s-s-2dr-1418447302-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20106346"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "104",
@@ -2173,14 +2210,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7f3c743f9f774143ba1a07a9ee4da366.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301121882"
         }
-      ],
-      "unlistedDate": "2026-04-04"
+      ]
     },
     {
       "id": "106",
@@ -2278,13 +2314,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/spyder-v10-quattro/audi-r8-spyder-v10-quattro-S4945481-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20183823"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "111",
@@ -2317,13 +2354,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-performance-carbon-black-coupe-2dr-petrol-s-tronic-quattro-euro-6-s-s--620-ps--veiwing-by-appointment-only/audi-r8-5-2-fsi-v10-performance-carbon-black-coupe-2dr-petrol-s-tronic-quattro-euro-6-s-s--620-ps--veiwing-by-appointment-only-1412889056-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19809083"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "113",
@@ -2396,13 +2434,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/v10-quattro/audi-r8-v10-quattro-S4945658-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20192766"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "117",
@@ -2435,13 +2474,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr/audi-r8-5-2-fsi-v10-plus-s-tronic-quattro-euro-6-s-s-2dr-1409249013-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19988249"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "119",
@@ -2700,7 +2740,7 @@
     {
       "id": "132",
       "title": "2012 Audi R8 V10 SPYDER, Sensationala!",
-      "price": "£50,000",
+      "price": "£49,000",
       "year": "2012",
       "mileage": "32,000 miles",
       "transmission": "Automatic",
@@ -2713,6 +2753,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1972618"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£50,000",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -2941,6 +2987,147 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19827501"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "title": "2018 Audi R8 5.2 FSI V10 Spyder 2dr Petrol S Tronic quattro Euro 6 (s/s) (540 ps)",
+      "price": "£77,999",
+      "year": 2018,
+      "mileage": "35,431 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/fsi-v10/audi-r8-fsi-v10-1426238434-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20167674"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111467649"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "title": "2012 Used  AUDI R8",
+      "price": "£64,995",
+      "year": 2012,
+      "mileage": "20,400 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/spyder-v10-quattro/audi-r8-spyder-v10-quattro-S4947337-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20240796"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "title": "2008 Audi R8 FSI V8 Coupe 4.2 Manual Petrol 2dr",
+      "price": "£39,980",
+      "year": 2008,
+      "mileage": "38,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/fsi-v8/audi-r8-fsi-v8-1425925788-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20240785"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101432306"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "title": "2008 Used  AUDI R8",
+      "price": "£33,495",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/4-2-fsi-v8-coupe-2dr-petrol-r-tronic-quattro-euro-4-420-ps/audi-r8-4-2-fsi-v8-coupe-2dr-petrol-r-tronic-quattro-euro-4-420-ps-1425924479-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20240769"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "title": "2014 Audi R8 4.2 FSI V8 S Tronic quattro Euro 5 2dr",
+      "price": "£44,995",
+      "year": 2014,
+      "mileage": "33,367 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/039ca47f204d43038b5d1932fd3cad8b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311184638"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "title": "2018 Audi R8 5.2 FSI V10 S Tronic quattro Euro 6 (s/s) 2dr",
+      "price": "£65,995",
+      "year": 2018,
+      "mileage": "69,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/3cc6335c9e0044829ae71ae7b72d66e9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271083235"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "title": "2022 Audi Q4 e-tron 50 Vorsprung Auto quattro 5dr 82kWh",
+      "price": "£30,990",
+      "year": 2022,
+      "mileage": "37,588 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1921edcb8e8244d48124587a4bdefeb8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311179263"
         }
       ]
     }

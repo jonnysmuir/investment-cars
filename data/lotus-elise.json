@@ -1807,12 +1807,12 @@
     },
     {
       "id": "87",
-      "title": "2003 Lotus Elise 1.8 111S 2dr",
+      "title": "2003 Lotus Elise 1.8 111S Convertible 2dr Petrol Manual (163 g/km, 156 bhp)",
       "price": "£20,750",
       "year": 2003,
       "mileage": "37,000 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/8e801c806e6a4883aefaa7a0e6f471dc.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -2056,13 +2056,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/bcc39c080f1d4423b0c685e33b550cef.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603080517897"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "98",
@@ -2837,13 +2838,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4946385-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20211958"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "136",
@@ -2894,13 +2896,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4939697-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19574118"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "139",
@@ -2913,13 +2916,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/sport-160/lotus-elise-s1-sport-160-S4914067-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19280389"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "140",
@@ -3233,7 +3237,7 @@
       "price": "£43,995",
       "year": "2021",
       "mileage": "5,400 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2046756/2021-lotus-elise-69d9c296a9f00.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=24990571a6b2508a621bb981ffd4dc9d",
       "featured": false,
@@ -3262,6 +3266,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046303"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "title": "2006 Used  LOTUS ELISE",
+      "price": "£24,995",
+      "year": 2006,
+      "mileage": "43,825 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4947420-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20242930"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "title": "1998 Used  LOTUS ELISE",
+      "price": "£22,995",
+      "year": 1998,
+      "mileage": "4,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/elise/lotus-elise-s1-elise-S4947410-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20242926"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "title": "2005 Used  LOTUS ELISE",
+      "price": "£30,995",
+      "year": 2005,
+      "mileage": "4,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4908339-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19131353"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "title": "2002 Used  LOTUS ELISE",
+      "price": "£9,750",
+      "year": 2002,
+      "mileage": "118564 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/16v/lotus-elise-s2-16v-S4943466-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20052006"
         }
       ]
     }

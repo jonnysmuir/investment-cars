@@ -333,7 +333,7 @@
     {
       "id": "20",
       "title": "2006 Ferrari F430 4.3 Spider 2dr Petrol Manual (420 g/km, 490 bhp)",
-      "price": "£79,950",
+      "price": "£78,950",
       "year": 2006,
       "mileage": "36,000 miles",
       "transmission": "F1 Automated Manual",
@@ -412,6 +412,10 @@
         {
           "price": "£78,950",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£79,950",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -730,7 +734,7 @@
     {
       "id": "35",
       "title": "2006 Ferrari F430   Spider **Deposit Taken**",
-      "price": "£77,995",
+      "price": "£74,500",
       "year": 2006,
       "mileage": "31,000 miles",
       "transmission": "F1 Automated Manual",
@@ -812,6 +816,10 @@
         {
           "price": "£74,500",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Convertible"
@@ -1488,14 +1496,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1930142/2015-ferrari-f430-68f79638615eb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=34fcbf8bfcc698418bc24e142724f07a",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1930142"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "58",
@@ -2319,14 +2328,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2027578/2008-ferrari-f430-69af923bc9319.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cc0560afdc4ddda1a62ac39a73d0d33f",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2027578"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "99",
@@ -2532,7 +2542,7 @@
     {
       "id": "109",
       "title": "2005 Ferrari F430 4.3 Spider F1 DCT 2dr",
-      "price": "£79,990",
+      "price": "£79,940",
       "year": 2005,
       "mileage": "19,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2555,6 +2565,10 @@
         {
           "price": "£79,786",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£79,990",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -2845,14 +2859,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/af1f29c59c1b437f93081b30bf7da776.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602230144995"
         }
-      ],
-      "unlistedDate": "2026-04-07"
+      ]
     },
     {
       "id": "125",

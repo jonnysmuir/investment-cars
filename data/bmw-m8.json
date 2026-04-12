@@ -379,7 +379,7 @@
     {
       "id": "14",
       "title": "2020 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£64,950",
+      "price": "£61,950",
       "year": 2020,
       "mileage": "26,000 miles",
       "transmission": "Unknown",
@@ -409,6 +409,10 @@
         {
           "price": "£62,450",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£64,950",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -416,7 +420,7 @@
     {
       "id": "15",
       "title": "2020 BMW 4.4 M8 Competition Edition Auto 4WD 2dr",
-      "price": "£53,490",
+      "price": "£53,499",
       "year": 2020,
       "mileage": "28,455 miles",
       "transmission": "Automatic",
@@ -458,6 +462,10 @@
         {
           "price": "£53,499",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£53,490",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -954,7 +962,7 @@
     {
       "id": "32",
       "title": "2020 BMW M8 4.4i V8 Competition Coupe 2dr Petrol Steptronic 4WD Euro 6 (s/s) (625 ps)",
-      "price": "£53,499",
+      "price": "£53,700",
       "year": 2020,
       "mileage": "37,212 miles",
       "transmission": "Unknown",
@@ -992,6 +1000,10 @@
         {
           "price": "£53,700",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£53,499",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -999,7 +1011,7 @@
     {
       "id": "33",
       "title": "2024 Used  BMW M8 COMPETITION AUTO",
-      "price": "£71,999",
+      "price": "£71,499",
       "year": 2024,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -1017,6 +1029,10 @@
         {
           "price": "£67,099",
           "date": "2026-03-13"
+        },
+        {
+          "price": "£71,999",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -1154,7 +1170,7 @@
     {
       "id": "38",
       "title": "2025 BMW M8 Competition Coupe 4.4 2dr",
-      "price": "£80,000",
+      "price": "£77,390",
       "year": 2025,
       "mileage": "2,421 miles",
       "transmission": "Automatic",
@@ -1184,6 +1200,10 @@
         {
           "price": "£77,290",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£80,000",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Coupe"
@@ -1220,7 +1240,7 @@
     {
       "id": "40",
       "title": "2019 BMW M8 4.4i V8 Competition Steptronic 4WD Euro 6 (s/s) 2dr",
-      "price": "£52,995",
+      "price": "£52,795",
       "year": 2019,
       "mileage": "31,898 miles",
       "transmission": "Unknown",
@@ -1239,6 +1259,10 @@
         {
           "price": "£53,495",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£52,995",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1598,13 +1622,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/2deed91782b446af9ac747b53788d30a.jpg",
       "featured": false,
       "dateAdded": "2026-03-26",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240959031"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "56",
@@ -1778,6 +1803,29 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301125599"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2019 BMW 8 SERIES M8 4.4i V8 Competition Convertible 2dr Petrol Steptronic 4WD Euro 6 (s/s) (625 ps) Carbon Exterior / Ventilated Seats",
+      "price": "£57,995",
+      "year": 2019,
+      "mileage": "33000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/8-series/m8-4-4i-v8-competition-convertible-2dr-petrol-steptronic-4wd-euro-6-s-s--625-ps/bmw-8-series-m8-4-4i-v8-competition-convertible-2dr-petrol-steptronic-4wd-euro-6-s-s--625-ps-1425925104-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20240762"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101445148"
         }
       ]
     }

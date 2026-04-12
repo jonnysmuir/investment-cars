@@ -431,14 +431,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/27385563/1973-ferrari-365-gtb4-daytona-berlinetta-69730bb7785f3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4d4cd49abf859b8764e1712d601508c8",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003382"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "23",
@@ -450,14 +451,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/27385429/1972-ferrari-365-gtc4-697309911271b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd0a4868dcd4d828ba578b021a070146",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2003377"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "24",
@@ -547,7 +549,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1971517/1973-ferrari-365-69120e9c56bc1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b99b762856bd9895167be0a471e8782b",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -560,7 +562,8 @@
           "date": "2026-03-17"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "29",
@@ -572,15 +575,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1909241/1972-ferrari-365-686e4acca6490.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ace16e12ea1ad0b7c5e119e76cf6b0a",
       "featured": false,
       "dateAdded": "2026-03-15",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1909241"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-10"
+      "bodyType": null
     },
     {
       "id": "30",
@@ -611,14 +613,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1720771/1971-ferrari-365-68c2f604373cb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ce25ce96ba1b66f6f1d7456eb4b8f58e",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1720771"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "32",

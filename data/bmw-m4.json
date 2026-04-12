@@ -843,13 +843,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/db86c7c0a93c4f83bd40320c4e763686.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110618845"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "41",
@@ -907,13 +908,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d8b41e77173e4459aa561f611858d047.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068955465"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "44",
@@ -1655,7 +1657,7 @@
       "price": "£42,950",
       "year": 2021,
       "mileage": "59,300 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/15dc9e81750c4920986fd9f47a6a30a6.jpg",
       "featured": false,
@@ -1665,6 +1667,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507194629601"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20245668"
         }
       ],
       "unlistedDate": "2026-04-10"
@@ -1815,13 +1821,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f492a2e3a24a42c1bed5728aed647933.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512268803259"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "85",
@@ -2215,13 +2222,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/941ac9e96f644f62bbba3501ed5229c0.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508145439492"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "104",
@@ -2846,14 +2854,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fe7749dabaf944d7bdf095d9d897d291.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039650807"
         }
-      ],
-      "unlistedDate": "2026-04-10"
+      ]
     },
     {
       "id": "134",
@@ -3166,6 +3173,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060469773"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20245669"
         }
       ],
       "unlistedDate": "2026-04-10"
@@ -4466,13 +4477,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/89d2b8ed627d40b793988fafcde22818.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271069939"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "211",
@@ -5307,7 +5319,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/28614571/2022-bmw-m4-69b0251f3711a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0c8e7e75f5f6151f89617c5af08e4c23",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -5319,7 +5331,8 @@
           "price": "£51,600",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "253",
@@ -5352,13 +5365,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2024321/2021-bmw-m4-69ad82d6df7ae.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=68176df891b38a084d7e06e17bf42b28",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2024321"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "255",
@@ -5371,13 +5385,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2023523/2017-bmw-m4-69a7175ddd925.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=be8aa09ab7a4e922a4b2b3de6de638ac",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023523"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "256",
@@ -5468,13 +5483,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29132123/2022-bmw-m4-69c7f8f06e477.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f8a991f500dd456cfe185688b3a6fad2",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2038379"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "261",
@@ -6545,13 +6561,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2026001/2015-bmw-m4-69ac10db28b29.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c4fc7f67e32b1bc89ac2fcd04f6b56e6",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2026001"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "314",
@@ -6701,13 +6718,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/acdf71fb8055446bb64605828c84d23c.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011223294"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "322",
@@ -6903,7 +6921,7 @@
     {
       "id": "332",
       "title": "2014 BMW M4 3.0 BiTurbo Coupe 2dr Petrol DCT Euro 6 (s/s) (431 ps) HUD, FULL MERINO LEATHER",
-      "price": "£20,495",
+      "price": "£19,995",
       "year": 2014,
       "mileage": "80,000 miles",
       "transmission": "F1 Automated Manual",
@@ -6916,6 +6934,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604031272218"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£20,495",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -7049,6 +7073,120 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046234"
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "title": "2025 Used  BMW M4 COMPETITION M XDRIVE AUTO",
+      "price": "£68,590",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/4-series/m4-competition-m/bmw-4-series-m4-competition-m-1425965329-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20241102"
+        }
+      ]
+    },
+    {
+      "id": "341",
+      "title": "2015 BMW M4 3.0 BiTurbo Coupe 2dr Petrol Manual Euro 6 (s/s) (431 ps)",
+      "price": "£23,995",
+      "year": 2015,
+      "mileage": "42,189 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/dc401514edcf46c18000093f7dd684c2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111470873"
+        }
+      ]
+    },
+    {
+      "id": "342",
+      "title": "2015 BMW 3.0 M4 Semi-Auto 2dr",
+      "price": "£19,995",
+      "year": 2015,
+      "mileage": "93,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/e23d55b4944f42079c4c3c4d5810a70b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111471612"
+        }
+      ]
+    },
+    {
+      "id": "343",
+      "title": "2021 BMW 3.0 M4 Competition Edition Auto 2dr",
+      "price": "£42,600",
+      "year": 2021,
+      "mileage": "59,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f9db56c3b486414093fb6180a21d45fa.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111472198"
+        }
+      ]
+    },
+    {
+      "id": "344",
+      "title": "2015 BMW 4 SERIES 3.0 M4 Semi-Auto 2dr",
+      "price": "£26,995",
+      "year": 2015,
+      "mileage": "35,268 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d3135dfa474044edb62e6fdad149003b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281091928"
+        }
+      ]
+    },
+    {
+      "id": "345",
+      "title": "2017 BMW 3.0 M4 Semi-Auto 2dr",
+      "price": "£22,995",
+      "year": 2017,
+      "mileage": "73,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/ef28d8c7e1e44b4b9d0f3c53ddb65447.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101454311"
         }
       ]
     }

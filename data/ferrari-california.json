@@ -731,7 +731,7 @@
     {
       "id": "36",
       "title": "2009 Ferrari California 4.3 Convertible 2dr Petrol F1 DCT Euro 5 (453 bhp)",
-      "price": "£65,795",
+      "price": "£62,999",
       "year": 2009,
       "mileage": "19,400 miles",
       "transmission": "F1 Automated Manual",
@@ -793,6 +793,10 @@
         {
           "price": "£62,999",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£65,795",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": "Convertible"
@@ -829,7 +833,7 @@
     {
       "id": "38",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
-      "price": "£84,980",
+      "price": "£82,590",
       "year": 2015,
       "mileage": "20,680 miles",
       "transmission": "Automatic",
@@ -891,6 +895,10 @@
         {
           "price": "£83,190",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£84,980",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": null
@@ -1323,14 +1331,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2008472/2009-ferrari-california-6981a94152c19.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=11945f93dae1111f10237d64760dde47",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2008472"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "53",
@@ -1686,14 +1695,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1905805/2010-ferrari-california-69160b2bb3385.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5cbe6edde293414ca830328cb409404c",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1905805"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "64",
@@ -1815,14 +1825,14 @@
     {
       "id": "67",
       "title": "2014 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
-      "price": "£77,498",
+      "price": "£76,498",
       "year": 2014,
       "mileage": "28,000 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-560-ps/ferrari-california-3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-560-ps-1401561226-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1833,7 +1843,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202602099793166"
         }
       ],
-      "unlistedDate": "2026-04-01"
+      "priceHistory": [
+        {
+          "price": "£77,498",
+          "date": "2026-04-12"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "68",
@@ -1990,7 +2006,7 @@
     {
       "id": "75",
       "title": "2012 Ferrari California 4.3 V8 30 F1 DCT Euro 5 2dr",
-      "price": "£64,990",
+      "price": "£66,990",
       "year": 2012,
       "mileage": "29,363 miles",
       "transmission": "F1 Automated Manual",
@@ -2004,7 +2020,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202504211563659"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£64,990",
+          "date": "2026-04-12"
+        }
+      ]
     },
     {
       "id": "76",
@@ -2517,7 +2539,7 @@
     {
       "id": "91",
       "title": "2010 Ferrari California 4.3 F1 DCT Euro 5 2dr",
-      "price": "£56,995",
+      "price": "£55,995",
       "year": 2010,
       "mileage": "56,061 miles",
       "transmission": "F1 Automated Manual",
@@ -2587,6 +2609,10 @@
         {
           "price": "£55,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£56,995",
+          "date": "2026-04-12"
         }
       ],
       "bodyType": null
@@ -3013,14 +3039,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1832945/2012-ferrari-california-679e07459c6cd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b8844b2a4a1aeb3b20e425c2c1a2175e",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1832945"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "109",
@@ -3052,14 +3079,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1624446/2013-ferrari-california-2-plus-2-s-a-64e0cce2abec3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=66890e8c9c08bc84c9ecf7ec1c84e73e",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1624446"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "111",
@@ -3211,13 +3239,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4916669-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19349696"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "119",
@@ -3503,7 +3532,7 @@
     {
       "id": "133",
       "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
-      "price": "£79,950",
+      "price": "£83,995",
       "year": 2015,
       "mileage": "18,145 miles",
       "transmission": "F1 Automated Manual",
@@ -3534,6 +3563,10 @@
         {
           "price": "£83,995",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£79,950",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -3587,13 +3620,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6a2c511a942a4cffb2c90f71ad6fb527.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311181981"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "137",
@@ -3761,6 +3795,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2045302"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "title": "2009 Ferrari California 4.3 2dr",
+      "price": "£55,950",
+      "year": 2009,
+      "mileage": "45,121 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/28c692219b5e46bc94cd2ba0d9356fd4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021247604"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "title": "2015 Ferrari California 3.8 V8 T F1 DCT Euro 6 2dr",
+      "price": "£82,995",
+      "year": 2015,
+      "mileage": "18,631 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/5458fa6ae4ac4d52862380364b6955d9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101450734"
         }
       ]
     }

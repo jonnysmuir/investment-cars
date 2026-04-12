@@ -832,13 +832,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/alpine/C2029125/2026-alpine-a110-69c7200ce8e23.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=13b9f1fe3c2e4f2bf1fb05d1a89dcd60",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029125"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "41",
@@ -943,6 +944,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046106"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "2019 ALPINE A110 Legende",
+      "price": "£22,000",
+      "year": "2019",
+      "mileage": "32,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29590273/2019-alpine-a110-69da02312649e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=af43cd04e443ce06933787ff172ff55f",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046778"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "2019 ALPINE A110S",
+      "price": "£70,000",
+      "year": "2019",
+      "mileage": "7,989 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29590901/2019-alpine-a110s-69da0427d2c1f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ff27fae832b882c34744eab5bf50e5a",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046790"
         }
       ]
     }

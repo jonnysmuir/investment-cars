@@ -764,7 +764,7 @@
     {
       "id": "37",
       "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-2 STO LDF Euro 6 (s/s) 2dr",
-      "price": "£297,480",
+      "price": "£296,980",
       "year": 2023,
       "mileage": "5,000 miles",
       "transmission": "Automatic",
@@ -799,13 +799,21 @@
         {
           "price": "£284,990",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£297,480",
+          "date": "2026-04-12"
+        },
+        {
+          "price": "£284,990",
+          "date": "2026-04-12"
         }
       ]
     },
     {
       "id": "38",
       "title": "2015 Lamborghini Huracan 5.2 V10 LP 610-4 Coupe 2dr Petrol LDF 4WD Euro 6 (s/s) (610 ps)",
-      "price": "£129,949",
+      "price": "£128,990",
       "year": 2015,
       "mileage": "17,500 miles",
       "transmission": "Automatic",
@@ -828,6 +836,10 @@
         {
           "price": "£133,995",
           "date": "2026-03-30"
+        },
+        {
+          "price": "£129,949",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1019,7 +1031,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lamborghini/hurac-n/v10-640-2dr-auto-awd/lamborghini-hurac-n-v10-640-2dr-auto-awd-1404780962-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1035,7 +1047,8 @@
           "price": "£199,500",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "47",
@@ -1451,13 +1464,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lamborghini/C1926047/2019-lamborghini-huracan-68f61a75c83fd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=46ff552412b4a6f1b77ab6ed0b74a63f",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1926047"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "66",
@@ -1570,12 +1584,12 @@
     },
     {
       "id": "71",
-      "title": "2014 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
+      "title": "2014 Lamborghini Huracan 5.2 V10 LP 610-4 Coupe 2dr Petrol LDF 4WD Euro 6 (s/s) (610 ps)",
       "price": "£119,950",
       "year": 2014,
       "mileage": "26,036 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/lamborghini/huracan/v10-lp-610-4/lamborghini-huracan-v10-lp-610-4-1407030216-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -1640,7 +1654,7 @@
     {
       "id": "74",
       "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-2 STO LDF Euro 6 (s/s) 2dr",
-      "price": "£296,980",
+      "price": "£330,000",
       "year": 2023,
       "mileage": "1,053 miles",
       "transmission": "Unknown",
@@ -1687,6 +1701,10 @@
         {
           "price": "£330,000",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£296,980",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1753,7 +1771,7 @@
     {
       "id": "77",
       "title": "2018 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£148,995",
+      "price": "£149,995",
       "year": 2018,
       "mileage": "16,250 miles",
       "transmission": "Unknown",
@@ -1800,6 +1818,10 @@
         {
           "price": "£149,995",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£148,995",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1851,8 +1873,8 @@
     },
     {
       "id": "80",
-      "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-2 Tecnica LDF Euro 6 2dr",
-      "price": "£214,950",
+      "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-2 Tecnica LDF Euro 6 (s/s) 2dr",
+      "price": "£204,950",
       "year": 2023,
       "mileage": "11,000 miles",
       "transmission": "Unknown",
@@ -1875,6 +1897,10 @@
         {
           "price": "£204,950",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£214,950",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -1900,7 +1926,7 @@
     {
       "id": "82",
       "title": "2017 Lamborghini Huracan 5.2 V10 LP 610-4 Spyder LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£159,950",
+      "price": "£154,750",
       "year": 2017,
       "mileage": "10,782 miles",
       "transmission": "Automatic",
@@ -1908,7 +1934,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ad6df63cd11a45aba3c5afde380b02c8.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1919,7 +1945,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20235527"
         }
       ],
-      "unlistedDate": "2026-04-04"
+      "priceHistory": [
+        {
+          "price": "£159,950",
+          "date": "2026-04-12"
+        }
+      ]
     },
     {
       "id": "83",
@@ -1981,7 +2012,7 @@
     {
       "id": "86",
       "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-4 EVO Spyder LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£247,995",
+      "price": "£254,950",
       "year": 2023,
       "mileage": "5,000 miles",
       "transmission": "Unknown",
@@ -2004,6 +2035,10 @@
         {
           "price": "£254,950",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£247,995",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -2018,13 +2053,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/afa1f3cee0234a06924a1b90e0488ede.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603251012809"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "88",
@@ -2314,7 +2350,7 @@
     {
       "id": "101",
       "title": "2023 Lamborghini Huracan 5.2 V10 Sterrato LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£214,750",
+      "price": "£214,990",
       "year": 2023,
       "mileage": "13,000 miles",
       "transmission": "Automatic",
@@ -2377,6 +2413,10 @@
         {
           "price": "£214,990",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£214,750",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -3447,13 +3487,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d5c0edc569084c8fa1d76d23089a1421.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250983180"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "155",
@@ -3503,7 +3544,7 @@
     {
       "id": "157",
       "title": "2014 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
-      "price": "£114,995",
+      "price": "£114,989",
       "year": 2014,
       "mileage": "30,898 miles",
       "transmission": "Automatic",
@@ -3526,6 +3567,10 @@
         {
           "price": "£114,989",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-04-12"
         }
       ]
     },
@@ -4225,13 +4270,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lamborghini/C1970350/2023-lamborghini-huracan-69b6bcf62f1b3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e712e23dcebe08c3016cdfd5e51bc2ba",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1970350"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-12"
     },
     {
       "id": "194",
@@ -4244,11 +4290,88 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lamborghini/C1884732/2016-lamborghini-huracan-69465a3b228fb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d1b09823a60a000bc45aa13c998ffb41",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1884732"
+        }
+      ],
+      "unlistedDate": "2026-04-12"
+    },
+    {
+      "id": "195",
+      "title": "2023 Lamborghini Huracan 5.2 V10 LP 640-4 EVO 60th Anniversary Spyder LDF 4WD Euro 6 (s/s) 2dr",
+      "price": "£329,750",
+      "year": 2023,
+      "mileage": "5,204 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f6f92af8776c4d929430be0b45285cf7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101441150"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "title": "2019 Lamborghini Huracan 5.2 V10 LP 640-4 Performante LDF 4WD Euro 6 (s/s) 2dr",
+      "price": "£219,995",
+      "year": 2019,
+      "mileage": "8,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/e1f209098244464f9b932f6ef53c6840.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101451051"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "title": "2017 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
+      "price": "£154,750",
+      "year": 2017,
+      "mileage": "3,806 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4f20433b8eec416e9e059389783663b3.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101441148"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "title": "2014 Lamborghini Huracan 5.2 V10 LP 610-4 LDF 4WD Euro 6 (s/s) 2dr",
+      "price": "£108,995",
+      "year": 2014,
+      "mileage": "40,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/19a26e1d4bbf4c87b9aacfd5fe05742f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-12",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101433633"
         }
       ]
     }

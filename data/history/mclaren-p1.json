@@ -1168,5 +1168,42 @@
         "status": "active"
       }
     ]
+  },
+  {
+    "date": "2026-04-12",
+    "listings": [
+      {
+        "id": "3",
+        "price": 2100000,
+        "year": "2015",
+        "mileage": 400,
+        "transmission": "Automatic",
+        "status": "active"
+      },
+      {
+        "id": "8",
+        "price": 1950000,
+        "year": 2018,
+        "mileage": 230,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "9",
+        "price": 1750000,
+        "year": 2015,
+        "mileage": 118,
+        "transmission": "Unknown",
+        "status": "active"
+      },
+      {
+        "id": "10",
+        "price": 1625000,
+        "year": 2018,
+        "mileage": null,
+        "transmission": "Unknown",
+        "status": "active"
+      }
+    ]
   }
 ]
