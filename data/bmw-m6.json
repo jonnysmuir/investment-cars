@@ -955,14 +955,6 @@
         },
         {
           "price": "£27,150",
-          "date": "2026-04-11"
-        },
-        {
-          "price": "£27,995",
-          "date": "2026-04-12"
-        },
-        {
-          "price": "£27,150",
           "date": "2026-04-13"
         },
         {
@@ -1033,14 +1025,6 @@
         {
           "price": "£22,999",
           "date": "2026-04-10"
-        },
-        {
-          "price": "£22,990",
-          "date": "2026-04-11"
-        },
-        {
-          "price": "£22,999",
-          "date": "2026-04-12"
         },
         {
           "price": "£22,990",
@@ -1444,13 +1428,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4c7c4b59acd040588c91ae0487659da8.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601209281003"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "67",
@@ -1470,7 +1455,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202507034139448"
         }
       ],
-      "unlistedDate": "2026-04-12"
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "68",
@@ -1670,25 +1655,6 @@
     },
     {
       "id": "78",
-      "title": "2006 BMW E63 M6",
-      "price": "£27,000",
-      "year": "2006",
-      "mileage": "46,500 miles",
-      "transmission": "Automatic",
-      "bodyType": "Coupe",
-      "image": "https://assets.carandclassic.com/uploads/new/29178745/c4d7e431-1df5-4498-83be-f75f6c9d3bd4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa9d0517428b95b97bb9128dca85c0cf",
-      "featured": false,
-      "dateAdded": "2026-04-11",
-      "status": "active",
-      "sources": [
-        {
-          "name": "Cars & Classic",
-          "url": "https://www.carandclassic.com/make-an-offer/2006-bmw-e63-m6-nY7zo8"
-        }
-      ]
-    },
-    {
-      "id": "79",
       "title": "2006 Used  BMW M6",
       "price": "£21,995",
       "year": 2006,
@@ -1697,7 +1663,7 @@
       "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m6/m6/bmw-m6-m6-S4947418-1.jpg",
       "featured": false,
-      "dateAdded": "2026-04-12",
+      "dateAdded": "2026-04-13",
       "status": "active",
       "sources": [
         {
@@ -1707,26 +1673,7 @@
       ]
     },
     {
-      "id": "80",
-      "title": "2006 BMW M6 E64  - 62,000 Miles - All Jobs Done - See advert",
-      "price": "£21,995",
-      "year": "2006",
-      "mileage": "62,000 miles",
-      "transmission": "Automatic",
-      "bodyType": "Coupe",
-      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2047075/2006-bmw-m6-69da836c9f0bb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6066ee1b1ef93b0223b9145f2a9cd000",
-      "featured": false,
-      "dateAdded": "2026-04-12",
-      "status": "active",
-      "sources": [
-        {
-          "name": "Cars & Classic",
-          "url": "https://www.carandclassic.com/car/C2047075"
-        }
-      ]
-    },
-    {
-      "id": "81",
+      "id": "79",
       "title": "2014 BMW M6 4.4 V8 DCT Euro 5 (s/s) 2dr",
       "price": "£23,490",
       "year": 2014,
@@ -1741,6 +1688,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602280294127"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "2006 BMW M6 E64  - 62,000 Miles - All Jobs Done - See advert",
+      "price": "£21,995",
+      "year": "2006",
+      "mileage": "62,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2047075/2006-bmw-m6-69da836c9f0bb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6066ee1b1ef93b0223b9145f2a9cd000",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2047075"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2006 BMW E63 M6",
+      "price": "£27,000",
+      "year": "2006",
+      "mileage": "46,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://assets.carandclassic.com/uploads/new/29178745/c4d7e431-1df5-4498-83be-f75f6c9d3bd4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa9d0517428b95b97bb9128dca85c0cf",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2006-bmw-e63-m6-nY7zo8"
         }
       ]
     }

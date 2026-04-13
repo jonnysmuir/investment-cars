@@ -1,0 +1,77 @@
+{
+  "date": "2026-04-13",
+  "models": [
+    {
+      "make": "Mercedes-AMG",
+      "model": "C63",
+      "slug": "mercedes-amg-c63",
+      "newCount": 0,
+      "updatedCount": 0,
+      "unlistedCount": 0,
+      "errors": [],
+      "newListings": [],
+      "priceChanges": [],
+      "unlistedListings": [],
+      "notices": []
+    }
+  ],
+  "totalNew": 0,
+  "totalUpdated": 0,
+  "totalUnlisted": 0,
+  "totalErrors": 0,
+  "hasChanges": false,
+  "health": {
+    "runStats": {
+      "date": "2026-04-13",
+      "durationMs": 154510,
+      "durationFormatted": "2m 35s",
+      "modelsProcessed": 1,
+      "totalNew": 0,
+      "totalUpdated": 0,
+      "totalUnlisted": 0,
+      "totalErrors": 0,
+      "sources": {
+        "pistonheads": {
+          "totalResults": 1,
+          "modelsConfigured": 1,
+          "modelsWithResults": 1,
+          "modelsWithZero": 0,
+          "modelsWithErrors": 0,
+          "avgResultsPerModel": 1
+        },
+        "autotrader": {
+          "totalResults": 0,
+          "modelsConfigured": 1,
+          "modelsWithResults": 0,
+          "modelsWithZero": 1,
+          "modelsWithErrors": 0,
+          "avgResultsPerModel": 0
+        },
+        "carsandclassic": {
+          "totalResults": 14,
+          "modelsConfigured": 1,
+          "modelsWithResults": 1,
+          "modelsWithZero": 0,
+          "modelsWithErrors": 0,
+          "avgResultsPerModel": 14
+        },
+        "collectingcars": {
+          "totalResults": 0,
+          "modelsConfigured": 1,
+          "modelsWithResults": 0,
+          "modelsWithZero": 1,
+          "modelsWithErrors": 0,
+          "avgResultsPerModel": 0
+        }
+      }
+    },
+    "anomalies": [],
+    "comparisons": {
+      "mercedes-amg-c63": {
+        "today": 15,
+        "avg": 14.8
+      }
+    },
+    "durationMs": 154510
+  }
+}

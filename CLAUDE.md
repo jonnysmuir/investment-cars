@@ -201,6 +201,7 @@ All filtered to GBP/UK market only.
 - **Fallback warning**: If a make-level search returns 0 results (likely blocked), a clear warning appears in the summary.
 - **Apollo pass visits ALL model URLs** (no limit) so rare models buried deep in make-level search still get coverage. The make-level search (Phase 2) supplements this with additional listings found in broad pagination.
 - **Search page title extraction** captures both the make/series line AND the trim/variant line from card DOM nodes (e.g. "BMW 8 Series" + "M8 Competition 4.4 V8 2dr"), ensuring model matching works even for sub-models filed under a parent series.
+- **Body type split scraping** for BMW: Phase 2 runs separate searches with `&body-type=Coupe`, `&body-type=Convertible`, `&body-type=Saloon`, `&body-type=Estate`. Each listing is tagged with the body type from the URL filter — the highest-priority source of body type data. Configured via `MAKE_LEVEL_BODY_SPLITS` (for `scrapeMake`) and `PER_MODEL_BODY_SPLITS` (for `scrape`). Not used for Mercedes-AMG at make level because AutoTrader files AMG models under "Mercedes-Benz" which is too broad.
 
 ## Important Patterns
 - When adding a new car model: add entry to `data/models.json` with slug, make, model, heroImage, heroCredit, description, heroYears, heroEngine, heroBhp, sources, and excludePatterns if needed. Then run `node scripts/generate-pages.js --slug {slug}`.

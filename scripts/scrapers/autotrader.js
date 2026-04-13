@@ -25,6 +25,16 @@ const MAX_MAKE_PAGES = 25;   // Higher limit for make-level (covers many models)
 const DEFAULT_POSTCODE = 'SW1A1AA';
 const DEFAULT_RADIUS = 1500;
 
+// Makes where body type is ambiguous in titles — run separate searches per body type
+// makeLevelSplits: used in scrapeMake (broad make search — only works when AT make name matches directly)
+// perModelSplits: used in scrape (per-model search — works for all makes including remapped ones)
+const MAKE_LEVEL_BODY_SPLITS = {
+  'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+};
+const PER_MODEL_BODY_SPLITS = {
+  'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+};
+
 let browser = null;
 
 async function getBrowser() {
@@ -274,35 +284,60 @@ async function scrape(sourceConfig, modelConfig) {
       searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(modelConfig.make)}&model=${encodeURIComponent(modelConfig.model)}&advertising-location=at_cars`;
     }
 
-    for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
-      const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
-      console.log(`  [AutoTrader] Fetching search page ${pageNum}`);
+    const perModelSplits = PER_MODEL_BODY_SPLITS[modelConfig.make];
+    const perModelVariants = perModelSplits
+      ? perModelSplits.map(bt => ({ url: `${searchBaseUrl}&body-type=${bt}`, bodyType: bt }))
+      : [{ url: searchBaseUrl, bodyType: null }];
 
-      await randomDelay(3000, 7000);
+    if (perModelSplits) {
+      console.log(`  [AutoTrader] Scraping ${perModelSplits.length} body type splits (${perModelSplits.join(', ')})`);
+    }
 
-      try {
-        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
-      } catch (navErr) {
-        console.warn(`  [AutoTrader] Navigation failed for page ${pageNum}: ${navErr.message}`);
-        break;
+    for (const variant of perModelVariants) {
+      const label = variant.bodyType ? `${variant.bodyType}` : 'all';
+
+      for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+        const pageUrl = `${variant.url}&page=${pageNum}`;
+        console.log(`  [AutoTrader] Fetching search page ${pageNum}${variant.bodyType ? ` (${variant.bodyType})` : ''}`);
+
+        await randomDelay(3000, 7000);
+
+        try {
+          await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+          await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
+        } catch (navErr) {
+          console.warn(`  [AutoTrader] Navigation failed for page ${pageNum} (${label}): ${navErr.message}`);
+          break;
+        }
+
+        const pageListings = await extractSearchPageListings(page, modelConfig.make);
+
+        // Tag each listing with the body type from the URL filter
+        if (variant.bodyType) {
+          for (const listing of pageListings) {
+            listing.bodyType = variant.bodyType;
+          }
+        }
+
+        let newCount = 0;
+        for (const listing of pageListings) {
+          if (!searchMap.has(listing.id) && !apolloMap.has(listing.id)) {
+            newCount++;
+          }
+          if (!searchMap.has(listing.id)) {
+            searchMap.set(listing.id, listing);
+          }
+        }
+
+        console.log(`  [AutoTrader] Search page ${pageNum}${variant.bodyType ? ` (${variant.bodyType})` : ''}: ${pageListings.length} listings (${newCount} new)`);
+
+        if (pageListings.length === 0 || newCount === 0) break;
       }
 
-      const pageListings = await extractSearchPageListings(page, modelConfig.make);
-
-      let newCount = 0;
-      for (const listing of pageListings) {
-        if (!searchMap.has(listing.id) && !apolloMap.has(listing.id)) {
-          newCount++;
-        }
-        if (!searchMap.has(listing.id)) {
-          searchMap.set(listing.id, listing);
-        }
+      // Delay between body type splits
+      if (perModelSplits && variant !== perModelVariants[perModelVariants.length - 1]) {
+        await randomDelay(3000, 7000);
       }
-
-      console.log(`  [AutoTrader] Search page ${pageNum}: ${pageListings.length} listings (${newCount} new)`);
-
-      if (pageListings.length === 0 || newCount === 0) break;
     }
 
     // ── Merge results ──
@@ -382,35 +417,66 @@ async function scrapeMake(make, modelConfigs) {
     // ── Phase 2: Make-level search with pagination ──
     const searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(make)}&advertising-location=at_cars`;
 
-    for (let pageNum = 1; pageNum <= MAX_MAKE_PAGES; pageNum++) {
-      const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
-      console.log(`  [AutoTrader Batch] Search page ${pageNum} for ${make}`);
+    const bodyTypeSplits = MAKE_LEVEL_BODY_SPLITS[make];
+    const searchVariants = bodyTypeSplits
+      ? bodyTypeSplits.map(bt => ({ url: `${searchBaseUrl}&body-type=${bt}`, bodyType: bt }))
+      : [{ url: searchBaseUrl, bodyType: null }];
 
-      await randomDelay(3000, 7000);
+    if (bodyTypeSplits) {
+      console.log(`  [AutoTrader Batch] ${make}: scraping ${bodyTypeSplits.length} body type splits (${bodyTypeSplits.join(', ')})`);
+    }
 
-      try {
-        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
-      } catch (navErr) {
-        console.warn(`  [AutoTrader Batch] Navigation failed for page ${pageNum}: ${navErr.message}`);
-        break;
-      }
+    for (const variant of searchVariants) {
+      const label = variant.bodyType ? `${make} ${variant.bodyType}` : make;
+      let variantTotal = 0;
 
-      const pageListings = await extractSearchPageListings(page, make);
+      for (let pageNum = 1; pageNum <= MAX_MAKE_PAGES; pageNum++) {
+        const pageUrl = `${variant.url}&page=${pageNum}`;
+        console.log(`  [AutoTrader Batch] Search page ${pageNum} for ${label}`);
 
-      let newCount = 0;
-      for (const listing of pageListings) {
-        if (!allListings.has(listing.id)) {
-          newCount++;
-          allListings.set(listing.id, { search: listing });
-        } else if (!allListings.get(listing.id).search) {
-          allListings.get(listing.id).search = listing;
+        await randomDelay(3000, 7000);
+
+        try {
+          await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+          await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
+        } catch (navErr) {
+          console.warn(`  [AutoTrader Batch] Navigation failed for page ${pageNum}: ${navErr.message}`);
+          break;
         }
+
+        const pageListings = await extractSearchPageListings(page, make);
+
+        // Tag each listing with the body type from the URL filter
+        if (variant.bodyType) {
+          for (const listing of pageListings) {
+            listing.bodyType = variant.bodyType;
+          }
+        }
+
+        let newCount = 0;
+        for (const listing of pageListings) {
+          if (!allListings.has(listing.id)) {
+            newCount++;
+            allListings.set(listing.id, { search: listing });
+          } else if (!allListings.get(listing.id).search) {
+            allListings.get(listing.id).search = listing;
+          }
+        }
+
+        console.log(`  [AutoTrader Batch] Page ${pageNum}: ${pageListings.length} listings (${newCount} new)`);
+        variantTotal += newCount;
+
+        if (pageListings.length === 0 || newCount === 0) break;
       }
 
-      console.log(`  [AutoTrader Batch] Page ${pageNum}: ${pageListings.length} listings (${newCount} new)`);
+      if (variant.bodyType) {
+        console.log(`  [AutoTrader Batch] ${label}: ${variantTotal} listings`);
+      }
 
-      if (pageListings.length === 0 || newCount === 0) break;
+      // Delay between body type splits
+      if (bodyTypeSplits && variant !== searchVariants[searchVariants.length - 1]) {
+        await randomDelay(5000, 10000);
+      }
     }
 
     console.log(`  [AutoTrader Batch] Total unique listings for ${make}: ${allListings.size}`);
