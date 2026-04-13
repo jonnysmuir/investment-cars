@@ -1049,13 +1049,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2009676/2008-lotus-exige-6983ab6be3d5d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=39d5f86ac6b9c8e69466a9f97f8fef0f",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2009676"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "51",
@@ -1331,12 +1332,12 @@
     },
     {
       "id": "64",
-      "title": "2020 Lotus Exige 3.5 V6 Cup 430 Euro 6 2dr",
+      "title": "2020 Lotus Exige 3.5 V6 Cup 430 Coupe 2dr Petrol Manual Euro 6 (436 ps)",
       "price": "£84,995",
       "year": 2020,
       "mileage": "13,500 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/7e41a904b3a04d438071c14d51b7e20d.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1549,13 +1550,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/383f9e2b5a3f4093a36b63813291fef4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200855292"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "75",
@@ -2003,13 +2005,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/sport/lotus-exige-s3-sport-S4931001-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19684181"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "97",
@@ -2046,6 +2049,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19832585"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "2004 Used  LOTUS EXIGE",
+      "price": "£25,000",
+      "year": 2004,
+      "mileage": "2000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s2/16v/lotus-exige-s2-16v-S4947555-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20247336"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "title": "2021 Used  LOTUS EXIGE",
+      "price": "£62,459",
+      "year": 2021,
+      "mileage": "16,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/sport/lotus-exige-s3-sport-S4927300-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19445953"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "title": "2015 Lotus Exige 3.5 V6 S Euro 5 2dr",
+      "price": "£37,810",
+      "year": 2015,
+      "mileage": "22,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/b11af8c5fb3741f9ab1d61f0de302913.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604121479196"
         }
       ]
     }

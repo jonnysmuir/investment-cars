@@ -3409,7 +3409,7 @@
       "price": "£75,500",
       "year": 2014,
       "mileage": "16,950 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/f2894bb7628447d2ac6f38450f6df04e.jpg",
       "featured": false,
@@ -3419,6 +3419,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512238767498"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19557274"
         }
       ]
     },
@@ -5757,7 +5761,7 @@
       "price": "£79,995",
       "year": 2017,
       "mileage": "13,500 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/b0d33a3d1f9c45cc9742fbb383556e93.jpg",
       "featured": false,
@@ -5767,6 +5771,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602109807888"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19870835"
         }
       ]
     },
@@ -7725,13 +7733,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-s/s-v8/aston-martin-v8-vantage-s-s-v8-S4939288-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19937805"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "356",
@@ -7744,13 +7753,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/v8/aston-martin-dbx-v8-S4920624-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19326919"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "357",
@@ -7763,13 +7773,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/4-0-v8-707-suv-5dr-petrol-auto-4wd-euro-6-s-s--707-ps/aston-martin-dbx-4-0-v8-707-suv-5dr-petrol-auto-4wd-euro-6-s-s--707-ps-1412179882-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20036589"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "358",
@@ -8232,6 +8243,139 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202501248358002"
+        }
+      ]
+    },
+    {
+      "id": "382",
+      "title": "2025 Used  ASTON MARTIN VANQUISH V12 AUTO",
+      "price": "£334,007",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/v12-2dr-auto/aston-martin-vanquish-v12-2dr-auto-1395684172-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19789344"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "2016 Used  ASTON MARTIN VANTAGE",
+      "price": "£59,850",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-s/s-v8/aston-martin-v8-vantage-s-s-v8-S4941423-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20059912"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "2022 Used  ASTON MARTIN VANTAGE V12 AUTO",
+      "price": "£215,000",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/v12-coupe/aston-martin-vantage-v12-coupe-1361926703-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19442025"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "title": "1987 Used  ASTON MARTIN VANTAGE",
+      "price": "£335,000",
+      "year": 1987,
+      "mileage": "12,200 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/classics/vantage/aston-martin-classics-vantage-S4926181-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19598939"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "2013 Used  ASTON MARTIN VANTAGE",
+      "price": "£52,850",
+      "year": 2013,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-s/s-v8/aston-martin-v8-vantage-s-s-v8-S4935972-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19870942"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "2011 Used  ASTON MARTIN V8 VANTAGE",
+      "price": "£41,995",
+      "year": 2011,
+      "mileage": "32,800 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-7-v8-euro-5-420-2dr/aston-martin-vantage-4-7-v8-euro-5-420-2dr-1413941084-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20062248"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "title": "2020 Used  ASTON MARTIN VANTAGE",
+      "price": "£79,999",
+      "year": 2020,
+      "mileage": "25950 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-0-v8-auto-euro-6-2dr/aston-martin-vantage-4-0-v8-auto-euro-6-2dr-1413773048-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19870857"
         }
       ]
     }

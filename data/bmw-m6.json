@@ -810,7 +810,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m6-gran-coupe/v8/bmw-m6-gran-coupe-v8-1413335758-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -822,8 +822,7 @@
           "price": "£29,750",
           "date": "2026-04-01"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "40",
@@ -919,14 +918,13 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m6/5-0-v10-coupe-2dr-petrol-smg-euro-4-507-ps/bmw-m6-5-0-v10-coupe-2dr-petrol-smg-euro-4-507-ps-1413334060-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19830044"
         }
-      ],
-      "unlistedDate": "2026-04-11"
+      ]
     },
     {
       "id": "45",
@@ -962,6 +960,14 @@
         {
           "price": "£27,995",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£27,150",
+          "date": "2026-04-13"
+        },
+        {
+          "price": "£27,995",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -988,7 +994,7 @@
     {
       "id": "47",
       "title": "2013 BMW M6 4.4 V8 Coupe 2dr Petrol M-DCT Euro 5 (s/s) (560 ps)",
-      "price": "£22,990",
+      "price": "£22,490",
       "year": 2013,
       "mileage": "54,555 miles",
       "transmission": "Automatic",
@@ -1035,6 +1041,14 @@
         {
           "price": "£22,999",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£22,990",
+          "date": "2026-04-13"
+        },
+        {
+          "price": "£22,999",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -1708,6 +1722,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2047075"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2014 BMW M6 4.4 V8 DCT Euro 5 (s/s) 2dr",
+      "price": "£23,490",
+      "year": 2014,
+      "mileage": "59,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/6cf5af7a2add4b369ce428a3d7b01fd9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602280294127"
         }
       ]
     }

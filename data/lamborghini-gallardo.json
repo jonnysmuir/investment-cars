@@ -881,6 +881,14 @@
         {
           "price": "£68,750",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£69,980",
+          "date": "2026-04-13"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -1067,6 +1075,14 @@
         {
           "price": "£59,900",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£58,980",
+          "date": "2026-04-13"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -1164,7 +1180,7 @@
     },
     {
       "id": "50",
-      "title": "2007 Lamborghini Gallardo 5.0 V10 EGear 4WD Euro 3 2dr",
+      "title": "2007 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
       "price": "£67,900",
       "year": 2007,
       "mileage": "43,000 miles",
@@ -1253,13 +1269,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lamborghini/C2018561/2008-lamborghini-gallardo-699a2e949b964.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=77909e0522ed72af3eed84bda99933f3",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2018561"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "55",
@@ -1519,13 +1536,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a4fd629196dc48e192d9d0ea09b37767.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260240406"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "69",

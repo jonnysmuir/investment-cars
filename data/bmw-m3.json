@@ -2481,7 +2481,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6cd5448d9d834b1d86de21f701ed66ac.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2498,7 +2498,8 @@
           "date": "2026-04-08"
         }
       ],
-      "bodyType": "Saloon"
+      "bodyType": "Saloon",
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "116",
@@ -6566,7 +6567,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dddf7dcd543f413da6ad5f2ff6ada9f2.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6583,7 +6584,8 @@
           "price": "£66,888",
           "date": "2026-04-09"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "294",
@@ -8120,7 +8122,7 @@
     },
     {
       "id": "365",
-      "title": "2011 BMW M3 4.0 V8 Euro 5 2dr",
+      "title": "2011 BMW M3 4.0 V8 Convertible 2dr Petrol Manual Euro 5 (420 ps)",
       "price": "£21,499",
       "year": 2011,
       "mileage": "44,611 miles",
@@ -8128,7 +8130,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m3/m3-2dr/bmw-m3-m3-2dr-1414832274-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -8139,8 +8141,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202603160747565"
         }
       ],
-      "unlistedDate": "2026-03-26",
-      "bodyType": "Coupe"
+      "bodyType": "Convertible"
     },
     {
       "id": "366",
@@ -11353,7 +11354,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/038292d1c1a24dcfbdab6cf5b30ff92b.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -11369,7 +11370,8 @@
           "price": "£12,000",
           "date": "2026-04-08"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "522",
@@ -12311,13 +12313,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6b675b909ccb4d3b9622a2669efa3634.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291117657"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "569",
@@ -12731,13 +12734,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4f10ef313b074feabe8299ed79b8c6cd.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071354084"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "590",
@@ -12750,13 +12754,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0947da6f8e894a12b04bb7b2df1b0471.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240949244"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "591",
@@ -12854,13 +12859,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/3-series/4-0-m3-saloon/bmw-3-series-4-0-m3-saloon-1425167115-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20226337"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "596",
@@ -13089,6 +13095,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601299532557"
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "title": "2021 BMW M3 3.0 BiTurbo Competition Saloon 4dr Petrol Steptronic Euro 6 (s/s) (510 ps)",
+      "price": "£45,995",
+      "year": 2021,
+      "mileage": "54,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/a1ddad0ba437449685b87f36e9864095.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111472032"
         }
       ]
     }

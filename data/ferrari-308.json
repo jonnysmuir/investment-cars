@@ -926,14 +926,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2017796/1983-ferrari-308-6997a11bda12f.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=579c47d3efd32fa0ce6b4b904d7b6e53",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017796"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "48",
@@ -1144,6 +1145,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046487"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "1981 Ferrari 308 GTB",
+      "price": "£65,000",
+      "year": "1981",
+      "mileage": "31,077 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29611253/1981-ferrari-308-gtb-69db534766016.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4f0ad8ffd20b2d328865790ad4b95857",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2047188"
         }
       ]
     }

@@ -801,13 +801,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1878178/1982-lotus-esprit-681c7b97a381a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c77228ddad315a99bee29aee8d6becc7",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1878178"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "40",
@@ -1029,14 +1030,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1945189/1977-lotus-esprit-68d12c2b6814d.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c37c2f2eb316a42e6ef1457602e7a55b",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1945189"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "51",
@@ -1049,13 +1049,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1894437/1994-lotus-esprit-68444d0140bef.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ff0b0f97d32d5cda381a26bdb046f02",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1894437"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "52",
@@ -1301,14 +1302,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1922668/1977-lotus-esprit-689a8d072f8d3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b6be0fd4fc1b4c27a63574d2152e928d",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1922668"
         }
-      ],
-      "unlistedDate": "2026-04-11"
+      ]
     },
     {
       "id": "65",
@@ -1321,14 +1321,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1837174/1988-lotus-esprit-67accdf756b10.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9ce8a51cd3df9e9f6fd1253e26ab34d5",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1837174"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "66",
@@ -1360,14 +1359,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1938698/1998-lotus-esprit-68bea1a84fc92.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=626ff9a77ac4db1a0ba6052b05b6c6bb",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1938698"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "68",
@@ -1454,7 +1452,7 @@
     {
       "id": "72",
       "title": "1980 Used  LOTUS ESPRIT",
-      "price": "£125,000",
+      "price": "£115,000",
       "year": 1980,
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
@@ -1467,6 +1465,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17169821"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£125,000",
+          "date": "2026-04-13"
         }
       ]
     },

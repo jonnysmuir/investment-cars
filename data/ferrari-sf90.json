@@ -358,7 +358,7 @@
     {
       "id": "15",
       "title": "2022 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£349,995",
+      "price": "£354,830",
       "year": 2022,
       "mileage": "1,073 miles",
       "transmission": "F1 Automated Manual",
@@ -400,6 +400,10 @@
         {
           "price": "£354,830",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£349,995",
+          "date": "2026-04-13"
         }
       ],
       "bodyType": "Convertible"
@@ -436,7 +440,7 @@
     {
       "id": "17",
       "title": "2023 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£375,000",
+      "price": "£385,000",
       "year": 2023,
       "mileage": "3,350 miles",
       "transmission": "Automatic",
@@ -499,6 +503,10 @@
         {
           "price": "£385,000",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£375,000",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -760,14 +768,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider-2dr-auto/ferrari-sf90-spider-2dr-auto-1392361321-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19750918"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "27",
@@ -1588,7 +1597,7 @@
     {
       "id": "61",
       "title": "2022 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£379,975",
+      "price": "£390,000",
       "year": 2022,
       "mileage": "878 miles",
       "transmission": "F1 Automated Manual",
@@ -1605,6 +1614,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20180471"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£379,975",
+          "date": "2026-04-13"
         }
       ]
     },

@@ -1722,14 +1722,14 @@
     {
       "id": "72",
       "title": "2010 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£129,000",
+      "price": "£135,000",
       "year": 2010,
       "mileage": "24,809 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/195e51ae06644b79b3a8001d679cdd0e.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1740,8 +1740,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20242929"
         }
       ],
-      "unlistedDate": "2026-03-12",
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£129,000",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "73",

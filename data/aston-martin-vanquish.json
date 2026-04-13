@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr 6 Speed Paddle Shift (396 g/km, 460 bhp) Fantastic condition",
-      "price": "£38,495",
+      "price": "£39,990",
       "year": 2003,
       "mileage": "43000 miles",
       "transmission": "6-Speed Manual",
@@ -877,6 +877,10 @@
         {
           "price": "£39,990",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -1576,13 +1580,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2031365/2004-aston-martin-vanquish-69b8490796276.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8d702fb3322e8dc91f5699837e783ca1",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2031365"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "70",
@@ -1699,7 +1704,7 @@
       "price": "£59,950",
       "year": 2013,
       "mileage": "52,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/da1f4c2b3c2f47ac90cfcb7b44a9051e.jpg",
       "featured": false,
@@ -1709,6 +1714,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120651491"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20059833"
         }
       ]
     },
@@ -1848,7 +1857,7 @@
     {
       "id": "80",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr Petrol Manual (396 g/km, 460 bhp)",
-      "price": "£51,500",
+      "price": "£49,950",
       "year": 2003,
       "mileage": "20,000 miles",
       "transmission": "6-Speed Manual",
@@ -1856,7 +1865,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0da6b60df4b244d88ac7d5e68c93f455.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1867,7 +1876,12 @@
           "url": "https://www.pistonheads.com/buy/listing/16887777"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£51,500",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "81",
@@ -1891,7 +1905,7 @@
     {
       "id": "82",
       "title": "2017 Aston Martin Vanquish 6.0 V12 S T-TronIII Euro 6 2dr",
-      "price": "£89,975",
+      "price": "£92,500",
       "year": 2017,
       "mileage": "61,900 miles",
       "transmission": "Unknown",
@@ -1899,7 +1913,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/53f3ea3bd1c54966ba93b1dfc89fd952.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1910,7 +1924,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19593778"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£89,975",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "83",
@@ -2348,7 +2367,7 @@
     {
       "id": "99",
       "title": "2017 Aston Martin Vanquish 6.0 V12 S T-TronIII Euro 6 2dr",
-      "price": "£109,950",
+      "price": "£109,900",
       "year": 2017,
       "mileage": "16,000 miles",
       "transmission": "Automatic",
@@ -2375,6 +2394,10 @@
         {
           "price": "£109,900",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£109,950",
+          "date": "2026-04-13"
         }
       ]
     },

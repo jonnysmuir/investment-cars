@@ -1312,7 +1312,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise/111s--143-bhp/lotus-elise-111s--143-bhp-1420459864-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1322,7 +1322,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261037282"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "63",
@@ -1436,13 +1437,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/978ac8f4931a45a3ae0c2e47ba526886.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603220913612"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "69",
@@ -2356,13 +2358,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2041063/2015-lotus-elise-69cc939d58324.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ce848e10c358a02aeb8a3df381c84632",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041063"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "112",
@@ -2579,13 +2582,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ad1cfb92993740da93b1930fc3f5a73f.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021258544"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "123",
@@ -2995,13 +2999,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/elise/lotus-elise-s1-elise-S4747876-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/16014080"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "144",
@@ -3014,13 +3019,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/16v/lotus-elise-s2-16v-S4893561-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18041513"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "145",
@@ -3052,13 +3058,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise/1-8-2dr/lotus-elise-1-8-2dr-1348557201-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19283865"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "147",
@@ -3071,13 +3078,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/sport-160/lotus-elise-s1-sport-160-S4940554-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20032849"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "148",
@@ -3195,12 +3203,12 @@
     },
     {
       "id": "154",
-      "title": "2002 Lotus Elise 1.8 2dr",
+      "title": "2002 Lotus Elise Convertible 1.8 16V 2DR Manual",
       "price": "£24,950",
       "year": 2002,
       "mileage": "7,000 Miles From New",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/0bee80b810da40cb8bad776b4844c6a0.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
@@ -3342,6 +3350,44 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20052006"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "title": "2006 Lotus Elise S2 **Stunning laser blue metallic**",
+      "price": "£24,995",
+      "year": "2006",
+      "mileage": "44,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2047217/2006-lotus-elise-69db55b33504e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=09f6be3ff53b6a87f819e0f1b59c9579",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2047217"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "title": "2003 Lotus Elise S2 Type 49",
+      "price": "£24,000",
+      "year": "2003",
+      "mileage": "37,516 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2047264/2003-lotus-elise-69db78bb42c99.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b5e9233519a2faff7da331f3b4ddd04e",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2047264"
         }
       ]
     }
