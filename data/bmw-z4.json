@@ -893,13 +893,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/ea1afe614b314f748815abfb9105cbb7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202205195883198"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "44",
@@ -1017,13 +1018,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/aea7dc1d335241fd9323de3e1703a89e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120648993"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "50",
@@ -2336,18 +2338,17 @@
       "year": 2009,
       "mileage": "30,000 miles",
       "transmission": "Automatic",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/d93a86cf04e4409aa1eb6ae6bb029312.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202305307941184"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "115",
@@ -2419,13 +2420,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/06ea93cb97c54e3c9b145b2f51cefe70.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603080511335"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "119",
@@ -2508,14 +2510,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1815e56365104c9bbdfafacaab18a3a6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603080517942"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "123",
@@ -2579,7 +2580,7 @@
     {
       "id": "126",
       "title": "2012 BMW Z4 2.0 20i M Sport sDrive Euro 5 (s/s) 2dr",
-      "price": "£8,765",
+      "price": "£8,295",
       "year": 2012,
       "mileage": "80,975 miles",
       "transmission": "Unknown",
@@ -2587,19 +2588,24 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5e8e821a795a4f48b87a509b213a1056.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512168614416"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£8,765",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "127",
       "title": "2014 BMW Z4 2.0 18i sDrive Euro 6 (s/s) 2dr",
-      "price": "£7,695",
+      "price": "£7,495",
       "year": 2014,
       "mileage": "83,800 miles",
       "transmission": "Unknown",
@@ -2607,14 +2613,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d921b898e32942d6842cbda11fd4c3a1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603010316182"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£7,695",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "128",
@@ -2731,14 +2742,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/72991c0212c24247a583d100c7be326d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602139914947"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "134",
@@ -2886,14 +2896,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8961c0e0b8964a2d99660f9fd9ec2a62.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508225679388"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "141",
@@ -3064,14 +3073,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2c4c59b6959448df807adc503b2d8470.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180808626"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "150",
@@ -3103,14 +3111,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9a860fd2b60d4d5c9e5fe41b23b918ff.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511197995081"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "152",
@@ -3123,14 +3130,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2db2c0dda61e4987b0b4d52f65e82243.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602240186532"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "153",
@@ -3163,14 +3169,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/aaf79751f2fd42adbd0013e9677094d1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504301880268"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "155",
@@ -3322,7 +3327,7 @@
     {
       "id": "162",
       "title": "2009 BMW Z4 2.5 23i sDrive Euro 5 2dr",
-      "price": "£6,495",
+      "price": "£5,995",
       "year": 2009,
       "mileage": "123,700 miles",
       "transmission": "Unknown",
@@ -3330,14 +3335,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a96ef0818c9c44fca30606bf6d72214d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260238317"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£6,495",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "163",
@@ -3350,14 +3360,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/39c494eb7f2841eb93388ed63666abee.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230925441"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "164",
@@ -3389,14 +3398,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/db62b9e6dfca42b1b8dffd4e3780cdb2.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507224710951"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "166",
@@ -3409,14 +3417,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4a57212c1f8c494285762ff5fbc04272.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180792458"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "167",
@@ -3429,14 +3436,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a48ab7ce41dc4e0086b265c5e1bfe140.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602079753651"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "168",
@@ -3449,14 +3455,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5eeaa9baf58b4c558e4da0f67a4d94cc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271068807"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "169",
@@ -3509,14 +3514,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fd8753cd97e145ac9a6d8234528a6a05.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601058924866"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "172",
@@ -3529,14 +3533,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8036a60fe5fe4b158d8faa56ca00e035.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060458350"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "173",
@@ -3549,34 +3552,38 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/29d9edafbfbc4c1abe1f63ce4a183787.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020349418"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "174",
       "title": "2006 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
-      "price": "£6,250",
+      "price": "£6,000",
       "year": 2006,
       "mileage": "142,700 miles",
       "transmission": "Automatic",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/6a287efb0c114e0c99febbd96540f102.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509056081655"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£6,250",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "175",
@@ -3725,23 +3732,22 @@
       "year": 2006,
       "mileage": "95,000 miles",
       "transmission": "Unknown",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/ac573d2a66104eaeaaa2ebba735123ec.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180794787"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "183",
       "title": "2009 BMW Z4 2.5 23i Auto sDrive Euro 5 2dr",
-      "price": "£8,750",
+      "price": "£8,495",
       "year": 2009,
       "mileage": "68,500 miles",
       "transmission": "Automatic",
@@ -3749,14 +3755,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d8dbfb686574471b85b6dfb2fafda373.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049667801"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£8,750",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "184",
@@ -3769,14 +3780,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/05d387efcae34adb93d9326319b748b5.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507124425711"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "185",
@@ -3789,34 +3799,38 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/077a11bae90948df9e5b386bdecc6730.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511097766826"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "186",
       "title": "2009 BMW Z4 3.0 si Sport Euro 4 2dr",
-      "price": "£12,990",
+      "price": "£12,750",
       "year": 2009,
       "mileage": "84,000 miles",
       "transmission": "Unknown",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/ad5619caf3f94fe4afda68316c97c558.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180803766"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£12,990",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "187",
@@ -3871,7 +3885,7 @@
     {
       "id": "189",
       "title": "2011 BMW Z4 2.5 23i M Sport sDrive Euro 5 2dr",
-      "price": "£8,250",
+      "price": "£7,750",
       "year": 2011,
       "mileage": "90,168 miles",
       "transmission": "Unknown",
@@ -3879,14 +3893,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6aa3dcb5cefe4e18951eca876a33020f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030365753"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£8,250",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "190",
@@ -3899,14 +3918,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7998c1cf4d3345b8864cfaf70e06c241.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180033012"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "191",
@@ -3939,14 +3957,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/11f4dce3422b43ad8f6c27cb6f47754b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190827167"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "193",
@@ -3959,19 +3976,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/692e02cf524248dfa90c6c7414df9f2f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020322062"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "194",
       "title": "2024 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
-      "price": "£33,495",
+      "price": "£32,995",
       "year": 2024,
       "mileage": "21,013 miles",
       "transmission": "Automatic",
@@ -3979,19 +3995,24 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6908dbd148974f58b8a9d68195ad0555.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190050830"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£33,495",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "195",
       "title": "2021 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
-      "price": "£24,998",
+      "price": "£24,898",
       "year": 2021,
       "mileage": "43,180 miles",
       "transmission": "Automatic",
@@ -3999,14 +4020,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/bb38c9aa267142689eb9c137d36947d9.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512188695834"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£24,998",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "196",
@@ -4039,14 +4065,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/845b3fe947414e89b138d272561a9e4c.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603060458017"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "198",
@@ -4059,14 +4084,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b33b8c6f39234adea26d19102564fc47.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240959262"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "199",
@@ -4099,14 +4123,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1f015a326ce94d5aa5e60122856c0708.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507144453270"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "201",
@@ -4131,7 +4154,7 @@
     {
       "id": "202",
       "title": "2014 BMW Z4 2.0 18i sDrive Euro 6 (s/s) 2dr",
-      "price": "£8,495",
+      "price": "£7,995",
       "year": 2014,
       "mileage": "61,000 miles",
       "transmission": "Unknown",
@@ -4139,14 +4162,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/881df7f88e4845ab8eb6180f8a4c9bfa.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149930614"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£8,495",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "203",
@@ -4179,14 +4207,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/83c41be3c8034e9b950b30b4ccf8118f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261032102"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "205",
@@ -4211,7 +4238,7 @@
     {
       "id": "206",
       "title": "2019 BMW Z4 2.0 20i Sport Auto sDrive Euro 6 (s/s) 2dr",
-      "price": "£22,895",
+      "price": "£22,795",
       "year": 2019,
       "mileage": "43,791 miles",
       "transmission": "Automatic",
@@ -4219,14 +4246,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/095fc525d1b243559407e70f4fe4b6bc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130679050"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£22,895",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "207",
@@ -4319,19 +4351,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/04313cf532664ee0976f4f8bcde6f358.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230937387"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "212",
       "title": "2015 BMW Z4 2.0 20i M Sport sDrive Euro 6 (s/s) 2dr",
-      "price": "£12,450",
+      "price": "£11,995",
       "year": 2015,
       "mileage": "53,500 miles",
       "transmission": "Unknown",
@@ -4339,14 +4370,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/04b9a5e7fc1d4ee1aded1c3cad438c78.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512068426415"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£12,450",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "213",
@@ -4359,14 +4395,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/00f62c4cd7e448c5935e290a01e5fa2d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180809174"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "214",
@@ -4379,14 +4414,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/12b9e7a823d8486187455eb09625c5cc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509015947143"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "215",
@@ -4399,14 +4433,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4a5eb56d9f7d43fc96f26272780705b7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200855085"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "216",
@@ -4450,7 +4483,7 @@
     {
       "id": "218",
       "title": "2022 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
-      "price": "£30,972",
+      "price": "£29,995",
       "year": 2022,
       "mileage": "29,976 miles",
       "transmission": "Automatic",
@@ -4458,14 +4491,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0a07f9f75f8d4fa1bc989f655910ec8a.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250191071"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£30,972",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "219",
@@ -4610,7 +4648,7 @@
     {
       "id": "226",
       "title": "2022 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
-      "price": "£30,500",
+      "price": "£30,000",
       "year": 2022,
       "mileage": "12,368 miles",
       "transmission": "Automatic",
@@ -4618,14 +4656,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ed1579b7af634dc6b8fad63895861cac.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050430296"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£30,500",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "227",
@@ -4638,14 +4681,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f2509ace0cb049d5bf04a642b388788a.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510097008827"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "228",
@@ -4678,14 +4720,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/601ce23002eb442999202b9624833b2a.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202405089474469"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "230",
@@ -4718,14 +4759,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dfd53a51d71d4fdd90f5f91ee47edc44.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180039458"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "232",
@@ -4734,18 +4774,17 @@
       "year": 2006,
       "mileage": "95,090 miles",
       "transmission": "Automatic",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/89f4b10fb3304debabc317f6e0daa95f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511208024224"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "233",
@@ -4778,19 +4817,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/35e7a0bc79ed40d7a307ebfca19eef8d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602099777422"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "235",
       "title": "2015 BMW Z4 2.0 28i M Sport Auto sDrive Euro 6 2dr",
-      "price": "£11,999",
+      "price": "£10,990",
       "year": 2015,
       "mileage": "51,000 miles",
       "transmission": "Automatic",
@@ -4798,14 +4836,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/846e7cd259f144cbb76f52da0f0342dd.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603220912349"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£11,999",
+          "date": "2026-04-13"
+        }
+      ]
     },
     {
       "id": "236",
@@ -4818,14 +4861,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1c74770ff5a642e898aeb9ccdbfb389d.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511218048672"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "237",
@@ -4877,14 +4919,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0d7263316d004295a3a7993d2995b9cc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180038062"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "240",
@@ -4955,13 +4996,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2028422/2007-bmw-z4-69b19aa627064.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=78b412673bd2e30ea0f7f11b699dc42a",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2028422"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "244",
@@ -5331,7 +5373,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2040317/2014-bmw-z4-69cc084467df7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=afd0b1f300db7248bd1acba3d9610b8d",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -5347,7 +5389,8 @@
           "price": "£6,600",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "262",
@@ -5420,13 +5463,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/76a6d5c430a641958fce105cb13c0b9f.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061326277"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-13"
     },
     {
       "id": "266",
@@ -5775,7 +5819,7 @@
     {
       "id": "284",
       "title": "2010 BMW Z4 2.5 23i Auto sDrive Euro 5 2dr",
-      "price": "£6,750",
+      "price": "£6,500",
       "year": 2010,
       "mileage": "62,000 miles",
       "transmission": "Automatic",
@@ -5788,6 +5832,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011216030"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£6,750",
+          "date": "2026-04-13"
         }
       ]
     },
@@ -6396,6 +6446,1450 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046261"
+        }
+      ]
+    },
+    {
+      "id": "317",
+      "title": "2011 BMW Z4 sDrive23i E89",
+      "price": "£10,990",
+      "year": "2011",
+      "mileage": "69,755 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/new/29632989/2011-bmw-z4-69dccddaa2326.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0cb6829d788a743538954880b53a889e",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2047751"
+        }
+      ]
+    },
+    {
+      "id": "318",
+      "title": "2009 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£34,925",
+      "year": 2009,
+      "mileage": "8,968 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f4b906de9359438d9c463dab659a7e57.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061319210"
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "title": "2007 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£14,980",
+      "year": 2007,
+      "mileage": "48,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/360db6b8b96e41cd8ba12c506c77cb1e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271066894"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "title": "2007 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
+      "price": "£9,000",
+      "year": 2007,
+      "mileage": "71,727 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0aa6eac8e18b4033ae35cc4014dbfca7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602089770827"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "title": "2007 BMW Z4 3.0 si SE Euro 4 2dr",
+      "price": "£15,000",
+      "year": 2007,
+      "mileage": "46,423 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d00ca82b39514b01bad0748f5a84deb7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512298825250"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "title": "2006 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
+      "price": "£15,250",
+      "year": 2006,
+      "mileage": "46,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/6428c80ffc324cf2abc43ee2ecac9e3a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511057678086"
+        }
+      ]
+    },
+    {
+      "id": "323",
+      "title": "2007 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
+      "price": "£5,200",
+      "year": 2007,
+      "mileage": "149,280 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/e5d82a406267412b9fc82d49277fa907.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604111475851"
+        }
+      ]
+    },
+    {
+      "id": "324",
+      "title": "2007 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£5,795",
+      "year": 2007,
+      "mileage": "192,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/147881f7cfc24b99940e89f3d0a70d2b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604121487229"
+        }
+      ]
+    },
+    {
+      "id": "325",
+      "title": "2006 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£11,490",
+      "year": 2006,
+      "mileage": "85,755 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ebd17ae8a99f41fcb01921b3cb073deb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603210897820"
+        }
+      ]
+    },
+    {
+      "id": "326",
+      "title": "2008 BMW Z4 3.0 si SE Auto Euro 4 2dr",
+      "price": "£9,500",
+      "year": 2008,
+      "mileage": "71,800 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9b3fd7b0631b45ac98f5864db2728d6f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101448088"
+        }
+      ]
+    },
+    {
+      "id": "327",
+      "title": "2006 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
+      "price": "£12,995",
+      "year": 2006,
+      "mileage": "43,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9314b53d703f4a35ace5b3e4fcef1b32.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311165405"
+        }
+      ]
+    },
+    {
+      "id": "328",
+      "title": "2007 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£9,500",
+      "year": 2007,
+      "mileage": "90,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a055fe2376be4b8c8211ffdbcb3e3c50.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604051307521"
+        }
+      ]
+    },
+    {
+      "id": "329",
+      "title": "2006 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£14,950",
+      "year": 2006,
+      "mileage": "80,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1eaeb3f9f7874a718a30d0a82914da1f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601169208441"
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "title": "2006 BMW Z4 3.0 si SE Euro 4 2dr",
+      "price": "£10,450",
+      "year": 2006,
+      "mileage": "71,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/54df558508544b6a928b5e709034652d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202409234355591"
+        }
+      ]
+    },
+    {
+      "id": "331",
+      "title": "2006 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£13,995",
+      "year": 2006,
+      "mileage": "50,950 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/3ee905a973b54a6691ab2b01e263e013.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202301042938186"
+        }
+      ]
+    },
+    {
+      "id": "332",
+      "title": "2011 BMW Z4 2.5 23i M Sport sDrive Euro 5 2dr",
+      "price": "£12,250",
+      "year": 2011,
+      "mileage": "32,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d8f9112acfae4f2eb1de22abec9a49c6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131502230"
+        }
+      ]
+    },
+    {
+      "id": "333",
+      "title": "2012 BMW Z4 2.0 20i M Sport sDrive Euro 5 (s/s) 2dr",
+      "price": "£9,990",
+      "year": 2012,
+      "mileage": "51,001 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/71b55da1c11d4a83a71e01a52895f5d6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603130663759"
+        }
+      ]
+    },
+    {
+      "id": "334",
+      "title": "2010 BMW Z4 2.5 23i Auto sDrive Euro 5 2dr",
+      "price": "£9,000",
+      "year": 2010,
+      "mileage": "70,940 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/16432bf66cfe417bac3400cbd2ebc560.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271055893"
+        }
+      ]
+    },
+    {
+      "id": "335",
+      "title": "2012 BMW Z4 2.0 20i M Sport sDrive Euro 5 (s/s) 2dr",
+      "price": "£12,995",
+      "year": 2012,
+      "mileage": "27,460 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ee8d5836b70541f3b5a238259ea32c3f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061313946"
+        }
+      ]
+    },
+    {
+      "id": "336",
+      "title": "2014 BMW Z4 3.0 35is DCT sDrive Euro 5 2dr",
+      "price": "£15,950",
+      "year": 2014,
+      "mileage": "72,880 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/caedd8021ef247e3bdb57ba21ed5b55c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603170777463"
+        }
+      ]
+    },
+    {
+      "id": "337",
+      "title": "2016 BMW Z4 2.0 18i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£12,699",
+      "year": 2016,
+      "mileage": "60,786 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/4e99f5a8e04d4789aa05eb3c90241af9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071333069"
+        }
+      ]
+    },
+    {
+      "id": "338",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£21,097",
+      "year": 2020,
+      "mileage": "53,663 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/159b3f2b9c424056b7430bf84fb41255.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091390807"
+        }
+      ]
+    },
+    {
+      "id": "339",
+      "title": "2019 BMW Z4 2.0 20i Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£23,875",
+      "year": 2019,
+      "mileage": "14,854 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/90761cc2d8e044b7926a6e8071848b90.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301140348"
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "title": "2016 BMW Z4 2.0 28i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£20,995",
+      "year": 2016,
+      "mileage": "20,019 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/dae175d1cd1347419d0072432037ae0d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021238190"
+        }
+      ]
+    },
+    {
+      "id": "341",
+      "title": "2013 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£6,995",
+      "year": 2013,
+      "mileage": "91,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/494afe686f764e8293395c1e687f6ce0.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301138946"
+        }
+      ]
+    },
+    {
+      "id": "342",
+      "title": "2017 BMW Z4 2.0 18i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£12,498",
+      "year": 2017,
+      "mileage": "76,939 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/00078f0c12364b5593de6e4a469da1ea.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604121481361"
+        }
+      ]
+    },
+    {
+      "id": "343",
+      "title": "2009 BMW Z4 2.5 23i sDrive Euro 5 2dr",
+      "price": "£4,950",
+      "year": 2009,
+      "mileage": "121,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/4f85359fa4f3403fa08c0512db9eaa3b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604041298078"
+        }
+      ]
+    },
+    {
+      "id": "344",
+      "title": "2011 BMW Z4 3.0 30i Auto sDrive Euro 5 2dr",
+      "price": "£6,995",
+      "year": 2011,
+      "mileage": "98,844 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0fafb9e407b34dd8a657717a0bfa0270.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011207170"
+        }
+      ]
+    },
+    {
+      "id": "345",
+      "title": "2013 BMW Z4 2.0 20i M Sport sDrive Euro 5 (s/s) 2dr",
+      "price": "£8,850",
+      "year": 2013,
+      "mileage": "76,752 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a84a4175592047b38be8914b6e50acf5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603030362879"
+        }
+      ]
+    },
+    {
+      "id": "346",
+      "title": "2024 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£37,741",
+      "year": 2024,
+      "mileage": "6,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a38b8db9594d4220aa8f4122fe2ded49.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081372587"
+        }
+      ]
+    },
+    {
+      "id": "347",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£25,995",
+      "year": 2020,
+      "mileage": "29,350 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ba50fb900f864d19b81a4fc4b40e5d71.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603120634401"
+        }
+      ]
+    },
+    {
+      "id": "348",
+      "title": "2009 BMW Z4 SDrive 3.5i Sport Convertible 2dr Petrol Auto DCT Euro 5 (265 ps)",
+      "price": "£7,950",
+      "year": 2009,
+      "mileage": "78,660 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8f30e399621d4d7194646e2405390d58.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202505082189111"
+        }
+      ]
+    },
+    {
+      "id": "349",
+      "title": "2013 BMW Z4 2.0 18i sDrive Euro 6 (s/s) 2dr",
+      "price": "£10,500",
+      "year": 2013,
+      "mileage": "63,056 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/5e6e5777e18048d6bcdbf3a049be0077.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602180015975"
+        }
+      ]
+    },
+    {
+      "id": "350",
+      "title": "2019 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£24,990",
+      "year": 2019,
+      "mileage": "11,025 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d12edd5b50d4484ba89a1007a1897ce6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603271079991"
+        }
+      ]
+    },
+    {
+      "id": "351",
+      "title": "2015 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£11,990",
+      "year": 2015,
+      "mileage": "73,775 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/feee4e57115d42ea88faa0d351cc6cb8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281093276"
+        }
+      ]
+    },
+    {
+      "id": "352",
+      "title": "2021 BMW Z4 2.0 20i Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£22,941",
+      "year": 2021,
+      "mileage": "34,726 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/403e242918b94a4281e7f0f1e583ff8a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021238390"
+        }
+      ]
+    },
+    {
+      "id": "353",
+      "title": "2019 BMW Z4 3.0 M40i Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£31,990",
+      "year": 2019,
+      "mileage": "12,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/450dec10657e497e90519c762d7c7a73.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311178664"
+        }
+      ]
+    },
+    {
+      "id": "354",
+      "title": "2023 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£32,000",
+      "year": 2023,
+      "mileage": "9,454 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ff37987847fa45f2a7f4bfc415c62328.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603160736945"
+        }
+      ]
+    },
+    {
+      "id": "355",
+      "title": "2013 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£9,290",
+      "year": 2013,
+      "mileage": "96,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/cf6c0cad05374269a25ccda21a57c63f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021245191"
+        }
+      ]
+    },
+    {
+      "id": "356",
+      "title": "2009 BMW Z4 2.5 23i sDrive Euro 5 2dr",
+      "price": "£6,799",
+      "year": 2009,
+      "mileage": "78,157 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f119a88f661d42219bd241444f2249b9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281090801"
+        }
+      ]
+    },
+    {
+      "id": "357",
+      "title": "2019 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£23,995",
+      "year": 2019,
+      "mileage": "26,840 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/94de5ead62a34ee4ae25ab0f8c8fc5ad.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091406750"
+        }
+      ]
+    },
+    {
+      "id": "358",
+      "title": "2013 BMW Z4 2.0 28i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£10,000",
+      "year": 2013,
+      "mileage": "115,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1da7f1d3e1cf41be9145969926cf3f53.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202209300292864"
+        }
+      ]
+    },
+    {
+      "id": "359",
+      "title": "2020 BMW Z4 2.0 20i Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£22,350",
+      "year": 2020,
+      "mileage": "48,961 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/75640255dd4d4bef90f802d94fa0a154.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011206923"
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£23,000",
+      "year": 2020,
+      "mileage": "35,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/916b027b6248457dbe69514bc47d20ff.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603080517854"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "title": "2021 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£25,990",
+      "year": 2021,
+      "mileage": "25,822 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/be6d6e3ee2e34351b5370c56c58d0d32.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603050447121"
+        }
+      ]
+    },
+    {
+      "id": "362",
+      "title": "2021 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£29,490",
+      "year": 2021,
+      "mileage": "22,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ac001c2055aa45afb4cdf721e47164a2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603040393459"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "title": "2010 BMW Z4 3.0 35i M Sport DCT sDrive Euro 5 2dr",
+      "price": "£12,950",
+      "year": 2010,
+      "mileage": "72,457 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/6cba3771b0cf4100b863720add7c6bc9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301146673"
+        }
+      ]
+    },
+    {
+      "id": "364",
+      "title": "2012 BMW Z4 2.0 20i M Sport sDrive Euro 5 (s/s) 2dr",
+      "price": "£7,995",
+      "year": 2012,
+      "mileage": "73,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/07352600dee34fba8135516ceec288c4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602089766841"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "title": "2006 BMW Z4 2.5i SE Auto Euro 4 2dr",
+      "price": "£6,500",
+      "year": 2006,
+      "mileage": "61,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8c80b271f5914c0791714c32b18c296f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604051306006"
+        }
+      ]
+    },
+    {
+      "id": "366",
+      "title": "2022 BMW Z4 2.0 20i Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£26,690",
+      "year": 2022,
+      "mileage": "14,612 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/da029b7259c14c49beb5a60d32d00c91.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512248789143"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "title": "2011 BMW Z4 2.5 23i M Sport sDrive Euro 5 2dr",
+      "price": "£10,995",
+      "year": 2011,
+      "mileage": "65,413 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/04626c548d2044a39bad0aac3a1f8fe8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601089013977"
+        }
+      ]
+    },
+    {
+      "id": "368",
+      "title": "2021 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£23,875",
+      "year": 2021,
+      "mileage": "83,540 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/661cf254647b4e49991c3b68c9826e26.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071336883"
+        }
+      ]
+    },
+    {
+      "id": "369",
+      "title": "2013 BMW Z4 2.0 18i M Sport sDrive Euro 6 (s/s) 2dr",
+      "price": "£8,499",
+      "year": 2013,
+      "mileage": "95,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/4ca93d065c6a47128fa8f7046f615633.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021242576"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£22,995",
+      "year": 2020,
+      "mileage": "38,260 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/c199c453726f419c8597cdafade0e58f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603140704626"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "2010 BMW Z4 3.0 30i M Sport sDrive Euro 5 2dr",
+      "price": "£19,995",
+      "year": 2010,
+      "mileage": "13,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/966b61b2dcbf4fcfbb9038a6b7bd49c6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240973078"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "title": "2014 BMW Z4 2.0 18i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£16,000",
+      "year": 2014,
+      "mileage": "42,026 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fe8fb7e8f5c449d6af47f52c7a588784.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281100329"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "2016 BMW Z4 2.0 28i M Sport Auto sDrive Euro 6 2dr",
+      "price": "£17,343",
+      "year": 2016,
+      "mileage": "54,097 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/7e78676830ba43119c16d4284afc8314.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603301140574"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "2021 BMW Z4 2.0 30i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£29,995",
+      "year": 2021,
+      "mileage": "28,940 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d4bf3c8fd3264d38878644014d3339fc.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604021233289"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£24,999",
+      "year": 2020,
+      "mileage": "14,014 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8d50ec74f9db47d59a054650abe2c7da.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603230923385"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "title": "2004 BMW Z4 3.0i SE Auto Euro 3 2dr",
+      "price": "£5,800",
+      "year": 2004,
+      "mileage": "38,428 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fe0fa510264943b69747be606f5f17e1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311184600"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "title": "2023 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£31,990",
+      "year": 2023,
+      "mileage": "14,316 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/27da2442074244a9a06143601593e363.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261030904"
+        }
+      ]
+    },
+    {
+      "id": "378",
+      "title": "2025 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£37,495",
+      "year": 2025,
+      "mileage": "11,218 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d319f6d7ad554513af377d52d637cfaa.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202512198709850"
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "title": "2015 BMW Z4 3.0 35is DCT sDrive Euro 5 2dr",
+      "price": "£9,995",
+      "year": 2015,
+      "mileage": "118,745 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f950a38906e645cab145654d6f14a1db.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602039630994"
+        }
+      ]
+    },
+    {
+      "id": "380",
+      "title": "2006 BMW Z4 3.0 si SE Euro 4 2dr",
+      "price": "£7,995",
+      "year": 2006,
+      "mileage": "88,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/da73e445806149839643be752d348c29.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202305227632975"
+        }
+      ]
+    },
+    {
+      "id": "381",
+      "title": "2020 BMW Z4 2.0 20i M Sport Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£25,293",
+      "year": 2020,
+      "mileage": "29,164 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/60b2a9827d144d298a2a1b50ea4ef349.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603100556428"
+        }
+      ]
+    },
+    {
+      "id": "382",
+      "title": "2019 BMW Z4 3.0 M40i Auto sDrive Euro 6 (s/s) 2dr",
+      "price": "£29,495",
+      "year": 2019,
+      "mileage": "22,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/64122341d32743f1a93c2d7f0e23c98a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603240960637"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "2015 BMW Z4 2.0 20i M Sport sDrive Euro 6 (s/s) 2dr",
+      "price": "£11,950",
+      "year": 2015,
+      "mileage": "29,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/00ca7919266848aba8b8434212c979ca.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603010312706"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "2006 BMW Z4 M 3.2i Euro 4 2dr",
+      "price": "£34,995",
+      "year": "2006",
+      "mileage": "32,857 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2031694/2006-bmw-z4-69b956d389f93.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c0ea6daf5bb78503d73aedaeda1b4ee0",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2031694"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "title": "2015 BMW Z4 E89 sDrive20i",
+      "price": "£9,590",
+      "year": "2015",
+      "mileage": "66,800 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1987771/2015-bmw-z4-693d5cd4643fe.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=926d9065a3928c0c283e39528ee61ba7",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1987771"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "2003 BMW Z4 2.5i Manual Roadster – Ultra-Low 29,572 miles!",
+      "price": "£8,075",
+      "year": "2003",
+      "mileage": "29,515 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1999306/2003-bmw-z4-69949a620df89.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9aadb27979f1b7c0187c1ed779eda0a4",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1999306"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "2011 2 previous owners2011 BMW Z4 E89 sDrive2.5i 21235 miles",
+      "price": "£12,750",
+      "year": "2011",
+      "mileage": "21,475 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2015268/2011-bmw-z4-699159b8f1f40.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fe1128602eb668377c7cf521b650519c",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2015268"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "title": "2025 BMW Z4 G29 (2018 - Present) M40i Roadster",
+      "price": "£44,995",
+      "year": "2025",
+      "mileage": "3,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1991899/2025-bmw-z4-694be75872926.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7f02862fd292c897d49f01f9f1135828",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1991899"
+        }
+      ]
+    },
+    {
+      "id": "389",
+      "title": "2022 BMW Z4 M40I Auto",
+      "price": "£34,490",
+      "year": "2022",
+      "mileage": "16,845 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1993716/2022-bmw-z4-695e8f4402629.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=34a3c3c467d0dd53abadda430212e0cb",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1993716"
+        }
+      ]
+    },
+    {
+      "id": "390",
+      "title": "2003 BMW Z4 2.2i SE SMG HUGE EXPENDITURE STUNNING",
+      "price": "£2,995",
+      "year": "2003",
+      "mileage": "116,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C1973304/2003-bmw-z4-69da55c4c3fc8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7ea9ea72681b42e55c5120d211c847c7",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1973304"
+        }
+      ]
+    },
+    {
+      "id": "391",
+      "title": "2003 A Pristine E85 BMW Z4 Roadster 3.0i with Just 27,366 Miles",
+      "price": "£10,995",
+      "year": "2003",
+      "mileage": "27,366 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2005461/2003-bmw-z4-6978ef2521fa6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a73f92366e4b3680490d388e1bd4e5c",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2005461"
+        }
+      ]
+    },
+    {
+      "id": "392",
+      "title": "2006 BMW Z4 E86 3.0si",
+      "price": "£15,200",
+      "year": "2006",
+      "mileage": "46,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2012962/2006-bmw-z4-698b1d013f83f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=137d1fc84fcbfe2cf6305cc4e9c4f1a4",
+      "featured": false,
+      "dateAdded": "2026-04-13",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2012962"
         }
       ]
     }

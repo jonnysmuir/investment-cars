@@ -59,10 +59,16 @@ async function fetchPage(url) {
  * @param {object} modelConfig  - { make, model, slug }
  * @returns {Array} Array of listing objects
  */
+// C&C uses different make names for some manufacturers
+const CAC_MAKE_NAME = {
+  'mercedes-amg': 'mercedes-benz',
+};
+
 async function scrape(sourceConfig, modelConfig) {
   // Try both the legacy /list/ URL and the new /search URL
   const legacyUrl = `https://www.carandclassic.com/list/${sourceConfig.makeId}/${sourceConfig.model}/`;
-  const searchUrl = `https://www.carandclassic.com/search?make=${encodeURIComponent(modelConfig.make.toLowerCase())}&model=${encodeURIComponent(sourceConfig.model)}`;
+  const cacMake = CAC_MAKE_NAME[modelConfig.make.toLowerCase()] || modelConfig.make.toLowerCase();
+  const searchUrl = `https://www.carandclassic.com/search?make=${encodeURIComponent(cacMake)}&model=${encodeURIComponent(sourceConfig.model)}`;
   const listings = [];
   const allowedCountries = sourceConfig.countries || ['GB'];
   const seenIds = new Set();
@@ -83,7 +89,7 @@ async function scrape(sourceConfig, modelConfig) {
     return count;
   }
 
-  // Try legacy URL first, fall back to search URL
+  // Try both URLs and merge results (search URL often has more results than legacy)
   const urlsToTry = [legacyUrl, searchUrl];
 
   for (const baseUrl of urlsToTry) {
@@ -121,8 +127,10 @@ async function scrape(sourceConfig, modelConfig) {
       if (newCount === 0 || pageNum >= pageResult.lastPage) break;
     }
 
-    // If we found listings from the first URL, skip the fallback
-    if (listings.length > 0) break;
+    // Delay before trying second URL
+    if (baseUrl === urlsToTry[0] && urlsToTry.length > 1) {
+      await randomDelay(2000, 4000);
+    }
   }
 
   console.log(`  [Cars & Classic] Successfully scraped ${listings.length} listings`);
