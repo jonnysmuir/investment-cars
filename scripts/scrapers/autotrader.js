@@ -25,15 +25,41 @@ const MAX_MAKE_PAGES = 25;   // Higher limit for make-level (covers many models)
 const DEFAULT_POSTCODE = 'SW1A1AA';
 const DEFAULT_RADIUS = 1500;
 
-// Makes where body type is ambiguous in titles — run separate searches per body type
-// makeLevelSplits: used in scrapeMake (broad make search — only works when AT make name matches directly)
-// perModelSplits: used in scrape (per-model search — works for all makes including remapped ones)
+// Makes where body type is ambiguous in titles — run per-model body-type searches
 const MAKE_LEVEL_BODY_SPLITS = {
   'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+  'Mercedes-AMG': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
 };
 const PER_MODEL_BODY_SPLITS = {
   'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+  'Mercedes-AMG': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
 };
+
+/**
+ * Determine which body types to search for a given model.
+ * Uses bodyTypeRules to narrow down — e.g. BMW M2 only needs Coupe.
+ */
+function getRelevantBodyTypes(modelConfig, allSplits) {
+  const rules = modelConfig.bodyTypeRules;
+  if (!rules) return allSplits;
+
+  const relevant = new Set();
+  if (rules.defaultBodyType) relevant.add(rules.defaultBodyType);
+  if (rules.generationOverrides) {
+    for (const bt of Object.values(rules.generationOverrides)) relevant.add(bt);
+  }
+  if (rules.titlePatterns) {
+    for (const bt of Object.keys(rules.titlePatterns)) {
+      // Normalise: "Gran Coupe" is in normaliseBodyType but also valid as filter
+      const norm = bt === 'Gran Coupe' ? 'Coupe' : bt;
+      relevant.add(norm);
+    }
+  }
+
+  // Filter to only body types that are in the split list
+  const filtered = allSplits.filter(bt => relevant.has(bt));
+  return filtered.length > 0 ? filtered : allSplits;
+}
 
 let browser = null;
 
@@ -285,12 +311,13 @@ async function scrape(sourceConfig, modelConfig) {
     }
 
     const perModelSplits = PER_MODEL_BODY_SPLITS[modelConfig.make];
-    const perModelVariants = perModelSplits
-      ? perModelSplits.map(bt => ({ url: `${searchBaseUrl}&body-type=${bt}`, bodyType: bt }))
+    const relevantBTs = perModelSplits ? getRelevantBodyTypes(modelConfig, perModelSplits) : null;
+    const perModelVariants = relevantBTs
+      ? relevantBTs.map(bt => ({ url: `${searchBaseUrl}&body-type=${bt}`, bodyType: bt }))
       : [{ url: searchBaseUrl, bodyType: null }];
 
-    if (perModelSplits) {
-      console.log(`  [AutoTrader] Scraping ${perModelSplits.length} body type splits (${perModelSplits.join(', ')})`);
+    if (relevantBTs) {
+      console.log(`  [AutoTrader] Scraping ${relevantBTs.length} body type splits (${relevantBTs.join(', ')})`);
     }
 
     for (const variant of perModelVariants) {
@@ -372,8 +399,8 @@ async function scrapeMake(make, modelConfigs) {
   console.log(`\n  [AutoTrader Batch] Scraping make: ${make} (${modelConfigs.length} models)`);
 
   const b = await getBrowser();
-  const context = await createContext(b);
-  const page = await context.newPage();
+  let context = await createContext(b);
+  let page = await context.newPage();
 
   // Result map: slug → listings
   const resultsBySlug = {};
@@ -414,25 +441,90 @@ async function scrapeMake(make, modelConfigs) {
       }
     }
 
-    // ── Phase 2: Make-level search with pagination ──
-    const searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(make)}&advertising-location=at_cars`;
-
+    // ── Phase 2: Search with pagination ──
     const bodyTypeSplits = MAKE_LEVEL_BODY_SPLITS[make];
-    const searchVariants = bodyTypeSplits
-      ? bodyTypeSplits.map(bt => ({ url: `${searchBaseUrl}&body-type=${bt}`, bodyType: bt }))
-      : [{ url: searchBaseUrl, bodyType: null }];
 
     if (bodyTypeSplits) {
-      console.log(`  [AutoTrader Batch] ${make}: scraping ${bodyTypeSplits.length} body type splits (${bodyTypeSplits.join(', ')})`);
-    }
+      // Per-model + per-body-type scraping (targeted, avoids make-level pagination limits)
+      console.log(`  [AutoTrader Batch] ${make}: per-model body type scraping`);
 
-    for (const variant of searchVariants) {
-      const label = variant.bodyType ? `${make} ${variant.bodyType}` : make;
-      let variantTotal = 0;
+      let modelIdx = 0;
+      for (const mc of modelsForApollo) {
+        const parsed = parseMakeModelFromUrl(mc.sources.autotrader.searchUrl);
+        if (!parsed) continue;
+
+        const modelSearchBase = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(parsed.make)}&model=${encodeURIComponent(parsed.model)}&advertising-location=at_cars`;
+        const relevantBodyTypes = getRelevantBodyTypes(mc, bodyTypeSplits);
+
+        const modelCounts = {};
+        for (const bodyType of relevantBodyTypes) {
+          const searchUrl = `${modelSearchBase}&body-type=${bodyType}`;
+          let btTotal = 0;
+
+          for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+            const pageUrl = `${searchUrl}&page=${pageNum}`;
+            console.log(`  [AutoTrader Batch] ${mc.model} ${bodyType} p${pageNum}`);
+
+            await randomDelay(3000, 7000);
+
+            try {
+              await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+              await page.waitForSelector('a[href*="/car-details/"]', { timeout: 15000 }).catch(() => {});
+            } catch (navErr) {
+              console.warn(`  [AutoTrader Batch] Navigation failed: ${mc.model} ${bodyType} p${pageNum}: ${navErr.message}`);
+              break;
+            }
+
+            const pageListings = await extractSearchPageListings(page, make);
+
+            // Tag each listing with the body type from the URL filter
+            for (const listing of pageListings) {
+              listing.bodyType = bodyType;
+            }
+
+            let newCount = 0;
+            for (const listing of pageListings) {
+              if (!allListings.has(listing.id)) {
+                newCount++;
+                allListings.set(listing.id, { search: listing });
+              } else if (!allListings.get(listing.id).search) {
+                allListings.get(listing.id).search = listing;
+              }
+            }
+
+            btTotal += newCount;
+            if (pageListings.length === 0 || newCount === 0) break;
+          }
+
+          modelCounts[bodyType] = btTotal;
+
+          // Delay between body type searches for the same model
+          await randomDelay(2000, 5000);
+        }
+
+        const countStr = Object.entries(modelCounts).map(([bt, n]) => `${bt} ${n}`).join(', ');
+        const modelTotal = Object.values(modelCounts).reduce((a, b) => a + b, 0);
+        console.log(`  [AutoTrader Batch] ${mc.model}: ${countStr} = ${modelTotal} total`);
+
+        modelIdx++;
+        // Longer delay between models, fresh context every 5 models
+        if (modelIdx < modelsForApollo.length) {
+          await randomDelay(10000, 20000);
+          if (modelIdx % 5 === 0) {
+            console.log(`  [AutoTrader Batch] Rotating browser context`);
+            await context.close();
+            context = await createContext(b);
+            page = await context.newPage();
+          }
+        }
+      }
+    } else {
+      // Standard make-level search (no body type splits)
+      const searchBaseUrl = `https://www.autotrader.co.uk/car-search?postcode=${DEFAULT_POSTCODE}&radius=${DEFAULT_RADIUS}&make=${encodeURIComponent(make)}&advertising-location=at_cars`;
 
       for (let pageNum = 1; pageNum <= MAX_MAKE_PAGES; pageNum++) {
-        const pageUrl = `${variant.url}&page=${pageNum}`;
-        console.log(`  [AutoTrader Batch] Search page ${pageNum} for ${label}`);
+        const pageUrl = `${searchBaseUrl}&page=${pageNum}`;
+        console.log(`  [AutoTrader Batch] Search page ${pageNum} for ${make}`);
 
         await randomDelay(3000, 7000);
 
@@ -446,13 +538,6 @@ async function scrapeMake(make, modelConfigs) {
 
         const pageListings = await extractSearchPageListings(page, make);
 
-        // Tag each listing with the body type from the URL filter
-        if (variant.bodyType) {
-          for (const listing of pageListings) {
-            listing.bodyType = variant.bodyType;
-          }
-        }
-
         let newCount = 0;
         for (const listing of pageListings) {
           if (!allListings.has(listing.id)) {
@@ -464,18 +549,8 @@ async function scrapeMake(make, modelConfigs) {
         }
 
         console.log(`  [AutoTrader Batch] Page ${pageNum}: ${pageListings.length} listings (${newCount} new)`);
-        variantTotal += newCount;
 
         if (pageListings.length === 0 || newCount === 0) break;
-      }
-
-      if (variant.bodyType) {
-        console.log(`  [AutoTrader Batch] ${label}: ${variantTotal} listings`);
-      }
-
-      // Delay between body type splits
-      if (bodyTypeSplits && variant !== searchVariants[searchVariants.length - 1]) {
-        await randomDelay(5000, 10000);
       }
     }
 
