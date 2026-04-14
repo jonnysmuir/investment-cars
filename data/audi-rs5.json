@@ -385,7 +385,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4b683d4702c34156a952be354fee54ec.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -395,7 +395,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19933759"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "19",
@@ -408,7 +409,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/93f452655b9d447d919a768ff63f2583.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -420,7 +421,8 @@
           "price": "£33,280",
           "date": "2026-04-06"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "20",
@@ -997,7 +999,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c99901004efc45769a2f8378287cb079.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1017,7 +1019,8 @@
           "price": "£39,995",
           "date": "2026-04-09"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "48",
@@ -1310,7 +1313,7 @@
     {
       "id": "62",
       "title": "2020 Audi RS5 2.9 TFSI V6 Vorsprung Tiptronic quattro Euro 6 (s/s) 2dr",
-      "price": "£41,795",
+      "price": "£39,995",
       "year": 2020,
       "mileage": "56,041 miles",
       "transmission": "Unknown",
@@ -1318,14 +1321,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b5c95c3262964823ba444232993cccc0.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602139916539"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£41,795",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "63",
@@ -1670,7 +1678,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a8671227e9df49579bb4b5886bd1bc6b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1686,7 +1694,8 @@
           "price": "£42,495",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "80",
@@ -2718,7 +2727,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/715e1dc7d5f541dcac502cb7ffd37e38.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2734,7 +2743,8 @@
           "price": "£47,950",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "131",
@@ -3560,18 +3570,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/af060d8d0ce04988a71b62fce07e0dc0.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281098144"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "172",
       "title": "2011 Audi RS5 4.2 FSI V8 S Tronic quattro Euro 4 2dr",
-      "price": "£11,995",
+      "price": "£10,995",
       "year": 2011,
       "mileage": "186,000 miles",
       "transmission": "Unknown",
@@ -3590,6 +3601,10 @@
         {
           "price": "£12,995",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£11,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -3875,6 +3890,44 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20232235"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "title": "2018 Audi RS5 2.9 TFSI V6 Coupe 2dr Petrol Tiptronic quattro Euro 6 (s/s) (450 ps)",
+      "price": "£34,990",
+      "year": 2018,
+      "mileage": "36,283 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/51116fe009c443109b7906e86d596be2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131495193"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "title": "2013 Audi RS5 4.2 FSI V8 Coupe 2dr Petrol S Tronic quattro Euro 5 (450 ps)",
+      "price": "£13,995",
+      "year": 2013,
+      "mileage": "98,795 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5603d0115ee34058b19b4533a2deaa9c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061313358"
         }
       ]
     }

@@ -824,7 +824,7 @@
     {
       "id": "40",
       "title": "2026 Alpine A110 Turbo DCT",
-      "price": "£56,499",
+      "price": "£54,399",
       "year": "2026",
       "mileage": "15 miles",
       "transmission": "Automatic",
@@ -832,14 +832,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/alpine/C2029125/2026-alpine-a110-69c7200ce8e23.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=13b9f1fe3c2e4f2bf1fb05d1a89dcd60",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029125"
         }
       ],
-      "unlistedDate": "2026-04-12"
+      "priceHistory": [
+        {
+          "price": "£56,499",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "41",
@@ -982,6 +987,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046790"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "1971 1972 Alpine A110 1st Gen S",
+      "price": "£49,000",
+      "year": "1971",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/alpine/C1931367/1971-alpine-a110-68fbd0579b6d4.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=06a0f7e126e8acc596d526b72976e666",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1931367"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "2026 Alpine A110 L Turbo DCT",
+      "price": "£58,950",
+      "year": "2026",
+      "mileage": "10 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/alpine/C2011168/2026-alpine-a110-69dd85c3e0b4a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3a4d029d2b54227b98ffde85a7737cb3",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2011168"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "2025 Alpine A110 L Turbo 2dr DCT",
+      "price": "£49,900",
+      "year": "2025",
+      "mileage": "800 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/alpine/C2004980/2025-alpine-a110-69dd85967a7db.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6d508c81dbb5d00d91eecccaf043d5ac",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2004980"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "2021 Alpine A110 | WANTED",
+      "price": "POA",
+      "year": "2021",
+      "mileage": "5,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/alpine/C1931466/2021-alpine-a110-68ae7df08bc8d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2a92f426108d477c1b2afc6847d3fe36",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1931466"
         }
       ]
     }

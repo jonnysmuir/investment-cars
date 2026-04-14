@@ -133,7 +133,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs7/audi-rs7-1406762241-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -185,7 +185,8 @@
           "price": "£25,990",
           "date": "2026-04-06"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "7",
@@ -280,7 +281,7 @@
     {
       "id": "11",
       "title": "2021 Audi RS7 4.0 TFSI V8 Sportback Tiptronic quattro Euro 6 (s/s) 5dr",
-      "price": "£55,650",
+      "price": "£55,400",
       "year": 2021,
       "mileage": "48,000 miles",
       "transmission": "Unknown",
@@ -319,6 +320,10 @@
         {
           "price": "£56,200",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£55,650",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -396,7 +401,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs7/4-0-tfsi-v8-sportback-tiptronic-quattro-euro-6-s-s-5dr/audi-rs7-4-0-tfsi-v8-sportback-tiptronic-quattro-euro-6-s-s-5dr-1412717634-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -412,7 +417,8 @@
           "price": "£57,995",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "16",
@@ -1382,13 +1388,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e7a319fcd1c74660af037839f3a070d5.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011211978"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "62",
@@ -1401,13 +1408,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/db6fc04696f8403cb3afdedd820eb6a5.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011213269"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "63",
@@ -1508,7 +1516,7 @@
     {
       "id": "68",
       "title": "2018 Audi RS7 4.0 TFSI V8 Performance Sportback 5dr Petrol Tiptronic quattro Euro 6 (s/s) (605 ps)",
-      "price": "£45,490",
+      "price": "£44,995",
       "year": 2018,
       "mileage": "13,215 miles",
       "transmission": "Unknown",
@@ -1521,6 +1529,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261029886"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£45,490",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1559,6 +1573,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2047160"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2014 Audi RS7 4.0 TFSI V8 Sportback 5dr Petrol Tiptronic quattro Euro 5 (s/s) (560 ps)",
+      "price": "£19,990",
+      "year": 2014,
+      "mileage": "123,833 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b8610feda486427fbc4099eff0660b8f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131497039"
         }
       ]
     }

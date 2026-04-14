@@ -960,6 +960,14 @@
         {
           "price": "£27,995",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£27,150",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£27,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1033,6 +1041,14 @@
         {
           "price": "£22,999",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£22,490",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£22,999",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1428,14 +1444,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4c7c4b59acd040588c91ae0487659da8.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601209281003"
         }
-      ],
-      "unlistedDate": "2026-04-13"
+      ]
     },
     {
       "id": "67",
@@ -1559,7 +1574,7 @@
     {
       "id": "73",
       "title": "2016 BMW M6 4.4 V8 DCT Euro 6 (s/s) 2dr",
-      "price": "£25,000",
+      "price": "£24,500",
       "year": 2016,
       "mileage": "34,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1572,6 +1587,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508265776345"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,000",
+          "date": "2026-04-14"
         }
       ]
     },

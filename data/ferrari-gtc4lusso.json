@@ -332,7 +332,7 @@
     {
       "id": "17",
       "title": "2018 Ferrari GTC4Lusso 6.3 V12 F1 DCT 4WD Euro 6 (s/s) 2dr",
-      "price": "£175,000",
+      "price": "£169,000",
       "year": 2018,
       "mileage": "29,779 miles",
       "transmission": "F1 Automated Manual",
@@ -402,6 +402,10 @@
         {
           "price": "£169,000",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£175,000",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": null
@@ -435,14 +439,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/25b96aaa828940659512c715466276d5.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602250213622"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "20",
@@ -1097,13 +1102,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/9317d1a4759d4ddb9d46c15a7501cc0d.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071335777"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "50",

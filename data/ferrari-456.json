@@ -755,7 +755,7 @@
     {
       "id": "38",
       "title": "1998 Ferrari 456 GTA Automatic",
-      "price": "£49,500",
+      "price": "£44,500",
       "year": "1998",
       "mileage": "16,000 miles",
       "transmission": "6-Speed Manual",
@@ -769,7 +769,13 @@
           "url": "https://www.carandclassic.com/l/C2012162"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£49,500",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "39",
@@ -825,6 +831,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041120"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "1997 Ferrari 456 GTA",
+      "price": "POA",
+      "year": "1997",
+      "mileage": "44,425 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/28949097/260322_JeanLuc_97_Ferrari_456_GTA-7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7a20c00daf3e9829c392197d9bc38dde",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/1997-ferrari-456-gta-gzj6Lg"
         }
       ]
     }

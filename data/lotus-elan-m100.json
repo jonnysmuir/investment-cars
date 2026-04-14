@@ -94,7 +94,7 @@
     {
       "id": "5",
       "title": "1991 Lotus Elan M100",
-      "price": "£8,995",
+      "price": "£8,250",
       "year": "1991",
       "mileage": "70,600 miles",
       "transmission": "6-Speed Manual",
@@ -102,14 +102,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2033948/1991-lotus-elan-69bd19d7da002.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=75e336282ed3195a6441959332bfb31c",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2033948"
         }
       ],
-      "unlistedDate": "2026-04-13"
+      "priceHistory": [
+        {
+          "price": "£8,995",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "6",
@@ -122,19 +127,18 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2027940/1991-lotus-elan-69b044deb8972.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=82f01b33439cd3b5b47537810f0b6fed",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2027940"
         }
-      ],
-      "unlistedDate": "2026-04-10"
+      ]
     },
     {
       "id": "7",
       "title": "1994 Lotus Elan M100 S2",
-      "price": "£11,995",
+      "price": "£11,495",
       "year": "1994",
       "mileage": "82,000 miles",
       "transmission": "6-Speed Manual",
@@ -142,14 +146,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2021899/1994-lotus-elan-69a1e60cb5a6c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1e4db8c5d7dd0e80e0dfd020ee6cdce0",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2021899"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£11,995",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "8",
@@ -211,6 +220,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2047344"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "1990 Lotus Elan M100",
+      "price": "£6,995",
+      "year": "1990",
+      "mileage": "89,085 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2001655/1990-lotus-elan-696e76d7aebb9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=84461042326f0316b0f2d864055e8fd1",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2001655"
         }
       ]
     }

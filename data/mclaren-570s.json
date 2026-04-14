@@ -873,6 +873,14 @@
         {
           "price": "£89,995",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£89,898",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£89,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -914,6 +922,14 @@
         {
           "price": "£99,999",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£96,500",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£99,999",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -987,6 +1003,14 @@
         {
           "price": "£97,500",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£97,500",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1142,6 +1166,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": "Coupe"
@@ -1308,6 +1340,14 @@
         {
           "price": "£76,999",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£76,999",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": null
@@ -1445,6 +1485,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": "Convertible"
@@ -1550,6 +1598,14 @@
         {
           "price": "£79,995",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£79,790",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": null
@@ -1693,6 +1749,14 @@
         {
           "price": "£64,785",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£64,964",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£64,785",
+          "date": "2026-04-14"
         }
       ],
       "bodyType": null
@@ -1798,6 +1862,14 @@
         {
           "price": "£89,950",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£86,995",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£89,950",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -2058,6 +2130,14 @@
         {
           "price": "£105,000",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£109,950",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£105,000",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -2219,6 +2299,14 @@
         {
           "price": "£94,950",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£94,950",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -2331,7 +2419,7 @@
       "year": 2018,
       "mileage": "19,873 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/mclaren/570s/3-8t-v8-coupe/mclaren-570s-3-8t-v8-coupe-1422811572-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
@@ -2483,12 +2571,12 @@
     },
     {
       "id": "83",
-      "title": "2017 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "title": "2017 McLaren 570S 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
       "price": "£69,999",
       "year": 2017,
       "mileage": "36,272 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/d2255b69c7824cad8d0ac87df22d199a.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
@@ -2535,6 +2623,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604121488221"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£89,950",
+      "year": 2016,
+      "mileage": "37,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/cc233bfaf5364004be109a7b38def6c4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011208962"
         }
       ]
     }

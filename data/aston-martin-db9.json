@@ -1166,14 +1166,13 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9-coupe/v12/aston-martin-db9-coupe-v12-S4935650-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19877628"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "58",
@@ -1500,7 +1499,7 @@
       "price": "£33,899",
       "year": 2006,
       "mileage": "7,357 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w640/2eb481b58e6b4998bed4195bd076a1bf.jpg",
       "featured": false,
@@ -1510,6 +1509,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512188693618"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19679622"
         }
       ]
     },
@@ -1850,14 +1853,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/bfe38400e65c441c8f706f84ddb93ecf.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068964242"
         }
-      ],
-      "unlistedDate": "2026-04-05"
+      ]
     },
     {
       "id": "90",
@@ -1881,7 +1883,7 @@
     {
       "id": "91",
       "title": "2011 Aston Martin DB9 6.0 V12 Coupe 2dr Petrol T-TronicII Euro 5 (470 bhp) 12 SERVICE STAMPS + 10 ASTON SERVS",
-      "price": "£36,895",
+      "price": "£35,995",
       "year": 2011,
       "mileage": "53,700 miles",
       "transmission": "Unknown",
@@ -1894,6 +1896,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505292956787"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£36,895",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -2498,7 +2506,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e62ac48f79244537a9a34d877052f74f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2508,7 +2516,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19250820"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "122",
@@ -2783,13 +2792,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e00079a7e45d4d11927b041dada2f113.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071346089"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "136",
@@ -3099,6 +3109,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330275"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "title": "2006 Aston Martin DB9 5.9 Seq 2dr",
+      "price": "£34,989",
+      "year": 2006,
+      "mileage": "11,400 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/ff5390536a4046a98a6703915d6ea243.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131511730"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "title": "2016 Aston Martin DB9",
+      "price": "£69,950",
+      "year": "2016",
+      "mileage": "17,723 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29655889/2016-aston-martin-db9-69dd9d0e744b8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=256ed4e87d19ff196565767ad2bb167d",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048190"
         }
       ]
     }

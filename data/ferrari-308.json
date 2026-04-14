@@ -750,14 +750,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/308/ferrari-308-S4925364-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19019170"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "39",
@@ -808,15 +809,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1872258/1979-ferrari-308-680c7f269b080.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8d8605973d9d2d1fa4fcb8d39b18e41e",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1872258"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-12"
+      "bodyType": null
     },
     {
       "id": "42",
@@ -926,15 +926,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2017796/1983-ferrari-308-6997a11bda12f.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=579c47d3efd32fa0ce6b4b904d7b6e53",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2017796"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-13"
+      "bodyType": null
     },
     {
       "id": "48",
@@ -1004,14 +1003,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2029004/1978-ferrari-308-69b3056befda3.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e263b1f93942fa3d5a7a4cf15e1029c7",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029004"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "52",
@@ -1164,6 +1164,177 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2047188"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "1977 Ferrari 308 GT4 Dino",
+      "price": "£59,995",
+      "year": "1977",
+      "mileage": "85,527 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1736352/1977-ferrari-308-666281d57f321.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4bdf1802a6392d5304788f0dadd94dab",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1736352"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "1983 Ferrari 308 GTS QV - REBUILT ENGINE",
+      "price": "£84,950",
+      "year": "1983",
+      "mileage": "260,232 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1921709/1983-ferrari-308-6891bf0edea30.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1ffb4516c19f266944e882c56a4db124",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1921709"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "title": "1976 FERRARI 308 GTB VETRORESINA",
+      "price": "£119,995",
+      "year": "1976",
+      "mileage": "36,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1929718/1976-ferrari-308-68a8804e378ef.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c547ab20e6b7d759371f67f77616c493",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1929718"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "1976 FERRARI 308 GTB VETRORESINA // RARE EARLY RHD VETRORESINA",
+      "price": "£119,995",
+      "year": "1976",
+      "mileage": "37,494 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1957295/1976-ferrari-308-68ecdb9537924.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3867750d4ecd46895fe311073e5581f2",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1957295"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "1984 Ferrari 308 GTS AutoJunior by Agostini",
+      "price": "£32,950",
+      "year": "1984",
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1890380/1984-ferrari-308-6839bca3e4e8d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=625fdd552e58515f1922f8b699f88eeb",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1890380"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "1976 Ferrari 308 GTB",
+      "price": "£129,995",
+      "year": "1976",
+      "mileage": "36,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1888935/1976-ferrari-308-69dd9fc0b5049.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=55c28c6112eacd643f2b2e12f6d55d06",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1888935"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "1985 Ferrari 308 GTB Quattrovalve UK RHD 30,779 Miles! 1 of 67!",
+      "price": "£89,000",
+      "year": "1985",
+      "mileage": "30,779 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2011503/1985-ferrari-308-6987dc6d97aac.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8377d3d42fa9ddd8ad7d50d9becb3099",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2011503"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "1977 Ferrari 308 GTB",
+      "price": "£74,950",
+      "year": "1977",
+      "mileage": "87,591 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1773829/1977-ferrari-308-66d592024dfac.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6657b6f19761d10e715010ecd062b57e",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1773829"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "1980 Ferrari 308 GTS- late model",
+      "price": "£79,990",
+      "year": "1980",
+      "mileage": "50,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2001892/1980-ferrari-308-696f5ec0ce9d7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ab48fc8c931ac31376f96b59de0a0e16",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2001892"
         }
       ]
     }

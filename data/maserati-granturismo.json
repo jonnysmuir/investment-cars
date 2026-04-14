@@ -877,7 +877,7 @@
     {
       "id": "41",
       "title": "2011 Maserati Granturismo 4.7 V8 S Coupe 2dr Petrol Auto Euro 5 (440 ps)",
-      "price": "£25,495",
+      "price": "£24,995",
       "year": 2011,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
@@ -972,6 +972,10 @@
         {
           "price": "£24,995",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£25,495",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1983,7 +1987,7 @@
     {
       "id": "87",
       "title": "2018 Maserati Granturismo 4.7 V8 Sport Auto Euro 6 2dr",
-      "price": "£43,495",
+      "price": "£44,980",
       "year": 2018,
       "mileage": "27,000 miles",
       "transmission": "Automatic",
@@ -1991,7 +1995,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0379e317bace47318ec296f6bccf5030.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2006,9 +2010,12 @@
         {
           "price": "£43,995",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£43,495",
+          "date": "2026-04-14"
         }
-      ],
-      "unlistedDate": "2026-04-11"
+      ]
     },
     {
       "id": "88",
@@ -2852,6 +2859,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046120"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "title": "2008 Used  MASERATI GRANTURISMO",
+      "price": "£17,000",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/v8/maserati-granturismo-v8-S4947684-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20227326"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "title": "2013 Maserati Granturismo S 4.7L",
+      "price": "POA",
+      "year": "2013",
+      "mileage": "53,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29553636/maserati.webp?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=479493a531b958f647e963d22f60b364",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2013-maserati-granturismo-s-47l-nrbO7n"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "title": "2011 Maserati GranTurismo",
+      "price": "POA",
+      "year": "2011",
+      "mileage": "66,120 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29577525/3e10f3fd-dd62-4d73-bb8d-9394efa68e34.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eb845fbacb013562d2e9fa137eee2878",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2011-maserati-granturismo-4o2Kkn"
         }
       ]
     }

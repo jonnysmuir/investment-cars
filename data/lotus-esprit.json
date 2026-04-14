@@ -596,13 +596,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/esprit/esprit-tbo/lotus-esprit-esprit-tbo-S4936478-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19900283"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "30",
@@ -801,14 +802,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1878178/1982-lotus-esprit-681c7b97a381a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c77228ddad315a99bee29aee8d6becc7",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1878178"
         }
-      ],
-      "unlistedDate": "2026-04-13"
+      ]
     },
     {
       "id": "40",
@@ -1041,7 +1041,7 @@
     {
       "id": "51",
       "title": "1994 Lotus Esprit S4",
-      "price": "£28,750",
+      "price": "£26,995",
       "year": "1994",
       "mileage": "95,095 miles",
       "transmission": "6-Speed Manual",
@@ -1049,14 +1049,19 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1894437/1994-lotus-esprit-68444d0140bef.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ff0b0f97d32d5cda381a26bdb046f02",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1894437"
         }
       ],
-      "unlistedDate": "2026-04-13"
+      "priceHistory": [
+        {
+          "price": "£28,750",
+          "date": "2026-04-14"
+        }
+      ]
     },
     {
       "id": "52",
@@ -1069,14 +1074,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1963716/1987-lotus-esprit-68fb9cba66b37.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=dbc4be678bf1fc50dc608b60fbe8bec3",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1963716"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "53",
@@ -1245,13 +1249,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0cdcc10f3c71471ca14d4231d4fe36b4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202303245575714"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "62",
@@ -1340,13 +1345,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/esprit/esprit-s4s/lotus-esprit-esprit-s4s-S4909853-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/15463607"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "67",
@@ -1490,6 +1496,234 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044398"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "title": "1988 Lotus Esprit X180",
+      "price": "£23,000",
+      "year": "1988",
+      "mileage": "41,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1840469/1988-lotus-esprit-67b762ca487b4.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4d9d3f9781551865a652642d9bc2ab01",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1840469"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "1989 Lotus Esprit Turbo",
+      "price": "£17,495",
+      "year": "1989",
+      "mileage": "30,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1772299/1989-lotus-esprit-66d0560855074.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=230be093460d0ab8a4092faee208d079",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1772299"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "title": "1979 Lotus Esprit S2 JPS",
+      "price": "£63,000",
+      "year": "1979",
+      "mileage": "78,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1772658/1979-lotus-esprit-66d0f8ec682aa.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=afb201b3deff772112d2238fd83be9d6",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1772658"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "title": "1987 Lotus Esprit Turbo 1987. Calypso Red with full black leather",
+      "price": "£28,995",
+      "year": "1987",
+      "mileage": "49,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1706640/1987-lotus-esprit-6605ad8a62314.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8bbf74979230f8849935e98952db6201",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1706640"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "1988 LOTUS ESPRIT 210 BHP",
+      "price": "£39,995",
+      "year": "1988",
+      "mileage": "34,205 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/23855138/1988-lotus-esprit-68aac7f34c673.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=dcbd5815ed30c447a4321bf19d57ae27",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1930323"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "1984 Lotus Esprit Turbo, 1984. Stunning black with gold livery",
+      "price": "£38,995",
+      "year": "1984",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1877781/1984-lotus-esprit-681b8d82a39bb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=65561b66a9c5dda6634f07b4859bf3f2",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1877781"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "1986 Lotus esprit Over 30k just spent plus cost of car",
+      "price": "£39,500",
+      "year": "1986",
+      "mileage": "75,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1893402/1986-lotus-esprit-684192e7d8853.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2f1c166cd4b6e4721e5a6d326a165d78",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1893402"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "1979 Lotus Esprit S2, 1979. Lotus black with red leather",
+      "price": "£32,995",
+      "year": "1979",
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1572372/1979-lotus-esprit-64393c8a2032e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0e88ca6cff1e698de87a69787684549e",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1572372"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "1986 Lotus Esprit Turbo HC, 1986.   Glacier Blue metallic",
+      "price": "£59,995",
+      "year": "1986",
+      "mileage": "48,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1784762/1986-lotus-esprit-66f59bee337d0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=76b6b04e36bcb2c3ed05dbf4c07c9d25",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1784762"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "1998 Lotus Esprit V8 GT (1998)",
+      "price": "£54,995",
+      "year": "1998",
+      "mileage": "38,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1831033/1998-lotus-esprit-67979d9de5b96.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=df1b01d06849cdc2a01dc8c6569d3842",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1831033"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "1987 Lotus Esprit 2.2 Turbo HC 1987 (1987)",
+      "price": "£47,995",
+      "year": "1987",
+      "mileage": "54,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1831051/1987-lotus-esprit-6797a2a924d75.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=54a7e59d82e98886c8355eca29fa6fcf",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1831051"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "1984 Lotus Esprit Turbo, 1984.  Full Gold Leather.",
+      "price": "£38,995",
+      "year": "1984",
+      "mileage": "61,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2001586/1984-lotus-esprit-696e50300245c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=56befb21c4e4470740c0b59e24461acf",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2001586"
         }
       ]
     }

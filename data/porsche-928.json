@@ -1048,14 +1048,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2024567/1990-porsche-928-69a8aad6dd81e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d38d7728825edccddc02dcdcacdc7b55",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2024567"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "51",
@@ -1068,7 +1067,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2001237/1989-porsche-928-699b59d696508.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=73f479b16bf23d5750e9e65400efe3aa",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1080,8 +1079,7 @@
           "price": "€43,000",
           "date": "2026-04-09"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "52",
@@ -1094,14 +1092,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2032557/1993-porsche-928-69ba725c5b21c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fed431286cddbd14b84b6af8d2d6a22a",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032557"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "53",
@@ -1127,7 +1124,7 @@
     {
       "id": "54",
       "title": "1986 Porsche 928 S2",
-      "price": "£12,995",
+      "price": "£11,995",
       "year": "1986",
       "mileage": "142,175 miles",
       "transmission": "Automatic",
@@ -1140,6 +1137,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2039393"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£12,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1314,14 +1317,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2020270/1986-porsche-928-699e6f0d849e9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57d78bd18a86fd672810b2ce6a85a7c0",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2020270"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "64",
@@ -1358,6 +1360,101 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046472"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "1995 Porsche 928 GTS 5.4L 2d AUTO 340 BHP",
+      "price": "£44,995",
+      "year": 1995,
+      "mileage": "65,986 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/0086934f09a54d87a1e4d015f1daf2ae.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131513868"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "1989 Porsche 928 S4",
+      "price": "£22,500",
+      "year": "1989",
+      "mileage": "170,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1943341/1989-porsche-928-68caaeda427b9.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57186e81a1eed3250798b5c2495212fa",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1943341"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "1979 Porsche 928 - Ex Richard Hammond",
+      "price": "£16,995",
+      "year": "1979",
+      "mileage": "128,700 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1972384/1979-porsche-928-69142f57e53e2.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8cf482300430ec5af68b1760851ccb50",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1972384"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "1995 Porsche 928 GTS",
+      "price": "£57,995",
+      "year": "1995",
+      "mileage": "83,700 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1973003/1995-porsche-928-6915cd895f34c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=dc465b417738a411157275104c12486d",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1973003"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "1987 PORSCHE 928S4 MANUAL RESTORED £50k SPEND STUNNING",
+      "price": "£32,990",
+      "year": "1987",
+      "mileage": "138,015 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1992650/1987-porsche-928-69518ecd29859.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=eff4095cd2c8c1e9dc717d135642102e",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1992650"
         }
       ]
     }

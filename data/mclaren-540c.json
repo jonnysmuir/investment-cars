@@ -270,7 +270,7 @@
       "price": "£75,649",
       "year": 2019,
       "mileage": "16,500 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w640/9d1b8c6549a742e39502dcb044176c64.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -279,6 +279,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602059700036"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20251366"
         }
       ],
       "priceHistory": [
@@ -457,6 +461,14 @@
         {
           "price": "£68,989",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£68,989",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -605,6 +617,14 @@
         {
           "price": "£71,995",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£68,989",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -761,6 +781,14 @@
         {
           "price": "£76,978",
           "date": "2026-04-13"
+        },
+        {
+          "price": "£77,229",
+          "date": "2026-04-14"
+        },
+        {
+          "price": "£76,978",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -822,6 +850,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091416467"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "2019 McLaren 540C 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£75,989",
+      "year": 2019,
+      "mileage": "21,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d2466c65f9ee461381e5f7d26633283a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131493366"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "2019 McLaren 540C",
+      "price": "£75,989",
+      "year": "2019",
+      "mileage": "21,500 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29680768/2019-mclaren-540c-69ddf6e7a39e8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=aad0ba5b803deec4fc07d3fe4315d296",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048650"
         }
       ]
     }

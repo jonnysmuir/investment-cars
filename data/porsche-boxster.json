@@ -785,7 +785,7 @@
     {
       "id": "38",
       "title": "2015 Porsche Boxster 2.7 981 PDK Euro 6 (s/s) 2dr",
-      "price": "£27,995",
+      "price": "£25,995",
       "year": 2015,
       "mileage": "43,000 miles",
       "transmission": "Automatic",
@@ -808,6 +808,10 @@
         {
           "price": "£27,890",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£27,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -1018,14 +1022,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2025222/2023-porsche-718-boxster-69af767877755.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=603c037b01ead36e71bb36357fcaad06",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025222"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "50",
@@ -1147,14 +1150,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/25145379/2025-porsche-718-boxster-68e7c37106fbd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cec047973c1e44889a98fc20841eec7c",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1955684"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "56",
@@ -1785,13 +1787,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0071f80951324e1a9de9b5c8d231a86c.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512238767152"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "87",
@@ -2320,13 +2323,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/eda6dd14ad8a46609b6c6e02e0553bb1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511067714120"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "113",
@@ -2720,14 +2724,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1144bb5bf000486684845f541d7a93c0.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506093326361"
         }
-      ],
-      "unlistedDate": "2026-04-13"
+      ]
     },
     {
       "id": "132",
@@ -3508,7 +3511,7 @@
     {
       "id": "170",
       "title": "2007 Porsche Boxster 3.4 987 S Tiptronic S 2dr",
-      "price": "£9,995",
+      "price": "£9,495",
       "year": 2007,
       "mileage": "103,325 miles",
       "transmission": "Unknown",
@@ -3521,6 +3524,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511117821538"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£9,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -3822,12 +3831,12 @@
     },
     {
       "id": "185",
-      "title": "2004 Porsche Boxster 2.7 986 2dr",
+      "title": "2004 Porsche Boxster 2.7 986 Convertible 2dr Petrol Manual (233 g/km, 228 bhp)",
       "price": "£7,178",
       "year": 2004,
       "mileage": "75,185 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/df16938066ec46ce9087d0f580f50e81.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
@@ -4106,7 +4115,7 @@
     {
       "id": "199",
       "title": "2003 Porsche Boxster 2.7 986 Convertible 2dr Petrol Manual (233 g/km, 228 bhp)",
-      "price": "£4,950",
+      "price": "£4,450",
       "year": 2003,
       "mileage": "74,200 miles",
       "transmission": "6-Speed Manual",
@@ -4119,6 +4128,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210898546"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£4,950",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -4152,18 +4167,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f969d943f59f4ea4b2458bc2961e6df4.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210896539"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "202",
       "title": "2008 Porsche Boxster RS 60 Spyder 987.0",
-      "price": "£23,948",
+      "price": "£22,948",
       "year": "2008",
       "mileage": "42,000 miles",
       "transmission": "6-Speed Manual",
@@ -4176,6 +4192,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035985"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£23,948",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -4546,13 +4568,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/76c664f8abdf491db42c5a534e935590.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081368260"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "222",
@@ -4603,18 +4626,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4e4f7f6ec6b748259c13ecd06df65350.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081381678"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "225",
       "title": "2004 Porsche Boxster 3.2 986 S Tiptronic S 2dr",
-      "price": "£12,999",
+      "price": "£9,999",
       "year": 2004,
       "mileage": "52,000 miles",
       "transmission": "Unknown",
@@ -4627,6 +4651,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601189239766"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£12,999",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -4641,13 +4671,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/584bb688bb8b442cb351a8c0d7c31d2b.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603210884647"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "227",
@@ -4660,13 +4691,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/47632e33b10a452d8d4fdd96a6e92573.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061318234"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "228",
@@ -4679,13 +4711,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29439698/2013-porsche-boxster-69d520986fa0b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=81b125108eea652c75f1976a3f39f3dd",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044266"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-14"
     },
     {
       "id": "229",
@@ -4698,14 +4731,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2043439/2005-porsche-boxster-69d28bee94d0f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d627a9c6a6f23d7be8e5e253cdce9b54",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2043439"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "230",
@@ -4718,14 +4750,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2044220/2006-porsche-boxster-69d50a2f39263.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=98221a3e41d1adf97b950a6042a59095",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2044220"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "231",
@@ -4738,14 +4769,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2042441/2002-porsche-boxster-69cf883cbb33d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c33618310c87c32069fc5e48b99eb799",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2042441"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "232",
@@ -4778,14 +4808,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/29440402/2011-porsche-boxster-69d522b1c4c24.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a8e13f743e6810d775322dcd1163130c",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044279"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "234",
@@ -5341,7 +5370,7 @@
     {
       "id": "263",
       "title": "2006 Porsche Boxster 2.7 987 2dr",
-      "price": "£9,995",
+      "price": "£8,995",
       "year": 2006,
       "mileage": "92,341 miles",
       "transmission": "Unknown",
@@ -5354,6 +5383,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512118520772"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£9,995",
+          "date": "2026-04-14"
         }
       ]
     },
@@ -5373,6 +5408,386 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101451115"
+        }
+      ]
+    },
+    {
+      "id": "265",
+      "title": "1999 Porsche Boxster 2.5 986 2dr",
+      "price": "£3,750",
+      "year": 1999,
+      "mileage": "175,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/b73dcde18af040c8ad582c10568134f8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131518358"
+        }
+      ]
+    },
+    {
+      "id": "266",
+      "title": "2000 Porsche Boxster 2.7 986 2dr",
+      "price": "£6,986",
+      "year": 2000,
+      "mileage": "61,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/1e2b5853afcf4418bb27476dab33fb7a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131516839"
+        }
+      ]
+    },
+    {
+      "id": "267",
+      "title": "2014 Porsche Boxster 2.7 981 PDK Euro 5 (s/s) 2dr",
+      "price": "£26,495",
+      "year": 2014,
+      "mileage": "61,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/bb4f470ca3ae4c5ebcfc0eaff7601132.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131501544"
+        }
+      ]
+    },
+    {
+      "id": "268",
+      "title": "2003 Porsche Boxster 3.2 986 S 2dr",
+      "price": "£10,495",
+      "year": 2003,
+      "mileage": "95,026 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/4f77cd14c3754b45b4686f0948d61c63.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131511159"
+        }
+      ]
+    },
+    {
+      "id": "269",
+      "title": "2012 Porsche Boxster 2.7 981 PDK Euro 5 (s/s) 2dr",
+      "price": "£22,495",
+      "year": 2012,
+      "mileage": "57,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d369f27eca49411aa1b26b74a349c3a1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603261042637"
+        }
+      ]
+    },
+    {
+      "id": "270",
+      "title": "2000 Porsche Boxster 3.2 986 S 2dr",
+      "price": "£5,499",
+      "year": 2000,
+      "mileage": "113,500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/6fdc4ab62abc44bf936485cccbdc2707.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603140703450"
+        }
+      ]
+    },
+    {
+      "id": "271",
+      "title": "2016 Porsche Boxster T 718",
+      "price": "£31,950",
+      "year": "2016",
+      "mileage": "42,390 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29656699/2016-porsche-718-boxster-69dd9db014153.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bfdc8dc58bc73b42f27a55dedd988890",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048205"
+        }
+      ]
+    },
+    {
+      "id": "272",
+      "title": "2012 Porsche Boxster 981 S",
+      "price": "£29,000",
+      "year": "2012",
+      "mileage": "21,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2047978/2012-porsche-boxster-69dd331f33840.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=596f79d497ac6093c2fcb92bec147263",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2047978"
+        }
+      ]
+    },
+    {
+      "id": "273",
+      "title": "2013 Porsche Boxster 981 - 18,000 MILES",
+      "price": "POA",
+      "year": "2013",
+      "mileage": "17,717 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29322369/DSC_5553.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b5b1f3b598f50be835b0567495062fcd",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2013-porsche-boxster-981-npld5n"
+        }
+      ]
+    },
+    {
+      "id": "274",
+      "title": "2007 Porsche Boxster (987)",
+      "price": "POA",
+      "year": "2007",
+      "mileage": "92,823 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29506616/67ada3f0-5eab-44d0-a0de-e451a0628525.JPG?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c7ed252eecb3f990a0086c457922a6a1",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2007-porsche-boxster-987-gy9pZg"
+        }
+      ]
+    },
+    {
+      "id": "275",
+      "title": "2002 Porsche Boxster S 986",
+      "price": "£11,000",
+      "year": "2002",
+      "mileage": "33,886 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2046996/2002-porsche-boxster-69da5b36810c3.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e496e0aadc597a30dfaca643d690d3fb",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2046996"
+        }
+      ]
+    },
+    {
+      "id": "276",
+      "title": "2005 Porsche Boxster S (987.1)  Basalt Black / Sand Beige",
+      "price": "£13,995",
+      "year": "2005",
+      "mileage": "56,260 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2046353/2005-porsche-boxster-69d8d87ac3426.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=67b0f902cd5a401e264e1c497702eab7",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2046353"
+        }
+      ]
+    },
+    {
+      "id": "277",
+      "title": "2004 Porsche Boxster 986 S",
+      "price": "£6,795",
+      "year": "2004",
+      "mileage": "100,400 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2045782/2004-porsche-boxster-69d79605e9b2d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=89a67d99d1404d3d4eb7d846de9f929a",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2045782"
+        }
+      ]
+    },
+    {
+      "id": "278",
+      "title": "2002 Porsche Boxster 986 (1996 - 2004) S",
+      "price": "£24,995",
+      "year": "2002",
+      "mileage": "10,553 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2047851/2002-porsche-boxster-69dd0093f0385.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ea6abb2764b3758e9a89049b9c79a27e",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2047851"
+        }
+      ]
+    },
+    {
+      "id": "279",
+      "title": "2008 Porsche Boxster 3.4 987 S 2dr",
+      "price": "£19,925",
+      "year": "2008",
+      "mileage": "32,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29602031/2008-porsche-boxster-69da54e470c98.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8486d88563c3b63fdbc3c819948acbb2",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046978"
+        }
+      ]
+    },
+    {
+      "id": "280",
+      "title": "2016 Porsche Boxster GTS Special Order Pearlescent White",
+      "price": "£53,997",
+      "year": "2016",
+      "mileage": "25,824 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2046355/2016-porsche-boxster-69d8d0d31f389.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=743167f2fce2e9a0cd3e2a8d953d7a4e",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2046355"
+        }
+      ]
+    },
+    {
+      "id": "281",
+      "title": "2005 Porsche Boxster 2.7 987 2dr",
+      "price": "£15,925",
+      "year": "2005",
+      "mileage": "34,588 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29525935/2005-porsche-boxster-69d7b1eb51ad1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d6a8765d0b76bfa72c36c1e3376a4d28",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045970"
+        }
+      ]
+    },
+    {
+      "id": "282",
+      "title": "2005 Porsche 987 Boxster S manual",
+      "price": "£15,995",
+      "year": "2005",
+      "mileage": "76,314 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2045334/2005-porsche-boxster-69d6317c22580.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=530e0771784403d23a446c6645bb2055",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2045334"
+        }
+      ]
+    },
+    {
+      "id": "283",
+      "title": "2015 Porsche Boxster 981",
+      "price": "£69,995",
+      "year": "2015",
+      "mileage": "12,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/new/29440362/2015-porsche-boxster-69d52275990a0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=341df5012583eadf3f81087134799343",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044278"
+        }
+      ]
+    },
+    {
+      "id": "284",
+      "title": "2014 Porsche Boxster S (981) Grand Prix White 20000 Miles",
+      "price": "£37,995",
+      "year": "2014",
+      "mileage": "20,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2044163/2014-porsche-boxster-69d633bc0f768.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d8fd1d32c44ab75a8e884a7f067b8294",
+      "featured": false,
+      "dateAdded": "2026-04-14",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2044163"
         }
       ]
     }
