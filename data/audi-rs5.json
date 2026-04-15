@@ -507,7 +507,7 @@
     {
       "id": "24",
       "title": "2014 Audi RS5 4.2 FSI V8 S Tronic quattro Euro 5 2dr",
-      "price": "£17,695",
+      "price": "£17,500",
       "year": 2014,
       "mileage": "63,000 miles",
       "transmission": "Unknown",
@@ -520,6 +520,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601048912703"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£17,695",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -731,7 +737,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3defffeb25b64a4aaaab9f95170fd3d7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -747,7 +753,8 @@
           "price": "£42,995",
           "date": "2026-04-07"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "35",
@@ -1773,6 +1780,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601289494677"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20072651"
         }
       ],
       "unlistedDate": "2026-04-02"
@@ -3081,7 +3092,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/221f5fd22793400f9cd43eb0716eaaaf.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3097,7 +3108,8 @@
           "price": "£54,995",
           "date": "2026-04-07"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "148",
@@ -3809,13 +3821,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6d49295aa39f477882e80439f7151dd8.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081367869"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "183",
@@ -3828,13 +3841,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a015bb389d7847b4af37ff031fd94f5c.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081370240"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "184",
@@ -3847,13 +3861,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/dc53f4d086df4493b32591fe3f7a940f.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091410450"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "185",
@@ -3928,6 +3943,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604061313358"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "title": "2019 Audi RS5 2.9 TFSI V6 Sport Edition Sportback 5dr Petrol Tiptronic quattro Euro 6 (s/s) (450 ps) Click l Deliver + Finance Available",
+      "price": "£36,330",
+      "year": 2019,
+      "mileage": "57,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7b9b98983aaf4f16860923e9da6125a6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141543775"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "title": "2021 Audi RS5 2.9 TFSI V6 GPF Tiptronic quattro Euro 6 (s/s) 2dr",
+      "price": "£41,990",
+      "year": 2021,
+      "mileage": "41,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/6bcea85337fa4cfb957222c0c31df6c8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141550831"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "title": "2013 Audi RS5 4.2 FSI V8 Cabriolet 2dr Petrol S Tronic quattro Euro 5 (450 ps)",
+      "price": "£19,995",
+      "year": 2013,
+      "mileage": "66,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/109de492d64c46a5a552d75837ba2160.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141551193"
         }
       ]
     }

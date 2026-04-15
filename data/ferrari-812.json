@@ -835,6 +835,14 @@
         {
           "price": "£239,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£224,500",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£239,000",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": null
@@ -969,6 +977,14 @@
         {
           "price": "£224,500",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£239,000",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£224,500",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": null
@@ -1086,6 +1102,14 @@
         {
           "price": "£222,850",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£219,995",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£222,850",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": null
@@ -1153,7 +1177,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/superfast/bce/ferrari-superfast-bce-S4906442-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1190,7 +1214,8 @@
           "date": "2026-03-29"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "42",
@@ -1364,6 +1389,14 @@
         {
           "price": "£314,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£329,600",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£314,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1723,6 +1756,14 @@
         {
           "price": "£229,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£239,000",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£229,000",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": "Coupe"
@@ -1890,6 +1931,14 @@
         {
           "price": "£379,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£369,980",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2642,6 +2691,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512088453717"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20255714"
         }
       ],
       "unlistedDate": "2026-04-14"
@@ -2841,6 +2894,14 @@
         {
           "price": "£369,980",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£369,980",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2916,13 +2977,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6aee7bb6577d425d867b444fc27b50a7.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511017576344"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "105",
@@ -3016,6 +3078,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131509659"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20259328"
         }
       ]
     },
@@ -3035,6 +3101,48 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604141521074"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20249516"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2022 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£332,000",
+      "year": 2022,
+      "mileage": "5,786 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8acd00e94010427a9e34b8de58ee4719.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141543024"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2019 Ferrari 812 Superfast",
+      "price": "£249,995",
+      "year": "2019",
+      "mileage": "11,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29710676/2019-ferrari-812-superfast-69ded8f316edb.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9288649ddbff7ad3689f4332bce99f73",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049171"
         }
       ]
     }

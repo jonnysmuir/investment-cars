@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2008 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£69,980",
+      "price": "£64,980",
       "year": 2008,
       "mileage": "60 miles",
       "transmission": "E-Gear",
@@ -897,6 +897,14 @@
         {
           "price": "£68,750",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£69,980",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1099,6 +1107,14 @@
         {
           "price": "£59,900",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£58,980",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1159,7 +1175,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lamborghini/gallardo/5-0-v10-coupe-2dr-petrol-4wd-euro-4-520-ps/lamborghini-gallardo-5-0-v10-coupe-2dr-petrol-4wd-euro-4-520-ps-1414542347-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1169,7 +1185,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140701134"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "49",
@@ -1500,6 +1517,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291115594"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20254733"
         }
       ]
     },

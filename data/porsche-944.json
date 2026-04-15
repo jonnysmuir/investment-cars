@@ -927,13 +927,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/944/s2-cabrlt/porsche-944-s2-cabrlt-S4943269-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19602895"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "45",
@@ -1059,7 +1060,7 @@
     {
       "id": "51",
       "title": "1985 Porsche 944 2.5 Lux Coupe 2dr Petrol Automatic (163 bhp)",
-      "price": "£2,999",
+      "price": "£4,999",
       "year": 1985,
       "mileage": "118,000 miles",
       "transmission": "Automatic",
@@ -1086,6 +1087,10 @@
         {
           "price": "£3,500",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£2,999",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1662,6 +1667,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1851557"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "1990 Porsche 944 3.0 16v S2 Coupe 2dr Petrol Manual (211 bhp)",
+      "price": "£14,995",
+      "year": 1990,
+      "mileage": "138,347 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/6b6fcade37da405d926b6135ddee55c9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603311183474"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "1989 Porsche 944 S2 Cabriolet Last Family Owned For 32 Years",
+      "price": "£12,995",
+      "year": "1989",
+      "mileage": "95,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/porsche/C1954574/1989-porsche-944-68e5389f4f07f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c06319f3c9cf7545d980bfd734763e14",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1954574"
         }
       ]
     }

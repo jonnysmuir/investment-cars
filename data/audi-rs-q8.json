@@ -350,13 +350,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs-q8-avant/tfsi-quattro-vorsprung-5dr/audi-rs-q8-avant-tfsi-quattro-vorsprung-5dr-1401064869-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19824589"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "18",
@@ -532,7 +533,7 @@
     {
       "id": "27",
       "title": "2020 Audi RSQ8 4.0 TFSI V8 Vorsprung SUV 5dr Petrol Tiptronic quattro Euro 6 (s/s) (600 ps) * HEADS UP DISPLAY- DIGI DASH *",
-      "price": "£64,993",
+      "price": "£63,993",
       "year": 2020,
       "mileage": "67,671 miles",
       "transmission": "Unknown",
@@ -545,6 +546,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601129090102"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£64,993",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -621,6 +628,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048186"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "2023 Audi RSQ8 4.0 TFSI V8 Carbon Black Tiptronic quattro Euro 6 (s/s) 5dr",
+      "price": "£99,975",
+      "year": 2023,
+      "mileage": "16,400 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/8fad540d75654e499695361beaa3a5e5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601229344052"
         }
       ]
     }

@@ -310,6 +310,14 @@
         {
           "price": "£89,500",
           "date": "2026-04-04"
+        },
+        {
+          "price": "£88,850",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£89,500",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -359,6 +367,14 @@
         {
           "price": "£69,500",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£69,950",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£69,500",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -513,6 +529,14 @@
         {
           "price": "£74,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£75,999",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -652,6 +676,14 @@
         {
           "price": "£74,490",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£74,490",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -741,6 +773,14 @@
         {
           "price": "£59,480",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£62,950",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£59,480",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -798,6 +838,14 @@
         {
           "price": "£61,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£59,480",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£61,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -808,7 +856,7 @@
       "year": 2023,
       "mileage": "19,326 miles",
       "transmission": "Automatic",
-      "bodyType": "Estate",
+      "bodyType": "SUV",
       "image": "https://m.atcdn.co.uk/a/media/w480/f6e18e1fb8054e1290b4c1f63f3c505f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -1042,6 +1090,14 @@
         {
           "price": "£69,950",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£66,850",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£69,950",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1246,13 +1302,21 @@
         {
           "price": "£69,950",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£69,500",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£69,950",
+          "date": "2026-04-15"
         }
       ]
     },
     {
       "id": "33",
       "title": "2025 Lotus Eletre 600 112kWh GT Auto 4WD 5dr (Dual Motor)",
-      "price": "£69,990",
+      "price": "£68,990",
       "year": 2025,
       "mileage": "8 miles",
       "transmission": "Automatic",
@@ -1265,6 +1329,16 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511107777772"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253750"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£69,990",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1290,7 +1364,7 @@
     {
       "id": "35",
       "title": "2025 Lotus Eletre 112kWh R Auto 4WD 5dr (Dual Motor)",
-      "price": "£94,990",
+      "price": "£93,990",
       "year": 2025,
       "mileage": "4,846 miles",
       "transmission": "Automatic",
@@ -1303,6 +1377,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160739233"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£94,990",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1322,13 +1402,17 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511107777750"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253810"
         }
       ]
     },
     {
       "id": "37",
       "title": "2024 Lotus Eletre 112kWh R Auto 4WD 5dr (Dual Motor)",
-      "price": "£74,990",
+      "price": "£74,350",
       "year": 2024,
       "mileage": "5,164 miles",
       "transmission": "Automatic",
@@ -1355,6 +1439,10 @@
         {
           "price": "£74,995",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£74,990",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1482,7 +1570,7 @@
     {
       "id": "44",
       "title": "2024 Lotus Eletre 112kWh S Auto 4WD 5dr (Dual Motor)",
-      "price": "£69,990",
+      "price": "£67,990",
       "year": 2024,
       "mileage": "7,881 miles",
       "transmission": "Automatic",
@@ -1505,6 +1593,10 @@
         {
           "price": "£70,990",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£69,990",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1555,7 +1647,7 @@
     {
       "id": "47",
       "title": "2024 Lotus Eletre 112kWh R Auto 4WD 5dr (Dual Motor)",
-      "price": "£77,750",
+      "price": "£77,550",
       "year": 2024,
       "mileage": "14,129 miles",
       "transmission": "Automatic",
@@ -1578,6 +1670,10 @@
         {
           "price": "£77,850",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£77,750",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1603,7 +1699,7 @@
     {
       "id": "49",
       "title": "2025 Lotus Eletre 600 112kWh GT Auto 4WD 5dr (Dual Motor)",
-      "price": "£68,990",
+      "price": "£67,990",
       "year": 2025,
       "mileage": "502 miles",
       "transmission": "Automatic",
@@ -1616,6 +1712,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160738539"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£68,990",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1857,12 +1959,12 @@
     },
     {
       "id": "62",
-      "title": "2024 Lotus Eletre 112kWh S Auto 4WD 5dr (Dual Motor)",
+      "title": "2024 Lotus Eletre 112kWh S SUV 5dr Electric Auto 4WD (Dual Motor) (611 ps)",
       "price": "£64,991",
       "year": 2024,
       "mileage": "17,918 miles",
       "transmission": "Automatic",
-      "bodyType": "Estate",
+      "bodyType": "SUV",
       "image": "https://m.atcdn.co.uk/a/media/w480/fced2899d3bd4007b75729bd0e99d583.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
@@ -2390,6 +2492,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091411897"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2024 Lotus Eletre 112kWh S Auto 4WD 5dr (Dual Motor)",
+      "price": "£67,990",
+      "year": 2024,
+      "mileage": "7,881 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/fc844e935902434e80c246767e4535e8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141530288"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2024 Lotus Eletre 112kWh S Auto 4WD 5dr (Dual Motor)",
+      "price": "£79,950",
+      "year": 2024,
+      "mileage": "19,250 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ea31f54db116491ab71c08df2400195a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141523021"
         }
       ]
     }

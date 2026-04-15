@@ -111,14 +111,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/fc499d7b69cf40dcb76ad76f0bfb04a8.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511278170683"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "7",
@@ -406,6 +407,14 @@
         {
           "price": "£175,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£169,000",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£175,000",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": null

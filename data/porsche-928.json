@@ -1214,13 +1214,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4e1c0146b2274a429e6f2ffaed525fc4.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510076940424"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "59",
@@ -1379,6 +1380,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131513868"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253393"
         }
       ]
     },
@@ -1442,7 +1447,7 @@
     {
       "id": "70",
       "title": "1987 PORSCHE 928S4 MANUAL RESTORED £50k SPEND STUNNING",
-      "price": "£32,990",
+      "price": "£29,990",
       "year": "1987",
       "mileage": "138,015 miles",
       "transmission": "6-Speed Manual",
@@ -1455,6 +1460,31 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1992650"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,990",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "1994 Porsche 928 GTS",
+      "price": "£36,750",
+      "year": "1994",
+      "mileage": "131,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C1972749/1994-porsche-928-691509d97c642.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=adc48b6cc5b0dbdb3e7ede38318db331",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1972749"
         }
       ]
     }

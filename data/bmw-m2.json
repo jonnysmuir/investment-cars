@@ -1114,7 +1114,7 @@
     {
       "id": "50",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£25,999",
+      "price": "£26,999",
       "year": 2017,
       "mileage": "58,500 miles",
       "transmission": "Automatic",
@@ -1137,6 +1137,10 @@
         {
           "price": "£26,749",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£25,999",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1411,13 +1415,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2021718/2020-bmw-m2-69a1a17c617b4.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cbaf710098dd1a69324ea930d60f50ea",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2021718"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "64",
@@ -1526,7 +1531,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m2-coup/competition-edition/bmw-m2-coup-competition-edition-1409963503-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1542,7 +1547,8 @@
           "price": "£31,490",
           "date": "2026-04-04"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "69",
@@ -1600,6 +1606,14 @@
         {
           "price": "£32,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£31,495",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£32,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1765,13 +1779,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5f0f0e3aa4c840ed90f68fb31f34a899.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509246587655"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "78",
@@ -1840,7 +1855,7 @@
     {
       "id": "81",
       "title": "2019 BMW M2 3.0 BiTurbo GPF Competition Coupe 2dr Petrol DCT Euro 6 (s/s) (410 ps) **1 OWNER FROM NEW **",
-      "price": "£35,490",
+      "price": "£34,990",
       "year": 2019,
       "mileage": "28,422 miles",
       "transmission": "F1 Automated Manual",
@@ -1853,6 +1868,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140697378"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£35,490",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1897,7 +1918,7 @@
     {
       "id": "84",
       "title": "2016 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£24,695",
+      "price": "£23,495",
       "year": 2016,
       "mileage": "71,300 miles",
       "transmission": "F1 Automated Manual",
@@ -1905,14 +1926,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c37f3826db2c4282b6a29c73ec86535f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602220130522"
         }
       ],
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£24,695",
+          "date": "2026-04-15"
+        }
+      ]
     },
     {
       "id": "85",
@@ -2278,7 +2304,7 @@
     {
       "id": "102",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£26,995",
+      "price": "£26,490",
       "year": 2018,
       "mileage": "42,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2309,6 +2335,10 @@
         {
           "price": "£26,490",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£26,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2380,7 +2410,7 @@
       "price": "£48,209",
       "year": 2024,
       "mileage": "12,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/844e0cc383394d5daafa1ad1afeebadb.jpg",
       "featured": false,
@@ -2390,6 +2420,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069725197"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253986"
         }
       ],
       "unlistedDate": "2026-04-10"
@@ -2747,7 +2781,7 @@
     {
       "id": "121",
       "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£66,260",
+      "price": "£63,257",
       "year": null,
       "mileage": "Borehamwood (12 miles)",
       "transmission": "Unknown",
@@ -2755,14 +2789,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/092613140c9c4b6b80c9818be87304d2.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090534119"
         }
       ],
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£66,260",
+          "date": "2026-04-15"
+        }
+      ]
     },
     {
       "id": "122",
@@ -2906,7 +2945,7 @@
     {
       "id": "128",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£28,599",
+      "price": "£27,250",
       "year": 2018,
       "mileage": "55,956 miles",
       "transmission": "F1 Automated Manual",
@@ -2914,14 +2953,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/459de93e1c7148e3a0ce8c4e1c7bfe2b.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261016990"
         }
       ],
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£28,599",
+          "date": "2026-04-15"
+        }
+      ]
     },
     {
       "id": "129",
@@ -3221,7 +3265,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/db9aeb4f47f24b479ff27abea5da9d94.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3237,7 +3281,8 @@
           "price": "£59,500",
           "date": "2026-04-07"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "143",
@@ -3581,7 +3626,7 @@
     {
       "id": "157",
       "title": "2023 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£47,449",
+      "price": "£46,949",
       "year": 2023,
       "mileage": "33,594 miles",
       "transmission": "6-Speed Manual",
@@ -3608,6 +3653,14 @@
         {
           "price": "£48,995",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£47,449",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£48,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -4218,7 +4271,7 @@
     {
       "id": "183",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£53,990",
+      "price": "£53,590",
       "year": 2024,
       "mileage": "6,700 miles",
       "transmission": "Unknown",
@@ -4245,6 +4298,14 @@
         {
           "price": "£52,890",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£53,990",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£52,890",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -4501,6 +4562,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20227499"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£53,990",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£55,000",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -5222,13 +5293,21 @@
         {
           "price": "£57,895",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£56,495",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£57,895",
+          "date": "2026-04-15"
         }
       ]
     },
     {
       "id": "229",
       "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£69,857",
+      "price": "£69,977",
       "year": null,
       "mileage": "Guildford (25 miles)",
       "transmission": "Unknown",
@@ -5247,6 +5326,10 @@
         {
           "price": "£75,856",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£69,857",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -5823,10 +5906,10 @@
     },
     {
       "id": "257",
-      "title": "2023 Used  BMW M2 AUTO",
+      "title": "2023 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
       "price": "£59,995",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "18,000 miles",
       "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/bmw/m2/3-0-biturbo-steptronic-euro-6-s-s-2dr/bmw-m2-3-0-biturbo-steptronic-euro-6-s-s-2dr-1420288229-1.jpg",
@@ -5837,6 +5920,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19877467"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141536767"
         }
       ],
       "unlistedDate": "2026-04-01"
@@ -5886,7 +5973,7 @@
       "price": "£25,500",
       "year": 2017,
       "mileage": "43,122 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/cefbaf543ebb4222aeb1a966b9741879.jpg",
       "featured": false,
@@ -5896,6 +5983,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271067740"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20059011"
         }
       ],
       "priceHistory": [
@@ -5993,7 +6084,7 @@
     {
       "id": "265",
       "title": "2025 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£58,590",
+      "price": "£56,500",
       "year": 2025,
       "mileage": "3,091 miles",
       "transmission": "Unknown",
@@ -6016,6 +6107,10 @@
         {
           "price": "£59,990",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£58,590",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -6045,7 +6140,7 @@
     {
       "id": "267",
       "title": "2025 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£56,299",
+      "price": "£55,000",
       "year": 2025,
       "mileage": "9,500 miles",
       "transmission": "Unknown",
@@ -6062,6 +6157,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090524227"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£56,299",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -6192,13 +6293,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5ba9c985944f4b18b7564d118d074b85.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081380290"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "275",
@@ -6358,7 +6460,7 @@
     },
     {
       "id": "283",
-      "title": "2023 BMW M2 Coupe 3.0 2dr",
+      "title": "2023 BMW M2 3.0 BiTurbo Euro 6 (s/s) 2dr",
       "price": "£51,998",
       "year": 2023,
       "mileage": "9,000 miles",
@@ -6549,7 +6651,7 @@
     {
       "id": "293",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£29,895",
+      "price": "£29,649",
       "year": 2017,
       "mileage": "24,823 miles",
       "transmission": "F1 Automated Manual",
@@ -6562,6 +6664,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011201389"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,895",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -6929,7 +7037,7 @@
     {
       "id": "313",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£18,895",
+      "price": "£20,995",
       "year": 2017,
       "mileage": "131,000 miles",
       "transmission": "F1 Automated Manual",
@@ -6942,6 +7050,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131510129"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£18,895",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -7100,7 +7214,7 @@
     {
       "id": "322",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£53,438",
+      "price": "£53,208",
       "year": 2024,
       "mileage": "7,153 miles",
       "transmission": "Unknown",
@@ -7113,6 +7227,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140696883"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£53,438",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -7309,7 +7429,7 @@
     {
       "id": "333",
       "title": "2018 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£25,594",
+      "price": "£25,617",
       "year": 2018,
       "mileage": "53,766 miles",
       "transmission": "F1 Automated Manual",
@@ -7322,6 +7442,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071344897"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,594",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -7442,7 +7568,7 @@
     {
       "id": "340",
       "title": "2020 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
-      "price": "£32,490",
+      "price": "£31,990",
       "year": 2020,
       "mileage": "50,200 miles",
       "transmission": "F1 Automated Manual",
@@ -7455,6 +7581,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020322117"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,490",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -7911,6 +8043,272 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048297"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
+      "price": "£24,950",
+      "year": 2017,
+      "mileage": "58,812 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/3e6f0f6c51e042a4be070edd643a6b56.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141550798"
+        }
+      ]
+    },
+    {
+      "id": "366",
+      "title": "2019 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£29,600",
+      "year": 2019,
+      "mileage": "81,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a2746d01ce314ed99b5e933230263470.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604061315667"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "title": "2018 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£38,995",
+      "year": 2018,
+      "mileage": "30,962 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/8266c75ac4104eab9a8d84738726939e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141548292"
+        }
+      ]
+    },
+    {
+      "id": "368",
+      "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£63,490",
+      "year": null,
+      "mileage": "Littlehampton (50 miles)",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9582e0d502494b6dbc11b7d51ccc73fa.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603060479107"
+        }
+      ]
+    },
+    {
+      "id": "369",
+      "title": "2020 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£35,990",
+      "year": 2020,
+      "mileage": "33,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1ea44bb3ca5c4b269a2a8c73a1c2e771.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601239376141"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "title": "2023 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£54,000",
+      "year": 2023,
+      "mileage": "24,930 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9f698925dad84246a81ebc5e54aabfc0.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604041293601"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£61,484",
+      "year": null,
+      "mileage": "Solihull (94 miles)",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f8cff59c2e704b9297744703bdac522c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202511087745395"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "title": "2026 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£63,995",
+      "year": 2026,
+      "mileage": "2,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/081cc490f1044f4bac3459b0c9b9e120.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601179225697"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£61,999",
+      "year": null,
+      "mileage": "Worcester (100 miles)",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/757461af19774c73a835d60fdf0e98c8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603040408850"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "2026 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£67,750",
+      "year": 2026,
+      "mileage": "10 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/5d90e33fd6a54786bbee21e50369bacb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081363952"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£67,998",
+      "year": null,
+      "mileage": "Bedford (47 miles)",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a0d6ea51eeaa4fde876b67e0d8850f8b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101430871"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "title": "2016 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
+      "price": "£39,500",
+      "year": 2016,
+      "mileage": "957 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/eac39bd695654848b3d113261a96e087.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603210892524"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
+      "price": "£52,000",
+      "year": 2024,
+      "mileage": "6,422 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/df7636fdf0ae4c08a3ee518d3aea2ae3.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603190825935"
+        }
+      ]
+    },
+    {
+      "id": "378",
+      "title": "2018 BMW M2 3.0 BiTurbo Competition DCT Euro 6 (s/s) 2dr",
+      "price": "£31,500",
+      "year": 2018,
+      "mileage": "51,100 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w480/d37f1a9cd212432698029a7c56e95506.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101439493"
         }
       ]
     }

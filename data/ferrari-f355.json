@@ -629,14 +629,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/3-5-berlinetta-coupe-2dr-petrol-manual-395-g-km-375-bhp/ferrari-f355-3-5-berlinetta-coupe-2dr-petrol-manual-395-g-km-375-bhp-1380099230-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19634149"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "32",
@@ -648,7 +649,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari/ferrari-355-ferrari-S4936983-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -665,7 +666,8 @@
           "date": "2026-03-18"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "33",
@@ -1564,6 +1566,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-15"
         }
       ]
     },

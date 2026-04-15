@@ -1486,7 +1486,7 @@
       "price": "£24,385",
       "year": 2014,
       "mileage": "59,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w640/696aa27b95c6424591a399ec52124e27.jpg",
       "featured": false,
@@ -1496,6 +1496,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601139111531"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19713337"
         }
       ]
     },
@@ -1510,7 +1514,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/783023bf15aa486ab174d18e584a931f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1522,12 +1526,13 @@
           "price": "£17,250",
           "date": "2026-04-07"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "73",
       "title": "2006 Lotus Elise 1.8 S Convertible 2dr Petrol Manual (196 g/km, 134 bhp)",
-      "price": "£17,490",
+      "price": "£18,990",
       "year": 2006,
       "mileage": "66,703 miles",
       "transmission": "6-Speed Manual",
@@ -1540,6 +1545,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603220906968"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£17,490",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2474,6 +2485,14 @@
         {
           "price": "£19,000",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£18,000",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2835,6 +2854,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604051303728"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19455791"
         }
       ]
     },
@@ -3338,13 +3361,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4908339-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19131353"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "161",
@@ -3357,13 +3381,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/16v/lotus-elise-s2-16v-S4943466-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20052006"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "162",
@@ -3438,6 +3463,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131518913"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253924"
         }
       ]
     },
@@ -3590,6 +3619,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1995141"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "title": "2008 Used  LOTUS ELISE",
+      "price": "£17,999",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/r--t-and-s/lotus-elise-s2-r--t-and-s-S4937828-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19883697"
         }
       ]
     }

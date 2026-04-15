@@ -1267,6 +1267,14 @@
         {
           "price": "£339,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£324,950",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£339,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1837,7 +1845,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/affdc0d79dd24633b78be0b166e81dfd.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1861,7 +1869,8 @@
           "price": "£119,995",
           "date": "2026-04-04"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "80",
@@ -1943,7 +1952,7 @@
     {
       "id": "83",
       "title": "2014 Aston Martin Vanquish 6.0 V12 Coupe 2dr Petrol T-TronicII Euro 5 (565 bhp)",
-      "price": "£57,950",
+      "price": "£55,950",
       "year": 2014,
       "mileage": "50,750 miles",
       "transmission": "Unknown",
@@ -1956,6 +1965,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603110608160"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£57,950",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -2013,6 +2028,14 @@
         {
           "price": "£38,495",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£38,990",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -3136,7 +3159,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/951e33a4adad47f18e0e469491671ba4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3146,7 +3169,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20007087"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "132",
@@ -3279,7 +3303,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1713942ac9824b649877ae250e1ecc42.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3289,8 +3313,7 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20063358"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "139",
@@ -3367,7 +3390,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/033fa70b87644872a7ef55e3572d74f6.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3383,7 +3406,8 @@
           "price": "£88,950",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "143",
@@ -3391,7 +3415,7 @@
       "price": "£77,777",
       "year": 2014,
       "mileage": "34,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/d154e6a42b1245b69ba40cb0a127b3cb.jpg",
       "featured": false,
@@ -3401,6 +3425,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506213741143"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19459605"
         }
       ],
       "unlistedDate": "2026-04-03"
@@ -3476,7 +3504,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1d1c7e6204174a7f8bda991592707f60.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3486,7 +3514,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19817126"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "148",
@@ -3884,7 +3913,7 @@
     {
       "id": "167",
       "title": "2016 Aston Martin Vanquish 6.0 V12 Volante T-TronIII Euro 6 2dr",
-      "price": "£74,995",
+      "price": "£70,000",
       "year": 2016,
       "mileage": "16,000 miles",
       "transmission": "Unknown",
@@ -3897,6 +3926,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091405879"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£74,995",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -4019,7 +4054,7 @@
     {
       "id": "174",
       "title": "2025 Aston Martin Vanquish 5.2 V12 BiTurbo Auto Euro 6 (s/s) 2dr",
-      "price": "£304,995",
+      "price": "£298,950",
       "year": 2025,
       "mileage": "6,825 miles",
       "transmission": "Automatic",
@@ -4033,15 +4068,21 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604121476983"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£304,995",
+          "date": "2026-04-15"
+        }
       ]
     },
     {
       "id": "175",
-      "title": "2025 Aston Martin Vanquish 5.2 2dr",
+      "title": "2025 Aston Martin Vanquish 5.2 V12 BiTurbo Auto Euro 6 (s/s) 2dr",
       "price": "£339,990",
       "year": 2025,
       "mileage": "1,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/6502f691c80241e4a640731b3cf3946f.jpg",
       "featured": false,
@@ -4051,6 +4092,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131511725"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "title": "2005 Used  ASTON MARTIN VANQUISH",
+      "price": "£79,995",
+      "year": 2005,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vanquish/aston-martin-vanquish-1315375791-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18850654"
         }
       ]
     }

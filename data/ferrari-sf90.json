@@ -408,6 +408,14 @@
         {
           "price": "£354,830",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£349,995",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£354,830",
+          "date": "2026-04-15"
         }
       ],
       "bodyType": "Convertible"
@@ -515,6 +523,14 @@
         {
           "price": "£385,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£375,000",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£385,000",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -774,11 +790,11 @@
     },
     {
       "id": "26",
-      "title": "2025 Used  FERRARI SF90 SPIDER S-A",
+      "title": "2025 Ferrari SF90 Spider 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
       "price": "£439,000",
       "year": 2025,
-      "mileage": "N/A",
-      "transmission": "Unknown",
+      "mileage": "202 miles",
+      "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/spider-2dr-auto/ferrari-sf90-spider-2dr-auto-1392361321-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -787,6 +803,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19750918"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141525466"
         }
       ],
       "bodyType": "Convertible",
@@ -1644,6 +1664,14 @@
         {
           "price": "£390,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£379,975",
+          "date": "2026-04-15"
+        },
+        {
+          "price": "£390,000",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -1658,13 +1686,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3213c63c3c114df1817e13a37efb50c4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261034639"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "63",
@@ -1677,13 +1706,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4d3c1b7b7691420d931815ba2c85c307.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511218047554"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "64",
@@ -1886,10 +1916,10 @@
     },
     {
       "id": "74",
-      "title": "2022 Used  FERRARI SF90 STRADALE S-A",
+      "title": "2022 Ferrari SF90 Stradale 4.0 2dr",
       "price": "£279,000",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "4,880 miles",
       "transmission": "Automatic",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/stradale/ferrari-sf90-stradale-1426886448-1.jpg",
@@ -1900,6 +1930,29 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20248866"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131509661"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "2023 Used  FERRARI SF90 ASSETTO FIORANO S-A",
+      "price": "£309,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/stradale-2dr-auto/ferrari-sf90-stradale-2dr-auto-1427429649-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20173838"
         }
       ]
     }

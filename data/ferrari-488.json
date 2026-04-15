@@ -1309,7 +1309,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/488/3-9t-v8-gtb-f1-dct-euro-6-s-s-2dr/ferrari-488-3-9t-v8-gtb-f1-dct-euro-6-s-s-2dr-1411738773-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1374,7 +1374,8 @@
           "date": "2026-04-01"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "56",
@@ -1826,6 +1827,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602109817794"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20253660"
         }
       ],
       "bodyType": "Convertible",
@@ -2690,15 +2695,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d2d92db08fa542f8bf7ea1bead856ad0.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511187971555"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-14"
+      "bodyType": "Convertible"
     },
     {
       "id": "110",
@@ -2993,14 +2997,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/092c15f5ba4848709f36a34fe599607d.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200859983"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-15"
     },
     {
       "id": "125",
@@ -3765,6 +3770,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990581"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "title": "2019 Ferrari 488 Pista",
+      "price": "POA",
+      "year": "2019",
+      "mileage": "2,550 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29707056/2019-ferrari-488-69ded5eabb490.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4f0c63765f083dd4c49893dbe9ef89bf",
+      "featured": false,
+      "dateAdded": "2026-04-15",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049160"
         }
       ]
     }
