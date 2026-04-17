@@ -29,10 +29,12 @@ const DEFAULT_RADIUS = 1500;
 const MAKE_LEVEL_BODY_SPLITS = {
   'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
   'Mercedes-AMG': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+  'Aston Martin': ['Coupe', 'Convertible'],
 };
 const PER_MODEL_BODY_SPLITS = {
   'BMW': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
   'Mercedes-AMG': ['Coupe', 'Convertible', 'Saloon', 'Estate'],
+  'Aston Martin': ['Coupe', 'Convertible'],
 };
 
 /**
