@@ -828,7 +828,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/458/ferrari-458-1346864641-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -845,7 +845,8 @@
           "price": "£147,975",
           "date": "2026-04-04"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "42",
@@ -1199,6 +1200,14 @@
         {
           "price": "£114,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£112,000",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": null
@@ -1510,6 +1519,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601149137901"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20263412"
         }
       ],
       "bodyType": "Convertible"
@@ -2191,19 +2204,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6cb959ec388f44caa671f19f394e678e.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021247400"
         }
-      ],
-      "unlistedDate": "2026-04-15"
+      ]
     },
     {
       "id": "95",
-      "title": "2012 Ferrari 458 Italia 2dr Auto 4.5",
-      "price": "£147,500",
+      "title": "2012 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
+      "price": "£155,000",
       "year": 2012,
       "mileage": "12,996 miles",
       "transmission": "Automatic",
@@ -2220,6 +2232,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081373867"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£147,500",
+          "date": "2026-04-17"
         }
       ]
     },

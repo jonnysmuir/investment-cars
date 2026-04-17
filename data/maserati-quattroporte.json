@@ -806,6 +806,14 @@
         {
           "price": "£23,500",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£23,689",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£23,500",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -835,7 +843,7 @@
     {
       "id": "36",
       "title": "2016 Maserati Quattroporte 3.0D V6 Saloon 4dr Diesel ZF Euro 6 (s/s) (275 ps) 20in Alloys - Mercurio Design",
-      "price": "£17,290",
+      "price": "£17,590",
       "year": 2016,
       "mileage": "59,422 miles",
       "transmission": "Unknown",
@@ -938,6 +946,14 @@
         {
           "price": "£17,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£17,290",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -1868,14 +1884,13 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/quattroporte/4-7-quattroporte-s-v8-auto-4dr/maserati-quattroporte-4-7-quattroporte-s-v8-auto-4dr-1421678341-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20181302"
         }
-      ],
-      "unlistedDate": "2026-04-06"
+      ]
     },
     {
       "id": "77",
@@ -1955,12 +1970,12 @@
     },
     {
       "id": "81",
-      "title": "2019 Maserati Quattroporte M139",
+      "title": "2019 MASERATI QUATTROPORTE 3.0D V6 Saloon 4dr Diesel ZF Euro",
       "price": "£23,995",
       "year": "2019",
       "mileage": "41,587 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Saloon",
       "image": "https://assets.carandclassic.com/uploads/new/29680667/2019-maserati-quattroporte-69ddf6bb3015a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57008e83110a9e9e69ad67085f43490a",
       "featured": false,
       "dateAdded": "2026-04-14",
@@ -1993,7 +2008,7 @@
     },
     {
       "id": "83",
-      "title": "2019 Maserati Quattroporte 3.0D V6 ZF Euro 5 (s/s) 4dr",
+      "title": "2019 Maserati Quattroporte 3.0D V6 Saloon 4dr Diesel ZF Euro 5 (s/s) (275 ps) Bluetooth, Reversing camera,",
       "price": "£23,995",
       "year": 2019,
       "mileage": "41,587 miles",
@@ -2007,6 +2022,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131507103"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "2007 Maserati Quattroporte 4.2 Sport GT Saloon 4dr Petrol DuoSelect (370 g/km, 395 bhp)",
+      "price": "£5,995",
+      "year": 2007,
+      "mileage": "99,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b08eacaef2e843b489fc521855a16b41.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151572085"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "2011 Maserati Quattroporte 4.7 V8 Sport GT S Saloon 4dr Petrol Auto Euro 4 (440 ps)",
+      "price": "£19,500",
+      "year": 2011,
+      "mileage": "93,902 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w480/1d894cd7153443ed84992a02d33691f5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604161610049"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "title": "2008 Maserati Quattroporte M139",
+      "price": "£10,749",
+      "year": "2008",
+      "mileage": "106,412 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/maserati/C2050277/2008-maserati-quattroporte-69e11f414eba3.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=face32b504e6555fb1d493ce3a004697",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2050277"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "title": "2007 Maserati Quattroporte M139",
+      "price": "£16,995",
+      "year": "2007",
+      "mileage": "33,750 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/maserati/C2048072/2007-maserati-quattroporte-69dd617d083f2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4a40a72c1b431f3784d8987430c0b7c1",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2048072"
         }
       ]
     }

@@ -1027,14 +1027,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2017932/2007-ferrari-612-69982d67c6739.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2b968dcb1ff47ffa3929e2ff46abba44",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2017932"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "52",
@@ -1586,6 +1587,25 @@
         {
           "price": "£56,750",
           "date": "2026-04-15"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "title": "2007 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
+      "price": "£60,199",
+      "year": 2007,
+      "mileage": "32,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f220b7d0e3494c58b143183fc56e9267.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101427128"
         }
       ]
     }

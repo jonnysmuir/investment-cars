@@ -819,6 +819,14 @@
         {
           "price": "£179,000",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£175,150",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£179,000",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Coupe"
@@ -986,7 +994,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/e18e79f941d54b809f66d27597da61b9.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -999,8 +1007,7 @@
           "date": "2026-03-26"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-15"
+      "bodyType": "Coupe"
     },
     {
       "id": "38",
@@ -1543,6 +1550,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091412727"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2013 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
+      "price": "£164,995",
+      "year": 2013,
+      "mileage": "21,483 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/979055c8200740f995be41d48ec59989.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604031272604"
         }
       ]
     }

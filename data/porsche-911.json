@@ -1097,14 +1097,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/sport-classic-992/porsche-911-sport-classic-992-1413331462-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18985908"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "51",
@@ -1486,7 +1487,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/4-0-991-speedster-euro-6-2dr/porsche-911-4-0-991-speedster-euro-6-2dr-1339559647-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1499,7 +1500,8 @@
           "price": "£267,500",
           "date": "2026-04-09"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "65",
@@ -1845,14 +1847,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-991/targa-4s-pdk/porsche-911-carrera-991-targa-4s-pdk-S4934406-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19837676"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "78",
@@ -2361,19 +2364,20 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1347519950-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18946000"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "96",
       "title": "2004 Porsche 911 3.6 996 Carrera 2 2dr",
-      "price": "£22,000",
+      "price": "£21,995",
       "year": 2004,
       "mileage": "12504 miles",
       "transmission": "Automatic",
@@ -2435,6 +2439,10 @@
         {
           "price": "£21,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£22,000",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Coupe"
@@ -2503,7 +2511,7 @@
     {
       "id": "99",
       "title": "2003 Porsche 911 3.6 996 Carrera 4S Tiptronic S AWD 2dr",
-      "price": "£26,495",
+      "price": "£29,945",
       "year": 2003,
       "mileage": "58,602 miles",
       "transmission": "6-Speed Manual",
@@ -2553,6 +2561,10 @@
         {
           "price": "£29,945",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£26,495",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": null
@@ -2613,7 +2625,7 @@
     {
       "id": "102",
       "title": "2000 Porsche 911 3.4 996 Carrera 2 Coupe 2dr Petrol Tiptronic S (290 g/km, 300 bhp)",
-      "price": "£15,000",
+      "price": "£15,995",
       "year": 2000,
       "mileage": "106,221 miles",
       "transmission": "Unknown",
@@ -2651,6 +2663,10 @@
         {
           "price": "£15,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£15,000",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Coupe"
@@ -2658,7 +2674,7 @@
     {
       "id": "103",
       "title": "2004 Porsche 911 3.6 996 Carrera 2 Tiptronic S 2dr",
-      "price": "£19,995",
+      "price": "£20,995",
       "year": 2004,
       "mileage": "70,000 miles",
       "transmission": "Unknown",
@@ -2704,6 +2720,10 @@
         {
           "price": "£20,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£19,995",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": null
@@ -3022,7 +3042,7 @@
       "price": "£47,995",
       "year": 1995,
       "mileage": "77,578 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/993-carrera-cabriolet/porsche-911-993-carrera-cabriolet-1366886058-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
@@ -3120,7 +3140,7 @@
     {
       "id": "124",
       "title": "1995 Porsche 911  Porsche 993 Carrera 3.6 Convertible Automatic (47) 2dr",
-      "price": "£38,995",
+      "price": "£38,900",
       "year": 1995,
       "mileage": "158,243 miles",
       "transmission": "Automatic",
@@ -3182,6 +3202,10 @@
         {
           "price": "£38,900",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£38,995",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Convertible"
@@ -3314,14 +3338,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-993/carrera-cabriolet/porsche-911-993-carrera-cabriolet-S4933000-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19794651"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "132",
@@ -3415,14 +3440,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/930-turbo-se-flachbau/porsche-911-930-turbo-se-flachbau-1409507256-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19996728"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "137",
@@ -3548,7 +3574,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/carrera-4s/porsche-911-pre-89-carrera-4s-S4891827-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -3561,7 +3587,8 @@
           "price": "£59,995",
           "date": "2026-04-12"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "144",
@@ -3612,14 +3639,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/speedster/porsche-911-pre-89-speedster-S4907334-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18656066"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "147",
@@ -3631,7 +3659,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/992-gt3/porsche-911-992-gt3-1390477597-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -3644,7 +3672,8 @@
           "date": "2026-04-13"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "148",
@@ -5047,7 +5076,7 @@
     {
       "id": "212",
       "title": "2013 Used  PORSCHE 911",
-      "price": "£67,995",
+      "price": "£74,995",
       "year": 2013,
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
@@ -5061,7 +5090,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19256314"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£67,995",
+          "date": "2026-04-17"
+        }
+      ]
     },
     {
       "id": "213",
@@ -6225,7 +6260,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3cb9f8a2e573404e81079298b989ca1a.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6282,8 +6317,7 @@
           "date": "2026-04-01"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-09"
+      "bodyType": "Coupe"
     },
     {
       "id": "266",
@@ -6499,7 +6533,7 @@
     {
       "id": "274",
       "title": "2003 Porsche 911 3.6 996 Carrera 4 AWD 2dr",
-      "price": "£15,995",
+      "price": "£16,495",
       "year": 2003,
       "mileage": "74,000 miles",
       "transmission": "Unknown",
@@ -6542,6 +6576,10 @@
         {
           "price": "£16,495",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£15,995",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -7121,14 +7159,14 @@
     {
       "id": "299",
       "title": "2006 Porsche 911 3.8 997 Carrera S Tiptronic S 2dr",
-      "price": "£27,975",
+      "price": "£27,990",
       "year": 2006,
       "mileage": "57,000 miles",
       "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/2f00ef78827e46d2b21a3485d5f544a5.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -7147,9 +7185,13 @@
         {
           "price": "£27,990",
           "date": "2026-03-22"
+        },
+        {
+          "price": "£27,975",
+          "date": "2026-04-17"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "bodyType": null
     },
     {
       "id": "300",
@@ -9161,7 +9203,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5ae34b2d33854bfa95ebcadb5f172131.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -9172,7 +9214,7 @@
           "url": "https://www.pistonheads.com/buy/listing/19983033"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "bodyType": null
     },
     {
       "id": "371",
@@ -9454,6 +9496,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602210111177"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20261060"
         }
       ],
       "bodyType": "Convertible",
@@ -9515,7 +9561,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3c283430d82f4777845fa6688156d729.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -9540,8 +9586,7 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-14"
+      "bodyType": null
     },
     {
       "id": "386",
@@ -10704,14 +10749,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2020619/1989-porsche-911-699f4d28b9922.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=639d53dbb3377bedf10c0cecb48374c4",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2020619"
         }
       ],
-      "bodyType": "Speedster"
+      "bodyType": "Speedster",
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "432",
@@ -11498,15 +11544,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-3-classic-turbo-targa-2dr/porsche-911-3-3-classic-turbo-targa-2dr-1413333190-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17400417"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-14"
+      "bodyType": null
     },
     {
       "id": "469",
@@ -11537,14 +11582,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/4-0-992-gt3-rs-coupe-2dr-petrol-pdk-euro-6-s-s--525-ps/porsche-911-4-0-992-gt3-rs-coupe-2dr-petrol-pdk-euro-6-s-s--525-ps-1372087851-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19561938"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "471",
@@ -11671,15 +11717,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-6-997-turbo-coupe-2dr-petrol-tiptronic-s-awd-326-g-km-480-bhp/porsche-911-3-6-997-turbo-coupe-2dr-petrol-tiptronic-s-awd-326-g-km-480-bhp-1352437273-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19327089"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-15"
+      "bodyType": null
     },
     {
       "id": "478",
@@ -12311,7 +12356,7 @@
     {
       "id": "506",
       "title": "2021 Used  PORSCHE 911 TURBO S S-A",
-      "price": "£159,995",
+      "price": "£149,995",
       "year": 2021,
       "mileage": "62 miles",
       "transmission": "6-Speed Manual",
@@ -12325,7 +12370,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20068093"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£159,995",
+          "date": "2026-04-17"
+        }
+      ]
     },
     {
       "id": "507",
@@ -12576,21 +12627,27 @@
     {
       "id": "518",
       "title": "2026 Used  PORSCHE 911",
-      "price": "£132,990",
+      "price": "£128,990",
       "year": 2026,
       "mileage": "100 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/992-2-c2s-coupe/porsche-911-992-2-c2s-coupe-1414202316-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19718001"
         }
       ],
-      "unlistedDate": "2026-03-21"
+      "priceHistory": [
+        {
+          "price": "£132,990",
+          "date": "2026-04-17"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "519",
@@ -12670,33 +12727,39 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/t-992-carrera/porsche-911-t-992-carrera-1402106611-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19892183"
         }
       ],
-      "unlistedDate": "2026-03-21"
+      "bodyType": null
     },
     {
       "id": "523",
       "title": "2025 Used  PORSCHE 911",
-      "price": "£115,890",
+      "price": "£114,990",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1411768425-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19719481"
         }
       ],
-      "unlistedDate": "2026-03-20"
+      "priceHistory": [
+        {
+          "price": "£115,890",
+          "date": "2026-04-17"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "524",
@@ -12813,7 +12876,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/991-1-carrera-s/porsche-911-991-1-carrera-s-1414621849-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -12824,7 +12887,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202603250998116"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "529",
@@ -12943,14 +13006,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0-classic-sc-2dr/porsche-911-3-0-classic-sc-2dr-1361774087-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/15685514"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "535",
@@ -13020,14 +13084,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-992/turbo-s-pdk/porsche-911-turbo-992-turbo-s-pdk-S4924367-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18996923"
         }
       ],
-      "unlistedDate": "2026-03-25"
+      "bodyType": null
     },
     {
       "id": "539",
@@ -13316,33 +13380,39 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/t-992-carrera/porsche-911-t-992-carrera-1392928528-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18236789"
         }
       ],
-      "unlistedDate": "2026-03-29"
+      "bodyType": null
     },
     {
       "id": "553",
       "title": "2025 Used  PORSCHE 911 CARRERA S-A",
-      "price": "£109,990",
+      "price": "£108,990",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/-25-reg-3-0-carrera-pdk-convertible-992-2/porsche-911--25-reg-3-0-carrera-pdk-convertible-992-2-1414839265-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18751285"
         }
       ],
-      "unlistedDate": "2026-03-21"
+      "priceHistory": [
+        {
+          "price": "£109,990",
+          "date": "2026-04-17"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "554",
@@ -13393,14 +13463,14 @@
     {
       "id": "556",
       "title": "2025 Used  PORSCHE 911 CARRERA T",
-      "price": "£103,498",
+      "price": "£99,998",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/matching/porsche-911-matching-1414914994-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -13415,10 +13485,13 @@
         {
           "price": "£104,998",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£103,498",
+          "date": "2026-04-17"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-10"
+      "bodyType": null
     },
     {
       "id": "557",
@@ -13449,7 +13522,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1414914998-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -13466,8 +13539,7 @@
           "date": "2026-04-11"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-14"
+      "bodyType": null
     },
     {
       "id": "559",
@@ -13479,14 +13551,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-991-carrera-s-pdk/porsche-911-3-0t-991-carrera-s-pdk-1303678768-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18699619"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "560",
@@ -13632,7 +13704,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/992/porsche-992-1389419576-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -13643,7 +13715,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202601149136629"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "bodyType": "Estate"
     },
     {
       "id": "567",
@@ -13674,15 +13746,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-gt3-991/gt3-pdk/porsche-911-gt3-991-gt3-pdk-S4941963-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20077600"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-10"
+      "bodyType": null
     },
     {
       "id": "569",
@@ -13820,15 +13891,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-8t-991-turbo-coupe-2dr-petrol-pdk-4wd-euro-6-s-s--540-ps/porsche-911-3-8t-991-turbo-coupe-2dr-petrol-pdk-4wd-euro-6-s-s--540-ps-1415045888-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/13862955"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-06"
+      "bodyType": null
     },
     {
       "id": "576",
@@ -13859,7 +13929,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-997/turbo-pdk/porsche-911-turbo-997-turbo-pdk-S4941986-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -13870,8 +13940,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202601058923909"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-03-31"
+      "bodyType": "Convertible"
     },
     {
       "id": "578",
@@ -14040,14 +14109,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/st/porsche-911-st-1337432738-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19124427"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "586",
@@ -14149,26 +14218,26 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-993/targa/porsche-911-993-targa-S4933744-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19724691"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "bodyType": null
     },
     {
       "id": "591",
       "title": "2025 Used  PORSCHE 911 GT3 S-A",
-      "price": "£196,890",
+      "price": "£196,750",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1415189619-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -14179,9 +14248,13 @@
         {
           "price": "£196,990",
           "date": "2026-03-23"
+        },
+        {
+          "price": "£196,890",
+          "date": "2026-04-17"
         }
       ],
-      "unlistedDate": "2026-03-28"
+      "bodyType": null
     },
     {
       "id": "592",
@@ -14212,7 +14285,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/4-0-991-gt3-coupe-2dr-petrol-manual-euro-6-500-ps/porsche-911-4-0-991-gt3-coupe-2dr-petrol-manual-euro-6-500-ps-1328148648-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -14223,8 +14296,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202603261041353"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-13"
+      "bodyType": null
     },
     {
       "id": "594",
@@ -14236,14 +14308,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-7t-992-turbo-s-coupe-2dr-petrol-pdk-4wd-euro-6-s-s--650-ps/porsche-911-3-7t-992-turbo-s-coupe-2dr-petrol-pdk-4wd-euro-6-s-s--650-ps-1415321922-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20089053"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "595",
@@ -14297,14 +14370,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-997/turbo-s-pdk/porsche-911-turbo-997-turbo-s-pdk-S4915475-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19321288"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "bodyType": null
     },
     {
       "id": "598",
@@ -14335,14 +14408,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-8-997-turbo-cabriolet-2dr-petrol-pdk-awd-268-g-km-500-bhp/porsche-911-3-8-997-turbo-cabriolet-2dr-petrol-pdk-awd-268-g-km-500-bhp-1410778754-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19001846"
         }
       ],
-      "unlistedDate": "2026-03-29"
+      "bodyType": null
     },
     {
       "id": "600",
@@ -14706,14 +14779,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-992-carrera-4s-coupe/porsche-911-3-0t-992-carrera-4s-coupe-1415807501-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20081551"
         }
       ],
-      "unlistedDate": "2026-03-22"
+      "bodyType": null
     },
     {
       "id": "618",
@@ -14818,15 +14891,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-997/speedster-pdk/porsche-911-carrera-997-speedster-pdk-S4939821-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18924959"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-10"
+      "bodyType": null
     },
     {
       "id": "623",
@@ -14895,14 +14967,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/porsche-911-pre-89-S4909690-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19162568"
         }
       ],
-      "unlistedDate": "2026-03-28"
+      "bodyType": null
     },
     {
       "id": "627",
@@ -14973,14 +15045,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/4-0-992-gt3-rs-pdk-euro-6-s-s-2dr/porsche-911-4-0-992-gt3-rs-pdk-euro-6-s-s-2dr-1415423612-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20077092"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "bodyType": null
     },
     {
       "id": "631",
@@ -14992,14 +15064,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-gt3-997/gt3-rs/porsche-911-gt3-997-gt3-rs-S4942589-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20092812"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "632",
@@ -15068,15 +15141,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-991/turbo-s-exclusive-series/porsche-911-turbo-991-turbo-s-exclusive-series-S4942496-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20092760"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-09"
+      "bodyType": null
     },
     {
       "id": "636",
@@ -15088,15 +15160,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-991/porsche-911-turbo-991-S4942454-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20077578"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-08"
+      "bodyType": null
     },
     {
       "id": "637",
@@ -15108,15 +15179,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-8-997-turbo-cabriolet-2dr-petrol-pdk-awd-268-g-km-500-bhp/porsche-911-3-8-997-turbo-cabriolet-2dr-petrol-pdk-awd-268-g-km-500-bhp-1410778768-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19325347"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-04"
+      "bodyType": null
     },
     {
       "id": "638",
@@ -16347,14 +16417,15 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-6-996-turbo-cabriolet-2dr-petrol-tiptronic-s-awd-339-g-km-414-bhp/porsche-911-3-6-996-turbo-cabriolet-2dr-petrol-tiptronic-s-awd-339-g-km-414-bhp-1265689538-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/15265049"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "698",
@@ -16671,15 +16742,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-gt3-992/gt3-rs-pdk/porsche-911-gt3-992-gt3-rs-pdk-S4942471-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20084036"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-15"
+      "bodyType": null
     },
     {
       "id": "714",
@@ -19187,7 +19257,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-992-carrera-t-pdk-euro-6-s-s-2dr/porsche-911-3-0t-992-carrera-t-pdk-euro-6-s-s-2dr-1368748647-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-25",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -19199,8 +19269,7 @@
           "price": "£82,999",
           "date": "2026-04-05"
         }
-      ],
-      "unlistedDate": "2026-04-08"
+      ]
     },
     {
       "id": "827",
@@ -21616,7 +21685,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/matching/porsche-911-matching-1419711634-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -21628,7 +21697,8 @@
           "price": "£85,998",
           "date": "2026-04-12"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "944",
@@ -22757,14 +22827,13 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-991/targa-4-gts-pdk/porsche-911-carrera-991-targa-4-gts-pdk-S4944976-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20152483"
         }
-      ],
-      "unlistedDate": "2026-04-10"
+      ]
     },
     {
       "id": "996",
@@ -22957,14 +23026,13 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/carrera-s-semi-auto/porsche-911-carrera-s-semi-auto-1398412929-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19557948"
         }
-      ],
-      "unlistedDate": "2026-04-08"
+      ]
     },
     {
       "id": "1006",
@@ -24816,14 +24884,13 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-6-996-targa-2dr-petrol-tiptronic-s-274-g-km-315-bhp/porsche-911-3-6-996-targa-2dr-petrol-tiptronic-s-274-g-km-315-bhp-1422311803-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20194752"
         }
-      ],
-      "unlistedDate": "2026-04-14"
+      ]
     },
     {
       "id": "1095",
@@ -26530,13 +26597,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/gts-2dr/porsche-911-gts-2dr-1424026922-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20210035"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1179",
@@ -26589,13 +26657,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/coupe-2-door/porsche-911-coupe-2-door-1412900648-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18855643"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1182",
@@ -26874,13 +26943,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-997/carrera-4s-tiptronic-s/porsche-911-carrera-997-carrera-4s-tiptronic-s-S4946533-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20213348"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1196",
@@ -26893,13 +26963,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/porsche-911-pre-89-S4946529-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20213354"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1197",
@@ -27414,13 +27485,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-gt3-991/gt3-rs-pdk/porsche-911-gt3-991-gt3-rs-pdk-S4946587-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20189796"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1223",
@@ -27495,13 +27567,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28968770/3b250d49-df21-4011-8916-b8e873640b92.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f8eef53e21acec65f90704a37729c281",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2003-porsche-996-911-carrera-4s-tiptronic-s-gOW6dg"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1227",
@@ -28558,7 +28631,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/29069213/OUL_8351-Luke-Papworth.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e3e3f541aa8266cca29a47808b5d36b8",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -28574,7 +28647,8 @@
           "price": "£16,500",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1280",
@@ -28626,13 +28700,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/matching/porsche-911-matching-1426098748-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20242574"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1283",
@@ -28645,13 +28720,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/targa-4s-pdk/porsche-911-targa-4s-pdk-1426359671-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20246159"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1284",
@@ -28664,13 +28740,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-992-carrera-s-coupe-2dr-petrol-pdk-euro-6-s-s--450-ps/porsche-911-3-0t-992-carrera-s-coupe-2dr-petrol-pdk-euro-6-s-s--450-ps-1426259397-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20244596"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1285",
@@ -28683,13 +28760,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/s/porsche-911-s-1426057403-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20242147"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1286",
@@ -28702,13 +28780,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1425998077-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20241465"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1287",
@@ -28721,13 +28800,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1425998078-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20241468"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1288",
@@ -28740,13 +28820,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-992/carrera-4s/porsche-911-carrera-992-carrera-4s-S4947351-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20240799"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1289",
@@ -28953,13 +29034,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/turbo-s-pdk/porsche-911-turbo-s-pdk-1425923766-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20240741"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "1300",
@@ -29647,7 +29729,7 @@
     {
       "id": "1335",
       "title": "2019 Used  PORSCHE 911 CARRERA 4 S-A",
-      "price": "£81,995",
+      "price": "£80,995",
       "year": 2019,
       "mileage": "27,083 miles",
       "transmission": "Automatic",
@@ -29660,6 +29742,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20071844"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£81,995",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -29687,7 +29775,7 @@
       "title": "2007 Used  PORSCHE 911",
       "price": "£32,995",
       "year": 2007,
-      "mileage": "N/A",
+      "mileage": "47717 miles",
       "transmission": "Unknown",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/porsche/911/carrera-4s-tiptronic-s/porsche-911-carrera-4s-tiptronic-s-1427492696-1.jpg",
@@ -29926,6 +30014,525 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048779"
+        }
+      ]
+    },
+    {
+      "id": "1350",
+      "title": "2005 Porsche 911 (996) Turbo S Cabriolet - X50 Package",
+      "price": "Sold",
+      "year": 2005,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086702/07-04-26KR12.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "sold",
+      "soldPrice": "£34,250",
+      "soldDate": "2026-04-15",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2005-porsche-911-996-turbo-s-cabriolet-16"
+        }
+      ]
+    },
+    {
+      "id": "1351",
+      "title": "2011 Porsche 911 (997.2) Turbo S - 15,500 Km",
+      "price": "Sold",
+      "year": 2011,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086656/MAIN.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "sold",
+      "soldPrice": "€133,000",
+      "soldDate": "2026-04-15",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2011-porsche-911-997-2-turbo-s-7"
+        }
+      ]
+    },
+    {
+      "id": "1352",
+      "title": "1976 Porsche 911 (930) Turbo",
+      "price": "Sold",
+      "year": 1976,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086657/MAIN.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "sold",
+      "soldPrice": "€125,000",
+      "soldDate": "2026-04-15",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1976-porsche-911-930-turbo-3"
+        }
+      ]
+    },
+    {
+      "id": "1353",
+      "title": "2020 Used  PORSCHE 911",
+      "price": "£83,950",
+      "year": 2020,
+      "mileage": "17500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-992-carrera-s-convertible-2dr-petrol-pdk-euro-6-s-s--450-ps/porsche-911-3-0t-992-carrera-s-convertible-2dr-petrol-pdk-euro-6-s-s--450-ps-1410062398-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20004184"
+        }
+      ]
+    },
+    {
+      "id": "1354",
+      "title": "2026 Used  PORSCHE 911",
+      "price": "£134,500",
+      "year": 2026,
+      "mileage": "500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/992-carrera-coupe-s-2dr-pdk/porsche-911-992-carrera-coupe-s-2dr-pdk-1428306312-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20270315"
+        }
+      ]
+    },
+    {
+      "id": "1355",
+      "title": "2021 Used  PORSCHE 911 TARGA 4 GTS",
+      "price": "£105,990",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Targa",
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/targa-4-gts/porsche-911-targa-4-gts-1428520482-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20267954"
+        }
+      ]
+    },
+    {
+      "id": "1356",
+      "title": "2017 Used  PORSCHE 911",
+      "price": "£74,995",
+      "year": 2017,
+      "mileage": "20001 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-0t-991-4-gts-targa-2dr-petrol-pdk-4wd-euro-6-s-s--450-ps/porsche-911-3-0t-991-4-gts-targa-2dr-petrol-pdk-4wd-euro-6-s-s--450-ps-1424073924-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20210853"
+        }
+      ]
+    },
+    {
+      "id": "1357",
+      "title": "2012 Used  PORSCHE 911",
+      "price": "£50,950",
+      "year": 2012,
+      "mileage": "36,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-4-991-carrera-convertible-2dr-petrol-pdk-euro-5-s-s-euro-5-350-ps/porsche-911-3-4-991-carrera-convertible-2dr-petrol-pdk-euro-5-s-s-euro-5-350-ps-1428432159-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20272236"
+        }
+      ]
+    },
+    {
+      "id": "1358",
+      "title": "2017 Used  PORSCHE 911",
+      "price": "£81,991",
+      "year": 2017,
+      "mileage": "62 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/targa-4-gts-pdk/porsche-911-targa-4-gts-pdk-1428520162-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20267915"
+        }
+      ]
+    },
+    {
+      "id": "1359",
+      "title": "2016 Used  PORSCHE 911",
+      "price": "£59,990",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-991/carrera-s-pdk/porsche-911-carrera-991-carrera-s-pdk-S4948203-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20260609"
+        }
+      ]
+    },
+    {
+      "id": "1360",
+      "title": "2015 Used  PORSCHE 911",
+      "price": "£84,995",
+      "year": 2015,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/991-1-targa-4-gts/porsche-911-991-1-targa-4-gts-1427652550-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20260451"
+        }
+      ]
+    },
+    {
+      "id": "1361",
+      "title": "2008 Used  PORSCHE 911",
+      "price": "£41,990",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-carrera-997/carrera-2s/porsche-911-carrera-997-carrera-2s-S4948479-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20268035"
+        }
+      ]
+    },
+    {
+      "id": "1362",
+      "title": "1994 Used  PORSCHE 911",
+      "price": "£39,995",
+      "year": 1994,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-993/carrera-cabriolet/porsche-911-993-carrera-cabriolet-S4948584-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18618836"
+        }
+      ]
+    },
+    {
+      "id": "1363",
+      "title": "1996 Used  PORSCHE 911",
+      "price": "£168,900",
+      "year": 1996,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-993/carrera-4-s/porsche-911-993-carrera-4-s-S4948533-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20268166"
+        }
+      ]
+    },
+    {
+      "id": "1364",
+      "title": "1989 Used  PORSCHE 911",
+      "price": "£114,995",
+      "year": 1989,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/speedster/porsche-911-pre-89-speedster-S4948524-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20268639"
+        }
+      ]
+    },
+    {
+      "id": "1365",
+      "title": "1979 Used  PORSCHE 911",
+      "price": "£44,995",
+      "year": 1979,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-pre-89/porsche-911-pre-89-S4948438-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20268024"
+        }
+      ]
+    },
+    {
+      "id": "1366",
+      "title": "1970 Used  PORSCHE 911",
+      "price": "£74,995",
+      "year": 1970,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/porsche-911-1428082296-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20267809"
+        }
+      ]
+    },
+    {
+      "id": "1367",
+      "title": "2022 Used  PORSCHE 911 GT3",
+      "price": "£157,000",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/992-gt-coupe-gt3-2dr/porsche-911-992-gt-coupe-gt3-2dr-1428298507-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20269999"
+        }
+      ]
+    },
+    {
+      "id": "1368",
+      "title": "2023 Used  PORSCHE 911 GT3 S-A",
+      "price": "£168,500",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/992-gt-coupe-gt3-2dr-pdk/porsche-911-992-gt-coupe-gt3-2dr-pdk-1427868553-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20262845"
+        }
+      ]
+    },
+    {
+      "id": "1369",
+      "title": "2013 Used  PORSCHE 911",
+      "price": "£89,500",
+      "year": 2013,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/991-gt-coupe-gt3-2dr-pdk/porsche-911-991-gt-coupe-gt3-2dr-pdk-1424839259-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20219747"
+        }
+      ]
+    },
+    {
+      "id": "1370",
+      "title": "2020 Used  PORSCHE 911 TURBO S S-A",
+      "price": "£129,995",
+      "year": 2020,
+      "mileage": "62 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/t-992-turbo-s/porsche-911-t-992-turbo-s-1428088405-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19880315"
+        }
+      ]
+    },
+    {
+      "id": "1371",
+      "title": "2015 Used  PORSCHE 911",
+      "price": "£70,997",
+      "year": 2015,
+      "mileage": "61,658 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911-turbo-991/turbo-pdk/porsche-911-turbo-991-turbo-pdk-S4948284-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20261586"
+        }
+      ]
+    },
+    {
+      "id": "1372",
+      "title": "2006 Used  PORSCHE 911",
+      "price": "£69,995",
+      "year": 2006,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/911/3-6-997-turbo/porsche-911-3-6-997-turbo-1425229206-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20083340"
+        }
+      ]
+    },
+    {
+      "id": "1373",
+      "title": "2010 Porsche 911 Turbo Cabriolet 997",
+      "price": "£43,750",
+      "year": "2010",
+      "mileage": "31,434 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29179789/Porsche-8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=23f4a71ecd2eb1b648e5260abad2c181",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2010-porsche-911-turbo-cabriolet-997-nRoWq4"
+        }
+      ]
+    },
+    {
+      "id": "1374",
+      "title": "2009 Porsche 911 Carrera 4S Cabriolet 997.2 Manual",
+      "price": "£40,000",
+      "year": "2009",
+      "mileage": "49,862 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29092416/IMG_8624.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1a0c72843eee9065c325f6631d0cb9b1",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2009-porsche-911-carrera-4s-cabriolet-9972-manual-gzjVBg"
+        }
+      ]
+    },
+    {
+      "id": "1375",
+      "title": "1967 PORSCHE 911 2.2 COUPE LHD 1966 MODEL - £45,000 RESTO",
+      "price": "£74,995",
+      "year": "1967",
+      "mileage": "52,995 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/porsche/C1942777/1967-porsche-911-68ca8cb8caebc.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2b20644281c47bb1efcab93b08e276e7",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1942777"
+        }
+      ]
+    },
+    {
+      "id": "1376",
+      "title": "2022 1984 Porsche 911 Classic (1963 - 1973) Carrera RSR",
+      "price": "POA",
+      "year": "2022",
+      "mileage": "7,333 km",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2049605/2022-porsche-911-69dfafcc4dfe1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8f9b78f74323ec6ad15e77e2d1df71a4",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049605"
         }
       ]
     }

@@ -731,14 +731,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/308/ferrari-308-S4938965-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19917910"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "38",
@@ -1335,6 +1336,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2001892"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "1980 Ferrari 308 GTS - Just 20,941 miles, 255 BHP",
+      "price": "£68,500",
+      "year": "1980",
+      "mileage": "20,941 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2050306/1980-ferrari-308-69e1363d53a41.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=71dd3af3a6176b3c464ac15d9266fecf",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050306"
         }
       ]
     }

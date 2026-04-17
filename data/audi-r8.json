@@ -1287,13 +1287,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28999576/2018-audi-r8-69c2af08ac49d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=88f3ea273f60892a7f6ec3a623296888",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035956"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "62",
@@ -2072,7 +2073,7 @@
     {
       "id": "98",
       "title": "2014 Audi R8 4.2 FSI V8 Spyder 2dr Petrol S Tronic quattro Euro 5 (430 ps)",
-      "price": "£43,700",
+      "price": "£43,995",
       "year": 2014,
       "mileage": "35,900 miles",
       "transmission": "Unknown",
@@ -2080,7 +2081,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/253821652d7b487baf86364554107756.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2091,7 +2092,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20070559"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£43,700",
+          "date": "2026-04-17"
+        }
+      ]
     },
     {
       "id": "99",
@@ -2231,13 +2237,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7f3c743f9f774143ba1a07a9ee4da366.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301121882"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "106",
@@ -2744,13 +2751,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-spyder-2dr-petrol-manual-quattro-euro-4-525-ps/audi-r8-5-2-fsi-v10-spyder-2dr-petrol-manual-quattro-euro-4-525-ps-1424542759-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20215982"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "131",
@@ -3009,13 +3017,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/r8/v10-plus-quattro/audi-r8-v10-plus-quattro-S4942804-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19585940"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "144",
@@ -3169,13 +3178,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1921edcb8e8244d48124587a4bdefeb8.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311179263"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "152",
@@ -3370,6 +3380,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19710772"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "title": "2018 Used  AUDI R8",
+      "price": "£84,990",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/5-2-fsi-v10-spyder-2dr-petrol-s-tronic-quattro-euro-6-s-s--540-ps/audi-r8-5-2-fsi-v10-spyder-2dr-petrol-s-tronic-quattro-euro-6-s-s--540-ps-1414997257-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20083112"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "title": "2015 Used  AUDI R8",
+      "price": "£82,000",
+      "year": 2015,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/r8/fsi-v10-quattro-2dr-s-tronic/audi-r8-fsi-v10-quattro-2dr-s-tronic-1428302783-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20219833"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "title": "2008 Audi R8 V8",
+      "price": "£44,998",
+      "year": "2008",
+      "mileage": "67,386 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/audi/C2049637/2008-audi-r8-69dfc038258c1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=610bdb62df1775fd7e59310df2f8a9c1",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2049637"
         }
       ]
     }

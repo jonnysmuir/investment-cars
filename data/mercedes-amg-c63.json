@@ -993,13 +993,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2023680/2018-mercedes-c-class-69c71e9880df7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3d18fbbb5bfec4376567f5550f5cf805",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023680"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "49",
@@ -1321,13 +1322,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class/2-0-c63-6-1kwh-amg-s-e-performance-carbon-edition-saloon-4dr-petrol-plug-in/mercedes-benz-c-class-2-0-c63-6-1kwh-amg-s-e-performance-carbon-edition-saloon-4dr-petrol-plug-in-1413921361-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20066795"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "64",
@@ -1345,6 +1347,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19880259"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2019 Mercedes C63 AMG Auto",
+      "price": "£37,900",
+      "year": "2019",
+      "mileage": "47,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29727238/2019-mercedes-c63-amg-69df9aeb59248.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=91747af94301e995dbb049c6d12158a8",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049529"
         }
       ]
     }

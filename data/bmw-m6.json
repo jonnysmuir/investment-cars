@@ -1009,7 +1009,7 @@
     {
       "id": "47",
       "title": "2013 BMW M6 4.4 V8 Coupe 2dr Petrol M-DCT Euro 5 (s/s) (560 ps)",
-      "price": "£22,490",
+      "price": "£23,490",
       "year": 2013,
       "mileage": "54,555 miles",
       "transmission": "Automatic",
@@ -1072,6 +1072,14 @@
         {
           "price": "£22,999",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£22,490",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£22,999",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -1638,13 +1646,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a7e5a36166874c0984b08908a14b538f.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021258342"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "75",
@@ -1790,6 +1799,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2006-bmw-e63-m6-nY7zo8"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2012 BMW M6 4.4 V8 Coupe 2dr Petrol DCT Euro 5 (s/s) (560 ps) SAT NAV, REVERSE CAMERA, HUD, DAB",
+      "price": "£16,990",
+      "year": 2012,
+      "mileage": "82,886 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/c92916f027fa47d58e6d61464c1732c0.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603281099251"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "2005 BMW M6 E63",
+      "price": "£19,995",
+      "year": "2005",
+      "mileage": "49,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/bmw/C2050304/2005-bmw-m6-69e132eb32130.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3907702d2fa2f98018ab53c5e72d8032",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2050304"
         }
       ]
     }

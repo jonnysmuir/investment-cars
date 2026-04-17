@@ -354,7 +354,7 @@
     {
       "id": "15",
       "title": "2025 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£365,000",
+      "price": "£355,990",
       "year": 2025,
       "mileage": "203 miles",
       "transmission": "F1 Automated Manual",
@@ -428,6 +428,10 @@
         {
           "price": "£374,990",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£365,000",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Saloon"
@@ -884,14 +888,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28516647/2025-ferrari-pursosangue-69ab6c0974392.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1c1e692bbcecbd71ed9319b04359539f",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025860"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "27",
@@ -1294,7 +1299,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/purosangue/ferrari-purosangue-1397622953-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1323,8 +1328,7 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": "Saloon",
-      "unlistedDate": "2026-04-01"
+      "bodyType": "Saloon"
     },
     {
       "id": "41",
@@ -2002,7 +2006,7 @@
     {
       "id": "65",
       "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
-      "price": "£354,995",
+      "price": "£349,950",
       "year": 2024,
       "mileage": "1,985 miles",
       "transmission": "F1 Automated Manual",
@@ -2025,6 +2029,10 @@
         {
           "price": "£349,950",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£354,995",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -2044,6 +2052,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261015046"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20263738"
         }
       ],
       "unlistedDate": "2026-04-01"
@@ -2118,13 +2130,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29471171/2024-ferrari-purosangue-65-v12-69d59e5793173.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=86b3962619c37bb00929ff0e82c07369",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045145"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "71",
@@ -2179,6 +2192,14 @@
         {
           "price": "£369,000",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£380,149",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£369,000",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -2298,12 +2319,12 @@
     },
     {
       "id": "79",
-      "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
+      "title": "2024 Ferrari Purosangue 6.5 V12 SUV 4dr Petrol F1 DCT 4WD Euro 6 (s/s) (725 ps)",
       "price": "£339,975",
       "year": 2024,
       "mileage": "850 miles",
       "transmission": "F1 Automated Manual",
-      "bodyType": "Saloon",
+      "bodyType": "SUV",
       "image": "https://m.atcdn.co.uk/a/media/w480/06eff0aa2f2c425595a8c440341e1242.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
@@ -2350,6 +2371,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1863890"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2024 Ferrari Purosangue 6.5 V12 F1 DCT 4WD Euro 6 (s/s) 4dr",
+      "price": "£354,995",
+      "year": 2024,
+      "mileage": "2,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9d8e094758214e3d81134c3403954fb9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071348050"
         }
       ]
     }

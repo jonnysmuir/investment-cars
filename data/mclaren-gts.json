@@ -392,13 +392,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/213b1cc6695d4f7fb25222859771c3cd.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604041286868"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "20",
@@ -454,6 +455,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604141528246"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "2026 McLaren Gts Coupe V8 2dr SSG Auto 4.0",
+      "price": "£165,000",
+      "year": 2026,
+      "mileage": "500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5f4cb352c842476685f070e087c7da3d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171620801"
         }
       ]
     }

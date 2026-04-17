@@ -699,15 +699,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4889521-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17368620"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-09"
+      "bodyType": null
     },
     {
       "id": "35",
@@ -1123,7 +1122,7 @@
       "price": "£149,950",
       "year": 1996,
       "mileage": "29,719 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w640/7834176e9feb4a398350e473e1832057.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
@@ -1132,6 +1131,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202304266694126"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20267998"
         }
       ],
       "bodyType": "Coupe"
@@ -1139,7 +1142,7 @@
     {
       "id": "56",
       "title": "1999 Ferrari F355 3.5 Spider 2dr",
-      "price": "£102,995",
+      "price": "£99,995",
       "year": 1999,
       "mileage": "22,980 miles",
       "transmission": "Unknown",
@@ -1161,6 +1164,10 @@
         {
           "price": "£104,995",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£102,995",
+          "date": "2026-04-17"
         }
       ],
       "bodyType": "Convertible"
@@ -1574,6 +1581,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-17"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -1649,13 +1664,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9ddc077c8ef744f89860264ab75ce0c0.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510277443850"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "77",
@@ -1827,13 +1843,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f6571dfe9e444b3c8e9ed39a223da5d5.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202310173084696"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "86",
@@ -1988,6 +2005,84 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1895114"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "title": "1997 Ferrari F355 Spider - Manual - 28,999 Miles",
+      "price": "Sold",
+      "year": 1997,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086331/24-03-26-JJBB-01.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "sold",
+      "soldPrice": "£95,000",
+      "soldDate": "2026-04-16",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1997-ferrari-f355-spider-10"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "title": "1995 Ferrari F355 GTS",
+      "price": "£149,950",
+      "year": "1995",
+      "mileage": "38,915 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29755544/1995-ferrari-f355-69e0eeb5c0412.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c88d331cecf9267badc1fc398e8f6d9e",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050141"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "title": "1996 Ferrari F355",
+      "price": "£149,950",
+      "year": "1996",
+      "mileage": "33,260 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29755499/1996-ferrari-f355-69e0ee90cb153.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0c3fc12461ea1c5f0b49c6f74c886536",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050134"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "title": "1994 1995 Ferrari 355 Berlinetta-early non airbag example",
+      "price": "£149,988",
+      "year": "1994",
+      "mileage": "42,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/ferrari/C2049660/1994-ferrari-f355-69dfc0fc20b40.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c1ce3e02e41996d83b5ffb4dc7a10d0a",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049660"
         }
       ]
     }

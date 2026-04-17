@@ -1488,13 +1488,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e55bf29e3ac44432acdec34eee469cd8.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240959664"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "73",
@@ -1527,7 +1528,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ca63276d7530406ba802f6e0c4b38572.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1539,7 +1540,8 @@
           "price": "£2,750",
           "date": "2026-04-08"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "75",
@@ -2323,13 +2325,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b9dc8d0353144eeab73d813ac0a90127.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120655433"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "114",
@@ -3034,13 +3037,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9d366f676c1148828c285dbe110f6b88.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250990608"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "148",
@@ -4267,7 +4271,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/095fc525d1b243559407e70f4fe4b6bc.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -4279,7 +4283,8 @@
           "price": "£22,895",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "207",
@@ -4677,7 +4682,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ed1579b7af634dc6b8fad63895861cac.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -4689,7 +4694,8 @@
           "price": "£30,500",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "227",
@@ -4780,13 +4786,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dfd53a51d71d4fdd90f5f91ee47edc44.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180039458"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "232",
@@ -5386,14 +5393,13 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/z4/z4-m-roadster/bmw-z4-z4-m-roadster-1342708350-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18371336"
         }
-      ],
-      "unlistedDate": "2026-04-04"
+      ]
     },
     {
       "id": "261",
@@ -5456,14 +5462,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/29373597/2004-bmw-z4-69d0f2a3899ca.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d89c6406f583c8ac11adf816b4103cec",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2042933"
         }
-      ],
-      "unlistedDate": "2026-04-08"
+      ]
     },
     {
       "id": "264",
@@ -5647,7 +5652,7 @@
     {
       "id": "273",
       "title": "2006 BMW Z4 3.0 si Sport Convertible 2dr Petrol Auto Euro 4 (265 ps)",
-      "price": "£3,500",
+      "price": "£3,250",
       "year": 2006,
       "mileage": "119,000 miles",
       "transmission": "Automatic",
@@ -5660,6 +5665,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240974226"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£3,500",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -5929,13 +5940,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0eaabc2c6fb740078781925f0915689c.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068954387"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "288",
@@ -6215,13 +6227,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/56e456410c224aceae17b3b3c6933ef3.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291117870"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "303",
@@ -6234,13 +6247,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3c18c301e47e4831bd1478674140c7e4.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021248837"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "304",
@@ -6329,13 +6343,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/78cf86d108874422ad13e069d51c72cf.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311170531"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "309",
@@ -6386,13 +6401,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e8d6e5f294814a07b5a6c27312c5951d.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081372336"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "312",
@@ -6435,7 +6451,7 @@
     {
       "id": "314",
       "title": "2010 BMW Z4 E89 sDrive30i",
-      "price": "£27,995",
+      "price": "£23,995",
       "year": "2010",
       "mileage": "4,735 miles",
       "transmission": "Automatic",
@@ -6448,6 +6464,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046322"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£27,995",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -6905,13 +6927,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/159b3f2b9c424056b7430bf84fb41255.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091390807"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "339",
@@ -6981,13 +7004,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/00078f0c12364b5593de6e4a469da1ea.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604121481361"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "343",
@@ -7437,13 +7461,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/da029b7259c14c49beb5a60d32d00c91.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512248789143"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "367",
@@ -7494,13 +7519,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4ca93d065c6a47128fa8f7046f615633.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021242576"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "370",
@@ -7551,13 +7577,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fe8fb7e8f5c449d6af47f52c7a588784.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281100329"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "373",
@@ -7570,13 +7597,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7e78676830ba43119c16d4284afc8314.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301140574"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "374",
@@ -7589,13 +7617,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d4bf3c8fd3264d38878644014d3339fc.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021233289"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "375",
@@ -7627,13 +7656,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fe0fa510264943b69747be606f5f17e1.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311184600"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "377",
@@ -7684,13 +7714,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f950a38906e645cab145654d6f14a1db.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602039630994"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "380",
@@ -7703,13 +7734,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/da73e445806149839643be752d348c29.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202305227632975"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "381",
@@ -7872,7 +7904,7 @@
     {
       "id": "389",
       "title": "2022 BMW Z4 M40I Auto",
-      "price": "£34,490",
+      "price": "£34,340",
       "year": "2022",
       "mileage": "16,845 miles",
       "transmission": "Automatic",
@@ -7885,6 +7917,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1993716"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£34,490",
+          "date": "2026-04-17"
         }
       ]
     },
@@ -8398,6 +8436,160 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180795374"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "title": "2004 BMW Alpina Z4 Roadster S LUX - One Owner",
+      "price": "Sold",
+      "year": 2004,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086599/AS-01-04-09.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "sold",
+      "soldPrice": "£16,750",
+      "soldDate": "2026-04-15",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2004-bmw-alpina-z4-roadster-s-lux-2"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "title": "2010 BMW Z4 3.0 30i sDrive Euro 5 2dr",
+      "price": "£10,995",
+      "year": 2010,
+      "mileage": "82,900 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/4a525130468c45d29b3c396d3d463792.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604161611761"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "2006 BMW Z4 2.0i SE Convertible 2dr Petrol Manual Euro 4 (150 ps)",
+      "price": "£1,990",
+      "year": 2006,
+      "mileage": "119,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5c5eaefbbce0452eb5fccb6e24136992.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151555017"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "2007 BMW Z4 E86 3.0si",
+      "price": "£9,450",
+      "year": "2007",
+      "mileage": "100,248 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2049607/2007-bmw-z4-69dfbbecb4d3b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=53cbefb28edabc51c4a0148f4b6f5763",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2049607"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "2008 BMW Z4 E86 3.0si",
+      "price": "£14,200",
+      "year": "2008",
+      "mileage": "55,250 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2049463/2008-bmw-z4-69df8b499d99e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d3e70c24c9739936a8b2d37bb5120677",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2049463"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "2007 BMW Z4 E85 2.5si",
+      "price": "£4,950",
+      "year": "2007",
+      "mileage": "78,299 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2050218/2007-bmw-z4-69e103bcd94f0.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=23df4d7918a6169fb0ebf6ee64d81c4a",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2050218"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "2008 BMW Z4 E86 3.0i",
+      "price": "£12,450",
+      "year": "2008",
+      "mileage": "29,500 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2050112/2008-bmw-z4-69e0ed30a41f5.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=05a94c380d49fb4e64cca87df8f07554",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2050112"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "2004 BMW Z4 2.5si E85",
+      "price": "£8,490",
+      "year": "2004",
+      "mileage": "29,788 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29750969/2004-bmw-z4-69e0c2839c545.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=447a9213f7bd1233ac28c7a388646287",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050037"
         }
       ]
     }

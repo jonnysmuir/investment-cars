@@ -273,7 +273,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/750s-spider/mclaren-750s-spider-1405198139-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -386,7 +386,8 @@
           "date": "2026-04-13"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "9",
@@ -457,14 +458,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C2004959/2024-mclaren-750s-spider-6998f6aac4c60.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=35b48f204907ddd8d2527af810fb194b",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2004959"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "13",
@@ -957,6 +959,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091403172"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "2026 McLaren 750S 4.0T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£294,850",
+      "year": 2026,
+      "mileage": "22 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/c06f7effbddf454dbb6d89d7f660c78d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-17",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141538683"
         }
       ]
     }

@@ -177,14 +177,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/16cf532bb0b444a4b6e8561f56828892.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512028297785"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "10",
@@ -388,21 +389,27 @@
     {
       "id": "20",
       "title": "2025 Ferrari 12Cilindri 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£425,000",
+      "price": "£419,000",
       "year": 2025,
       "mileage": "2,590 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/5c25a3029ba84b058d5d50562e2f5cc9.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511147882022"
         }
       ],
-      "unlistedDate": "2026-03-30"
+      "priceHistory": [
+        {
+          "price": "£425,000",
+          "date": "2026-04-17"
+        }
+      ],
+      "bodyType": null
     },
     {
       "id": "21",
@@ -528,14 +535,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e6526dda53714aa19aa15c56255af0fd.jpg",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602180020931"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-17"
     },
     {
       "id": "28",
