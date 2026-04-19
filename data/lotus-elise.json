@@ -1272,7 +1272,7 @@
     {
       "id": "61",
       "title": "2007 Lotus Elise 1.8 S 2dr",
-      "price": "£23,000",
+      "price": "£21,500",
       "year": 2007,
       "mileage": "52,000 miles",
       "transmission": "6-Speed Manual",
@@ -1295,6 +1295,10 @@
         {
           "price": "£22,495",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£23,000",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1556,7 +1560,7 @@
     },
     {
       "id": "74",
-      "title": "2003 Lotus Elise 1.8 111 Convertible 2dr Petrol Manual (163 g/km, 156 bhp)",
+      "title": "2003 Lotus Elise 1.8 111R Convertible 2dr Petrol Manual (208 g/km, 189 bhp)",
       "price": "£16,500",
       "year": 2003,
       "mileage": "61,024 miles",
@@ -1783,7 +1787,7 @@
     {
       "id": "85",
       "title": "2005 Lotus Elise 1.8 111R Convertible 2dr Petrol Manual (208 g/km, 189 bhp)",
-      "price": "£25,500",
+      "price": "£24,500",
       "year": 2005,
       "mileage": "32,420 miles",
       "transmission": "6-Speed Manual",
@@ -1800,6 +1804,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20248444"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,500",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2468,7 +2478,7 @@
     {
       "id": "116",
       "title": "2004 Lotus Elise 1.8 111R Convertible 2dr Petrol Manual Supercharged (220 bhp)",
-      "price": "£18,000",
+      "price": "£17,750",
       "year": 2004,
       "mileage": "97,500 miles",
       "transmission": "6-Speed Manual",
@@ -2499,6 +2509,10 @@
         {
           "price": "£17,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£18,000",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2551,7 +2565,7 @@
     {
       "id": "119",
       "title": "2013 Lotus Elise 1.6 CR Euro 5 2dr",
-      "price": "£28,630",
+      "price": "£26,500",
       "year": 2013,
       "mileage": "8,700 miles",
       "transmission": "Unknown",
@@ -2564,6 +2578,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011224773"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£28,630",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -3136,7 +3156,7 @@
       "year": 2015,
       "mileage": "38,341 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": "Convertible",
+      "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w640/7da4558f4c9d49faa78686e4d6bb2bde.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
@@ -3333,13 +3353,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s2/111r-16v-touring/lotus-elise-s2-111r-16v-touring-S4947420-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20242930"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "159",
@@ -3352,13 +3373,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/elise/lotus-elise-s1-elise-S4947410-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20242926"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "160",
@@ -3507,12 +3529,12 @@
     },
     {
       "id": "167",
-      "title": "2002 Lotus Elise Type 49 S2",
+      "title": "2002 LOTUS ELISE CONVERTIBLE 1.8 16V 2DR Manual",
       "price": "£24,950",
       "year": "2002",
       "mileage": "7,000 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://assets.carandclassic.com/uploads/new/29661495/2002-lotus-elise-convertible-69dda20c04131.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=837ef392039c92ea44df1cc90657ff57",
       "featured": false,
       "dateAdded": "2026-04-14",
@@ -3825,6 +3847,158 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1989274"
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "title": "2001 Used  LOTUS ELISE",
+      "price": "£18,995",
+      "year": 2001,
+      "mileage": "74,454 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise/s2-sports-tourer/lotus-elise-s2-sports-tourer-1428950987-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17238635"
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "title": "2009 Used  LOTUS ELISE",
+      "price": "£24,995",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise/s/lotus-elise-s-1415480125-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20092736"
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "title": "1999 Used  LOTUS ELISE",
+      "price": "£11,450",
+      "year": 1999,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/elise-s1/elise/lotus-elise-s1-elise-S4943465-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20092766"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "title": "2016 Lotus Elise S Convertible 1.8 Manual Petrol 2dr",
+      "price": "£30,995",
+      "year": 2016,
+      "mileage": "39,113 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/c4394e8ca3cd43ffa5c5ed1605e9e48d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181662839"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "title": "2004 Lotus Elise 111R Touring 2dr 1.8",
+      "price": "£17,995",
+      "year": 2004,
+      "mileage": "62,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/662990fe40e246a58a6fe504b2b3ed07.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131518653"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "title": "1998 Lotus Elise 1.8 Convertible 2dr Petrol Manual (168 g/km, 118 bhp)",
+      "price": "£49,995",
+      "year": 1998,
+      "mileage": "16,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/0b50da9139314ebaa64e6a922c96ed50.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171651374"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "title": "2021 Lotus Elise 1.8 Sport 220 Euro 6 2dr",
+      "price": "£39,999",
+      "year": 2021,
+      "mileage": "12,909 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/b2e1f862ea624f3ba51a25b13b68272a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171637674"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "title": "1998 Lotus Elise 1.8 Roadster",
+      "price": "POA",
+      "year": "1998",
+      "mileage": "69,538 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29754375/2y1a4558-yanli-tao.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=93f0a9892d51baf4e13b81045d6a9079",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/1998-lotus-elise-18-roadster-8qDDb4"
         }
       ]
     }

@@ -989,14 +989,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2023521/2008-ferrari-612-69a71b878797a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=da56c9f8911e2230f0b5dbb817284595",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023521"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "50",
@@ -1315,14 +1316,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/83367821b67c4b9c85a25b6d48105ce8.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309031498291"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "65",
@@ -1606,6 +1608,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101427128"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "2007 Ferrari 612 Scaglietti",
+      "price": "£59,948",
+      "year": "2007",
+      "mileage": "32,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2048283/2007-ferrari-612-69e2e31b9e71d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b467076be91ac8242f216c87f4db5666",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048283"
         }
       ]
     }

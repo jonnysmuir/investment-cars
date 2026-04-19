@@ -412,13 +412,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4309c71dc39745289f85f901746f190a.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604051304921"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "21",
@@ -474,6 +475,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171620801"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "2025 McLaren GTS",
+      "price": "£142,995",
+      "year": 2025,
+      "mileage": "3,850 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/baf8990fa11e4206b900e85ce2344f89.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171648478"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "2026 McLaren GTS 4.0 2dr",
+      "price": "£179,850",
+      "year": 2026,
+      "mileage": "22 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/8b31d7fa5ed6415c8e9960f392deb59f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091408496"
         }
       ]
     }

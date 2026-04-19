@@ -137,7 +137,7 @@
     {
       "id": "7",
       "title": "2017 MCLAREN 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s)",
-      "price": "£68,989",
+      "price": "£67,989",
       "year": "2017",
       "mileage": "29,062 miles",
       "transmission": "Automatic",
@@ -156,6 +156,10 @@
         {
           "price": "£69,989",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£68,989",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -169,7 +173,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c7206736275e4ad68470000c42859b2d.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -262,7 +266,8 @@
           "date": "2026-04-07"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "9",
@@ -488,6 +493,14 @@
         {
           "price": "£67,989",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£67,989",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -660,6 +673,14 @@
         {
           "price": "£71,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£67,989",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -840,6 +861,14 @@
         {
           "price": "£76,978",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£77,229",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£76,978",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -865,7 +894,7 @@
     {
       "id": "20",
       "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps)",
-      "price": "£67,995",
+      "price": "£69,495",
       "year": 2017,
       "mileage": "23,000 miles",
       "transmission": "Unknown",
@@ -882,6 +911,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20228407"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£67,995",
+          "date": "2026-04-19"
         }
       ]
     },

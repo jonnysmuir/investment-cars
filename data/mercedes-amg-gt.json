@@ -883,7 +883,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/v8-biturbo-s-premium-coupe-petrol-spds-dct-euro-6-s-s/mercedes-benz-amg-gt-v8-biturbo-s-premium-coupe-petrol-spds-dct-euro-6-s-s-1419450615-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -893,7 +893,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091410553"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "42",
@@ -1186,14 +1187,13 @@
       "image": "https://assets.carandclassic.com/uploads/new/28324645/2022-mercedes-benz-amg-gt-69a2a3f0a8281.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=299b48329d197dc0399206027c7f1ca4",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2022024"
         }
-      ],
-      "unlistedDate": "2026-04-06"
+      ]
     },
     {
       "id": "55",
@@ -1521,6 +1521,14 @@
         {
           "price": "£65,795",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£65,795",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1633,6 +1641,14 @@
         {
           "price": "£46,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£46,500",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£46,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2165,13 +2181,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1a6dda136262482cbe375f9bbb2093d8.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271060661"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "98",
@@ -2322,7 +2339,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-premium-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps/mercedes-benz-amg-gt-4-0-v8-biturbo-premium-roadster-2dr-petrol-spds-dct-euro-6-s-s--476-ps-1425449942-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2332,7 +2349,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101431180"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "106",
@@ -2438,6 +2456,65 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604141524086"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2018 Mercedes-AMG GT Roadster",
+      "price": "Sold",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/084585/AS-29-01-03.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "sold",
+      "soldPrice": "£58,505",
+      "soldDate": "2026-04-17",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2018-mercedes-amg-gt-roadster-2"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2015 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo S (Premium) Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (510 ps)",
+      "price": "£49,600",
+      "year": 2015,
+      "mileage": "38,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/be3f62afb4aa4e8c830d20ba465b06e7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181670812"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2018 Mercedes AMG GT S",
+      "price": "£64,990",
+      "year": "2018",
+      "mileage": "17,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29814556/2018-mercedes-benz-amg-gt-69e2d9c36a4a0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1e3927a777a284454b6fccc4fe1e2540",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051295"
         }
       ]
     }

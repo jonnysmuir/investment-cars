@@ -472,13 +472,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2023478/1970-aston-martin-db6-69a705a0c56e7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=99c6b8a7d820a33447e4e4894150361e",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2023478"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "25",
@@ -565,7 +566,7 @@
       "year": "1970",
       "mileage": "38,378 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2047592/1970-aston-martin-db6-69dc88c828a66.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8daab6bb7af8230b751c4f45330fcd84",
       "featured": false,
       "dateAdded": "2026-04-14",
@@ -593,6 +594,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048752"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "1965 Aston Martin DB6",
+      "price": "£225,000",
+      "year": "1965",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C1514454/1965-aston-martin-db6-63516cc037f7d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=19e41f5cf72ab8294c06c8675a390868",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1514454"
         }
       ]
     }

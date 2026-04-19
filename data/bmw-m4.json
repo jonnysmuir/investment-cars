@@ -2536,7 +2536,7 @@
     {
       "id": "115",
       "title": "2018 BMW M4 3.0 BiTurbo GPF Competition DCT Euro 6 (s/s) 2dr",
-      "price": "£34,740",
+      "price": "£35,999",
       "year": 2018,
       "mileage": "33,615 miles",
       "transmission": "F1 Automated Manual",
@@ -2544,7 +2544,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0046e91f3b974fc6917e20b72608f768.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2555,7 +2555,12 @@
           "url": "https://www.pistonheads.com/buy/listing/14713172"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "priceHistory": [
+        {
+          "price": "£34,740",
+          "date": "2026-04-19"
+        }
+      ]
     },
     {
       "id": "116",
@@ -5355,7 +5360,7 @@
     {
       "id": "241",
       "title": "2019 BMW M4 3.0 BiTurbo GPF Competition Coupe 2dr Petrol DCT",
-      "price": "£32,995",
+      "price": "£32,795",
       "year": "2019",
       "mileage": "45,800 miles",
       "transmission": "Automatic",
@@ -5368,6 +5373,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2029204"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -7092,13 +7103,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29264160/2017-bmw-m4-69ccfc3751cfe.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eb99714d613dc0b8e696351778eb2133",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041247"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "324",
@@ -12095,7 +12107,7 @@
     {
       "id": "577",
       "title": "2014 BMW M4 3.0 BiTurbo DCT Euro 6 (s/s) 2dr",
-      "price": "£18,998",
+      "price": "£18,748",
       "year": "2014",
       "mileage": "75,000 miles",
       "transmission": "Automatic",
@@ -12108,6 +12120,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1993726"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£18,998",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -12531,7 +12549,7 @@
     },
     {
       "id": "599",
-      "title": "2022 BMW M4 Competition G82",
+      "title": "2022 BMW M4 BiTurbo Competition",
       "price": "£54,995",
       "year": "2022",
       "mileage": "26,500 miles",
@@ -12550,7 +12568,7 @@
     },
     {
       "id": "600",
-      "title": "2022 BMW M4 Competition G82",
+      "title": "2022 BMW M4 3.0 BiTurbo Competition Steptronic M xDrive Euro",
       "price": "£54,990",
       "year": "2022",
       "mileage": "21,258 miles",
@@ -13533,6 +13551,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2050002"
+        }
+      ]
+    },
+    {
+      "id": "652",
+      "title": "2023 BMW M4 Competition xDrive G82",
+      "price": "£53,695",
+      "year": "2023",
+      "mileage": "5,792 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29817206/2023-bmw-m4-69e2e29515d3a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=652da10e170103da636a6d080735f584",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051336"
+        }
+      ]
+    },
+    {
+      "id": "653",
+      "title": "2017 BMW M4 Competition F82",
+      "price": "£26,950",
+      "year": "2017",
+      "mileage": "51,639 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29816708/2017-bmw-m4-69e2e1bee4d9d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=7ba39ebe6a24ff0c9bc014b4e2deda54",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051330"
         }
       ]
     }

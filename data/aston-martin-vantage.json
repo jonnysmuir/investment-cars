@@ -205,7 +205,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/2dr-zf-8-speed-auto/aston-martin-vantage-2dr-zf-8-speed-auto-1419620673-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -221,7 +221,8 @@
           "price": "£89,900",
           "date": "2026-04-12"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "11",
@@ -234,7 +235,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v12-vantage/s-v12/aston-martin-v12-vantage-s-v12-S4944570-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -244,7 +245,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271071081"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "12",
@@ -622,7 +624,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-0-v8-f1-edition-auto-euro-6-2dr/aston-martin-vantage-4-0-v8-f1-edition-auto-euro-6-2dr-1417665475-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -638,7 +640,8 @@
           "price": "£116,995",
           "date": "2026-04-07"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "31",
@@ -651,7 +654,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-0-v8-auto-euro-6-2dr/aston-martin-vantage-4-0-v8-auto-euro-6-2dr-1418959880-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -667,7 +670,8 @@
           "price": "£76,980",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "32",
@@ -872,13 +876,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/acf3d103918e49b9ab6a9ffbfea7bbe3.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200874840"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "41",
@@ -1226,7 +1231,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/aston-martin-vantage-1344159421-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1236,7 +1241,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509296729338"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "57",
@@ -2268,7 +2274,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-7-v8-sportshift-ii-euro-6-2dr/aston-martin-vantage-4-7-v8-sportshift-ii-euro-6-2dr-1380340044-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2284,7 +2290,8 @@
           "price": "£42,995",
           "date": "2026-04-02"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "105",
@@ -3679,7 +3686,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2067194aebe2493191396ab99878d58f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3691,7 +3698,8 @@
           "price": "£48,995",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "166",
@@ -3715,7 +3723,7 @@
     {
       "id": "167",
       "title": "2022 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
-      "price": "£81,980",
+      "price": "£84,980",
       "year": 2022,
       "mileage": "43,000 miles",
       "transmission": "Automatic",
@@ -3732,6 +3740,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20100956"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£81,980",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -4635,13 +4649,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ba87a181d3bd4bf29096ea30f0644510.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170782472"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "209",
@@ -4770,13 +4785,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d18870529c5741c68f01933619eab5fd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510086995089"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "215",
@@ -4906,6 +4922,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603250989468"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19619918"
         }
       ],
       "priceHistory": [
@@ -4926,13 +4946,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/711445a6f8864674b49c2f78b326e205.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202205185825663"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "222",
@@ -5219,13 +5240,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2fe097b2b38c49da9c13ec54c40eb108.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202407081547976"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "236",
@@ -5397,6 +5419,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512168631160"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20198520"
         }
       ]
     },
@@ -5449,6 +5475,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120625486"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20054676"
         }
       ],
       "unlistedDate": "2026-04-10"
@@ -5591,18 +5621,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6173bfdc5ab04f3cb989df796b4b0c8c.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602129878960"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "253",
-      "title": "2019 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
-      "price": "£66,990",
+      "title": "2019 Aston Martin Vantage 4.0 V8 Coupe 2dr Petrol Auto Euro 6 (510 ps)",
+      "price": "£64,990",
       "year": 2019,
       "mileage": "40,403 miles",
       "transmission": "Automatic",
@@ -5615,6 +5646,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511218050184"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£66,990",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -5629,13 +5666,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0caf8610efd449b4a64f0d1354374b35.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190062792"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "255",
@@ -5687,13 +5725,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5f62f0f902c24ec29f2b15843853e919.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509116240107"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "258",
@@ -5773,7 +5812,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4b70b9287398444a8d8910678d9e9f05.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -5785,7 +5824,8 @@
           "price": "£82,949",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "262",
@@ -6582,13 +6622,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8f06a7497011446aba01c3a33ab3c66e.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011191182"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "299",
@@ -6848,7 +6889,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/74016ed7de0a458784b92facec1ac334.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6860,7 +6901,8 @@
           "price": "£71,495",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "312",
@@ -7183,7 +7225,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6e850cc289204eeb9557cd18b0dfaf86.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -7193,7 +7235,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20217703"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "327",
@@ -7251,13 +7294,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cca839ee38c44057ae8da4b30b46e8af.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512228746194"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "330",
@@ -7370,13 +7414,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2c97bc73858a4590898a605591d1962c.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604051310492"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "336",
@@ -7408,13 +7453,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/368ba1d0f4fe4f93ad4e45cee99bd06b.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120650947"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "338",
@@ -7914,13 +7960,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6e8d692416144c86920171f77efde35b.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301142656"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "363",
@@ -7957,6 +8004,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301123004"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19736284"
         }
       ]
     },
@@ -8047,13 +8098,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a87e4ef53634440bad70d6e92b6fcfc8.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512158600773"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "370",
@@ -8430,7 +8482,7 @@
     },
     {
       "id": "389",
-      "title": "2012 Used  ASTON MARTIN VANTAGE",
+      "title": "2012 Aston Martin Vantage 4.7 V8 Euro 5 2dr",
       "price": "£42,950",
       "year": 2012,
       "mileage": "25691 miles",
@@ -8444,6 +8496,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20273536"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602109822747"
         }
       ]
     },
@@ -8525,7 +8581,7 @@
     },
     {
       "id": "394",
-      "title": "2025 Aston Martin Vantage N430",
+      "title": "2025 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
       "price": "£147,750",
       "year": "2025",
       "mileage": "312 miles",
@@ -8544,7 +8600,7 @@
     },
     {
       "id": "395",
-      "title": "2021 Aston Martin Vantage N430",
+      "title": "2021 Aston Martin Vantage 4.0 V8 Coupe 2dr",
       "price": "£84,950",
       "year": "2021",
       "mileage": "N/A",
@@ -8558,6 +8614,120 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048553"
+        }
+      ]
+    },
+    {
+      "id": "396",
+      "title": "2013 Used  ASTON MARTIN VANTAGE",
+      "price": "£35,995",
+      "year": 2013,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-7-v8-s-sportshift-euro-5-2dr/aston-martin-vantage-4-7-v8-s-sportshift-euro-5-2dr-1377791404-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19621894"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "title": "2006 Used  ASTON MARTIN V8 VANTAGE",
+      "price": "£31,850",
+      "year": 2006,
+      "mileage": "52,821 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-coupe/v8/aston-martin-v8-vantage-coupe-v8-S4942773-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20101036"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "2020 Used  ASTON MARTIN VANTAGE",
+      "price": "£82,000",
+      "year": 2020,
+      "mileage": "17,607 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-coupe/v8/aston-martin-v8-vantage-coupe-v8-S4895075-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17824875"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "2009 Aston Martin Vantage 4.7 V8 Sportshift Euro 4 2dr",
+      "price": "£27,999",
+      "year": 2009,
+      "mileage": "55,973 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/10af346e8ea149ada0bbe7740c83ba44.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151562492"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "2006 Aston Martin Vantage 4.3 V8 Coupe 2dr Petrol Manual Euro 4 (380 bhp)",
+      "price": "£29,500",
+      "year": 2006,
+      "mileage": "61,725 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/c9cc3fe208d2404699db8d362b636888.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181668188"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "2007 Aston Martin Vantage 4.3 V8 Roadster Sportshift Euro 4 2dr",
+      "price": "£27,980",
+      "year": 2007,
+      "mileage": "44,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/01c6697e1ffe47a99542b9091bc334a8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081370008"
         }
       ]
     }

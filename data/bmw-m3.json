@@ -4253,7 +4253,7 @@
       "price": "£63,000",
       "year": 2023,
       "mileage": "19,190 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/231e9061b20947da937247bd5f85ee21.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -4262,6 +4262,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602179994579"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19734097"
         }
       ],
       "bodyType": "Saloon",
@@ -12820,13 +12824,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041206/2001-bmw-m3-69ccf00a220b7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=88b14abe7a204d0e325e8c477bd342a8",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041206"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "580",
@@ -19956,13 +19961,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041952/2013-bmw-m3-69ce5e15830ce.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1f31d2c8cae979b8722073612b19f42c",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041952"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "946",
@@ -20015,13 +20021,14 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/e36-m3-92-99/m3-evolution-conv/bmw-e36-m3-92-99-m3-evolution-conv-S4947681-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20248485"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "949",
@@ -20443,7 +20450,7 @@
     },
     {
       "id": "971",
-      "title": "2025 BMW M3 CS G80",
+      "title": "2025 BMW M3 CS Touring G81",
       "price": "£127,950",
       "year": "2025",
       "mileage": "2,100 miles",
@@ -20481,7 +20488,7 @@
     },
     {
       "id": "973",
-      "title": "2025 BMW M3 CS G80",
+      "title": "2025 BMW M3 BiTurbo Competition",
       "price": "£74,490",
       "year": "2025",
       "mileage": "9,900 miles",
@@ -21190,8 +21197,8 @@
     },
     {
       "id": "1010",
-      "title": "2018 BMW M3 Competition G80",
-      "price": "£30,995",
+      "title": "2018 BMW M3 3.0 M3 Saloon Competition Package",
+      "price": "£31,995",
       "year": "2018",
       "mileage": "74,900 miles",
       "transmission": "Automatic",
@@ -21204,6 +21211,107 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2050035"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£30,995",
+          "date": "2026-04-19"
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "title": "2012 BMW E92 M3 COMPETITION // INDIVIDUAL SAN MARINO BLUE",
+      "price": "£47,495",
+      "year": "2012",
+      "mileage": "25,023 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/bmw/C1852981/2012-bmw-m3-67dc31cf2a089.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=60601c4df98a6443fa7d998f67402c47",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1852981"
+        }
+      ]
+    },
+    {
+      "id": "1012",
+      "title": "2003 BMW M3 E46",
+      "price": "£15,995",
+      "year": "2003",
+      "mileage": "105,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/bmw/C2050384/2003-bmw-m3-69e1767daf97e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=a05780bd034d9d86c291bd3ce4b75a27",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2050384"
+        }
+      ]
+    },
+    {
+      "id": "1013",
+      "title": "2018 BMW M3 CS F80",
+      "price": "£49,995",
+      "year": "2018",
+      "mileage": "45,228 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "/uploads/new/29840212/2018-bmw-m3-69e3650dc9723.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1cace965e116c726fb521b42dc5b4940",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051867"
+        }
+      ]
+    },
+    {
+      "id": "1014",
+      "title": "2004 BMW M3 CSL",
+      "price": "£70,000",
+      "year": "2004",
+      "mileage": "60,189 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29775084/2004-bmw-m3-69e1ed1e042c5.webp?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1badc39d7d451afb05b2700ec1704975",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050465"
+        }
+      ]
+    },
+    {
+      "id": "1015",
+      "title": "2023 BMW M3 3.0 BiTurbo Competition Touring Steptronic M xDr",
+      "price": "£65,995",
+      "year": "2023",
+      "mileage": "24,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Saloon",
+      "image": "/uploads/new/29799893/2023-bmw-m3-69e23f855e3db.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=aef4c64b51f9f328936165816d4fd1c5",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051097"
         }
       ]
     }

@@ -8,7 +8,7 @@
     {
       "id": "1",
       "title": "2010 Lamborghini Murcielago 6.5 V12 LP 670-4 Superveloce EGear 4WD Euro 4 2dr",
-      "price": "£850,000",
+      "price": "£950,000",
       "year": 2010,
       "mileage": "12,500 miles",
       "transmission": "E-Gear",
@@ -30,7 +30,13 @@
           "url": "https://www.carandclassic.com/car/C2102355"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£850,000",
+          "date": "2026-04-19"
+        }
+      ]
     },
     {
       "id": "2",
@@ -694,7 +700,7 @@
     {
       "id": "29",
       "title": "2010 Lamborghini Murcielago LP760-4 SuperVeloce (SV) RHD",
-      "price": "£850,000",
+      "price": "£950,000",
       "year": "2010",
       "mileage": "12,500 miles",
       "transmission": "Automatic",
@@ -708,7 +714,13 @@
           "url": "https://www.carandclassic.com/car/C1991939"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£850,000",
+          "date": "2026-04-19"
+        }
+      ]
     },
     {
       "id": "30",
@@ -1618,13 +1630,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/fa8dd5e9b04d4b00be26d7186045ec88.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101432041"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     }
   ]
 }

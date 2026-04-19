@@ -1057,7 +1057,7 @@
     {
       "id": "52",
       "title": "2012 Aston Martin DBS Coupe Touchtronic Carbon Edition 6.0 2dr",
-      "price": "£69,995",
+      "price": "£68,990",
       "year": 2012,
       "mileage": "18,700 miles",
       "transmission": "Unknown",
@@ -1076,6 +1076,10 @@
         {
           "price": "£72,940",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1398,11 +1402,11 @@
     },
     {
       "id": "69",
-      "title": "2008 Aston Martin DBS 6.0 V12 Euro 4 2dr",
+      "title": "2008 Aston Martin DBS 6.0 V12 Coupe 2dr Petrol Manual Euro 4 (510 bhp)",
       "price": "£99,995",
       "year": 2008,
       "mileage": "32,041 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/0430aedb23464a3e9bb5a6a09ab0470f.jpg",
       "featured": false,
@@ -2310,13 +2314,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f999f5d8c0234eafbc8b820e9ccc9f1d.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200860468"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "115",
@@ -2604,6 +2609,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604111460483"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "title": "2019 Aston Martin DBS 5.2 V12 BiTurbo Superleggera Auto Euro 6 (s/s) 2dr",
+      "price": "£121,980",
+      "year": 2019,
+      "mileage": "29,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7899024c8d674f6db5eb84278af81e4d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604091411642"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "title": "2012 Aston Martin DBS 6.0 V12 Volante 2dr Petrol T-TronicII Euro 5 (510 bhp)",
+      "price": "£75,990",
+      "year": 2012,
+      "mileage": "23,950 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3da7d9dd4da84b7fb5f62d01755da5ec.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604081360796"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "title": "2023 Aston Martin DBS 5.2 V12 BiTurbo Ultimate Auto Euro 6 (s/s) 2dr",
+      "price": "£279,975",
+      "year": 2023,
+      "mileage": "1,088 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3f2ed7af09944fdba7997ed1773846f7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141527416"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "title": "2009 Aston Martin DBS Manual",
+      "price": "£124,950",
+      "year": "2009",
+      "mileage": "10,670 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2049484/2009-aston-martin-dbs-69e1ee5ccb711.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=20a137e7f6b2fc0b0451ecebfb643a84",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049484"
         }
       ]
     }

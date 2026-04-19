@@ -921,13 +921,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/928/s-srs-4/porsche-928-s-srs-4-S4872571-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18312183"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "45",
@@ -1421,13 +1422,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1972384/1979-porsche-928-69142f57e53e2.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8cf482300430ec5af68b1760851ccb50",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1972384"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "69",
@@ -1489,6 +1491,46 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1972749"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "1980 Porsche 928 S",
+      "price": "Sold",
+      "year": 1980,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/066945/02-08-24-JJBB-13.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "sold",
+      "soldPrice": "€19,270",
+      "soldDate": "2026-04-17",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1980-porsche-928-s-6"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "title": "1989 Porsche 928 S4 Auto, 5.0L V8, Cruise & Air-Con",
+      "price": "£13,995",
+      "year": "1989",
+      "mileage": "76,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2051054/1989-porsche-928-69e23305ee268.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=52a2ed7b846bbf80a018e634c7b9f95f",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051054"
         }
       ]
     }

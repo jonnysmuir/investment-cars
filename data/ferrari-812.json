@@ -858,7 +858,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps/ferrari-812-superfast-6-5-v12-coupe-2dr-petrol-f1-dct-euro-6-s-s--800-ps-1364679417-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -875,7 +875,8 @@
           "date": "2026-03-12"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "37",
@@ -1123,6 +1124,14 @@
         {
           "price": "£222,850",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£219,995",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£222,850",
+          "date": "2026-04-19"
         }
       ],
       "bodyType": null
@@ -1418,6 +1427,14 @@
         {
           "price": "£314,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£329,600",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£324,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1472,7 +1489,7 @@
     {
       "id": "49",
       "title": "2020 Ferrari 812 GTS",
-      "price": "£314,995",
+      "price": "£324,995",
       "year": "2020",
       "mileage": "11,400 miles",
       "transmission": "6-Speed Manual",
@@ -1486,7 +1503,13 @@
           "url": "https://www.carandclassic.com/car/C2021479"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£314,995",
+          "date": "2026-04-19"
+        }
+      ]
     },
     {
       "id": "50",
@@ -1968,6 +1991,14 @@
         {
           "price": "£379,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£369,980",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2027,14 +2058,14 @@
     {
       "id": "69",
       "title": "2020 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£329,000",
+      "price": "£324,995",
       "year": 2020,
       "mileage": "11,400 miles",
       "transmission": "Automatic",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-gts/gts/ferrari-812-gts-gts-1415256288-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2046,7 +2077,12 @@
         }
       ],
       "bodyType": "Convertible",
-      "unlistedDate": "2026-04-04"
+      "priceHistory": [
+        {
+          "price": "£329,000",
+          "date": "2026-04-19"
+        }
+      ]
     },
     {
       "id": "70",
@@ -2077,7 +2113,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812/superfast/ferrari-812-superfast-1388358450-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2088,8 +2124,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202603210889334"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-08"
+      "bodyType": "Coupe"
     },
     {
       "id": "72",
@@ -2363,7 +2398,7 @@
       "year": 2019,
       "mileage": "9,250 miles",
       "transmission": "F1 Automated Manual",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/8686c1b9b2804ac5ad7efa9282c22cf4.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -3238,6 +3273,139 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151563485"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£249,995",
+      "year": 2019,
+      "mileage": "11,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/0cc7cbee2ca8490b9898e14a483f641a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171629619"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 Coupe 2dr Petrol F1 DCT Euro 6 (s/s) (800 ps)",
+      "price": "£246,990",
+      "year": 2019,
+      "mileage": "11,834 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/0e7c081265054292adcdfbd14e6ee926.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181666431"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£234,995",
+      "year": 2019,
+      "mileage": "17,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/ded602e924c24ce695626ee604b56ef5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171628504"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "title": "2022 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£349,995",
+      "year": 2022,
+      "mileage": "8,102 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/450ac732935d40e79577d458c2788b5f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181659012"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "title": "2022 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£349,830",
+      "year": 2022,
+      "mileage": "3,514 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/137efd51cc1440c7966218bbd341cc39.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171627926"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "title": "2019 Ferrari 812 Superfast",
+      "price": "£234,995",
+      "year": "2019",
+      "mileage": "17,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29772090/2019-ferrari-812-superfast-69e17c05ef19e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=06024771ea598caf21fbbd8f2e146ca1",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2050400"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "title": "2021 Ferrari 812 GTS",
+      "price": "£299,990",
+      "year": "2021",
+      "mileage": "123 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29814345/2021-ferrari-812-gts-69e2d64fb50d2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd87cfccd4a3e54cd07d0ce23e2088e2",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051288"
         }
       ]
     }

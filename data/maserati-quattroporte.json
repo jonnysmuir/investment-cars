@@ -703,7 +703,7 @@
     {
       "id": "34",
       "title": "2017 Maserati Quattroporte 3.0D V6 ZF Euro 5 (s/s) 4dr",
-      "price": "£23,689",
+      "price": "£23,189",
       "year": 2017,
       "mileage": "28400 miles",
       "transmission": "Automatic",
@@ -814,6 +814,14 @@
         {
           "price": "£23,500",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£23,689",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£23,000",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -954,6 +962,14 @@
         {
           "price": "£17,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£17,590",
+          "date": "2026-04-19"
+        },
+        {
+          "price": "£17,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -968,7 +984,7 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/quattroporte/4-7-v8-sport-gt-s-auto-euro-4-4dr/maserati-quattroporte-4-7-v8-sport-gt-s-auto-euro-4-4dr-1271290233-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -978,7 +994,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202302013819205"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "38",
@@ -1236,7 +1253,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1fc1bc76047c44ccb8e51103015376ae.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1248,7 +1265,8 @@
           "price": "£11,990",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "46",
@@ -1383,13 +1401,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f09cf82112f2450abcb95ca369ba4fb7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603080514976"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "53",
@@ -1484,13 +1503,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/443c6f48f8be45ab97661a171eca9ad2.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603230920312"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "58",
@@ -1731,13 +1751,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/maserati/C2023492/2015-maserati-quattroporte-69a711b170efa.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=cdfb82d92617e2283c10af6ceec15ea9",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023492"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "70",
@@ -1922,13 +1943,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f6b15cbd4284419998fc5dcb7f113276.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311172249"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "79",
@@ -2028,7 +2050,7 @@
     {
       "id": "84",
       "title": "2007 Maserati Quattroporte 4.2 Sport GT Saloon 4dr Petrol DuoSelect (370 g/km, 395 bhp)",
-      "price": "£5,995",
+      "price": "£5,750",
       "year": 2007,
       "mileage": "99,000 miles",
       "transmission": "Unknown",
@@ -2041,6 +2063,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151572085"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£5,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2098,6 +2126,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2048072"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2016 Maserati Quattroporte 3.8 V8 GTS ZF Euro 6 (s/s) 4dr",
+      "price": "£22,990",
+      "year": 2016,
+      "mileage": "70,030 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "https://m.atcdn.co.uk/a/media/w640/82b8c0b4d3744d3b8ba20111db42b680.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181672080"
         }
       ]
     }

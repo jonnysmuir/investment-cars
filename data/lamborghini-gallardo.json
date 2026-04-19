@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2008 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£68,750",
+      "price": "£64,980",
       "year": 2008,
       "mileage": "60 miles",
       "transmission": "E-Gear",
@@ -909,6 +909,10 @@
         {
           "price": "£64,980",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1013,18 +1017,19 @@
       "image": "https://img.pistonheads.com/LargeSize/lamborghini/gallardo/v10-coupe-2-door/lamborghini-gallardo-v10-coupe-2-door-1042737129-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/12253238"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "45",
       "title": "2006 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£59,900",
+      "price": "£58,980",
       "year": 2006,
       "mileage": "25000 miles",
       "transmission": "F1 Automated Manual",
@@ -1123,6 +1128,10 @@
         {
           "price": "£58,980",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1512,7 +1521,7 @@
     {
       "id": "65",
       "title": "2012 Lamborghini Gallardo 5.2 V10 LP 560-4 Spyder EGear 4WD Euro 5 2dr",
-      "price": "£89,990",
+      "price": "£87,500",
       "year": 2012,
       "mileage": "27,000 miles",
       "transmission": "E-Gear",
@@ -1535,6 +1544,10 @@
         {
           "price": "£87,500",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£89,990",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1632,7 +1645,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9d067cf5e9904961a22dc62a5bfe3f0f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1644,7 +1657,8 @@
           "price": "£77,900",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "71",
@@ -1854,6 +1868,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131501031"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2012 Lamborghini Gallardo LP570 4 Performante",
+      "price": "£89,990",
+      "year": "2012",
+      "mileage": "27,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29814513/2012-lamborghini-gallardo-69e2d95c28209.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f1ba6946f01dd566ca14a01a3d18b226",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051294"
         }
       ]
     }

@@ -1068,13 +1068,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2036791/2015-aston-martin-db9-69c3ea5502731.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5a2ffcd3db587abb0002919a30f1b7ae",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2036791"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "53",
@@ -1087,13 +1088,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2035858/2004-aston-martin-db9-69c2886148105.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7ac6c29a148dc494769a46a5acbd3333",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035858"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "54",
@@ -1186,7 +1188,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2038971/2005-aston-martin-db9-69c81732a7eec.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d4224914a543e8b98ad266a36c5f9cc3",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1202,7 +1204,8 @@
           "price": "£25,495",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "59",
@@ -1288,7 +1291,7 @@
     {
       "id": "63",
       "title": "2005 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
-      "price": "£30,000",
+      "price": "£28,000",
       "year": 2005,
       "mileage": "43,250 miles",
       "transmission": "Automatic",
@@ -1305,6 +1308,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20169843"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£30,000",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1455,7 +1464,7 @@
     {
       "id": "71",
       "title": "2007 Aston Martin DB9 5.9 Seq 2dr (EU4)",
-      "price": "£25,990",
+      "price": "£24,999",
       "year": 2007,
       "mileage": "59,000 miles",
       "transmission": "Unknown",
@@ -1472,6 +1481,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19734452"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,990",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -1841,23 +1856,22 @@
     },
     {
       "id": "89",
-      "title": "2006 Aston Martin DB9 5.9 2dr",
+      "title": "2006 Aston Martin DB9 5.9 Coupe 2dr Petrol Manual (421 g/km, 450 bhp)",
       "price": "£34,989",
       "year": 2006,
       "mileage": "41,274 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/bfe38400e65c441c8f706f84ddb93ecf.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068964242"
         }
-      ],
-      "unlistedDate": "2026-04-05"
+      ]
     },
     {
       "id": "90",
@@ -1881,7 +1895,7 @@
     {
       "id": "91",
       "title": "2011 Aston Martin DB9 6.0 V12 Coupe 2dr Petrol T-TronicII Euro 5 (470 bhp) 12 SERVICE STAMPS + 10 ASTON SERVS",
-      "price": "£36,895",
+      "price": "£35,995",
       "year": 2011,
       "mileage": "53,700 miles",
       "transmission": "Unknown",
@@ -1894,6 +1908,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505292956787"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£36,895",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2377,13 +2397,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/62ffecf2cce74d53b2614573b16487c0.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504301904142"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "116",
@@ -2576,8 +2597,8 @@
     },
     {
       "id": "125",
-      "title": "2009 Aston Martin DB9 6.0 V12 T-TronicII Euro 4 2dr",
-      "price": "£28,995",
+      "title": "2009 Aston Martin DB9 6.0 V12 Coupe 2dr Petrol T-TronicII Euro 4 (470 bhp)",
+      "price": "£25,000",
       "year": 2009,
       "mileage": "85,649 miles",
       "transmission": "Unknown",
@@ -2590,6 +2611,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301140682"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£28,995",
+          "date": "2026-04-19"
         }
       ]
     },
@@ -2648,13 +2675,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b9ec98d213334a0294332bf35d27c6bb.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503059778690"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "129",
@@ -2802,13 +2830,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e12d32647eed4647a25a9f38174f752a.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202308261233467"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-19"
     },
     {
       "id": "137",
@@ -3099,6 +3128,158 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330275"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "title": "2014 Used  ASTON MARTIN DB9",
+      "price": "£55,000",
+      "year": 2014,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9/6-0-v12-carbon-edition-t-tronicii-euro-5-2dr/aston-martin-db9-6-0-v12-carbon-edition-t-tronicii-euro-5-2dr-1424852049-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19326011"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "title": "2016 Aston Martin DB9 6.0 V12 Volante T-TronicII Euro 5 2dr",
+      "price": "£67,950",
+      "year": "2016",
+      "mileage": "17,723 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29655889/2016-aston-martin-db9-69dd9d0e744b8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=256ed4e87d19ff196565767ad2bb167d",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048190"
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "title": "2007 Aston Martin DB9",
+      "price": "£35,750",
+      "year": "2007",
+      "mileage": "21,700 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2048902/2007-aston-martin-db9-69de446238aeb.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=54aa34ced37f1fef5f963de1746d5202",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048902"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "title": "2005 Aston Martin DB9 GT",
+      "price": "£26,500",
+      "year": "2005",
+      "mileage": "52,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2048904/2005-aston-martin-db9-69de470fe1d6f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c36c3b1cdcec6898bcb94dc65d7435ba",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2048904"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "title": "2005 Aston Martin DB9 5.9 V12 2+2 Coupe",
+      "price": "£26,995",
+      "year": "2005",
+      "mileage": "49,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2049610/2005-aston-martin-db9-69dfb46044ade.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0eb8c64ab98d25bc0f3928980eb84a07",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049610"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "title": "2007 Aston Martin DB9",
+      "price": "£29,950",
+      "year": "2007",
+      "mileage": "68,200 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2049916/2007-aston-martin-db9-69e0a4a0e0503.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9a590f19b068f3803da0e19e612e3177",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049916"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "title": "2010 Aston Martin DB9  Volante",
+      "price": "£39,950",
+      "year": "2010",
+      "mileage": "51,555 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/aston-martin/C2049616/2010-aston-martin-db9-69dfb42428cba.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=00f6df597556a46fa80b7c10fdb6cb4e",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2049616"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "title": "2005 Aston Martin DB9 31k miles only!",
+      "price": "£24,495",
+      "year": "2005",
+      "mileage": "31,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2048616/2005-aston-martin-db9-69dde3b376921.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8c258a37fa25400cebab1dbb7d346ce2",
+      "featured": false,
+      "dateAdded": "2026-04-19",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2048616"
         }
       ]
     }
