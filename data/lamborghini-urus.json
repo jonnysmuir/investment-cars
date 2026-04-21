@@ -486,6 +486,14 @@
         {
           "price": "£249,950",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£239,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£249,950",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -978,7 +986,7 @@
     {
       "id": "35",
       "title": "2024 Lamborghini Urus 4.0 V8 BiTurbo Performante Auto 4WD Euro 6 5dr",
-      "price": "£229,995",
+      "price": "£249,995",
       "year": 2024,
       "mileage": "12,750 miles",
       "transmission": "Automatic",
@@ -1013,6 +1021,10 @@
         {
           "price": "£234,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£229,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1696,7 +1708,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lamborghini/urus/v8-biturbo/lamborghini-urus-v8-biturbo-1419850976-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1712,7 +1724,8 @@
           "price": "£141,950",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "63",
@@ -2205,7 +2218,7 @@
     {
       "id": "77",
       "title": "2020 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
-      "price": "£146,950",
+      "price": "£144,950",
       "year": 2020,
       "mileage": "52,000 miles",
       "transmission": "Automatic",
@@ -2248,6 +2261,10 @@
         {
           "price": "£147,950",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£146,950",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -2334,7 +2351,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/da11e9b5d2ec4fc8af3becfe011b63fe.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2350,7 +2367,8 @@
           "price": "£189,995",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "82",
@@ -2979,7 +2997,7 @@
     {
       "id": "100",
       "title": "2019 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
-      "price": "£149,949",
+      "price": "£149,750",
       "year": 2019,
       "mileage": "42,000 miles",
       "transmission": "Automatic",
@@ -2996,6 +3014,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19616947"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£149,949",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -3070,13 +3094,21 @@
         {
           "price": "£176,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£169,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£176,995",
+          "date": "2026-04-21"
         }
       ]
     },
     {
       "id": "103",
       "title": "2021 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
-      "price": "£174,310",
+      "price": "£169,995",
       "year": 2021,
       "mileage": "21,650 miles",
       "transmission": "Automatic",
@@ -3084,7 +3116,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/07ed999adfe14f3cb0e1a7e22575a1ce.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3099,9 +3131,12 @@
         {
           "price": "£174,355",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£174,310",
+          "date": "2026-04-21"
         }
-      ],
-      "unlistedDate": "2026-04-10"
+      ]
     },
     {
       "id": "104",
@@ -3377,7 +3412,7 @@
     {
       "id": "112",
       "title": "2025 Lamborghini Urus 4.0 V8 BiTurbo 25.9kWh SE Auto 4WD Euro 6 5dr",
-      "price": "£249,999",
+      "price": "£246,999",
       "year": 2025,
       "mileage": "4,200 miles",
       "transmission": "Automatic",
@@ -3404,6 +3439,10 @@
         {
           "price": "£254,950",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£249,999",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -3511,7 +3550,7 @@
     {
       "id": "117",
       "title": "2019 Lamborghini Urus 0.0L +FREE 6 MONTHS NATIONWIDE WARRANTY+",
-      "price": "£154,995",
+      "price": "£153,495",
       "year": 2019,
       "mileage": "15,500 miles",
       "transmission": "Automatic",
@@ -3538,6 +3577,10 @@
         {
           "price": "£159,750",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£154,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -4346,7 +4389,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a14ac7137a7a410ab4fdb4c5adcef792.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -4362,8 +4405,7 @@
           "price": "£167,500",
           "date": "2026-04-09"
         }
-      ],
-      "unlistedDate": "2026-04-13"
+      ]
     },
     {
       "id": "144",
@@ -4667,7 +4709,7 @@
     {
       "id": "153",
       "title": "2025 Lamborghini Urus 4.0 V8 BiTurbo 25.9kWh SE Auto 4WD Euro 6 5dr",
-      "price": "£279,995",
+      "price": "£268,950",
       "year": 2025,
       "mileage": "2,000 miles",
       "transmission": "Automatic",
@@ -4684,6 +4726,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19628316"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£279,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -5324,6 +5372,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602139898385"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19742889"
         }
       ],
       "priceHistory": [
@@ -5353,6 +5405,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19468674"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£259,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£254,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -5392,7 +5454,7 @@
     {
       "id": "177",
       "title": "2023 Lamborghini Urus 4.0 V8 BiTurbo Performante Auto 4WD Euro 6 5dr",
-      "price": "£229,980",
+      "price": "£229,480",
       "year": 2023,
       "mileage": "8,000 miles",
       "transmission": "Automatic",
@@ -5405,6 +5467,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509186423076"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20107702"
         }
       ],
       "priceHistory": [
@@ -5419,6 +5485,10 @@
         {
           "price": "£230,980",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£229,980",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -5530,6 +5600,14 @@
         {
           "price": "£244,950",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£239,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£244,750",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -5804,6 +5882,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601169199294"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19741829"
         }
       ],
       "unlistedDate": "2026-04-14"
@@ -5828,6 +5910,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20087495"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£207,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£214,750",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -6199,6 +6291,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19411311"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£239,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£246,750",
+          "date": "2026-04-21"
+        }
       ]
     },
     {
@@ -6265,6 +6367,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601078967966"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19905768"
         }
       ],
       "priceHistory": [
@@ -6310,6 +6416,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603040383974"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19912439"
         }
       ],
       "priceHistory": [
@@ -6447,6 +6557,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260238576"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20289609"
         }
       ],
       "priceHistory": [
@@ -6706,7 +6820,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8e219e9e79d94f5cbd3ae6a544c34c5f.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6734,7 +6848,8 @@
           "price": "£165,000",
           "date": "2026-04-09"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "232",
@@ -8143,7 +8258,7 @@
     {
       "id": "297",
       "title": "2020 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
-      "price": "£147,990",
+      "price": "£145,990",
       "year": 2020,
       "mileage": "41,000 miles",
       "transmission": "Automatic",
@@ -8156,6 +8271,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021226655"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£147,990",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -8723,7 +8844,7 @@
       "year": 2019,
       "mileage": "9,924 miles",
       "transmission": "Automatic",
-      "bodyType": "SUV",
+      "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w640/4425c6892bf140acb18b4cc9ed1ba4e2.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
@@ -8746,13 +8867,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/28dd1972c76d4ea8b3e5e0e3dc9e9f8e.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071341418"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "327",
@@ -9234,13 +9356,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/71e92cb2fb734f9589c76e378b872ab7.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101431451"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "351",
@@ -9699,11 +9822,11 @@
     },
     {
       "id": "374",
-      "title": "2020 Lamborghini Urus 4.0 V8 BiTurbo 5dr",
+      "title": "2020 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
       "price": "£204,995",
       "year": 2020,
       "mileage": "22,500 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w640/2cfdf9f19a814678af86d3572607d0d3.jpg",
       "featured": false,
@@ -10098,12 +10221,12 @@
     },
     {
       "id": "395",
-      "title": "2022 Lamborghini Urus",
+      "title": "2022 Lamborghini Urus 4.0 V8 BiTurbo Auto 4WD Euro 6 5dr",
       "price": "£173,950",
       "year": "2022",
       "mileage": "20,104 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Estate",
       "image": "/uploads/new/29816258/2022-lamborghini-urus-69e2e129bbbf8.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f5e4371314bd9edf3c40a833f542b796",
       "featured": false,
       "dateAdded": "2026-04-19",
@@ -10117,7 +10240,7 @@
     },
     {
       "id": "396",
-      "title": "2023 Lamborghini Urus",
+      "title": "2023 Lamborghini Urus V8 BiTurbo S",
       "price": "£204,990",
       "year": "2023",
       "mileage": "12,800 miles",
@@ -10131,6 +10254,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051296"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "title": "2025 Lamborghini Urus 4.0 V8 BiTurbo 25.9kWh SE Auto 4WD Euro 6 5dr",
+      "price": "£249,750",
+      "year": 2025,
+      "mileage": "3,412 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/95f61d62462d4ef3978020c222906736.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602179994593"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "2019 Lamborghini Urus 4.0 4dr",
+      "price": "£134,975",
+      "year": 2019,
+      "mileage": "78,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201700347"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "2025 Lamborghini Urus 4.0 V8 BiTurbo 25.9kWh SE Auto 4WD Euro 6 5dr",
+      "price": "£259,995",
+      "year": 2025,
+      "mileage": "600 miles",
+      "transmission": "Automatic",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9229c077a3b547c0926f2ef1a33d8afe.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201696312"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "2019 Lamborghini Urus",
+      "price": "£134,975",
+      "year": "2019",
+      "mileage": "78,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29900961/2019-lamborghini-urus-69e6de2c1b9d7.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e27976ec57dbf721b5b7ac2b6424d7c4",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053078"
         }
       ]
     }

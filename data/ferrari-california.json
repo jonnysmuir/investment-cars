@@ -1044,7 +1044,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/4-3-v8-2-plus-2-s-a/ferrari-california-4-3-v8-2-plus-2-s-a-1360448103-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1129,7 +1129,8 @@
           "date": "2026-04-10"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "43",
@@ -1489,7 +1490,7 @@
     {
       "id": "58",
       "title": "2015 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (560 ps)",
-      "price": "£74,999",
+      "price": "£68,495",
       "year": 2015,
       "mileage": "48,246 miles",
       "transmission": "Automatic",
@@ -1579,6 +1580,10 @@
         {
           "price": "£68,495",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£74,999",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Convertible"
@@ -1626,7 +1631,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/4-3-v8-30-f1-dct-euro-5-2dr/ferrari-california-4-3-v8-30-f1-dct-euro-5-2dr-1411738812-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1643,7 +1648,8 @@
           "date": "2026-03-11"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "61",
@@ -1710,6 +1716,14 @@
         {
           "price": "£59,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£58,390",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£59,995",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": null
@@ -2082,6 +2096,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202504211563659"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20289637"
         }
       ],
       "bodyType": null,
@@ -2287,6 +2305,14 @@
         {
           "price": "£68,495",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£74,999",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£68,495",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": null
@@ -2379,7 +2405,7 @@
     },
     {
       "id": "85",
-      "title": "2009 Ferrari California 4.3 F1 DCT Euro 5 2dr",
+      "title": "2009 Ferrari California 4.3 Convertible 2dr Petrol F1 DCT Euro 5 (453 bhp)",
       "price": "£64,395",
       "year": 2009,
       "mileage": "19,400 miles",
@@ -2460,7 +2486,7 @@
           "date": "2026-04-19"
         }
       ],
-      "bodyType": null
+      "bodyType": "Convertible"
     },
     {
       "id": "86",
@@ -3172,6 +3198,14 @@
         {
           "price": "£62,500",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£62,500",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": null
@@ -3372,15 +3406,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4943052-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-21",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20110292"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-08"
+      "bodyType": null
     },
     {
       "id": "118",
@@ -3969,13 +4002,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c34ddd6415884999b926c766f7c799f9.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071328943"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "144",
@@ -4189,6 +4223,73 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604161610493"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "title": "2009 Ferrari California - VAT Q",
+      "price": "Sold",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086852/main.JPG?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "sold",
+      "soldPrice": "€91,000",
+      "soldDate": "2026-04-19",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2009-ferrari-california-19"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "title": "2017 Ferrari California 3.8 V8 T F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£99,750",
+      "year": 2017,
+      "mileage": "11,200 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/california/t-2dr-auto-hele/ferrari-california-t-2dr-auto-hele-1429938322-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20289350"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201707568"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "title": "2012 Ferrari California 2+ 2dr F1 Auto [HELE] 4.3",
+      "price": "£66,990",
+      "year": 2012,
+      "mileage": "43,803 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/california/2-plus-2/ferrari-california-2-plus-2-S4948960-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20287775"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171627364"
         }
       ]
     }

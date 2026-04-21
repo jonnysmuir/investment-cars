@@ -578,6 +578,14 @@
         {
           "price": "£104,999",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£102,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£104,999",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Convertible"
@@ -899,13 +907,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b0f6fbbd24c74bf1943c9ef9894b60cd.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603291113426"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "36",
@@ -937,13 +946,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C2045550/2016-mclaren-650s-69d68d2586c29.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=76b5afe1518a906c84bbfcd6944145b3",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045550"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "38",

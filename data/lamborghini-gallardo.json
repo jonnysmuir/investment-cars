@@ -913,6 +913,14 @@
         {
           "price": "£68,750",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£64,980",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1132,6 +1140,14 @@
         {
           "price": "£59,900",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£58,980",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1396,13 +1412,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/584a9efc23f2493697d89f43b08ea4ed.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602069739933"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "59",
@@ -1548,6 +1565,14 @@
         {
           "price": "£89,990",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£87,500",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£89,990",
+          "date": "2026-04-21"
         }
       ]
     },

@@ -703,7 +703,7 @@
     {
       "id": "34",
       "title": "2017 Maserati Quattroporte 3.0D V6 ZF Euro 5 (s/s) 4dr",
-      "price": "£23,189",
+      "price": "£23,000",
       "year": 2017,
       "mileage": "28400 miles",
       "transmission": "Automatic",
@@ -822,6 +822,10 @@
         {
           "price": "£23,000",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£23,189",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -851,7 +855,7 @@
     {
       "id": "36",
       "title": "2016 Maserati Quattroporte 3.0D V6 Saloon 4dr Diesel ZF Euro 6 (s/s) (275 ps) 20in Alloys - Mercurio Design",
-      "price": "£17,590",
+      "price": "£17,995",
       "year": 2016,
       "mileage": "59,422 miles",
       "transmission": "Unknown",
@@ -970,6 +974,10 @@
         {
           "price": "£17,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£17,590",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1886,13 +1894,14 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/quattroporte/s/maserati-quattroporte-s-S4945329-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20179817"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "76",

@@ -501,13 +501,21 @@
         {
           "price": "£67,989",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£71,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£67,989",
+          "date": "2026-04-21"
         }
       ]
     },
     {
       "id": "12",
       "title": "2016 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps)",
-      "price": "£73,500",
+      "price": "£71,000",
       "year": 2016,
       "mileage": "30,000 miles",
       "transmission": "Unknown",
@@ -521,12 +529,18 @@
           "url": "https://www.autotrader.co.uk/car-details/202601058921886"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£73,500",
+          "date": "2026-04-21"
+        }
+      ]
     },
     {
       "id": "13",
       "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps) CARBON BONNET (SENNA STYLE)",
-      "price": "£67,989",
+      "price": "£71,995",
       "year": 2017,
       "mileage": "29,062 miles",
       "transmission": "Unknown",
@@ -681,6 +695,10 @@
         {
           "price": "£71,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£67,989",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -766,7 +784,7 @@
     {
       "id": "18",
       "title": "2017 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps)",
-      "price": "£77,229",
+      "price": "£76,978",
       "year": 2017,
       "mileage": "5,500 miles",
       "transmission": "Automatic",
@@ -869,6 +887,10 @@
         {
           "price": "£76,978",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£77,229",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -979,12 +1001,12 @@
     },
     {
       "id": "24",
-      "title": "2019 McLaren 540C 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "title": "2019 McLaren 540C 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (540 ps)",
       "price": "£79,990",
       "year": 2019,
       "mileage": "17,382 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/7cf92e19da7e4de1be4f1c8ac39d5d70.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",

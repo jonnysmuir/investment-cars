@@ -967,6 +967,14 @@
         {
           "price": "£69,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1095,7 +1103,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-S4900597-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1184,7 +1192,8 @@
           "date": "2026-04-07"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "49",
@@ -1490,6 +1499,14 @@
         {
           "price": "£61,970",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£59,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£61,970",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Coupe"
@@ -1641,14 +1658,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/3-6-spider-2d-400-bhp-desireable-manual-gearbox/ferrari-360-3-6-spider-2d-400-bhp-desireable-manual-gearbox-1335647769-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17636712"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "66",
@@ -1691,7 +1709,7 @@
     },
     {
       "id": "68",
-      "title": "1999 Ferrari 360 3.6 Modena F1 2dr",
+      "title": "1999 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
       "price": "£59,999",
       "year": 1999,
       "mileage": "30,000 miles",
@@ -1706,7 +1724,7 @@
           "url": "https://www.autotrader.co.uk/car-details/202408193031689"
         }
       ],
-      "bodyType": null
+      "bodyType": "Coupe"
     },
     {
       "id": "69",
@@ -1729,7 +1747,7 @@
     },
     {
       "id": "70",
-      "title": "2005 Ferrari 360 3.6 Spider F1 DCT 2dr",
+      "title": "2005 Ferrari 360 3.6 Spider 2dr Petrol F1 DCT (440 g/km, 400 bhp)",
       "price": "£79,500",
       "year": 2005,
       "mileage": "35,000 miles",
@@ -1737,15 +1755,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f46b1d3b82b247818db9e44e293d2291.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306289030804"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-01"
+      "bodyType": "Convertible"
     },
     {
       "id": "71",
@@ -2281,13 +2298,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/9a0514fec29d43a49445c03b0da76063.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261029478"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "95",
@@ -2342,13 +2360,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29195463/2004-ferrari-360-69cb0f289988f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6cc165804da528c60b7d1c31b6f3c144",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2039859"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "98",
@@ -2623,6 +2642,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2050143"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2004 Ferrari 360 3.6 Spider 2dr",
+      "price": "£63,995",
+      "year": 2004,
+      "mileage": "34,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/89abf8af58b94331b476a45bdb0cfb35.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202204285138856"
         }
       ]
     }

@@ -1132,6 +1132,14 @@
         {
           "price": "£222,850",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£219,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£222,850",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": null
@@ -1435,6 +1443,14 @@
         {
           "price": "£324,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£329,600",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£324,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1999,6 +2015,14 @@
         {
           "price": "£379,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£369,980",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£379,995",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -2995,14 +3019,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b92c33ef91a344858aa80c8025ed9232.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505292954627"
         }
-      ],
-      "unlistedDate": "2026-04-17"
+      ]
     },
     {
       "id": "102",
@@ -3392,7 +3415,7 @@
     },
     {
       "id": "121",
-      "title": "2021 Ferrari 812 GTS",
+      "title": "2021 Ferrari 812 GTS V12",
       "price": "£299,990",
       "year": "2021",
       "mileage": "123 miles",
@@ -3406,6 +3429,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051288"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£299,990",
+      "year": 2021,
+      "mileage": "123 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/a167d0f1033b465f989cae6318984994.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604161613198"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2023 Ferrari 812 Competizione 6.5 V12 Roadster F1 DCT Euro 6",
+      "price": "£1,750,000",
+      "year": "2023",
+      "mileage": "113 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/25499186/2023-ferrari-812-competizione-68f8268bb71b7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a6b19d2ac4f79153669a5bc5090056df",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1962034"
         }
       ]
     }

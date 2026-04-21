@@ -831,13 +831,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/968/coupe/porsche-968-coupe-S4941992-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/17894875"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "41",
@@ -1124,13 +1125,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1941124/1992-porsche-968-68c48ea415b99.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=82ccfd8339c6c0ced8a6e66a219d7736",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1941124"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "55",
@@ -1245,6 +1247,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044207"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "1993 Porsche 968",
+      "price": "£8,000",
+      "year": "1993",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2052668/1993-porsche-968-69e60660d4871.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=efc7509035266f2f7f6ec3deb9c1c531",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2052668"
         }
       ]
     }

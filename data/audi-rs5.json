@@ -342,7 +342,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs5/rs-5-tfsi-quattro-carbon-black-2dr/audi-rs5-rs-5-tfsi-quattro-carbon-black-2dr-1416572775-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -352,8 +352,7 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200093645"
         }
-      ],
-      "unlistedDate": "2026-04-03"
+      ]
     },
     {
       "id": "17",
@@ -2014,7 +2013,7 @@
     {
       "id": "94",
       "title": "2022 Audi RS5 2.9 TFSI V6 Carbon Black Sportback Tiptronic quattro Euro 6 (s/s) 5dr",
-      "price": "£46,890",
+      "price": "£47,500",
       "year": 2022,
       "mileage": "42,395 miles",
       "transmission": "Automatic",
@@ -2022,7 +2021,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ea6bbefb137348d4b00549a7cb144951.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2033,7 +2032,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20249649"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£46,890",
+          "date": "2026-04-21"
+        }
+      ]
     },
     {
       "id": "95",
@@ -3929,13 +3933,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs5/2-9-tfsi-v6-vorsprung-sportback-tiptronic-quattro-euro-6-s-s-5dr/audi-rs5-2-9-tfsi-v6-vorsprung-sportback-tiptronic-quattro-euro-6-s-s-5dr-1425487114-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20232235"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "187",
@@ -4054,7 +4059,7 @@
     },
     {
       "id": "193",
-      "title": "2022 Audi RS5",
+      "title": "2022 Audi RS5 2.9 TFSI V6 Carbon Black Tiptronic quattro Eur",
       "price": "£55,790",
       "year": "2022",
       "mileage": "10,622 miles",

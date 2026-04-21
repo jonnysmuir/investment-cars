@@ -1026,13 +1026,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2040363/2015-mercedes-e-class-69cc241b5c434.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c8ae332d58b721389d4054c960b3c626",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040363"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "51",
@@ -1103,11 +1104,31 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/e-class/4-0-e63-v8-biturbo-amg-s-night-edition-premium-plus-spds-mct-4matic-euro-6-s-s-4dr/mercedes-benz-e-class-4-0-e63-v8-biturbo-amg-s-night-edition-premium-plus-spds-mct-4matic-euro-6-s-s-4dr-1427557188-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20258330"
+        }
+      ],
+      "unlistedDate": "2026-04-21"
+    },
+    {
+      "id": "55",
+      "title": "2013 Mercedes E Class W212 E63S AMG ESTATE",
+      "price": "£24,950",
+      "year": "2013",
+      "mileage": "80,321 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Estate",
+      "image": "/uploads/cars/mercedes/C2052997/2013-mercedes-e-class-69e6a65561903.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b08ebd4092689f0599e18e9d35b1eef",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2052997"
         }
       ]
     }

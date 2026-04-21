@@ -1291,7 +1291,7 @@
     {
       "id": "63",
       "title": "2005 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
-      "price": "£28,000",
+      "price": "£27,000",
       "year": 2005,
       "mileage": "43,250 miles",
       "transmission": "Automatic",
@@ -1314,6 +1314,10 @@
         {
           "price": "£30,000",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£28,000",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1444,7 +1448,7 @@
     },
     {
       "id": "70",
-      "title": "2007 Aston Martin DB9 5.9 Seq 2dr",
+      "title": "2007 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (394 g/km, 450 bhp)",
       "price": "£29,950",
       "year": 2007,
       "mileage": "68,200 miles",
@@ -1726,7 +1730,7 @@
       "price": "£29,500",
       "year": 2005,
       "mileage": "58,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/1523bae8c96f42c5acec1492f34f862c.jpg",
       "featured": false,
@@ -1736,6 +1740,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511127844180"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20288905"
         }
       ],
       "priceHistory": [
@@ -1857,7 +1865,7 @@
     {
       "id": "89",
       "title": "2006 Aston Martin DB9 5.9 Coupe 2dr Petrol Manual (421 g/km, 450 bhp)",
-      "price": "£34,989",
+      "price": "£34,489",
       "year": 2006,
       "mileage": "41,274 miles",
       "transmission": "6-Speed Manual",
@@ -1870,6 +1878,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068964242"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£34,989",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -2888,14 +2902,13 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9-volante/v12-volante/aston-martin-db9-volante-v12-volante-S4946686-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20217694"
         }
-      ],
-      "unlistedDate": "2026-04-13"
+      ]
     },
     {
       "id": "140",
@@ -2908,13 +2921,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045274/2014-aston-martin-db9-69d641ab7c6c2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b95d53e78daaceb716ea23f73c3273e2",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045274"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "141",
@@ -2986,13 +3000,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2045470/2014-aston-martin-db9-69d667a75d0d7.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7b572a8e89afca3ad7142abc0213b976",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045470"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "145",
@@ -3280,6 +3295,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048616"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "title": "2013 Used  ASTON MARTIN DB9",
+      "price": "£64,995",
+      "year": 2013,
+      "mileage": "33,197 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9/6-0-v12/aston-martin-db9-6-0-v12-1427741754-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19743192"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "title": "2005 Aston Martin DB9 5.9 Coupe 2dr Petrol Seq (EU4) (394 g/km, 450 bhp)",
+      "price": "£29,950",
+      "year": 2005,
+      "mileage": "59,450 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d883d1f21e914543afe06f2665403741.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201705490"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "title": "2016 ASTON MARTIN DB9 GT",
+      "price": "POA",
+      "year": "2016",
+      "mileage": "15,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29858839/2016-aston-martin-db9-69e4e00cc7849.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=37af0d66ae1e238174f5a7c7e3cfc87f",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2052320"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "title": "2005 Aston Martin DB9",
+      "price": "£29,950",
+      "year": "2005",
+      "mileage": "59,450 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2052779/2005-aston-martin-db9-69e633662b630.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7bfc584d3d001911e59084356ad37214",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2052779"
         }
       ]
     }

@@ -324,13 +324,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2025187/2020-aston-martin-dbs-69c71fb4e85e6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c652433b6fed2e614ff8930f1e1fce96",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025187"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "17",
@@ -695,6 +696,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048552"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "2021 Aston Martin DBS Superleggera 3rd Gen",
+      "price": "£127,900",
+      "year": "2021",
+      "mileage": "20,032 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29897607/2021-aston-martin-dbs-69e6c35038c72.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ca19e588c421b50659491ef3fdfb0f31",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053027"
         }
       ]
     }

@@ -852,7 +852,7 @@
     {
       "id": "41",
       "title": "2016 MERCEDES-BENZ C-CLASS 4.0 C63 V8 BiTurbo AMG (Premium)",
-      "price": "£32,500",
+      "price": "£31,500",
       "year": "2016",
       "mileage": "35,318 miles",
       "transmission": "Automatic",
@@ -865,6 +865,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1990222"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£32,500",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1342,13 +1348,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class/c63-s-premium-plus-2dr-9g-tronic/mercedes-benz-c-class-c63-s-premium-plus-2dr-9g-tronic-1417883324-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19880259"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "65",
@@ -1385,6 +1392,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2051443"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2023 Used  MERCEDES-BENZ AMG C 63 S NIGHT ED PREM + A",
+      "price": "£56,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class/c63-s-night-edition-premium-plus-2dr-mct/mercedes-benz-c-class-c63-s-night-edition-premium-plus-2dr-mct-1429943928-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20289563"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "2024 Used  MERCEDES-BENZ AMG C63 4M S E NIGHT ED PREM +",
+      "price": "£63,490",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class/2-0-c63-6-1kwh-amg-s-e-performance-night-edition-premium-plus-spds-mct-4matic-euro-6-s-s-4dr/mercedes-benz-c-class-2-0-c63-6-1kwh-amg-s-e-performance-night-edition-premium-plus-spds-mct-4matic-euro-6-s-s-4dr-1417140972-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20114465"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2013 Mercedes C Class C63 AMG",
+      "price": "POA",
+      "year": "2013",
+      "mileage": "64,500 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29900749/2013-mercedes-benz-c63-amg-69e6ddd370aef.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0bb8a83d4a07451ccef04afe31985c32",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053075"
         }
       ]
     }

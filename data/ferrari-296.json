@@ -1641,13 +1641,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/089c22ce86ac470094be4e4b933a2c26.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180786867"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "67",
@@ -1940,7 +1941,7 @@
     {
       "id": "81",
       "title": "2024 Ferrari 296 GTS 3.0T V6 7.45kWh Spider 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
-      "price": "£299,999",
+      "price": "£289,999",
       "year": 2024,
       "mileage": "600 miles",
       "transmission": "F1 Automated Manual",
@@ -1953,6 +1954,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311172722"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£299,999",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -2208,13 +2215,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7f8606fc8de24df2ba3aa2dbdab0e2d1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511117812810"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "94",
@@ -2447,12 +2455,12 @@
     },
     {
       "id": "105",
-      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "title": "2023 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£239,000",
       "year": 2023,
-      "mileage": "N/A",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "mileage": "4,375 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/gts/ferrari-296-gts-1409252130-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
@@ -2461,6 +2469,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19044907"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071341135"
         }
       ],
       "unlistedDate": "2026-04-19"
@@ -2553,13 +2565,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/661dc6b7523c4ef08dc961ea1d8ec669.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202505021982561"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "111",
@@ -2786,6 +2799,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603100575662"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£199,995",
+      "year": 2023,
+      "mileage": "1,900 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/3109e23e66544006877bb72e78c2d759.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202308040430127"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "title": "2023 Ferrari 296 GTB",
+      "price": "£189,990",
+      "year": "2023",
+      "mileage": "3,742 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29899225/2023-ferrari-296-gtb-69e6d9c82837c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4ec7d05a69d28c61bb66a7b018786670",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053059"
         }
       ]
     }

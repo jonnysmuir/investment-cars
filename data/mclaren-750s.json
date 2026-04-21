@@ -823,8 +823,8 @@
     },
     {
       "id": "26",
-      "title": "2026 McLaren 750S SPIDER V8 Performance 2dr SSG Auto 4.0",
-      "price": "£300,000",
+      "title": "2026 McLaren 750S 4.0T V8 Spider 2dr Petrol SSG Euro 6 (s/s) (750 ps)",
+      "price": "£295,000",
       "year": 2026,
       "mileage": "100 miles",
       "transmission": "Automatic",
@@ -832,14 +832,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/90667a50cc744a7799c340e400258577.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301133746"
         }
       ],
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£300,000",
+          "date": "2026-04-21"
+        }
+      ]
     },
     {
       "id": "27",
@@ -984,7 +989,7 @@
     {
       "id": "34",
       "title": "2023 Used  MCLAREN 750S V8 S-A",
-      "price": "£228,900",
+      "price": "£226,900",
       "year": 2023,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -997,6 +1002,31 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20275877"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£228,900",
+          "date": "2026-04-21"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "2023 McLaren 750S Spider V8 2dr SSG Auto",
+      "price": "£226,900",
+      "year": "2023",
+      "mileage": "3,304 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/mclaren/C2051268/2023-mclaren-750s-spider-69e6c3422ac51.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a7c0342f29526139879efd4b1ddef5ed",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2051268"
         }
       ]
     }

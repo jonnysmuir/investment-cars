@@ -1155,13 +1155,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c639517c4ae74a05a4fb98a0f9ef201a.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200853228"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "57",
@@ -1762,6 +1763,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2049419"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "1986 Lotus Esprit S3 - PRICE REDUCED",
+      "price": "£20,995",
+      "year": "1986",
+      "mileage": "131,413 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2052317/1986-lotus-esprit-69e4e37e73b9b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=945a7343699d7e914ff215bc147bad5d",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2052317"
         }
       ]
     }

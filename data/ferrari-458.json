@@ -1042,7 +1042,7 @@
     {
       "id": "49",
       "title": "2010 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£112,000",
+      "price": "£114,995",
       "year": 2010,
       "mileage": "34,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1216,6 +1216,10 @@
         {
           "price": "£114,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£112,000",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": null
@@ -1253,14 +1257,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4b79c3ee49c74cfd861c6c7fe13d44cc.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202502068811992"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "52",
@@ -1316,7 +1321,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c01d3a4d348b43e49f53dec2a6822fd5.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1333,7 +1338,8 @@
           "date": "2026-03-23"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "55",
@@ -2167,13 +2173,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d7ff0861adf440d1acf802b55aeef5d3.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120638571"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "92",
@@ -2336,6 +2343,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131513515"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "title": "2011 Ferrari 458 4.5 Italia Coupe 2dr Petrol F1 DCT Euro 5 (570 bhp)",
+      "price": "£129,995",
+      "year": 2011,
+      "mileage": "30,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/dd8ac2599a404ac9a96ed27b49239fc6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201711623"
         }
       ]
     }

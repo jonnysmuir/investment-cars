@@ -5434,7 +5434,7 @@
     {
       "id": "262",
       "title": "2007 BMW Z4 3.0 si Sport Euro 4 2dr",
-      "price": "£11,490",
+      "price": "£11,990",
       "year": "2007",
       "mileage": "51,677 miles",
       "transmission": "6-Speed Manual",
@@ -5442,14 +5442,19 @@
       "image": "https://assets.carandclassic.com/uploads/new/29208733/2007-bmw-z4-69cbac9ef38da.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6b6fd43935ddb554a15b1c2d8c5f510f",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040091"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£11,490",
+          "date": "2026-04-21"
+        }
+      ]
     },
     {
       "id": "263",
@@ -7851,7 +7856,7 @@
     {
       "id": "386",
       "title": "2003 BMW Z4 2.5i Manual Roadster – Ultra-Low 29,572 miles!",
-      "price": "£8,075",
+      "price": "£7,999",
       "year": "2003",
       "mileage": "29,515 miles",
       "transmission": "6-Speed Manual",
@@ -7864,6 +7869,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1999306"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£8,075",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -7878,13 +7889,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2015268/2011-bmw-z4-699159b8f1f40.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fe1128602eb668377c7cf521b650519c",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015268"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "388",
@@ -7960,13 +7972,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2005461/2003-bmw-z4-6978ef2521fa6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a73f92366e4b3680490d388e1bd4e5c",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2005461"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "392",
@@ -7979,13 +7992,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2012962/2006-bmw-z4-698b1d013f83f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=137d1fc84fcbfe2cf6305cc4e9c4f1a4",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2012962"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "393",
@@ -8632,6 +8646,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2051159"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "2007 BMW Z4 E85 2.5si",
+      "price": "£5,995",
+      "year": "2007",
+      "mileage": "54,650 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2047889/2007-bmw-z4-69dd0d4604420.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=21ca635a1d8b7188de16ad8a9d814b0d",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2047889"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "2004 BMW Z4 2.5si E85",
+      "price": "£7,990",
+      "year": "2004",
+      "mileage": "71,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/29901664/2004-bmw-z4-69e6df8882405.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ae40286b48303ec3e10402c3744beb2a",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053096"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "2008 BMW Z4 E85 2.0i",
+      "price": "£4,995",
+      "year": "2008",
+      "mileage": "82,250 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2052570/2008-bmw-z4-69e5e942cfad1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b4c3aadf4e23465cdff7aecc5c510b61",
+      "featured": false,
+      "dateAdded": "2026-04-21",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2052570"
         }
       ]
     }

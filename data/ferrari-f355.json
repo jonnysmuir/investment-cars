@@ -530,14 +530,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4905980-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18489651"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "27",
@@ -649,7 +650,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari/ferrari-355-ferrari-S4936983-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -666,8 +667,7 @@
           "date": "2026-03-18"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-15"
+      "bodyType": null
     },
     {
       "id": "33",
@@ -679,15 +679,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/gtb/ferrari-f355-gtb-1400855016-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19174243"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-13"
+      "bodyType": null
     },
     {
       "id": "34",
@@ -985,7 +984,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355-f1/ferrari-355-f1-1311518731-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -996,7 +995,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202504161388939"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "49",
@@ -1008,14 +1008,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4894333-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/14945697"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "50",
@@ -1597,6 +1598,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-21"
         }
       ]
     },

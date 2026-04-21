@@ -286,6 +286,14 @@
         {
           "price": "£129,450",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£129,450",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Coupe"
@@ -451,6 +459,14 @@
         {
           "price": "£129,449",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£129,450",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£129,449",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Coupe"
@@ -791,7 +807,7 @@
     {
       "id": "20",
       "title": "2023 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps) *MCLAREN WARRANTY & SERVICE PLAN *",
-      "price": "£122,900",
+      "price": "£121,900",
       "year": 2023,
       "mileage": "8,852 miles",
       "transmission": "Automatic",
@@ -817,6 +833,10 @@
         {
           "price": "£124,900",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£122,900",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Coupe"
@@ -902,6 +922,14 @@
         {
           "price": "£131,500",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£129,950",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£131,500",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1081,6 +1109,14 @@
         {
           "price": "£149,950",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£156,990",
+          "date": "2026-04-21"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-21"
         }
       ],
       "bodyType": "Coupe"
@@ -1156,7 +1192,7 @@
       "price": "£177,950",
       "year": 2024,
       "mileage": "5,010 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/37c688cf1a56459186e91147c4986bd3.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -1447,7 +1483,7 @@
     {
       "id": "42",
       "title": "2023 McLaren Artura V6 PHEV 2dr DCT",
-      "price": "£122,900",
+      "price": "£121,900",
       "year": "2023",
       "mileage": "15,878 miles",
       "transmission": "Automatic",
@@ -1466,6 +1502,10 @@
         {
           "price": "£124,900",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£122,900",
+          "date": "2026-04-21"
         }
       ]
     },
@@ -1480,13 +1520,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5de0c8a4186f44b2900b8ca9f74dad3e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140698429"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-21"
     },
     {
       "id": "44",
@@ -1837,12 +1878,12 @@
     },
     {
       "id": "61",
-      "title": "2023 McLaren Artura 3.0T V6 7.4kWh SSG Euro 6 (s/s) 2dr",
+      "title": "2023 McLaren Artura 3.0T V6 7.4kWh Coupe 2dr Petrol Plug-in Hybrid SSG Euro 6 (s/s) (680 ps)",
       "price": "£131,500",
       "year": 2023,
       "mileage": "2,861 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/5d78e7d240884d2ea9be0ce496919ab8.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
