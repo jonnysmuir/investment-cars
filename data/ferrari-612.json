@@ -757,7 +757,7 @@
     {
       "id": "38",
       "title": "2007 Ferrari 612 SCAGLIETTI F1 5.7 Spider 2dr Petrol auto",
-      "price": "£69,999",
+      "price": "£64,999",
       "year": 2007,
       "mileage": "33,060 miles",
       "transmission": "Automatic",
@@ -775,7 +775,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202512038321990"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£69,999",
+          "date": "2026-04-22"
+        }
+      ]
     },
     {
       "id": "39",
@@ -1377,7 +1383,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/31b2f38d3f1c49dca8875ca4c3633196.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1387,7 +1393,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20160041"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "68",
@@ -1553,7 +1560,7 @@
     {
       "id": "76",
       "title": "2006 Ferrari Ferrari 612 Scaglietti 4.3 2dr",
-      "price": "£59,995",
+      "price": "£55,995",
       "year": 2006,
       "mileage": "42,586 miles",
       "transmission": "Unknown",
@@ -1567,12 +1574,18 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101453641"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£59,995",
+          "date": "2026-04-22"
+        }
       ]
     },
     {
       "id": "77",
       "title": "2006 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
-      "price": "£53,750",
+      "price": "£52,750",
       "year": 2006,
       "mileage": "52,000 miles",
       "transmission": "Automatic",
@@ -1591,6 +1604,10 @@
         {
           "price": "£56,750",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£53,750",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -1650,6 +1667,25 @@
         {
           "name": "Collecting Cars",
           "url": "https://collectingcars.com/for-sale/2006-ferrari-612-scaglietti-12"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2006 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp) HGTS",
+      "price": "£59,995",
+      "year": 2006,
+      "mileage": "48,280 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/17eb85e36643425cbc3176196c980d3d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211735548"
         }
       ]
     }

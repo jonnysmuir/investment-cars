@@ -294,7 +294,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs5/rs-5-tfsi-quattro-carbon-black-2dr-c-s/audi-rs5-rs-5-tfsi-quattro-carbon-black-2dr-c-s-1406825626-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -304,8 +304,7 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511218041564"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "15",
@@ -334,7 +333,7 @@
     {
       "id": "16",
       "title": "2022 Audi RS5 2.9 TFSI V6 Carbon Black Sportback Tiptronic quattro Euro 6 (s/s) 5dr",
-      "price": "£45,000",
+      "price": "£44,500",
       "year": 2022,
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -351,6 +350,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200093645"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£45,000",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -559,7 +564,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/be349fbb288c40dd91574585ce1815e7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -575,7 +580,8 @@
           "price": "£33,990",
           "date": "2026-04-11"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "27",
@@ -1003,7 +1009,7 @@
     {
       "id": "47",
       "title": "2020 Audi RS5 2.9 TFSI V6 Carbon Black Tiptronic quattro Euro 6 (s/s) 2dr",
-      "price": "£37,995",
+      "price": "£40,995",
       "year": 2020,
       "mileage": "43,500 miles",
       "transmission": "Unknown",
@@ -1011,7 +1017,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c99901004efc45769a2f8378287cb079.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1030,9 +1036,12 @@
         {
           "price": "£39,995",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£37,995",
+          "date": "2026-04-22"
         }
-      ],
-      "unlistedDate": "2026-04-14"
+      ]
     },
     {
       "id": "48",
@@ -1649,7 +1658,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6cc059adfed14927bf4e925fd139af3e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1659,7 +1668,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20031662"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "78",
@@ -3689,7 +3699,7 @@
     {
       "id": "175",
       "title": "2017 Audi RS5",
-      "price": "£26,995",
+      "price": "£26,495",
       "year": "2017",
       "mileage": "82,850 miles",
       "transmission": "Automatic",
@@ -3702,6 +3712,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2040420"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£26,995",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -4011,13 +4027,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6bcea85337fa4cfb957222c0c31df6c8.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604141550831"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "191",
@@ -4073,6 +4090,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051323"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "title": "2017 Audi RS5 2.9 TFSI V6 Tiptronic quattro Euro 6 (s/s) 2dr",
+      "price": "£21,995",
+      "year": 2017,
+      "mileage": "92,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/208f9da45d8241a5ad55e3f22504f15c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151586566"
         }
       ]
     }

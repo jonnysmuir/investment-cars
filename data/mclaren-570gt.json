@@ -323,6 +323,14 @@
         {
           "price": "£76,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£77,985",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£76,995",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -504,7 +512,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/20034303b0024a2f8a7fe115ac4475ba.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -515,7 +523,8 @@
           "url": "https://www.pistonheads.com/buy/listing/19904213"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "17",
@@ -691,14 +700,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/734ea9ebc71144baa103a9d1c4e3c0f2.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509276693607"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "20",

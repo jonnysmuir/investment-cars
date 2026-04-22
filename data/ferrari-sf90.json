@@ -440,6 +440,14 @@
         {
           "price": "£354,830",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£349,995",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£354,830",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": "Convertible"
@@ -579,6 +587,14 @@
         {
           "price": "£385,000",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£375,000",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£385,000",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -622,7 +638,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90/4-0t-v8-7-9kwh-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6-s-s--986-ps/ferrari-sf90-4-0t-v8-7-9kwh-coupe-2dr-petrol-plug-in-hybrid-f1-dct-4wd-euro-6-s-s--986-ps-1407399375-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -651,7 +667,8 @@
           "date": "2026-04-01"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "20",
@@ -1437,6 +1454,14 @@
         {
           "price": "£274,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£267,000",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£274,995",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -1481,15 +1506,14 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/sf90-spider/ferrari-sf90-spider-1416578762-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-23",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/15143950"
         }
       ],
-      "bodyType": "Convertible",
-      "unlistedDate": "2026-04-12"
+      "bodyType": "Convertible"
     },
     {
       "id": "53",
@@ -1548,6 +1572,14 @@
         {
           "price": "£289,995",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£284,995",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£289,995",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -1774,13 +1806,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3213c63c3c114df1817e13a37efb50c4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261034639"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "63",
@@ -2004,7 +2037,7 @@
     },
     {
       "id": "74",
-      "title": "2022 Ferrari SF90 Stradale 4.0 2dr",
+      "title": "2022 Ferrari SF90 Stradale 4.0T V8 7.9kWh F1 DCT 4WD Euro 6 (s/s) 2dr",
       "price": "£279,000",
       "year": 2022,
       "mileage": "4,880 miles",

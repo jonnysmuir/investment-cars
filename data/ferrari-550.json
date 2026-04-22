@@ -1169,13 +1169,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/3ba2e32d55564f25bb13969c88baef0e.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021247616"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "59",
@@ -1332,6 +1333,27 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171633253"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2001 Ferrari 550 Barchetta - UK Registered",
+      "price": "Sold",
+      "year": 2001,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086997/AS-14-04-03.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "sold",
+      "soldPrice": "£293,500",
+      "soldDate": "2026-04-21",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2001-ferrari-550-barchetta-5"
         }
       ]
     }

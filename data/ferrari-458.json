@@ -1042,7 +1042,7 @@
     {
       "id": "49",
       "title": "2010 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£114,995",
+      "price": "£114,990",
       "year": 2010,
       "mileage": "34,400 miles",
       "transmission": "F1 Automated Manual",
@@ -1220,6 +1220,10 @@
         {
           "price": "£112,000",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£114,995",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -1466,7 +1470,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/94fef440ebb54dae8aaf7eddd6cc6b0e.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1477,7 +1481,8 @@
           "url": "https://www.pistonheads.com/buy/listing/19898655"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "60",
@@ -2134,6 +2139,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603261041535"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20294200"
         }
       ],
       "priceHistory": [
@@ -2193,13 +2202,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e9f7afe8a9d14e1cb7772888af5a1ed6.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311180707"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "93",
@@ -2232,13 +2242,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/6cb959ec388f44caa671f19f394e678e.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021247400"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "95",
@@ -2362,6 +2373,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201711623"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "title": "2015 Ferrari 458 4.5 Spider F1 DCT Euro 5 2dr",
+      "price": "£229,995",
+      "year": 2015,
+      "mileage": "Massive Carbon & 3,549 Miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/46e7271fb9e643afbef51dac212bf73e.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211734985"
         }
       ]
     }

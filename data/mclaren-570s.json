@@ -914,6 +914,14 @@
         {
           "price": "£89,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£89,898",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£89,995",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -995,6 +1003,14 @@
         {
           "price": "£99,999",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£96,500",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£99,999",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -1108,6 +1124,14 @@
         {
           "price": "£97,500",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£94,995",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£97,500",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -1117,7 +1141,7 @@
       "price": "£92,495",
       "year": 2019,
       "mileage": "12,900 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "image": "https://m.atcdn.co.uk/a/media/w480/43d6cff44f5d41e683dd59b56c10607e.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
@@ -1126,6 +1150,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260243613"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20301392"
         }
       ],
       "bodyType": null
@@ -1303,6 +1331,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£74,750",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": "Coupe"
@@ -1662,6 +1698,14 @@
         {
           "price": "£89,000",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£89,098",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": "Convertible"
@@ -1669,7 +1713,7 @@
     {
       "id": "47",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£79,995",
+      "price": "£79,790",
       "year": 2016,
       "mileage": "37,400 miles",
       "transmission": "Unknown",
@@ -1803,6 +1847,10 @@
         {
           "price": "£79,790",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£79,995",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -1848,7 +1896,7 @@
     {
       "id": "50",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£64,785",
+      "price": "£64,964",
       "year": 2016,
       "mileage": "47,890 miles",
       "transmission": "6-Speed Manual",
@@ -1982,6 +2030,10 @@
         {
           "price": "£64,964",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£64,785",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -2028,7 +2080,7 @@
     {
       "id": "53",
       "title": "2016 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£89,950",
+      "price": "£86,995",
       "year": 2016,
       "mileage": "8,104 miles",
       "transmission": "Unknown",
@@ -2123,6 +2175,10 @@
         {
           "price": "£86,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£89,950",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2604,6 +2660,14 @@
         {
           "price": "£94,950",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£89,000",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£94,950",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2821,13 +2885,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ec490f5e1b0841c99b1db54333527876.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021251677"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "81",
@@ -2908,7 +2973,7 @@
     {
       "id": "85",
       "title": "2017 McLaren 570S 3.8T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£72,000",
+      "price": "£70,000",
       "year": 2017,
       "mileage": "51,194 miles",
       "transmission": "Unknown",
@@ -2921,6 +2986,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604121488221"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£72,000",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2940,6 +3011,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011208962"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "title": "2017 McLaren 570S 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps) Carbon Fibre Interior Package",
+      "price": "£74,999",
+      "year": 2017,
+      "mileage": "30,800 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5f9fe3a838bf49da887c7d6388b91a38.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211741591"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "2016 McLaren 570S 3.8 V8 2d 562 BHP Serviced Within Mclaren",
+      "price": "£78,995",
+      "year": 2016,
+      "mileage": "15,961 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/7e4a68bc57ef4bd5ae39ab2c438cfb6b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211728190"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "2019 McLaren 570S Spider 3.8 2dr",
+      "price": "£94,995",
+      "year": 2019,
+      "mileage": "20,600 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/04df0c81e81444f8b37329166389618c.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201695886"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "2017 McLaren 570S",
+      "price": "POA",
+      "year": "2017",
+      "mileage": "9,541 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29688906/0-205.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b2effe5c1e8882fb5fd4dc9f3662bb06",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2017-mclaren-570s-n9GRx8"
         }
       ]
     }

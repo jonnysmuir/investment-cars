@@ -567,13 +567,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2028820/2006-aston-martin-vantage-69b2c5115cd7c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=35850d4c96a5410fff838536fbc53769",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2028820"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "28",
@@ -586,13 +587,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28944811/2018-aston-martin-vantage-69bfa6c0811b6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e79bc35616942b46c584a3bd895a98a9",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2034734"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "29",
@@ -963,6 +965,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601269432992"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19921114"
         }
       ]
     },
@@ -1260,13 +1266,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-0-v8-amr-hero-euro-6-2dr/aston-martin-vantage-4-0-v8-amr-hero-euro-6-2dr-1390953144-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19060013"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "58",
@@ -1299,18 +1306,19 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage/zf-8-speed-38k-of-extras--21-inch-wheels-vat-q-car/aston-martin-v8-vantage-zf-8-speed-38k-of-extras--21-inch-wheels-vat-q-car-1418308202-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20124395"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "60",
       "title": "2016 Aston Martin Vantage 6.0 V12 S Euro 6 2dr",
-      "price": "£134,950",
+      "price": "£129,850",
       "year": 2016,
       "mileage": "13,271 miles",
       "transmission": "6-Speed Manual",
@@ -1318,7 +1326,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-coupe/gt8/aston-martin-v8-vantage-coupe-gt8-S4908180-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1341,9 +1349,12 @@
         {
           "price": "£134,850",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£134,950",
+          "date": "2026-04-22"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "61",
@@ -1376,13 +1387,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/aston-martin-vantage-1356610457-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19378565"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "63",
@@ -1395,13 +1407,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v12-vantage/roadster/aston-martin-v12-vantage-roadster-1420287132-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19381928"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "64",
@@ -6649,6 +6662,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011196024"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20120099"
         }
       ],
       "unlistedDate": "2026-04-21"
@@ -6921,6 +6938,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200082341"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20295967"
         }
       ],
       "unlistedDate": "2026-04-08"
@@ -8271,13 +8292,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29244484/1994-aston-martin-v8-vantage-69cc8092836d2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0d94497209c7c3876ec47ffc51557566",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040708"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "371",
@@ -8683,13 +8705,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/v8/aston-martin-dbx-v8-S4947730-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20095688"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "391",
@@ -8702,13 +8725,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-coupe/v8/aston-martin-v8-vantage-coupe-v8-S4942520-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20092779"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "392",

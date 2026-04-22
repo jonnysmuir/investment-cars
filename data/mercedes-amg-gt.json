@@ -990,7 +990,7 @@
     {
       "id": "45",
       "title": "2019 Used  MERCEDES-BENZ GT",
-      "price": "£82,980",
+      "price": "£81,980",
       "year": 2019,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -998,7 +998,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-gpf-c-roadster-spds-dct-euro-6-s-s-2dr/mercedes-benz-amg-gt-4-0-v8-biturbo-gpf-c-roadster-spds-dct-euro-6-s-s-2dr-1419848103-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1013,9 +1013,12 @@
         {
           "price": "£82,480",
           "date": "2026-04-09"
+        },
+        {
+          "price": "£82,980",
+          "date": "2026-04-22"
         }
-      ],
-      "unlistedDate": "2026-04-12"
+      ]
     },
     {
       "id": "46",
@@ -1301,13 +1304,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28828207/2015-mercedes-benz-amg-gt-69ba61c6e6485.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e676e9d2f01b30979923e507ba809f50",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032461"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "60",
@@ -1601,7 +1605,7 @@
     {
       "id": "71",
       "title": "2016 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo (Premium) Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (462 ps)",
-      "price": "£46,500",
+      "price": "£46,995",
       "year": 2016,
       "mileage": "39,672 miles",
       "transmission": "F1 Automated Manual",
@@ -1684,6 +1688,10 @@
         {
           "price": "£46,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£46,500",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2116,13 +2124,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/amg-gt-r-pro/mercedes-benz-amg-gt-amg-gt-r-pro-S4935488-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19104995"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "93",
@@ -2572,6 +2581,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049661040"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2016 Used  MERCEDES-BENZ GT",
+      "price": "£57,999",
+      "year": 2016,
+      "mileage": "18950 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-s-premium-spds-dct-euro-6-s-s-2dr/mercedes-benz-amg-gt-4-0-v8-biturbo-s-premium-spds-dct-euro-6-s-s-2dr-1430163170-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20293799"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "title": "2021 Used  MERCEDES-BENZ AMG GT EDITION 476 AUTO",
+      "price": "£72,750",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/202070-v8-biturbo-edition-476--1-owner--extended-warranty/mercedes-benz-amg-gt-202070-v8-biturbo-edition-476--1-owner--extended-warranty-1428085835-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20267993"
         }
       ]
     }

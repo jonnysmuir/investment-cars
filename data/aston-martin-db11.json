@@ -729,7 +729,7 @@
     {
       "id": "25",
       "title": "2018 Aston Martin DB11 4.0 V8 Auto Euro 6 (s/s) 2dr",
-      "price": "£62,999",
+      "price": "£65,999",
       "year": 2018,
       "mileage": "47000 miles",
       "transmission": "Automatic",
@@ -752,6 +752,10 @@
         {
           "price": "£65,999",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£62,999",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -837,7 +841,7 @@
     {
       "id": "30",
       "title": "2017 Aston Martin DB11 V12 2dr Touchtronic Auto",
-      "price": "£73,900",
+      "price": "£72,900",
       "year": "2017",
       "mileage": "12,818 miles",
       "transmission": "Automatic",
@@ -856,6 +860,10 @@
         {
           "price": "£75,900",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£73,900",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -1113,13 +1121,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2014511/2018-aston-martin-db11-699496d293f05.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9aba13ce282df353d168ccdb99cee333",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2014511"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "42",
@@ -1582,7 +1591,7 @@
     {
       "id": "53",
       "title": "2018 Aston Martin DB11 4.0 V8 Volante Auto Euro 6 (s/s) 2dr",
-      "price": "£84,950",
+      "price": "£82,950",
       "year": 2018,
       "mileage": "9,000 miles",
       "transmission": "Automatic",
@@ -1599,6 +1608,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508235699860"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£84,950",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -1876,7 +1891,7 @@
     {
       "id": "63",
       "title": "2019 Aston Martin DB11 5.2 V12 BiTurbo AMR Auto Euro 6 (s/s) 2dr",
-      "price": "£69,880",
+      "price": "£69,480",
       "year": 2019,
       "mileage": "65,000 miles",
       "transmission": "Automatic",
@@ -1903,6 +1918,10 @@
         {
           "price": "£67,990",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£69,880",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2216,7 +2235,7 @@
     {
       "id": "71",
       "title": "2018 Aston Martin DB11 4.0 V8 Auto Euro 6 (s/s) 2dr",
-      "price": "£80,007",
+      "price": "£78,007",
       "year": 2018,
       "mileage": "11,140 miles",
       "transmission": "Automatic",
@@ -2263,6 +2282,10 @@
         {
           "price": "£80,995",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£80,007",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2846,7 +2869,7 @@
     {
       "id": "90",
       "title": "2017 Aston Martin DB11 5.2 V12 Auto Euro 6 (s/s) 2dr",
-      "price": "£70,000",
+      "price": "£69,995",
       "year": 2017,
       "mileage": "20,494 miles",
       "transmission": "Automatic",
@@ -2854,7 +2877,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d296f76a16b14db1afa103dfe9905d7d.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2865,7 +2888,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19911572"
         }
       ],
-      "unlistedDate": "2026-04-17"
+      "priceHistory": [
+        {
+          "price": "£70,000",
+          "date": "2026-04-22"
+        }
+      ]
     },
     {
       "id": "91",
@@ -3157,7 +3185,7 @@
     {
       "id": "102",
       "title": "2017 Aston Martin DB11 5.2 V12 Launch Edition Auto Euro 6 (s/s) 2dr",
-      "price": "£65,980",
+      "price": "£65,950",
       "year": 2017,
       "mileage": "24,000 miles",
       "transmission": "Automatic",
@@ -3165,7 +3193,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fc58be2a78ab43c0ad8eb51cb347b83e.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3176,7 +3204,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20107771"
         }
       ],
-      "unlistedDate": "2026-04-12"
+      "priceHistory": [
+        {
+          "price": "£65,980",
+          "date": "2026-04-22"
+        }
+      ]
     },
     {
       "id": "103",
@@ -3350,13 +3383,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2006698/2017-aston-martin-db11-69835c9ad4c2e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=81d0c0095173c7803018a12e187df32a",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2006698"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "110",
@@ -3702,7 +3736,7 @@
     },
     {
       "id": "127",
-      "title": "2022 Aston Martin DB11 V12",
+      "title": "2022 Aston Martin DB11 V12 AMR 2dr Touchtronic Auto",
       "price": "£99,898",
       "year": "2022",
       "mileage": "7,450 miles",
@@ -3716,6 +3750,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2053025"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "title": "2019 Used  ASTON MARTIN DB11",
+      "price": "£79,850",
+      "year": 2019,
+      "mileage": "19,118 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db11/v8/aston-martin-db11-v8-S4949246-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20293818"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "title": "2019 Aston Martin DB11 V8",
+      "price": "£81,900",
+      "year": "2019",
+      "mileage": "14,112 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/29996022/2019-aston-martin-db11-69e8142ebb122.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bfdbf5ca92ca164d087db567f4067f6e",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2054665"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "title": "2019 Aston Martin DB11  V8",
+      "price": "£79,850",
+      "year": "2019",
+      "mileage": "19,799 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2053414/2019-aston-martin-db11-69e743659c5c3.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6136af2c643027f7ad2e5bda4f264e07",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053414"
         }
       ]
     }

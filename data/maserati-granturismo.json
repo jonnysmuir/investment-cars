@@ -2577,13 +2577,14 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/48v-mhev-330-modena-5dr-auto/maserati-granturismo-48v-mhev-330-modena-5dr-auto-1421845790-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20160487"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "111",
@@ -3165,6 +3166,46 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20276334"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "title": "2012 Maserati GranTurismo S",
+      "price": "Sold",
+      "year": 2012,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086234/AS-20-03-11.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "sold",
+      "soldPrice": "€25,000",
+      "soldDate": "2026-04-21",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2012-maserati-granturismo-s"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "title": "2011 Maserati Granturismo  MC Stradale",
+      "price": "£29,995",
+      "year": "2011",
+      "mileage": "21,756 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/maserati/C2053378/2011-maserati-granturismo-69e734213e1c2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6185c7e8f103f7e979f1511012c60321",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053378"
         }
       ]
     }

@@ -520,13 +520,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/esprit/turbo-hc/lotus-esprit-turbo-hc-1354491385-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19355672"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "26",
@@ -539,13 +540,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/esprit/esprit-v8-gt/lotus-esprit-esprit-v8-gt-S4927441-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19637274"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "27",
@@ -1155,14 +1157,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c639517c4ae74a05a4fb98a0f9ef201a.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200853228"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "57",
@@ -1251,13 +1252,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0cdcc10f3c71471ca14d4231d4fe36b4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202303245575714"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "62",
@@ -1782,6 +1784,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2052317"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "1992 Lotus Esprit Turbo SE",
+      "price": "£45,000",
+      "year": "1992",
+      "mileage": "2,195 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/30007753/1992-lotus-esprit-69e88107157ea.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5e42bd402c9de71e01b7de8ff71a892e",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2054899"
         }
       ]
     }

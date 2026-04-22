@@ -466,6 +466,14 @@
         {
           "price": "£78,950",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£79,950",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£78,950",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -940,6 +948,18 @@
         {
           "price": "£74,500",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£74,500",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": "Convertible"
@@ -1078,6 +1098,14 @@
         {
           "price": "£119,950",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£120,000",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£119,950",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": "Convertible"
@@ -1420,14 +1448,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2024997/2008-ferrari-f430-69a99bdb70b9b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=be350fe8a300f9cf05c5cbb6a2160b24",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2024997"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "46",
@@ -1691,14 +1720,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w600/32f880f907154056b6243dad0dc1b315.jpg",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603030360448"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "60",
@@ -2729,6 +2759,14 @@
         {
           "price": "£79,990",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£79,940",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£79,786",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2916,7 +2954,7 @@
     {
       "id": "119",
       "title": "2009 Ferrari F430 4.3 Spider F1 DCT 2dr",
-      "price": "£75,000",
+      "price": "£76,000",
       "year": 2009,
       "mileage": "29,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2929,6 +2967,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202507224705203"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£75,000",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -3303,13 +3347,14 @@
       "image": "",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20265262"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "139",
@@ -3350,6 +3395,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604161601159"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "title": "2006 Ferrari F430 4.3 Spider 2dr",
+      "price": "£149,995",
+      "year": 2006,
+      "mileage": "3,322 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/0f127bd105d343feae2a8bfb5bc91992.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211726493"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "title": "2007 Ferrari F430 4.3 Spider 2dr",
+      "price": "£63,995",
+      "year": 2007,
+      "mileage": "37,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/27471c71b07b4bdca8395649047e9ba9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211752855"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "title": "2007 Ferrari F430 Spider 4.3",
+      "price": "£109,950",
+      "year": 2007,
+      "mileage": "19,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604221755162"
         }
       ]
     }

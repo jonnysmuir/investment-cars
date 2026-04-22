@@ -1705,7 +1705,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d6eab886f20c49498ec1451dfda03f43.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1722,7 +1722,8 @@
           "date": "2026-04-14"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "67",
@@ -1786,14 +1787,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8aef581ab1864599a753a7ef89e9e71a.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202308030405773"
         }
       ],
-      "unlistedDate": "2026-03-31"
+      "bodyType": null
     },
     {
       "id": "70",
@@ -2038,6 +2039,14 @@
         {
           "price": "£159,880",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£164,991",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£159,880",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2122,7 +2131,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/50d0b34ff3a24f88bab00e660bb92bed.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2143,7 +2152,8 @@
           "price": "£173,995",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "84",
@@ -2327,7 +2337,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2ce2446c822c425a8ab60059aa36037d.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2348,7 +2358,8 @@
           "date": "2026-04-17"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "93",
@@ -2423,14 +2434,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4c5f51fd107d47b7aa08bfa66b6f340c.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602149930549"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "97",
@@ -2600,6 +2612,14 @@
         {
           "price": "£154,990",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£149,899",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£154,990",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -3004,7 +3024,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/28810455/2016-ferrari-488-69b9fe9f3f384.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=49ae8fb1dd4828f1cf5dc54bd9053078",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -3017,7 +3037,8 @@
           "date": "2026-04-01"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "123",
@@ -3092,9 +3113,14 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130674014"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20290802"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "unlistedDate": "2026-04-02",
+      "bodyType": null
     },
     {
       "id": "127",
@@ -3245,7 +3271,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1b964ede7dfc4433bef2f5c1df0dcb40.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3257,7 +3283,8 @@
           "price": "£149,990",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "135",
@@ -3270,13 +3297,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3709bbfe625b45b4b658d2432cf92db4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271069501"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "136",
@@ -3749,13 +3777,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c5082961554048deabc9d6f1554eff8c.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131513953"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "160",
@@ -4062,6 +4091,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2052805"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "title": "2019 Ferrari 488 Pista 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£429,995",
+      "year": 2019,
+      "mileage": "6,899 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/a62c4ea07a3244b087a97b22465866c2.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604201701079"
         }
       ]
     }

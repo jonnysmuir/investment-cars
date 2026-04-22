@@ -894,13 +894,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/25504940/2016-aston-martin-db9-68f83cf37112b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=442bb3ad7cb21ddf4c7b1fcee609f574",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1962181"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "44",
@@ -2986,6 +2987,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091391466"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18432630"
         }
       ]
     },
@@ -3043,13 +3048,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9-coupe/aston-martin-db9-coupe-S4940694-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20042010"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "147",
@@ -3371,6 +3377,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2052779"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "title": "2012 Used  ASTON MARTIN DB9",
+      "price": "£64,850",
+      "year": 2012,
+      "mileage": "5,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9-coupe/v12/aston-martin-db9-coupe-v12-S4949393-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20294090"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "title": "2012 Aston Martin DB9",
+      "price": "£64,850",
+      "year": "2012",
+      "mileage": "5,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2053409/2012-aston-martin-db9-69e791a5b382d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7ef28c28e277bdfe882c92b2b75c0944",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2053409"
         }
       ]
     }

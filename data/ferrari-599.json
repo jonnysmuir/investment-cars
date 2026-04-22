@@ -289,7 +289,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/000697493ff24fe99859eb50e7a2f582.jpg",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -300,7 +300,8 @@
           "url": "https://www.pistonheads.com/buy/listing/14783764"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "12",
@@ -1575,6 +1576,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604181660379"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "title": "2008 Ferrari 599 6.0 V12 GTB Fiorano Coupe 2dr Petrol F1 Euro 4 (612 bhp)",
+      "price": "£88,600",
+      "year": 2008,
+      "mileage": "33,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b325b290b50b42eeb224f983340b78cb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181672580"
         }
       ]
     }

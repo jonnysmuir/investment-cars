@@ -987,7 +987,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/gt/mclaren-gt-1402177102-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1032,7 +1032,8 @@
           "date": "2026-04-17"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "22",
@@ -1374,7 +1375,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f494a6cb09624613ace2505e8546cabb.jpg",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1391,7 +1392,6 @@
           "date": "2026-03-13"
         }
       ],
-      "unlistedDate": "2026-04-02",
       "bodyType": null
     },
     {
@@ -1474,7 +1474,7 @@
     {
       "id": "35",
       "title": "2023 McLaren GT 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£116,000",
+      "price": "£113,995",
       "year": 2023,
       "mileage": "5,900 miles",
       "transmission": "Unknown",
@@ -1552,6 +1552,10 @@
         {
           "price": "£117,995",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£116,000",
+          "date": "2026-04-22"
         }
       ],
       "bodyType": null
@@ -1917,6 +1921,14 @@
         {
           "price": "£102,985",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£99,985",
+          "date": "2026-04-22"
+        },
+        {
+          "price": "£99,786",
+          "date": "2026-04-22"
         }
       ]
     },
@@ -2109,13 +2121,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/77550673b9b94c68b886310aec341ee9.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101436947"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "55",
@@ -2171,6 +2184,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201693442"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "title": "2023 McLaren GT 4.0T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£106,990",
+      "year": 2023,
+      "mileage": "8,606 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/05a9da000e02420191401a12ebadae8d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211741122"
         }
       ]
     }

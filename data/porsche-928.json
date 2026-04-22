@@ -873,13 +873,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/928/porsche-928-S4936151-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19896587"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-22"
     },
     {
       "id": "43",
@@ -1532,6 +1533,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051054"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "title": "1980 Used  PORSCHE 928 S",
+      "price": "£34,900",
+      "year": 1980,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/928/porsche-928-S4949483-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20293817"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "title": "1995 Porsche 928 GT",
+      "price": "£35,000",
+      "year": "1995",
+      "mileage": "79,247 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30007814/1995-porsche-928-gts-a-69e8811cf247c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1a25c3172832450239f63cc61199fd05",
+      "featured": false,
+      "dateAdded": "2026-04-22",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2054900"
         }
       ]
     }
