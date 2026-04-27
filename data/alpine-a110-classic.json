@@ -869,7 +869,7 @@
     {
       "id": "42",
       "title": "2022 Alpine A110 L Turbo 300 S 2dr DCT",
-      "price": "£45,999",
+      "price": "£45,499",
       "year": "2022",
       "mileage": "35,645 miles",
       "transmission": "Automatic",
@@ -883,12 +883,18 @@
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2041675"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£45,999",
+          "date": "2026-04-27"
+        }
       ]
     },
     {
       "id": "43",
       "title": "2023 Alpine A110 2nd Gen",
-      "price": "£48,490",
+      "price": "£47,990",
       "year": "2023",
       "mileage": "4,152 miles",
       "transmission": "Automatic",
@@ -911,6 +917,10 @@
         {
           "price": "£48,900",
           "date": "2026-04-10"
+        },
+        {
+          "price": "£48,490",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1090,6 +1100,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2053031"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "1976 Alpine A110 1300VC",
+      "price": "£76,995",
+      "year": "1976",
+      "mileage": "90,222 km",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/renault/C2055205/1976-renault-a110-1300vc-69e8d8e2e2477.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e3e973a0f99585d6827b287aadc43590",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2055205"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "title": "2023 Alpine A110 San Remo 73",
+      "price": "£57,995",
+      "year": "2023",
+      "mileage": "18,200 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/alpine/C2057243/2023-alpine-a110-69ecb6837d673.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4d5ec56b382d6937a4e5ad154031d8ab",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057243"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "title": "2025 Alpine A110 - 3,000 miles",
+      "price": "POA",
+      "year": "2025",
+      "mileage": "2,989 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30063652/img-8605.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ae5419bc912f885949686451d1661060",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/2025-alpine-a110-8KDllg"
         }
       ]
     }

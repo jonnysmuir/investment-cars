@@ -1492,7 +1492,7 @@
     {
       "id": "72",
       "title": "1996 Ferrari F355 3.5 Berlinetta 2dr",
-      "price": "£155,189",
+      "price": "£154,990",
       "year": 1996,
       "mileage": "21,000 miles",
       "transmission": "6-Speed Manual",
@@ -1615,6 +1615,10 @@
         {
           "price": "£154,990",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£155,189",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2111,6 +2115,46 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2049660"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "title": "1995 Ferrari F355 Berlinetta - Manual",
+      "price": "Sold",
+      "year": 1995,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://images.collectingcars.com/086816/09-04-26KR7.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "sold",
+      "soldPrice": "€153,500",
+      "soldDate": "2026-04-22",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1995-ferrari-f355-berlinetta-8"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "1998 Used  FERRARI F355",
+      "price": "£124,995",
+      "year": 1998,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4949593-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20301489"
         }
       ]
     }

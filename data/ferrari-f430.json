@@ -960,6 +960,14 @@
         {
           "price": "£74,500",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-04-27"
         }
       ],
       "bodyType": "Convertible"
@@ -1009,6 +1017,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281091633"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20316353"
         }
       ],
       "featured": false,
@@ -2663,14 +2675,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28900977/2007-ferrari-f430-69bcb8cad6e25.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ed4ba4f4868209fc1cd47aee6b45b02a",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033787"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "106",
@@ -2732,7 +2745,7 @@
     {
       "id": "109",
       "title": "2005 Ferrari F430 4.3 Spider F1 DCT 2dr",
-      "price": "£79,940",
+      "price": "£79,786",
       "year": 2005,
       "mileage": "19,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2767,6 +2780,10 @@
         {
           "price": "£79,786",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£79,940",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -3030,6 +3047,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603090522886"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20310531"
         }
       ]
     },
@@ -3442,9 +3463,9 @@
       "price": "£109,950",
       "year": 2007,
       "mileage": "19,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Convertible",
-      "image": "",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f430/spider/ferrari-f430-spider-1431478866-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
       "status": "active",
@@ -3452,6 +3473,29 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604221755162"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20301446"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "title": "2008 Ferrari F430 F1 Spider",
+      "price": "£95,000",
+      "year": "2008",
+      "mileage": "12,405 km",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/ferrari/C2056212/2008-ferrari-f430-69ea2e1361c82.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2569ee84a0fdecab00493c793b0837c1",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2056212"
         }
       ]
     }

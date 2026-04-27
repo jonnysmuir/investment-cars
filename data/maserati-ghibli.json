@@ -281,7 +281,7 @@
     {
       "id": "13",
       "title": "2016 Maserati Ghibli 3.0 V6 S ZF Euro 5 4dr",
-      "price": "£15,990",
+      "price": "£15,200",
       "year": 2016,
       "mileage": "31,000 miles",
       "transmission": "Automatic",
@@ -320,6 +320,10 @@
         {
           "price": "£15,900",
           "date": "2026-04-03"
+        },
+        {
+          "price": "£15,990",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -431,7 +435,7 @@
     {
       "id": "18",
       "title": "2018 Maserati Ghibli 3.0D V6 GranSport ZF Euro 6 (s/s) 4dr",
-      "price": "£19,990",
+      "price": "£22,999",
       "year": 2018,
       "mileage": "37,000 miles",
       "transmission": "Automatic",
@@ -466,6 +470,10 @@
         {
           "price": "£22,990",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£19,990",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2167,7 +2175,7 @@
       "price": "£14,498",
       "year": 2016,
       "mileage": "44,265 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://m.atcdn.co.uk/a/media/w480/2ecc0aff5d8f45a09598fe681341be1c.jpg",
       "featured": false,
@@ -2177,6 +2185,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120649536"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20298840"
         }
       ]
     },
@@ -3040,7 +3052,7 @@
       "price": "£10,950",
       "year": 2016,
       "mileage": "49,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://m.atcdn.co.uk/a/media/w480/f304d2dd726e48f4bbc6e53537d2821a.jpg",
       "featured": false,
@@ -3050,6 +3062,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120653054"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20307158"
         }
       ],
       "priceHistory": [
@@ -3288,7 +3304,7 @@
       "price": "£14,110",
       "year": 2017,
       "mileage": "54,047 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://m.atcdn.co.uk/a/media/w480/141cd69e4133447684eec8acbdaab841.jpg",
       "featured": false,
@@ -3298,6 +3314,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200861722"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20316393"
         }
       ],
       "priceHistory": [
@@ -3539,7 +3559,7 @@
       "price": "£27,990",
       "year": 2021,
       "mileage": "45,892 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Saloon",
       "image": "https://m.atcdn.co.uk/a/media/w480/c13fd517e1bd47178d01645477474319.jpg",
       "featured": false,
@@ -3549,6 +3569,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049681925"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20293730"
         }
       ]
     },
@@ -3600,7 +3624,7 @@
     {
       "id": "124",
       "title": "2022 Used  MASERATI GHIBLI MODENA AUTO",
-      "price": "£25,999",
+      "price": "£25,990",
       "year": 2022,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -3608,14 +3632,19 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/v6-4dr-auto/maserati-ghibli-v6-4dr-auto-1419078416-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20142624"
         }
       ],
-      "unlistedDate": "2026-04-05"
+      "priceHistory": [
+        {
+          "price": "£25,999",
+          "date": "2026-04-27"
+        }
+      ]
     },
     {
       "id": "125",
@@ -3648,13 +3677,14 @@
       "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/3-0-v6-s-royale-zf-euro-6-s-s-4dr/maserati-ghibli-3-0-v6-s-royale-zf-euro-6-s-s-4dr-1410256001-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20008977"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "127",
@@ -3734,6 +3764,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160728654"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20280427"
         }
       ],
       "priceHistory": [
@@ -4840,6 +4874,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2052690"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "title": "2015 Used  MASERATI GHIBLI",
+      "price": "£10,490",
+      "year": 2015,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/3-0-ghibli-dv6-auto-4dr/maserati-ghibli-3-0-ghibli-dv6-auto-4dr-1430834147-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20145995"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "title": "2016 Used  MASERATI GHIBLI",
+      "price": "£18,490",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/ghibli/3-0-v6-s-saloon-4dr-petrol-zf-euro-5-410-ps/maserati-ghibli-3-0-v6-s-saloon-4dr-petrol-zf-euro-5-410-ps-1431173896-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20309065"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "title": "2017 Maserati Ghibli 3.0 V6 Saloon 4dr Petrol ZF Euro 5 (330 ps)",
+      "price": "£20,990",
+      "year": "2017",
+      "mileage": "23,281 miles",
+      "transmission": "Unknown",
+      "bodyType": "Saloon",
+      "image": "/uploads/cars/maserati/C2056475/2017-maserati-ghibli-69eae6810a54c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=253e1488258db7d9c7b1f8dd0ac57adf",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2056475"
         }
       ]
     }

@@ -317,7 +317,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/600lt/t-v8/mclaren-600lt-t-v8-1373374750-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -328,7 +328,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202512068422827"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "16",
@@ -941,14 +942,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/26634240/2019-mclaren-600lt-693a60ef07cc0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fbd94db0a6a1d7d4a090daca37cb6d57",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1986802"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "32",
@@ -1476,6 +1478,14 @@
         {
           "price": "£128,000",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-04-27"
         }
       ],
       "bodyType": null
@@ -1990,6 +2000,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330649"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "2021 McLaren 600LT 3.8T V8 Coupe 2dr",
+      "price": "£149,900",
+      "year": 2021,
+      "mileage": "15,850 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/0e5654c636c142cda60868365a2e23e7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231817309"
         }
       ]
     }

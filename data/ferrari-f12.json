@@ -1159,14 +1159,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/27243348/2013-ferrari-f12-berlinetta-696a22b67b2e7.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f228072b608fbbdace4e52913f161dda",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1999765"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "45",
@@ -1330,6 +1331,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140700157"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20322807"
         }
       ],
       "bodyType": "Coupe"
@@ -1607,6 +1612,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151563415"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2013 Used  FERRARI F12BERLINETTA AB S-A",
+      "price": "£136,995",
+      "year": 2013,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f12berlinetta/3-7t-992-turbo-s-convertible-2dr-petrol-pdk-4wd-euro-6-s-s--650-ps-12-month-warranty--finance/ferrari-f12berlinetta-3-7t-992-turbo-s-convertible-2dr-petrol-pdk-4wd-euro-6-s-s--650-ps-12-month-warranty--finance-1431872597-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20322912"
         }
       ]
     }

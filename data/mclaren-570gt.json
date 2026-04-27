@@ -200,7 +200,7 @@
     {
       "id": "10",
       "title": "2017 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
-      "price": "£64,944",
+      "price": "£64,844",
       "year": 2017,
       "mileage": "46,702 miles",
       "transmission": "Unknown",
@@ -219,6 +219,10 @@
         {
           "price": "£65,444",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£64,944",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -504,7 +508,7 @@
     },
     {
       "id": "16",
-      "title": "2018 McLaren 570GT 3.8T V8 SSG Euro 6 (s/s) 2dr",
+      "title": "2018 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
       "price": "£84,950",
       "year": 2018,
       "mileage": "11,800 miles",
@@ -512,7 +516,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/20034303b0024a2f8a7fe115ac4475ba.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -523,8 +527,7 @@
           "url": "https://www.pistonheads.com/buy/listing/19904213"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-22"
+      "bodyType": "Coupe"
     },
     {
       "id": "17",
@@ -900,13 +903,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/ffc9d09c8d4d4dd8ac28b36c5412115a.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240963274"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "29",
@@ -1530,7 +1534,7 @@
     {
       "id": "60",
       "title": "2019 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
-      "price": "£86,100",
+      "price": "£85,900",
       "year": 2019,
       "mileage": "21,224 miles",
       "transmission": "Unknown",
@@ -1543,6 +1547,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604031279078"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£86,100",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1600,6 +1610,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20260483"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2016 McLaren 570GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
+      "price": "£79,900",
+      "year": 2016,
+      "mileage": "33,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/001aab7b3935462182edc8a105cd984d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231816280"
         }
       ]
     }

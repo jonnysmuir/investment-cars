@@ -998,7 +998,7 @@
     {
       "id": "38",
       "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£219,995",
+      "price": "£222,850",
       "year": 2019,
       "mileage": "9,251 miles",
       "transmission": "Automatic",
@@ -1148,6 +1148,10 @@
         {
           "price": "£222,850",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£219,995",
+          "date": "2026-04-27"
         }
       ],
       "bodyType": null
@@ -1347,7 +1351,7 @@
     {
       "id": "46",
       "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£329,600",
+      "price": "£324,995",
       "year": 2021,
       "mileage": "8,000 miles",
       "transmission": "6-Speed Manual",
@@ -1466,6 +1470,10 @@
         {
           "price": "£324,995",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£329,600",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1952,7 +1960,7 @@
     {
       "id": "67",
       "title": "2021 Ferrari 812 GTS 6.5 V12 Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£369,980",
+      "price": "£379,995",
       "year": 2021,
       "mileage": "4,500 miles",
       "transmission": "F1 Automated Manual",
@@ -2047,6 +2055,10 @@
         {
           "price": "£379,995",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£369,980",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2060,7 +2072,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/812-superfast/2dr-auto/ferrari-812-superfast-2dr-auto-1390256430-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-18",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2101,7 +2113,8 @@
           "date": "2026-04-01"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "69",
@@ -2825,7 +2838,7 @@
     {
       "id": "92",
       "title": "2019 Ferrari 812 Superfast 6.5 V12 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£234,990",
+      "price": "£239,000",
       "year": 2019,
       "mileage": "14,261 miles",
       "transmission": "F1 Automated Manual",
@@ -2833,7 +2846,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d0d9b95f66284ee39d55f66c5782690b.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2844,7 +2857,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20192892"
         }
       ],
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£234,990",
+          "date": "2026-04-27"
+        }
+      ]
     },
     {
       "id": "93",
@@ -2968,6 +2986,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021243834"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20324715"
         }
       ]
     },
@@ -3168,13 +3190,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/dca85233fdc74831951cc8f1eda1cc8c.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101447338"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "108",
@@ -3361,13 +3384,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0e7c081265054292adcdfbd14e6ee926.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604181666431"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "117",

@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2008 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£68,750",
+      "price": "£64,980",
       "year": 2008,
       "mileage": "60 miles",
       "transmission": "E-Gear",
@@ -925,6 +925,10 @@
         {
           "price": "£64,980",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1041,7 +1045,7 @@
     {
       "id": "45",
       "title": "2006 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£59,900",
+      "price": "£58,980",
       "year": 2006,
       "mileage": "25000 miles",
       "transmission": "F1 Automated Manual",
@@ -1156,6 +1160,10 @@
         {
           "price": "£58,980",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1185,7 +1193,7 @@
     {
       "id": "47",
       "title": "2011 Lamborghini Gallardo 5.2 V10 LP 550-2 EGear Euro 5 2dr",
-      "price": "£84,995",
+      "price": "£89,995",
       "year": 2011,
       "mileage": "24,928 miles",
       "transmission": "6-Speed Manual",
@@ -1202,6 +1210,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200867783"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£84,995",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1296,8 +1310,8 @@
     },
     {
       "id": "52",
-      "title": "2011 Lamborghini Gallardo  V10 - Blk Blk w 25k mls",
-      "price": "£84,995",
+      "title": "2011 Lamborghini Gallardo  LP 550-2 V10 - Blk Blk w 25k mls",
+      "price": "£89,995",
       "year": "2011",
       "mileage": "24,928 miles",
       "transmission": "Automatic",
@@ -1310,6 +1324,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2034162"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£84,995",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1545,8 +1565,8 @@
     },
     {
       "id": "65",
-      "title": "2012 Lamborghini Gallardo 5.2 V10 LP 560-4 Spyder EGear 4WD Euro 5 2dr",
-      "price": "£89,990",
+      "title": "2012 Lamborghini Gallardo 5.2 V10 LP 560-4 Spyder 2dr Petrol EGear 4WD Euro 5 (560 ps)",
+      "price": "£87,500",
       "year": 2012,
       "mileage": "27,000 miles",
       "transmission": "E-Gear",
@@ -1585,16 +1605,20 @@
         {
           "price": "£87,500",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£89,990",
+          "date": "2026-04-27"
         }
       ]
     },
     {
       "id": "66",
-      "title": "2007 Lamborghini Gallardo 5.0 V10 Spyder 4WD Euro 4 2dr",
+      "title": "2007 Lamborghini Gallardo 5.0 V10 Spyder 2dr Petrol Manual 4WD Euro 4 (520 ps)",
       "price": "£89,950",
       "year": 2007,
       "mileage": "36,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/97e110edecae4d6c8340befd98bbe5a0.jpg",
       "featured": false,

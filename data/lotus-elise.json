@@ -1047,7 +1047,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2037370/2002-lotus-elise-69c557316c88b.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6f472901d1cc3b7c72500f15ced00a7f",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1059,7 +1059,8 @@
           "price": "£14,750",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "51",
@@ -1759,7 +1760,7 @@
     {
       "id": "83",
       "title": "2004 Lotus Elise 1.8 111R Convertible 2dr Petrol Manual (208 g/km, 189 bhp)",
-      "price": "£20,000",
+      "price": "£18,500",
       "year": 2004,
       "mileage": "41,000 miles",
       "transmission": "6-Speed Manual",
@@ -1772,6 +1773,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506183648564"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£20,000",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2675,13 +2682,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/e71fe16d6d49474ba85ff8a1552260d1.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604031276297"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "124",
@@ -2951,7 +2959,7 @@
     {
       "id": "137",
       "title": "2010 Lotus Elise S3",
-      "price": "£26,995",
+      "price": "£25,995",
       "year": "2010",
       "mileage": "21,500 miles",
       "transmission": "6-Speed Manual",
@@ -2964,6 +2972,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2043860"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£26,995",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -3010,22 +3024,27 @@
     {
       "id": "140",
       "title": "2015 Lotus Elise 1.8 S CR Euro 5 2dr",
-      "price": "£34,000",
+      "price": "£39,000",
       "year": 2015,
       "mileage": "35,000 miles",
       "transmission": "Unknown",
       "bodyType": null,
-      "image": "",
+      "image": "https://m.atcdn.co.uk/a/media/w480/f97d802ee6eb4b0db9b5f32060880351.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301150165"
         }
       ],
-      "unlistedDate": "2026-04-14"
+      "priceHistory": [
+        {
+          "price": "£34,000",
+          "date": "2026-04-27"
+        }
+      ]
     },
     {
       "id": "141",
@@ -3207,7 +3226,7 @@
     },
     {
       "id": "150",
-      "title": "2005 Used  LOTUS ELISE",
+      "title": "2005 Lotus Elise 1.8 111S 2dr",
       "price": "£20,495",
       "year": 2005,
       "mileage": "44,000 miles",
@@ -3221,6 +3240,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20232660"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604221771400"
         }
       ],
       "unlistedDate": "2026-04-14"
@@ -3287,7 +3310,7 @@
     {
       "id": "154",
       "title": "2002 Lotus Elise Convertible 1.8 16V 2DR Manual",
-      "price": "£24,950",
+      "price": "£23,950",
       "year": 2002,
       "mileage": "7,000 Miles From New",
       "transmission": "6-Speed Manual",
@@ -3300,6 +3323,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101450540"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£24,950",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -3343,7 +3372,7 @@
     },
     {
       "id": "157",
-      "title": "2007 Lotus Elise S2 S Touring +",
+      "title": "2007 **DEPOSIT RECEIVED** 2007 Lotus Elise S2 S Touring +",
       "price": "£22,495",
       "year": "2007",
       "mileage": "35,500 miles",
@@ -3651,13 +3680,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1885633/1997-lotus-elise-682f7a80f055a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=16db44892b658615388046917582272e",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1885633"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "173",
@@ -3670,13 +3700,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1995141/2002-lotus-elise-695c3abc956be.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4f540e265a5f57c253c46b5b2825f9e5",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1995141"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "174",
@@ -3786,13 +3817,14 @@
       "image": "/uploads/cars/lotus/C2049667/2003-lotus-elise-69dfc767771b1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=54cc9f16fd0fc14c92e8901b1cf362c2",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2049667"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "180",
@@ -4005,13 +4037,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/b2e1f862ea624f3ba51a25b13b68272a.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171637674"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "191",
@@ -4129,7 +4162,7 @@
     },
     {
       "id": "197",
-      "title": "1998 Lotus Elise 111S S1",
+      "title": "1998 LOTUS ELISE Series 1",
       "price": "£10,000",
       "year": "1998",
       "mileage": "60,984 miles",
@@ -4143,6 +4176,177 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2054895"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "title": "2018 Lotus Elise 1.8 Sport 220 Euro 6 2dr",
+      "price": "£39,500",
+      "year": 2018,
+      "mileage": "11,335 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/6dca591ea9e74acd94c57a71eb55b2d5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604221759944"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "title": "2014 Lotus Elise 1.8L 2d 217 BHP Convertible",
+      "price": "£23,995",
+      "year": 2014,
+      "mileage": "51,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/89ac7966419248c2b4abefb558674845.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231818341"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "title": "1999 Lotus Elise 1.8 2dr",
+      "price": "£30,000",
+      "year": 1999,
+      "mileage": "5,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/65f21ecb47ae45f3acb19db2a20ff7f9.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604251877324"
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "title": "1999 Lotus Elise 1.8 2dr",
+      "price": "£19,995",
+      "year": 1999,
+      "mileage": "107,577 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/526fb06dd8f344a6864f10a778c89d28.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604241850456"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "2001 Lotus Elise S2 111",
+      "price": "£20,000",
+      "year": "2001",
+      "mileage": "53,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2057564/2001-lotus-elise-69edea03ecc1e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2982379c37056877da178c8dea33d463",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2057564"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "2001 Lotus Elise S1",
+      "price": "£21,495",
+      "year": "2001",
+      "mileage": "29,775 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2056091/2001-lotus-elise-69ea0d79d567a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e1e4ff93fd0ecf0a5b457625d6c81614",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2056091"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "title": "1997 Lotus Elise S1 (1996 - 2001)  Roadster",
+      "price": "£20,495",
+      "year": "1997",
+      "mileage": "23,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/lotus/C2057645/1997-lotus-elise-69ee1a5984e44.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2382d81855d800710faf3bfbd4da8e97",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057645"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "title": "2003 Lotus Elise S2 135R",
+      "price": "£16,000",
+      "year": "2003",
+      "mileage": "43,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2057404/2003-lotus-elise-69ed298a22337.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=55554ef56476625b16791070ec9c01c6",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2057404"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "title": "2000 Lotus Elise S1 Type 49",
+      "price": "£14,000",
+      "year": "2000",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2055050/2000-lotus-elise-69e89b8b7b10d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3f56935d590101cc2876dc410aa46101",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2055050"
         }
       ]
     }

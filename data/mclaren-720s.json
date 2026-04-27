@@ -860,6 +860,14 @@
         {
           "price": "£114,989",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£118,995",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£114,989",
+          "date": "2026-04-27"
         }
       ],
       "bodyType": "Coupe"
@@ -1601,7 +1609,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/16de2157d4db4379b38d5fc4aa0f772f.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1618,7 +1626,8 @@
           "price": "£154,900",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "44",
@@ -2544,7 +2553,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fc2d686cb15c40648c0cc6d11bedcb24.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2554,8 +2563,7 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20294413"
         }
-      ],
-      "unlistedDate": "2026-04-17"
+      ]
     },
     {
       "id": "79",
@@ -2647,6 +2655,14 @@
         {
           "price": "£128,000",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£128,990",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2788,6 +2804,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081358091"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20325132"
         }
       ]
     },
@@ -2963,13 +2983,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a8f62713250243e99c41cc9e3e89d48a.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604141525210"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "96",
@@ -3040,13 +3061,14 @@
       "image": "/uploads/new/29771813/2022-mclaren-720s-spider-69e17ba423fdd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=04ab49ecb93561aaf13149f2b32168d8",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2050393"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "100",
@@ -3097,13 +3119,14 @@
       "image": "/uploads/new/29813467/2023-mclaren-750s-spider-69e2cef1924cf.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fea996f40a15b59633fdc7af06198e9e",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051268"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "103",
@@ -3116,13 +3139,14 @@
       "image": "/uploads/new/29825008/2018-mclaren-720-69e2ee2bc0756.png?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=464f613b8a7737e97fdb90fd1bd980c1",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051557"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "104",
@@ -3178,6 +3202,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/auctions/2023-mclaren-720s-nQXyxg"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "title": "2021 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£144,990",
+      "year": 2021,
+      "mileage": "14,950 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/2215098a5b124477824aaa7c4a505da4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231801942"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "title": "2020 McLaren 720S 4.0T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£175,000",
+      "year": 2020,
+      "mileage": "17,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/9eb8092e822e43deab0344482bfd3255.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604221780077"
         }
       ]
     }

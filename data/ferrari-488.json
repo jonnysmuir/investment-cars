@@ -1710,6 +1710,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601309554678"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20329196"
         }
       ],
       "priceHistory": [
@@ -2852,9 +2856,14 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601319576338"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20223674"
         }
       ],
-      "unlistedDate": "2026-03-26"
+      "unlistedDate": "2026-03-26",
+      "bodyType": null
     },
     {
       "id": "114",
@@ -3101,14 +3110,14 @@
     {
       "id": "126",
       "title": "2016 Ferrari 488 3.9T V8 GTB F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£154,990",
+      "price": "£154,995",
       "year": 2016,
       "mileage": "12,890 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/0e7c081265054292adcdfbd14e6ee926.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3119,8 +3128,13 @@
           "url": "https://www.pistonheads.com/buy/listing/20290802"
         }
       ],
-      "unlistedDate": "2026-04-02",
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£154,990",
+          "date": "2026-04-27"
+        }
+      ]
     },
     {
       "id": "127",

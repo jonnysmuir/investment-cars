@@ -886,11 +886,11 @@
     {
       "id": "43",
       "title": "1990 Porsche 944 3.0 16v S2 Coupe 2dr Petrol Manual (211 bhp)",
-      "price": "£12,450",
+      "price": "£11,998",
       "year": 1990,
       "mileage": "130,000 miles",
       "transmission": "6-Speed Manual",
-      "bodyType": "Convertible",
+      "bodyType": "Coupe",
       "image": "https://img.pistonheads.com/LargeSize/porsche/944/s2/porsche-944-s2-1403343580-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -913,6 +913,10 @@
         {
           "price": "£11,998",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£12,450",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1185,14 +1189,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/64df3a97d8cb4e819d3f1fe2b4e05c7f.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202410135157274"
         }
-      ],
-      "unlistedDate": "2026-04-22"
+      ]
     },
     {
       "id": "57",
@@ -1224,14 +1227,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/05acb5e18c5743f180a00bea8624c9b7.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271067286"
         }
-      ],
-      "unlistedDate": "2026-04-19"
+      ]
     },
     {
       "id": "59",
@@ -1333,23 +1335,22 @@
     },
     {
       "id": "64",
-      "title": "1989 Porsche 944 3.0 16v S2 2dr",
+      "title": "1989 Porsche 944 3.0 16v S2 Convertible 2dr Petrol Manual (211 bhp)",
       "price": "£14,000",
       "year": 1989,
       "mileage": "113,470 miles",
-      "transmission": "Unknown",
-      "bodyType": null,
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/1d15b0e8e83e4cecb289cdc570fbed72.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512108508821"
         }
-      ],
-      "unlistedDate": "2026-04-02"
+      ]
     },
     {
       "id": "65",
@@ -1421,13 +1422,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1ef5ca03cce84adc8158a15582bc1101.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301120142"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "69",
@@ -1536,7 +1538,7 @@
     {
       "id": "74",
       "title": "1991 Porsche 944 S2",
-      "price": "£12,000",
+      "price": "£11,200",
       "year": "1991",
       "mileage": "164,433 miles",
       "transmission": "6-Speed Manual",
@@ -1555,6 +1557,10 @@
         {
           "price": "£12,500",
           "date": "2026-04-08"
+        },
+        {
+          "price": "£12,000",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1670,14 +1676,13 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1851557/1990-porsche-944-67d984afa1227.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=28ce61dc51849a9983468e89f50266f2",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1851557"
         }
-      ],
-      "unlistedDate": "2026-04-19"
+      ]
     },
     {
       "id": "81",
@@ -1750,13 +1755,14 @@
       "image": "/uploads/cars/porsche/C2049788/1989-porsche-944-69e007115aede.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9fda41e96f92954c27eca1a0229d0f3e",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2049788"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "85",
@@ -1812,6 +1818,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2052056"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "title": "1988 Porsche 944 1988 2.5",
+      "price": "£9,000",
+      "year": "1988",
+      "mileage": "134,401 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2055186/1988-porsche-944-69e90008b190a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=06339af0228d2e18727dd7c52014ecd3",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2055186"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "title": "1988 Porsche 944 Lux",
+      "price": "POA",
+      "year": "1988",
+      "mileage": "190,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/30008126/1988-porsche-944-69d622f128d2a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4b4b7791a5cebfb3664d002d8e57e019",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/auctions/1988-porsche-944-lux-gy9MRg"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "title": "1987 Rare Porsche 944 Turbo in Nautical Blue",
+      "price": "£22,950",
+      "year": "1987",
+      "mileage": "135,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C1866434/1987-porsche-944-67fe375fdd18a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e49f064d645b95228e131c7372ccf82a",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C1866434"
         }
       ]
     }

@@ -808,7 +808,7 @@
     {
       "id": "40",
       "title": "2003 Used  FERRARI 360",
-      "price": "£75,000",
+      "price": "£85,000",
       "year": 2003,
       "mileage": "25,154 miles",
       "transmission": "6-Speed Manual",
@@ -822,7 +822,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19670930"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£75,000",
+          "date": "2026-04-27"
+        }
+      ]
     },
     {
       "id": "41",
@@ -1104,14 +1110,14 @@
     {
       "id": "48",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£64,995",
+      "price": "£67,950",
       "year": 2000,
       "mileage": "01975 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/360/ferrari-360-S4900597-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1198,10 +1204,13 @@
         {
           "price": "£67,950",
           "date": "2026-04-07"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-04-27"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-21"
+      "bodyType": "Coupe"
     },
     {
       "id": "49",
@@ -1377,7 +1386,7 @@
     {
       "id": "57",
       "title": "2000 Ferrari 360 3.6 Modena F1 Coupe 2dr Petrol Automatic (440 g/km, 400 bhp)",
-      "price": "£59,950",
+      "price": "£61,970",
       "year": 2000,
       "mileage": "33,100 miles",
       "transmission": "F1 Automated Manual",
@@ -1523,6 +1532,10 @@
         {
           "price": "£61,970",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£59,950",
+          "date": "2026-04-27"
         }
       ],
       "bodyType": "Coupe"
@@ -2021,14 +2034,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28900863/1999-ferrari-360-modena-69bcb8b5bd208.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ffa01385ec16d879deef1b844ef428ae",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033784"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "83",
@@ -2679,6 +2693,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202204285138856"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2001 FERRARI 360 MODENA Spider",
+      "price": "£55,000",
+      "year": "2001",
+      "mileage": "26,520 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30109016/2001-ferrari-360-modena-69eb25fb4d6d5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9adbc9a943a7f7b5d9681a4f10971bd9",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2056541"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "2004 Ferrari 360 Spider",
+      "price": "£79,990",
+      "year": "2004",
+      "mileage": "28,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30045192/2004-ferrari-360-69e97efd88ab1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b30c46a87ad346e8fe59d9678aa0bf04",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2055513"
         }
       ]
     }

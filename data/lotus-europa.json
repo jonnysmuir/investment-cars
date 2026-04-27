@@ -177,13 +177,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1922427/1972-lotus-europa-689388b986698.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57b1ead56d0de3b1dba9f96291de28e3",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1922427"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "10",
@@ -442,7 +443,7 @@
     {
       "id": "23",
       "title": "2008 Used  LOTUS EUROPA",
-      "price": "£30,000",
+      "price": "£29,950",
       "year": 2008,
       "mileage": "N/A",
       "transmission": "6-Speed Manual",
@@ -455,6 +456,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20173322"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£30,000",
+          "date": "2026-04-27"
         }
       ]
     },

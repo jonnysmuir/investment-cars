@@ -1058,13 +1058,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C1884043/2017-mercedes-amg-c63s-edition-1-689a8cdec59c2.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fc358ff2700f2eef76816129b1faf996",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1884043"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "52",
@@ -1141,7 +1142,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2040375/2016-mercedes-c-class-69cc2c56cb2f2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c9a7a8f24846ac414897fcecac01ae7b",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1161,7 +1162,8 @@
           "price": "£30,990",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "56",
@@ -1455,6 +1457,65 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2053075"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "2012 Mercedes-Benz (W204) C63 AMG Coupe - Performance Pack",
+      "price": "Sold",
+      "year": 2012,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://images.collectingcars.com/086971/13-04-26-JJBB-03.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2026-04-27",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2012-mercedes-benz-w204-c63-amg-coupe-10"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "2018 Used  MERCEDES-BENZ AMG C 63 S PREMIUM AUTO",
+      "price": "£39,995",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/c-class-amg/mercedes-benz-c-class-amg-S4950364-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20329573"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "2012 MERCEDES-BENZ C-CLASS 6.3 C63 V8 AMG Edition 125 Coupe",
+      "price": "£24,995",
+      "year": "2012",
+      "mileage": "55,883 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/30142332/2012-mercedes-benz-c-class-69ec7b5168b6a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b8a2174f910c7872be85a0f899553709",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057116"
         }
       ]
     }

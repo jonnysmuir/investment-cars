@@ -764,7 +764,7 @@
     {
       "id": "37",
       "title": "2019 Maserati Granturismo 4.7 V8 Sport Nerissimo Auto Euro 6 2dr",
-      "price": "£52,980",
+      "price": "£51,980",
       "year": 2019,
       "mileage": "25,000 miles",
       "transmission": "Automatic",
@@ -799,6 +799,10 @@
         {
           "price": "£53,380",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£52,980",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1298,7 +1302,7 @@
     {
       "id": "52",
       "title": "2009 Maserati Granturismo 4.7 V8 S Auto Euro 4 2dr",
-      "price": "£24,495",
+      "price": "£23,750",
       "year": 2009,
       "mileage": "39,000 miles",
       "transmission": "Automatic",
@@ -1325,6 +1329,10 @@
         {
           "price": "£23,995",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£24,495",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1435,13 +1443,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/maserati/C1961813/2016-maserati-granturismo-68f8e3da7b8a4.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=707a35f3b0c74c13e2f43fde751680fe",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1961813"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "59",
@@ -1531,7 +1540,7 @@
     {
       "id": "63",
       "title": "2020 Maserati Granturismo 4.7 V8 MC Auto Euro 6 2dr",
-      "price": "£58,480",
+      "price": "£57,980",
       "year": 2020,
       "mileage": "29,000 miles",
       "transmission": "Automatic",
@@ -1558,6 +1567,10 @@
         {
           "price": "£58,980",
           "date": "2026-04-15"
+        },
+        {
+          "price": "£58,480",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1908,6 +1921,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120647630"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20322932"
         }
       ]
     },
@@ -3206,6 +3223,122 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2053378"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "title": "2009 Maserati Granturismo S",
+      "price": "Sold",
+      "year": 2009,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/086965/AS-13-04-13.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2026-04-27",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2009-maserati-granturismo-s-6"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "title": "2019 Used  MASERATI GRANTURISMO",
+      "price": "£64,950",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/mc-trofeo-gt4/maserati-granturismo-mc-trofeo-gt4-1431928313-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20324345"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "title": "2017 Used  MASERATI GRANTURISMO",
+      "price": "£37,940",
+      "year": 2017,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/4-7-v8-sport-coupe-automatic/maserati-granturismo-4-7-v8-sport-coupe-automatic-1431928152-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20324329"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "title": "2011 Used  MASERATI GRANTURISMO",
+      "price": "£21,721",
+      "year": 2011,
+      "mileage": "55,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/maserati/granturismo/maserati-granturismo-1430756378-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20282217"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "title": "2013 Maserati Granturismo S 4.7L",
+      "price": "£22,000",
+      "year": "2013",
+      "mileage": "53,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/29553636/maserati.webp?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=479493a531b958f647e963d22f60b364",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2013-maserati-granturismo-s-47l-nrbO7n"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "title": "2017 Maserati Granturismo 4.7 V8 Sport Coupe Automatic. UK.",
+      "price": "£37,940",
+      "year": "2017",
+      "mileage": "33,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/maserati/C2057043/2017-maserati-granturismo-69ec72a87e05c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b0ee7dcd3cbe4f8e17bd0936af01f1d4",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057043"
         }
       ]
     }

@@ -281,7 +281,7 @@
     {
       "id": "14",
       "title": "2018 Lotus Evora 3.5 V6 400 Coupe 2dr Petrol IPS Euro 6 2 + 2 (406 ps)",
-      "price": "£50,999",
+      "price": "£49,999",
       "year": 2018,
       "mileage": "15609 miles",
       "transmission": "Automatic",
@@ -298,6 +298,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602169971615"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£50,999",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -420,7 +426,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/evora/3-5-v6-coupe-2dr-petrol-manual-euro-4-280-ps/lotus-evora-3-5-v6-coupe-2dr-petrol-manual-euro-4-280-ps-1419759125-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -430,8 +436,7 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512218737581"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "21",
@@ -573,6 +578,14 @@
         {
           "price": "£45,995",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£44,995",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£45,995",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1133,7 +1146,7 @@
       "price": "£45,995",
       "year": 2015,
       "mileage": "20,045 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/e05673a37fa548d2b904bbd059487733.jpg",
       "featured": false,
@@ -1143,6 +1156,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509256620299"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20324328"
         }
       ]
     },
@@ -1157,7 +1174,7 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/evora/lotus-evora-1421596070-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1167,7 +1184,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311163591"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "53",
@@ -1252,12 +1270,12 @@
     },
     {
       "id": "57",
-      "title": "2016 Lotus Evora 3.5 V6 400 IPS Euro 6 2dr 2 + 2",
+      "title": "2016 Lotus Evora 3.5 V6 400 Coupe 2dr Petrol IPS Euro 6 2 + 2 (406 ps)",
       "price": "£42,995",
       "year": 2016,
       "mileage": "33,400 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/23c3cf094cbf44378b67f0145d2d6107.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
@@ -1271,10 +1289,10 @@
     },
     {
       "id": "58",
-      "title": "2017 Used  LOTUS EVORA",
+      "title": "2017 Lotus Evora 3.5 V6 400 Euro 6 2dr 2 + 2",
       "price": "£46,000",
       "year": 2017,
-      "mileage": "N/A",
+      "mileage": "30,800 miles",
       "transmission": "Unknown",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/lotus/evora/3-5-v6-400-coupe-manual/lotus-evora-3-5-v6-400-coupe-manual-1424583450-1.jpg",
@@ -1285,6 +1303,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20165753"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604251872957"
         }
       ],
       "unlistedDate": "2026-04-21"
@@ -1348,12 +1370,12 @@
     },
     {
       "id": "62",
-      "title": "2015 Lotus Evora 3.5 V6 S Sports Racer IPS Euro 5 2dr",
+      "title": "2015 Lotus Evora 3.5 V6 S Sports Racer Coupe 2dr Petrol IPS Euro 5 (350 ps)",
       "price": "£43,990",
       "year": 2015,
       "mileage": "26,000 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/74346adb9a5247eaae24a1abb28e5ca9.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
@@ -1362,6 +1384,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201687542"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "2015 Lotus Evora 3.5 V6 S Sports Racer Coupe 2dr Petrol IPS Euro 5 (350 ps)",
+      "price": "£44,495",
+      "year": 2015,
+      "mileage": "26,013 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/9df5d6861e4c4e9c8160f0e4c5632215.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604241845216"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2015 Lotus Evora 3.5 V6 400 Coupe 2dr Petrol Manual Euro 6 2 + 2 (406 ps)",
+      "price": "£48,999",
+      "year": 2015,
+      "mileage": "29,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/ede43cf17848445da95250d789c4f5d5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231829187"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2013 LOTUS EVORA S",
+      "price": "£30,000",
+      "year": "2013",
+      "mileage": "52,518 km",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30140268/2013-lotus-evora-s-69ec7531888c2.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a74d205d23a305d9e771fbd381bc6a9d",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057049"
         }
       ]
     }

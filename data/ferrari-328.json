@@ -772,14 +772,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2015131/1987-ferrari-328-69918a4a48291.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=59841d3cd138410c8b1326069f328e51",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2015131"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "37",
@@ -1178,6 +1179,63 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1991271"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "1988 Ferrari 328 3.2 GTS Convertible 2dr Petrol Manual (270 bhp)",
+      "price": "£69,995",
+      "year": 1988,
+      "mileage": "61,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7d934e9f1cbd4c38bfff93bc4be07a89.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231822796"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "title": "1988 Ferrari 328 3.2 GTS Convertible 2dr Petrol Manual (270 bhp)",
+      "price": "£74,995",
+      "year": 1988,
+      "mileage": "50,424 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/52f77004f8304c82800188ecb45f5530.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171631328"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "1989 Ferrari 328 GTS",
+      "price": "£84,995",
+      "year": "1989",
+      "mileage": "46,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2056793/1989-ferrari-328-69eb73620aead.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=229439ae4e39fe17bac0a419c83312dd",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2056793"
         }
       ]
     }

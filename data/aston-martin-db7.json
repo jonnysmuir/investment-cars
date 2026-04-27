@@ -1101,6 +1101,14 @@
         {
           "price": "£29,950",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£28,950",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£29,950",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1115,7 +1123,7 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/v12-vantage-volante-2dr-auto/aston-martin-db7-v12-vantage-volante-2dr-auto-1393043462-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1131,8 +1139,7 @@
           "price": "£25,750",
           "date": "2026-04-09"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "45",
@@ -1168,6 +1175,14 @@
         {
           "price": "£22,500",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£19,098",
+          "date": "2026-04-27"
+        },
+        {
+          "price": "£19,000",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -1955,13 +1970,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/99e9b033e5c34bda8cefc21ef6398e39.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509046047485"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "81",
@@ -2167,7 +2183,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/26a70cf274fe48eda4b8e3878be66c31.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2183,7 +2199,8 @@
           "price": "£25,995",
           "date": "2026-03-30"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "91",
@@ -2311,7 +2328,7 @@
     {
       "id": "97",
       "title": "1998 Aston Martin DB7 3.2 Volante 2dr",
-      "price": "£28,995",
+      "price": "£27,995",
       "year": 1998,
       "mileage": "60,000 miles",
       "transmission": "Unknown",
@@ -2324,6 +2341,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603281095526"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£28,995",
+          "date": "2026-04-27"
         }
       ]
     },
@@ -2481,13 +2504,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/vantage/aston-martin-db7-vantage-S4940299-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/16105532"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "106",
@@ -2621,6 +2645,63 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19316579"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "title": "2004 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
+      "price": "£30,000",
+      "year": 2004,
+      "mileage": "22,109 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7490357bbaae46148c2a07b79ecae4ec.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151574905"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "title": "1995 Aston Martin DB7",
+      "price": "£12,000",
+      "year": "1995",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2055038/1995-aston-martin-db7-69e89822520b2.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5b5c9f5650bbff1cdc56014a73ef5f25",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2055038"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "title": "2004 Aston Martin DB7  GT",
+      "price": "£39,850",
+      "year": "2004",
+      "mileage": "42,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2057118/2004-aston-martin-db7-69ec781e905b5.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=96e0fd8ee3bee4b85e040d68752f2ca5",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057118"
         }
       ]
     }

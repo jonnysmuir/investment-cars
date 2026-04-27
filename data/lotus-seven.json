@@ -211,7 +211,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2047088/1965-lotus-seven-69da93febd4a3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e1041e5f2d987a8bc339f23829f9de8f",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -223,7 +223,8 @@
           "price": "£25,995",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-27"
     },
     {
       "id": "12",
@@ -241,6 +242,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/auctions/1969-lotus-seven-series-3-8lJ9Nn"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "1969 Lotus Seven Series 3",
+      "price": "£15,500",
+      "year": "1969",
+      "mileage": "70,531 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29559675/21b205aa-20f6-40d1-b368-7c77da36e679.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=be5cbd825dfb71c7cc50b43599021cae",
+      "featured": false,
+      "dateAdded": "2026-04-27",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/1969-lotus-seven-series-3-8lJ9Nn"
         }
       ]
     }
