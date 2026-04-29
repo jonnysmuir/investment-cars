@@ -573,21 +573,22 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/challenge/ferrari-355-challenge-1332481920-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18616652"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "29",
-      "title": "1998 Used  FERRARI F355",
+      "title": "1998 Ferrari 355 F1 F1 Semi-automatic 3.5",
       "price": "£79,995",
       "year": 1998,
-      "mileage": "N/A",
+      "mileage": "22,900 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/355/ferrari-355-S4933063-1.jpg",
       "featured": false,
@@ -597,6 +598,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18470723"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604181655424"
         }
       ],
       "bodyType": null
@@ -843,14 +848,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1891990/1997-ferrari-f355-683ec41f240c9.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ccce52c42fdac344e461c7e40f448354",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1891990"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "42",
@@ -2155,6 +2161,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20301489"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "title": "1999 Ferrari 355 F1 F1 Spider, Fiorano Handling Pack. 1 Owner, 11k 3.5 2dr",
+      "price": "£149,950",
+      "year": 1999,
+      "mileage": "11,455 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/4a421806b1714003bf89956bf14dcc77.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604011200380"
         }
       ]
     }

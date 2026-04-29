@@ -690,13 +690,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f2fa057fc2b14371913b384ec4c5f7ce.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171625497"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "27",
@@ -733,6 +734,82 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604211728381"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "2021 Used  FERRARI F8 SPIDER S-A",
+      "price": "£279,000",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f8-spider/v8-spider/ferrari-f8-spider-v8-spider-1433024702-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20331015"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "2020 Ferrari 3.9 F8 Tributo Semi-Auto 2dr",
+      "price": "£249,995",
+      "year": 2020,
+      "mileage": "8,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/c8bb52f4996c433b8e6f3e14ef1daaae.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604141533220"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "2022 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£289,995",
+      "year": 2022,
+      "mileage": "4,293 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/5d738cf614e5486094c7b64fa6c964c6.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231791429"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "2020 Ferrari F8 Spider 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£235,000",
+      "year": 2020,
+      "mileage": "11,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/0630fc39aef640afbd92bae234b8f899.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604281964188"
         }
       ]
     }

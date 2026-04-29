@@ -1082,6 +1082,14 @@
         {
           "price": "£22,999",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£22,990",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£22,999",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1268,13 +1276,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2015371/2005-bmw-m6-6991c4fa35c61.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=100&w=800&s=f60f8763a915f49f84095833b526c655",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015371"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "56",
@@ -1563,7 +1572,7 @@
     {
       "id": "69",
       "title": "2016 Used  BMW M6",
-      "price": "£29,895",
+      "price": "£29,695",
       "year": 2016,
       "mileage": "100 miles",
       "transmission": "Unknown",
@@ -1576,6 +1585,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20178543"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£29,895",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1609,7 +1624,7 @@
       "image": "https://img.pistonheads.com/LargeSize/bmw/m6/5-0-v10-smg-euro-4-2dr/bmw-m6-5-0-v10-smg-euro-4-2dr-1423784298-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1619,7 +1634,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604041298050"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "72",
@@ -1677,13 +1693,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a7e5a36166874c0984b08908a14b538f.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021258342"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "75",
@@ -1984,6 +2001,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20315720"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£28,990",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£29,990",
+          "date": "2026-04-29"
+        }
       ]
     },
     {
@@ -2031,7 +2058,7 @@
     {
       "id": "91",
       "title": "2014 BMW M6 4.4 V8 Convertible 2dr Petrol DCT Euro 6 (s/s) (560 ps)",
-      "price": "£16,999",
+      "price": "£16,695",
       "year": 2014,
       "mileage": "89,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2044,6 +2071,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604181661820"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£16,999",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2405,6 +2438,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309272411128"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2006 Used  BMW M6",
+      "price": "£13,999",
+      "year": 2006,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/bmw/m6/m6/bmw-m6-m6-S4950745-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20335843"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2016 2013 LHD BMW M6 CONVERTIBLE 4.4 TWIN TURBO LEFT-HAND-DRIVE",
+      "price": "£24,000",
+      "year": "2016",
+      "mileage": "83,255 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/bmw/C2058616/2016-bmw-m6-69efbb8c0f4c6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=5a984bc91df588fecf55ee52c3b18de6",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058616"
         }
       ]
     }

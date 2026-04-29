@@ -507,7 +507,7 @@
     {
       "id": "24",
       "title": "2025 Lotus Evora 3.5 V6 S Sports Racer Coupe 2dr Petrol IPS Euro 5 (350 ps) LEFT HAND DRIVE FULL LOTUS HISTORY LHD year 2015",
-      "price": "£44,995",
+      "price": "£45,995",
       "year": 2015,
       "mileage": "18,000 miles",
       "transmission": "Unknown",
@@ -586,6 +586,10 @@
         {
           "price": "£45,995",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£44,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -926,14 +930,13 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/evora/3-5-v6-s-sports-racer-coupe-2dr-petrol-ips-euro-5-350-ps/lotus-evora-3-5-v6-s-sports-racer-coupe-2dr-petrol-ips-euro-5-350-ps-1408191627-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19961789"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "42",
@@ -941,7 +944,7 @@
       "price": "£29,975",
       "year": 2010,
       "mileage": "27,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/fb0285df5ca14fe4841f1c7f5e25cc42.jpg",
       "featured": false,
@@ -951,6 +954,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601149126456"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20335930"
         }
       ],
       "priceHistory": [
@@ -1143,7 +1150,7 @@
     {
       "id": "51",
       "title": "2015 Lotus Evora Lotus Evora S V6 2dr",
-      "price": "£45,995",
+      "price": "£44,495",
       "year": 2015,
       "mileage": "20,045 miles",
       "transmission": "Automatic",
@@ -1160,6 +1167,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20324328"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£45,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1212,7 +1225,7 @@
       "price": "£59,995",
       "year": 2019,
       "mileage": "35,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/41a38e96e10844ab90f98b06e4b66b1f.jpg",
       "featured": false,
@@ -1222,6 +1235,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011204749"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20331338"
         }
       ]
     },
@@ -1441,6 +1458,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057049"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "2013 Used  LOTUS EVORA S",
+      "price": "£36,000",
+      "year": 2013,
+      "mileage": "26500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/evora/v6-s-sports-racer-4/lotus-evora-v6-s-sports-racer-4-S4950527-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20330797"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "2019 Lotus Evora GT410 Sport 2+2",
+      "price": "£59,795",
+      "year": "2019",
+      "mileage": "25,700 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2058691/2019-lotus-evora-69f10ea1c4995.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c2f9f74a50d00197b48b286f8bc0b697",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058691"
         }
       ]
     }

@@ -814,7 +814,7 @@
     },
     {
       "id": "40",
-      "title": "2005 Ferrari 612 Scaglietti V12 4.3",
+      "title": "2005 Ferrari 612 Scaglietti V12 4.3 2dr",
       "price": "£69,950",
       "year": 2005,
       "mileage": "22,000 miles",
@@ -1118,14 +1118,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2023499/2007-ferrari-612-69a70e2b227c6.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=629c24804d798227faadc50957be2ad8",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2023499"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "56",
@@ -1253,15 +1254,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/8c4052291d1543ca8ea623faa4ea9c58.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510177231424"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-21"
+      "bodyType": null
     },
     {
       "id": "62",
@@ -1329,15 +1329,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/83367821b67c4b9c85a25b6d48105ce8.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202309031498291"
         }
       ],
-      "bodyType": "Coupe",
-      "unlistedDate": "2026-04-19"
+      "bodyType": "Coupe"
     },
     {
       "id": "65",
@@ -1592,7 +1591,7 @@
     {
       "id": "77",
       "title": "2006 Ferrari 612 5.7 Scaglietti FI Coupe 2dr Petrol Automatic (475 g/km, 532 bhp)",
-      "price": "£52,750",
+      "price": "£51,750",
       "year": 2006,
       "mileage": "52,000 miles",
       "transmission": "Automatic",
@@ -1615,6 +1614,10 @@
         {
           "price": "£53,750",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£52,750",
+          "date": "2026-04-29"
         }
       ]
     },

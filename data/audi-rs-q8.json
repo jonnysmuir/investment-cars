@@ -632,13 +632,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/158723c5040548cc863d21884490394d.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091406062"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "31",
@@ -709,13 +710,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs-q8/4-0-tfsi-v8-vorsprung-tiptronic-quattro-euro-6-s-s-5dr/audi-rs-q8-4-0-tfsi-v8-vorsprung-tiptronic-quattro-euro-6-s-s-5dr-1419095259-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20134396"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "35",
@@ -828,6 +830,82 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2056563"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "2022 Audi RSQ8 4.0 TFSI V8 Vorsprung 5dr",
+      "price": "£94,995",
+      "year": 2022,
+      "mileage": "26,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/de0bfe5871e84c1fab7564e44376bb72.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604271910333"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "2021 Audi RSQ8 4.0 TFSI V8 Vorsprung SUV 5dr Petrol Tiptronic quattro Euro 6 (s/s) (600 ps)",
+      "price": "£76,995",
+      "year": 2021,
+      "mileage": "35,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "SUV",
+      "image": "https://m.atcdn.co.uk/a/media/w640/772f33f74847407a9962b7c409664cc5.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604281940073"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "2025 Audi RSQ8 4.0 TFSI V8 Tiptronic quattro Euro 6 (s/s) 5dr",
+      "price": "£134,995",
+      "year": 2025,
+      "mileage": "7,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f750714865844b3cb1b2febc9b006226.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231800944"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "2024 Audi RSQ8 4.0 TFSI V8 Carbon Black SUV 5dr Petrol Tiptronic quattro Euro 6 (s/s) (600 ps)",
+      "price": "£91,950",
+      "year": 2024,
+      "mileage": "10,486 miles",
+      "transmission": "Unknown",
+      "bodyType": "SUV",
+      "image": "https://m.atcdn.co.uk/a/media/w640/e5e6bca8536649998d59f699d8c5ba1f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601299526794"
         }
       ]
     }

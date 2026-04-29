@@ -58,7 +58,7 @@
     {
       "id": "3",
       "title": "2023 McLaren 750S 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (750 ps)",
-      "price": "£194,990",
+      "price": "£184,990",
       "year": 2023,
       "mileage": "7009 miles",
       "transmission": "Unknown",
@@ -92,6 +92,10 @@
         {
           "price": "£195,990",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£194,990",
+          "date": "2026-04-29"
         }
       ],
       "bodyType": "Coupe"
@@ -205,7 +209,7 @@
     {
       "id": "6",
       "title": "2025 McLaren 750S 4.0T V8 SSG Euro 6 (s/s) 2dr",
-      "price": "£219,990",
+      "price": "£209,990",
       "year": 2025,
       "mileage": "164 miles",
       "transmission": "Unknown",
@@ -243,6 +247,10 @@
         {
           "price": "£219,950",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£219,990",
+          "date": "2026-04-29"
         }
       ],
       "bodyType": null
@@ -685,7 +693,7 @@
     },
     {
       "id": "19",
-      "title": "2024 McLaren 750S 4.0T V8 SSG Euro 6 (s/s) 2dr",
+      "title": "2024 McLaren 750S 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (750 ps)",
       "price": "£199,950",
       "year": 2024,
       "mileage": "2,000 miles",
@@ -704,7 +712,7 @@
           "url": "https://www.pistonheads.com/buy/listing/20129385"
         }
       ],
-      "bodyType": null
+      "bodyType": "Coupe"
     },
     {
       "id": "20",
@@ -947,13 +955,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/015e2481d0e3484196b95a1960e095a6.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330569"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "31",
@@ -994,6 +1003,16 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20303523"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£214,850",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£208,000",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1073,7 +1092,7 @@
     {
       "id": "36",
       "title": "2026 McLaren 750S V8 Performance 2dr SSG Auto 4.0",
-      "price": "£318,740",
+      "price": "£284,990",
       "year": 2026,
       "mileage": "1,000 miles",
       "transmission": "Automatic",
@@ -1090,6 +1109,31 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604251865548"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£318,740",
+          "date": "2026-04-29"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "2025 McLaren 750S 4.0T V8 SSG Euro 6 (s/s) 2dr",
+      "price": "£249,990",
+      "year": 2025,
+      "mileage": "1,267 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/b74f7df811c641259981d519b2368501.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211726526"
         }
       ]
     }

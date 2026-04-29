@@ -281,7 +281,7 @@
     {
       "id": "14",
       "title": "2026 Used  AUDI RS 3 CRBN VRSPRNG TFSI QUAT SA",
-      "price": "£68,795",
+      "price": "£68,995",
       "year": 2026,
       "mileage": "500 miles",
       "transmission": "Automatic",
@@ -300,6 +300,10 @@
         {
           "price": "£68,995",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£68,795",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -435,7 +439,7 @@
     {
       "id": "21",
       "title": "2025 Audi RS3 2.5 TFSI Carbon Vorsprung 5dr",
-      "price": "£59,490",
+      "price": "£59,390",
       "year": 2025,
       "mileage": "13,705 miles",
       "transmission": "Automatic",
@@ -466,6 +470,10 @@
         {
           "price": "£59,650",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£59,490",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -777,7 +785,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/27443721/2019-audi-rs3-69777732034f3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a325dc5125fb951d74879d57bb51fb4",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -797,7 +805,8 @@
           "price": "£33,888",
           "date": "2026-04-14"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "35",
@@ -1337,7 +1346,7 @@
     {
       "id": "59",
       "title": "2023 Audi RS3 2.5 TFSI Vorsprung Sportback S Tronic quattro Euro 6 (s/s) 5dr",
-      "price": "£46,100",
+      "price": "£45,850",
       "year": 2023,
       "mileage": "43,000 miles",
       "transmission": "Unknown",
@@ -1345,7 +1354,7 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs3/2-5-tfsi-sportback-5dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps/audi-rs3-2-5-tfsi-sportback-5dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps-1420405834-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1356,7 +1365,12 @@
           "url": "https://www.autotrader.co.uk/car-details/202603140703302"
         }
       ],
-      "unlistedDate": "2026-04-15"
+      "priceHistory": [
+        {
+          "price": "£46,100",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "60",
@@ -2060,12 +2074,12 @@
     },
     {
       "id": "92",
-      "title": "2022 Used  AUDI RS 3 TFSI QUATTRO S-A",
+      "title": "2022 Audi RS3 2.5 TFSI Carbon Black Saloon 4dr Petrol S Tronic quattro Euro 6 (s/s) (400 ps)",
       "price": "£44,579",
       "year": 2022,
-      "mileage": "N/A",
+      "mileage": "39,896 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Saloon",
       "image": "https://img.pistonheads.com/LargeSize/audi/rs3/2-5-tfsi-sportback-5dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps/audi-rs3-2-5-tfsi-sportback-5dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps-1408287335-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
@@ -2074,6 +2088,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19974462"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202602180028403"
         }
       ],
       "unlistedDate": "2026-04-04"
@@ -2181,7 +2199,7 @@
     {
       "id": "98",
       "title": "2023 Used  AUDI RS 3 CARBON BLACK TFSI QUAT SA",
-      "price": "£46,499",
+      "price": "£46,299",
       "year": 2023,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -2189,14 +2207,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs3/2-5-tfsi-carbon-black-sportback-s-tronic-quattro-euro-6-s-s-5dr/audi-rs3-2-5-tfsi-carbon-black-sportback-s-tronic-quattro-euro-6-s-s-5dr-1421336574-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19658668"
         }
       ],
-      "unlistedDate": "2026-04-13"
+      "priceHistory": [
+        {
+          "price": "£46,499",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "99",
@@ -2384,7 +2407,7 @@
     {
       "id": "108",
       "title": "2021 Used  AUDI RS 3 TFSI QUATTRO S-A",
-      "price": "£42,998",
+      "price": "£42,498",
       "year": 2021,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -2392,14 +2415,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs3/rs-3-sportback-rs-3-tfsi-5dr-s-tronic/audi-rs3-rs-3-sportback-rs-3-tfsi-5dr-s-tronic-1404393472-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19718270"
         }
       ],
-      "unlistedDate": "2026-04-27"
+      "priceHistory": [
+        {
+          "price": "£42,998",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "109",
@@ -3159,13 +3187,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/26541237/2016-audi-rs3-693438c654936.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0552f908569bff4cd46b0cb91cf76e42",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1984660"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "146",
@@ -4166,13 +4195,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/7057d6b739cf4f8b86c9ee0fbe0743fe.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604161615920"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "196",
@@ -4185,13 +4215,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/d1bd52ae20044a078ab9a14bbe44dc14.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151584718"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "197",
@@ -4571,6 +4602,177 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171627894"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "title": "2022 Used  AUDI RS 3 LAUNCH ED TFSI QUAT S-A",
+      "price": "£43,995",
+      "year": 2022,
+      "mileage": "37,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs3/2-5-tfsi-launch-edition/audi-rs3-2-5-tfsi-launch-edition-1433668173-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20341841"
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "title": "2025 Used  AUDI RS 3 CRBN VRSPRNG TFSI QUAT SA",
+      "price": "£57,990",
+      "year": 2025,
+      "mileage": "24176 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs3/2-5-tfsi-carbon-vorsprung-saloon-4dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps/audi-rs3-2-5-tfsi-carbon-vorsprung-saloon-4dr-petrol-s-tronic-quattro-euro-6-s-s--400-ps-1433537031-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20338041"
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "title": "2022 Used  AUDI RS 3 CARBON BLACK TFSI QUAT SA",
+      "price": "£47,500",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs3/rs-3-tfsi-quattro-carbon-black-5dr-s-tronic-c-s/audi-rs3-rs-3-tfsi-quattro-carbon-black-5dr-s-tronic-c-s-1424840605-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20162684"
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "title": "2025 Used  AUDI RS 3 CRBN VRSPRNG TFSI QUAT SA",
+      "price": "£64,750",
+      "year": 2025,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs3/rs-3-tfsi-qtro-400-carbon-vorsprung-5dr-s-tronic/audi-rs3-rs-3-tfsi-qtro-400-carbon-vorsprung-5dr-s-tronic-1422254987-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20162730"
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "title": "2024 Used  AUDI RS 3 CARBON BLACK TFSI QUAT SA",
+      "price": "£51,500",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/audi/rs3/rs-3-tfsi-quattro-carbon-black-5dr-s-tronic-c-s/audi-rs3-rs-3-tfsi-quattro-carbon-black-5dr-s-tronic-c-s-1422254172-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20162738"
+        }
+      ]
+    },
+    {
+      "id": "222",
+      "title": "2015 Audi 2.5 RS 3 Sportback Nav Quattro Semi-Auto 4WD 5dr",
+      "price": "£23,968",
+      "year": 2015,
+      "mileage": "67,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/3ec138e3cf6a4dc8823db27f875bc443.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604271913032"
+        }
+      ]
+    },
+    {
+      "id": "223",
+      "title": "2018 Audi RS3 2.5 TFSI Sportback S Tronic quattro Euro 6 (s/s) 5dr",
+      "price": "£22,995",
+      "year": 2018,
+      "mileage": "60,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/b6eaad8e2b0348d280eba3b70fd93c03.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604171648780"
+        }
+      ]
+    },
+    {
+      "id": "224",
+      "title": "2015 Audi RS3 2.5 TFSI Sportback S Tronic quattro Euro 6 (s/s) 5dr (Nav)",
+      "price": "£17,990",
+      "year": 2015,
+      "mileage": "71,400 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/14d5665dcafd4111aea0343198ce8cce.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604191683645"
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "title": "2016 Audi RS3 2.5 TFSI Sportback 5dr Petrol S Tronic quattro Euro 6 (s/s) (Nav) (367 ps)",
+      "price": "£16,995",
+      "year": 2016,
+      "mileage": "82,571 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/e948107eb11043038a7390f0e5c42a2b.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604191683378"
         }
       ]
     }

@@ -1022,7 +1022,7 @@
     {
       "id": "43",
       "title": "2000 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
-      "price": "£28,950",
+      "price": "£29,950",
       "year": 2000,
       "mileage": "37,500 miles",
       "transmission": "Automatic",
@@ -1109,6 +1109,10 @@
         {
           "price": "£29,950",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£28,950",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1144,7 +1148,7 @@
     {
       "id": "45",
       "title": "2000 Aston Martin DB7 5.9 Volante 2dr Petrol Automatic (472 g/km, 420 bhp)",
-      "price": "£19,098",
+      "price": "£19,000",
       "year": 2000,
       "mileage": "57,042 miles",
       "transmission": "Automatic",
@@ -1183,6 +1187,10 @@
         {
           "price": "£19,000",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£19,098",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2296,14 +2304,13 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/vantage-volante/aston-martin-db7-vantage-volante-S4935988-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19212937"
         }
-      ],
-      "unlistedDate": "2026-04-22"
+      ]
     },
     {
       "id": "96",

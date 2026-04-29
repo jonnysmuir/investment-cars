@@ -873,7 +873,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-cayenne-d-v6-platinum-edition-tiptronic-4wd-5dr/porsche-cayenne-3-0-cayenne-d-v6-platinum-edition-tiptronic-4wd-5dr-1413026503-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -897,7 +897,8 @@
           "price": "£11,980",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "42",
@@ -1309,7 +1310,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/d-v6-tiptronic-s-2-ownersfsh-and-big-spec/porsche-cayenne-d-v6-tiptronic-s-2-ownersfsh-and-big-spec-1419470467-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1325,7 +1326,8 @@
           "price": "£21,990",
           "date": "2026-04-09"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "56",
@@ -1758,7 +1760,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/2-9-cayenne-v6-s-auto-4wd-5dr/porsche-cayenne-2-9-cayenne-v6-s-auto-4wd-5dr-1412814882-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1774,12 +1776,13 @@
           "price": "£33,495",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "75",
       "title": "2021 Porsche Cayenne 3.0T V6 TiptronicS 4WD Euro 6 (s/s) 5dr",
-      "price": "£43,999",
+      "price": "£42,990",
       "year": 2021,
       "mileage": "37,500 miles",
       "transmission": "Unknown",
@@ -1806,6 +1809,10 @@
         {
           "price": "£44,249",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£43,999",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1909,7 +1916,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/estate-e-hybrid-5dr-s/porsche-cayenne-estate-e-hybrid-5dr-s-1420067713-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1929,7 +1936,8 @@
           "price": "£59,990",
           "date": "2026-04-02"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "80",
@@ -2612,7 +2620,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/2-9t-v6-gpf-s-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--440-ps/porsche-cayenne-2-9t-v6-gpf-s-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--440-ps-1407528820-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2628,7 +2636,8 @@
           "price": "£39,995",
           "date": "2026-03-31"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "107",
@@ -2882,7 +2891,7 @@
     {
       "id": "115",
       "title": "2022 Used  PORSCHE CAYENNE",
-      "price": "£56,985",
+      "price": "£56,585",
       "year": 2022,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -2890,19 +2899,24 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/v6-tiptronic/porsche-cayenne-v6-tiptronic-1407783350-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19969904"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£56,985",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "116",
       "title": "2019 Porsche Cayenne 3.0T V6 TiptronicS 4WD Euro 6 (s/s) 5dr",
-      "price": "£44,500",
+      "price": "£44,950",
       "year": 2019,
       "mileage": "40,125 miles",
       "transmission": "Unknown",
@@ -2933,13 +2947,17 @@
         {
           "price": "£44,950",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£44,500",
+          "date": "2026-04-29"
         }
       ]
     },
     {
       "id": "117",
       "title": "2016 Porsche Cayenne 3.0 V6 E-Hybrid S Platinum Edition TiptronicS 4WD Euro 6 (s/s) 5dr",
-      "price": "£20,990",
+      "price": "£19,795",
       "year": 2016,
       "mileage": "70,724 miles",
       "transmission": "6-Speed Manual",
@@ -2962,6 +2980,10 @@
         {
           "price": "£19,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£20,990",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -3105,7 +3127,7 @@
     {
       "id": "123",
       "title": "2019 Porsche Cayenne 3.0T V6 TiptronicS 4WD Euro 6 (s/s) 5dr",
-      "price": "£38,600",
+      "price": "£35,995",
       "year": 2019,
       "mileage": "68,000 miles",
       "transmission": "Automatic",
@@ -3128,13 +3150,17 @@
         {
           "price": "£36,995",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£38,600",
+          "date": "2026-04-29"
         }
       ]
     },
     {
       "id": "124",
       "title": "2022 Used  PORSCHE CAYENNE",
-      "price": "£56,995",
+      "price": "£53,995",
       "year": 2022,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -3142,14 +3168,19 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger/porsche-cayenne-3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger-1395302858-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19790354"
         }
       ],
-      "unlistedDate": "2026-04-02"
+      "priceHistory": [
+        {
+          "price": "£56,995",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "125",
@@ -3207,7 +3238,7 @@
     {
       "id": "127",
       "title": "2016 Porsche Cayenne 3.0 TD V6 Platinum Edition TiptronicS 4WD Euro 6 (s/s) 5dr",
-      "price": "£26,950",
+      "price": "£27,990",
       "year": 2016,
       "mileage": "61,000 miles",
       "transmission": "Automatic",
@@ -3215,7 +3246,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/4-2-td-v8-s-tiptronics-4wd-euro-6-s-s-5dr/porsche-cayenne-4-2-td-v8-s-tiptronics-4wd-euro-6-s-s-5dr-1393332483-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -3230,9 +3261,12 @@
         {
           "price": "£27,990",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£26,950",
+          "date": "2026-04-29"
         }
-      ],
-      "unlistedDate": "2026-04-22"
+      ]
     },
     {
       "id": "128",
@@ -3269,7 +3303,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0t-v6-coupe-5dr-petrol-tiptronics-4wd-euro-6-s-s--353-ps/porsche-cayenne-3-0t-v6-coupe-5dr-petrol-tiptronics-4wd-euro-6-s-s--353-ps-1407768543-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -3285,8 +3319,7 @@
           "price": "£69,750",
           "date": "2026-04-17"
         }
-      ],
-      "unlistedDate": "2026-04-27"
+      ]
     },
     {
       "id": "130",
@@ -3820,13 +3853,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3136f09e8f584cd7a3aa87957fc546b4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120632444"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "155",
@@ -4368,7 +4402,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4ff65144a6fa481fb3299253ed2d6a21.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -4378,7 +4412,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19711032"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "179",
@@ -5031,7 +5066,7 @@
       "price": "£35,600",
       "year": 2019,
       "mileage": "77,000 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/592edae646414ef484ae82c24641cf4b.jpg",
       "featured": false,
@@ -5041,6 +5076,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120637820"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20335806"
         }
       ]
     },
@@ -5196,7 +5235,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/669e95682dee4bb0897d2595b9cf68a2.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -5206,7 +5245,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20195130"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "212",
@@ -5744,13 +5784,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3c81492125c74e2ea46c1b515b2bb5eb.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306118400040"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "234",
@@ -6411,7 +6452,7 @@
     {
       "id": "262",
       "title": "2022 Used  PORSCHE CAYENNE",
-      "price": "£50,898",
+      "price": "£49,000",
       "year": 2022,
       "mileage": "22 miles",
       "transmission": "6-Speed Manual",
@@ -6419,14 +6460,19 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-14-1kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps/porsche-cayenne-3-0-v6-e-hybrid-14-1kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps-1420966544-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20166864"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£50,898",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "263",
@@ -6492,7 +6538,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/552c8fde6de142a8a5bd3b7d7f1292d5.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6508,7 +6554,8 @@
           "price": "£11,420",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "266",
@@ -7468,7 +7515,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4e34f9cf1fd34bf881ba854817c0318b.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -7484,7 +7531,8 @@
           "price": "£40,000",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "308",
@@ -7497,7 +7545,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/3e6917aff4fb4e19bcd33a30d11ffe60.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -7525,7 +7573,8 @@
           "price": "£52,995",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "309",
@@ -7557,7 +7606,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/466249e2a9f94f3f92223b7dc1303c76.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -7567,7 +7616,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19992251"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "311",
@@ -7959,7 +8009,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0t-v6-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--340-ps/porsche-cayenne-3-0t-v6-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--340-ps-1422564569-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -7975,7 +8025,8 @@
           "price": "£27,495",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "330",
@@ -8248,13 +8299,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fe7256672aec426290c612a78803abc8.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602049676683"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "344",
@@ -8940,7 +8992,7 @@
       "price": "£19,999",
       "year": 2016,
       "mileage": "86,883 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Estate",
       "image": "https://m.atcdn.co.uk/a/media/w480/b5c64b0f12fd4f199c1710fa3062977b.jpg",
       "featured": false,
@@ -8950,6 +9002,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604041293804"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20339286"
         }
       ],
       "priceHistory": [
@@ -9043,13 +9099,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/09130d0cbbb94340aab4c8ee2ddfbb4a.jpg",
       "featured": false,
       "dateAdded": "2026-04-05",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603271084283"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "378",
@@ -9169,13 +9226,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-17-9kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger/porsche-cayenne-3-0-v6-e-hybrid-17-9kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger-1390574084-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19712949"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "384",
@@ -10506,7 +10564,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/c2c96caff59946a0a141029aa66b22b5.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -10518,7 +10576,8 @@
           "price": "£18,290",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "449",
@@ -11211,13 +11270,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d066edac64a14df2b98a438879d64e4b.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071334893"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "481",
@@ -11339,7 +11399,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/coupe-5dr-s/porsche-cayenne-coupe-5dr-s-1425708892-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -11355,7 +11415,8 @@
           "price": "£52,500",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "487",
@@ -11606,13 +11667,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-cayenne-tiptronic-s-d-4wd-5dr/porsche-cayenne-3-0-cayenne-tiptronic-s-d-4wd-5dr-1419516502-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20117703"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "500",
@@ -12218,13 +12280,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cc9e91d1eba44ec3bc304f0e99c2f700.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101432459"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "529",
@@ -12333,7 +12396,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a4e533161b554443bab366533cc59563.jpg",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -12343,7 +12406,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19622291"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "534",
@@ -12356,13 +12420,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2047432/2007-porsche-cayenne-69dbdc1caf462.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=100&w=800&s=e924f06cc918dc255ca2acd8cb986ecf",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2047432"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "535",
@@ -13013,13 +13078,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4e4464c1495148ae80216581a8c6675c.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151555081"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "567",
@@ -13129,13 +13195,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/90150cc7bb514931a0f74128d9de4b96.jpg",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603020338105"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "573",
@@ -13407,13 +13474,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger/porsche-cayenne-3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger-1408357136-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19977122"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "587",
@@ -13606,13 +13674,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/c8f5d53aa4e34add9b3d9e3157c43b2b.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604181671748"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "597",
@@ -13644,13 +13713,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/4cfe96d9330a493ab24635e5e0394328.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602260228313"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "599",
@@ -13789,13 +13859,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/210dd479d5f44ef3af9924388bab044e.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603140709722"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "606",
@@ -13960,13 +14031,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/03f1396ddaac4cd3b822818db4292988.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301122464"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "615",
@@ -13979,7 +14051,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d677b83495364d2abc63eef4b6ee301c.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -13989,7 +14061,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18574844"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "616",
@@ -14002,13 +14075,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/46245b5de3c446f3a8653875d56c54f8.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602230136091"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "617",
@@ -14080,13 +14154,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/4-0t-v8-gts-tiptronics-4wd-euro-6-s-s-5dr/porsche-cayenne-4-0t-v8-gts-tiptronics-4wd-euro-6-s-s-5dr-1393731562-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19773308"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "621",
@@ -14118,13 +14193,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/estate-e-hybrid-5dr-s/porsche-cayenne-estate-e-hybrid-5dr-s-1429945983-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20289600"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "623",
@@ -14137,13 +14213,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/coupe-e-hybrid-5dr-s/porsche-cayenne-coupe-e-hybrid-5dr-s-1429945960-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20289569"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "624",
@@ -14156,13 +14233,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/coupe-gts-5dr-s/porsche-cayenne-coupe-gts-5dr-s-1429945985-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20289592"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "625",
@@ -14175,13 +14253,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/estate-5dr-s/porsche-cayenne-estate-5dr-s-1429946012-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20289622"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "626",
@@ -14194,13 +14273,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-cayenne-v6-platinum-edition-e-hybrid-a-4wd-5dr/porsche-cayenne-3-0-cayenne-v6-platinum-edition-e-hybrid-a-4wd-5dr-1430160934-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19914948"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "627",
@@ -14213,13 +14293,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger/porsche-cayenne-3-0-v6-e-hybrid-17-9kwh-tiptronics-4wd-euro-6-s-s-5dr-3-6kw-charger-1430159918-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19335897"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "628",
@@ -14232,13 +14313,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/porsche-cayenne-1392284964-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19743730"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "629",
@@ -14251,13 +14333,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/estate-s-e-hybrid-black-edition-5dr-s/porsche-cayenne-estate-s-e-hybrid-black-edition-5dr-s-1365309325-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19484931"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "630",
@@ -14270,13 +14353,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0t-v6-gpf-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--340-ps/porsche-cayenne-3-0t-v6-gpf-suv-5dr-petrol-tiptronics-4wd-euro-6-s-s--340-ps-1417081725-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20113060"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "631",
@@ -15619,6 +15703,272 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2055470"
+        }
+      ]
+    },
+    {
+      "id": "701",
+      "title": "2023 Used  PORSCHE CAYENNE V6 PLATINUM ED EHYB A",
+      "price": "£62,000",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-17-9kwh-platinum-edition-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps/porsche-cayenne-3-0-v6-e-hybrid-17-9kwh-platinum-edition-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps-1432710364-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20330137"
+        }
+      ]
+    },
+    {
+      "id": "702",
+      "title": "2023 Used  PORSCHE CAYENNE V6 PLATINUM ED EHYB A",
+      "price": "£57,950",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-cayenne-v6-platinum-edition-e-hybrid-a-4wd-5dr/porsche-cayenne-3-0-cayenne-v6-platinum-edition-e-hybrid-a-4wd-5dr-1430926154-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20123984"
+        }
+      ]
+    },
+    {
+      "id": "703",
+      "title": "2020 Used  PORSCHE CAYENNE",
+      "price": "£51,499",
+      "year": 2020,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/5dr-tiptronic-s/porsche-cayenne-5dr-tiptronic-s-1433197434-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20231120"
+        }
+      ]
+    },
+    {
+      "id": "704",
+      "title": "2024 Used  PORSCHE CAYENNE V6 S E-HYBRID AUTO",
+      "price": "£83,000",
+      "year": 2024,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/estate-s-e-hybrid-5dr-s/porsche-cayenne-estate-s-e-hybrid-5dr-s-1422703272-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20166641"
+        }
+      ]
+    },
+    {
+      "id": "705",
+      "title": "2021 Used  PORSCHE CAYENNE",
+      "price": "£58,500",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/coupe-e-hybrid-5dr-s/porsche-cayenne-coupe-e-hybrid-5dr-s-1424846019-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20166666"
+        }
+      ]
+    },
+    {
+      "id": "706",
+      "title": "2026 Used  PORSCHE CAYENNE V6 BLACK EDITION AUTO",
+      "price": "£99,995",
+      "year": 2026,
+      "mileage": "2668 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0t-v6-black-edition-coupe-5dr-petrol-tiptronics-4wd-euro-6-s-s--353-ps/porsche-cayenne-3-0t-v6-black-edition-coupe-5dr-petrol-tiptronics-4wd-euro-6-s-s--353-ps-1433689002-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20342198"
+        }
+      ]
+    },
+    {
+      "id": "707",
+      "title": "2018 Used  PORSCHE CAYENNE",
+      "price": "£25,990",
+      "year": 2018,
+      "mileage": "60,000 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-td-v6-platinum-edition-tiptronics-4wd-euro-6-s-s-5dr/porsche-cayenne-3-0-td-v6-platinum-edition-tiptronics-4wd-euro-6-s-s-5dr-1433608875-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20340162"
+        }
+      ]
+    },
+    {
+      "id": "708",
+      "title": "2019 Used  PORSCHE CAYENNE",
+      "price": "£44,995",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/2-9t-v6-s-tiptronics-4wd-euro-6-s-s-5dr/porsche-cayenne-2-9t-v6-s-tiptronics-4wd-euro-6-s-s-5dr-1433582635-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20339334"
+        }
+      ]
+    },
+    {
+      "id": "709",
+      "title": "2020 Used  PORSCHE CAYENNE",
+      "price": "£46,500",
+      "year": 2020,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayenne/3-0-v6-e-hybrid-14-1kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps/porsche-cayenne-3-0-v6-e-hybrid-14-1kwh-coupe-5dr-petrol-plug-in-hybrid-tiptronics-4wd-euro-6-s-s--3-6kw-charger--462-ps-1433584332-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20339457"
+        }
+      ]
+    },
+    {
+      "id": "710",
+      "title": "2016 Porsche 3.0 Cayenne V6 D Tiptronic S 4WD 5dr - NATIONAL DELIVERY*",
+      "price": "£19,995",
+      "year": 2016,
+      "mileage": "87,458 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5ea799c97a2d48a0b598d054f8e40781.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202601269440332"
+        }
+      ]
+    },
+    {
+      "id": "711",
+      "title": "2006 Porsche Cayenne 3.2 V6 Tiptronic S AWD 5dr",
+      "price": "£1,995",
+      "year": 2006,
+      "mileage": "127,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/4447f2713e774f3f83d3b7bf5cb940cb.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604281962956"
+        }
+      ]
+    },
+    {
+      "id": "712",
+      "title": "2017 Porsche Cayenne 3.0 V6 E-Hybrid S Platinum Edition Tipt",
+      "price": "£25,948",
+      "year": "2017",
+      "mileage": "59,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30190338/2017-porsche-cayenne-69ef8ab338ed1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b6d950d0e04e36042b1a7f9f8f0ba691",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058186"
+        }
+      ]
+    },
+    {
+      "id": "713",
+      "title": "2016 Porsche Cayenne 3.0 TD V6 Platinum Edition TiptronicS 4",
+      "price": "£22,948",
+      "year": "2016",
+      "mileage": "73,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30190391/2016-porsche-cayenne-69ef8abcefc18.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=7cccde3243284ba50165938e620f3c7a",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058187"
+        }
+      ]
+    },
+    {
+      "id": "714",
+      "title": "2006 Porsche Cayenne 9PA (2002 - 2009) S SUV",
+      "price": "£4,950",
+      "year": "2006",
+      "mileage": "80,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "SUV",
+      "image": "/uploads/cars/porsche/C2058848/2006-porsche-cayenne-69f080968c0db.png?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=96b15b209d8661367464ad3e3842076a",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058848"
         }
       ]
     }

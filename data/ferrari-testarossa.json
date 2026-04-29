@@ -676,7 +676,7 @@
     {
       "id": "34",
       "title": "1985 Ferrari Testarossa - Monospecchio - UK supplied RHD",
-      "price": "£220,000",
+      "price": "£199,990",
       "year": "1985",
       "mileage": "41,000 miles",
       "transmission": "6-Speed Manual",
@@ -690,7 +690,13 @@
           "url": "https://www.carandclassic.com/l/C2025877"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£220,000",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "35",
@@ -760,19 +766,20 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2026765/1985-ferrari-testarossa-69aeb4cb7226f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d5066e6ebbac1fd0e8036f1127908820",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2026765"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "39",
       "title": "2015 Ferrari Testarossa 4.9 Coupe 2dr Petrol Manual (390 bhp) FULL FERRARI SERVICE HISTORY + LHD",
-      "price": "£99,995",
+      "price": "£120,000",
       "year": 2015,
       "mileage": "81,000 miles",
       "transmission": "6-Speed Manual",
@@ -786,7 +793,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202601239374350"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£99,995",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "40",
@@ -810,14 +823,14 @@
     {
       "id": "41",
       "title": "1990 Ferrari Testarossa 4.9 2dr",
-      "price": "£199,999",
+      "price": "£199,995",
       "year": 1990,
       "mileage": "40,251 miles",
       "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w640/499e0d4252c746c1b1875127b93dc2a6.jpg",
       "featured": false,
       "dateAdded": "2026-03-22",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -829,7 +842,12 @@
         }
       ],
       "bodyType": null,
-      "unlistedDate": "2026-04-15"
+      "priceHistory": [
+        {
+          "price": "£199,999",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "42",
@@ -1036,7 +1054,7 @@
       "title": "1988 Used  FERRARI TESTAROSSA",
       "price": "£169,000",
       "year": 1988,
-      "mileage": "N/A",
+      "mileage": "68,137 miles",
       "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://img.pistonheads.com/LargeSize/ferrari/testarossa/ferrari-testarossa-1431805690-1.jpg",
@@ -1047,6 +1065,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20321441"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604241851763"
         }
       ]
     },

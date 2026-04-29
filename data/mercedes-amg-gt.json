@@ -826,7 +826,7 @@
     {
       "id": "40",
       "title": "2018 Mercedes-Benz Amg Gt Gt C 2Dr Auto 4.0",
-      "price": "£71,499",
+      "price": "£70,999",
       "year": 2018,
       "mileage": "3,263 miles",
       "transmission": "Automatic",
@@ -881,6 +881,14 @@
         {
           "price": "£74,950",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£71,499",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£74,950",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -910,7 +918,7 @@
     {
       "id": "42",
       "title": "2019 Mercedes-Benz Amg Gt 4.0 63 V8 BiTurbo S Edition 1 Coupe SpdS MCT 4MATIC+ Euro 6 (s/s) 5dr",
-      "price": "£76,995",
+      "price": "£83,995",
       "year": 2019,
       "mileage": "8437 miles",
       "transmission": "Unknown",
@@ -949,13 +957,17 @@
         {
           "price": "£83,995",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£76,995",
+          "date": "2026-04-29"
         }
       ]
     },
     {
       "id": "43",
       "title": "2018 Used  MERCEDES-BENZ GT",
-      "price": "£71,499",
+      "price": "£70,999",
       "year": 2018,
       "mileage": "12253 miles",
       "transmission": "Unknown",
@@ -978,6 +990,10 @@
         {
           "price": "£75,999",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£71,499",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1106,7 +1122,7 @@
     {
       "id": "48",
       "title": "2018 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo GPF (Premium) Roadster 2dr Petrol SpdS DCT Euro 6 (s/s) (476 ps)",
-      "price": "£64,995",
+      "price": "£64,990",
       "year": 2018,
       "mileage": "7,213 miles",
       "transmission": "F1 Automated Manual",
@@ -1123,6 +1139,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201690978"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£64,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1467,7 +1489,7 @@
     {
       "id": "65",
       "title": "2019 Mercedes-Benz Amg Gt 4.0 63 V8 BiTurbo Coupe SpdS MCT 4MATIC+ Euro 6 (s/s) 5dr",
-      "price": "£62,990",
+      "price": "£65,990",
       "year": 2019,
       "mileage": "36,215 miles",
       "transmission": "Unknown",
@@ -1484,6 +1506,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20316663"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£62,990",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1603,6 +1631,14 @@
         {
           "price": "£65,795",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£64,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1745,7 +1781,7 @@
     {
       "id": "72",
       "title": "2016 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo S (Premium) SpdS DCT Euro 6 (s/s) 2dr",
-      "price": "£49,990",
+      "price": "£49,999",
       "year": 2016,
       "mileage": "34,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1753,7 +1789,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/25dd8315a15344d5a5fee7fc83a1bf4e.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1764,7 +1800,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20299743"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£49,990",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "73",
@@ -1837,13 +1878,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1bc5d80377864572b065fd5f335f6d5f.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603200857211"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "77",
@@ -2020,7 +2062,7 @@
     {
       "id": "85",
       "title": "2019 Used  MERCEDES-BENZ GT",
-      "price": "£77,980",
+      "price": "£77,480",
       "year": 2019,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -2043,6 +2085,10 @@
         {
           "price": "£78,980",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£77,980",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2162,13 +2208,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg/4-0-amg-gt-s-edition-1-auto-2dr/mercedes-benz-amg-4-0-amg-gt-s-edition-1-auto-2dr-1424424166-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20213700"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "92",
@@ -2779,6 +2826,63 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202503109971399"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "title": "2019 Mercedes-Benz Amg Gt 4.0 V8 BiTurbo (Premium) Coupe 2dr Petrol SpdS DCT Euro 6 (s/s) (476 ps)",
+      "price": "£65,990",
+      "year": 2019,
+      "mileage": "42,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/a85e75f526b84940be6ab508f7f3976f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604221772639"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "title": "2018 Mercedes-Benz AMG GT 4.0 V8 BiTurbo R SpdS DCT Euro 6",
+      "price": "£96,948",
+      "year": "2018",
+      "mileage": "20,500 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30189912/2018-mercedes-benz-amg-gt-69ef8a551d071.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c11be5a645dcd8119714df96ee1751d5",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058175"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "title": "2018 Mercedes-Benz AMG GT 4.0 V8 BiTurbo GPF (Premium) Roads",
+      "price": "£67,950",
+      "year": "2018",
+      "mileage": "17,417 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30188234/2018-mercedes-benz-amg-gt-69ef883cb5dac.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=27b6ad97d5271c20750979fdc166bfe8",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058144"
         }
       ]
     }

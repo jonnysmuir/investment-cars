@@ -786,7 +786,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2033948/1991-lotus-elan-69bd19d7da002.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=75e336282ed3195a6441959332bfb31c",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -798,7 +798,8 @@
           "price": "£8,995",
           "date": "2026-04-14"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "39",
@@ -982,14 +983,13 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan-pre-76/lotus-elan-pre-76-S4912388-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19217084"
         }
-      ],
-      "unlistedDate": "2026-04-04"
+      ]
     },
     {
       "id": "48",
@@ -1616,13 +1616,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2025027/1992-lotus-elan-69a9a5d990275.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=36e69a7e0b18e76db673f34b79519e1d",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2025027"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "79",
@@ -1635,13 +1636,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2015363/1972-lotus-elan-2s-130-6991c04539033.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=04b635df4f7a0e30c3fbc7d9b2f7bc01",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015363"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "80",
@@ -1831,13 +1833,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan-pre-76/lotus-elan-pre-76-S4921917-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19475197"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "90",
@@ -1850,13 +1853,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan-pre-76/lotus-elan-pre-76-S4903775-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19014153"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "91",
@@ -1869,13 +1873,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/classics/lotus-classics-S4903777-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19014220"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "92",
@@ -1937,7 +1942,7 @@
     {
       "id": "95",
       "title": "1973 Lotus Elan Series 2",
-      "price": "£28,000",
+      "price": "£25,000",
       "year": "1973",
       "mileage": "6,500 miles",
       "transmission": "6-Speed Manual",
@@ -1950,6 +1955,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2054555"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£28,000",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2159,6 +2170,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2056529"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "title": "1965 LOTUS ELAN S2",
+      "price": "£30,000",
+      "year": "1965",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/30226266/1965-lotus-elan-s2-69f06c3dec41b.webp?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=57151b27ef20f4dc3beda7b1ee9dcc46",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058741"
         }
       ]
     }

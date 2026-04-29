@@ -874,13 +874,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/44fb8bc07ec44e55951ace041fe3b953.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190848625"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "43",
@@ -993,7 +994,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/ff452b4bf8d74717bb2c10bd70376e1e.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1005,7 +1006,8 @@
           "price": "£7,395",
           "date": "2026-04-10"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "49",
@@ -1400,11 +1402,11 @@
     },
     {
       "id": "67",
-      "title": "2009 BMW Z4 2.0i Edition Sport Euro 4 2dr",
+      "title": "2009 BMW Z4 2.0i Edition Sport Convertible 2dr Petrol Manual Euro 4 (150 ps)",
       "price": "£2,995",
       "year": 2009,
       "mileage": "93,000 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": "Convertible",
       "image": "https://m.atcdn.co.uk/a/media/w480/6d9a8ec4107f45a3b521a5b3f1d82374.jpg",
       "featured": false,
@@ -4919,7 +4921,7 @@
     },
     {
       "id": "232",
-      "title": "2006 BMW Z4 3.0 si Sport Auto Euro 4 2dr",
+      "title": "2006 BMW Z4 3.0 si Sport Coupe 2dr Petrol Auto Euro 4 (265 ps)",
       "price": "£6,950",
       "year": 2006,
       "mileage": "95,090 miles",
@@ -5700,13 +5702,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29427110/2003-bmw-z4-69d4e72ca5f50.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e3b87f3f8831a49e3aa8dd1b9e24de32",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044126"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "268",
@@ -8151,7 +8154,7 @@
     {
       "id": "386",
       "title": "2003 BMW Z4 2.5i Manual Roadster – Ultra-Low 29,572 miles!",
-      "price": "£7,999",
+      "price": "£7,850",
       "year": "2003",
       "mileage": "29,515 miles",
       "transmission": "6-Speed Manual",
@@ -8170,6 +8173,10 @@
         {
           "price": "£8,075",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£7,999",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -8828,13 +8835,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5c5eaefbbce0452eb5fccb6e24136992.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604151555017"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "420",
@@ -11037,6 +11045,120 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2056195"
+        }
+      ]
+    },
+    {
+      "id": "535",
+      "title": "2013 BMW Z4 2.0 20i M Sport Convertible 2dr Petrol Manual sDrive Euro 6 (s/s) (184 ps)",
+      "price": "£8,999",
+      "year": 2013,
+      "mileage": "69,800 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/5116b8bff3414be79e79076bd6153683.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231795529"
+        }
+      ]
+    },
+    {
+      "id": "536",
+      "title": "2004 BMW Z4 3.0i SE Convertible 2dr Petrol Manual Euro 3 (231 bhp)",
+      "price": "£2,000",
+      "year": 2004,
+      "mileage": "124,346 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f6b06cef1ef547c894bc2d7308b06d9a.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604211752717"
+        }
+      ]
+    },
+    {
+      "id": "537",
+      "title": "2013 BMW Z4 2.0 20i M Sport Convertible 2dr Petrol Manual sDrive Euro 5 (s/s) (184 ps)",
+      "price": "£8,995",
+      "year": 2013,
+      "mileage": "72,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d4b5f6525ed245ef88b78d404dee1cc0.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604271927160"
+        }
+      ]
+    },
+    {
+      "id": "538",
+      "title": "2008 BMW Z4 3.0si E86",
+      "price": "£11,990",
+      "year": "2008",
+      "mileage": "77,811 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30236621/2008-bmw-z4-69f094f338a83.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=383ca298270310a2dd08ba0f9f8d0f16",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058948"
+        }
+      ]
+    },
+    {
+      "id": "539",
+      "title": "2007 BMW Z4 3.0si E86",
+      "price": "£21,995",
+      "year": "2007",
+      "mileage": "59,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30236604/2007-bmw-z4-m-69f094dbee584.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a142c30863db3b9c6e2c39574d975ce0",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058947"
+        }
+      ]
+    },
+    {
+      "id": "540",
+      "title": "2006 BMW Z4 3.0 si Sport Euro 4 2dr",
+      "price": "£10,990",
+      "year": "2006",
+      "mileage": "61,544 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30173822/2006-bmw-z4-69ef42d48a410.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8ce255b250d362d599719d5eb4025a40",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057990"
         }
       ]
     }

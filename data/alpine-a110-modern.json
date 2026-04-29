@@ -722,7 +722,7 @@
     {
       "id": "35",
       "title": "2025 Alpine A110 1.8 Turbo S DCT Euro 6 2dr",
-      "price": "£65,990",
+      "price": "£64,990",
       "year": 2025,
       "mileage": "11 miles",
       "transmission": "F1 Automated Manual",
@@ -757,6 +757,10 @@
         {
           "price": "£64,995",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£65,990",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1503,7 +1507,7 @@
       "image": "https://img.pistonheads.com/LargeSize/alpine/a110/1-8-turbo-dct/alpine-a110-1-8-turbo-dct-1413938098-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1515,13 +1519,12 @@
           "price": "£56,499",
           "date": "2026-04-11"
         }
-      ],
-      "unlistedDate": "2026-04-27"
+      ]
     },
     {
       "id": "64",
       "title": "2021 Alpine A110 1.8 Turbo Legende DCT Euro 6 2dr",
-      "price": "£39,994",
+      "price": "£38,995",
       "year": 2021,
       "mileage": "12,393 miles",
       "transmission": "F1 Automated Manual",
@@ -1556,6 +1559,10 @@
         {
           "price": "£38,995",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£39,994",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1660,7 +1667,7 @@
     {
       "id": "67",
       "title": "2024 Alpine A110 1.8 Turbo DCT Euro 6 2dr",
-      "price": "£49,295",
+      "price": "£48,995",
       "year": 2024,
       "mileage": "2,200 miles",
       "transmission": "F1 Automated Manual",
@@ -1691,6 +1698,10 @@
         {
           "price": "£50,995",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£49,295",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2193,7 +2204,7 @@
     {
       "id": "86",
       "title": "2024 Alpine A110 1.8 Turbo S Coupe 2dr Petrol DCT Euro 6 (300 ps)",
-      "price": "£56,695",
+      "price": "£53,995",
       "year": 2024,
       "mileage": "6,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2210,6 +2221,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20309977"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£56,695",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -3371,6 +3388,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601068963835"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20329640"
         }
       ],
       "priceHistory": [
@@ -3617,13 +3638,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/alpine/C2046106/1976-alpine-a110-69d80773efdcd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f57155078b24add9e5473fca9b854a58",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046106"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "149",
@@ -3904,7 +3926,7 @@
     {
       "id": "163",
       "title": "2023 Alpine A110 1.8 Turbo S DCT Euro 6 2dr",
-      "price": "£51,750",
+      "price": "£51,595",
       "year": 2023,
       "mileage": "8,900 miles",
       "transmission": "F1 Automated Manual",
@@ -3921,6 +3943,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20308362"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£51,750",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -4232,6 +4260,84 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/auctions/2025-alpine-a110-8KDllg"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "title": "2022 Alpine A110 Legende - 9,675 Miles",
+      "price": "Sold",
+      "year": 2022,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/087015/11-04-26-JJBB-03.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "sold",
+      "soldPrice": "£40,250",
+      "soldDate": "2026-04-27",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2022-alpine-a110-legende"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "title": "2019 Alpine A110 Legende",
+      "price": "£41,995",
+      "year": "2019",
+      "mileage": "18,600 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/alpine/C2042792/2019-alpine-a110-69f112064bd97.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=89649cc0c55be2bc61680917fa328e04",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2042792"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "title": "2026 Alpine A110 Turbo",
+      "price": "£53,995",
+      "year": "2026",
+      "mileage": "1,650 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/alpine/C2057849/2026-alpine-a110-69f1105f097d8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=723a0774dc38ee933330849a53212838",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057849"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "title": "2021 Alpine A110 1.8 Turbo S DCT Euro 6 2dr",
+      "price": "£49,990",
+      "year": "2021",
+      "mileage": "16,502 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30188539/2021-alpine-a110-69ef88cf4ddcd.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c19f80fb317841385fba60ddf2fcfc43",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058154"
         }
       ]
     }

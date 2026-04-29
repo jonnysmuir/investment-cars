@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2003 Aston Martin Vanquish 5.9 Coupe 2dr 6 Speed Paddle Shift (396 g/km, 460 bhp) Fantastic condition",
-      "price": "£38,495",
+      "price": "£38,990",
       "year": 2003,
       "mileage": "43000 miles",
       "transmission": "6-Speed Manual",
@@ -885,6 +885,10 @@
         {
           "price": "£39,990",
           "date": "2026-04-19"
+        },
+        {
+          "price": "£38,495",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1205,7 +1209,7 @@
     {
       "id": "51",
       "title": "2005 Aston Martin Vanquish 5.9 S 2dr",
-      "price": "£66,895",
+      "price": "£64,995",
       "year": 2005,
       "mileage": "27,580 miles",
       "transmission": "Unknown",
@@ -1228,6 +1232,10 @@
         {
           "price": "£69,995",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£66,895",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1871,7 +1879,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/affdc0d79dd24633b78be0b166e81dfd.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1895,8 +1903,7 @@
           "price": "£119,995",
           "date": "2026-04-04"
         }
-      ],
-      "unlistedDate": "2026-04-27"
+      ]
     },
     {
       "id": "80",
@@ -2173,7 +2180,7 @@
     {
       "id": "89",
       "title": "2017 Aston Martin Vanquish 6.0 V12 Volante T-TronIII Euro 6 2dr",
-      "price": "£109,995",
+      "price": "£109,950",
       "year": 2017,
       "mileage": "8,800 miles",
       "transmission": "Automatic",
@@ -2181,7 +2188,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1d57e854654f46d59470367e1ac0b5ac.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2244,9 +2251,12 @@
         {
           "price": "£109,950",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£109,995",
+          "date": "2026-04-29"
         }
-      ],
-      "unlistedDate": "2026-04-27"
+      ]
     },
     {
       "id": "90",
@@ -3428,6 +3438,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602119850612"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20335245"
         }
       ],
       "unlistedDate": "2026-04-03"
@@ -3668,7 +3682,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f0dc917e483d459dbc1b3d22c955ea47.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3678,8 +3692,7 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19956214"
         }
-      ],
-      "unlistedDate": "2026-04-27"
+      ]
     },
     {
       "id": "150",
@@ -3805,7 +3818,7 @@
     {
       "id": "156",
       "title": "2019 Aston Martin Vanquish Zagato Shooting Brake",
-      "price": "£424,950",
+      "price": "£399,950",
       "year": "2019",
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -3818,6 +3831,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040719"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£424,950",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -4431,6 +4450,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057119"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "title": "2005 Aston Martin V12 Vanquish S – ‘Works’ 6-Speed Manual",
+      "price": "£94,500",
+      "year": "2005",
+      "mileage": "21,800 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2059185/2005-aston-martin-vanquish-69f0da6b47b4e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e9da44041583283995acff55533b8b04",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059185"
         }
       ]
     }

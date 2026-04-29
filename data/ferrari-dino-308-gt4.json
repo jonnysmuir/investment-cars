@@ -355,14 +355,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28233623/1976-ferrari-308-699eaf12d0598.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f2d4bcd0f606203a05a1fb9e979ec827",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2020292"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "19",
@@ -452,13 +453,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2016517/1980-ferrari-308-699493f1bd80d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c020a30ac770d30b3a49e047ae14051d",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2016517"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "24",
@@ -476,6 +478,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051355"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "1977 Ferrari 308 Gt4 Dino                 very low ownership",
+      "price": "£49,995",
+      "year": "1977",
+      "mileage": "59,872 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2058934/1977-ferrari-dino-308-69f0911061da0.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2b45eb1fde98cbb2f83416e5077e5392",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058934"
         }
       ]
     }

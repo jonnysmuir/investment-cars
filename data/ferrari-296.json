@@ -255,7 +255,7 @@
     {
       "id": "13",
       "title": "2023 Ferrari 296 GTB",
-      "price": "£199,995",
+      "price": "£197,500",
       "year": "2023",
       "mileage": "1,900 miles",
       "transmission": "Automatic",
@@ -269,7 +269,13 @@
           "url": "https://www.carandclassic.com/car/C2002584"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£199,995",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "14",
@@ -407,11 +413,11 @@
     },
     {
       "id": "20",
-      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "title": "2023 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£279,995",
       "year": 2023,
-      "mileage": "N/A",
-      "transmission": "Unknown",
+      "mileage": "2,424 miles",
+      "transmission": "F1 Automated Manual",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/ferrari-296-1389251279-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -420,9 +426,13 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19688738"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604101431921"
         }
       ],
-      "bodyType": null,
+      "bodyType": "Convertible",
       "unlistedDate": "2026-04-14"
     },
     {
@@ -532,7 +542,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296-gtb/gtb/ferrari-296-gtb-gtb-S4897315-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-16",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -553,7 +563,8 @@
           "date": "2026-04-15"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "25",
@@ -768,7 +779,7 @@
     {
       "id": "32",
       "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh Coupe 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
-      "price": "£214,995",
+      "price": "£209,495",
       "year": 2022,
       "mileage": "3,500 miles",
       "transmission": "F1 Automated Manual",
@@ -786,7 +797,13 @@
           "url": "https://www.pistonheads.com/buy/listing/19762722"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "priceHistory": [
+        {
+          "price": "£214,995",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "33",
@@ -1114,7 +1131,7 @@
     {
       "id": "45",
       "title": "2023 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£249,000",
+      "price": "£249,990",
       "year": 2023,
       "mileage": "2,450 miles",
       "transmission": "Automatic",
@@ -1141,6 +1158,10 @@
         {
           "price": "£249,990",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£249,000",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1411,6 +1432,14 @@
         {
           "price": "£329,995",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£320,000",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£329,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1425,7 +1454,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/2b3c55f5b6ad4e05b862551eac338fd4.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1435,7 +1464,8 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20189802"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "57",
@@ -1514,7 +1544,7 @@
     {
       "id": "60",
       "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£199,000",
+      "price": "£195,000",
       "year": 2023,
       "mileage": "2,479 miles",
       "transmission": "F1 Automated Manual",
@@ -1531,6 +1561,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19105347"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£199,000",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1603,6 +1639,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512278809408"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20162905"
         }
       ]
     },
@@ -1884,7 +1924,7 @@
     {
       "id": "77",
       "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£197,599",
+      "price": "£195,000",
       "year": 2023,
       "mileage": "2,063 miles",
       "transmission": "F1 Automated Manual",
@@ -1901,6 +1941,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20248870"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£197,599",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1926,7 +1972,7 @@
     {
       "id": "79",
       "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£199,995",
+      "price": "£197,500",
       "year": 2023,
       "mileage": "1,900 miles",
       "transmission": "F1 Automated Manual",
@@ -1940,12 +1986,18 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601219312799"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£199,995",
+          "date": "2026-04-29"
+        }
       ]
     },
     {
       "id": "80",
       "title": "2025 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£265,000",
+      "price": "£259,000",
       "year": 2025,
       "mileage": "3,413 miles",
       "transmission": "Automatic",
@@ -1962,6 +2014,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311152111"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£265,000",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -2086,14 +2144,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/1bc45abc439a4f26a80fd3535b1c84be.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510237365670"
         }
-      ],
-      "unlistedDate": "2026-04-17"
+      ]
     },
     {
       "id": "87",
@@ -2471,14 +2528,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/24aa72aa5fc74545a60b3a6bbb01a696.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202506243833200"
         }
-      ],
-      "unlistedDate": "2026-04-17"
+      ]
     },
     {
       "id": "105",
@@ -2655,14 +2711,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/98f92d87df6b4b23b74854d9b1c25b8b.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081373825"
         }
-      ],
-      "unlistedDate": "2026-04-22"
+      ]
     },
     {
       "id": "114",
@@ -2685,7 +2740,7 @@
     },
     {
       "id": "115",
-      "title": "Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
       "price": "£194,999",
       "year": null,
       "mileage": "5,500 miles",
@@ -2723,12 +2778,12 @@
     },
     {
       "id": "117",
-      "title": "2023 Used  FERRARI 296 GTS S-A",
+      "title": "2023 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
       "price": "£244,950",
       "year": 2023,
-      "mileage": "N/A",
+      "mileage": "2,850 miles",
       "transmission": "Automatic",
-      "bodyType": null,
+      "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/ferrari/296/3-0t-v6-7-45kwh-spider-f1-dct-euro-6-s-s-2dr/ferrari-296-3-0t-v6-7-45kwh-spider-f1-dct-euro-6-s-s-2dr-1417955131-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
@@ -2737,6 +2792,10 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20101928"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604241846556"
         }
       ]
     },
@@ -2808,13 +2867,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/39af53e0a6ac497b82711df743cb1f3f.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604171637534"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "122",
@@ -2908,6 +2968,291 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603311163026"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "title": "2024 Ferrari 296 GTB 3.0T V6 7.45kWh Coupe 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
+      "price": "£199,950",
+      "year": 2024,
+      "mileage": "4,330 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/1f6a83f02a4645e5a2c7232bf59d53e7.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604281956702"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£202,950",
+      "year": 2023,
+      "mileage": "5,040 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/7a2c14d3ebab43b8900ba8b39c608c39.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604281954078"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£189,990",
+      "year": 2023,
+      "mileage": "3,942 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/8e9819c01f2b469f9c357aa6a9e9c665.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604191676065"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh Coupe 2dr Petrol Plug-in Hybrid F1 DCT Euro 6 (s/s) (830 ps)",
+      "price": "£205,000",
+      "year": 2023,
+      "mileage": "3,801 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/37d1dc4813414e03bbb30ec580af10cc.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604271898357"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "title": "2024 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£204,950",
+      "year": 2024,
+      "mileage": "2,145 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/28ec71cb6b6a4bcea68027330e086de8.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231816511"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£187,950",
+      "year": 2022,
+      "mileage": "4,375 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/78fd06bc602240f0a70461617119370f.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604251874605"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£199,000",
+      "year": 2022,
+      "mileage": "3,134 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/61a8da3ad5d04f27be11487ebefa6865.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231800321"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "title": "2024 Ferrari 296 GTS 3.0T V6 7.45kWh Spider F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£239,830",
+      "year": 2024,
+      "mileage": "3,626 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/86f2fc84b9be45a19fdf50ed3e267c77.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202603020332560"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "title": "2023 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£199,995",
+      "year": 2023,
+      "mileage": "2,066 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/8479ba9ceb0f4470a2eb9670edf67993.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604151581999"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "title": "2022 Ferrari 296 GTB 3.0T V6 7.45kWh F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£189,995",
+      "year": 2022,
+      "mileage": "9,665 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/7a0b4103804d4be6837724fc8b29a560.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604071335618"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "title": "2024 Ferrari 296 GTS, 2024",
+      "price": "£244,995",
+      "year": "2024",
+      "mileage": "4,396 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2057152/2024-ferrari-296-69ec8aaa5e1e5.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4b4d8b2d76ff59c1332f00870a419b75",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2057152"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "title": "2023 Ferrari 296 GTS, 2023",
+      "price": "£259,995",
+      "year": "2023",
+      "mileage": "5,386 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2058408/2023-ferrari-296-69ef83f7d085f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9b7ab78986d3771562993b05ccc12efb",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058408"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "title": "2023 Ferrari 296 GTS",
+      "price": "£246,995",
+      "year": "2023",
+      "mileage": "200 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2059033/2023-ferrari-296-69f0b8870d19d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0bf17d2e679308149cac15f29be62d50",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059033"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "title": "2023 Ferrari 296 GTB, 2023",
+      "price": "£198,995",
+      "year": "2023",
+      "mileage": "6,107 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2058380/2023-ferrari-296-69ef8292b7f32.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=f589cddc11f899a5609c72b037dc48df",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058380"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "title": "2024 Ferrari 296 GTS, 2024",
+      "price": "£269,995",
+      "year": "2024",
+      "mileage": "4,424 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2058063/2024-ferrari-296-69ef63de3788c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=af774606ed43ca45dbe853c849c48f60",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058063"
         }
       ]
     }

@@ -316,14 +316,14 @@
     {
       "id": "14",
       "title": "2021 McLaren 765LT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s)",
-      "price": "£304,995",
+      "price": "£314,995",
       "year": "2021",
       "mileage": "5,600 miles",
       "transmission": "Automatic",
       "image": "https://assets.carandclassic.com/uploads/cars/mclaren/C1906087/2021-mclaren-765lt-6919195297995.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=9ba3ec9e7ff7d04d4049b3dd4c4be07f",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -331,7 +331,12 @@
         }
       ],
       "bodyType": "Coupe",
-      "unlistedDate": "2026-04-10"
+      "priceHistory": [
+        {
+          "price": "£304,995",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "15",

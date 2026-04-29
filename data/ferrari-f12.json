@@ -860,7 +860,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f12berlinetta/v12/ferrari-f12berlinetta-v12-1389206340-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -871,7 +871,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202601129085476"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "35",
@@ -1284,7 +1285,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f12berlinetta/6-3-v12/ferrari-f12berlinetta-6-3-v12-1412794227-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1295,7 +1296,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202604171647212"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "51",
@@ -1362,7 +1364,7 @@
     {
       "id": "54",
       "title": "2014 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
-      "price": "£174,995",
+      "price": "£180,000",
       "year": 2014,
       "mileage": "18,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1381,6 +1383,10 @@
         {
           "price": "£169,995",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£174,995",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1631,6 +1637,44 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20322912"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "2017 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
+      "price": "£130,000",
+      "year": 2017,
+      "mileage": "23,200 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/38dd5accb9184673881701c50e83ee60.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604231795178"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2009 Ferrari 430 4.3 SPIDER F1 2d 479 BHP | LOW MILES | FULL SERVICE HISTORY | CHALLENGE REAR GRILL | DAYTONA SEATS | SCUDERIA SHIELDS | CERAMIC BRAKES | PARKING SENS",
+      "price": "£69,990",
+      "year": 2009,
+      "mileage": "29,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/7d3226ce672d431585d8f93fcac9351d.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202507224705203"
         }
       ]
     }

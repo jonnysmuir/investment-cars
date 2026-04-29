@@ -69,11 +69,11 @@
     {
       "id": "2",
       "title": "2024 Aston Martin DB12 4.0 V8 Coupe 2dr Petrol Auto Euro 6 (s/s) (680 ps)",
-      "price": "£151,850",
+      "price": "£159,950",
       "year": 2024,
       "mileage": "894 miles",
       "transmission": "Automatic",
-      "bodyType": "Coupe",
+      "bodyType": "Convertible",
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db12/volante/aston-martin-db12-volante-1418146822-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
@@ -172,13 +172,17 @@
         {
           "price": "£159,950",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£151,850",
+          "date": "2026-04-29"
         }
       ]
     },
     {
       "id": "3",
       "title": "2024 Aston Martin DB12 4.0 V8 Coupe 2dr Petrol Auto Euro 6 (s/s) (680 ps)",
-      "price": "£143,490",
+      "price": "£144,998",
       "year": 2024,
       "mileage": "5,968 miles",
       "transmission": "Automatic",
@@ -273,6 +277,10 @@
         {
           "price": "£144,998",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£143,490",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1148,13 +1156,17 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601229344867"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20336248"
         }
       ]
     },
     {
       "id": "26",
       "title": "2024 Aston Martin DB12 4.0 V8 Auto Euro 6 (s/s) 2dr",
-      "price": "£149,950",
+      "price": "£155,900",
       "year": 2024,
       "mileage": "2,490 miles",
       "transmission": "Automatic",
@@ -1213,6 +1225,10 @@
         {
           "price": "£155,900",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£149,950",
+          "date": "2026-04-29"
         }
       ]
     },
@@ -1317,7 +1333,7 @@
     {
       "id": "31",
       "title": "2024 Aston Martin DB12 4.0 V8 Coupe 2dr Petrol Auto Euro 6 (s/s) (680 ps)",
-      "price": "£155,900",
+      "price": "£159,990",
       "year": 2024,
       "mileage": "1,220 miles",
       "transmission": "Automatic",
@@ -1325,7 +1341,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6cd9e8e2e24140fbb89a54886e8fe40e.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1336,7 +1352,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20314046"
         }
       ],
-      "unlistedDate": "2026-04-15"
+      "priceHistory": [
+        {
+          "price": "£155,900",
+          "date": "2026-04-29"
+        }
+      ]
     },
     {
       "id": "32",
@@ -1354,6 +1375,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603170782813"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20331174"
         }
       ],
       "unlistedDate": "2026-04-14"
@@ -1658,6 +1683,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604221783633"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "2024 Aston Martin DB12 4.0 V8 Volante Auto Euro 6 (s/s) 2dr",
+      "price": "£159,990",
+      "year": "2024",
+      "mileage": "6,089 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30187387/2024-aston-martin-db12-69ef84800306c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=af1c6ac555ece6d285fabae206d99ad8",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2058136"
         }
       ]
     }

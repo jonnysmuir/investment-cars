@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-29",
+  "durationMs": 11592778,
+  "durationFormatted": "3h 13m",
+  "modelsProcessed": 168,
+  "totalNew": 525,
+  "totalUpdated": 704,
+  "totalUnlisted": 311,
+  "totalErrors": 0,
+  "sources": {
+    "autotrader": {
+      "totalResults": 2473,
+      "modelsConfigured": 99,
+      "modelsWithResults": 63,
+      "modelsWithZero": 36,
+      "modelsWithErrors": 0,
+      "avgResultsPerModel": 39.3
+    },
+    "carsandclassic": {
+      "totalResults": 1347,
+      "modelsConfigured": 163,
+      "modelsWithResults": 130,
+      "modelsWithZero": 33,
+      "modelsWithErrors": 0,
+      "avgResultsPerModel": 10.4
+    },
+    "collectingcars": {
+      "totalResults": 0,
+      "modelsConfigured": 168,
+      "modelsWithResults": 0,
+      "modelsWithZero": 168,
+      "modelsWithErrors": 0,
+      "avgResultsPerModel": 0
+    },
+    "pistonheads": {
+      "totalResults": 1051,
+      "modelsConfigured": 122,
+      "modelsWithResults": 96,
+      "modelsWithZero": 26,
+      "modelsWithErrors": 0,
+      "avgResultsPerModel": 10.9
+    }
+  }
+}

@@ -1486,6 +1486,14 @@
         {
           "price": "£128,000",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-04-29"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-04-29"
         }
       ],
       "bodyType": null
@@ -1995,17 +2003,18 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f8bac2e6f50c4b278705415ab5f4b4a7.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071330649"
         }
-      ]
+      ],
+      "unlistedDate": "2026-04-29"
     },
     {
       "id": "59",
-      "title": "2021 McLaren 600LT 3.8T V8 Coupe 2dr",
+      "title": "2021 McLaren 600LT 3.8T V8 SSG Euro 6 (s/s) 2dr",
       "price": "£149,900",
       "year": 2021,
       "mileage": "15,850 miles",
@@ -2019,6 +2028,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604231817309"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "2019 McLaren 600LT 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
+      "price": "£139,999",
+      "year": 2019,
+      "mileage": "12,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w480/ebfc421673744901b79a609bfa336aa4.jpg",
+      "featured": false,
+      "dateAdded": "2026-04-29",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508145421906"
         }
       ]
     }
