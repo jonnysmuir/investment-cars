@@ -806,7 +806,7 @@
     {
       "id": "39",
       "title": "2008 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£68,750",
+      "price": "£64,980",
       "year": 2008,
       "mileage": "60 miles",
       "transmission": "E-Gear",
@@ -933,6 +933,10 @@
         {
           "price": "£64,980",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£68,750",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1049,7 +1053,7 @@
     {
       "id": "45",
       "title": "2006 Lamborghini Gallardo 5.0 V10 Spyder EGear 4WD Euro 4 2dr",
-      "price": "£59,900",
+      "price": "£58,980",
       "year": 2006,
       "mileage": "25000 miles",
       "transmission": "F1 Automated Manual",
@@ -1172,6 +1176,10 @@
         {
           "price": "£58,980",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£59,900",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1410,13 +1418,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lamborghini/C1932590/2010-lamborghini-gallardo-68cb59c2933ea.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b4adf447191906f04ef839f0f2c1c9cd",
       "featured": false,
       "dateAdded": "2026-03-29",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1932590"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "57",
@@ -1429,13 +1438,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/0f0bcf038d8548ee8fdf9519a0822aeb.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602190065221"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "58",
@@ -1574,7 +1584,7 @@
     {
       "id": "65",
       "title": "2012 Lamborghini Gallardo 5.2 V10 LP 560-4 Spyder 2dr Petrol EGear 4WD Euro 5 (560 ps)",
-      "price": "£89,990",
+      "price": "£87,500",
       "year": 2012,
       "mileage": "27,000 miles",
       "transmission": "E-Gear",
@@ -1621,6 +1631,10 @@
         {
           "price": "£87,500",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£89,990",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1981,6 +1995,67 @@
         {
           "name": "Collecting Cars",
           "url": "https://collectingcars.com/for-sale/2009-lamborghini-gallardo-superleggera-1"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "2004 Lamborghini Gallardo 5.0 V10 4WD Euro 3 2dr",
+      "price": "£67,995",
+      "year": 2004,
+      "mileage": "29,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lamborghini/gallardo/v10-coupe/lamborghini-gallardo-v10-coupe-S4951033-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20342286"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604291978153"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "2013 Lamborghini Gallardo 5.2 V10 LP 570-4 Superleggera EGear 4WD Euro 5 2dr",
+      "price": "£219,950",
+      "year": 2013,
+      "mileage": "13,700 miles",
+      "transmission": "E-Gear",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d98a4b9b330b46738fc3d5920fb2f016.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604271916584"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "title": "2004 Lamborghini Gallardo 5.0L V10 E-Gear Coupe. Gialo Midas",
+      "price": "£67,995",
+      "year": "2004",
+      "mileage": "29,497 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/lamborghini/C2059673/2004-lamborghini-gallardo-69f1eea0bf084.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=0e60ba84c3eaa80c4ed962d6aa7dd1f5",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059673"
         }
       ]
     }

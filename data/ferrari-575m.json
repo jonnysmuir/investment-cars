@@ -748,15 +748,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1664590/2003-ferrari-575-maranello-66007d8a5c3fc.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4833eeb04f2fb67f373da3c94c4f64d1",
       "featured": false,
       "dateAdded": "2026-03-17",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1664590"
         }
       ],
-      "bodyType": null,
-      "unlistedDate": "2026-04-27"
+      "bodyType": null
     },
     {
       "id": "39",
@@ -915,13 +914,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/50f19d4518254a439b1ff9a91ae0f059.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508105301178"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "47",
@@ -1122,7 +1122,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d6f03fdf73324b58829ca240836a5f8d.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1132,8 +1132,7 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20336357"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "52",
@@ -1237,7 +1236,7 @@
       "price": "£84,995",
       "year": "2003",
       "mileage": "40,250 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": null,
       "image": "/uploads/cars/ferrari/C2059386/2003-ferrari-575-69f17dbc10ac3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=89bb0516d97e05958ed875e8b9ef7b78",
       "featured": false,

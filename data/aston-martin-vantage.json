@@ -433,7 +433,7 @@
     {
       "id": "21",
       "title": "2026 Aston Martin Vantage 4.0 V8 Coupe 2dr Petrol Auto Euro",
-      "price": "£152,990",
+      "price": "£149,990",
       "year": "2026",
       "mileage": "74 miles",
       "transmission": "Automatic",
@@ -446,6 +446,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2000030"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£152,990",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -538,7 +544,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2037563/2024-aston-martin-vantage-69c720922fda3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=752edbdbbab46f482f983c65d166b7cc",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -554,7 +560,8 @@
           "price": "£124,950",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "27",
@@ -3884,7 +3891,7 @@
     {
       "id": "171",
       "title": "2025 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
-      "price": "£153,900",
+      "price": "£159,900",
       "year": 2025,
       "mileage": "159 miles",
       "transmission": "Automatic",
@@ -3892,7 +3899,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/a090adfa0b274a0aa5ea8e4e7f4501f3.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3903,7 +3910,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19802193"
         }
       ],
-      "unlistedDate": "2026-04-21"
+      "priceHistory": [
+        {
+          "price": "£153,900",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "172",
@@ -4976,7 +4988,7 @@
     {
       "id": "218",
       "title": "2025 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
-      "price": "£134,990",
+      "price": "£142,999",
       "year": 2025,
       "mileage": "2,611 miles",
       "transmission": "Automatic",
@@ -4984,7 +4996,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/5b98fa9d1b8f4929a69c2e067cba4653.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -4999,9 +5011,12 @@
         {
           "price": "£138,990",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£134,990",
+          "date": "2026-05-01"
         }
-      ],
-      "unlistedDate": "2026-04-17"
+      ]
     },
     {
       "id": "219",
@@ -5939,6 +5954,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202510167186594"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/19977259"
         }
       ],
       "priceHistory": [
@@ -6560,7 +6579,7 @@
     {
       "id": "287",
       "title": "2025 Used  Aston Martin",
-      "price": "£197,990",
+      "price": "£186,999",
       "year": 2025,
       "mileage": "N/A",
       "transmission": "Unknown",
@@ -6568,14 +6587,19 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/dbx/v8-dbx707-5dr-touchtronic/aston-martin-dbx-v8-dbx707-5dr-touchtronic-1408372542-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19977383"
         }
       ],
-      "unlistedDate": "2026-04-04"
+      "priceHistory": [
+        {
+          "price": "£197,990",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "288",
@@ -6588,13 +6612,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2040320/2017-aston-martin-vantage-69cc09a3bdb8b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=f96ef2a9d93b20e558b0fe08308a84e8",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040320"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "289",
@@ -9142,6 +9167,122 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20337290"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "2008 Aston Martin V8 Vantage Roadster - 30,474 Miles",
+      "price": "Sold",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://images.collectingcars.com/086580/AS-02-04-02.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "sold",
+      "soldPrice": "£25,000",
+      "soldDate": "2026-04-29",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2007-aston-martin-v8-vantage-roadster-5"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "2016 Used  ASTON MARTIN VANTAGE",
+      "price": "£79,850",
+      "year": 2016,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v12-vantage/s-v12/aston-martin-v12-vantage-s-v12-S4951231-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20349724"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "title": "2022 Aston Martin Vantage V12",
+      "price": "£169,975",
+      "year": "2022",
+      "mileage": "2,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/30347969/2022-aston-martin-v12-vantage-69f40d48c3cba.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a0fafd389e495b5aba668b11bf3138f3",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060677"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "title": "2016 ASTON MARTIN VANTAGE S",
+      "price": "£65,000",
+      "year": "2016",
+      "mileage": "9,431 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/30274635/2016-aston-martin-vantage-s-69f1bf1b720fe.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d3ba5d25b8e7920f5bf0f82dd7eb8f57",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059458"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "2016 Aston Martin Vantage V12 S",
+      "price": "£79,850",
+      "year": "2016",
+      "mileage": "22,900 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2060323/2016-aston-martin-vantage-69f352dd1405c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3bad078a19f84bd8ad39a09960e35fb9",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060323"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "title": "2019 Aston Martin Vantage",
+      "price": "£79,850",
+      "year": "2019",
+      "mileage": "4,997 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2060400/2019-aston-martin-vantage-69f36eb28c7a1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2b3360bbaf814cddae099c3bccd2d214",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060400"
         }
       ]
     }

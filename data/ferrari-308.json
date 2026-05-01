@@ -693,14 +693,15 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/308/ferrari-308-S4916714-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18934743"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "36",
@@ -770,14 +771,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1931067/1981-ferrari-308-68ad75c8a1e72.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=77b9d44b597b6589a758f12e66bd7b88",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1931067"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "40",
@@ -1404,6 +1406,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1987948"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "1979 Ferrari 308 GT4",
+      "price": "£38,000",
+      "year": "1979",
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2060236/1979-ferrari-308-69f32713080f6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1c8e48ff9d6b526d31276eee0b0048ca",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060236"
         }
       ]
     }

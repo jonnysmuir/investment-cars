@@ -533,13 +533,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/daeba9931fb64360a16441bc45275dad.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604211726962"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "26",
@@ -599,6 +600,67 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2055498"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "2016 McLaren 675LT 3.8T V8 Spider 2dr Petrol SSG Euro 6 (675 ps)",
+      "price": "£435,000",
+      "year": 2016,
+      "mileage": "5,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Convertible",
+      "image": "https://img.pistonheads.com/LargeSize/mclaren/675lt/3-8t-v8-spider-2dr-petrol-ssg-euro-6-675-ps/mclaren-675lt-3-8t-v8-spider-2dr-petrol-ssg-euro-6-675-ps-1434370492-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20352784"
+        },
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604302032024"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "2016 MCLAREN 675LT SPIDER",
+      "price": "£220,000",
+      "year": "2016",
+      "mileage": "1,950 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/new/30309714/2016-mclaren-675lt-spider-69f30d682f219.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2a1d8af87e0f959e83231b2e3e033579",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060120"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "2016 McLaren 675 LT MSO",
+      "price": "POA",
+      "year": "2016",
+      "mileage": "550 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30346574/2016-mclaren-675-lt-69f40c4d33414.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6cddb326d1ea466d038f21b670250434",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060650"
         }
       ]
     }

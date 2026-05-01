@@ -901,7 +901,7 @@
       "price": "£76,995",
       "year": 2018,
       "mileage": "38,629 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w640/ffc9d09c8d4d4dd8ac28b36c5412115a.jpg",
       "featured": false,
@@ -911,6 +911,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240963274"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20332397"
         }
       ],
       "unlistedDate": "2026-04-27"
@@ -1632,6 +1636,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604231816280"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "2018 McLaren 3.8 570GT Coupe Semi-Auto 3dr",
+      "price": "£78,990",
+      "year": 2018,
+      "mileage": "38,000 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/57bc7c8b249c4bb29d43dc168e9737ba.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202508015033712"
         }
       ]
     }

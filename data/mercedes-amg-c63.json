@@ -984,13 +984,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2015617/2014-mercedes-c-class-699295d374525.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8eaf22f49f0756886eee7c24de3440ec",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2015617"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "48",
@@ -1074,7 +1075,7 @@
     {
       "id": "52",
       "title": "2023 Mercedes-Benz C Class 2.0 C63 6.1kWh AMG S E Performanc",
-      "price": "£61,750",
+      "price": "£60,950",
       "year": "2023",
       "mileage": "8,276 miles",
       "transmission": "Automatic",
@@ -1093,6 +1094,10 @@
         {
           "price": "£62,595",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£61,750",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1180,7 +1185,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/mercedes/C2041644/2015-mercedes-c-class-69cd88ff73471.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=dc7954b7183b6b39ac183e38750d4225",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1200,7 +1205,8 @@
           "price": "£24,650",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "57",
@@ -1522,6 +1528,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057116"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "title": "2014 Mercedes C63 AMG AMG Edition 507 2dr SpdS MCT",
+      "price": "£59,925",
+      "year": "2014",
+      "mileage": "23,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30290979/2014-mercedes-c63-amg-69f20fb042482.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=62e84878f1333bab25f1665fbeca7b04",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059786"
         }
       ]
     }

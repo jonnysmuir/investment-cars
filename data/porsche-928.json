@@ -835,13 +835,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/928/porsche-928-S4943852-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20130676"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "41",
@@ -994,13 +995,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2000111/1995-porsche-928-696a3f1f7c67e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=7da322d094b77ee2ead044d9a1c25489",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2000111"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "48",
@@ -1108,13 +1110,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2032557/1993-porsche-928-69ba725c5b21c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fed431286cddbd14b84b6af8d2d6a22a",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2032557"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "53",
@@ -1412,7 +1415,7 @@
     {
       "id": "67",
       "title": "1989 Porsche 928 S4",
-      "price": "£22,500",
+      "price": "£12,500",
       "year": "1989",
       "mileage": "170,000 miles",
       "transmission": "Automatic",
@@ -1425,6 +1428,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1943341"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£22,500",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1671,6 +1680,46 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2058697"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "1992 Porsche 928 GTS - Manual",
+      "price": "Sold",
+      "year": 1992,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/085986/AS-13-03-04.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "sold",
+      "soldPrice": "€50,600",
+      "soldDate": "2026-04-29",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/1992-porsche-928-gts-10"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "1991 Used  PORSCHE 928 S",
+      "price": "£21,995",
+      "year": 1991,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/928/5-0l-2d-auto-320-bhp/porsche-928-5-0l-2d-auto-320-bhp-1431477780-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20316289"
         }
       ]
     }

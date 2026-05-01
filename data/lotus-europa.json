@@ -216,13 +216,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2038012/1971-lotus-europa-69c6e4b1cd355.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a5048fb959bcd4a1c8a76c4741eac8d8",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2038012"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "12",
@@ -519,6 +520,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2049593"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "2006 Used  LOTUS EUROPA",
+      "price": "£19,995",
+      "year": 2006,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/europa/s/lotus-europa-s-1434574922-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20357821"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "2006 Lotus Europa  S Coupe",
+      "price": "£19,995",
+      "year": "2006",
+      "mileage": "91,268 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/lotus/C2060280/2006-lotus-europa-69f33fb07b967.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2bb838dcb33ca8e7b83fd1847ab8abf0",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060280"
         }
       ]
     }

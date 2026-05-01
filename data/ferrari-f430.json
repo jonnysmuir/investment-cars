@@ -489,6 +489,14 @@
         {
           "price": "£78,950",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£79,950",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£78,950",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -995,6 +1003,18 @@
         {
           "price": "£74,500",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£74,500",
+          "date": "2026-05-01"
         }
       ],
       "bodyType": "Convertible"
@@ -1157,6 +1177,18 @@
         {
           "price": "£119,950",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£120,000",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£119,995",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£119,950",
+          "date": "2026-05-01"
         }
       ],
       "bodyType": "Convertible"
@@ -1288,7 +1320,7 @@
     {
       "id": "39",
       "title": "2007 Ferrari F430 4.3 Spider F1 DCT 2dr",
-      "price": "£119,990",
+      "price": "£99,990",
       "year": 2007,
       "mileage": "60 miles",
       "transmission": "Automatic",
@@ -1323,6 +1355,10 @@
         {
           "price": "£119,950",
           "date": "2026-04-02"
+        },
+        {
+          "price": "£119,990",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1764,14 +1800,14 @@
     {
       "id": "59",
       "title": "2007 Ferrari F430 4.3 Coupe 2dr Petrol F1 (420 g/km, 490 bhp)",
-      "price": "£119,990",
+      "price": "£99,990",
       "year": null,
       "mileage": "24,077 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w600/32f880f907154056b6243dad0dc1b315.jpg",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1779,7 +1815,12 @@
         }
       ],
       "bodyType": "Coupe",
-      "unlistedDate": "2026-04-22"
+      "priceHistory": [
+        {
+          "price": "£119,990",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "60",
@@ -2827,6 +2868,14 @@
         {
           "price": "£79,786",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£79,940",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£79,786",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -3111,6 +3160,14 @@
         {
           "price": "£114,950",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£109,995",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£114,950",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -3194,7 +3251,7 @@
     {
       "id": "127",
       "title": "2006 Ferrari 430 4.3 2dr Petrol Manual (420 g/km, 490 bhp) 12 MNTH WARRANTY - CAPRISTO EXHAUST",
-      "price": "£79,999",
+      "price": "£78,995",
       "year": 2006,
       "mileage": "27,658 miles",
       "transmission": "F1 Automated Manual",
@@ -3212,6 +3269,12 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604241842950"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£79,999",
+          "date": "2026-05-01"
+        }
       ]
     },
     {
@@ -3225,7 +3288,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f430/4-3-spider-2dr-petrol-f1-dct-420-g-km-490-bhp/ferrari-f430-4-3-spider-2dr-petrol-f1-dct-420-g-km-490-bhp-1422475163-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -3235,7 +3298,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603130678100"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "129",
@@ -3355,13 +3419,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29537504/2008-ferrari-430-scuderia-69d83e5620fe1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f6d93f9038d9217b0cf450cc1a00af35",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046178"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "135",
@@ -3546,7 +3611,7 @@
     },
     {
       "id": "144",
-      "title": "2008 Ferrari F430 F1 Spider",
+      "title": "2008 Ferrari F430 F1 Spider, 2008. A Low Mileage example.",
       "price": "£95,000",
       "year": "2008",
       "mileage": "12,405 km",
@@ -3600,6 +3665,103 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604231795546"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "title": "2008 Ferrari 430 Scuderia - HK Registered",
+      "price": "Sold",
+      "year": 2008,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/087298/1U9A3082HERO.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "sold",
+      "soldPrice": "$265,650",
+      "soldDate": "2026-04-29",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2008-ferrari-430-scuderia-26"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "title": "2005 Used  FERRARI F430",
+      "price": "£79,990",
+      "year": 2005,
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/f430/coupe/ferrari-f430-coupe-1434552419-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20357350"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "title": "2007 Used  FERRARI F430",
+      "price": "£69,995",
+      "year": 2007,
+      "mileage": "N/A",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/430-spider/f1/ferrari-430-spider-f1-S4951337-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20349757"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "title": "2008 Used  FERRARI F430",
+      "price": "£95,000",
+      "year": 2008,
+      "mileage": "7753 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/ferrari/430-spider/f1/ferrari-430-spider-f1-S4951344-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20349738"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "title": "2015 Ferrari F430 Scuderia",
+      "price": "£234,975",
+      "year": "2015",
+      "mileage": "780 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30346884/2015-ferrari-f430-scuderia-69f40c8a1e201.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fcc6bb24ee7ef429c6fb779519ee014c",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060658"
         }
       ]
     }

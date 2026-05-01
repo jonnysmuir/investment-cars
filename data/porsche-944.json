@@ -995,7 +995,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2034782/1986-porsche-944-69bfcf71eb234.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=60139386843c7274f879a12f8fc2e3b0",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1007,7 +1007,8 @@
           "price": "£16,500",
           "date": "2026-04-05"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "48",
@@ -1020,13 +1021,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28187045/Paras-Porsche994-74.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4a2b109206f5602f0321460cbfc90379",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/1988-porsche-944-s-4367dn"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "49",
@@ -1487,7 +1489,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2040313/1990-porsche-944-69cc0a80d1a24.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=e1856a1530d38e2417c8a71e289a93d2",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1499,7 +1501,8 @@
           "price": "£16,495",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "72",
@@ -1662,13 +1665,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29311587/1-static-26.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=95aa17806a4417acfb41521eb9726aa8",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/auctions/1990-porsche-944-s2-8WB604"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "80",
@@ -1937,6 +1941,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C1864984"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "title": "1986 Porsche 944 Turbo",
+      "price": "£14,750",
+      "year": "1986",
+      "mileage": "143,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2059256/img-5044.jpeg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=66bb817c611ceed26ae51303ce9e86b2",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2059256"
         }
       ]
     }

@@ -208,7 +208,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/765lt/spider/mclaren-765lt-spider-1410775333-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -245,7 +245,8 @@
           "date": "2026-03-24"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "11",
@@ -416,7 +417,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/765lt/v8-ssg/mclaren-765lt-v8-ssg-S4946646-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -426,7 +427,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081365278"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "19",
@@ -489,7 +491,7 @@
     {
       "id": "22",
       "title": "2021 McLaren 4.0 765lt V8 Semi-Auto 2dr",
-      "price": "£375,000",
+      "price": "£345,000",
       "year": 2021,
       "mileage": "15,000 miles",
       "transmission": "F1 Automated Manual",
@@ -502,6 +504,50 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604221760675"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£375,000",
+          "date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "2021 Used  MCLAREN 765LT V8 S-A",
+      "price": "£345,000",
+      "year": 2021,
+      "mileage": "15,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mclaren/765lt/v8-ssg/mclaren-765lt-v8-ssg-S4951378-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20342276"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "2021 McLaren 765LT Mso",
+      "price": "£325,000",
+      "year": "2021",
+      "mileage": "4,700 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30346477/2021-mclaren-765lt-mso-69f40c36c7a2a.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6297f9bd78a31a17398a3e56b4c9bddf",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060647"
         }
       ]
     }

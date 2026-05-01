@@ -1574,13 +1574,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2030930/1995-aston-martin-db7-69b726c444680.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0ddf2042ba4c4525df65bdebf8b8a857",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2030930"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "64",
@@ -2570,13 +2571,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/base/aston-martin-db7-base-1425715423-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20235614"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "109",
@@ -2709,6 +2711,101 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057118"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "title": "1999 Used  ASTON MARTIN DB7",
+      "price": "£25,950",
+      "year": 1999,
+      "mileage": "31,500 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/aston-martin-db7-S4951246-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20349729"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "title": "1998 Used  ASTON MARTIN DB7",
+      "price": "£25,500",
+      "year": 1998,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/db7/volante/aston-martin-db7-volante-S4951236-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20349725"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "title": "1999 Aston Martin DB7 i6",
+      "price": "£25,950",
+      "year": "1999",
+      "mileage": "31,500 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2060234/1999-aston-martin-db7-69f326c78af15.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=a95432ee92c876d4ac23d78b6da751cd",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060234"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "title": "2001 ASTON MARTIN DB7",
+      "price": "£12,000",
+      "year": "2001",
+      "mileage": "N/A",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/30274999/2001-aston-martin-db7-69f1bfbc27fc0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a37e41121f8cfa65788b68c26a054899",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059463"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "title": "1998 Aston Martin DB7 i6 Volante",
+      "price": "£25,500",
+      "year": "1998",
+      "mileage": "73,000 miles",
+      "transmission": "Automatic",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/aston-martin/C2060206/1998-aston-martin-db7-69f31d2fac09e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d782038cd6388640038deec8039f0f71",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060206"
         }
       ]
     }

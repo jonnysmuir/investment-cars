@@ -869,13 +869,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C1984581/2012-lotus-evora-6933fe3641480.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e10a2000285669cbcd566fba6ee4bcd3",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1984581"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "39",
@@ -941,7 +942,7 @@
     {
       "id": "42",
       "title": "2010 Lotus Evora 3.5 V6 Euro 4 2dr",
-      "price": "£29,975",
+      "price": "£29,000",
       "year": 2010,
       "mileage": "27,000 miles",
       "transmission": "6-Speed Manual",
@@ -968,6 +969,10 @@
         {
           "price": "£30,495",
           "date": "2026-04-22"
+        },
+        {
+          "price": "£29,975",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1222,7 +1227,7 @@
     {
       "id": "54",
       "title": "2019 Lotus Evora 3.5 V6 GT410 Sport Euro 6 2dr",
-      "price": "£59,995",
+      "price": "£59,795",
       "year": 2019,
       "mileage": "35,000 miles",
       "transmission": "6-Speed Manual",
@@ -1239,6 +1244,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20331338"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£59,995",
+          "date": "2026-05-01"
         }
       ]
     },

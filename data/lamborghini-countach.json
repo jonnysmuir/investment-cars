@@ -240,13 +240,14 @@
       "image": "/uploads/cars/lamborghini/C2048642/1987-lamborghini-countach-69ddfa440aed0.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e037ed4ac2a01504edecfbcbb07a2c3a",
       "featured": false,
       "dateAdded": "2026-04-15",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2048642"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "13",
@@ -264,6 +265,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2055046"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "1984 Lamborghini Countach LP5000 S UK RHD",
+      "price": "£799,975",
+      "year": "1984",
+      "mileage": "18,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lamborghini/C1884017/1984-lamborghini-countach-lp5000-s-69f40b588762a.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fdf5672bf54a42c332e3241d0d49d6da",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1884017"
         }
       ]
     }

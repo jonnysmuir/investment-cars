@@ -833,13 +833,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s2/16v-sports/lotus-exige-s2-16v-sports-S4944355-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19837622"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "41",
@@ -1034,13 +1035,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2014495/2008-lotus-exige-698f2c3bf314c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d7cbec919e77b8cb1239c97cdc1905ee",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2014495"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "50",
@@ -1073,13 +1075,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2009997/2008-lotus-exige-698b3c23988ce.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=53c3088a07421ef630966643f12b5923",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2009997"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "52",
@@ -1796,19 +1799,18 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s2/cup/lotus-exige-s2-cup-S4939128-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19984601"
         }
-      ],
-      "unlistedDate": "2026-04-06"
+      ]
     },
     {
       "id": "86",
       "title": "2021 Lotus Exige 3.5 V6 Sport 390 Final Edition Coupe 2dr Petrol Manual Euro 6 (402 ps)",
-      "price": "£65,000",
+      "price": "£63,900",
       "year": 2021,
       "mileage": "4,600 miles",
       "transmission": "6-Speed Manual",
@@ -1831,6 +1833,10 @@
         {
           "price": "£63,900",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£65,000",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2225,13 +2231,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s2/16v-touring/lotus-exige-s2-16v-touring-S4949473-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20301445"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "106",
@@ -2244,13 +2251,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/sport/lotus-exige-s3-sport-S4949245-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20293819"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "107",
@@ -2344,6 +2352,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2059095"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "title": "2021 Used  LOTUS EXIGE SPORT 390",
+      "price": "£63,750",
+      "year": 2021,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/lotus/exige-s3/sport/lotus-exige-s3-sport-S4951424-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20107802"
         }
       ]
     }

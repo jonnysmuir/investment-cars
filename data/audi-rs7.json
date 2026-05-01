@@ -483,7 +483,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4db2d6277af24db1a6e62e1e450ad5a9.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -495,7 +495,8 @@
           "price": "£36,988",
           "date": "2026-04-06"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "18",
@@ -1128,7 +1129,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f58941773cb343b587e6801215e832b5.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1144,7 +1145,8 @@
           "price": "£21,995",
           "date": "2026-04-03"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "45",
@@ -1615,13 +1617,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4bccc586caaa4ee491d63e860d941f0d.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202601309564351"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "68",
@@ -1721,13 +1724,14 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs-7/tfsi-qtro-perform-carbon-vorsp-5dr/audi-rs-7-tfsi-qtro-perform-carbon-vorsp-5dr-1427868922-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20184309"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "73",
@@ -1898,6 +1902,46 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509256640010"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "title": "2015 Audi RS7",
+      "price": "Sold",
+      "year": 2015,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/087135/AS-16-04-10.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "sold",
+      "soldPrice": "",
+      "soldDate": "2026-04-30",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2015-audi-rs7-5"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "title": "2020 Audi RS7 4.0 TFSI V8 Vorsprung Sportback Tiptronic quattro Euro 6 (s/s) 5dr",
+      "price": "£68,950",
+      "year": 2020,
+      "mileage": "28,365 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/49b51adfa1864f4c8c911565c918b6a6.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604302022834"
         }
       ]
     }

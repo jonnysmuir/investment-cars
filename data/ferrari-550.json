@@ -703,7 +703,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/550/ferrari-550-S4934804-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -736,7 +736,8 @@
           "date": "2026-03-30"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "36",
@@ -844,14 +845,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2022816/1997-ferrari-550-maranello-69a57bf49892d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cac6cab16acf1bdbcd710e834bdadb3d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2022816"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "42",
@@ -1053,7 +1055,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/550/maranello-rhd/ferrari-550-maranello-rhd-1415920328-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1064,7 +1066,6 @@
           "url": "https://www.autotrader.co.uk/car-details/202603200861034"
         }
       ],
-      "unlistedDate": "2026-03-24",
       "bodyType": "Coupe"
     },
     {
@@ -1379,6 +1380,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057055"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "2001 Ferrari 550 Barchetta Pininfarina",
+      "price": "POA",
+      "year": "2001",
+      "mileage": "3,065 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "/uploads/cars/ferrari/C1884023/2001-ferrari-550-barchetta-688a2a4899591.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4d9e979c4c979260f07e9eaea9be6046",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1884023"
         }
       ]
     }

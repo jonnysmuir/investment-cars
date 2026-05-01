@@ -237,7 +237,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/600lt/v8-semi-auto/mclaren-600lt-v8-semi-auto-1368624937-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -248,7 +248,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202511107783092"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "13",
@@ -641,7 +642,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/600lt/3-8t-v8-coupe-2dr-petrol-ssg-euro-6-s-s--600-ps/mclaren-600lt-3-8t-v8-coupe-2dr-petrol-ssg-euro-6-s-s--600-ps-1375115704-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -662,7 +663,8 @@
           "date": "2026-03-13"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "24",
@@ -674,7 +676,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/600lt/mclaren-600lt-S4935087-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -685,7 +687,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202602099790716"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "25",
@@ -1048,7 +1051,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/28576267/2020-mclaren-600lt-69af7880866b1.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=257e18a1838493a9a6443ff228f51baf",
       "featured": false,
       "dateAdded": "2026-03-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1065,7 +1068,8 @@
           "date": "2026-03-18"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "37",
@@ -1077,7 +1081,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/14257d22b68343e8b632525be1bc7c2e.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1270,7 +1274,8 @@
           "date": "2026-04-22"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "38",
@@ -1282,7 +1287,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/1a5bc15820914f2f88eb6a97f9f91c4b.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1299,7 +1304,8 @@
           "date": "2026-03-15"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "39",
@@ -1494,6 +1500,14 @@
         {
           "price": "£128,000",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-05-01"
         }
       ],
       "bodyType": null
@@ -1534,7 +1548,7 @@
       "price": "£144,990",
       "year": 2021,
       "mileage": "3,054 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/f3f9a45b8b4d4cbbacc02a0fc830f3aa.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
@@ -1543,6 +1557,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202602200092399"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20347558"
         }
       ],
       "bodyType": "Coupe",
@@ -1749,7 +1767,7 @@
     {
       "id": "46",
       "title": "2019 McLaren 600LT 3.8T V8 Spider 2dr Petrol SSG Euro 6 (s/s) (600 ps)",
-      "price": "£133,777",
+      "price": "£133,990",
       "year": 2019,
       "mileage": "25,000 miles",
       "transmission": "Unknown",
@@ -1761,9 +1779,19 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511067703439"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20344993"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "priceHistory": [
+        {
+          "price": "£133,777",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "47",
@@ -2047,6 +2075,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202508145421906"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "2019 McLaren 600LT",
+      "price": "£129,900",
+      "year": "2019",
+      "mileage": "19,480 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30336964/2019-mclaren-600lt-69f3f0964e256.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2d0fab5ebe136cfcd054b103e194fece",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060559"
         }
       ]
     }

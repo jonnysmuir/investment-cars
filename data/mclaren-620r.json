@@ -204,7 +204,7 @@
     {
       "id": "10",
       "title": "2023 McLaren GT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (620 ps)",
-      "price": "£114,890",
+      "price": "£109,990",
       "year": 2023,
       "mileage": "2,609 miles",
       "transmission": "Unknown",
@@ -212,14 +212,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/4dfda212812c445a82b4c892102fab5e.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509126279005"
         }
       ],
-      "unlistedDate": "2026-04-14"
+      "priceHistory": [
+        {
+          "price": "£114,890",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "11",
@@ -321,6 +326,25 @@
         {
           "price": "£98,400",
           "date": "2026-04-29"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "2023 McLaren GT 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (620 ps)",
+      "price": "£114,950",
+      "year": 2023,
+      "mileage": "28,234 miles",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://m.atcdn.co.uk/a/media/w640/d369c04417dc48069f55c41ff0bb3c73.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604291997607"
         }
       ]
     }

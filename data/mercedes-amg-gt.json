@@ -814,19 +814,18 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-s-premium-roadster-spds-dct-euro-6-s-s-2dr/mercedes-benz-amg-gt-4-0-v8-biturbo-s-premium-roadster-spds-dct-euro-6-s-s-2dr-1414839392-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20072964"
         }
-      ],
-      "unlistedDate": "2026-04-04"
+      ]
     },
     {
       "id": "40",
       "title": "2018 Mercedes-Benz Amg Gt Gt C 2Dr Auto 4.0",
-      "price": "£70,999",
+      "price": "£74,950",
       "year": 2018,
       "mileage": "3,263 miles",
       "transmission": "Automatic",
@@ -889,6 +888,10 @@
         {
           "price": "£74,950",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£70,999",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1037,7 +1040,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/4-0-v8-biturbo-gpf-c-roadster-spds-dct-euro-6-s-s-2dr/mercedes-benz-amg-gt-4-0-v8-biturbo-gpf-c-roadster-spds-dct-euro-6-s-s-2dr-1419848103-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1057,7 +1060,8 @@
           "price": "£82,980",
           "date": "2026-04-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "46",
@@ -1111,13 +1115,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/v8-biturbo-c/mercedes-benz-amg-gt-v8-biturbo-c-1404159372-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19914984"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "48",
@@ -2726,13 +2731,14 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/amg-gt/202070-v8-biturbo-edition-476--1-owner--extended-warranty/mercedes-benz-amg-gt-202070-v8-biturbo-edition-476--1-owner--extended-warranty-1428085835-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20267993"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "117",
@@ -2883,6 +2889,46 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2058144"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "title": "2015 Mercedes-AMG GT S - Edition 1",
+      "price": "Sold",
+      "year": 2015,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://images.collectingcars.com/087219/AS-17-04-09.jpg?w=640&fit=clip&crop=edges&auto=format,compress&cs=srgb&q=85",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "sold",
+      "soldPrice": "€60,000",
+      "soldDate": "2026-04-29",
+      "sources": [
+        {
+          "name": "Collecting Cars",
+          "url": "https://collectingcars.com/for-sale/2015-mercedes-amg-gt-s-14"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "title": "2021 Mercedes AMG GT Black Series",
+      "price": "POA",
+      "year": "2021",
+      "mileage": "190 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30345713/2021-mercedes-benz-amg-gt-black-series-69f40bc2adcab.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=84fc3f01a0e2c19177290a0d03e7a5c7",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060636"
         }
       ]
     }

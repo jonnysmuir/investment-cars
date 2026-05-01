@@ -805,7 +805,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/458/4-5-italia-f1-dct-euro-5-2dr/ferrari-458-4-5-italia-f1-dct-euro-5-2dr-1406511044-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -816,7 +816,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202508165495463"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "41",
@@ -1455,14 +1456,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/112167349c804f9d962026dbe71497e2.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202509126261220"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "59",
@@ -1791,7 +1793,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/195e51ae06644b79b3a8001d679cdd0e.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1808,7 +1810,8 @@
           "price": "£129,000",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "73",
@@ -1992,7 +1995,7 @@
     {
       "id": "82",
       "title": "2011 Ferrari 458 4.5 Italia F1 DCT Euro 5 2dr",
-      "price": "£120,550",
+      "price": "£110,550",
       "year": 2011,
       "mileage": "14,500 miles",
       "transmission": "F1 Automated Manual",
@@ -2006,7 +2009,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202603120639748"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£120,550",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "83",
@@ -2180,6 +2189,14 @@
         {
           "price": "£129,995",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£133,949",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£129,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2293,7 +2310,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/458/italia-2dr-auto/ferrari-458-italia-2dr-auto-1424847690-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -2309,7 +2326,8 @@
           "price": "£147,500",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "96",
@@ -2342,13 +2360,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/8059630267c241a0b423753df8db165f.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604111473987"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "98",
@@ -2386,13 +2405,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/9a0f6ff857954bafb6dc3ecb453faa02.jpg",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131513515"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "100",
@@ -2405,13 +2425,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/dd8ac2599a404ac9a96ed27b49239fc6.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201711623"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "101",
@@ -2424,13 +2445,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/46e7271fb9e643afbef51dac212bf73e.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604211734985"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "102",
@@ -2469,6 +2491,25 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20321653"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "2013 Ferrari 458 4.5 Spider Convertible 2dr Petrol F1 DCT Euro 5 (570 bhp)",
+      "price": "£184,990",
+      "year": 2013,
+      "mileage": "7,572 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/f4e41164e7a54821884819538ef04f36.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604302005739"
         }
       ]
     }

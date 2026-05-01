@@ -4565,13 +4565,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C1935571/2021-porsche-718-cayman-68c4283f5cb45.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ff271fd9b405c27dfede7542a83f5a21",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1935571"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "221",
@@ -5398,7 +5399,7 @@
     {
       "id": "256",
       "title": "2024 Used  PORSCHE 718 CAYMAN GT4 RS S-A",
-      "price": "£133,950",
+      "price": "£132,950",
       "year": 2024,
       "mileage": "3199 miles",
       "transmission": "Unknown",
@@ -5406,14 +5407,19 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/4-0-gt4-rs-pdk-euro-6-s-s-2dr/porsche-cayman-718-4-0-gt4-rs-pdk-euro-6-s-s-2dr-1421081269-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-31",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20171256"
         }
       ],
-      "unlistedDate": "2026-04-03"
+      "priceHistory": [
+        {
+          "price": "£133,950",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "257",
@@ -5572,7 +5578,7 @@
     {
       "id": "263",
       "title": "2017 Porsche 718 Cayman 2.0T PDK Euro 6 (s/s) 2dr",
-      "price": "£34,495",
+      "price": "£34,250",
       "year": 2017,
       "mileage": "28,819 miles",
       "transmission": "Automatic",
@@ -5580,7 +5586,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-0t-coupe-2dr-petrol-pdk-euro-6-s-s--300-ps/porsche-cayman-718-2-0t-coupe-2dr-petrol-pdk-euro-6-s-s--300-ps-1421509731-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
@@ -5591,7 +5597,12 @@
           "url": "https://www.autotrader.co.uk/car-details/202604091393922"
         }
       ],
-      "unlistedDate": "2026-04-08"
+      "priceHistory": [
+        {
+          "price": "£34,495",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "264",
@@ -5727,14 +5738,13 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/4-0-gt4-rs-pdk-euro-6-s-s-2dr/porsche-cayman-718-4-0-gt4-rs-pdk-euro-6-s-s-2dr-1421081273-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20171240"
         }
-      ],
-      "unlistedDate": "2026-04-14"
+      ]
     },
     {
       "id": "271",
@@ -5790,7 +5800,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/leather-package-in-black-with/porsche-cayman-718-leather-package-in-black-with-1421897486-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -5802,7 +5812,8 @@
           "price": "£51,998",
           "date": "2026-04-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "274",
@@ -5918,7 +5929,7 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/t-gts/porsche-cayman-718-t-gts-1392294348-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -5930,7 +5941,8 @@
           "price": "£43,950",
           "date": "2026-04-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "280",
@@ -6193,7 +6205,7 @@
     {
       "id": "292",
       "title": "2017 Porsche 718 Cayman 2.0T PDK Euro 6 (s/s) 2dr",
-      "price": "£31,990",
+      "price": "£32,495",
       "year": 2017,
       "mileage": "37,468 miles",
       "transmission": "Unknown",
@@ -6201,7 +6213,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/15191ec5941644169aaf7295240864ec.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6212,7 +6224,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20330677"
         }
       ],
-      "unlistedDate": "2026-04-13"
+      "priceHistory": [
+        {
+          "price": "£31,990",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "293",
@@ -6225,13 +6242,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2042588/2016-porsche-cayman-69cfc447a3bb3.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f99b9f2ede1d5ff4eedf85748f4b9a45",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2042588"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "294",
@@ -6566,13 +6584,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-0t-pdk-euro-6-s-s-2dr/porsche-cayman-718-2-0t-pdk-euro-6-s-s-2dr-1417584733-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-07",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20106355"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "309",
@@ -6741,13 +6760,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-0t-coupe-2dr-petrol-pdk-euro-6-s-s--300-ps/porsche-cayman-718-2-0t-coupe-2dr-petrol-pdk-euro-6-s-s--300-ps-1422658093-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20130327"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "317",
@@ -6850,7 +6870,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2043834/2015-porsche-cayman-69d3ed41bd753.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=147384f1bdbfe7b1f4c20bb3d6e57778",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -6874,7 +6894,8 @@
           "price": "£23,000",
           "date": "2026-04-21"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "322",
@@ -7426,13 +7447,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2045757/2023-porsche-cayman-69d76dc63cbe5.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=77eb303c577d594fa0d51d64f9da11e4",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045757"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "349",
@@ -7609,13 +7631,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29503618/2014-porsche-cayman-69d761531cbda.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ea1016e0aaa962851f1a033b9a4f5cc9",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2045726"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "358",
@@ -7999,7 +8022,7 @@
     {
       "id": "375",
       "title": "2011 Porsche Cayman 987",
-      "price": "£18,499",
+      "price": "£17,995",
       "year": "2011",
       "mileage": "72,239 miles",
       "transmission": "6-Speed Manual",
@@ -8012,6 +8035,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2046842"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£18,499",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -8225,13 +8254,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2018977/2006-porsche-cayman-69da719ec0a2f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=8a3981563a791d9168ddbbf176ac052c",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2018977"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "387",
@@ -8244,13 +8274,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2030267/2019-porsche-cayman-69b4da14b0e96.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1da89cad1902c62d5d9ff14cb4e688ba",
       "featured": false,
       "dateAdded": "2026-04-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2030267"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "388",
@@ -8456,13 +8487,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-gt4/porsche-cayman-cayman-gt4-S4947812-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20084024"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "398",
@@ -8475,13 +8507,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-gt4/porsche-cayman-cayman-gt4-S4948342-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20267980"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "399",
@@ -8534,13 +8567,14 @@
       "image": "/uploads/cars/porsche/C2049759/2020-porsche-cayman-69dff1a0ddde6.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=783fe963660b5857492e4bbb9c2cc3b1",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2049759"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "402",
@@ -8572,13 +8606,14 @@
       "image": "/uploads/new/29602575/IMG_4059.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d4d6bbd464284daf7ef817ab0c94b17d",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/auctions/2007-porsche-cayman-s-987-g6G9vn"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "404",
@@ -8641,13 +8676,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-pdk/porsche-cayman-cayman-pdk-S4946913-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19087056"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "407",
@@ -8660,13 +8696,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718/cayman-gt4-rs-pdk/porsche-718-cayman-gt4-rs-pdk-1429397703-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20276329"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "408",
@@ -8780,13 +8817,14 @@
       "image": "/uploads/cars/porsche/C2051851/2015-porsche-cayman-69e35dab0cc20.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=fbec41fa3482ff38ca0df429845a7fd1",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051851"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "414",
@@ -8818,13 +8856,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-5t-gts-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-5t-gts-pdk-euro-6-s-s-2dr-1430159876-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20276316"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "416",
@@ -8837,13 +8876,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718/cayman-pdk/porsche-718-cayman-pdk-1430160113-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20116496"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "417",
@@ -8856,13 +8896,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/4-0-gt4-euro-6-s-s-2dr/porsche-718-cayman-4-0-gt4-euro-6-s-s-2dr-1419406813-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20107788"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "418",
@@ -8894,13 +8935,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/2-0-style-edition-2dr-pdk/porsche-cayman-2-0-style-edition-2dr-pdk-1430382135-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20296101"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "420",
@@ -8913,13 +8955,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/porsche-cayman-718-1380295911-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19343877"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "421",
@@ -8932,13 +8975,14 @@
       "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/coupe-gts-2dr-pdk/porsche-cayman-coupe-gts-2dr-pdk-1428736235-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20275932"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "422",
@@ -9602,6 +9646,272 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2058171"
+        }
+      ]
+    },
+    {
+      "id": "457",
+      "title": "2018 Used  PORSCHE CAYMAN",
+      "price": "£42,980",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-5t-s-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-5t-s-pdk-euro-6-s-s-2dr-1434572442-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20335739"
+        }
+      ]
+    },
+    {
+      "id": "458",
+      "title": "2017 Used  PORSCHE CAYMAN",
+      "price": "£41,480",
+      "year": 2017,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/718-cayman/2-5t-s-pdk-euro-6-s-s-2dr/porsche-718-cayman-2-5t-s-pdk-euro-6-s-s-2dr-1434572288-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20316267"
+        }
+      ]
+    },
+    {
+      "id": "459",
+      "title": "2019 Used  PORSCHE CAYMAN",
+      "price": "£41,995",
+      "year": 2019,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/t-t/porsche-cayman-718-t-t-1434237906-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20350717"
+        }
+      ]
+    },
+    {
+      "id": "460",
+      "title": "2018 Used  PORSCHE CAYMAN",
+      "price": "£41,995",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-5t-s-coupe-2dr-petrol-pdk-euro-6-s-s--350-ps-factory-extras-worth-4-616-fantastic-low-mileage-exam/porsche-cayman-718-2-5t-s-coupe-2dr-petrol-pdk-euro-6-s-s--350-ps-factory-extras-worth-4-616-fantastic-low-mileage-exam-1431899267-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20172098"
+        }
+      ]
+    },
+    {
+      "id": "461",
+      "title": "2018 Used  PORSCHE CAYMAN",
+      "price": "£29,990",
+      "year": 2018,
+      "mileage": "37,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-0t-euro-6-s-s-2dr/porsche-cayman-718-2-0t-euro-6-s-s-2dr-1434050424-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20348078"
+        }
+      ]
+    },
+    {
+      "id": "462",
+      "title": "2018 Used  PORSCHE CAYMAN",
+      "price": "£47,000",
+      "year": 2018,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/coupe-gts-2dr-pdk/porsche-cayman-coupe-gts-2dr-pdk-1433911923-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20345328"
+        }
+      ]
+    },
+    {
+      "id": "463",
+      "title": "2024 Used  PORSCHE 718 CAYMAN STYLE EDITION S-A",
+      "price": "£52,995",
+      "year": 2024,
+      "mileage": "19500 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-0-718-cayman-style-edition-semi-auto-2dr/porsche-cayman-718-2-0-718-cayman-style-edition-semi-auto-2dr-1434374161-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20345835"
+        }
+      ]
+    },
+    {
+      "id": "464",
+      "title": "2019 Used  PORSCHE CAYMAN",
+      "price": "£41,995",
+      "year": 2019,
+      "mileage": "100 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman-718/2-5-718-cayman-gts-semi-auto-3dr/porsche-cayman-718-2-5-718-cayman-gts-semi-auto-3dr-1433863113-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20344610"
+        }
+      ]
+    },
+    {
+      "id": "465",
+      "title": "2023 Used  PORSCHE 718 CAYMAN GT4 RS S-A",
+      "price": "£127,995",
+      "year": 2023,
+      "mileage": "N/A",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/porsche/cayman/cayman-gt4-rs-pdk/porsche-cayman-cayman-gt4-rs-pdk-S4951067-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20342296"
+        }
+      ]
+    },
+    {
+      "id": "466",
+      "title": "2016 Porsche 981 Cayman GTS (Clubsport Package and PCCB)",
+      "price": "£59,995",
+      "year": "2016",
+      "mileage": "43,102 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2059875/2016-porsche-cayman-69f22aeb072a3.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=d7868bff7fce2c92e89c13559475d73b",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059875"
+        }
+      ]
+    },
+    {
+      "id": "467",
+      "title": "2006 Porsche Cayman S 987",
+      "price": "£12,000",
+      "year": "2006",
+      "mileage": "84,200 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/29600073/DomGinnPhoto_Porsche-0497.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=57a72e6757db0f810069ace413a8d3a7",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/make-an-offer/2006-porsche-cayman-s-987-gZyxr8"
+        }
+      ]
+    },
+    {
+      "id": "468",
+      "title": "2013 Porsche 981 Cayman Manual /// Sports Seats /// 32k Miles",
+      "price": "£29,995",
+      "year": "2013",
+      "mileage": "32,866 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2059847/2013-porsche-cayman-69f21f3c5b126.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4063a50ab7f49158ba5fbdb07715940d",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059847"
+        }
+      ]
+    },
+    {
+      "id": "469",
+      "title": "2008 Porsche Cayman 24V TIPTRONIC S",
+      "price": "£14,995",
+      "year": "2008",
+      "mileage": "43,269 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2060847/2008-porsche-cayman-69f42079b3828.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=81d4f98d4611e153d0a7b610243b16e7",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060847"
+        }
+      ]
+    },
+    {
+      "id": "470",
+      "title": "2015 PORSCHE CAYMAN 981 GT4",
+      "price": "£56,995",
+      "year": "2015",
+      "mileage": "57,450 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/30314969/2015-porsche-cayman-69f315a2eff0c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d9a3650dec259b38ea8f5b2dc6ad5a17",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060160"
         }
       ]
     }

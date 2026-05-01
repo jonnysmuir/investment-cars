@@ -304,7 +304,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/portofino/3-8t-v8-f1-dct-euro-6-s-s-2dr/ferrari-portofino-3-8t-v8-f1-dct-euro-6-s-s-2dr-1409917476-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -321,7 +321,8 @@
           "date": "2026-03-22"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "13",
@@ -553,6 +554,14 @@
         {
           "price": "£149,991",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£150,190",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£149,991",
+          "date": "2026-05-01"
         }
       ],
       "bodyType": "Convertible"
@@ -1667,6 +1676,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603190835755"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/18353434"
         }
       ],
       "bodyType": null
@@ -1693,7 +1706,7 @@
     {
       "id": "44",
       "title": "2018 Ferrari Portofino 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£129,600",
+      "price": "£128,600",
       "year": 2018,
       "mileage": "11,715 miles",
       "transmission": "F1 Automated Manual",
@@ -1707,7 +1720,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202603160734468"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£129,600",
+          "date": "2026-05-01"
+        }
+      ]
     },
     {
       "id": "45",
@@ -1823,6 +1842,16 @@
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20324267"
         }
+      ],
+      "priceHistory": [
+        {
+          "price": "£112,990",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£109,480",
+          "date": "2026-05-01"
+        }
       ]
     },
     {
@@ -1836,18 +1865,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/fa3714ac463b499aaaa4348f0075c664.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160744745"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "51",
       "title": "2022 Ferrari Portofino M 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£154,600",
+      "price": "£152,600",
       "year": 2022,
       "mileage": "7,452 miles",
       "transmission": "F1 Automated Manual",
@@ -1934,6 +1964,10 @@
         {
           "price": "£159,000",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£154,600",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2149,6 +2183,14 @@
         {
           "price": "£144,950",
           "date": "2026-03-31"
+        },
+        {
+          "price": "£139,950",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£135,000",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2280,7 +2322,7 @@
     {
       "id": "64",
       "title": "2022 Ferrari Portofino M 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£139,980",
+      "price": "£138,980",
       "year": 2022,
       "mileage": "32,000 miles",
       "transmission": "F1 Automated Manual",
@@ -2311,13 +2353,17 @@
         {
           "price": "£138,980",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£139,980",
+          "date": "2026-05-01"
         }
       ]
     },
     {
       "id": "65",
       "title": "2021 Ferrari Portofino M 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£164,600",
+      "price": "£163,600",
       "year": 2021,
       "mileage": "9,613 miles",
       "transmission": "F1 Automated Manual",
@@ -2330,6 +2376,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021242246"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£164,600",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2367,13 +2419,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29442332/2019-ferrari-portofino-69d5262760731.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=dd66a5097dee0228119572a79be786ff",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2044319"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "68",
@@ -2436,6 +2489,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604131492118"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20337515"
         }
       ]
     },
@@ -2480,7 +2537,7 @@
     {
       "id": "73",
       "title": "2020 Ferrari Portofino 3.8T V8 Convertible 2dr Petrol F1 DCT Euro 6 (s/s) (600 ps)",
-      "price": "£123,989",
+      "price": "£129,000",
       "year": 2020,
       "mileage": "17,648 miles",
       "transmission": "Automatic",
@@ -2497,6 +2554,16 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604201713798"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£123,989",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£119,989",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2592,6 +2659,44 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604251865658"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "title": "2020 Ferrari Portofino 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£134,950",
+      "year": 2020,
+      "mileage": "2,812 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/0604c924656547cba89c114c49bc7074.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604291974232"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "title": "2022 Ferrari Portofino M 3.8T V8 F1 DCT Euro 6 (s/s) 2dr",
+      "price": "£161,995",
+      "year": 2022,
+      "mileage": "7,504 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w480/d95ec62cb1244998923cda302ca6bec9.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604291971106"
         }
       ]
     }

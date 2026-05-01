@@ -2520,7 +2520,7 @@
     {
       "id": "104",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£51,489",
+      "price": "£52,000",
       "year": 2024,
       "mileage": "13,970 miles",
       "transmission": "Automatic",
@@ -2555,6 +2555,10 @@
         {
           "price": "£52,000",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£51,489",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2864,6 +2868,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603050451117"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20352205"
         }
       ],
       "priceHistory": [
@@ -3801,7 +3809,7 @@
     {
       "id": "155",
       "title": "2024 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£48,995",
+      "price": "£51,000",
       "year": 2024,
       "mileage": "11,169 miles",
       "transmission": "Automatic",
@@ -3836,6 +3844,10 @@
         {
           "price": "£49,940",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£48,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -3933,7 +3945,7 @@
     {
       "id": "159",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£26,995",
+      "price": "£26,495",
       "year": 2017,
       "mileage": "33,000 miles",
       "transmission": "F1 Automated Manual",
@@ -3956,6 +3968,10 @@
         {
           "price": "£27,995",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£26,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -6125,7 +6141,7 @@
     {
       "id": "247",
       "title": "2025 BMW M2 3.0 BiTurbo Steptronic Euro 6 (s/s) 2dr",
-      "price": "£55,899",
+      "price": "£54,998",
       "year": 2025,
       "mileage": "3,284 miles",
       "transmission": "F1 Automated Manual",
@@ -6168,6 +6184,10 @@
         {
           "price": "£55,998",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£55,899",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -7182,7 +7202,7 @@
     {
       "id": "291",
       "title": "2017 BMW M2 3.0i DCT Euro 6 (s/s) 2dr",
-      "price": "£25,995",
+      "price": "£25,399",
       "year": 2017,
       "mileage": "58,000 miles",
       "transmission": "F1 Automated Manual",
@@ -7199,6 +7219,12 @@
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20336020"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£25,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -10132,13 +10158,14 @@
       "image": "/uploads/cars/bmw/C2054622/2020-bmw-m2-69e7dcbea0bb1.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=ed061e76418fd461dd2cb3a568283bc6",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2054622"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "434",
@@ -10650,6 +10677,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604211724915"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20351790"
         }
       ]
     },
@@ -11049,6 +11080,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2057752"
+        }
+      ]
+    },
+    {
+      "id": "482",
+      "title": "2020 BMW M2 CS // DCT // FULL BMWSH // CERAMICS // BMW WARRANTY",
+      "price": "£71,995",
+      "year": "2020",
+      "mileage": "12,115 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/bmw/C2060416/2020-bmw-m2-69f37d35e5596.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=063cfab866e0d8378c781bc020d4502b",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060416"
         }
       ]
     }

@@ -205,13 +205,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2035743/1967-aston-martin-db6-69c255e0af8f8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6999096e37902ae7785a5a3da5f4335c",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035743"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "11",
@@ -281,13 +282,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C1877836/1967-aston-martin-db6-681bb5199b345.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c7ff171f61c26260bd193da8b4442062",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1877836"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "15",
@@ -638,6 +640,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1946264"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "1968 Aston Martin DB6",
+      "price": "£250,000",
+      "year": "1968",
+      "mileage": "30,200 miles",
+      "transmission": "Automatic",
+      "bodyType": "Coupe",
+      "image": "/uploads/new/30346681/1968-aston-martin-db6-coupe-69f40c5f08627.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3b6ed6faefd85358037523bfc939628f",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060653"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "1967 Aston Martin DB6  Coupe",
+      "price": "£325,000",
+      "year": "1967",
+      "mileage": "54,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2060303/1967-aston-martin-db6-69f346abe8b5d.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=6d308064cd71f2f6c3b57b24d42aca37",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060303"
         }
       ]
     }

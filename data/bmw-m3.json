@@ -13109,7 +13109,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041474/2017-bmw-m3-69cd3b00bd204.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b58bf1e71d9b255ded22cea92e6529ce",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -13121,7 +13121,8 @@
           "price": "£32,500",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "578",
@@ -13134,7 +13135,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041299/2014-bmw-m3-69cd8bf5d696b.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=1b90f3c3f452605e98d3038df592d677",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -13146,7 +13147,8 @@
           "price": "£26,990",
           "date": "2026-04-13"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "579",
@@ -13257,13 +13259,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2041918/2005-bmw-m3-69ce531aed15c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=2abea61611ed09692f40175423cdaf86",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2041918"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "585",
@@ -20795,13 +20798,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2046495/2024-bmw-m3-69da54f0006ae.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4bd61b61b3fa0fee31c60df4ce7bc378",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2046495"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "942",
@@ -20814,7 +20818,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/bmw/C2046203/1999-bmw-m3-69d86816039cf.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=61d151772f6ec600aa897676961398e0",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -20826,7 +20830,8 @@
           "price": "£27,995",
           "date": "2026-04-17"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "943",
@@ -24606,7 +24611,7 @@
     {
       "id": "1130",
       "title": "1995 BMW M3 E36",
-      "price": "£15,500",
+      "price": "£14,500",
       "year": "1995",
       "mileage": "147,000 miles",
       "transmission": "6-Speed Manual",
@@ -24625,6 +24630,10 @@
         {
           "price": "£16,500",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£15,500",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -26375,6 +26384,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2058208"
+        }
+      ]
+    },
+    {
+      "id": "1223",
+      "title": "1990 BMW E30 M3 COUPE - LHD LEFT HAND DRIVE - ALPINE WHITE - 108K",
+      "price": "£49,995",
+      "year": "1990",
+      "mileage": "108,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/bmw/C2059778/1990-bmw-m3-69f20dca7e442.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b276c14db958edac6f43d9b8f8ba62d9",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059778"
         }
       ]
     }

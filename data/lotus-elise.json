@@ -2108,7 +2108,7 @@
       "price": "£46,695",
       "year": 2021,
       "mileage": "7,500 miles",
-      "transmission": "Unknown",
+      "transmission": "6-Speed Manual",
       "bodyType": null,
       "image": "https://m.atcdn.co.uk/a/media/w480/bcc39c080f1d4423b0c685e33b550cef.jpg",
       "featured": false,
@@ -2118,6 +2118,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603080517897"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/17657387"
         }
       ],
       "unlistedDate": "2026-04-12"
@@ -2627,13 +2631,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28792586/15---LOTUS-ELISE----HIGH-RES.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=cd6817288c80874538b92ebb5db34f0f",
       "featured": false,
       "dateAdded": "2026-04-03",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/1998-lotus-elise-s1-nMqwbn"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "121",
@@ -2952,13 +2957,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2044091/2004-lotus-elise-69d4dd8863574.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4e06135d6de474a4eec648b70c085c9a",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2044091"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "137",
@@ -3847,7 +3853,7 @@
       "image": "/uploads/cars/lotus/C2050415/1997-lotus-elise-69e1cfd8ab913.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=720e3ba156d6c518233c11d5b8d79fc9",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -3859,7 +3865,8 @@
           "price": "£21,750",
           "date": "2026-04-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "181",
@@ -4127,13 +4134,14 @@
       "image": "/uploads/cars/lotus/C1774249/2001-lotus-elise-66d6849e646df.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=4c3215ba808a9a5fe404be682bc1c6c2",
       "featured": false,
       "dateAdded": "2026-04-21",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1774249"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "195",
@@ -4362,6 +4370,101 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2055050"
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "title": "1999 Lotus Elise S1 111S",
+      "price": "£20,000",
+      "year": "1999",
+      "mileage": "63,306 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2059533/1999-lotus-elise-69f1c636136bc.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c6e30c8271dff3e185cd2951f0a48f11",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2059533"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "title": "2001 Lotus Elise S2",
+      "price": "£14,500",
+      "year": "2001",
+      "mileage": "88,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2059653/2001-lotus-elise-69f1e4d6c9102.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=91a6361198ad998c26e298b986f7cdcd",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2059653"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "title": "2007 LOTUS ELISE 111R SPORTS+",
+      "price": "£20,000",
+      "year": "2007",
+      "mileage": "43,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/new/30309667/2007-lotus-elise-111r-sports-69f30d5cad801.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bad86fb9d0e82939051a4a34616cd976",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060119"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "title": "2015 Lotus Elise S3 Club Racer",
+      "price": "£31,950",
+      "year": "2015",
+      "mileage": "36,951 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2059859/2015-lotus-elise-69f22723c001a.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=2c059d1644a8a5f2b0415b9ff70132b3",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059859"
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "title": "1999 Lotus Elise S1 Sport 135 : 1 of 50 Cars",
+      "price": "£19,995",
+      "year": "1999",
+      "mileage": "107,577 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2059527/1999-lotus-elise-69f1c08478d8f.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=99a298c9ce0a887f7fcbf48f8cca9934",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2059527"
         }
       ]
     }

@@ -878,7 +878,7 @@
     {
       "id": "42",
       "title": "2000 Ferrari 360 COUPE 3.6 MODENA 2DR",
-      "price": "£66,950",
+      "price": "£65,950",
       "year": 2000,
       "mileage": "1,000 miles",
       "transmission": "6-Speed Manual",
@@ -997,6 +997,14 @@
         {
           "price": "£69,995",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-05-01"
+        },
+        {
+          "price": "£69,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -1796,14 +1804,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f46b1d3b82b247818db9e44e293d2291.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306289030804"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "71",
@@ -1998,19 +2007,20 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2032414/2001-ferrari-360-69bb382b09e22.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=3ac0c12b333a8141a7b023e6c49fee26",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2032414"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "81",
       "title": "2000 FERRARI 360 COUPE 3.6 MODENA 2DR",
-      "price": "£66,950",
+      "price": "£65,950",
       "year": "2000",
       "mileage": "38,000 miles",
       "transmission": "Automatic",
@@ -2032,6 +2042,10 @@
         {
           "price": "£69,950",
           "date": "2026-04-14"
+        },
+        {
+          "price": "£66,950",
+          "date": "2026-05-01"
         }
       ],
       "bodyType": "Coupe"
@@ -2285,13 +2299,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29070842/2001-ferrari-360-69c53da61ee2a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=327ca66220e1c3753df2f13783c081c3",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2037310"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-01"
     },
     {
       "id": "92",
@@ -2750,7 +2765,7 @@
     {
       "id": "115",
       "title": "2000 Ferrari 360 3.6 Modena F1 2dr",
-      "price": "£66,995",
+      "price": "£67,950",
       "year": 2000,
       "mileage": "1,705 miles",
       "transmission": "F1 Automated Manual",
@@ -2767,6 +2782,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202404269098218"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£66,995",
+          "date": "2026-05-01"
         }
       ]
     },
@@ -2824,6 +2845,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2059302"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "title": "2004 Ferrari 360 Challenge Stradale - 2 Owners, UK RHD",
+      "price": "£469,995",
+      "year": "2004",
+      "mileage": "31,915 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2060345/2004-ferrari-360-69f35f583c399.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=b439f40bace41a251c7d471c4cf0063e",
+      "featured": false,
+      "dateAdded": "2026-05-01",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060345"
         }
       ]
     }
