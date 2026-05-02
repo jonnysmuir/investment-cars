@@ -738,7 +738,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/ferrari-california-1397348749-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -819,7 +819,8 @@
           "date": "2026-04-17"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "37",
@@ -1883,7 +1884,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-s-s--560-ps/ferrari-california-3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-s-s--560-ps-1413180717-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1928,7 +1929,8 @@
           "date": "2026-04-02"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "67",
@@ -1940,7 +1942,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/california/3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-560-ps/ferrari-california-3-8-v8-t-convertible-2dr-petrol-f1-dct-euro-6-560-ps-1401561226-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1957,7 +1959,8 @@
           "date": "2026-04-12"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "68",
@@ -2165,6 +2168,14 @@
         {
           "price": "£69,000",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£66,990",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£69,000",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -2199,7 +2210,7 @@
     },
     {
       "id": "77",
-      "title": "2009 Ferrari California 4.3 F1 DCT Euro 5 2dr",
+      "title": "2009 Ferrari California 4.3 Convertible 2dr Petrol F1 DCT Euro 5 (453 bhp)",
       "price": "£57,500",
       "year": 2009,
       "mileage": "35,000 miles",
@@ -2218,7 +2229,7 @@
           "url": "https://www.pistonheads.com/buy/listing/19606587"
         }
       ],
-      "bodyType": null,
+      "bodyType": "Convertible",
       "priceHistory": [
         {
           "price": "£58,500",
@@ -2255,7 +2266,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/cafe57c336b74a64aee3686d87018971.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2284,7 +2295,8 @@
           "date": "2026-03-31"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "80",
@@ -2440,7 +2452,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/ec661c19324f41b89b5078c72e1ceffa.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -2457,7 +2469,8 @@
           "date": "2026-03-30"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "84",
@@ -2970,14 +2983,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d6356b2a5bb54442829644f59c94f6df.jpg",
       "featured": false,
       "dateAdded": "2026-03-14",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202306258931270"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "98",
@@ -3493,14 +3507,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28900912/2017-ferrari-california-69bcb8bfc6e9c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=f5d3f76252b546ac082d63d291817e87",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033786"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "117",
@@ -3779,18 +3794,19 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/0f09543f37de441dbd1b584195728474.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120635147"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "131",
       "title": "2017 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (s/s) (560 ps) - Handling Speciale",
-      "price": "£87,080",
+      "price": "£91,990",
       "year": 2017,
       "mileage": "13,616 miles",
       "transmission": "F1 Automated Manual",
@@ -3798,7 +3814,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/d89be85d7f8842e6aac2874238b9b32a.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3809,7 +3825,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20334651"
         }
       ],
-      "unlistedDate": "2026-04-08"
+      "priceHistory": [
+        {
+          "price": "£87,080",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "132",
@@ -3954,7 +3975,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/6a2c511a942a4cffb2c90f71ad6fb527.jpg",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3970,7 +3991,8 @@
           "price": "£76,950",
           "date": "2026-04-19"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "137",
@@ -4060,7 +4082,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C2042425/2009-ferrari-california-69cf7cb07ee5f.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b95af31896b6b937a4d04d9e59b9e2dd",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -4072,7 +4094,8 @@
           "price": "£55,950",
           "date": "2026-04-11"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "141",
@@ -4459,6 +4482,14 @@
         {
           "price": "£66,990",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£69,000",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£66,990",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -4589,7 +4620,7 @@
     {
       "id": "164",
       "title": "2017 Ferrari California 3.8 V8 T Convertible 2dr Petrol F1 DCT Euro 6 (s/s) (560 ps) SCUDERIA SHIELDS - ELECTRIC SEATS",
-      "price": "£86,990",
+      "price": "£91,990",
       "year": 2017,
       "mileage": "26,458 miles",
       "transmission": "F1 Automated Manual",
@@ -4602,6 +4633,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604271909581"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£86,990",
+          "date": "2026-05-02"
         }
       ]
     },

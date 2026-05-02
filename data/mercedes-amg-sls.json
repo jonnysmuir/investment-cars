@@ -891,13 +891,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28982006/2010-mercedes-benz-sls-amg-69c1d55e89264.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=6b8b5798927be91fb5e49301319b0e7e",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035593"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "44",
@@ -1073,11 +1074,31 @@
       "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/sls/amg-roadster/mercedes-benz-sls-amg-roadster-1428518191-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19539647"
+        }
+      ],
+      "unlistedDate": "2026-05-02"
+    },
+    {
+      "id": "53",
+      "title": "2011 Used  MERCEDES-BENZ SLS",
+      "price": "£119,990",
+      "year": 2011,
+      "mileage": "9551 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://img.pistonheads.com/LargeSize/mercedes-benz/sls/amg-roadster/mercedes-benz-sls-amg-roadster-1434941719-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20364697"
         }
       ]
     }

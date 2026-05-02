@@ -460,13 +460,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2028742/1971-aston-martin-db6-69b29d32a5f76.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9433ca1810b2bf1625585f21c5c80783",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2028742"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "24",
@@ -678,6 +679,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2060303"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "1968 Aston Martin DB6 Saloon",
+      "price": "£165,000",
+      "year": "1968",
+      "mileage": "80,960 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Saloon",
+      "image": "/uploads/cars/aston-martin/C2060932/1968-aston-martin-db6-69f4669a18594.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=095f7bb63c43b32efe5dc7c4b2410ecf",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2060932"
         }
       ]
     }

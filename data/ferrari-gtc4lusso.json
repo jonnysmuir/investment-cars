@@ -272,7 +272,7 @@
     {
       "id": "14",
       "title": "2019 Ferrari Gtc4lusso 3.9T V8 F1 DCT Euro 6 (s/s) 2dr",
-      "price": "£124,995",
+      "price": "£119,995",
       "year": 2019,
       "mileage": "24,968 miles",
       "transmission": "F1 Automated Manual",
@@ -286,7 +286,13 @@
           "url": "https://www.autotrader.co.uk/car-details/202506063227918"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "priceHistory": [
+        {
+          "price": "£124,995",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "15",
@@ -471,14 +477,15 @@
       "image": "https://assets.carandclassic.com/uploads/new/28900911/2018-ferrari-gtc4lusso-69bcb8bbbd0e5.jpeg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=b41f17d336598e2df8814a8c8b358f5b",
       "featured": false,
       "dateAdded": "2026-03-20",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2033785"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "21",
@@ -627,7 +634,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/gtc4-lusso/2dr-auto/ferrari-gtc4-lusso-2dr-auto-1418308805-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-25",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -687,7 +694,8 @@
           "price": "£184,600",
           "date": "2026-04-08"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "29",
@@ -700,13 +708,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/34d7698f623343118bbc4023ac46a98a.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240963718"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "30",
@@ -1136,7 +1145,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/5aa2e94e11cb445383911a82d45970c2.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1146,7 +1155,8 @@
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101437606"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "51",
@@ -1159,13 +1169,14 @@
       "image": "/uploads/new/29814466/2018-ferrari-gtc4lusso-69e2d93476388.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=d0481f945307ab29500ef8685ff2525b",
       "featured": false,
       "dateAdded": "2026-04-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2051293"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "52",
@@ -1228,7 +1239,7 @@
     },
     {
       "id": "55",
-      "title": "2017 Ferrari GTC4 Lusso",
+      "title": "2017 Ferrari GTC4Lusso T V8",
       "price": "£114,990",
       "year": "2017",
       "mileage": "33,000 miles",

@@ -884,6 +884,14 @@
         {
           "price": "£114,989",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£118,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£114,989",
+          "date": "2026-05-02"
         }
       ],
       "bodyType": "Coupe"
@@ -2252,7 +2260,7 @@
     {
       "id": "65",
       "title": "2017 McLaren 720S 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (720 ps) Launch Edition | MSO Paint",
-      "price": "£112,950",
+      "price": "£119,950",
       "year": 2017,
       "mileage": "21,500 miles",
       "transmission": "Unknown",
@@ -2271,6 +2279,10 @@
         {
           "price": "£119,950",
           "date": "2026-04-17"
+        },
+        {
+          "price": "£112,950",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -2459,14 +2471,15 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/442be55bbeed44eb8c445a8278a9a288.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603180792197"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "73",
@@ -2707,6 +2720,14 @@
         {
           "price": "£128,000",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£128,990",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -2750,13 +2771,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/29231112/2017-mclaren-720s-69cc6e8a1db81.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eb03e29ad6cbcf37324e8ea321b9ceff",
       "featured": false,
       "dateAdded": "2026-04-01",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2040458"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "83",
@@ -2870,6 +2892,14 @@
         {
           "price": "£128,990",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£128,990",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -3158,12 +3188,12 @@
     },
     {
       "id": "101",
-      "title": "2017 McLaren 720S 4.0T V8 SSG Euro 6 (s/s) 2dr",
+      "title": "2017 McLaren 720S 4.0T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (720 ps)",
       "price": "£124,950",
       "year": 2017,
       "mileage": "16,700 miles",
       "transmission": "Unknown",
-      "bodyType": null,
+      "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/fc2d686cb15c40648c0cc6d11bedcb24.jpg",
       "featured": false,
       "dateAdded": "2026-04-19",
@@ -3345,6 +3375,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604302016873"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "title": "2025 McLaren 720S",
+      "price": "£254,995",
+      "year": "2025",
+      "mileage": "1,040 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30380428/2025-mclaren-750s-69f4b33cdef3a.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=468e89fb81c314441ecca2942fbf9976",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2061132"
         }
       ]
     }

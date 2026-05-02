@@ -1807,13 +1807,14 @@
       "image": "/uploads/new/30007753/1992-lotus-esprit-69e88107157ea.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=5e42bd402c9de71e01b7de8ff71a892e",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2054899"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "90",
@@ -1911,6 +1912,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2060433"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "title": "1977 Lotus Esprit 2.0 S1 2dr",
+      "price": "£99,850",
+      "year": 1977,
+      "mileage": "75,682 miles",
+      "transmission": "Unknown",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/5a8454270eb945a8b8c7c576c61c9e24.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202605012046436"
         }
       ]
     }

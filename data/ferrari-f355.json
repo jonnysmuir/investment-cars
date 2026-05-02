@@ -1242,13 +1242,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28982162/1997-ferrari-f355-spider-69c1d59a46433.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=438f39bde022771e347bb7ca5e046cb5",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035606"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "60",
@@ -1510,7 +1511,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f355/3-5-berlinetta-2dr/ferrari-f355-3-5-berlinetta-2dr-1419848339-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -1630,7 +1631,8 @@
           "price": "£155,189",
           "date": "2026-04-27"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "73",
@@ -1904,13 +1906,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/8593596e44b244e5a6dd6450a45afb63.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604101442608"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "87",
@@ -2241,6 +2244,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2059739"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "title": "1997 Ferrari F355 3.5 GTS Convertible 2dr Petrol Manual (395 g/km, 375 bhp)",
+      "price": "£79,995",
+      "year": 1997,
+      "mileage": "19,600 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Convertible",
+      "image": "https://m.atcdn.co.uk/a/media/w640/516a53bea2de450f9eca1730a5e4b686.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202605012049914"
         }
       ]
     }

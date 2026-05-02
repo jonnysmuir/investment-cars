@@ -1051,13 +1051,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/aston-martin/C2035852/2008-aston-martin-db9-69c27d3cdb525.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=a8fa09af7303f122733f59c7e27ef898",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2035852"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "52",
@@ -1674,7 +1675,7 @@
       "price": "£26,990",
       "year": 2004,
       "mileage": "47,680 miles",
-      "transmission": "Unknown",
+      "transmission": "Automatic",
       "bodyType": "Coupe",
       "image": "https://m.atcdn.co.uk/a/media/w480/2d0d49173d204d26a847b6de2aa57fe4.jpg",
       "featured": false,
@@ -1684,6 +1685,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202511147883707"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20357858"
         }
       ]
     },
@@ -1723,6 +1728,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603160728359"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20357868"
         }
       ],
       "priceHistory": [
@@ -3144,13 +3153,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28984114/17-IMG_3826.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=4469e0d16110ae5dabf87c934a7a49e9",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2007-aston-martin-db9-gy97Kg"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "148",
@@ -3553,13 +3563,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/db9/v12/aston-martin-db9-v12-1432376276-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20329000"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "168",
@@ -3610,13 +3621,14 @@
       "image": "/uploads/new/29427413/DSC04877.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=9737d762a788b7c82f04a50814a10836",
       "featured": false,
       "dateAdded": "2026-04-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/make-an-offer/2010-aston-martin-db9-4XaLV8"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "171",
@@ -3772,8 +3784,8 @@
     },
     {
       "id": "179",
-      "title": "2004 Aston Martin DB9",
-      "price": "£22,500",
+      "title": "2004 Aston Martin DB9 (Nicholas Mee service history)",
+      "price": "£22,000",
       "year": "2004",
       "mileage": "39,800 miles",
       "transmission": "6-Speed Manual",
@@ -3786,6 +3798,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2060407"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£22,500",
+          "date": "2026-05-02"
         }
       ]
     },

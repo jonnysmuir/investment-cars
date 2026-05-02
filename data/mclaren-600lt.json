@@ -561,7 +561,7 @@
       "image": "https://img.pistonheads.com/LargeSize/mclaren/600lt/v8-ssg/mclaren-600lt-v8-ssg-S4933240-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -572,7 +572,8 @@
           "url": "https://www.autotrader.co.uk/car-details/202510157165439"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "22",
@@ -1022,7 +1023,7 @@
       "image": "https://assets.carandclassic.com/uploads/new/22657631/2020-mclaren-600lt-686c630b2c4ef.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=3a13d3e834854f75c199d580dff58c09",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1039,7 +1040,8 @@
           "date": "2026-03-18"
         }
       ],
-      "bodyType": "Convertible"
+      "bodyType": "Convertible",
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "36",
@@ -1508,6 +1510,14 @@
         {
           "price": "£128,000",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£124,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£128,000",
+          "date": "2026-05-02"
         }
       ],
       "bodyType": null
@@ -1545,14 +1555,14 @@
     {
       "id": "41",
       "title": "2021 McLaren 600LT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (600 ps)",
-      "price": "£144,990",
+      "price": "£149,900",
       "year": 2021,
       "mileage": "3,054 miles",
       "transmission": "6-Speed Manual",
       "image": "https://m.atcdn.co.uk/a/media/w480/f3f9a45b8b4d4cbbacc02a0fc830f3aa.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1564,7 +1574,12 @@
         }
       ],
       "bodyType": "Coupe",
-      "unlistedDate": "2026-04-21"
+      "priceHistory": [
+        {
+          "price": "£144,990",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "42",
@@ -1714,7 +1729,7 @@
     {
       "id": "44",
       "title": "2019 McLaren 600LT 3.8T V8 Spider SSG Euro 6 (s/s) 2dr",
-      "price": "£135,000",
+      "price": "£140,000",
       "year": 2019,
       "mileage": "10,350 miles",
       "transmission": "Unknown",
@@ -1740,6 +1755,10 @@
         {
           "price": "£139,000",
           "date": "2026-04-11"
+        },
+        {
+          "price": "£135,000",
+          "date": "2026-05-02"
         }
       ],
       "bodyType": "Convertible"

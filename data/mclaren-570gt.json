@@ -726,7 +726,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a9eb8d526dbf4fb29f64513ec8acecda.jpg",
       "featured": false,
       "dateAdded": "2026-03-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -747,7 +747,8 @@
           "date": "2026-04-02"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "21",
@@ -898,7 +899,7 @@
     {
       "id": "28",
       "title": "2018 McLaren GT 3.8T V8 Coupe 2dr Petrol SSG Euro 6 (s/s) (570 ps)",
-      "price": "£76,995",
+      "price": "£78,990",
       "year": 2018,
       "mileage": "38,629 miles",
       "transmission": "Automatic",
@@ -906,7 +907,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/ffc9d09c8d4d4dd8ac28b36c5412115a.jpg",
       "featured": false,
       "dateAdded": "2026-03-27",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -917,7 +918,12 @@
           "url": "https://www.pistonheads.com/buy/listing/20332397"
         }
       ],
-      "unlistedDate": "2026-04-27"
+      "priceHistory": [
+        {
+          "price": "£76,995",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "29",

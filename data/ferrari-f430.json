@@ -497,6 +497,14 @@
         {
           "price": "£78,950",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£79,950",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£78,950",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -825,7 +833,7 @@
     {
       "id": "35",
       "title": "2006 Ferrari F430   Spider **Deposit Taken**",
-      "price": "£74,995",
+      "price": "£74,500",
       "year": 2006,
       "mileage": "31,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1015,6 +1023,14 @@
         {
           "price": "£74,500",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£74,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£77,995",
+          "date": "2026-05-02"
         }
       ],
       "bodyType": "Convertible"
@@ -1189,6 +1205,18 @@
         {
           "price": "£119,950",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£120,000",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£119,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£119,950",
+          "date": "2026-05-02"
         }
       ],
       "bodyType": "Convertible"
@@ -2776,13 +2804,14 @@
       "image": "https://assets.carandclassic.com/uploads/new/28982054/2008-ferrari-430-scuderia-69c1d571511c5.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=496eeaac2cdfa7feb59b6f959a1f3272",
       "featured": false,
       "dateAdded": "2026-03-24",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2035597"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "107",
@@ -2876,6 +2905,14 @@
         {
           "price": "£79,786",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£79,940",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£79,786",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -3078,7 +3115,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/7d3226ce672d431585d8f93fcac9351d.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -3090,7 +3127,8 @@
           "price": "£75,000",
           "date": "2026-04-22"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "120",
@@ -3122,13 +3160,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/724a45a4c805475db7352b930a455bad.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603120629171"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "122",
@@ -3168,6 +3207,14 @@
         {
           "price": "£114,950",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£109,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£114,950",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -3274,6 +3321,14 @@
         {
           "price": "£79,999",
           "date": "2026-05-01"
+        },
+        {
+          "price": "£78,995",
+          "date": "2026-05-02"
+        },
+        {
+          "price": "£79,999",
+          "date": "2026-05-02"
         }
       ]
     },

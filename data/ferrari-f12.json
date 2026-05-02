@@ -553,7 +553,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/f12/berlinetta/ferrari-f12-berlinetta-1410345462-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -586,7 +586,8 @@
           "date": "2026-03-23"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "28",
@@ -1065,14 +1066,14 @@
     {
       "id": "40",
       "title": "2016 Ferrari F12 Berlinetta 6.3 V12 F1 DCT Euro 5 (s/s) 2dr",
-      "price": "£179,000",
+      "price": "£175,000",
       "year": 2016,
       "mileage": "10,079 miles",
       "transmission": "F1 Automated Manual",
       "image": "https://m.atcdn.co.uk/a/media/w640/41a18caeb0ec40d9a5236fd5a8235f8d.jpg",
       "featured": false,
       "dateAdded": "2026-03-08",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1084,7 +1085,12 @@
         }
       ],
       "bodyType": "Coupe",
-      "unlistedDate": "2026-04-22"
+      "priceHistory": [
+        {
+          "price": "£179,000",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "41",
@@ -1364,7 +1370,7 @@
     {
       "id": "54",
       "title": "2014 Ferrari F12 Berlinetta 6.3 V12 Coupe 2dr Petrol F1 DCT Euro 5 (s/s) (740 ps)",
-      "price": "£180,000",
+      "price": "£170,000",
       "year": 2014,
       "mileage": "18,000 miles",
       "transmission": "F1 Automated Manual",
@@ -1387,6 +1393,10 @@
         {
           "price": "£174,995",
           "date": "2026-04-29"
+        },
+        {
+          "price": "£180,000",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -1498,13 +1508,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/632fbb122d3640c89ede5a957f4d8259.jpg",
       "featured": false,
       "dateAdded": "2026-04-04",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604021243837"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "61",
@@ -1536,13 +1547,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/55692e5c2c5d425e9a8df36a0f0c07a7.jpg",
       "featured": false,
       "dateAdded": "2026-04-08",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604071331872"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "63",

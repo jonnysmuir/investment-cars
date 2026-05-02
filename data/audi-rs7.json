@@ -149,7 +149,7 @@
     {
       "id": "6",
       "title": "2014 Audi 4.0 RS 7 Sportback TFSI V8 Quattro Auto 4WD 5dr",
-      "price": "£26,990",
+      "price": "£26,490",
       "year": 2014,
       "mileage": "56,950 miles",
       "transmission": "Automatic",
@@ -208,6 +208,10 @@
         {
           "price": "£25,990",
           "date": "2026-04-06"
+        },
+        {
+          "price": "£26,990",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -244,7 +248,7 @@
     {
       "id": "8",
       "title": "2020 Audi RS7 4.0 TFSI V8 Sportback Tiptronic quattro Euro 6 (s/s) 5dr",
-      "price": "£61,500",
+      "price": "£59,950",
       "year": 2020,
       "mileage": "14,000 miles",
       "transmission": "Automatic",
@@ -261,6 +265,12 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202512198716584"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£61,500",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -653,7 +663,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/47f94eb973874acaa2b7f48ae6cad8b2.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -669,7 +679,8 @@
           "price": "£29,995",
           "date": "2026-04-27"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "23",
@@ -1129,7 +1140,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f58941773cb343b587e6801215e832b5.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1145,8 +1156,7 @@
           "price": "£21,995",
           "date": "2026-04-03"
         }
-      ],
-      "unlistedDate": "2026-05-01"
+      ]
     },
     {
       "id": "45",
@@ -1470,14 +1480,13 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs7/4-0-tfsi-v8-vorsprung-sportback-5dr-petrol-tiptronic-quattro-euro-6-s-s--600-ps/audi-rs7-4-0-tfsi-v8-vorsprung-sportback-5dr-petrol-tiptronic-quattro-euro-6-s-s--600-ps-1358054750-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19392710"
         }
-      ],
-      "unlistedDate": "2026-04-22"
+      ]
     },
     {
       "id": "61",
@@ -1510,14 +1519,13 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/db6fc04696f8403cb3afdedd820eb6a5.jpg",
       "featured": false,
       "dateAdded": "2026-04-02",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604011213269"
         }
-      ],
-      "unlistedDate": "2026-04-29"
+      ]
     },
     {
       "id": "63",
@@ -1561,7 +1569,7 @@
     {
       "id": "65",
       "title": "2023 Used  AUDI RS7 PRFM CRBNBLK TFSI MHEV Q A",
-      "price": "£90,490",
+      "price": "£90,399",
       "year": 2023,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -1584,6 +1592,10 @@
         {
           "price": "£90,790",
           "date": "2026-04-27"
+        },
+        {
+          "price": "£90,490",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -1598,13 +1610,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/b313685d899047748edb81a7f39da288.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604091396299"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "67",
@@ -1637,7 +1650,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/a012ea905226447da749c06274990522.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1653,12 +1666,13 @@
           "price": "£44,995",
           "date": "2026-04-27"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "69",
       "title": "2021 Used  AUDI RS 7 V-SPRUNG TFSI MHEV QUAT A",
-      "price": "£72,750",
+      "price": "£72,000",
       "year": 2021,
       "mileage": "N/A",
       "transmission": "Automatic",
@@ -1666,14 +1680,19 @@
       "image": "https://img.pistonheads.com/LargeSize/audi/rs-7/tfsi-quattro-vorsprung-5dr/audi-rs-7-tfsi-quattro-vorsprung-5dr-1425704785-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-12",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20174064"
         }
       ],
-      "unlistedDate": "2026-04-29"
+      "priceHistory": [
+        {
+          "price": "£72,750",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "70",
@@ -1744,13 +1763,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/60bf2962eb0c49459f1e99e5322fa1e2.jpg",
       "featured": false,
       "dateAdded": "2026-04-17",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604081365125"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "74",
@@ -1802,13 +1822,14 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/f8dc510642854ecf81b6f5b05983ecac.jpg",
       "featured": false,
       "dateAdded": "2026-04-22",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603301127531"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "77",
@@ -1942,6 +1963,25 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604302022834"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "title": "2021 Audi RS7 4.0 TFSI V8 Carbon Black Sportback 5dr Petrol Tiptronic quattro Euro 6 (s/s) (600 ps)",
+      "price": "£65,100",
+      "year": 2021,
+      "mileage": "30,000 miles",
+      "transmission": "Unknown",
+      "bodyType": "Estate",
+      "image": "https://m.atcdn.co.uk/a/media/w640/cebfdead7e034315a26218a43adbf823.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202604131500465"
         }
       ]
     }

@@ -520,13 +520,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan-pre-76/lotus-elan-pre-76-S4925611-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/18606410"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "26",
@@ -558,13 +559,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan/lotus-elan-1419720126-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20141731"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "28",
@@ -1356,7 +1358,7 @@
     {
       "id": "66",
       "title": "1990 Lotus Elan M100",
-      "price": "£8,800",
+      "price": "£9,200",
       "year": "1990",
       "mileage": "113,000 miles",
       "transmission": "6-Speed Manual",
@@ -1375,6 +1377,10 @@
         {
           "price": "£9,500",
           "date": "2026-04-21"
+        },
+        {
+          "price": "£8,800",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -1506,7 +1512,7 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2046366/1964-lotus-elan-69d9005fd147d.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ca013a211d6460a4a179563e17e1e7c1",
       "featured": false,
       "dateAdded": "2026-04-11",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
@@ -1522,7 +1528,8 @@
           "price": "£45,950",
           "date": "2026-04-15"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "74",
@@ -1535,13 +1542,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/lotus/C2024855/1968-lotus-elan-69a95ad37fb8c.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c5e3c2d4751bcdd86abb38d865d7b115",
       "featured": false,
       "dateAdded": "2026-04-13",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2024855"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "75",
@@ -2020,13 +2028,14 @@
       "image": "https://img.pistonheads.com/LargeSize/lotus/elan/1-6-se-2dr/lotus-elan-1-6-se-2dr-1431897443-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20323349"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "99",
@@ -2202,6 +2211,44 @@
         {
           "price": "£30,000",
           "date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "title": "1972 LOTUS ELAN +2S 130 – BEST AVAILABLE",
+      "price": "£38,950",
+      "year": "1972",
+      "mileage": "900 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C1714477/1972-lotus-elan-661e90aab24aa.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=eec9a479ceb5c9b7fe463dcc53dc77a4",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C1714477"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "title": "1969 Lotus Elan Series 4",
+      "price": "£29,500",
+      "year": "1969",
+      "mileage": "95,000 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/lotus/C2061027/1969-lotus-elan-69f4863ad455e.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=c6916f6f16072ac163f0d4604d62fde3",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2061027"
         }
       ]
     }

@@ -120,7 +120,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/affd223cba5f48de88a1e3909e5833c9.jpg",
       "featured": false,
       "dateAdded": "2026-03-06",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -141,7 +141,8 @@
           "date": "2026-03-28"
         }
       ],
-      "bodyType": "Coupe"
+      "bodyType": "Coupe",
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "5",
@@ -1676,6 +1677,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604291979311"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20363911"
         }
       ]
     },
@@ -1695,6 +1700,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2059858"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "title": "2011 Ferrari 599 GTO",
+      "price": "POA",
+      "year": "2011",
+      "mileage": "21,000 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/new/30371940/2011-ferrari-599-gto-69f4a02c5ecba.?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=529c84cc3e113a22f7aeee0237a226de",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2061057"
         }
       ]
     }

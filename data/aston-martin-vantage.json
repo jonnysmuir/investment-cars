@@ -334,7 +334,7 @@
     {
       "id": "16",
       "title": "1997 Aston Martin Vantage V550 (RHD)",
-      "price": "£179,950",
+      "price": "£174,950",
       "year": "1997",
       "mileage": "4,750 miles",
       "transmission": "Automatic",
@@ -347,6 +347,12 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1831818"
+        }
+      ],
+      "priceHistory": [
+        {
+          "price": "£179,950",
+          "date": "2026-05-02"
         }
       ]
     },
@@ -5329,7 +5335,7 @@
     {
       "id": "233",
       "title": "2023 Aston Martin Vantage 4.0 V8 Auto Euro 6 2dr",
-      "price": "£99,000",
+      "price": "£97,995",
       "year": 2023,
       "mileage": "7,401 miles",
       "transmission": "Automatic",
@@ -5337,7 +5343,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f9bb94175f9e460f8eb90575b7e18c30.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -5348,7 +5354,12 @@
           "url": "https://www.pistonheads.com/buy/listing/19809620"
         }
       ],
-      "unlistedDate": "2026-04-21"
+      "priceHistory": [
+        {
+          "price": "£99,000",
+          "date": "2026-05-02"
+        }
+      ]
     },
     {
       "id": "234",
@@ -5984,6 +5995,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202603240977787"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20350674"
         }
       ],
       "priceHistory": [
@@ -6338,7 +6353,7 @@
     {
       "id": "276",
       "title": "2022 Aston Martin Vantage 4.0 V8 Roadster Auto Euro 6 2dr",
-      "price": "£95,990",
+      "price": "£91,950",
       "year": 2022,
       "mileage": "8,938 miles",
       "transmission": "Automatic",
@@ -6346,7 +6361,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w480/f1c6e76a3c014290806775586fbb2a81.jpg",
       "featured": false,
       "dateAdded": "2026-03-30",
-      "status": "unlisted",
+      "status": "active",
       "sources": [
         {
           "name": "AutoTrader",
@@ -6361,9 +6376,12 @@
         {
           "price": "£96,490",
           "date": "2026-04-12"
+        },
+        {
+          "price": "£95,990",
+          "date": "2026-05-02"
         }
-      ],
-      "unlistedDate": "2026-04-21"
+      ]
     },
     {
       "id": "277",
@@ -8052,13 +8070,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-s/s-v8/aston-martin-v8-vantage-s-s-v8-S4939288-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-10",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/19937805"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "356",
@@ -9065,13 +9084,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/5-2-v12-biturbo-roadster-2dr-petrol-auto-euro-6-s-s--700-ps/aston-martin-vantage-5-2-v12-biturbo-roadster-2dr-petrol-auto-euro-6-s-s--700-ps-1431925939-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20151726"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "406",
@@ -9084,13 +9104,14 @@
       "image": "https://img.pistonheads.com/LargeSize/aston-martin/vantage/4-0-v8-coupe-2dr-petrol-auto-euro-6-510-ps/aston-martin-vantage-4-0-v8-coupe-2dr-petrol-auto-euro-6-510-ps-1431925915-1.jpg",
       "featured": false,
       "dateAdded": "2026-04-27",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
           "url": "https://www.pistonheads.com/buy/listing/20151720"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "407",
@@ -9283,6 +9304,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2060400"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "title": "2012 Used  ASTON MARTIN VANTAGE",
+      "price": "£89,850",
+      "year": 2012,
+      "mileage": "N/A",
+      "transmission": "Unknown",
+      "bodyType": "Coupe",
+      "image": "https://img.pistonheads.com/LargeSize/aston-martin/v12-vantage/v12/aston-martin-v12-vantage-v12-S4951631-1.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20358894"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "title": "2012 Aston Martin Vantage  V12 Carbon Edition",
+      "price": "£89,850",
+      "year": "2012",
+      "mileage": "13,198 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": "Coupe",
+      "image": "/uploads/cars/aston-martin/C2061162/2012-aston-martin-vantage-69f4c066c2121.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=e5621c4804909cd369f1e43ce5ca4b78",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2061162"
         }
       ]
     }

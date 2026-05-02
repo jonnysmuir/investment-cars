@@ -1057,14 +1057,15 @@
       "image": "https://assets.carandclassic.com/uploads/cars/ferrari/C1951795/2013-ferrari-ff-695e4ed58b7aa.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=ce561d4c0eee758b75dc89fc31746e4d",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C1951795"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "45",
@@ -1472,6 +1473,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2057216"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "2016 Ferrari FF 6.3 V12 F1 DCT 4WD Euro 5 (s/s) 3dr",
+      "price": "£114,995",
+      "year": 2016,
+      "mileage": "32,780 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/1e846d7fb8e24b8d8efc768617c66f5e.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202605012060761"
         }
       ]
     }

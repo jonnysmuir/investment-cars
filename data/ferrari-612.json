@@ -735,7 +735,7 @@
       "image": "https://img.pistonheads.com/LargeSize/ferrari/612-scaglietti/f1/ferrari-612-scaglietti-f1-1296496382-1.jpg",
       "featured": false,
       "dateAdded": "2026-03-09",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "PistonHeads",
@@ -752,7 +752,8 @@
           "date": "2026-03-21"
         }
       ],
-      "bodyType": null
+      "bodyType": null,
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "38",
@@ -1222,7 +1223,7 @@
       "image": "https://m.atcdn.co.uk/a/media/w640/af1f29c59c1b437f93081b30bf7da776.jpg",
       "featured": false,
       "dateAdded": "2026-03-19",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "AutoTrader",
@@ -1243,7 +1244,8 @@
           "price": "£69,995",
           "date": "2026-04-02"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "61",
@@ -1697,6 +1699,10 @@
         {
           "name": "AutoTrader",
           "url": "https://www.autotrader.co.uk/car-details/202604211735548"
+        },
+        {
+          "name": "PistonHeads",
+          "url": "https://www.pistonheads.com/buy/listing/20366428"
         }
       ]
     },
@@ -1740,7 +1746,7 @@
     },
     {
       "id": "84",
-      "title": "2004 Ferrari 612",
+      "title": "2004 Ferrari 612 Scaglietti V12",
       "price": "£58,995",
       "year": "2004",
       "mileage": "29,000 miles",
@@ -1754,6 +1760,44 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/car/C2060716"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "title": "2006 Ferrari 612 5.7 V12 - F1 Auto 2dr",
+      "price": "£59,995",
+      "year": 2006,
+      "mileage": "42,500 miles",
+      "transmission": "F1 Automated Manual",
+      "bodyType": null,
+      "image": "https://m.atcdn.co.uk/a/media/w640/1506cd7e3b6b4fbbbb8b8867de3ba3d5.jpg",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "AutoTrader",
+          "url": "https://www.autotrader.co.uk/car-details/202605012061408"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "title": "2005 Ferrari 612",
+      "price": "£59,995",
+      "year": "2005",
+      "mileage": "28,196 miles",
+      "transmission": "Automatic",
+      "bodyType": null,
+      "image": "/uploads/cars/ferrari/C2061205/2005-ferrari-612-69f4ccabdfee8.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=eea067565b15b3eb99482ac80ea9077d",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/car/C2061205"
         }
       ]
     }

@@ -1060,13 +1060,14 @@
       "image": "https://assets.carandclassic.com/uploads/cars/porsche/C2018809/1990-porsche-944-699b53fe41406.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c04a5f3f238a42bb523f531c8b441c5e",
       "featured": false,
       "dateAdded": "2026-03-28",
-      "status": "active",
+      "status": "unlisted",
       "sources": [
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2018809"
         }
-      ]
+      ],
+      "unlistedDate": "2026-05-02"
     },
     {
       "id": "51",
@@ -1960,6 +1961,25 @@
         {
           "name": "Cars & Classic",
           "url": "https://www.carandclassic.com/l/C2059256"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "title": "1989 Porsche 944",
+      "price": "£10,500",
+      "year": "1989",
+      "mileage": "121,607 miles",
+      "transmission": "6-Speed Manual",
+      "bodyType": null,
+      "image": "/uploads/cars/porsche/C2061067/1989-porsche-944-69f4a5fda3077.jpg?fill=blur&fit=fill&h=600&ixlib=php-4.1.0&q=85&w=800&s=bb6530b9c5b8ba1954d1e29a4b1924cc",
+      "featured": false,
+      "dateAdded": "2026-05-02",
+      "status": "active",
+      "sources": [
+        {
+          "name": "Cars & Classic",
+          "url": "https://www.carandclassic.com/l/C2061067"
         }
       ]
     }
